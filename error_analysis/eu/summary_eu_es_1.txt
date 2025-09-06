@@ -1,0 +1,479 @@
+SUMMARY ERROR ANALYSIS: eu_es_1.conllu vs. gold_file_eu.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 582
+UPOS errors: 148 (25.43%)
+HEAD errors: 355 (61.00%)
+DEPREL errors: 342 (58.76%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'da': 7 errors (0.83%)
+'ere': 5 errors (0.59%)
+'ez': 4 errors (0.47%)
+'ordea': 3 errors (0.36%)
+'zuten': 3 errors (0.36%)
+'dira': 3 errors (0.36%)
+'beste': 2 errors (0.24%)
+'daitezke': 2 errors (0.24%)
+'gure': 2 errors (0.24%)
+'batean': 2 errors (0.24%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+AUX → VERB: 45 occurrences (30.41%)
+Most common error-causing words:
+  'da': 7 times (15.6% of this error)
+  'zuten': 3 times (6.7% of this error)
+  'dira': 3 times (6.7% of this error)
+  'daitezke': 2 times (4.4% of this error)
+  'ziren': 2 times (4.4% of this error)
+
+Examples:
+  1. Line 12: 'daitezke' in sentence 1
+     Context: izan daitezke .
+     Sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+  2. Line 47: 'den' in sentence 4
+     Context: agertzen den muntaia
+     Sentence: Bigarren marrazkian agertzen den muntaia egizu .
+  3. Line 56: 'ditudan' in sentence 5
+     Context: izan ditudan aukera
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  4. Line 61: 'ditudala' in sentence 5
+     Context: baliatu ditudala uste
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  5. Line 82: 'izan' in sentence 7
+     Context: baliagarria izan dakizuke
+     Sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+     ... and 40 more occurrences
+
+ADJ → NOUN: 13 occurrences (8.78%)
+Most common error-causing words:
+  'apurrak': 1 times (7.7% of this error)
+  'itzela': 1 times (7.7% of this error)
+  'garairik': 1 times (7.7% of this error)
+  'behartsuak': 1 times (7.7% of this error)
+  'estuegiak': 1 times (7.7% of this error)
+
+Examples:
+  1. Line 58: 'apurrak' in sentence 5
+     Context: aukera apurrak ondo
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  2. Line 70: 'itzela' in sentence 6
+     Context: presio itzela pairatu
+     Sentence: Athleticek presio itzela pairatu beharko du .
+  3. Line 130: 'garairik' in sentence 10
+     Context: bere garairik onenean
+     Sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+  4. Line 160: 'behartsuak' in sentence 12
+     Context: eta behartsuak batuko
+     Sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+  5. Line 297: 'estuegiak' in sentence 21
+     Context: nabarmen estuegiak "
+     Sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+     ... and 8 more occurrences
+
+NOUN → VERB: 10 occurrences (6.76%)
+Most common error-causing words:
+  'nahi': 2 times (20.0% of this error)
+  'behar': 2 times (20.0% of this error)
+  'uste': 1 times (10.0% of this error)
+  'antza': 1 times (10.0% of this error)
+  'deian': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 62: 'uste' in sentence 5
+     Context: ditudala uste dut
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  2. Line 216: 'antza' in sentence 15
+     Context: badute antza :
+     Sentence: Halere , badute antza :
+  3. Line 331: 'deian' in sentence 23
+     Context: eginiko deian funtzionarioengatik
+     Sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+  4. Line 359: 'nahi' in sentence 25
+     Context: irabazi nahi dituen
+     Sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+  5. Line 365: 'behar' in sentence 25
+     Context: ohitu behar du
+     Sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+     ... and 5 more occurrences
+
+CCONJ → ADV: 9 occurrences (6.08%)
+Most common error-causing words:
+  'ere': 4 times (44.4% of this error)
+  'ordea': 2 times (22.2% of this error)
+  'beraz': 1 times (11.1% of this error)
+  'halaber': 1 times (11.1% of this error)
+  'bestalde': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 88: 'Beraz' in sentence 8
+     Context: START Beraz ,
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+  2. Line 91: 'ere' in sentence 8
+     Context: idazten ere lehenago
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+  3. Line 143: 'ere' in sentence 11
+     Context: zerrandaz ere aritu
+     Sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+  4. Line 197: 'ordea' in sentence 14
+     Context: , ordea ,
+     Sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+  5. Line 267: 'ordea' in sentence 20
+     Context: , ordea ,
+     Sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+     ... and 4 more occurrences
+
+NOUN → ADV: 7 occurrences (4.73%)
+Most common error-causing words:
+  'hileta': 1 times (14.3% of this error)
+  'ondorioz': 1 times (14.3% of this error)
+  'atzokoan': 1 times (14.3% of this error)
+  'burtsan': 1 times (14.3% of this error)
+  'aurretik': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 245: 'hileta' in sentence 18
+     Context: Gero hileta elizkizunera
+     Sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+  2. Line 304: 'Ondorioz' in sentence 22
+     Context: START Ondorioz ,
+     Sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+  3. Line 395: 'ATZOKOAN' in sentence 27
+     Context: START ATZOKOAN estrainekoz
+     Sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+  4. Line 403: 'burtsan' in sentence 27
+     Context: zuten burtsan eta
+     Sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+  5. Line 456: 'aurretik' in sentence 30
+     Context: du aurretik .
+     Sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+     ... and 2 more occurrences
+
+NOUN → ADJ: 6 occurrences (4.05%)
+Most common error-causing words:
+  'euskal': 2 times (33.3% of this error)
+  'txikikoa': 1 times (16.7% of this error)
+  'barne': 1 times (16.7% of this error)
+  'gazte': 1 times (16.7% of this error)
+  'adiskidantzazko': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 19: 'txikikoa' in sentence 2
+     Context: adin txikikoa aske
+     Sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+  2. Line 385: 'barne' in sentence 26
+     Context: ni barne nintzelarik
+     Sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+  3. Line 398: 'euskal' in sentence 27
+     Context: Gamesa euskal enpresaren
+     Sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+  4. Line 462: 'Euskal' in sentence 31
+     Context: - Euskal Herrian
+     Sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+  5. Line 564: 'gazte' in sentence 39
+     Context: bost gazte palestinarrak
+     Sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+     ... and 1 more occurrences
+
+VERB → NOUN: 5 occurrences (3.38%)
+Most common error-causing words:
+  'irabazteko': 1 times (20.0% of this error)
+  'baliatzeko': 1 times (20.0% of this error)
+  'erre': 1 times (20.0% of this error)
+  'gaixotu': 1 times (20.0% of this error)
+  'argaldu': 1 times (20.0% of this error)
+
+Examples:
+  1. Line 177: 'irabazteko' in sentence 13
+     Context: dira irabazteko hautagaiak
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+  2. Line 190: 'baliatzeko' in sentence 13
+     Context: ditugu baliatzeko .
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+  3. Line 374: 'erre' in sentence 26
+     Context: bertan erre zituzten
+     Sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+  4. Line 500: 'Gaixotu' in sentence 34
+     Context: START Gaixotu zenean
+     Sentence: Gaixotu zenean argaldu zen .
+  5. Line 502: 'argaldu' in sentence 34
+     Context: zenean argaldu zen
+     Sentence: Gaixotu zenean argaldu zen .
+
+PART → AUX: 4 occurrences (2.70%)
+Most common error-causing words:
+  'ez': 4 times (100.0% of this error)
+
+Examples:
+  1. Line 127: 'ez' in sentence 10
+     Context: Feyenoord ez dago
+     Sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+  2. Line 222: 'ez' in sentence 16
+     Context: Lehenago ez ziren
+     Sentence: Lehenago ez ziren egoten itsasontzietan .
+  3. Line 491: 'ez' in sentence 33
+     Context: ere ez zirudien
+     Sentence: Susanari ere ez zirudien asko axola zitzaionik :
+  4. Line 601: 'ez' in sentence 42
+     Context: gorpua ez da
+     Sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+DET → NOUN: 4 occurrences (2.70%)
+Most common error-causing words:
+  'batzuk': 2 times (50.0% of this error)
+  'horiei': 1 times (25.0% of this error)
+  'askok': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 153: 'horiei' in sentence 12
+     Context: elkarte horiei Guayana
+     Sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+  2. Line 195: 'Askok' in sentence 14
+     Context: START Askok ,
+     Sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+  3. Line 371: 'Batzuk' in sentence 26
+     Context: START Batzuk han
+     Sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+  4. Line 378: 'batzuk' in sentence 26
+     Context: beste batzuk galeretara
+     Sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+DET → PRON: 4 occurrences (2.70%)
+Most common error-causing words:
+  'haiek': 1 times (25.0% of this error)
+  'horretan': 1 times (25.0% of this error)
+  'bere': 1 times (25.0% of this error)
+  'horretantxe': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 175: 'haiek' in sentence 13
+     Context: eta haiek dira
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+  2. Line 587: 'horretan' in sentence 41
+     Context: Egun horretan jokatu
+     Sentence: " Egun horretan jokatu nahi genuen .
+  3. Line 608: 'bere' in sentence 42
+     Context: , bere horretantxe
+     Sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+  4. Line 609: 'horretantxe' in sentence 42
+     Context: bere horretantxe irauten
+     Sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+aux → conj: 25 occurrences (7.31%)
+Most common error-causing words:
+  'da': 4 times (16.0% of this error)
+  'du': 3 times (12.0% of this error)
+  'zen': 3 times (12.0% of this error)
+  'zuten': 3 times (12.0% of this error)
+  'dute': 2 times (8.0% of this error)
+
+Examples:
+  1. Line 22: 'da' (UPOS: AUX) in sentence 2
+     Sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+  2. Line 56: 'ditudan' (UPOS: AUX) in sentence 5
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  3. Line 61: 'ditudala' (UPOS: AUX) in sentence 5
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  4. Line 73: 'du' (UPOS: AUX) in sentence 6
+     Sentence: Athleticek presio itzela pairatu beharko du .
+  5. Line 96: 'liteke' (UPOS: AUX) in sentence 8
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+     ... and 20 more occurrences
+
+obl → nsubj: 14 occurrences (4.09%)
+Most common error-causing words:
+  'egun': 2 times (14.3% of this error)
+  'atenasen': 1 times (7.1% of this error)
+  'marrazkian': 1 times (7.1% of this error)
+  'errezeloz': 1 times (7.1% of this error)
+  'elizkizunera': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 4: 'Atenasen' (UPOS: PROPN) in sentence 1
+     Sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+  2. Line 45: 'marrazkian' (UPOS: NOUN) in sentence 4
+     Sentence: Bigarren marrazkian agertzen den muntaia egizu .
+  3. Line 101: 'Egun' (UPOS: NOUN) in sentence 9
+     Sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+  4. Line 199: 'errezeloz' (UPOS: NOUN) in sentence 14
+     Sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+  5. Line 246: 'elizkizunera' (UPOS: NOUN) in sentence 18
+     Sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+     ... and 9 more occurrences
+
+obj → nsubj: 12 occurrences (3.51%)
+Most common error-causing words:
+  'etxea': 1 times (8.3% of this error)
+  'muntaia': 1 times (8.3% of this error)
+  'presio': 1 times (8.3% of this error)
+  'ahaleginak': 1 times (8.3% of this error)
+  'aurrelari': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 29: 'etxea' (UPOS: NOUN) in sentence 3
+     Sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+  2. Line 48: 'muntaia' (UPOS: NOUN) in sentence 4
+     Sentence: Bigarren marrazkian agertzen den muntaia egizu .
+  3. Line 69: 'presio' (UPOS: NOUN) in sentence 6
+     Sentence: Athleticek presio itzela pairatu beharko du .
+  4. Line 187: 'ahaleginak' (UPOS: NOUN) in sentence 13
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+  5. Line 230: 'Aurrelari' (UPOS: NOUN) in sentence 17
+     Sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+     ... and 7 more occurrences
+
+advcl → acl: 10 occurrences (2.92%)
+Most common error-causing words:
+  'izandako': 1 times (10.0% of this error)
+  'aztertzeko': 1 times (10.0% of this error)
+  'ezagutzeko': 1 times (10.0% of this error)
+  'jokatzera': 1 times (10.0% of this error)
+  'nintzelarik': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 278: 'izandako' (UPOS: VERB) in sentence 20
+     Sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+  2. Line 282: 'aztertzeko' (UPOS: VERB) in sentence 20
+     Sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+  3. Line 322: 'ezagutzeko' (UPOS: VERB) in sentence 22
+     Sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+  4. Line 363: 'jokatzera' (UPOS: VERB) in sentence 25
+     Sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+  5. Line 386: 'nintzelarik' (UPOS: VERB) in sentence 26
+     Sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+     ... and 5 more occurrences
+
+nmod → nsubj: 9 occurrences (2.63%)
+Most common error-causing words:
+  'o.g.m.': 1 times (11.1% of this error)
+  'orrialdeko': 1 times (11.1% of this error)
+  'rettig': 1 times (11.1% of this error)
+  'partiduen': 1 times (11.1% of this error)
+  'gamesa': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 17: 'O.G.M.' (UPOS: PROPN) in sentence 2
+     Sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+  2. Line 79: 'orrialdeko' (UPOS: NOUN) in sentence 7
+     Sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+  3. Line 269: 'Rettig' (UPOS: PROPN) in sentence 20
+     Sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+  4. Line 356: 'partiduen' (UPOS: NOUN) in sentence 25
+     Sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+  5. Line 397: 'Gamesa' (UPOS: PROPN) in sentence 27
+     Sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+     ... and 4 more occurrences
+
+aux → ccomp: 9 occurrences (2.63%)
+Most common error-causing words:
+  'zen': 2 times (22.2% of this error)
+  'du': 2 times (22.2% of this error)
+  'dituen': 1 times (11.1% of this error)
+  'dizute': 1 times (11.1% of this error)
+  'da': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 39: 'zen' (UPOS: AUX) in sentence 3
+     Sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+  2. Line 145: 'zen' (UPOS: AUX) in sentence 11
+     Sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+  3. Line 360: 'dituen' (UPOS: AUX) in sentence 25
+     Sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+  4. Line 449: 'dizute' (UPOS: AUX) in sentence 30
+     Sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+  5. Line 455: 'du' (UPOS: AUX) in sentence 30
+     Sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+     ... and 4 more occurrences
+
+aux → acl: 9 occurrences (2.63%)
+Most common error-causing words:
+  'zuten': 1 times (11.1% of this error)
+  'du': 1 times (11.1% of this error)
+  'zaizkie': 1 times (11.1% of this error)
+  'badugu': 1 times (11.1% of this error)
+  'ditugu': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 111: 'zuten' (UPOS: AUX) in sentence 9
+     Sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+  2. Line 117: 'du' (UPOS: AUX) in sentence 9
+     Sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+  3. Line 162: 'zaizkie' (UPOS: AUX) in sentence 12
+     Sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+  4. Line 185: 'badugu' (UPOS: AUX) in sentence 13
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+  5. Line 189: 'ditugu' (UPOS: AUX) in sentence 13
+     Sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+     ... and 4 more occurrences
+
+aux → xcomp: 8 occurrences (2.34%)
+Most common error-causing words:
+  'daitezke': 2 times (25.0% of this error)
+  'dakizuke': 1 times (12.5% of this error)
+  'nintzela': 1 times (12.5% of this error)
+  'zutela': 1 times (12.5% of this error)
+  'dira': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 12: 'daitezke' (UPOS: AUX) in sentence 1
+     Sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+  2. Line 83: 'dakizuke' (UPOS: AUX) in sentence 7
+     Sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+  3. Line 94: 'nintzela' (UPOS: AUX) in sentence 8
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+  4. Line 109: 'zutela' (UPOS: AUX) in sentence 9
+     Sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+  5. Line 346: 'dira' (UPOS: AUX) in sentence 24
+     Sentence: Hauek CD-ROMetan saltzen dira .
+     ... and 3 more occurrences
+
+advcl → root: 8 occurrences (2.34%)
+Most common error-causing words:
+  'idazten': 1 times (12.5% of this error)
+  'dagokionez': 1 times (12.5% of this error)
+  'emandako': 1 times (12.5% of this error)
+  'egitean': 1 times (12.5% of this error)
+  'eginiko': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 90: 'idazten' (UPOS: VERB) in sentence 8
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+  2. Line 124: 'dagokionez' (UPOS: VERB) in sentence 10
+     Sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+  3. Line 140: 'emandako' (UPOS: VERB) in sentence 11
+     Sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+  4. Line 256: 'egitean' (UPOS: VERB) in sentence 19
+     Sentence: Diskoa egitean dezente zabaldu da taldea .
+  5. Line 330: 'eginiko' (UPOS: VERB) in sentence 23
+     Sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+     ... and 3 more occurrences
+
+root → conj: 7 occurrences (2.05%)
+Most common error-causing words:
+  'izan': 1 times (14.3% of this error)
+  'egizu': 1 times (14.3% of this error)
+  'dut': 1 times (14.3% of this error)
+  'esan': 1 times (14.3% of this error)
+  'salatu': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 11: 'izan' (UPOS: VERB) in sentence 1
+     Sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+  2. Line 49: 'egizu' (UPOS: VERB) in sentence 4
+     Sentence: Bigarren marrazkian agertzen den muntaia egizu .
+  3. Line 63: 'dut' (UPOS: VERB) in sentence 5
+     Sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+  4. Line 95: 'esan' (UPOS: VERB) in sentence 8
+     Sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+  5. Line 337: 'salatu' (UPOS: VERB) in sentence 23
+     Sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+     ... and 2 more occurrences
+

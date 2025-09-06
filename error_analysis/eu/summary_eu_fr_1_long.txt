@@ -1,0 +1,19 @@
+SUMMARY ERROR ANALYSIS: eu_fr_1_long.conllu vs. gold_file_eu.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 0
+UPOS errors: 0 (0.00%)
+HEAD errors: 0 (0.00%)
+DEPREL errors: 0 (0.00%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:

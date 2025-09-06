@@ -1,0 +1,3815 @@
+COMPLETE ERROR ANALYSIS: fr_es_1_long.conllu vs. gold_file_fr.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1227
+UPOS errors: 69 (5.62%)
+HEAD errors: 618 (50.37%)
+DEPREL errors: 422 (34.39%)
+
+================================================================================
+
+COMPLETE WORD ERROR STATISTICS:
+==================================================
+
+ALL ERROR-CAUSING WORDS (sorted by frequency):
+'est': 13 total errors (1.17%)
+'ne': 3 total errors (0.27%)
+'pas': 3 total errors (0.27%)
+'n'': 2 total errors (0.18%)
+'xixe': 2 total errors (0.18%)
+'los': 2 total errors (0.18%)
+'son': 2 total errors (0.18%)
+'sont': 2 total errors (0.18%)
+'que': 2 total errors (0.18%)
+'/': 2 total errors (0.18%)
+'leur': 1 total errors (0.09%)
+'mais': 1 total errors (0.09%)
+'où': 1 total errors (0.09%)
+'y': 1 total errors (0.09%)
+'jusqu'': 1 total errors (0.09%)
+'artisan': 1 total errors (0.09%)
+'futur': 1 total errors (0.09%)
+'quant': 1 total errors (0.09%)
+'ce': 1 total errors (0.09%)
+'maison': 1 total errors (0.09%)
+'arrêt': 1 total errors (0.09%)
+'xxe': 1 total errors (0.09%)
+'était': 1 total errors (0.09%)
+'ont': 1 total errors (0.09%)
+'avait': 1 total errors (0.09%)
+'a': 1 total errors (0.09%)
+'dont': 1 total errors (0.09%)
+'premier': 1 total errors (0.09%)
+'abuelos': 1 total errors (0.09%)
+'de': 1 total errors (0.09%)
+'la': 1 total errors (0.09%)
+'nada': 1 total errors (0.09%)
+'rodríguez': 1 total errors (0.09%)
+'partenaires': 1 total errors (0.09%)
+'union': 1 total errors (0.09%)
+'issu': 1 total errors (0.09%)
+'ibn': 1 total errors (0.09%)
+'israéliens': 1 total errors (0.09%)
+'britanniques': 1 total errors (0.09%)
+'va': 1 total errors (0.09%)
+'faisant': 1 total errors (0.09%)
+'lazy': 1 total errors (0.09%)
+'bed': 1 total errors (0.09%)
+'paresseux': 1 total errors (0.09%)
+'qu'': 1 total errors (0.09%)
+'pays': 1 total errors (0.09%)
+
+--------------------------------------------------
+
+ALL UPOS ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: AUX → VERB
+Occurrences: 20 (28.99%)
+All error-causing words for this error:
+  'est': 13 times (65.0%)
+  'sont': 2 times (10.0%)
+  'était': 1 times (5.0%)
+  'ont': 1 times (5.0%)
+  'avait': 1 times (5.0%)
+  'a': 1 times (5.0%)
+  'faisant': 1 times (5.0%)
+
+All lines: 67, 335, 355, 365, 399, 411, 418, 443, 498, 617, 631, 642, 712, 829, 856, 909, 1042, 1071, 1119, 1322
+All occurrences:
+  1. Line 67: 'est' in sentence 4
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: , est riche
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 335: 'est' in sentence 14
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ) est un
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 355: 'était' in sentence 14
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: spécialité était le
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  4. Line 365: 'est' in sentence 15
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: C' est sur
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  5. Line 399: 'ont' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Georgiens ont repris
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  6. Line 411: 'avait' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: qui avait été
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  7. Line 418: 'a' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ) a rapporté
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  8. Line 443: 'est' in sentence 17
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: c' est une
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  9. Line 498: 'est' in sentence 19
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: prose est né
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  10. Line 617: 'est' in sentence 23
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: université est qualifiée
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  11. Line 631: 'est' in sentence 24
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Adam est le
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  12. Line 642: 'est' in sentence 24
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: dont est issu
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  13. Line 712: 'sont' in sentence 26
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: appréciés sont l'
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  14. Line 829: 'est' in sentence 30
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: , est un
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  15. Line 856: 'est' in sentence 31
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: qui est très
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  16. Line 909: 'sont' in sentence 33
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: plats sont copieux
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+  17. Line 1042: 'faisant' in sentence 38
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: en faisant jeter
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  18. Line 1071: 'est' in sentence 39
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ) est une
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  19. Line 1119: 'est' in sentence 41
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: qui est la
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  20. Line 1322: 'est' in sentence 49
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Mortagne-sur-Sèvre est une
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: ADV → PART
+Occurrences: 8 (11.59%)
+All error-causing words for this error:
+  'ne': 3 times (37.5%)
+  'pas': 3 times (37.5%)
+  'n'': 2 times (25.0%)
+
+All lines: 180, 182, 254, 256, 483, 485, 1167, 1283
+All occurrences:
+  1. Line 180: 'ne' in sentence 8
+     Gold UPOS: ADV → System UPOS: PART
+     Context: coût ne connaissent
+     Full sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+
+  2. Line 182: 'pas' in sentence 8
+     Gold UPOS: ADV → System UPOS: PART
+     Context: connaissent pas la
+     Full sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+
+  3. Line 254: 'n'' in sentence 11
+     Gold UPOS: ADV → System UPOS: PART
+     Context: SMIC n' est
+     Full sentence: Mais , le SMIC n' est pas un outil de référence .
+
+  4. Line 256: 'pas' in sentence 11
+     Gold UPOS: ADV → System UPOS: PART
+     Context: est pas un
+     Full sentence: Mais , le SMIC n' est pas un outil de référence .
+
+  5. Line 483: 'n'' in sentence 18
+     Gold UPOS: ADV → System UPOS: PART
+     Context: matière n' existait
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  6. Line 485: 'pas' in sentence 18
+     Gold UPOS: ADV → System UPOS: PART
+     Context: existait pas mais
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  7. Line 1167: 'ne' in sentence 42
+     Gold UPOS: ADV → System UPOS: PART
+     Context: Il ne sera
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  8. Line 1283: 'ne' in sentence 47
+     Gold UPOS: ADV → System UPOS: PART
+     Context: mais ne réussi
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: X → PROPN
+Occurrences: 6 (8.70%)
+All error-causing words for this error:
+  'los': 2 times (33.3%)
+  'abuelos': 1 times (16.7%)
+  'nada': 1 times (16.7%)
+  'rodríguez': 1 times (16.7%)
+  'ibn': 1 times (16.7%)
+
+All lines: 590, 591, 594, 596, 597, 648
+All occurrences:
+  1. Line 590: 'Los' in sentence 22
+     Gold UPOS: X → System UPOS: PROPN
+     Context: comme Los Abuelos
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  2. Line 591: 'Abuelos' in sentence 22
+     Gold UPOS: X → System UPOS: PROPN
+     Context: Los Abuelos de
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  3. Line 594: 'Nada' in sentence 22
+     Gold UPOS: X → System UPOS: PROPN
+     Context: la Nada et
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  4. Line 596: 'Los' in sentence 22
+     Gold UPOS: X → System UPOS: PROPN
+     Context: et Los Rodríguez
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  5. Line 597: 'Rodríguez' in sentence 22
+     Gold UPOS: X → System UPOS: PROPN
+     Context: Los Rodríguez .
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  6. Line 648: 'ibn' in sentence 24
+     Gold UPOS: X → System UPOS: PROPN
+     Context: Qabus ibn Said
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: DET → PRON
+Occurrences: 4 (5.80%)
+All error-causing words for this error:
+  'son': 2 times (50.0%)
+  'leur': 1 times (25.0%)
+  'ce': 1 times (25.0%)
+
+All lines: 23, 236, 683, 1212
+All occurrences:
+  1. Line 23: 'leur' in sentence 2
+     Gold UPOS: DET → System UPOS: PRON
+     Context: mais leur contenu
+     Full sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+
+  2. Line 236: 'ce' in sentence 10
+     Gold UPOS: DET → System UPOS: PRON
+     Context: oppose ce dernier
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  3. Line 683: 'son' in sentence 25
+     Gold UPOS: DET → System UPOS: PRON
+     Context: et son corps
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  4. Line 1212: 'son' in sentence 44
+     Gold UPOS: DET → System UPOS: PRON
+     Context: porter son nom
+     Full sentence: Il verra le puits le plus profond de France porter son nom : .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADJ
+Occurrences: 4 (5.80%)
+All error-causing words for this error:
+  'artisan': 1 times (25.0%)
+  'israéliens': 1 times (25.0%)
+  'britanniques': 1 times (25.0%)
+  'paresseux': 1 times (25.0%)
+
+All lines: 110, 793, 801, 1068
+All occurrences:
+  1. Line 110: 'artisan' in sentence 5
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: imprimeur artisan passionné
+     Full sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+
+  2. Line 793: 'israéliens' in sentence 29
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: les israéliens Galit
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  3. Line 801: 'britanniques' in sentence 29
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: les britanniques Sinead
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  4. Line 1068: 'paresseux' in sentence 39
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: de paresseux »
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: NOUN → PROPN
+Occurrences: 4 (5.80%)
+All error-causing words for this error:
+  'maison': 1 times (25.0%)
+  'arrêt': 1 times (25.0%)
+  'union': 1 times (25.0%)
+  'pays': 1 times (25.0%)
+
+All lines: 275, 277, 624, 1338
+All occurrences:
+  1. Line 275: 'Maison' in sentence 12
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: la Maison d'
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  2. Line 277: 'Arrêt' in sentence 12
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: d' Arrêt d'
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  3. Line 624: 'Union' in sentence 23
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: l' Union européenne
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  4. Line 1338: 'Pays' in sentence 49
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: région Pays de
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: ADJ → NOUN
+Occurrences: 3 (4.35%)
+All error-causing words for this error:
+  'futur': 1 times (33.3%)
+  'premier': 1 times (33.3%)
+  'partenaires': 1 times (33.3%)
+
+All lines: 194, 546, 612
+All occurrences:
+  1. Line 194: 'futur' in sentence 9
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: le futur baptisé
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+  2. Line 546: 'Premier' in sentence 20
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: ancien Premier ministre
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  3. Line 612: 'partenaires' in sentence 23
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: françaises partenaires garantissent
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+--------------------------------------------------
+
+ERROR: PRON → ADV
+Occurrences: 2 (2.90%)
+All error-causing words for this error:
+  'où': 1 times (50.0%)
+  'y': 1 times (50.0%)
+
+All lines: 56, 74
+All occurrences:
+  1. Line 56: 'où' in sentence 4
+     Gold UPOS: PRON → System UPOS: ADV
+     Context: milieu où règne
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 74: 'y' in sentence 4
+     Gold UPOS: PRON → System UPOS: ADV
+     Context: chercheurs y découvrent
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: ADJ → NUM
+Occurrences: 2 (2.90%)
+All error-causing words for this error:
+  'xxe': 1 times (50.0%)
+  'xixe': 1 times (50.0%)
+
+All lines: 349, 503
+All occurrences:
+  1. Line 349: 'XXe' in sentence 14
+     Gold UPOS: ADJ → System UPOS: NUM
+     Context: le XXe siècle
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 503: 'XIXe' in sentence 19
+     Gold UPOS: ADJ → System UPOS: NUM
+     Context: le XIXe siècle
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+--------------------------------------------------
+
+ERROR: SYM → PUNCT
+Occurrences: 2 (2.90%)
+All error-causing words for this error:
+  '/': 2 times (100.0%)
+
+All lines: 796, 804
+All occurrences:
+  1. Line 796: '/' in sentence 29
+     Gold UPOS: SYM → System UPOS: PUNCT
+     Context: Chait / Sergei
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  2. Line 804: '/' in sentence 29
+     Gold UPOS: SYM → System UPOS: PUNCT
+     Context: Kerr / John
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+--------------------------------------------------
+
+ERROR: ADV → SCONJ
+Occurrences: 2 (2.90%)
+All error-causing words for this error:
+  'que': 1 times (50.0%)
+  'qu'': 1 times (50.0%)
+
+All lines: 1170, 1285
+All occurrences:
+  1. Line 1170: 'que' in sentence 42
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: présent que durant
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  2. Line 1285: 'qu'' in sentence 47
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: réussi qu' une
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: CCONJ → ADV
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'mais': 1 times (100.0%)
+
+All lines: 34
+All occurrences:
+  1. Line 34: 'Mais' in sentence 3
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: START Mais comment
+     Full sentence: Mais comment faire dans un contexte structurellement raciste ?
+
+--------------------------------------------------
+
+ERROR: ADP → ADV
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'jusqu'': 1 times (100.0%)
+
+All lines: 94
+All occurrences:
+  1. Line 94: 'jusqu'' in sentence 4
+     Gold UPOS: ADP → System UPOS: ADV
+     Context: pensées jusqu' alors
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: ADV → ADP
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'quant': 1 times (100.0%)
+
+All lines: 217
+All occurrences:
+  1. Line 217: 'quant' in sentence 10
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: reproches quant à
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+--------------------------------------------------
+
+ERROR: PRON → ADP
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'dont': 1 times (100.0%)
+
+All lines: 429
+All occurrences:
+  1. Line 429: 'dont' in sentence 17
+     Gold UPOS: PRON → System UPOS: ADP
+     Context: sommets dont un
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+--------------------------------------------------
+
+ERROR: X → ADP
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 592
+All occurrences:
+  1. Line 592: 'de' in sentence 22
+     Gold UPOS: X → System UPOS: ADP
+     Context: Abuelos de la
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: X → DET
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'la': 1 times (100.0%)
+
+All lines: 593
+All occurrences:
+  1. Line 593: 'la' in sentence 22
+     Gold UPOS: X → System UPOS: DET
+     Context: de la Nada
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: ADJ → VERB
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'issu': 1 times (100.0%)
+
+All lines: 643
+All occurrences:
+  1. Line 643: 'issu' in sentence 24
+     Gold UPOS: ADJ → System UPOS: VERB
+     Context: est issu l'
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: PRON → SCONJ
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 720
+All occurrences:
+  1. Line 720: 'que' in sentence 26
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: fleurs que guettent
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+--------------------------------------------------
+
+ERROR: ADJ → PROPN
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'xixe': 1 times (100.0%)
+
+All lines: 885
+All occurrences:
+  1. Line 885: 'XIXe' in sentence 32
+     Gold UPOS: ADJ → System UPOS: PROPN
+     Context: début XIXe siècle
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+--------------------------------------------------
+
+ERROR: VERB → AUX
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'va': 1 times (100.0%)
+
+All lines: 1031
+All occurrences:
+  1. Line 1031: 'va' in sentence 38
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: il va organiser
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: X → ADJ
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'lazy': 1 times (100.0%)
+
+All lines: 1060
+All occurrences:
+  1. Line 1060: 'lazy' in sentence 39
+     Gold UPOS: X → System UPOS: ADJ
+     Context: Le lazy bed
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: X → NOUN
+Occurrences: 1 (1.45%)
+All error-causing words for this error:
+  'bed': 1 times (100.0%)
+
+All lines: 1061
+All occurrences:
+  1. Line 1061: 'bed' in sentence 39
+     Gold UPOS: X → System UPOS: NOUN
+     Context: lazy bed (
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ALL DEPREL ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: case → mark
+Occurrences: 25 (5.92%)
+All error-causing words for this error:
+  'à': 6 times (24.0%)
+  'de': 4 times (16.0%)
+  'par': 3 times (12.0%)
+  'en': 3 times (12.0%)
+  'd'': 2 times (8.0%)
+  'avec': 2 times (8.0%)
+  'dans': 2 times (8.0%)
+  'pour': 1 times (4.0%)
+  'depuis': 1 times (4.0%)
+  'durant': 1 times (4.0%)
+
+All lines: 192, 243, 414, 572, 679, 765, 825, 864, 913, 949, 989, 1012, 1014, 1020, 1134, 1137, 1158, 1160, 1171, 1193, 1251, 1254, 1261, 1276, 1329
+All occurrences:
+  1. Line 192: 'pour' (UPOS: ADP) in sentence 9
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+  2. Line 243: 'depuis' (UPOS: ADP) in sentence 10
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  3. Line 414: 'par' (UPOS: ADP) in sentence 16
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  4. Line 572: 'd'' (UPOS: ADP) in sentence 21
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  5. Line 679: 'par' (UPOS: ADP) in sentence 25
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  6. Line 765: 'de' (UPOS: ADP) in sentence 28
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  7. Line 825: 'à' (UPOS: ADP) in sentence 30
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  8. Line 864: 'à' (UPOS: ADP) in sentence 31
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  9. Line 913: 'avec' (UPOS: ADP) in sentence 33
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+  10. Line 949: 'par' (UPOS: ADP) in sentence 35
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Cette force résulte de la faible poussée exercée par la restitution sous forme de rayonnement infrarouge de l' énergie solaire absorbée .
+
+  11. Line 989: 'à' (UPOS: ADP) in sentence 36
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  12. Line 1012: 'en' (UPOS: ADP) in sentence 37
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  13. Line 1014: 'avec' (UPOS: ADP) in sentence 37
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  14. Line 1020: 'en' (UPOS: ADP) in sentence 37
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  15. Line 1134: 'à' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  16. Line 1137: 'd'' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  17. Line 1158: 'de' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  18. Line 1160: 'à' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  19. Line 1171: 'durant' (UPOS: ADP) in sentence 42
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  20. Line 1193: 'de' (UPOS: ADP) in sentence 43
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Les capteurs solaires sous vide de Viessmann offrent un rendement optique maximal ( de près 80 % ) .
+
+  21. Line 1251: 'dans' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+  22. Line 1254: 'de' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+  23. Line 1261: 'en' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+  24. Line 1276: 'à' (UPOS: ADP) in sentence 47
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+  25. Line 1329: 'dans' (UPOS: ADP) in sentence 49
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: obl:mod → obl
+Occurrences: 24 (5.69%)
+All error-causing words for this error:
+  'facultés': 1 times (4.2%)
+  'contexte': 1 times (4.2%)
+  'fois': 1 times (4.2%)
+  'ans': 1 times (4.2%)
+  'point': 1 times (4.2%)
+  'recueil': 1 times (4.2%)
+  'ufe': 1 times (4.2%)
+  'critères': 1 times (4.2%)
+  'orbite': 1 times (4.2%)
+  'élèves': 1 times (4.2%)
+  'maroc': 1 times (4.2%)
+  'nationalité': 1 times (4.2%)
+  'gaz': 1 times (4.2%)
+  'produits': 1 times (4.2%)
+  'eau': 1 times (4.2%)
+  'manière': 1 times (4.2%)
+  'niveau': 1 times (4.2%)
+  'nom': 1 times (4.2%)
+  'matelot': 1 times (4.2%)
+  'toit': 1 times (4.2%)
+  'régions': 1 times (4.2%)
+  'maître': 1 times (4.2%)
+  'parties': 1 times (4.2%)
+  'mobilisation': 1 times (4.2%)
+
+All lines: 29, 39, 211, 245, 416, 507, 607, 621, 750, 790, 827, 839, 889, 916, 933, 935, 1000, 1016, 1048, 1051, 1084, 1102, 1175, 1308
+All occurrences:
+  1. Line 29: 'Facultés' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+
+  2. Line 39: 'contexte' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Mais comment faire dans un contexte structurellement raciste ?
+
+  3. Line 211: 'fois' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  4. Line 245: 'ans' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  5. Line 416: 'point' (UPOS: NOUN) in sentence 16
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  6. Line 507: 'recueil' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  7. Line 607: 'UFE' (UPOS: PROPN) in sentence 23
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  8. Line 621: 'critères' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  9. Line 750: 'orbite' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  10. Line 790: 'élèves' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  11. Line 827: 'Maroc' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  12. Line 839: 'nationalité' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  13. Line 889: 'gaz' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+  14. Line 916: 'produits' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+  15. Line 933: 'eau' (UPOS: NOUN) in sentence 34
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+
+  16. Line 935: 'manière' (UPOS: NOUN) in sentence 34
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+
+  17. Line 1000: 'niveau' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  18. Line 1016: 'nom' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  19. Line 1048: 'matelot' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  20. Line 1051: 'toit' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  21. Line 1084: 'régions' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  22. Line 1102: 'maître' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Tarzan , l' homme singe , règne en maître sur son domaine , la jungle .
+
+  23. Line 1175: 'parties' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  24. Line 1308: 'mobilisation' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: obl:mod → System DEPREL: obl
+     Full sentence: Le culte du de le roi est un élément essentiel dans la mobilisation des de les masses marocaines .
+
+--------------------------------------------------
+
+ERROR: nmod → obl
+Occurrences: 23 (5.45%)
+All error-causing words for this error:
+  'mai': 2 times (8.7%)
+  'maison': 1 times (4.3%)
+  'livre': 1 times (4.3%)
+  'octobre': 1 times (4.3%)
+  'piste': 1 times (4.3%)
+  'hezbollah': 1 times (4.3%)
+  'altitude': 1 times (4.3%)
+  'immatérialisme': 1 times (4.3%)
+  'ministre': 1 times (4.3%)
+  'dont': 1 times (4.3%)
+  'météorologie': 1 times (4.3%)
+  'contre-la-montre': 1 times (4.3%)
+  'siècle': 1 times (4.3%)
+  'sorgenfrei-tornquist': 1 times (4.3%)
+  'teisseyre-tornquist': 1 times (4.3%)
+  'bornholm': 1 times (4.3%)
+  'timonerie': 1 times (4.3%)
+  'sol': 1 times (4.3%)
+  'îles': 1 times (4.3%)
+  'france': 1 times (4.3%)
+  'sanctus': 1 times (4.3%)
+  'vendée': 1 times (4.3%)
+
+All lines: 275, 307, 322, 359, 388, 440, 470, 547, 550, 740, 767, 819, 876, 886, 977, 987, 1002, 1054, 1079, 1088, 1210, 1234, 1334
+All occurrences:
+  1. Line 275: 'Maison' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  2. Line 307: 'livre' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+  3. Line 322: 'octobre' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  4. Line 359: 'piste' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  5. Line 388: 'Hezbollah' (UPOS: PROPN) in sentence 15
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  6. Line 440: 'altitude' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  7. Line 470: 'immatérialisme' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  8. Line 547: 'ministre' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  9. Line 550: 'dont' (UPOS: PRON) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  10. Line 740: 'mai' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Il est fêté le 22 mai .
+
+  11. Line 767: 'météorologie' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  12. Line 819: 'mai' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  13. Line 876: 'contre-la-montre' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  14. Line 886: 'siècle' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+  15. Line 977: 'Sorgenfrei-Tornquist' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  16. Line 987: 'Teisseyre-Tornquist' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  17. Line 1002: 'Bornholm' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  18. Line 1054: 'timonerie' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  19. Line 1079: 'sol' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  20. Line 1088: 'Îles' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  21. Line 1210: 'France' (UPOS: PROPN) in sentence 44
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Il verra le puits le plus profond de France porter son nom : .
+
+  22. Line 1234: 'Sanctus' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+  23. Line 1334: 'Vendée' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: obl:arg → obl
+Occurrences: 18 (4.27%)
+All error-causing words for this error:
+  'organisation': 1 times (5.6%)
+  'tueurs': 1 times (5.6%)
+  'front': 1 times (5.6%)
+  'paris': 1 times (5.6%)
+  'soutien': 1 times (5.6%)
+  'mètres': 1 times (5.6%)
+  'caractère': 1 times (5.6%)
+  'musée': 1 times (5.6%)
+  'étude': 1 times (5.6%)
+  'casablanca': 1 times (5.6%)
+  'écarts': 1 times (5.6%)
+  'ceux': 1 times (5.6%)
+  'poussée': 1 times (5.6%)
+  'solde': 1 times (5.6%)
+  'diocèse': 1 times (5.6%)
+  'cadre': 1 times (5.6%)
+  'cours': 1 times (5.6%)
+  'département': 1 times (5.6%)
+
+All lines: 124, 166, 241, 325, 384, 435, 574, 664, 764, 822, 868, 872, 947, 1155, 1224, 1253, 1278, 1331
+All occurrences:
+  1. Line 124: 'organisation' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  2. Line 166: 'tueurs' (UPOS: NOUN) in sentence 7
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+
+  3. Line 241: 'Front' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  4. Line 325: 'Paris' (UPOS: PROPN) in sentence 14
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  5. Line 384: 'soutien' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  6. Line 435: 'mètres' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  7. Line 574: 'caractère' (UPOS: NOUN) in sentence 21
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  8. Line 664: 'musée' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  9. Line 764: 'étude' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  10. Line 822: 'Casablanca' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  11. Line 868: 'écarts' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  12. Line 872: 'ceux' (UPOS: PRON) in sentence 31
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  13. Line 947: 'poussée' (UPOS: NOUN) in sentence 35
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Cette force résulte de la faible poussée exercée par la restitution sous forme de rayonnement infrarouge de l' énergie solaire absorbée .
+
+  14. Line 1155: 'solde' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  15. Line 1224: 'diocèse' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+  16. Line 1253: 'cadre' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+  17. Line 1278: 'cours' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+  18. Line 1331: 'département' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: obl:arg → System DEPREL: obl
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: obj → obl
+Occurrences: 11 (2.61%)
+All error-causing words for this error:
+  'objet': 1 times (9.1%)
+  'thématique': 1 times (9.1%)
+  'sens': 1 times (9.1%)
+  'sommets': 1 times (9.1%)
+  'mémoires': 1 times (9.1%)
+  'cœur': 1 times (9.1%)
+  'paris': 1 times (9.1%)
+  'mannequin': 1 times (9.1%)
+  'augmentation': 1 times (9.1%)
+  'trace': 1 times (9.1%)
+  'passe': 1 times (9.1%)
+
+All lines: 213, 303, 311, 428, 542, 696, 931, 1045, 1145, 1230, 1288
+All occurrences:
+  1. Line 213: 'objet' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  2. Line 303: 'thématique' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+  3. Line 311: 'sens' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+  4. Line 428: 'sommets' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  5. Line 542: 'mémoires' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  6. Line 696: 'cœur' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  7. Line 931: 'Paris' (UPOS: PROPN) in sentence 34
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+
+  8. Line 1045: 'mannequin' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  9. Line 1145: 'augmentation' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  10. Line 1230: 'trace' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+  11. Line 1288: 'passe' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: conj → nmod
+Occurrences: 10 (2.37%)
+All error-causing words for this error:
+  'pression': 1 times (10.0%)
+  'renouveau': 1 times (10.0%)
+  'formation': 1 times (10.0%)
+  'relations': 1 times (10.0%)
+  'arrivée': 1 times (10.0%)
+  'cou': 1 times (10.0%)
+  'cerveau': 1 times (10.0%)
+  'océan': 1 times (10.0%)
+  'john': 1 times (10.0%)
+  'nombre': 1 times (10.0%)
+
+All lines: 63, 142, 147, 152, 438, 699, 702, 775, 805, 1129
+All occurrences:
+  1. Line 63: 'pression' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 142: 'renouveau' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  3. Line 147: 'formation' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  4. Line 152: 'relations' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  5. Line 438: 'arrivée' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  6. Line 699: 'cou' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  7. Line 702: 'cerveau' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  8. Line 775: 'océan' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  9. Line 805: 'John' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  10. Line 1129: 'nombre' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: cop → root
+Occurrences: 10 (2.37%)
+All error-causing words for this error:
+  'est': 8 times (80.0%)
+  'sont': 1 times (10.0%)
+  'sera': 1 times (10.0%)
+
+All lines: 255, 365, 631, 856, 909, 1071, 1119, 1168, 1302, 1322
+All occurrences:
+  1. Line 255: 'est' (UPOS: AUX) in sentence 11
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Mais , le SMIC n' est pas un outil de référence .
+
+  2. Line 365: 'est' (UPOS: AUX) in sentence 15
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  3. Line 631: 'est' (UPOS: AUX) in sentence 24
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  4. Line 856: 'est' (UPOS: AUX) in sentence 31
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  5. Line 909: 'sont' (UPOS: AUX) in sentence 33
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+  6. Line 1071: 'est' (UPOS: AUX) in sentence 39
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  7. Line 1119: 'est' (UPOS: AUX) in sentence 41
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  8. Line 1168: 'sera' (UPOS: AUX) in sentence 42
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  9. Line 1302: 'est' (UPOS: AUX) in sentence 48
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Le culte du de le roi est un élément essentiel dans la mobilisation des de les masses marocaines .
+
+  10. Line 1322: 'est' (UPOS: AUX) in sentence 49
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: conj → obl
+Occurrences: 10 (2.37%)
+All error-causing words for this error:
+  'escrimeur': 1 times (10.0%)
+  'los': 1 times (10.0%)
+  'universités': 1 times (10.0%)
+  'corps': 1 times (10.0%)
+  'période': 1 times (10.0%)
+  'm': 1 times (10.0%)
+  'atmosphère': 1 times (10.0%)
+  'glaces': 1 times (10.0%)
+  'zone': 1 times (10.0%)
+  'région': 1 times (10.0%)
+
+All lines: 340, 596, 610, 684, 726, 759, 771, 780, 985, 1337
+All occurrences:
+  1. Line 340: 'escrimeur' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 596: 'Los' (UPOS: X) in sentence 22
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  3. Line 610: 'universités' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  4. Line 684: 'corps' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  5. Line 726: 'période' (UPOS: NOUN) in sentence 26
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  6. Line 759: 'M' (UPOS: PROPN) in sentence 28
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  7. Line 771: 'atmosphère' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  8. Line 780: 'glaces' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  9. Line 985: 'zone' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  10. Line 1337: 'région' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: flat:name → nmod
+Occurrences: 9 (2.13%)
+All error-causing words for this error:
+  'kerr': 2 times (22.2%)
+  'bridge': 2 times (22.2%)
+  'polisario': 1 times (11.1%)
+  'bertrand': 1 times (11.1%)
+  'sakhnovski': 1 times (11.1%)
+  'hansen': 1 times (11.1%)
+  'martinez': 1 times (11.1%)
+
+All lines: 242, 516, 798, 803, 806, 1040, 1357, 1370, 1371
+All occurrences:
+  1. Line 242: 'Polisario' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  2. Line 516: 'Bertrand' (UPOS: PROPN) in sentence 19
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  3. Line 798: 'Sakhnovski' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  4. Line 803: 'Kerr' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  5. Line 806: 'Kerr' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  6. Line 1040: 'Hansen' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  7. Line 1357: 'Bridge' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+  8. Line 1370: 'Martinez' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+  9. Line 1371: 'Bridge' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: acl → root
+Occurrences: 8 (1.90%)
+All error-causing words for this error:
+  'né': 2 times (25.0%)
+  'exécuté': 1 times (12.5%)
+  'signées': 1 times (12.5%)
+  'exposé': 1 times (12.5%)
+  'appréciés': 1 times (12.5%)
+  'placée': 1 times (12.5%)
+  'entrant': 1 times (12.5%)
+
+All lines: 106, 319, 604, 660, 711, 747, 814, 1250
+All occurrences:
+  1. Line 106: 'exécuté' (UPOS: VERB) in sentence 5
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+
+  2. Line 319: 'né' (UPOS: VERB) in sentence 14
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 604: 'signées' (UPOS: VERB) in sentence 23
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  4. Line 660: 'exposé' (UPOS: VERB) in sentence 25
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  5. Line 711: 'appréciés' (UPOS: VERB) in sentence 26
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  6. Line 747: 'placée' (UPOS: VERB) in sentence 28
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  7. Line 814: 'né' (UPOS: VERB) in sentence 30
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  8. Line 1250: 'entrant' (UPOS: VERB) in sentence 46
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+--------------------------------------------------
+
+ERROR: obl:mod → nummod
+Occurrences: 8 (1.90%)
+All error-causing words for this error:
+  '2005': 1 times (12.5%)
+  '1872': 1 times (12.5%)
+  '22': 1 times (12.5%)
+  '1793': 1 times (12.5%)
+  '1973': 1 times (12.5%)
+  '1178': 1 times (12.5%)
+  '2004': 1 times (12.5%)
+  'six': 1 times (12.5%)
+
+All lines: 374, 394, 739, 1013, 1021, 1238, 1262, 1290
+All occurrences:
+  1. Line 374: '2005' (UPOS: NUM) in sentence 15
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 394: '1872' (UPOS: NUM) in sentence 16
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  3. Line 739: '22' (UPOS: NUM) in sentence 27
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Il est fêté le 22 mai .
+
+  4. Line 1013: '1793' (UPOS: NUM) in sentence 37
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  5. Line 1021: '1973' (UPOS: NUM) in sentence 37
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  6. Line 1238: '1178' (UPOS: NUM) in sentence 45
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+  7. Line 1262: '2004' (UPOS: NUM) in sentence 46
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+  8. Line 1290: 'six' (UPOS: NUM) in sentence 47
+     Gold DEPREL: obl:mod → System DEPREL: nummod
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: appos → nmod
+Occurrences: 7 (1.66%)
+All error-causing words for this error:
+  'film': 1 times (14.3%)
+  'gaspard': 1 times (14.3%)
+  'al': 1 times (14.3%)
+  'galit': 1 times (14.3%)
+  'sinead': 1 times (14.3%)
+  'sig': 1 times (14.3%)
+  'pays': 1 times (14.3%)
+
+All lines: 7, 510, 637, 794, 802, 1039, 1338
+All occurrences:
+  1. Line 7: 'film' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Aviator , un film sur la vie de Hughes .
+
+  2. Line 510: 'Gaspard' (UPOS: PROPN) in sentence 19
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  3. Line 637: 'Al' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  4. Line 794: 'Galit' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  5. Line 802: 'Sinead' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  6. Line 1039: 'Sig' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  7. Line 1338: 'Pays' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: nsubj:pass → nsubj
+Occurrences: 7 (1.66%)
+All error-causing words for this error:
+  'il': 2 times (28.6%)
+  'université': 1 times (14.3%)
+  'elle': 1 times (14.3%)
+  'jonction': 1 times (14.3%)
+  'thionville': 1 times (14.3%)
+  'détroit': 1 times (14.3%)
+
+All lines: 370, 616, 735, 966, 994, 1007, 1347
+All occurrences:
+  1. Line 370: 'il' (UPOS: PRON) in sentence 15
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 616: 'université' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  3. Line 735: 'Il' (UPOS: PRON) in sentence 27
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Il est fêté le 22 mai .
+
+  4. Line 966: 'Elle' (UPOS: PRON) in sentence 36
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  5. Line 994: 'jonction' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  6. Line 1007: 'Thionville' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  7. Line 1347: 'détroit' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: flat:name → compound
+Occurrences: 7 (1.66%)
+All error-causing words for this error:
+  'mcgregor': 1 times (14.3%)
+  'brosnan': 1 times (14.3%)
+  'abuelos': 1 times (14.3%)
+  'nada': 1 times (14.3%)
+  'rodríguez': 1 times (14.3%)
+  'bu': 1 times (14.3%)
+  'said': 1 times (14.3%)
+
+All lines: 527, 530, 591, 594, 597, 638, 639
+All occurrences:
+  1. Line 527: 'McGregor' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  2. Line 530: 'Brosnan' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  3. Line 591: 'Abuelos' (UPOS: X) in sentence 22
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  4. Line 594: 'Nada' (UPOS: X) in sentence 22
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  5. Line 597: 'Rodríguez' (UPOS: X) in sentence 22
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  6. Line 638: 'Bu' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  7. Line 639: 'Said' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: flat:name → System DEPREL: compound
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: punct → dep
+Occurrences: 6 (1.42%)
+All error-causing words for this error:
+  '.': 4 times (66.7%)
+  '?': 1 times (16.7%)
+  ',': 1 times (16.7%)
+
+All lines: 42, 246, 569, 877, 891, 1090
+All occurrences:
+  1. Line 42: '?' (UPOS: PUNCT) in sentence 3
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Mais comment faire dans un contexte structurellement raciste ?
+
+  2. Line 246: '.' (UPOS: PUNCT) in sentence 10
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  3. Line 569: ',' (UPOS: PUNCT) in sentence 21
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  4. Line 877: '.' (UPOS: PUNCT) in sentence 31
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  5. Line 891: '.' (UPOS: PUNCT) in sentence 32
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+  6. Line 1090: '.' (UPOS: PUNCT) in sentence 39
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: obl:mod → nsubj
+Occurrences: 6 (1.42%)
+All error-causing words for this error:
+  'milieu': 1 times (16.7%)
+  'forme': 1 times (16.7%)
+  'étape': 1 times (16.7%)
+  'fois': 1 times (16.7%)
+  'saison': 1 times (16.7%)
+  'lequel': 1 times (16.7%)
+
+All lines: 55, 459, 848, 1028, 1269, 1360
+All occurrences:
+  1. Line 55: 'milieu' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 459: 'forme' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  3. Line 848: 'étape' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+  4. Line 1028: 'fois' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+  5. Line 1269: 'saison' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+  6. Line 1360: 'lequel' (UPOS: PRON) in sentence 50
+     Gold DEPREL: obl:mod → System DEPREL: nsubj
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: root → xcomp
+Occurrences: 6 (1.42%)
+All error-causing words for this error:
+  'riche': 1 times (16.7%)
+  'rapporté': 1 times (16.7%)
+  'né': 1 times (16.7%)
+  'garantissent': 1 times (16.7%)
+  'révèle': 1 times (16.7%)
+  'trouve': 1 times (16.7%)
+
+All lines: 68, 419, 499, 613, 673, 1229
+All occurrences:
+  1. Line 68: 'riche' (UPOS: ADJ) in sentence 4
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 419: 'rapporté' (UPOS: VERB) in sentence 16
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  3. Line 499: 'né' (UPOS: VERB) in sentence 19
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  4. Line 613: 'garantissent' (UPOS: VERB) in sentence 23
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  5. Line 673: 'révèle' (UPOS: VERB) in sentence 25
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  6. Line 1229: 'trouve' (UPOS: VERB) in sentence 45
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+--------------------------------------------------
+
+ERROR: flat:name → appos
+Occurrences: 6 (1.42%)
+All error-causing words for this error:
+  'holan': 1 times (16.7%)
+  'berkeley': 1 times (16.7%)
+  'anne': 1 times (16.7%)
+  'chait': 1 times (16.7%)
+  'souchon': 1 times (16.7%)
+  'kienast': 1 times (16.7%)
+
+All lines: 272, 473, 567, 795, 812, 816
+All occurrences:
+  1. Line 272: 'Holan' (UPOS: PROPN) in sentence 12
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  2. Line 473: 'Berkeley' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  3. Line 567: 'Anne' (UPOS: PROPN) in sentence 21
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  4. Line 795: 'Chait' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  5. Line 812: 'Souchon' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  6. Line 816: 'Kienast' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: flat:name → System DEPREL: appos
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+--------------------------------------------------
+
+ERROR: nmod → nummod
+Occurrences: 6 (1.42%)
+All error-causing words for this error:
+  '2001': 1 times (16.7%)
+  '1881': 1 times (16.7%)
+  '1963': 1 times (16.7%)
+  '1944': 1 times (16.7%)
+  '80': 1 times (16.7%)
+  '680': 1 times (16.7%)
+
+All lines: 281, 323, 331, 820, 1364, 1376
+All occurrences:
+  1. Line 281: '2001' (UPOS: NUM) in sentence 12
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  2. Line 323: '1881' (UPOS: NUM) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 331: '1963' (UPOS: NUM) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  4. Line 820: '1944' (UPOS: NUM) in sentence 30
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  5. Line 1364: '80' (UPOS: NUM) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+  6. Line 1376: '680' (UPOS: NUM) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: root → nsubj
+Occurrences: 5 (1.18%)
+All error-causing words for this error:
+  'travail': 1 times (20.0%)
+  'coureur': 1 times (20.0%)
+  'étape': 1 times (20.0%)
+  'série': 1 times (20.0%)
+  'resto': 1 times (20.0%)
+
+All lines: 101, 337, 445, 746, 898
+All occurrences:
+  1. Line 101: 'Travail' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+
+  2. Line 337: 'coureur' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 445: 'étape' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  4. Line 746: 'série' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  5. Line 898: 'resto' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+--------------------------------------------------
+
+ERROR: obl:arg → nmod
+Occurrences: 5 (1.18%)
+All error-causing words for this error:
+  'projets': 1 times (20.0%)
+  'châteauroux': 1 times (20.0%)
+  'siècle': 1 times (20.0%)
+  'groupes': 1 times (20.0%)
+  'capitaine': 1 times (20.0%)
+
+All lines: 136, 333, 504, 587, 1038
+All occurrences:
+  1. Line 136: 'projets' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  2. Line 333: 'Châteauroux' (UPOS: PROPN) in sentence 14
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 504: 'siècle' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+  4. Line 587: 'groupes' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  5. Line 1038: 'capitaine' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: advcl → xcomp
+Occurrences: 5 (1.18%)
+All error-causing words for this error:
+  'échapper': 1 times (20.0%)
+  'repris': 1 times (20.0%)
+  'terminer': 1 times (20.0%)
+  'approvisionner': 1 times (20.0%)
+  'jeter': 1 times (20.0%)
+
+All lines: 162, 400, 540, 930, 1043
+All occurrences:
+  1. Line 162: 'échapper' (UPOS: VERB) in sentence 7
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+
+  2. Line 400: 'repris' (UPOS: VERB) in sentence 16
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  3. Line 540: 'terminer' (UPOS: VERB) in sentence 20
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  4. Line 930: 'approvisionner' (UPOS: VERB) in sentence 34
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+
+  5. Line 1043: 'jeter' (UPOS: VERB) in sentence 38
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: root → obj
+Occurrences: 5 (1.18%)
+All error-causing words for this error:
+  'changement': 1 times (20.0%)
+  'outil': 1 times (20.0%)
+  'berceau': 1 times (20.0%)
+  'apparition': 1 times (20.0%)
+  'élément': 1 times (20.0%)
+
+All lines: 197, 258, 633, 714, 1304
+All occurrences:
+  1. Line 197: 'changement' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+  2. Line 258: 'outil' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Mais , le SMIC n' est pas un outil de référence .
+
+  3. Line 633: 'berceau' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  4. Line 714: 'apparition' (UPOS: NOUN) in sentence 26
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  5. Line 1304: 'élément' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Le culte du de le roi est un élément essentiel dans la mobilisation des de les masses marocaines .
+
+--------------------------------------------------
+
+ERROR: obl:arg → nummod
+Occurrences: 5 (1.18%)
+All error-causing words for this error:
+  '26': 1 times (20.0%)
+  '13': 1 times (20.0%)
+  '27': 1 times (20.0%)
+  '-1': 1 times (20.0%)
+  '-0,8': 1 times (20.0%)
+
+All lines: 321, 329, 818, 1159, 1161
+All occurrences:
+  1. Line 321: '26' (UPOS: NUM) in sentence 14
+     Gold DEPREL: obl:arg → System DEPREL: nummod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 329: '13' (UPOS: NUM) in sentence 14
+     Gold DEPREL: obl:arg → System DEPREL: nummod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 818: '27' (UPOS: NUM) in sentence 30
+     Gold DEPREL: obl:arg → System DEPREL: nummod
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  4. Line 1159: '-1' (UPOS: NUM) in sentence 41
+     Gold DEPREL: obl:arg → System DEPREL: nummod
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+  5. Line 1161: '-0,8' (UPOS: NUM) in sentence 41
+     Gold DEPREL: obl:arg → System DEPREL: nummod
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: obl:mod → nmod
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'zones': 1 times (25.0%)
+  'trousses': 1 times (25.0%)
+  'domaine': 1 times (25.0%)
+  'cours': 1 times (25.0%)
+
+All lines: 92, 169, 1105, 1136
+All occurrences:
+  1. Line 92: 'zones' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obl:mod → System DEPREL: nmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 169: 'trousses' (UPOS: NOUN) in sentence 7
+     Gold DEPREL: obl:mod → System DEPREL: nmod
+     Full sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+
+  3. Line 1105: 'domaine' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl:mod → System DEPREL: nmod
+     Full sentence: Tarzan , l' homme singe , règne en maître sur son domaine , la jungle .
+
+  4. Line 1136: 'cours' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obl:mod → System DEPREL: nmod
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: obl:agent → obl
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'imprimeur': 1 times (25.0%)
+  'coups': 1 times (25.0%)
+  'restitution': 1 times (25.0%)
+  'ponts': 1 times (25.0%)
+
+All lines: 109, 681, 951, 1352
+All occurrences:
+  1. Line 109: 'imprimeur' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+
+  2. Line 681: 'coups' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  3. Line 951: 'restitution' (UPOS: NOUN) in sentence 35
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Cette force résulte de la faible poussée exercée par la restitution sous forme de rayonnement infrarouge de l' énergie solaire absorbée .
+
+  4. Line 1352: 'ponts' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: flat:name → nsubj
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'bhagwan': 1 times (25.0%)
+  'obeegadoo': 1 times (25.0%)
+  'bastien': 1 times (25.0%)
+  'bed': 1 times (25.0%)
+
+All lines: 117, 128, 317, 1061
+All occurrences:
+  1. Line 117: 'Bhagwan' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: flat:name → System DEPREL: nsubj
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  2. Line 128: 'Obeegadoo' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: flat:name → System DEPREL: nsubj
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  3. Line 317: 'Bastien' (UPOS: PROPN) in sentence 14
+     Gold DEPREL: flat:name → System DEPREL: nsubj
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  4. Line 1061: 'bed' (UPOS: X) in sentence 39
+     Gold DEPREL: flat:name → System DEPREL: nsubj
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: case → dep
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'à': 2 times (50.0%)
+  'en': 1 times (25.0%)
+  'de': 1 times (25.0%)
+
+All lines: 273, 324, 393, 468
+All occurrences:
+  1. Line 273: 'à' (UPOS: ADP) in sentence 12
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+
+  2. Line 324: 'à' (UPOS: ADP) in sentence 14
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 393: 'En' (UPOS: ADP) in sentence 16
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  4. Line 468: 'de' (UPOS: ADP) in sentence 18
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+--------------------------------------------------
+
+ERROR: advmod → mark
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'n'': 1 times (25.0%)
+  'que': 1 times (25.0%)
+  'ne': 1 times (25.0%)
+  'qu'': 1 times (25.0%)
+
+All lines: 483, 1170, 1283, 1285
+All occurrences:
+  1. Line 483: 'n'' (UPOS: ADV) in sentence 18
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 1170: 'que' (UPOS: ADV) in sentence 42
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+  3. Line 1283: 'ne' (UPOS: ADV) in sentence 47
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+  4. Line 1285: 'qu'' (UPOS: ADV) in sentence 47
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: nmod → appos
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'ewan': 1 times (25.0%)
+  'los': 1 times (25.0%)
+  'singe': 1 times (25.0%)
+  'loire': 1 times (25.0%)
+
+All lines: 526, 590, 1098, 1341
+All occurrences:
+  1. Line 526: 'Ewan' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  2. Line 590: 'Los' (UPOS: X) in sentence 22
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+  3. Line 1098: 'singe' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Tarzan , l' homme singe , règne en maître sur son domaine , la jungle .
+
+  4. Line 1341: 'Loire' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: conj → appos
+Occurrences: 4 (0.95%)
+All error-causing words for this error:
+  'sergei': 1 times (25.0%)
+  'acteur': 1 times (25.0%)
+  'congerville': 1 times (25.0%)
+  'benicia': 1 times (25.0%)
+
+All lines: 797, 833, 1009, 1368
+All occurrences:
+  1. Line 797: 'Sergei' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  2. Line 833: 'acteur' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+  3. Line 1009: 'Congerville' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+  4. Line 1368: 'Benicia' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: det → nmod:poss
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'son': 2 times (66.7%)
+  'leur': 1 times (33.3%)
+
+All lines: 23, 683, 1212
+All occurrences:
+  1. Line 23: 'leur' (UPOS: DET) in sentence 2
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+
+  2. Line 683: 'son' (UPOS: DET) in sentence 25
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+  3. Line 1212: 'son' (UPOS: DET) in sentence 44
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: Il verra le puits le plus profond de France porter son nom : .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'oasis': 1 times (33.3%)
+  'obscurité': 1 times (33.3%)
+  'interstate': 1 times (33.3%)
+
+All lines: 48, 59, 1363
+All occurrences:
+  1. Line 48: 'oasis' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 59: 'obscurité' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  3. Line 1363: 'Interstate' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: conj → amod
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'varié': 1 times (33.3%)
+  'ombrageux': 1 times (33.3%)
+  'britanniques': 1 times (33.3%)
+
+All lines: 70, 577, 801
+All occurrences:
+  1. Line 70: 'varié' (UPOS: ADJ) in sentence 4
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 577: 'ombrageux' (UPOS: ADJ) in sentence 21
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  3. Line 801: 'britanniques' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+--------------------------------------------------
+
+ERROR: conj → obj
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'poissons': 1 times (33.3%)
+  'crustacés': 1 times (33.3%)
+  'poulpes': 1 times (33.3%)
+
+All lines: 83, 86, 89
+All occurrences:
+  1. Line 83: 'poissons' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 86: 'crustacés' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  3. Line 89: 'poulpes' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: xcomp → amod
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'désertiques': 1 times (33.3%)
+  'célèbre': 1 times (33.3%)
+  'périlleuse': 1 times (33.3%)
+
+All lines: 96, 476, 555
+All occurrences:
+  1. Line 96: 'désertiques' (UPOS: ADJ) in sentence 4
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 476: 'célèbre' (UPOS: ADJ) in sentence 18
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  3. Line 555: 'périlleuse' (UPOS: ADJ) in sentence 20
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+--------------------------------------------------
+
+ERROR: nmod → amod
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'artisan': 1 times (33.3%)
+  'paresseux': 1 times (33.3%)
+  'profond': 1 times (33.3%)
+
+All lines: 110, 1068, 1208
+All occurrences:
+  1. Line 110: 'artisan' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+
+  2. Line 1068: 'paresseux' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+  3. Line 1208: 'profond' (UPOS: ADJ) in sentence 44
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: Il verra le puits le plus profond de France porter son nom : .
+
+--------------------------------------------------
+
+ERROR: appos → nsubj
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'secrétaire': 2 times (66.7%)
+  'plate-bande': 1 times (33.3%)
+
+All lines: 119, 130, 1066
+All occurrences:
+  1. Line 119: 'secrétaire' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  2. Line 130: 'secrétaire' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+  3. Line 1066: 'plate-bande' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: aux:tense → conj
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'a': 2 times (66.7%)
+  'ont': 1 times (33.3%)
+
+All lines: 207, 418, 693
+All occurrences:
+  1. Line 207: 'a' (UPOS: AUX) in sentence 10
+     Gold DEPREL: aux:tense → System DEPREL: conj
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  2. Line 418: 'a' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux:tense → System DEPREL: conj
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  3. Line 693: 'ont' (UPOS: AUX) in sentence 25
+     Gold DEPREL: aux:tense → System DEPREL: conj
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → acl
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'oppose': 1 times (33.3%)
+  'issu': 1 times (33.3%)
+  'traversé': 1 times (33.3%)
+
+All lines: 235, 643, 694
+All occurrences:
+  1. Line 235: 'oppose' (UPOS: VERB) in sentence 10
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  2. Line 643: 'issu' (UPOS: ADJ) in sentence 24
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  3. Line 694: 'traversé' (UPOS: VERB) in sentence 25
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+--------------------------------------------------
+
+ERROR: cop → acl
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'est': 2 times (66.7%)
+  'était': 1 times (33.3%)
+
+All lines: 335, 355, 443
+All occurrences:
+  1. Line 335: 'est' (UPOS: AUX) in sentence 14
+     Gold DEPREL: cop → System DEPREL: acl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 355: 'était' (UPOS: AUX) in sentence 14
+     Gold DEPREL: cop → System DEPREL: acl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  3. Line 443: 'est' (UPOS: AUX) in sentence 17
+     Gold DEPREL: cop → System DEPREL: acl
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+--------------------------------------------------
+
+ERROR: det → dep
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'le': 2 times (66.7%)
+  'la': 1 times (33.3%)
+
+All lines: 356, 560, 1059
+All occurrences:
+  1. Line 356: 'le' (UPOS: DET) in sentence 14
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 560: 'La' (UPOS: DET) in sentence 21
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+  3. Line 1059: 'Le' (UPOS: DET) in sentence 39
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: advcl → acl
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'bénéficiant': 1 times (33.3%)
+  'effectuant': 1 times (33.3%)
+  'passe': 1 times (33.3%)
+
+All lines: 379, 996, 1157
+All occurrences:
+  1. Line 379: 'bénéficiant' (UPOS: VERB) in sentence 15
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 996: 'effectuant' (UPOS: VERB) in sentence 36
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+  3. Line 1157: 'passe' (UPOS: VERB) in sentence 41
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → ccomp
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'réélu': 1 times (33.3%)
+  'guettent': 1 times (33.3%)
+  'passe': 1 times (33.3%)
+
+All lines: 413, 721, 1361
+All occurrences:
+  1. Line 413: 'réélu' (UPOS: VERB) in sentence 16
+     Gold DEPREL: acl:relcl → System DEPREL: ccomp
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  2. Line 721: 'guettent' (UPOS: VERB) in sentence 26
+     Gold DEPREL: acl:relcl → System DEPREL: ccomp
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  3. Line 1361: 'passe' (UPOS: VERB) in sentence 50
+     Gold DEPREL: acl:relcl → System DEPREL: ccomp
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: conj → acl
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'restée': 1 times (33.3%)
+  'révèle': 1 times (33.3%)
+  'cuisinés': 1 times (33.3%)
+
+All lines: 475, 554, 912
+All occurrences:
+  1. Line 475: 'restée' (UPOS: VERB) in sentence 18
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 554: 'révèle' (UPOS: VERB) in sentence 20
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  3. Line 912: 'cuisinés' (UPOS: VERB) in sentence 33
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+--------------------------------------------------
+
+ERROR: nsubj → obl
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'matière': 1 times (33.3%)
+  'film': 1 times (33.3%)
+  'variation': 1 times (33.3%)
+
+All lines: 482, 523, 1149
+All occurrences:
+  1. Line 482: 'matière' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 523: 'film' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+  3. Line 1149: 'variation' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: acl → xcomp
+Occurrences: 3 (0.71%)
+All error-causing words for this error:
+  'dédiée': 1 times (33.3%)
+  'écrite': 1 times (33.3%)
+  'tentées': 1 times (33.3%)
+
+All lines: 761, 1231, 1291
+All occurrences:
+  1. Line 761: 'dédiée' (UPOS: VERB) in sentence 28
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  2. Line 1231: 'écrite' (UPOS: VERB) in sentence 45
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+  3. Line 1291: 'tentées' (UPOS: VERB) in sentence 47
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: nsubj → obj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'contenu': 1 times (50.0%)
+  'sultan': 1 times (50.0%)
+
+All lines: 24, 646
+All occurrences:
+  1. Line 24: 'contenu' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+
+  2. Line 646: 'sultan' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: nmod → nsubj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'vie': 1 times (50.0%)
+  'photos': 1 times (50.0%)
+
+All lines: 50, 657
+All occurrences:
+  1. Line 50: 'vie' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 657: 'photos' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+--------------------------------------------------
+
+ERROR: obl:mod → advmod
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'où': 1 times (50.0%)
+  'y': 1 times (50.0%)
+
+All lines: 56, 74
+All occurrences:
+  1. Line 56: 'où' (UPOS: PRON) in sentence 4
+     Gold DEPREL: obl:mod → System DEPREL: advmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 74: 'y' (UPOS: PRON) in sentence 4
+     Gold DEPREL: obl:mod → System DEPREL: advmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: parataxis → ccomp
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'découvrent': 1 times (50.0%)
+  'affirmait': 1 times (50.0%)
+
+All lines: 75, 479
+All occurrences:
+  1. Line 75: 'découvrent' (UPOS: VERB) in sentence 4
+     Gold DEPREL: parataxis → System DEPREL: ccomp
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+  2. Line 479: 'affirmait' (UPOS: VERB) in sentence 18
+     Gold DEPREL: parataxis → System DEPREL: ccomp
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+--------------------------------------------------
+
+ERROR: obj → amod
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'dernier': 1 times (50.0%)
+  'israéliens': 1 times (50.0%)
+
+All lines: 237, 793
+All occurrences:
+  1. Line 237: 'dernier' (UPOS: ADJ) in sentence 10
+     Gold DEPREL: obj → System DEPREL: amod
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+  2. Line 793: 'israéliens' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: obj → System DEPREL: amod
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+--------------------------------------------------
+
+ERROR: amod → nummod
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'xxe': 1 times (50.0%)
+  'xixe': 1 times (50.0%)
+
+All lines: 349, 503
+All occurrences:
+  1. Line 349: 'XXe' (UPOS: ADJ) in sentence 14
+     Gold DEPREL: amod → System DEPREL: nummod
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+  2. Line 503: 'XIXe' (UPOS: ADJ) in sentence 19
+     Gold DEPREL: amod → System DEPREL: nummod
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+--------------------------------------------------
+
+ERROR: expl:subj → nsubj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'c'': 1 times (50.0%)
+  'il': 1 times (50.0%)
+
+All lines: 364, 860
+All occurrences:
+  1. Line 364: 'C'' (UPOS: PRON) in sentence 15
+     Gold DEPREL: expl:subj → System DEPREL: nsubj
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 860: 'il' (UPOS: PRON) in sentence 31
+     Gold DEPREL: expl:subj → System DEPREL: nsubj
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+--------------------------------------------------
+
+ERROR: root → nmod
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'liste': 1 times (50.0%)
+  'technique': 1 times (50.0%)
+
+All lines: 368, 1073
+All occurrences:
+  1. Line 368: 'liste' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: root → System DEPREL: nmod
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 1073: 'technique' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: root → System DEPREL: nmod
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: aux:pass → conj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'sera': 1 times (50.0%)
+  'furent': 1 times (50.0%)
+
+All lines: 371, 1010
+All occurrences:
+  1. Line 371: 'sera' (UPOS: AUX) in sentence 15
+     Gold DEPREL: aux:pass → System DEPREL: conj
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+  2. Line 1010: 'furent' (UPOS: AUX) in sentence 37
+     Gold DEPREL: aux:pass → System DEPREL: conj
+     Full sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+
+--------------------------------------------------
+
+ERROR: aux:tense → root
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'ont': 1 times (50.0%)
+  'est': 1 times (50.0%)
+
+All lines: 399, 498
+All occurrences:
+  1. Line 399: 'ont' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux:tense → System DEPREL: root
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  2. Line 498: 'est' (UPOS: AUX) in sentence 19
+     Gold DEPREL: aux:tense → System DEPREL: root
+     Full sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+--------------------------------------------------
+
+ERROR: aux:pass → csubj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'été': 1 times (50.0%)
+  'est': 1 times (50.0%)
+
+All lines: 412, 1348
+All occurrences:
+  1. Line 412: 'été' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux:pass → System DEPREL: csubj
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+  2. Line 1348: 'est' (UPOS: AUX) in sentence 50
+     Gold DEPREL: aux:pass → System DEPREL: csubj
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: advcl → root
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'comprenant': 1 times (50.0%)
+  'rattachée': 1 times (50.0%)
+
+All lines: 426, 1220
+All occurrences:
+  1. Line 426: 'Comprenant' (UPOS: VERB) in sentence 17
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  2. Line 1220: 'rattachée' (UPOS: VERB) in sentence 45
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod:poss
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'c'': 1 times (50.0%)
+  'qui': 1 times (50.0%)
+
+All lines: 442, 692
+All occurrences:
+  1. Line 442: 'c'' (UPOS: PRON) in sentence 17
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+  2. Line 692: 'qui' (UPOS: PRON) in sentence 25
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nmod:poss
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  's'': 1 times (50.0%)
+  'se': 1 times (50.0%)
+
+All lines: 454, 553
+All occurrences:
+  1. Line 454: 's'' (UPOS: PRON) in sentence 18
+     Gold DEPREL: expl:pv → System DEPREL: nmod:poss
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 553: 'se' (UPOS: PRON) in sentence 20
+     Gold DEPREL: expl:pv → System DEPREL: nmod:poss
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+--------------------------------------------------
+
+ERROR: aux:tense → csubj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'est': 1 times (50.0%)
+  'a': 1 times (50.0%)
+
+All lines: 474, 786
+All occurrences:
+  1. Line 474: 'est' (UPOS: AUX) in sentence 18
+     Gold DEPREL: aux:tense → System DEPREL: csubj
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 786: 'a' (UPOS: AUX) in sentence 29
+     Gold DEPREL: aux:tense → System DEPREL: csubj
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+--------------------------------------------------
+
+ERROR: ccomp → acl
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'existait': 1 times (50.0%)
+  'qualifiée': 1 times (50.0%)
+
+All lines: 484, 618
+All occurrences:
+  1. Line 484: 'existait' (UPOS: VERB) in sentence 18
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 618: 'qualifiée' (UPOS: VERB) in sentence 23
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+--------------------------------------------------
+
+ERROR: xcomp → acl
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'exister': 1 times (50.0%)
+  'porter': 1 times (50.0%)
+
+All lines: 489, 1211
+All occurrences:
+  1. Line 489: 'exister' (UPOS: VERB) in sentence 18
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+  2. Line 1211: 'porter' (UPOS: VERB) in sentence 44
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Il verra le puits le plus profond de France porter son nom : .
+
+--------------------------------------------------
+
+ERROR: amod → nmod
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'partenaires': 1 times (50.0%)
+  'xixe': 1 times (50.0%)
+
+All lines: 612, 885
+All occurrences:
+  1. Line 612: 'partenaires' (UPOS: ADJ) in sentence 23
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+  2. Line 885: 'XIXe' (UPOS: ADJ) in sentence 32
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+--------------------------------------------------
+
+ERROR: flat:name → obj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'ibn': 1 times (50.0%)
+  'said': 1 times (50.0%)
+
+All lines: 648, 649
+All occurrences:
+  1. Line 648: 'ibn' (UPOS: X) in sentence 24
+     Gold DEPREL: flat:name → System DEPREL: obj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+  2. Line 649: 'Said' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: flat:name → System DEPREL: obj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: cop → conj
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'sont': 1 times (50.0%)
+  'est': 1 times (50.0%)
+
+All lines: 712, 829
+All occurrences:
+  1. Line 712: 'sont' (UPOS: AUX) in sentence 26
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+  2. Line 829: 'est' (UPOS: AUX) in sentence 30
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+--------------------------------------------------
+
+ERROR: aux:pass → advcl
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'est': 2 times (100.0%)
+
+All lines: 736, 967
+All occurrences:
+  1. Line 736: 'est' (UPOS: AUX) in sentence 27
+     Gold DEPREL: aux:pass → System DEPREL: advcl
+     Full sentence: Il est fêté le 22 mai .
+
+  2. Line 967: 'est' (UPOS: AUX) in sentence 36
+     Gold DEPREL: aux:pass → System DEPREL: advcl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+--------------------------------------------------
+
+ERROR: appos → obl
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'morning': 1 times (50.0%)
+  'zone': 1 times (50.0%)
+
+All lines: 756, 975
+All occurrences:
+  1. Line 756: 'Morning' (UPOS: PROPN) in sentence 28
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  2. Line 975: 'zone' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+--------------------------------------------------
+
+ERROR: flat:name → obl
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  'orbit': 1 times (50.0%)
+  'georgius': 1 times (50.0%)
+
+All lines: 757, 1235
+All occurrences:
+  1. Line 757: 'Orbit' (UPOS: PROPN) in sentence 28
+     Gold DEPREL: flat:name → System DEPREL: obl
+     Full sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+
+  2. Line 1235: 'Georgius' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: flat:name → System DEPREL: obl
+     Full sentence: Historiquement rattachée au à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+
+--------------------------------------------------
+
+ERROR: cc → punct
+Occurrences: 2 (0.47%)
+All error-causing words for this error:
+  '/': 2 times (100.0%)
+
+All lines: 796, 804
+All occurrences:
+  1. Line 796: '/' (UPOS: SYM) in sentence 29
+     Gold DEPREL: cc → System DEPREL: punct
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+  2. Line 804: '/' (UPOS: SYM) in sentence 29
+     Gold DEPREL: cc → System DEPREL: punct
+     Full sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+--------------------------------------------------
+
+ERROR: obj → nmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'ans': 1 times (100.0%)
+
+All lines: 21
+All occurrences:
+  1. Line 21: 'ans' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+
+--------------------------------------------------
+
+ERROR: cc → advmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'mais': 1 times (100.0%)
+
+All lines: 34
+All occurrences:
+  1. Line 34: 'Mais' (UPOS: CCONJ) in sentence 3
+     Gold DEPREL: cc → System DEPREL: advmod
+     Full sentence: Mais comment faire dans un contexte structurellement raciste ?
+
+--------------------------------------------------
+
+ERROR: acl:relcl → root
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'règne': 1 times (100.0%)
+
+All lines: 57
+All occurrences:
+  1. Line 57: 'règne' (UPOS: VERB) in sentence 4
+     Gold DEPREL: acl:relcl → System DEPREL: root
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: cop → ccomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'est': 1 times (100.0%)
+
+All lines: 67
+All occurrences:
+  1. Line 67: 'est' (UPOS: AUX) in sentence 4
+     Gold DEPREL: cop → System DEPREL: ccomp
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: case → advmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'jusqu'': 1 times (100.0%)
+
+All lines: 94
+All occurrences:
+  1. Line 94: 'jusqu'' (UPOS: ADP) in sentence 4
+     Gold DEPREL: case → System DEPREL: advmod
+     Full sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+
+--------------------------------------------------
+
+ERROR: conj → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'steve': 1 times (100.0%)
+
+All lines: 127
+All occurrences:
+  1. Line 127: 'Steve' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: conj → System DEPREL: nsubj
+     Full sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+
+--------------------------------------------------
+
+ERROR: cop → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'est': 1 times (100.0%)
+
+All lines: 190
+All occurrences:
+  1. Line 190: 'est' (UPOS: AUX) in sentence 9
+     Gold DEPREL: cop → System DEPREL: advcl
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+--------------------------------------------------
+
+ERROR: amod → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'futur': 1 times (100.0%)
+
+All lines: 194
+All occurrences:
+  1. Line 194: 'futur' (UPOS: ADJ) in sentence 9
+     Gold DEPREL: amod → System DEPREL: nsubj
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+--------------------------------------------------
+
+ERROR: obl:mod → root
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'baptisé': 1 times (100.0%)
+
+All lines: 195
+All occurrences:
+  1. Line 195: 'baptisé' (UPOS: VERB) in sentence 9
+     Gold DEPREL: obl:mod → System DEPREL: root
+     Full sentence: C' est véritablement pour le futur baptisé un changement de cap .
+
+--------------------------------------------------
+
+ERROR: fixed → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'à': 1 times (100.0%)
+
+All lines: 218
+All occurrences:
+  1. Line 218: 'à' (UPOS: ADP) in sentence 10
+     Gold DEPREL: fixed → System DEPREL: case
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+--------------------------------------------------
+
+ERROR: det → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'ce': 1 times (100.0%)
+
+All lines: 236
+All occurrences:
+  1. Line 236: 'ce' (UPOS: DET) in sentence 10
+     Gold DEPREL: det → System DEPREL: obj
+     Full sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+
+--------------------------------------------------
+
+ERROR: nsubj → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'qui': 1 times (100.0%)
+
+All lines: 295
+All occurrences:
+  1. Line 295: 'qui' (UPOS: PRON) in sentence 13
+     Gold DEPREL: nsubj → System DEPREL: dep
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+--------------------------------------------------
+
+ERROR: advmod → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'à': 1 times (100.0%)
+
+All lines: 297
+All occurrences:
+  1. Line 297: 'à' (UPOS: ADP) in sentence 13
+     Gold DEPREL: advmod → System DEPREL: case
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+--------------------------------------------------
+
+ERROR: fixed → det
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'le': 1 times (100.0%)
+
+All lines: 298
+All occurrences:
+  1. Line 298: 'le' (UPOS: DET) in sentence 13
+     Gold DEPREL: fixed → System DEPREL: det
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+--------------------------------------------------
+
+ERROR: fixed → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'lieu': 1 times (100.0%)
+
+All lines: 299
+All occurrences:
+  1. Line 299: 'lieu' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: fixed → System DEPREL: obl
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+--------------------------------------------------
+
+ERROR: iobj → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'y': 1 times (100.0%)
+
+All lines: 308
+All occurrences:
+  1. Line 308: 'y' (UPOS: PRON) in sentence 13
+     Gold DEPREL: iobj → System DEPREL: obl
+     Full sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+--------------------------------------------------
+
+ERROR: nmod → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dont': 1 times (100.0%)
+
+All lines: 352
+All occurrences:
+  1. Line 352: 'dont' (UPOS: PRON) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: nmod:poss
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'cyclisme': 1 times (100.0%)
+
+All lines: 357
+All occurrences:
+  1. Line 357: 'cyclisme' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: acl:relcl → System DEPREL: obl
+     Full sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+
+--------------------------------------------------
+
+ERROR: advcl:cleft → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'réélu': 1 times (100.0%)
+
+All lines: 372
+All occurrences:
+  1. Line 372: 'réélu' (UPOS: VERB) in sentence 15
+     Gold DEPREL: advcl:cleft → System DEPREL: parataxis
+     Full sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+
+--------------------------------------------------
+
+ERROR: nsubj:pass → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'qui': 1 times (100.0%)
+
+All lines: 410
+All occurrences:
+  1. Line 410: 'qui' (UPOS: PRON) in sentence 16
+     Gold DEPREL: nsubj:pass → System DEPREL: nmod:poss
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+--------------------------------------------------
+
+ERROR: aux:tense → ccomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'avait': 1 times (100.0%)
+
+All lines: 411
+All occurrences:
+  1. Line 411: 'avait' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux:tense → System DEPREL: ccomp
+     Full sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+
+--------------------------------------------------
+
+ERROR: nmod → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dont': 1 times (100.0%)
+
+All lines: 429
+All occurrences:
+  1. Line 429: 'dont' (UPOS: PRON) in sentence 17
+     Gold DEPREL: nmod → System DEPREL: mark
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → nmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'point': 1 times (100.0%)
+
+All lines: 431
+All occurrences:
+  1. Line 431: 'point' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: acl:relcl → System DEPREL: nmod
+     Full sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+--------------------------------------------------
+
+ERROR: nsubj → appos
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'berkeley': 1 times (100.0%)
+
+All lines: 478
+All occurrences:
+  1. Line 478: 'Berkeley' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: appos
+     Full sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+
+--------------------------------------------------
+
+ERROR: conj → compound
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'pierce': 1 times (100.0%)
+
+All lines: 529
+All occurrences:
+  1. Line 529: 'Pierce' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: conj → System DEPREL: compound
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+--------------------------------------------------
+
+ERROR: amod → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'premier': 1 times (100.0%)
+
+All lines: 546
+All occurrences:
+  1. Line 546: 'Premier' (UPOS: ADJ) in sentence 20
+     Gold DEPREL: amod → System DEPREL: obl
+     Full sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+
+--------------------------------------------------
+
+ERROR: obj → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 570
+All occurrences:
+  1. Line 570: 'se' (UPOS: PRON) in sentence 21
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+
+--------------------------------------------------
+
+ERROR: aux:tense → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 583
+All occurrences:
+  1. Line 583: 'a' (UPOS: AUX) in sentence 22
+     Gold DEPREL: aux:tense → System DEPREL: advcl
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: obj:lvc → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'partie': 1 times (100.0%)
+
+All lines: 585
+All occurrences:
+  1. Line 585: 'partie' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obj:lvc → System DEPREL: obj
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: flat:name → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 592
+All occurrences:
+  1. Line 592: 'de' (UPOS: X) in sentence 22
+     Gold DEPREL: flat:name → System DEPREL: case
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: flat:name → det
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'la': 1 times (100.0%)
+
+All lines: 593
+All occurrences:
+  1. Line 593: 'la' (UPOS: X) in sentence 22
+     Gold DEPREL: flat:name → System DEPREL: det
+     Full sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+
+--------------------------------------------------
+
+ERROR: aux:pass → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'est': 1 times (100.0%)
+
+All lines: 617
+All occurrences:
+  1. Line 617: 'est' (UPOS: AUX) in sentence 23
+     Gold DEPREL: aux:pass → System DEPREL: acl
+     Full sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+--------------------------------------------------
+
+ERROR: iobj → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dont': 1 times (100.0%)
+
+All lines: 641
+All occurrences:
+  1. Line 641: 'dont' (UPOS: PRON) in sentence 24
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: cop → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'est': 1 times (100.0%)
+
+All lines: 642
+All occurrences:
+  1. Line 642: 'est' (UPOS: AUX) in sentence 24
+     Gold DEPREL: cop → System DEPREL: parataxis
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: appos → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'qabus': 1 times (100.0%)
+
+All lines: 647
+All occurrences:
+  1. Line 647: 'Qabus' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: appos → System DEPREL: obj
+     Full sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+
+--------------------------------------------------
+
+ERROR: advmod → det
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'les': 1 times (100.0%)
+
+All lines: 709
+All occurrences:
+  1. Line 709: 'les' (UPOS: DET) in sentence 26
+     Gold DEPREL: advmod → System DEPREL: det
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+--------------------------------------------------
+
+ERROR: fixed → advmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'plus': 1 times (100.0%)
+
+All lines: 710
+All occurrences:
+  1. Line 710: 'plus' (UPOS: ADV) in sentence 26
+     Gold DEPREL: fixed → System DEPREL: advmod
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+--------------------------------------------------
+
+ERROR: obj → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 720
+All occurrences:
+  1. Line 720: 'que' (UPOS: PRON) in sentence 26
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+--------------------------------------------------
+
+ERROR: xcomp → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'alain': 1 times (100.0%)
+
+All lines: 815
+All occurrences:
+  1. Line 815: 'Alain' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: xcomp → System DEPREL: obj
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+--------------------------------------------------
+
+ERROR: root → appos
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'auteur-compositeur-interprète': 1 times (100.0%)
+
+All lines: 831
+All occurrences:
+  1. Line 831: 'auteur-compositeur-interprète' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: root → System DEPREL: appos
+     Full sentence: Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , au à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dure': 1 times (100.0%)
+
+All lines: 858
+All occurrences:
+  1. Line 858: 'dure' (UPOS: ADJ) in sentence 31
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+--------------------------------------------------
+
+ERROR: root → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'faut': 1 times (100.0%)
+
+All lines: 861
+All occurrences:
+  1. Line 861: 'faut' (UPOS: VERB) in sentence 31
+     Gold DEPREL: root → System DEPREL: parataxis
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  's'': 1 times (100.0%)
+
+All lines: 862
+All occurrences:
+  1. Line 862: 's'' (UPOS: PRON) in sentence 31
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+--------------------------------------------------
+
+ERROR: ccomp → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'attendre': 1 times (100.0%)
+
+All lines: 863
+All occurrences:
+  1. Line 863: 'attendre' (UPOS: VERB) in sentence 31
+     Gold DEPREL: ccomp → System DEPREL: xcomp
+     Full sentence: Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux du de le contre-la-montre .
+
+--------------------------------------------------
+
+ERROR: obl:mod → appos
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'début': 1 times (100.0%)
+
+All lines: 884
+All occurrences:
+  1. Line 884: 'début' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obl:mod → System DEPREL: appos
+     Full sentence: Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+
+--------------------------------------------------
+
+ERROR: ccomp → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'enthousiaste': 1 times (100.0%)
+
+All lines: 905
+All occurrences:
+  1. Line 905: 'enthousiaste' (UPOS: ADJ) in sentence 33
+     Gold DEPREL: ccomp → System DEPREL: amod
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+--------------------------------------------------
+
+ERROR: parataxis → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'copieux': 1 times (100.0%)
+
+All lines: 910
+All occurrences:
+  1. Line 910: 'copieux' (UPOS: ADJ) in sentence 33
+     Gold DEPREL: parataxis → System DEPREL: amod
+     Full sentence: Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+
+--------------------------------------------------
+
+ERROR: mark → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'pour': 1 times (100.0%)
+
+All lines: 929
+All occurrences:
+  1. Line 929: 'pour' (UPOS: ADP) in sentence 34
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+
+--------------------------------------------------
+
+ERROR: obl:arg → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'parties': 1 times (100.0%)
+
+All lines: 972
+All occurrences:
+  1. Line 972: 'parties' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obl:arg → System DEPREL: obj
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+--------------------------------------------------
+
+ERROR: expl:pass → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  's'': 1 times (100.0%)
+
+All lines: 995
+All occurrences:
+  1. Line 995: 's'' (UPOS: PRON) in sentence 36
+     Gold DEPREL: expl:pass → System DEPREL: nmod:poss
+     Full sentence: Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au à le nord-ouest , et la zone de Teisseyre-Tornquist au à le sud-est , la jonction s' effectuant au à le niveau de Bornholm .
+
+--------------------------------------------------
+
+ERROR: root → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'va': 1 times (100.0%)
+
+All lines: 1031
+All occurrences:
+  1. Line 1031: 'va' (UPOS: VERB) in sentence 38
+     Gold DEPREL: root → System DEPREL: advcl
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: xcomp → root
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'organiser': 1 times (100.0%)
+
+All lines: 1032
+All occurrences:
+  1. Line 1032: 'organiser' (UPOS: VERB) in sentence 38
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: aux:caus → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'faisant': 1 times (100.0%)
+
+All lines: 1042
+All occurrences:
+  1. Line 1042: 'faisant' (UPOS: AUX) in sentence 38
+     Gold DEPREL: aux:caus → System DEPREL: xcomp
+     Full sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+--------------------------------------------------
+
+ERROR: nsubj → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'lazy': 1 times (100.0%)
+
+All lines: 1060
+All occurrences:
+  1. Line 1060: 'lazy' (UPOS: X) in sentence 39
+     Gold DEPREL: nsubj → System DEPREL: amod
+     Full sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'différence': 1 times (100.0%)
+
+All lines: 1121
+All occurrences:
+  1. Line 1121: 'différence' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: acl:relcl → System DEPREL: obj
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: root → ccomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'connaît': 1 times (100.0%)
+
+All lines: 1142
+All occurrences:
+  1. Line 1142: 'connaît' (UPOS: VERB) in sentence 41
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due au à le solde naturel passe de -1 à -0,8 .
+
+--------------------------------------------------
+
+ERROR: root → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'présent': 1 times (100.0%)
+
+All lines: 1169
+All occurrences:
+  1. Line 1169: 'présent' (UPOS: ADJ) in sentence 42
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Il ne sera présent que durant les 10 premières parties .
+
+--------------------------------------------------
+
+ERROR: nmod → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  '%': 1 times (100.0%)
+
+All lines: 1196
+All occurrences:
+  1. Line 1196: '%' (UPOS: SYM) in sentence 43
+     Gold DEPREL: nmod → System DEPREL: dep
+     Full sentence: Les capteurs solaires sous vide de Viessmann offrent un rendement optique maximal ( de près 80 % ) .
+
+--------------------------------------------------
+
+ERROR: aux:tense → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 1258
+All occurrences:
+  1. Line 1258: 'a' (UPOS: AUX) in sentence 46
+     Gold DEPREL: aux:tense → System DEPREL: xcomp
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+--------------------------------------------------
+
+ERROR: root → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'eu': 1 times (100.0%)
+
+All lines: 1259
+All occurrences:
+  1. Line 1259: 'eu' (UPOS: VERB) in sentence 46
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+--------------------------------------------------
+
+ERROR: obj:lvc → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'lieu': 1 times (100.0%)
+
+All lines: 1260
+All occurrences:
+  1. Line 1260: 'lieu' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: obj:lvc → System DEPREL: obl
+     Full sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+--------------------------------------------------
+
+ERROR: conj → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'réussi': 1 times (100.0%)
+
+All lines: 1284
+All occurrences:
+  1. Line 1284: 'réussi' (UPOS: VERB) in sentence 47
+     Gold DEPREL: conj → System DEPREL: xcomp
+     Full sentence: Pour sa saison de rookie , il entre au à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+
+--------------------------------------------------
+
+ERROR: root → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'division': 1 times (100.0%)
+
+All lines: 1324
+All occurrences:
+  1. Line 1324: 'division' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: root → System DEPREL: obl
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: acl → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'située': 1 times (100.0%)
+
+All lines: 1328
+All occurrences:
+  1. Line 1328: 'située' (UPOS: VERB) in sentence 49
+     Gold DEPREL: acl → System DEPREL: advcl
+     Full sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+--------------------------------------------------
+
+ERROR: acl → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'emprunté': 1 times (100.0%)
+
+All lines: 1372
+All occurrences:
+  1. Line 1372: 'emprunté' (UPOS: VERB) in sentence 50
+     Gold DEPREL: acl → System DEPREL: parataxis
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+
+ERROR: obl:agent → nmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'interstate': 1 times (100.0%)
+
+All lines: 1375
+All occurrences:
+  1. Line 1375: 'Interstate' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: obl:agent → System DEPREL: nmod
+     Full sentence: Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+
+--------------------------------------------------
+

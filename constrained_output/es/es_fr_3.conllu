@@ -1,0 +1,1290 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica de el Hércules desnudo .
+1	Lo	él	PRON	_	_	2	nsubj	_	_
+2	hizo	hacer	VERB	_	_	0	root	_	_
+3	siguiendo	seguir	VERB	_	_	2	advcl	_	_
+4	las	el	DET	_	_	6	det	_	_
+5	nuevas	nuevo	ADJ	_	_	6	amod	_	_
+6	corrientes	corriente	NOUN	_	_	3	obj	_	_
+7	aprendidas	aprender	VERB	_	_	6	acl	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	Apulia	apulia	PROPN	_	_	7	obl	_	_
+10	sobre	sobre	ADP	_	_	13	case	_	_
+11	todo	todo	DET	_	_	13	det	_	_
+12	haciendo	hacer	VERB	_	_	3	xcomp	_	_
+13	hincapié	hincapié	NOUN	_	_	1	obl	_	_
+14	en	en	ADP	_	_	12	mark	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	forma	forma	NOUN	_	_	1	obl	_	_
+17	clásica	clásico	ADJ	_	_	16	amod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	2	case	_	_
+19	el	el	DET	_	_	20	det	_	_
+20	Hércules	hércules	PROPN	_	_	13	nmod	_	_
+21	desnudo	desnudo	ADJ	_	_	20	amod	_	_
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2
+# text = Más tarde se cambió la dinámica de su presentación , transmitiendo se las dos últimas semanas de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+1	Más	más	ADV	_	_	4	advmod	_	_
+2	tarde	tarde	ADV	_	_	4	advmod	_	_
+3	se	él	PRON	_	_	1	nsubj	_	_
+4	cambió	cambiar	VERB	_	_	0	root	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	dinámica	dinámica	NOUN	_	_	4	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	su	su	DET	_	_	9	det	_	_
+9	presentación	presentación	NOUN	_	_	6	nmod	_	_
+10	,	,	PUNCT	_	_	6	punct	_	_
+11-12	transmitiéndose	_	_	_	_	_	_	_	_
+11	transmitiendo	transmitir	VERB	_	_	4	xcomp	_	_
+12	se	él	PRON	_	_	10	nsubj	_	_
+13	las	el	DET	_	_	16	det	_	_
+14	dos	dos	NUM	_	_	1	nummod	_	_
+15	últimas	último	ADJ	_	_	16	amod	_	_
+16	semanas	semana	NOUN	_	_	1	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	el	el	DET	_	_	19	det	_	_
+19	año	año	NOUN	_	_	1	obl	_	_
+20	con	con	ADP	_	_	11	mark	_	_
+21	10	10	NUM	_	_	2	nummod	_	_
+22	videos	vídeo	NOUN	_	_	2	obl	_	_
+23	por	por	ADP	_	_	24	case	_	_
+24	día	día	NOUN	_	_	2	obl	_	_
+25	en	en	ADP	_	_	28	case	_	_
+26	el	el	DET	_	_	28	det	_	_
+27	mismo	mismo	ADJ	_	_	24	amod	_	_
+28	horario	horario	NOUN	_	_	2	obl	_	_
+29	de	de	ADP	_	_	33	case	_	_
+30	Los	él	DET	_	_	33	det	_	_
+31	10	10	NUM	_	_	30	nummod	_	_
+32	+	+	SYM	_	_	3	dep	_	_
+33	pedidos	pedido	NOUN	_	_	2	obl	_	_
+34	;	;	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3
+# text = El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+1	El	el	DET	_	_	2	det	_	_
+2	Acta	acta	NOUN	_	_	10	obl	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	Independencia	independencia	NOUN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Guayaquil	guayaquil	PROPN	_	_	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	está	estar	AUX	_	_	10	conj	_	_
+10	escrita	escribir	VERB	_	_	0	root	_	_
+11	en	en	ADP	_	_	13	case	_	_
+12	el	el	DET	_	_	13	det	_	_
+13	fuste	fuste	NOUN	_	_	10	obl	_	_
+14	de	de	ADP	_	_	10	mark	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	columna	columna	NOUN	_	_	10	obl	_	_
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4
+# text = Con la creación de este disco , existirá una plataforma que le permitirá a el grupo dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+1	Con	con	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	creación	creación	NOUN	_	_	8	nsubj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	_	6	det	_	_
+6	disco	disco	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	existirá	existir	VERB	_	_	0	root	_	_
+9	una	uno	DET	_	_	10	det	_	_
+10	plataforma	plataforma	NOUN	_	_	8	obl	_	_
+11	que	que	PRON	_	_	10	nmod:poss	_	_
+12	le	él	PRON	_	_	1	obl	_	_
+13	permitirá	permitir	VERB	_	_	8	xcomp	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	el	el	DET	_	_	16	det	_	_
+16	grupo	grupo	NOUN	_	_	1	obl	_	_
+17-18	darse	_	_	_	_	_	_	_	_
+17	dar	dar	VERB	_	_	1	xcomp	_	_
+18	se	él	PRON	_	_	1	obl	_	_
+19	a	a	ADP	_	_	17	mark	_	_
+20	conocer	conocer	VERB	_	_	10	acl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	programando	programar	VERB	_	_	1	advcl	_	_
+23	a	a	ADP	_	_	20	mark	_	_
+24	corto	corto	ADJ	_	_	25	amod	_	_
+25	plazo	plazo	NOUN	_	_	2	obl	_	_
+26	las	el	DET	_	_	28	det	_	_
+27	posteriores	posterior	ADJ	_	_	25	amod	_	_
+28	etapas	etapa	NOUN	_	_	21	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	diseño	diseño	NOUN	_	_	20	obl	_	_
+31	de	de	ADP	_	_	34	case	_	_
+32	carátula	carátula	NOUN	_	_	30	nmod	_	_
+33	,	,	PUNCT	_	_	30	punct	_	_
+34	multiplicación	multiplicación	NOUN	_	_	3	appos	_	_
+35	y	y	CCONJ	_	_	3	cc	_	_
+36	distribución	distribución	NOUN	_	_	3	appos	_	_
+37	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5
+# text = Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+1	Como	como	SCONJ	_	_	3	mark	_	_
+2	ha	haber	AUX	_	_	3	advcl	_	_
+3	quedado	quedar	VERB	_	_	0	root	_	_
+4	dicho	dicho	VERB	_	_	3	xcomp	_	_
+5	en	en	ADP	_	_	3	dep	_	_
+6	la	el	DET	_	_	7	det	_	_
+7	reseña	reseña	NOUN	_	_	5	obl	_	_
+8	histórica	histórico	ADJ	_	_	7	amod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	castillo	castillo	NOUN	_	_	14	nsubj	_	_
+12	-	-	PUNCT	_	_	11	punct	_	_
+13	palacio	palacio	NOUN	_	_	18	appos	_	_
+14	fue	ser	AUX	_	_	3	ccomp	_	_
+15	solar	solar	NOUN	_	_	18	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	los	el	DET	_	_	18	det	_	_
+18	Padilla	padilla	PROPN	_	_	3	obl	_	_
+19	y	y	CCONJ	_	_	1	cc	_	_
+20	en	en	ADP	_	_	2	case	_	_
+21	él	él	PRON	_	_	2	obl	_	_
+22	nacieron	nacir	VERB	_	_	27	acl	_	_
+23	varios	varios	DET	_	_	26	det	_	_
+24	de	de	ADP	_	_	22	mark	_	_
+25	sus	su	DET	_	_	27	det	_	_
+26	destacados	destacado	ADJ	_	_	27	amod	_	_
+27	miembros	miembro	NOUN	_	_	20	obl	_	_
+28	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 6
+# text = Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+1	Los	el	DET	_	_	2	det	_	_
+2	arrestos	arresto	NOUN	_	_	8	obl	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	estas	este	DET	_	_	6	det	_	_
+5	diez	diez	NUM	_	_	6	nummod	_	_
+6	personas	persona	NOUN	_	_	2	nmod	_	_
+7	fueron	ser	AUX	_	_	8	conj	_	_
+8	coordinados	coordinar	VERB	_	_	0	root	_	_
+9	por	por	ADP	_	_	8	dep	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	juez	juez	NOUN	_	_	9	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	la	el	DET	_	_	14	det	_	_
+14	Audiencia	audiencia	NOUN	_	_	11	nmod	_	_
+15	Nacional	nacional	ADJ	_	_	14	amod	_	_
+16	Fernando	fernando	PROPN	_	_	11	appos	_	_
+17	Grande	grande	PROPN	_	_	11	appos	_	_
+18	Marlaska	marlaska	PROPN	_	_	11	appos	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 7
+# text = El D.III volvió a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural de el ala inferior .
+1	El	el	DET	_	_	2	det	_	_
+2	D.III	d.iii	PROPN	_	_	3	nsubj	_	_
+3	volvió	volver	VERB	_	_	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	servicio	servicio	NOUN	_	_	3	obl	_	_
+7	con	con	ADP	_	_	8	case	_	_
+8	modificaciones	modificación	NOUN	_	_	6	nmod	_	_
+9	en	en	ADP	_	_	11	case	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	ala	ala	NOUN	_	_	8	nmod	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	abril	abril	NOUN	_	_	3	obl	_	_
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	pero	pero	CCONJ	_	_	1	cc	_	_
+16	éstas	este	PRON	_	_	11	nmod:poss	_	_
+17	fallaron	fallar	VERB	_	_	1	ccomp	_	_
+18	en	en	ADP	_	_	17	mark	_	_
+19	resolver	resolver	VERB	_	_	1	xcomp	_	_
+20	el	el	DET	_	_	21	det	_	_
+21	problema	problema	NOUN	_	_	1	obl	_	_
+22	estructural	estructural	ADJ	_	_	21	amod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	ala	ala	NOUN	_	_	21	nmod	_	_
+26	inferior	inferior	ADJ	_	_	25	amod	_	_
+27	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 8
+# text = Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+1	Jerónimo	jerónimo	PROPN	_	_	0	root	_	_
+2	Martín	martín	PROPN	_	_	1	appos	_	_
+3	Caro	caro	PROPN	_	_	1	appos	_	_
+4	y	y	CCONJ	_	_	5	cc	_	_
+5	Cejudo	cejudo	PROPN	_	_	1	appos	_	_
+6	(	(	PUNCT	_	_	1	punct	_	_
+7	Valdepeñas	valdepeñas	PROPN	_	_	1	obl	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	provincia	provincia	NOUN	_	_	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Ciudad	ciudad	PROPN	_	_	9	nmod	_	_
+12	Real	real	PROPN	_	_	10	nmod	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	6	6	NUM	_	_	1	nummod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	noviembre	noviembre	NOUN	_	_	1	nmod	_	_
+17	de	de	ADP	_	_	1	case	_	_
+18	1630	1630	NUM	_	_	1	nummod	_	_
+19	--	--	PUNCT	_	_	14	punct	_	_
+20	1712	1712	NUM	_	_	1	nummod	_	_
+21	)	)	PUNCT	_	_	16	punct	_	_
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	humanista	humanista	NOUN	_	_	2	appos	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	gramático	gramático	NOUN	_	_	2	appos	_	_
+26	y	y	CCONJ	_	_	2	cc	_	_
+27	paremiógrafo	paremiógrafo	NOUN	_	_	2	appos	_	_
+28	español	español	ADJ	_	_	25	amod	_	_
+29	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 9
+# text = Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+1	Suipacha	suipacha	PROPN	_	_	4	nmod	_	_
+2	es	ser	AUX	_	_	0	root	_	_
+3	la	el	DET	_	_	4	det	_	_
+4	estación	estación	NOUN	_	_	2	obj	_	_
+5	ferroviaria	ferroviario	ADJ	_	_	4	amod	_	_
+6	de	de	ADP	_	_	10	case	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	ciudad	ciudad	NOUN	_	_	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Suipacha	suipacha	PROPN	_	_	4	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	partido	partido	NOUN	_	_	15	nmod	_	_
+13	homónimo	homónimo	ADJ	_	_	10	amod	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	provincia	provincia	NOUN	_	_	1	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Buenos	buenos	PROPN	_	_	1	nmod	_	_
+18	Aires	aires	PROPN	_	_	1	nmod	_	_
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	Argentina	argentina	PROPN	_	_	1	nmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 10
+# text = Dos años atrás el maestro Alberto Trujillo promueve a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+1	Dos	dos	NUM	_	_	4	nummod	_	_
+2	años	año	NOUN	_	_	12	nmod	_	_
+3	atrás	atrás	ADV	_	_	25	advmod	_	_
+4	el	el	DET	_	_	5	det	_	_
+5	maestro	maestro	NOUN	_	_	8	nsubj	_	_
+6	Alberto	alberto	PROPN	_	_	5	appos	_	_
+7	Trujillo	trujillo	PROPN	_	_	5	appos	_	_
+8	promueve	promover	VERB	_	_	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	sensei	sensei	NOUN	_	_	8	obj	_	_
+12	Jorge	jorge	PROPN	_	_	5	appos	_	_
+13	Moncayo	moncayo	PROPN	_	_	11	appos	_	_
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	actualmente	actualmente	ADV	_	_	25	advmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	3er	3er	NUM	_	_	10	nummod	_	_
+18	Dan	dan	NOUN	_	_	17	nmod	_	_
+19	en	en	ADP	_	_	21	case	_	_
+20	este	este	DET	_	_	21	det	_	_
+21	estilo	estilo	NOUN	_	_	11	nmod	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	a	a	ADP	_	_	25	mark	_	_
+24	que	que	SCONJ	_	_	2	mark	_	_
+25	maneje	manejar	VERB	_	_	8	advcl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	manera	manera	NOUN	_	_	2	nmod	_	_
+28	profesional	profesional	ADJ	_	_	27	amod	_	_
+29	todo	todo	DET	_	_	27	det	_	_
+30	lo	él	PRON	_	_	2	nmod:poss	_	_
+31	relacionado	relacionado	VERB	_	_	3	xcomp	_	_
+32	a	a	ADP	_	_	34	case	_	_
+33	este	este	DET	_	_	34	det	_	_
+34	tema	tema	NOUN	_	_	3	obl	_	_
+35	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 11
+# text = Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+1	Lite	lite	PROPN	_	_	4	nsubj	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	Brite	brite	PROPN	_	_	1	appos	_	_
+4	permite	permitir	VERB	_	_	0	root	_	_
+5	que	que	SCONJ	_	_	4	mark	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	artista	artista	NOUN	_	_	8	nsubj	_	_
+8	cree	crear	VERB	_	_	4	xcomp	_	_
+9	dibujos	dibujo	NOUN	_	_	8	obj	_	_
+10	iluminados	iluminado	ADJ	_	_	9	amod	_	_
+11	usando	usar	VERB	_	_	8	advcl	_	_
+12	estanquillas	estanquilla	NOUN	_	_	10	obl	_	_
+13	multicolores	multicolor	ADJ	_	_	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	plástico	plástico	NOUN	_	_	1	nmod	_	_
+16	en	en	ADP	_	_	18	case	_	_
+17	un	uno	DET	_	_	18	det	_	_
+18	tablero	tablero	NOUN	_	_	1	nmod	_	_
+19	negro	negro	ADJ	_	_	18	amod	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 12
+# text = En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+1	En	en	ADP	_	_	2	case	_	_
+2	realidad	realidad	NOUN	_	_	10	obl	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	es	ser	AUX	_	_	22	conj	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	biblioteca	biblioteca	NOUN	_	_	10	nsubj	_	_
+7	libc	libc	PROPN	_	_	6	appos	_	_
+8	la	el	DET	_	_	6	det	_	_
+9	que	que	PRON	_	_	12	nmod	_	_
+10	implementa	implementar	VERB	_	_	0	root	_	_
+11	la	el	DET	_	_	12	det	_	_
+12	API	api	PROPN	_	_	10	obj	_	_
+13	POSIX	posix	PROPN	_	_	11	nmod	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	igual	igual	ADJ	_	_	12	amod	_	_
+16	que	que	SCONJ	_	_	1	mark	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	Linux	linux	PROPN	_	_	1	obl	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	y	y	CCONJ	_	_	2	cc	_	_
+21	Hurd	hurd	PROPN	_	_	22	nsubj	_	_
+22	da	dar	VERB	_	_	10	parataxis	_	_
+23	una	uno	DET	_	_	24	det	_	_
+24	interfaz	interfaz	NOUN	_	_	2	appos	_	_
+25	cercana	cercano	ADJ	_	_	24	amod	_	_
+26	pero	pero	CCONJ	_	_	2	cc	_	_
+27	de	de	ADP	_	_	22	mark	_	_
+28	más	más	ADJ	_	_	30	amod	_	_
+29	bajo	bajo	ADJ	_	_	30	amod	_	_
+30	nivel	nivel	NOUN	_	_	20	obl	_	_
+31	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 13
+# text = Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir a el anciano de que la retire .
+1	Tan	tanto	DET	_	_	3	det	_	_
+2	solo	sólo	ADV	_	_	4	advmod	_	_
+3	Lemke	lemke	PROPN	_	_	4	nsubj	_	_
+4	puede	poder	VERB	_	_	0	root	_	_
+5	retirar	retirar	VERB	_	_	4	xcomp	_	_
+6	la	el	DET	_	_	7	det	_	_
+7	maldición	maldición	NOUN	_	_	5	obj	_	_
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	y	y	CCONJ	_	_	1	cc	_	_
+10	Billy	billy	PROPN	_	_	9	nsubj	_	_
+11	trata	tratar	VERB	_	_	10	acl	_	_
+12	de	de	ADP	_	_	11	mark	_	_
+13	persuadir	persuadir	VERB	_	_	1	xcomp	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	11	mark	_	_
+15	el	el	DET	_	_	16	det	_	_
+16	anciano	anciano	NOUN	_	_	1	obl	_	_
+17	de	de	ADP	_	_	11	mark	_	_
+18	que	que	SCONJ	_	_	1	mark	_	_
+19	la	él	DET	_	_	16	det	_	_
+20	retire	retire	VERB	_	_	10	acl	_	_
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 14
+# text = En ese momento , existían ocho facultades con aproximadamente 10000 estudiantes .
+1	En	en	ADP	_	_	3	case	_	_
+2	ese	ese	DET	_	_	3	det	_	_
+3	momento	momento	NOUN	_	_	5	nsubj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	existían	existir	VERB	_	_	0	root	_	_
+6	ocho	ocho	NUM	_	_	5	nummod	_	_
+7	facultades	facultad	NOUN	_	_	5	obl	_	_
+8	con	con	ADP	_	_	11	case	_	_
+9	aproximadamente	aproximadamente	ADV	_	_	5	advmod	_	_
+10	10000	10000	NUM	_	_	1	nummod	_	_
+11	estudiantes	estudiante	NOUN	_	_	7	nmod	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 15
+# text = La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+1	La	el	DET	_	_	12	dep	_	_
+2	vista	vista	NOUN	_	_	6	appos	_	_
+3	trasera	trasero	ADJ	_	_	6	amod	_	_
+4	es	ser	AUX	_	_	12	csubj	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	vista	vista	NOUN	_	_	1	nsubj	_	_
+7	en	en	ADP	_	_	11	case	_	_
+8	la	el	DET	_	_	11	det	_	_
+9	que	que	SCONJ	_	_	1	mark	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	jugador	jugador	NOUN	_	_	6	nmod	_	_
+12	puede	poder	VERB	_	_	0	root	_	_
+13	ver	ver	VERB	_	_	1	xcomp	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	parte	parte	NOUN	_	_	1	obl	_	_
+16	trasera	trasero	ADJ	_	_	15	amod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	su	su	DET	_	_	19	det	_	_
+19	Custom	custom	PROPN	_	_	11	nmod	_	_
+20	Robo	robo	PROPN	_	_	17	nmod	_	_
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 16
+# text = Aun hay otros reclutados por el Ejército Blanco .
+1	Aun	aun	ADV	_	_	4	advmod	_	_
+2	hay	haber	AUX	_	_	4	csubj	_	_
+3	otros	otro	ADJ	_	_	4	amod	_	_
+4	reclutados	reclutar	VERB	_	_	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	Ejército	ejército	NOUN	_	_	4	obl	_	_
+8	Blanco	blanco	ADJ	_	_	7	amod	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa de el Mundo en Sudáfrica .
+1	Joseph	joseph	PROPN	_	_	3	nsubj	_	_
+2	Blatter	blatter	PROPN	_	_	1	appos	_	_
+3	espera	esperar	VERB	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	3	mark	_	_
+5	Nelson	nelson	PROPN	_	_	3	obl	_	_
+6	Mandela	mandela	PROPN	_	_	5	appos	_	_
+7	esté	estar	AUX	_	_	10	conj	_	_
+8	saludable	saludable	ADJ	_	_	6	amod	_	_
+9	para	para	ADP	_	_	10	mark	_	_
+10	inaugurar	inaugurar	VERB	_	_	3	xcomp	_	_
+11	la	el	DET	_	_	12	det	_	_
+12	Copa	copa	PROPN	_	_	16	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	el	el	DET	_	_	15	det	_	_
+15	Mundo	mundo	PROPN	_	_	11	nmod	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	Sudáfrica	sudáfrica	PROPN	_	_	10	obl	_	_
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 18
+# text = De niña se trasladó a Inglaterra para educar se en Hertfortshire donde aprendió a nadar .
+1	De	de	ADP	_	_	2	case	_	_
+2	niña	niña	NOUN	_	_	4	nsubj	_	_
+3	se	él	PRON	_	_	4	nsubj	_	_
+4	trasladó	trasladar	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	Inglaterra	inglaterra	PROPN	_	_	4	obl	_	_
+7	para	para	ADP	_	_	4	mark	_	_
+8-9	educarse	_	_	_	_	_	_	_	_
+8	educar	educar	VERB	_	_	1	xcomp	_	_
+9	se	él	PRON	_	_	8	obj	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	Hertfortshire	hertfortshire	PROPN	_	_	8	obl	_	_
+12	donde	donde	ADV	_	_	13	advmod	_	_
+13	aprendió	aprender	VERB	_	_	4	advcl	_	_
+14	a	a	ADP	_	_	13	mark	_	_
+15	nadar	nadar	VERB	_	_	10	xcomp	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 19
+# text = Ir a este colegio , para mí la peor experiencia de mi vida .
+1	Ir	ir	VERB	_	_	0	root	_	_
+2	a	a	ADP	_	_	1	mark	_	_
+3	este	este	DET	_	_	4	det	_	_
+4	colegio	colegio	NOUN	_	_	10	nmod	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	mí	yo	PRON	_	_	1	obl	_	_
+8	la	el	DET	_	_	10	det	_	_
+9	peor	peor	ADJ	_	_	10	amod	_	_
+10	experiencia	experiencia	NOUN	_	_	1	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	mi	mi	PRON	_	_	1	obl	_	_
+13	vida	vida	NOUN	_	_	10	nmod	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 20
+# text = Ambos son químicamente idénticos .
+1	Ambos	ambos	DET	_	_	4	det	_	_
+2	son	ser	AUX	_	_	0	root	_	_
+3	químicamente	químicamente	ADV	_	_	4	advmod	_	_
+4	idénticos	idéntico	ADJ	_	_	2	amod	_	_
+5	.	.	PUNCT	_	_	2	dep	_	_
+
+# sent_id = 21
+# text = En 1965 se inauguró el puente que une Punta de el Este con La Barra .
+1	En	en	ADP	_	_	3	case	_	_
+2	1965	1965	NUM	_	_	4	nummod	_	_
+3	se	él	PRON	_	_	4	nsubj	_	_
+4	inauguró	inaugurar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	puente	puente	NOUN	_	_	4	obj	_	_
+7	que	que	SCONJ	_	_	6	mark	_	_
+8	une	unir	VERB	_	_	7	ccomp	_	_
+9	Punta	punta	NOUN	_	_	8	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	Este	este	NOUN	_	_	9	nmod	_	_
+13	con	con	ADP	_	_	15	case	_	_
+14	La	el	DET	_	_	15	det	_	_
+15	Barra	barra	NOUN	_	_	1	obl	_	_
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 22
+# text = Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+1	Mesnil	mesnil	PROPN	_	_	12	obl	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	sur	sur	ADP	_	_	5	case	_	_
+4	-	-	PUNCT	_	_	1	punct	_	_
+5	l'Estrée	l'estrée	PROPN	_	_	10	nmod	_	_
+6	es	ser	AUX	_	_	12	csubj	_	_
+7	una	uno	DET	_	_	8	det	_	_
+8	localidad	localidad	NOUN	_	_	1	appos	_	_
+9	y	y	CCONJ	_	_	1	cc	_	_
+10	comuna	comuna	NOUN	_	_	1	appos	_	_
+11	francesa	francés	ADJ	_	_	10	amod	_	_
+12	situada	situar	VERB	_	_	0	root	_	_
+13	en	en	ADP	_	_	12	mark	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	región	región	NOUN	_	_	10	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	Alta	alta	ADJ	_	_	15	amod	_	_
+18	Normandía	normandía	PROPN	_	_	10	nmod	_	_
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	departamento	departamento	NOUN	_	_	10	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Eure	eure	PROPN	_	_	26	nmod	_	_
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	en	en	ADP	_	_	26	case	_	_
+25	el	el	DET	_	_	26	det	_	_
+26	distrito	distrito	NOUN	_	_	12	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Évreux	évreux	PROPN	_	_	23	obl	_	_
+29	y	y	CCONJ	_	_	3	cc	_	_
+30	cantón	cantón	NOUN	_	_	2	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Nonancourt	nonancourt	PROPN	_	_	3	obl	_	_
+33	.	.	PUNCT	_	_	12	dep	_	_
+
+# sent_id = 23
+# text = Limita a el norte y a el este con la comuna de Cama , a el sur con Grono , y a el occidente con Verdabbio .
+1	Limita	limita	VERB	_	_	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	el	el	DET	_	_	4	det	_	_
+4	norte	norte	NOUN	_	_	1	obl	_	_
+5	y	y	CCONJ	_	_	4	cc	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	este	este	NOUN	_	_	4	appos	_	_
+9	con	con	ADP	_	_	11	case	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	comuna	comuna	NOUN	_	_	1	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Cama	cama	PROPN	_	_	1	obl	_	_
+14	,	,	PUNCT	_	_	11	punct	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	el	el	DET	_	_	17	det	_	_
+17	sur	sur	NOUN	_	_	1	obl	_	_
+18	con	con	ADP	_	_	19	case	_	_
+19	Grono	grono	PROPN	_	_	1	obl	_	_
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	y	y	CCONJ	_	_	2	cc	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	_	_	26	case	_	_
+23	el	el	DET	_	_	24	det	_	_
+24	occidente	occidente	NOUN	_	_	2	obl	_	_
+25	con	con	ADP	_	_	26	case	_	_
+26	Verdabbio	verdabbio	PROPN	_	_	2	obl	_	_
+27	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 24
+# text = No tiene cura conocida , y frecuentemente desemboca en la muerte .
+1	No	no	PART	_	_	2	advmod	_	_
+2	tiene	tener	VERB	_	_	0	root	_	_
+3	cura	cura	NOUN	_	_	2	obj	_	_
+4	conocida	conocido	ADJ	_	_	3	amod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	y	y	CCONJ	_	_	8	cc	_	_
+7	frecuentemente	frecuentemente	ADV	_	_	8	advmod	_	_
+8	desemboca	desembocar	VERB	_	_	2	conj	_	_
+9	en	en	ADP	_	_	11	case	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	muerte	muerte	NOUN	_	_	8	obl	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 25
+# text = Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años de el club .
+1	Interpretado	interpretar	VERB	_	_	0	root	_	_
+2	por	por	ADP	_	_	1	case	_	_
+3	Plácido	plácido	PROPN	_	_	1	obl	_	_
+4	Domingo	domingo	PROPN	_	_	3	appos	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	y	y	CCONJ	_	_	1	cc	_	_
+7	con	con	ADP	_	_	1	case	_	_
+8	el	el	DET	_	_	10	det	_	_
+9	propio	propio	ADJ	_	_	10	amod	_	_
+10	José	josé	PROPN	_	_	13	nsubj	_	_
+11	María	maría	PROPN	_	_	1	obl	_	_
+12	Cano	cano	PROPN	_	_	1	obl	_	_
+13	dirigiendo	dirigir	VERB	_	_	1	xcomp	_	_
+14	una	uno	DET	_	_	15	det	_	_
+15	banda	banda	NOUN	_	_	10	nmod	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	es	ser	AUX	_	_	13	conj	_	_
+18	interpretado	interpretar	VERB	_	_	10	acl	_	_
+19	en	en	ADP	_	_	18	case	_	_
+20	el	el	DET	_	_	21	det	_	_
+21	Estadio	estadio	PROPN	_	_	1	obl	_	_
+22	Santiago	santiago	PROPN	_	_	20	nmod	_	_
+23	Bernabéu	bernabéu	PROPN	_	_	2	nmod	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	día	día	NOUN	_	_	1	obl	_	_
+26	en	en	ADP	_	_	28	case	_	_
+27	que	que	SCONJ	_	_	2	mark	_	_
+28	se	él	PRON	_	_	2	obl	_	_
+29	celebran	celebrar	VERB	_	_	21	acl	_	_
+30	los	el	DET	_	_	32	det	_	_
+31	cien	cien	NUM	_	_	3	nummod	_	_
+32	años	año	NOUN	_	_	20	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	el	el	DET	_	_	35	det	_	_
+35	club	club	NOUN	_	_	3	nmod	_	_
+36	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 26
+# text = Para la mamá de Coraline , es alcohólico .
+1	Para	para	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	mamá	mamá	NOUN	_	_	7	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Coraline	coraline	PROPN	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	es	ser	AUX	_	_	0	root	_	_
+8	alcohólico	alcohólico	ADJ	_	_	5	amod	_	_
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 27
+# text = Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+1	Varios	varios	ADJ	_	_	14	amod	_	_
+2	años	año	NOUN	_	_	1	obl	_	_
+3	más	más	ADV	_	_	1	advmod	_	_
+4	tarde	tarde	ADV	_	_	1	advmod	_	_
+5	y	y	CCONJ	_	_	7	cc	_	_
+6	ante	ante	ADP	_	_	16	mark	_	_
+7	la	el	DET	_	_	9	det	_	_
+8	no	no	PART	_	_	9	mark	_	_
+9	ejecución	ejecución	NOUN	_	_	6	obl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	ese	ese	DET	_	_	12	det	_	_
+12	proyecto	proyecto	NOUN	_	_	9	nmod	_	_
+13	se	él	PRON	_	_	1	nsubj	_	_
+14	vuelve	volver	VERB	_	_	0	root	_	_
+15	a	a	ADP	_	_	18	case	_	_
+16	organizar	organizar	VERB	_	_	1	xcomp	_	_
+17	este	este	DET	_	_	18	det	_	_
+18	acto	acto	NOUN	_	_	1	obl	_	_
+19	reivindicativo	reivindicativo	ADJ	_	_	18	amod	_	_
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	que	que	PRON	_	_	2	nmod:poss	_	_
+22	busca	buscar	VERB	_	_	2	acl	_	_
+23	que	que	SCONJ	_	_	2	mark	_	_
+24	se	él	PRON	_	_	2	nmod:poss	_	_
+25	vea	ver	VERB	_	_	2	acl	_	_
+26	el	el	DET	_	_	27	det	_	_
+27	castillo	castillo	NOUN	_	_	2	nmod	_	_
+28	desde	desde	ADP	_	_	29	case	_	_
+29	Huesca	huesca	PROPN	_	_	2	nmod	_	_
+30	y	y	CCONJ	_	_	3	cc	_	_
+31	también	también	ADV	_	_	3	advmod	_	_
+32	para	para	ADP	_	_	35	case	_	_
+33	todas	todo	DET	_	_	35	det	_	_
+34	las	el	DET	_	_	35	det	_	_
+35	personas	persona	NOUN	_	_	3	obl	_	_
+36	que	que	PRON	_	_	35	nmod:poss	_	_
+37	transiten	transitar	VERB	_	_	3	xcomp	_	_
+38	por	por	ADP	_	_	37	mark	_	_
+39	la	el	DET	_	_	40	det	_	_
+40	N	n	NOUN	_	_	3	obl	_	_
+41	-	-	PUNCT	_	_	40	punct	_	_
+42	240	240	NUM	_	_	4	nummod	_	_
+43	.	.	PUNCT	_	_	14	dep	_	_
+
+# sent_id = 28
+# text = El sushi es de mala calidad .
+1	El	el	DET	_	_	2	det	_	_
+2	sushi	sushi	NOUN	_	_	3	nsubj	_	_
+3	es	ser	AUX	_	_	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	mala	malo	ADJ	_	_	6	amod	_	_
+6	calidad	calidad	NOUN	_	_	3	obl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 29
+# text = Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+1	Según	según	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	censo	censo	NOUN	_	_	7	nsubj	_	_
+4	de	de	ADP	_	_	7	mark	_	_
+5	2010	2010	NUM	_	_	7	nummod	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	había	haber	VERB	_	_	0	root	_	_
+8	30104	3104	NUM	_	_	7	nummod	_	_
+9	personas	persona	NOUN	_	_	7	obj	_	_
+10	residiendo	residir	VERB	_	_	9	acl	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	Brooklyn	brooklyn	PROPN	_	_	1	obl	_	_
+13	Center	center	PROPN	_	_	1	obl	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 30
+# text = También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+1	También	también	ADV	_	_	3	advmod	_	_
+2	se	él	PRON	_	_	3	nsubj	_	_
+3	visualizan	visualizar	VERB	_	_	0	root	_	_
+4	numerosas	numeroso	ADJ	_	_	5	amod	_	_
+5	depresiones	depresión	NOUN	_	_	32	nsubj	_	_
+6	que	que	PRON	_	_	7	nsubj	_	_
+7	dan	dar	VERB	_	_	5	acl	_	_
+8	origen	origen	NOUN	_	_	7	obj	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	médanos	médano	NOUN	_	_	8	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	gran	gran	ADJ	_	_	10	amod	_	_
+13	superficie	superficie	NOUN	_	_	1	nmod	_	_
+14	(	(	PUNCT	_	_	10	punct	_	_
+15	Médanos	médanos	PROPN	_	_	1	nmod	_	_
+16	Grandes	grandes	ADJ	_	_	13	amod	_	_
+17	)	)	PUNCT	_	_	12	punct	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	cuencas	cuenca	NOUN	_	_	1	nmod	_	_
+20	rellenadas	rellenar	VERB	_	_	1	xcomp	_	_
+21	con	con	ADP	_	_	20	mark	_	_
+22	depósitos	depósito	NOUN	_	_	21	obl	_	_
+23	fluviales	fluvial	ADJ	_	_	22	amod	_	_
+24	(	(	PUNCT	_	_	20	punct	_	_
+25	agua	agua	NOUN	_	_	21	obl	_	_
+26	)	)	PUNCT	_	_	21	punct	_	_
+27	y	y	CCONJ	_	_	2	cc	_	_
+28	eólicos	eólico	ADJ	_	_	25	amod	_	_
+29	(	(	PUNCT	_	_	25	punct	_	_
+30	viento	viento	NOUN	_	_	20	obl	_	_
+31	)	)	PUNCT	_	_	27	punct	_	_
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 31
+# text = Durante la temporada promedió 5 puntos y 2.4 rebotes .
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	temporada	temporada	NOUN	_	_	4	nsubj	_	_
+4	promedió	promeder	VERB	_	_	0	root	_	_
+5	5	5	NUM	_	_	4	nummod	_	_
+6	puntos	punto	NOUN	_	_	5	nmod	_	_
+7	y	y	CCONJ	_	_	8	cc	_	_
+8	2.4	2.4	NUM	_	_	9	nummod	_	_
+9	rebotes	rebote	NOUN	_	_	4	obl	_	_
+10	.	.	PUNCT	_	_	4	dep	_	_
+
+# sent_id = 32
+# text = Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+1	Vidic	vidic	PROPN	_	_	7	nsubj	_	_
+2	es	ser	AUX	_	_	15	conj	_	_
+3	el	el	DET	_	_	4	det	_	_
+4	defensa	defensa	NOUN	_	_	7	nsubj	_	_
+5	que	que	SCONJ	_	_	1	mark	_	_
+6	más	más	ADV	_	_	7	advmod	_	_
+7	gusta	gustar	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	aunque	aunque	SCONJ	_	_	7	mark	_	_
+10	confian	confiar	VERB	_	_	9	ccomp	_	_
+11	que	que	SCONJ	_	_	1	mark	_	_
+12	el	el	DET	_	_	1	det	_	_
+13	serbio	serbio	ADJ	_	_	1	amod	_	_
+14	pueda	poder	AUX	_	_	15	conj	_	_
+15	recalar	recalar	VERB	_	_	7	conj	_	_
+16	la	el	DET	_	_	18	det	_	_
+17	próxima	próximo	ADJ	_	_	18	amod	_	_
+18	temporada	temporada	NOUN	_	_	1	nmod	_	_
+19	(	(	PUNCT	_	_	14	punct	_	_
+20	ver	ver	VERB	_	_	1	acl	_	_
+21	artículo	artículo	NOUN	_	_	2	obj	_	_
+22	)	)	PUNCT	_	_	17	punct	_	_
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 33
+# text = El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+1	El	el	DET	_	_	15	dep	_	_
+2	municipio	municipio	NOUN	_	_	1	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Pennsylvania	pennsylvania	PROPN	_	_	20	appos	_	_
+5	(	(	PUNCT	_	_	4	punct	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	inglés	inglés	NOUN	_	_	4	appos	_	_
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	Pennsylvania	pennsylvania	PROPN	_	_	4	appos	_	_
+10	Township	township	PROPN	_	_	9	appos	_	_
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	es	ser	AUX	_	_	15	conj	_	_
+13	un	uno	DET	_	_	14	det	_	_
+14	municipio	municipio	NOUN	_	_	1	nsubj	_	_
+15	ubicado	ubicar	VERB	_	_	0	root	_	_
+16	en	en	ADP	_	_	18	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	condado	condado	NOUN	_	_	1	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Mason	mason	PROPN	_	_	1	obl	_	_
+21	en	en	ADP	_	_	23	case	_	_
+22	el	el	DET	_	_	23	det	_	_
+23	estado	estado	NOUN	_	_	20	nmod	_	_
+24	estadounidense	estadounidense	ADJ	_	_	23	amod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Illinois	illinois	PROPN	_	_	20	nmod	_	_
+27	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 34
+# text = Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+1	Se	él	PRON	_	_	2	nsubj	_	_
+2	hizo	hacer	VERB	_	_	0	root	_	_
+3	tan	tanto	ADV	_	_	4	advmod	_	_
+4	fatuo	fatuo	ADJ	_	_	2	xcomp	_	_
+5	que	que	SCONJ	_	_	4	mark	_	_
+6	pretendió	pretender	VERB	_	_	4	ccomp	_	_
+7	ser	ser	AUX	_	_	6	xcomp	_	_
+8	una	uno	DET	_	_	9	det	_	_
+9	emanación	emanación	NOUN	_	_	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Alá	alá	PROPN	_	_	9	nmod	_	_
+12	y	y	CCONJ	_	_	6	cc	_	_
+13	que	que	SCONJ	_	_	1	mark	_	_
+14	debía	deber	AUX	_	_	6	conj	_	_
+15	reemplazar	reemplazar	VERB	_	_	10	xcomp	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	_	_	14	mark	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	Profeta	profeta	NOUN	_	_	16	obl	_	_
+19	,	,	PUNCT	_	_	14	punct	_	_
+20	a	a	ADP	_	_	2	dep	_	_
+21	quien	quien	PRON	_	_	20	obl	_	_
+22	El	el	DET	_	_	23	det	_	_
+23	Misericordioso	misericordioso	ADJ	_	_	2	xcomp	_	_
+24	tenga	tener	VERB	_	_	25	xcomp	_	_
+25	en	en	ADP	_	_	2	mark	_	_
+26	el	el	DET	_	_	27	det	_	_
+27	Paraíso	paraíso	NOUN	_	_	2	obl	_	_
+28	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 35
+# text = El 12 de noviembre , la CNT se retira de los comités de el FPA .
+1	El	el	DET	_	_	4	det	_	_
+2	12	12	NUM	_	_	4	nummod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	noviembre	noviembre	NOUN	_	_	9	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	la	el	DET	_	_	7	det	_	_
+7	CNT	cnt	PROPN	_	_	9	nsubj	_	_
+8	se	él	PRON	_	_	9	nsubj	_	_
+9	retira	retirar	VERB	_	_	0	root	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	los	el	DET	_	_	12	det	_	_
+12	comités	comités	NOUN	_	_	9	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	el	el	DET	_	_	15	det	_	_
+15	FPA	fpa	PROPN	_	_	10	obl	_	_
+16	.	.	PUNCT	_	_	9	dep	_	_
+
+# sent_id = 36
+# text = El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+1	El	el	DET	_	_	2	det	_	_
+2	Coyote	coyote	NOUN	_	_	6	nsubj	_	_
+3	fue	ser	AUX	_	_	6	advcl	_	_
+4	un	uno	DET	_	_	5	det	_	_
+5	tebeo	tebeo	NOUN	_	_	6	csubj	_	_
+6	publicado	publicar	VERB	_	_	0	root	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	España	españa	PROPN	_	_	6	obl	_	_
+9	por	por	ADP	_	_	10	case	_	_
+10	Ediciones	edición	NOUN	_	_	6	obl	_	_
+11	Cliper	cliper	PROPN	_	_	13	nmod	_	_
+12	entre	entre	ADP	_	_	6	mark	_	_
+13	1947	1947	NUM	_	_	10	nummod	_	_
+14	y	y	CCONJ	_	_	1	cc	_	_
+15	1955	1955	NUM	_	_	1	conj	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	raíz	raíz	NOUN	_	_	6	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	el	el	DET	_	_	20	det	_	_
+20	éxito	éxito	NOUN	_	_	1	obl	_	_
+21	obtenido	obtener	VERB	_	_	2	acl	_	_
+22	por	por	ADP	_	_	21	mark	_	_
+23	la	el	DET	_	_	24	det	_	_
+24	serie	serie	NOUN	_	_	20	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	novelas	novela	NOUN	_	_	20	nmod	_	_
+27	homónima	homónimo	ADJ	_	_	24	amod	_	_
+28	creada	crear	VERB	_	_	2	acl	_	_
+29	por	por	ADP	_	_	3	mark	_	_
+30	José	josé	PROPN	_	_	2	nmod	_	_
+31	Mallorquí	mallorquí	PROPN	_	_	3	obl	_	_
+32	en	en	ADP	_	_	3	case	_	_
+33	1943	1943	NUM	_	_	30	nummod	_	_
+34	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 37
+# text = Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+1	Estoy	estar	VERB	_	_	0	root	_	_
+2	más	más	ADV	_	_	1	advmod	_	_
+3	que	que	SCONJ	_	_	1	mark	_	_
+4	tranquila	tranquilar	ADJ	_	_	1	xcomp	_	_
+5	cuando	cuando	SCONJ	_	_	1	mark	_	_
+6	dejo	dejar	VERB	_	_	5	advcl	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	Bruc	bruc	PROPN	_	_	6	obj	_	_
+9	allí	allí	ADV	_	_	6	advmod	_	_
+10	pues	pues	CCONJ	_	_	1	cc	_	_
+11	veo	ver	VERB	_	_	1	parataxis	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	Eli	eli	PROPN	_	_	11	obj	_	_
+14	y	y	CCONJ	_	_	1	cc	_	_
+15	Rosa	rosa	PROPN	_	_	13	appos	_	_
+16	que	que	SCONJ	_	_	1	mark	_	_
+17	adoran	adorar	VERB	_	_	13	acl	_	_
+18	los	el	DET	_	_	19	det	_	_
+19	animales	animal	NOUN	_	_	13	nmod	_	_
+20	y	y	CCONJ	_	_	1	cc	_	_
+21	el	el	DET	_	_	22	det	_	_
+22	cariño	cariño	NOUN	_	_	1	obl	_	_
+23	con	con	ADP	_	_	25	case	_	_
+24	que	que	SCONJ	_	_	2	mark	_	_
+25	lo	él	PRON	_	_	22	nmod:poss	_	_
+26	tratan	tratar	VERB	_	_	22	acl	_	_
+27	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 38
+# text = Don Francisco Javier de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+1	Don	don	PROPN	_	_	23	obl	_	_
+2	Francisco	francisco	PROPN	_	_	1	appos	_	_
+3	Javier	javier	PROPN	_	_	1	appos	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	Granado	granado	PROPN	_	_	10	obl	_	_
+7	y	y	CCONJ	_	_	6	cc	_	_
+8	Granado	granado	PROPN	_	_	6	appos	_	_
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	27	27	NUM	_	_	1	nummod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	febrero	febrero	NOUN	_	_	1	nmod	_	_
+13	de	de	ADP	_	_	23	mark	_	_
+14	1913	1913	NUM	_	_	1	nummod	_	_
+15	--	--	PUNCT	_	_	10	punct	_	_
+16	15	15	NUM	_	_	1	nummod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	mayo	mayo	NOUN	_	_	1	nmod	_	_
+19	de	de	ADP	_	_	23	mark	_	_
+20	1996	1996	NUM	_	_	1	nummod	_	_
+21	)	)	PUNCT	_	_	16	punct	_	_
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	fue	ser	AUX	_	_	0	root	_	_
+24	poeta	poeta	NOUN	_	_	2	appos	_	_
+25	laureado	laureado	ADJ	_	_	24	amod	_	_
+26	e	e	CCONJ	_	_	2	cc	_	_
+27	hijo	hijo	NOUN	_	_	2	appos	_	_
+28	predilecto	predilecto	ADJ	_	_	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Bolivia	bolivia	PROPN	_	_	2	nmod	_	_
+31	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 39
+# text = El objetivo de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+1	El	el	DET	_	_	2	det	_	_
+2	objetivo	objetivo	NOUN	_	_	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	26	mark	_	_
+4	el	el	DET	_	_	5	det	_	_
+5	viaje	viaje	NOUN	_	_	7	nsubj	_	_
+6	fue	ser	AUX	_	_	26	csubj	_	_
+7	promover	promover	VERB	_	_	0	root	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	conocimiento	conocimiento	NOUN	_	_	7	obj	_	_
+10	personal	personal	ADJ	_	_	13	amod	_	_
+11	y	y	CCONJ	_	_	1	cc	_	_
+12	una	uno	DET	_	_	13	det	_	_
+13	reflexión	reflexión	NOUN	_	_	7	obj	_	_
+14	sobre	sobre	ADP	_	_	18	case	_	_
+15	cómo	cómo	ADV	_	_	10	advmod	_	_
+16	lograr	lograr	VERB	_	_	13	acl	_	_
+17	una	uno	DET	_	_	18	det	_	_
+18	comercialización	comercialización	NOUN	_	_	1	obl	_	_
+19	específica	específico	ADJ	_	_	18	amod	_	_
+20	de	de	ADP	_	_	16	mark	_	_
+21	un	uno	DET	_	_	22	det	_	_
+22	destino	destino	NOUN	_	_	24	nsubj	_	_
+23	legendario	legendario	ADJ	_	_	22	amod	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	que	que	PRON	_	_	2	nmod:poss	_	_
+26	ofrece	ofrecer	VERB	_	_	2	acl	_	_
+27	valores	valor	NOUN	_	_	20	obl	_	_
+28	añadidos	añadido	ADJ	_	_	27	amod	_	_
+29	frente	frente	ADP	_	_	26	mark	_	_
+30	a	a	ADP	_	_	33	case	_	_
+31	competidores	competidor	NOUN	_	_	20	obl	_	_
+32	como	como	ADP	_	_	33	case	_	_
+33	Maldivas	maldivas	PROPN	_	_	3	obl	_	_
+34	,	,	PUNCT	_	_	30	punct	_	_
+35	Seychelles	seychelles	PROPN	_	_	3	obl	_	_
+36	o	o	CCONJ	_	_	3	cc	_	_
+37	Isla	isla	PROPN	_	_	3	obl	_	_
+38	Mauricio	mauricio	PROPN	_	_	3	obl	_	_
+39	,	,	PUNCT	_	_	35	punct	_	_
+40	tanto	tanto	ADV	_	_	23	advmod	_	_
+41	por	por	ADP	_	_	44	case	_	_
+42	su	su	DET	_	_	44	det	_	_
+43	propia	propio	ADJ	_	_	44	amod	_	_
+44	historia	historia	NOUN	_	_	4	obl	_	_
+45	,	,	PUNCT	_	_	40	punct	_	_
+46	como	como	ADP	_	_	49	case	_	_
+47	por	por	ADP	_	_	49	case	_	_
+48	la	el	DET	_	_	49	det	_	_
+49	diversificación	diversificación	NOUN	_	_	4	obl	_	_
+50	de	de	ADP	_	_	52	case	_	_
+51	sus	su	DET	_	_	52	det	_	_
+52	productos	producto	NOUN	_	_	4	obl	_	_
+53	.	.	PUNCT	_	_	7	dep	_	_
+
+# sent_id = 40
+# text = Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+1	Sin	sin	CCONJ	_	_	4	cc	_	_
+2	embargo	embargo	NOUN	_	_	10	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	la	el	DET	_	_	10	dep	_	_
+5	aplicación	aplicación	NOUN	_	_	4	nsubj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	ley	ley	NOUN	_	_	5	nmod	_	_
+9	canónica	canónico	ADJ	_	_	8	amod	_	_
+10	solía	soler	VERB	_	_	0	root	_	_
+11	quedar	quedar	VERB	_	_	10	xcomp	_	_
+12	restringida	restringir	VERB	_	_	1	ccomp	_	_
+13	a	a	ADP	_	_	10	mark	_	_
+14	las	el	DET	_	_	15	det	_	_
+15	áreas	área	NOUN	_	_	1	obl	_	_
+16	bajo	bajo	ADP	_	_	17	case	_	_
+17	control	control	NOUN	_	_	1	obl	_	_
+18	normando	normar	VERB	_	_	1	xcomp	_	_
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 41
+# text = Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+1	Esto	este	DET	_	_	3	det	_	_
+2	sin	sin	ADP	_	_	17	mark	_	_
+3	duda	duda	NOUN	_	_	4	nsubj	_	_
+4	es	ser	VERB	_	_	0	root	_	_
+5	un	uno	DET	_	_	7	det	_	_
+6	gran	gran	ADJ	_	_	7	amod	_	_
+7	beneficio	beneficio	NOUN	_	_	4	obj	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	los	el	DET	_	_	10	det	_	_
+10	clientes	cliente	NOUN	_	_	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Telmex	telmex	PROPN	_	_	16	nmod	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	ya	ya	ADV	_	_	17	advmod	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	vez	vez	NOUN	_	_	10	appos	_	_
+17	obliga	obligar	VERB	_	_	4	ccomp	_	_
+18	a	a	ADP	_	_	17	mark	_	_
+19	las	el	DET	_	_	21	det	_	_
+20	demás	demás	ADJ	_	_	21	amod	_	_
+21	empresas	empresa	NOUN	_	_	16	nmod	_	_
+22	que	que	SCONJ	_	_	2	mark	_	_
+23	ofrecen	ofrecer	VERB	_	_	21	acl	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	servicio	servicio	NOUN	_	_	23	obj	_	_
+26	telefónico	telefónico	ADJ	_	_	25	amod	_	_
+27	a	a	ADP	_	_	28	mark	_	_
+28	rebajar	rebajar	VERB	_	_	20	xcomp	_	_
+29	sus	su	DET	_	_	30	det	_	_
+30	tarifas	tarifa	NOUN	_	_	20	obl	_	_
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 42
+# text = Real Academia de la Historia
+1	Real	real	ADJ	_	_	2	amod	_	_
+2	Academia	academia	NOUN	_	_	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	Historia	historia	NOUN	_	_	2	nmod	_	_
+
+# sent_id = 43
+# text = Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+1	Es	ser	AUX	_	_	2	conj	_	_
+2	mencionada	mencionado	VERB	_	_	0	root	_	_
+3	en	en	ADP	_	_	5	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	Teología	teología	NOUN	_	_	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Hesiodo	hesiodo	PROPN	_	_	5	appos	_	_
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	así	así	ADV	_	_	2	advmod	_	_
+10	como	como	SCONJ	_	_	1	mark	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	Apolodoro	apolodoro	PROPN	_	_	2	obl	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	Higino	higino	PROPN	_	_	1	obl	_	_
+15	y	y	CCONJ	_	_	1	cc	_	_
+16	Homero	homero	PROPN	_	_	1	obl	_	_
+17	en	en	ADP	_	_	19	case	_	_
+18	su	su	DET	_	_	19	det	_	_
+19	Ilíada	ilíada	PROPN	_	_	1	obl	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 44
+# text = Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+1	Cyphostemma	cyphostemma	PROPN	_	_	4	nsubj	_	_
+2	juttae	juttae	PROPN	_	_	1	appos	_	_
+3	es	ser	AUX	_	_	14	conj	_	_
+4	una	uno	DET	_	_	14	dep	_	_
+5	especie	especie	NOUN	_	_	4	nmod	_	_
+6	suculenta	suculento	ADJ	_	_	5	amod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	lento	lento	ADJ	_	_	9	amod	_	_
+9	crecimiento	crecimiento	NOUN	_	_	5	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Cyphostemma	cyphostemma	PROPN	_	_	9	nmod	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	bien	bien	ADV	_	_	14	advmod	_	_
+14	conocida	conocer	VERB	_	_	0	root	_	_
+15	como	como	ADP	_	_	17	case	_	_
+16	una	uno	DET	_	_	17	det	_	_
+17	planta	planta	NOUN	_	_	11	appos	_	_
+18	ornamental	ornamental	ADJ	_	_	17	amod	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 45
+# text = El sitio tiene terraza en verano para comer o cenar fuera .
+1	El	el	DET	_	_	2	det	_	_
+2	sitio	sitio	NOUN	_	_	3	nsubj	_	_
+3	tiene	tener	VERB	_	_	0	root	_	_
+4	terraza	terraza	NOUN	_	_	3	obj	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	verano	verano	NOUN	_	_	4	nmod	_	_
+7	para	para	ADP	_	_	3	dep	_	_
+8	comer	comer	VERB	_	_	7	xcomp	_	_
+9	o	o	CCONJ	_	_	8	cc	_	_
+10	cenar	cenar	VERB	_	_	8	conj	_	_
+11	fuera	fuera	ADV	_	_	10	advmod	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 46
+# text = Después acusó a Vera y sus " chicas " de quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+1	Después	después	ADV	_	_	2	advmod	_	_
+2	acusó	acusar	VERB	_	_	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	Vera	vera	PROPN	_	_	22	appos	_	_
+5	y	y	CCONJ	_	_	4	cc	_	_
+6	sus	su	DET	_	_	8	det	_	_
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	chicas	chica	NOUN	_	_	4	nmod	_	_
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11-12	quedarse	_	_	_	_	_	_	_	_
+11	quedar	quedar	VERB	_	_	1	xcomp	_	_
+12	se	él	PRON	_	_	11	obj	_	_
+13	corto	corto	ADJ	_	_	16	amod	_	_
+14	con	con	ADP	_	_	11	mark	_	_
+15	los	el	DET	_	_	16	det	_	_
+16	beneficios	beneficio	NOUN	_	_	1	obl	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	Vera	vera	PROPN	_	_	10	nsubj	_	_
+19	desafió	desafiar	VERB	_	_	11	conj	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	una	uno	DET	_	_	22	det	_	_
+22	pelea	pelea	NOUN	_	_	1	obl	_	_
+23	rápida	rápido	ADJ	_	_	22	amod	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	que	que	PRON	_	_	22	nmod:poss	_	_
+26	ella	él	PRON	_	_	20	nsubj	_	_
+27	estaba	estar	AUX	_	_	28	conj	_	_
+28	ganando	ganar	VERB	_	_	22	acl	_	_
+29	hasta	hasta	ADP	_	_	2	mark	_	_
+30	que	que	SCONJ	_	_	3	mark	_	_
+31	él	él	PRON	_	_	3	nsubj	_	_
+32	la	él	PRON	_	_	3	obl	_	_
+33	golpeó	golpear	VERB	_	_	31	xcomp	_	_
+34	con	con	ADP	_	_	33	mark	_	_
+35	un	uno	DET	_	_	36	det	_	_
+36	cubo	cubo	NOUN	_	_	3	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	basura	basura	NOUN	_	_	3	obl	_	_
+39	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 47
+# text = Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+1	Tiene	tener	VERB	_	_	0	root	_	_
+2	16	16	NUM	_	_	1	nummod	_	_
+3	382	382	NUM	_	_	2	nummod	_	_
+4	habitantes	habitante	NOUN	_	_	1	obj	_	_
+5	y	y	CCONJ	_	_	7	cc	_	_
+6	un	uno	DET	_	_	7	det	_	_
+7	área	área	NOUN	_	_	1	obl	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	814,21	814,21	NUM	_	_	7	nummod	_	_
+10	km	km	NOUN	_	_	9	nmod	_	_
+11	²	²	SYM	_	_	1	dep	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	de	de	ADP	_	_	17	case	_	_
+14	los	el	DET	_	_	17	det	_	_
+15	cuales	cual	PRON	_	_	1	obl	_	_
+16	28,87	2,87	NUM	_	_	10	nummod	_	_
+17	km2	km2	NOUN	_	_	1	obl	_	_
+18	es	ser	AUX	_	_	1	conj	_	_
+19	agua	agua	NOUN	_	_	17	appos	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 48
+# text = Vulnerable a dragón , hielo y trueno .
+1	Vulnerable	vulnerable	ADJ	_	_	3	amod	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	dragón	dragón	NOUN	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	hielo	hielo	NOUN	_	_	3	compound	_	_
+6	y	y	CCONJ	_	_	5	cc	_	_
+7	trueno	trueno	NOUN	_	_	5	compound	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 49
+# text = Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+1	Jacques	jacques	PROPN	_	_	3	nsubj	_	_
+2	Diouf	diouf	PROPN	_	_	1	appos	_	_
+3	nació	nacer	VERB	_	_	0	root	_	_
+4	el	el	DET	_	_	1	det	_	_
+5	1	1	NUM	_	_	3	dep	_	_
+6	º	º	SYM	_	_	5	dep	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	agosto	agosto	NOUN	_	_	3	obl	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	1938	1938	NUM	_	_	8	nummod	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	Saint	saint	PROPN	_	_	3	obl	_	_
+13	Louis	louis	PROPN	_	_	1	appos	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	Senegal	senegal	PROPN	_	_	1	appos	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 50
+# text = Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+1	Lonchophora	lonchophora	PROPN	_	_	2	nsubj	_	_
+2	es	ser	AUX	_	_	0	root	_	_
+3	un	uno	DET	_	_	4	det	_	_
+4	género	género	NOUN	_	_	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	fanerógamas	fanerógama	NOUN	_	_	4	nmod	_	_
+7	perteneciente	perteneciente	ADJ	_	_	6	amod	_	_
+8	a	a	ADP	_	_	11	case	_	_
+9	la	el	DET	_	_	11	det	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	familia	familia	NOUN	_	_	7	obl	_	_
+12	Brassicaceae	brassicaceae	PROPN	_	_	1	appos	_	_
+13	.	.	PUNCT	_	_	11	punct	_	_
+

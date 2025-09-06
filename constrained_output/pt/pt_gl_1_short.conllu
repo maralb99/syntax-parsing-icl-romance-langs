@@ -1,0 +1,1493 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois em o boxe , um em o vôlei de praia masculino e um em o futebol masculino .
+1	Até	até	ADV	_	_	5	advmod	_	_
+2	agora	agora	ADV	_	_	5	advmod	_	_
+3	o	o	DET	_	_	4	det	_	_
+4	Brasil	Brasil	PROPN	_	_	5	nsubj	_	_
+5	conquistou	conquistar	VERB	_	_	0	root	_	_
+6	8	8	NUM	_	_	7	nummod	_	_
+7	medalhas	medalha	NOUN	_	_	5	obj	_	_
+8	(	(	PUNCT	_	_	7	punct	_	_
+9	2	2	NUM	_	_	1	nummod	_	_
+10	ouros	_	NOUN	_	_	9	obl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	1	1	NUM	_	_	1	nummod	_	_
+13	prata	prata	NOUN	_	_	9	obl	_	_
+14	e	e	CCONJ	_	_	5	cc	_	_
+15	5	5	NUM	_	_	1	nummod	_	_
+16	bronzes	bronze	NOUN	_	_	9	obl	_	_
+17	)	)	PUNCT	_	_	12	punct	_	_
+18	e	e	CCONJ	_	_	5	cc	_	_
+19	tem	ter	VERB	_	_	5	conj	_	_
+20	mais	mais	ADV	_	_	1	advmod	_	_
+21	quatro	_	NUM	_	_	2	nummod	_	_
+22	pódios	pódio	NOUN	_	_	1	obl	_	_
+23	garantidos	garantido	ADJ	_	_	22	amod	_	_
+24	:	:	PUNCT	_	_	20	punct	_	_
+25	dois	_	NUM	_	_	2	nummod	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	_	28	det	_	_
+28	boxe	boxe	NOUN	_	_	2	obl	_	_
+29	,	,	PUNCT	_	_	25	punct	_	_
+30	um	_	NUM	_	_	2	nummod	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	_	33	det	_	_
+33	vôlei	vôlei	NOUN	_	_	2	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	praia	praia	NOUN	_	_	30	obl	_	_
+36	masculino	masculino	ADJ	_	_	33	amod	_	_
+37	e	e	CCONJ	_	_	3	cc	_	_
+38	um	_	NUM	_	_	3	nummod	_	_
+39-40	no	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	o	o	DET	_	_	41	det	_	_
+41	futebol	futebol	NOUN	_	_	3	obl	_	_
+42	masculino	masculino	ADJ	_	_	41	amod	_	_
+43	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2
+# text = Ver também a lista de entidades que tenham emitido selos postais .
+1	Ver	ver	VERB	_	_	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	_
+3	a	o	DET	_	_	4	det	_	_
+4	lista	lista	NOUN	_	_	1	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	entidades	entidade	NOUN	_	_	4	nmod	_	_
+7	que	_	SCONJ	_	_	6	mark	_	_
+8	tenham	ter	AUX	_	_	1	dep	_	_
+9	emitido	emitir	VERB	_	_	8	xcomp	_	_
+10	selos	selo	NOUN	_	_	9	obj	_	_
+11	postais	postal	ADJ	_	_	10	amod	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3
+# text = A Nina é a chance de ele ser feliz .
+1	A	o	DET	_	_	2	det	_	_
+2	Nina	_	PROPN	_	_	5	nmod	_	_
+3	é	ser	AUX	_	_	0	root	_	_
+4	a	o	DET	_	_	5	det	_	_
+5	chance	chance	NOUN	_	_	3	obj	_	_
+6-7	dele	_	_	_	_	_	_	_	_
+6	de	_	ADP	_	_	7	case	_	_
+7	ele	_	PRON	_	_	5	nmod:poss	_	_
+8	ser	ser	AUX	_	_	9	xcomp	_	_
+9	feliz	feliz	ADJ	_	_	5	amod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4
+# text = É um de os três ácidos ftálicos isoméricos .
+1	É	ser	VERB	_	_	0	root	_	_
+2	um	_	DET	_	_	6	det	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	os	o	DET	_	_	6	det	_	_
+5	três	_	NUM	_	_	6	nummod	_	_
+6	ácidos	ácido	NOUN	_	_	1	obj	_	_
+7	ftálicos	ftálico	ADJ	_	_	6	amod	_	_
+8	isoméricos	isomérico	ADJ	_	_	6	amod	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5
+# text = A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção de a praça conforme cronograma em andamento .
+1	A	o	DET	_	_	2	det	_	_
+2	prefeitura	prefeitura	NOUN	_	_	3	nsubj	_	_
+3	informou	informar	VERB	_	_	0	root	_	_
+4	ainda	ainda	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	a	o	DET	_	_	7	det	_	_
+7	Secretaria	_	NOUN	_	_	3	obl	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	Serviços	_	NOUN	_	_	7	compound	_	_
+10	Urbanos	_	ADJ	_	_	7	amod	_	_
+11	regularizou	regularizar	VERB	_	_	3	ccomp	_	_
+12	o	o	DET	_	_	13	det	_	_
+13	contrato	contrato	NOUN	_	_	11	obj	_	_
+14	e	e	CCONJ	_	_	1	cc	_	_
+15	já	já	ADV	_	_	10	advmod	_	_
+16	está	estar	VERB	_	_	10	ccomp	_	_
+17	prevista	previsto	ADJ	_	_	19	amod	_	_
+18	a	o	DET	_	_	19	det	_	_
+19	manutenção	manutenção	NOUN	_	_	16	obj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	_	22	det	_	_
+22	praça	praça	NOUN	_	_	10	obl	_	_
+23	conforme	_	ADP	_	_	24	case	_	_
+24	cronograma	cronograma	NOUN	_	_	10	obl	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	andamento	andamento	NOUN	_	_	22	nmod	_	_
+27	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 6
+# text = O incidente ocorreu em a cidade de Burgas , 400 quilômetros a o leste de a capital búlgara , Sofia .
+1	O	o	DET	_	_	2	det	_	_
+2	incidente	incidente	NOUN	_	_	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	_	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	_	6	det	_	_
+6	cidade	cidade	NOUN	_	_	2	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Burgas	_	PROPN	_	_	6	nmod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	400	400	NUM	_	_	1	nummod	_	_
+11	quilômetros	quilômetro	NOUN	_	_	1	nmod	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	_	14	det	_	_
+14	leste	leste	NOUN	_	_	1	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	_	17	det	_	_
+17	capital	capital	NOUN	_	_	1	nmod	_	_
+18	búlgara	búlgaro	ADJ	_	_	17	amod	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Sofia	_	PROPN	_	_	1	nmod	_	_
+21	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 7
+# text = Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+1	Mas	_	CCONJ	_	_	5	cc	_	_
+2	então	então	ADV	_	_	5	advmod	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	como	como	ADV	_	_	5	advmod	_	_
+5	fazer	fazer	VERB	_	_	0	root	_	_
+6	para	_	ADP	_	_	5	mark	_	_
+7	que	_	SCONJ	_	_	5	mark	_	_
+8	esta	_	DET	_	_	9	det	_	_
+9	atualização	atualização	NOUN	_	_	12	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	rotina	rotina	NOUN	_	_	9	nmod	_	_
+12	seja	ser	AUX	_	_	5	xcomp	_	_
+13	benéfica	benéfico	ADJ	_	_	11	amod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	sua	_	DET	_	_	16	det	_	_
+16	vida	vida	NOUN	_	_	1	obl	_	_
+17	profissional	profissional	ADJ	_	_	16	amod	_	_
+18	?	?	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 8
+# text = O couro de o peixe sempre rende " , conta .
+1	O	o	DET	_	_	2	det	_	_
+2	couro	couro	NOUN	_	_	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	_	5	det	_	_
+5	peixe	peixe	NOUN	_	_	2	nmod	_	_
+6	sempre	sempre	ADV	_	_	7	advmod	_	_
+7	rende	_	VERB	_	_	0	root	_	_
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	conta	contar	VERB	_	_	7	ccomp	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 9
+# text = Esta é uma de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e em o debate de a Band .
+1	Esta	_	DET	_	_	30	det	_	_
+2	é	ser	AUX	_	_	13	csubj	_	_
+3	uma	_	NUM	_	_	7	nummod	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	as	o	DET	_	_	7	det	_	_
+6	principais	principal	ADJ	_	_	7	amod	_	_
+7	acusações	acusação	NOUN	_	_	10	nmod	_	_
+8	que	_	SCONJ	_	_	7	mark	_	_
+9	a	o	DET	_	_	10	det	_	_
+10	campanha	campanha	NOUN	_	_	12	nsubj	_	_
+11	tucana	tucano	ADJ	_	_	10	amod	_	_
+12	tem	ter	AUX	_	_	13	csubj	_	_
+13	dirigido	dirigir	VERB	_	_	0	root	_	_
+14	contra	_	ADP	_	_	16	case	_	_
+15	o	o	DET	_	_	16	det	_	_
+16	petista	petista	NOUN	_	_	10	nmod	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	e	e	CCONJ	_	_	1	cc	_	_
+19	tem	ter	AUX	_	_	21	csubj	_	_
+20	sido	ser	AUX	_	_	21	csubj	_	_
+21	repetida	repetir	VERB	_	_	10	acl	_	_
+22	em	em	ADP	_	_	2	case	_	_
+23	eventos	evento	NOUN	_	_	20	obl	_	_
+24	e	e	CCONJ	_	_	2	cc	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	2	case	_	_
+26	o	o	DET	_	_	27	det	_	_
+27	debate	debate	NOUN	_	_	2	obl	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	_	30	det	_	_
+30	Band	_	PROPN	_	_	2	obl	_	_
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 10
+# text = Assim , está apenas um ponto atrás de o Grêmio , o quarto colocado , e a três de o Fluminense , terceiro .
+1	Assim	assim	ADV	_	_	3	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	está	estar	VERB	_	_	0	root	_	_
+4	apenas	apenas	ADV	_	_	3	advmod	_	_
+5	um	_	NUM	_	_	6	nummod	_	_
+6	ponto	ponto	NOUN	_	_	3	obl	_	_
+7	atrás	atrás	ADP	_	_	3	case	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	_	10	det	_	_
+10	Grêmio	_	PROPN	_	_	6	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	o	o	DET	_	_	10	det	_	_
+13	quarto	_	ADJ	_	_	10	amod	_	_
+14	colocado	_	VERB	_	_	1	xcomp	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	e	e	CCONJ	_	_	3	cc	_	_
+17	a	o	DET	_	_	10	det	_	_
+18	três	_	NUM	_	_	1	nummod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	_	21	det	_	_
+21	Fluminense	_	PROPN	_	_	13	obl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	terceiro	_	ADJ	_	_	21	amod	_	_
+24	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 11
+# text = Os cuidados de sempre estão sendo tomados por o consumidor .
+1	Os	o	DET	_	_	2	det	_	_
+2	cuidados	cuidado	NOUN	_	_	5	nsubj	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	sempre	sempre	ADV	_	_	5	advmod	_	_
+5	estão	estar	VERB	_	_	0	root	_	_
+6	sendo	ser	AUX	_	_	5	conj	_	_
+7	tomados	tomar	VERB	_	_	6	xcomp	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	7	case	_	_
+9	o	o	DET	_	_	10	det	_	_
+10	consumidor	consumidor	NOUN	_	_	7	obl	_	_
+11	.	.	PUNCT	_	_	5	dep	_	_
+
+# sent_id = 12
+# text = O Congresso procura sempre fazer o máximo de bondades a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma de as áreas que mais recebe recursos de o governo federal .
+1	O	o	DET	_	_	2	det	_	_
+2	Congresso	_	NOUN	_	_	3	nsubj	_	_
+3	procura	procurar	VERB	_	_	0	root	_	_
+4	sempre	sempre	ADV	_	_	3	advmod	_	_
+5	fazer	fazer	VERB	_	_	3	xcomp	_	_
+6	o	o	DET	_	_	7	det	_	_
+7	máximo	máximo	NOUN	_	_	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	bondades	bondade	NOUN	_	_	7	nmod	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	a	o	DET	_	_	12	det	_	_
+12	sociedade	sociedade	NOUN	_	_	9	nmod	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	mas	mas	CCONJ	_	_	3	cc	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	outro	_	ADJ	_	_	18	amod	_	_
+18	lado	lado	NOUN	_	_	12	nmod	_	_
+19	,	,	PUNCT	_	_	14	punct	_	_
+20	já	já	ADV	_	_	21	advmod	_	_
+21	aprovou	aprovar	VERB	_	_	3	ccomp	_	_
+22	medidas	medida	NOUN	_	_	21	obj	_	_
+23	que	_	PRON	_	_	2	nmod:poss	_	_
+24	ajudaram	ajudar	VERB	_	_	2	acl	_	_
+25	o	o	DET	_	_	26	det	_	_
+26	país	país	NOUN	_	_	2	nmod	_	_
+27	--	_	PUNCT	_	_	22	punct	_	_
+28	disse	dizer	VERB	_	_	2	acl	_	_
+29	Mantega	_	PROPN	_	_	20	nsubj	_	_
+30	,	,	PUNCT	_	_	26	punct	_	_
+31	esclarecendo	esclarecer	VERB	_	_	2	acl	_	_
+32	que	que	SCONJ	_	_	3	mark	_	_
+33	a	o	DET	_	_	34	det	_	_
+34	educação	educação	NOUN	_	_	3	obj	_	_
+35	é	ser	AUX	_	_	3	ccomp	_	_
+36	uma	_	DET	_	_	39	det	_	_
+37-38	das	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	35	case	_	_
+38	as	o	DET	_	_	39	det	_	_
+39	áreas	área	NOUN	_	_	33	nmod	_	_
+40	que	_	PRON	_	_	31	obj	_	_
+41	mais	mais	ADV	_	_	4	advmod	_	_
+42	recebe	receber	VERB	_	_	40	xcomp	_	_
+43	recursos	recurso	NOUN	_	_	42	obj	_	_
+44-45	do	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	o	o	DET	_	_	46	det	_	_
+46	governo	governo	NOUN	_	_	4	nmod	_	_
+47	federal	federal	ADJ	_	_	46	amod	_	_
+48	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 13
+# text = O relaxamento de o músculo está dependente de a actuação de uma enzima que faça a reposição de a concentração de cálcio .
+1	O	o	DET	_	_	2	det	_	_
+2	relaxamento	relaxamento	NOUN	_	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	_	5	det	_	_
+5	músculo	músculo	NOUN	_	_	20	nmod	_	_
+6	está	estar	VERB	_	_	0	root	_	_
+7	dependente	dependente	ADJ	_	_	10	amod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	_	10	det	_	_
+10	actuação	actuação	NOUN	_	_	6	obl	_	_
+11-12	duma	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	uma	um	DET	_	_	13	det	_	_
+13	enzima	enzima	NOUN	_	_	10	nmod	_	_
+14	que	_	SCONJ	_	_	1	mark	_	_
+15	faça	fazer	VERB	_	_	10	acl	_	_
+16	a	o	DET	_	_	17	det	_	_
+17	reposição	reposição	NOUN	_	_	15	obj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	15	case	_	_
+19	a	o	DET	_	_	20	det	_	_
+20	concentração	concentração	NOUN	_	_	10	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	cálcio	cálcio	NOUN	_	_	20	nmod	_	_
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 14
+# text = " O salto dá um up em o visual !
+1	"	"	PUNCT	_	_	4	punct	_	_
+2	O	o	DET	_	_	3	det	_	_
+3	salto	salto	NOUN	_	_	4	nsubj	_	_
+4	dá	dar	VERB	_	_	0	root	_	_
+5	um	um	DET	_	_	3	det	_	_
+6	up	_	X	_	_	4	dep	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	4	case	_	_
+8	o	o	DET	_	_	9	det	_	_
+9	visual	_	NOUN	_	_	4	obj	_	_
+10	!	!	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 15
+# text = Em a máxima de o dia , o papel alcançou uma valorização de até 5,7 % .
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	10	mark	_	_
+2	a	o	DET	_	_	3	det	_	_
+3	máxima	_	NOUN	_	_	10	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	_	6	det	_	_
+6	dia	dia	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	o	o	DET	_	_	9	det	_	_
+9	papel	papel	NOUN	_	_	10	nsubj	_	_
+10	alcançou	alcançar	VERB	_	_	0	root	_	_
+11	uma	um	DET	_	_	12	det	_	_
+12	valorização	valorização	NOUN	_	_	10	obj	_	_
+13	de	de	ADP	_	_	10	mark	_	_
+14	até	até	ADP	_	_	10	mark	_	_
+15	5,7	5,7	NUM	_	_	1	nummod	_	_
+16	%	_	SYM	_	_	1	dep	_	_
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 16
+# text = A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , em o local conseguiram encontrar 8 cápsulas de a pistola usada em o crime que poderão ajudar em a investigação de os assassinatos .
+1	A	o	DET	_	_	2	det	_	_
+2	polícia	polícia	NOUN	_	_	5	nsubj	_	_
+3	ainda	ainda	ADV	_	_	5	advmod	_	_
+4	não	não	PART	_	_	5	advmod	_	_
+5	tem	ter	VERB	_	_	0	root	_	_
+6	pistas	pista	NOUN	_	_	5	obj	_	_
+7	de	_	ADP	_	_	10	case	_	_
+8	quem	_	PRON	_	_	5	obl	_	_
+9	poderia	poder	VERB	_	_	13	acl	_	_
+10	ter	ter	VERB	_	_	9	xcomp	_	_
+11	feito	_	VERB	_	_	13	acl	_	_
+12	os	o	DET	_	_	13	det	_	_
+13	disparos	disparo	NOUN	_	_	6	appos	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	mas	mas	CCONJ	_	_	5	cc	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	_	19	det	_	_
+19	local	local	NOUN	_	_	20	nsubj	_	_
+20	conseguiram	conseguir	VERB	_	_	5	conj	_	_
+21	encontrar	encontrar	VERB	_	_	2	acl	_	_
+22	8	8	NUM	_	_	2	nummod	_	_
+23	cápsulas	cápsula	NOUN	_	_	20	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	_	26	det	_	_
+26	pistola	pistola	NOUN	_	_	23	nmod	_	_
+27	usada	usar	VERB	_	_	2	acl	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	20	mark	_	_
+29	o	o	DET	_	_	30	det	_	_
+30	crime	crime	NOUN	_	_	28	obl	_	_
+31	que	_	SCONJ	_	_	3	mark	_	_
+32	poderão	poder	VERB	_	_	30	acl	_	_
+33	ajudar	ajudar	VERB	_	_	30	acl	_	_
+34-35	na	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	33	mark	_	_
+35	a	o	DET	_	_	36	det	_	_
+36	investigação	investigação	NOUN	_	_	3	obl	_	_
+37-38	dos	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	os	o	DET	_	_	39	det	_	_
+39	assassinatos	assassinato	NOUN	_	_	3	obl	_	_
+40	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 17
+# text = " Eles não podem ser considerados marginais " , disse ele .
+1	"	"	PUNCT	_	_	6	punct	_	_
+2	Eles	ele	PRON	_	_	6	nsubj	_	_
+3	não	não	PART	_	_	4	advmod	_	_
+4	podem	poder	AUX	_	_	6	csubj	_	_
+5	ser	ser	AUX	_	_	6	conj	_	_
+6	considerados	considerar	VERB	_	_	0	root	_	_
+7	marginais	marginal	ADJ	_	_	6	xcomp	_	_
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	disse	dizer	VERB	_	_	12	ccomp	_	_
+11	ele	_	PRON	_	_	1	nsubj	_	_
+12	.	.	PUNCT	_	_	6	dep	_	_
+
+# sent_id = 18
+# text = A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar a o vivo .
+1	A	o	DET	_	_	2	det	_	_
+2	TV	_	NOUN	_	_	3	compound	_	_
+3	Globo	_	PROPN	_	_	4	nsubj	_	_
+4	transmite	transmitir	VERB	_	_	0	root	_	_
+5	a	o	DET	_	_	6	det	_	_
+6	luta	luta	NOUN	_	_	4	obj	_	_
+7	principal	principal	ADJ	_	_	6	amod	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	entre	_	ADP	_	_	10	case	_	_
+10	Anderson	_	PROPN	_	_	18	nmod	_	_
+11	Silva	_	PROPN	_	_	17	nmod	_	_
+12	e	e	CCONJ	_	_	1	cc	_	_
+13	o	o	DET	_	_	15	det	_	_
+14	americano	americano	ADJ	_	_	11	amod	_	_
+15	Stephan	_	PROPN	_	_	17	nmod	_	_
+16	Bonnar	_	PROPN	_	_	17	nmod	_	_
+17-18	ao	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	4	mark	_	_
+18	o	o	DET	_	_	15	det	_	_
+19	vivo	vivo	ADV	_	_	4	advmod	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 19
+# text = " Não podemos fazer outra coisa que sair a as ruas .
+1	"	"	PUNCT	_	_	4	punct	_	_
+2	Não	não	PART	_	_	4	advmod	_	_
+3	podemos	_	AUX	_	_	4	conj	_	_
+4	fazer	fazer	VERB	_	_	0	root	_	_
+5	outra	_	ADJ	_	_	6	amod	_	_
+6	coisa	coisa	NOUN	_	_	4	obj	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	sair	sair	VERB	_	_	6	acl	_	_
+9-10	às	_	_	_	_	_	_	_	_
+9	a	a	DET	_	_	11	det	_	_
+10	as	o	DET	_	_	11	det	_	_
+11	ruas	rua	NOUN	_	_	8	obj	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 20
+# text = Se não votar em branco , Sueli diz que simplesmente não comparecerá a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+1	Se	_	SCONJ	_	_	3	mark	_	_
+2	não	não	PART	_	_	3	advmod	_	_
+3	votar	votar	VERB	_	_	0	root	_	_
+4	em	em	ADP	_	_	3	case	_	_
+5	branco	branco	NOUN	_	_	3	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Sueli	_	PROPN	_	_	8	nsubj	_	_
+8	diz	dizer	VERB	_	_	3	ccomp	_	_
+9	que	que	SCONJ	_	_	1	mark	_	_
+10	simplesmente	simplesmente	ADV	_	_	12	advmod	_	_
+11	não	não	PART	_	_	1	mark	_	_
+12	comparecerá	comparecer	VERB	_	_	8	ccomp	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	_	15	det	_	_
+15	zona	zona	NOUN	_	_	1	obl	_	_
+16	eleitoral	eleitoral	ADJ	_	_	15	amod	_	_
+17	para	_	ADP	_	_	12	mark	_	_
+18	escolher	escolher	VERB	_	_	1	xcomp	_	_
+19	seus	_	DET	_	_	20	det	_	_
+20	candidatos	candidato	NOUN	_	_	1	obl	_	_
+21	a	_	ADP	_	_	22	case	_	_
+22	prefeito	prefeito	NOUN	_	_	2	obl	_	_
+23	e	e	CCONJ	_	_	2	cc	_	_
+24	a	o	DET	_	_	25	det	_	_
+25	vereador	vereador	NOUN	_	_	2	obl	_	_
+26	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 21
+# text = A tendência , em o entanto , pode ser muito perigosa , já que normalmente está vinculada a a restrição de nutrientes em a dieta .
+1	A	o	DET	_	_	2	det	_	_
+2	tendência	tendência	NOUN	_	_	9	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	16	mark	_	_
+5	o	o	DET	_	_	2	det	_	_
+6	entanto	entanto	ADV	_	_	9	advmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	pode	_	AUX	_	_	9	conj	_	_
+9	ser	ser	VERB	_	_	0	root	_	_
+10	muito	muito	ADV	_	_	9	advmod	_	_
+11	perigosa	perigoso	ADJ	_	_	9	xcomp	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	já	já	ADV	_	_	10	advmod	_	_
+14	que	_	SCONJ	_	_	1	mark	_	_
+15	normalmente	normalmente	ADV	_	_	10	advmod	_	_
+16	está	estar	VERB	_	_	9	ccomp	_	_
+17	vinculada	vinculado	VERB	_	_	12	ccomp	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	17	mark	_	_
+19	a	o	DET	_	_	20	det	_	_
+20	restrição	restrição	NOUN	_	_	16	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	nutrientes	nutriente	NOUN	_	_	20	nmod	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	_	25	det	_	_
+25	dieta	dieta	NOUN	_	_	20	nmod	_	_
+26	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 22
+# text = Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+1	Para	_	ADP	_	_	3	case	_	_
+2	o	o	DET	_	_	3	det	_	_
+3	Planejamento	_	PROPN	_	_	8	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	as	o	DET	_	_	6	det	_	_
+6	áreas	área	NOUN	_	_	8	nsubj	_	_
+7	prioritárias	prioritário	ADJ	_	_	6	amod	_	_
+8	serão	ser	AUX	_	_	0	root	_	_
+9	educação	educação	NOUN	_	_	8	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	saúde	saúde	NOUN	_	_	9	appos	_	_
+12	e	e	CCONJ	_	_	1	cc	_	_
+13	segurança	segurança	NOUN	_	_	15	nsubj	_	_
+14	pública	público	ADJ	_	_	11	amod	_	_
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 23
+# text = O conceito é também muito útil em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+1	O	o	DET	_	_	2	det	_	_
+2	conceito	conceito	NOUN	_	_	22	obl	_	_
+3	é	ser	AUX	_	_	22	csubj	_	_
+4	também	também	ADV	_	_	6	advmod	_	_
+5	muito	muito	ADV	_	_	6	advmod	_	_
+6	útil	útil	ADJ	_	_	9	amod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	_	9	det	_	_
+9	elaboração	elaboração	NOUN	_	_	20	nmod	_	_
+10	e	e	CCONJ	_	_	9	cc	_	_
+11	planificação	planificação	NOUN	_	_	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	políticas	_	NOUN	_	_	2	nmod	_	_
+14	e	e	CCONJ	_	_	1	cc	_	_
+15	programas	programa	NOUN	_	_	1	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	saúde	saúde	NOUN	_	_	2	nmod	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	uma	_	DET	_	_	20	det	_	_
+20	vez	vez	NOUN	_	_	2	nmod	_	_
+21	que	_	SCONJ	_	_	2	mark	_	_
+22	permite	permitir	VERB	_	_	0	root	_	_
+23	organizar	organizar	VERB	_	_	2	acl	_	_
+24	os	o	DET	_	_	25	det	_	_
+25	recursos	recurso	NOUN	_	_	2	nmod	_	_
+26	existentes	existente	ADJ	_	_	25	amod	_	_
+27	para	para	ADP	_	_	29	case	_	_
+28	os	o	DET	_	_	29	det	_	_
+29	problemas	problema	NOUN	_	_	2	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	saúde	saúde	NOUN	_	_	2	nmod	_	_
+32	mais	mais	ADV	_	_	3	advmod	_	_
+33	importantes	importante	ADJ	_	_	31	amod	_	_
+34	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 24
+# text = Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um de os dez pacientes atendidos naquela tarde .
+1	Em	em	ADP	_	_	3	case	_	_
+2	seu	seu	DET	_	_	3	det	_	_
+3	consultório	consultório	NOUN	_	_	7	nsubj	_	_
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	a	o	DET	_	_	6	det	_	_
+6	consulta	consulta	NOUN	_	_	7	nsubj	_	_
+7	custa	custar	VERB	_	_	0	root	_	_
+8	R	r	SYM	_	_	7	dep	_	_
+9	$	_	SYM	_	_	8	dep	_	_
+10	450	450	NUM	_	_	7	nummod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	sete	_	NUM	_	_	1	nummod	_	_
+13	vez	vez	NOUN	_	_	16	nsubj	_	_
+14	o	_	DET	_	_	13	det	_	_
+15	que	_	SCONJ	_	_	1	mark	_	_
+16	pagou	pagar	VERB	_	_	7	ccomp	_	_
+17	cada	_	DET	_	_	13	det	_	_
+18	um	_	NUM	_	_	1	nummod	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	23	case	_	_
+20	os	o	DET	_	_	22	det	_	_
+21	dez	_	NUM	_	_	1	nummod	_	_
+22	pacientes	paciente	NOUN	_	_	15	nsubj	_	_
+23	atendidos	atender	VERB	_	_	22	acl	_	_
+24	naquela	_	DET	_	_	25	det	_	_
+25	tarde	tarde	NOUN	_	_	21	nmod	_	_
+26	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 25
+# text = A Lenovo ainda investe em o mercado de desktops e apresentou três lançamentos em comunicado enviado a a imprensa em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir a os usuários um alto desempenho em jogos .
+1	A	o	DET	_	_	2	det	_	_
+2	Lenovo	_	PROPN	_	_	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	investe	investir	VERB	_	_	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	_	7	det	_	_
+7	mercado	mercado	NOUN	_	_	42	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	desktops	_	NOUN	_	_	7	nmod	_	_
+10	e	e	CCONJ	_	_	4	cc	_	_
+11	apresentou	apresentar	VERB	_	_	4	conj	_	_
+12	três	_	NUM	_	_	1	nummod	_	_
+13	lançamentos	lançamento	NOUN	_	_	11	obj	_	_
+14	em	em	ADP	_	_	11	mark	_	_
+15	comunicado	comunicado	NOUN	_	_	13	nmod	_	_
+16	enviado	enviar	VERB	_	_	1	xcomp	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	11	mark	_	_
+18	a	o	DET	_	_	19	det	_	_
+19	imprensa	imprensa	NOUN	_	_	13	nmod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	_	22	det	_	_
+22	CES	_	PROPN	_	_	11	obl	_	_
+23	2013	2013	NUM	_	_	2	nummod	_	_
+24	:	:	PUNCT	_	_	19	punct	_	_
+25	o	o	DET	_	_	26	det	_	_
+26	IdeaCentre	_	PROPN	_	_	11	obj	_	_
+27	A730	_	PROPN	_	_	22	appos	_	_
+28	,	,	PUNCT	_	_	23	punct	_	_
+29	o	o	DET	_	_	30	det	_	_
+30	IdeaCentre	_	PROPN	_	_	2	appos	_	_
+31	C540	_	PROPN	_	_	2	appos	_	_
+32	e	e	CCONJ	_	_	2	cc	_	_
+33	o	o	DET	_	_	34	det	_	_
+34	Erazer	_	PROPN	_	_	2	appos	_	_
+35	X700	_	PROPN	_	_	37	nsubj	_	_
+36	,	,	PUNCT	_	_	31	punct	_	_
+37	desenvolvido	desenvolver	VERB	_	_	30	acl	_	_
+38	para	_	ADP	_	_	37	mark	_	_
+39	garantir	garantir	VERB	_	_	3	xcomp	_	_
+40-41	aos	_	_	_	_	_	_	_	_
+40	a	a	DET	_	_	42	det	_	_
+41	os	o	DET	_	_	42	det	_	_
+42	usuários	usuário	NOUN	_	_	30	nmod	_	_
+43	um	um	NUM	_	_	4	nummod	_	_
+44	alto	alto	ADJ	_	_	42	amod	_	_
+45	desempenho	desempenho	NOUN	_	_	40	obl	_	_
+46	em	em	ADP	_	_	47	case	_	_
+47	jogos	jogo	NOUN	_	_	40	obl	_	_
+48	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 26
+# text = Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+1	Dois	_	NUM	_	_	7	dep	_	_
+2	anos	ano	NOUN	_	_	13	nsubj	_	_
+3	depois	depois	ADV	_	_	11	advmod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	ele	_	PRON	_	_	7	nsubj	_	_
+6	foi	_	AUX	_	_	7	csubj	_	_
+7	preso	_	VERB	_	_	0	root	_	_
+8	--	_	PUNCT	_	_	7	punct	_	_
+9	e	e	CCONJ	_	_	1	cc	_	_
+10	eu	_	PRON	_	_	1	nsubj	_	_
+11	nunca	nunca	ADV	_	_	13	advmod	_	_
+12	o	_	PRON	_	_	10	obl	_	_
+13	vi	_	VERB	_	_	10	ccomp	_	_
+14	novamente	novamente	ADV	_	_	11	advmod	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 27
+# text = " A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+1	"	"	PUNCT	_	_	4	punct	_	_
+2-3	Às	_	_	_	_	_	_	_	_
+2	A	a	DET	_	_	5	det	_	_
+3	as	o	DET	_	_	5	det	_	_
+4	17	17	NUM	_	_	5	nummod	_	_
+5	horas	hora	NOUN	_	_	12	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	aproximadamente	aproximadamente	ADV	_	_	11	advmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	os	o	DET	_	_	10	det	_	_
+10	juízes	juiz	NOUN	_	_	1	nsubj	_	_
+11	foram	_	AUX	_	_	17	csubj	_	_
+12	informados	informar	VERB	_	_	0	root	_	_
+13	de	_	ADP	_	_	16	case	_	_
+14	que	que	SCONJ	_	_	1	mark	_	_
+15	o	o	DET	_	_	16	det	_	_
+16	motim	motim	NOUN	_	_	10	nmod	_	_
+17	terminara	terminar	VERB	_	_	1	ccomp	_	_
+18	"	"	PUNCT	_	_	13	punct	_	_
+19	,	,	PUNCT	_	_	14	punct	_	_
+20	diz	dizer	VERB	_	_	22	acl	_	_
+21	o	o	DET	_	_	22	det	_	_
+22	documento	documento	NOUN	_	_	12	obl	_	_
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 28
+# text = Em a ocasião , o Brasil fazia campanha irregular em as Eliminatórias e vinha de dois trabalhos diferentes em menos de um ano .
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	_	3	det	_	_
+3	ocasião	ocasião	NOUN	_	_	7	nsubj	_	_
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	o	o	DET	_	_	6	det	_	_
+6	Brasil	_	PROPN	_	_	7	nsubj	_	_
+7	fazia	fazer	VERB	_	_	0	root	_	_
+8	campanha	campanha	NOUN	_	_	7	obj	_	_
+9	irregular	irregular	ADJ	_	_	8	amod	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	as	o	DET	_	_	12	det	_	_
+12	Eliminatórias	_	NOUN	_	_	8	nmod	_	_
+13	e	e	CCONJ	_	_	7	cc	_	_
+14	vinha	vir	VERB	_	_	7	conj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	dois	_	NUM	_	_	1	nummod	_	_
+17	trabalhos	trabalho	NOUN	_	_	13	obl	_	_
+18	diferentes	diferente	ADJ	_	_	17	amod	_	_
+19	em	_	ADP	_	_	14	case	_	_
+20	menos	menos	ADV	_	_	14	advmod	_	_
+21-22	dum	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	um	_	NUM	_	_	2	nummod	_	_
+23	ano	ano	NOUN	_	_	20	obl	_	_
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 29
+# text = Autor de o primeiro gol de o Bahia em a vitória sobre o Botafogo por 2 a 0 , em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora de a próxima partida , por conta de uma torção em o tornozelo direito .
+1	Autor	autor	NOUN	_	_	3	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	32	case	_	_
+3	o	o	DET	_	_	5	det	_	_
+4	primeiro	primeiro	ADJ	_	_	5	amod	_	_
+5	gol	gol	NOUN	_	_	11	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	32	case	_	_
+7	o	o	DET	_	_	8	det	_	_
+8	Bahia	_	PROPN	_	_	11	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	_	11	det	_	_
+11	vitória	vitória	NOUN	_	_	32	nsubj	_	_
+12	sobre	_	ADP	_	_	14	case	_	_
+13	o	o	DET	_	_	14	det	_	_
+14	Botafogo	_	PROPN	_	_	1	nmod	_	_
+15	por	por	ADP	_	_	31	mark	_	_
+16	2	2	NUM	_	_	1	nummod	_	_
+17	a	_	DET	_	_	14	det	_	_
+18	0	0	NUM	_	_	1	nummod	_	_
+19	,	,	PUNCT	_	_	14	punct	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	o	o	DET	_	_	23	det	_	_
+22	último	último	ADJ	_	_	23	amod	_	_
+23	domingo	_	NOUN	_	_	1	nmod	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	Pituaçu	_	PROPN	_	_	1	nmod	_	_
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	o	o	DET	_	_	29	det	_	_
+29	volante	volante	NOUN	_	_	31	nsubj	_	_
+30	Fahel	_	PROPN	_	_	22	nsubj	_	_
+31	pode	_	AUX	_	_	32	conj	_	_
+32	ficar	ficar	VERB	_	_	0	root	_	_
+33	de	_	ADP	_	_	31	mark	_	_
+34	fora	fora	ADP	_	_	38	case	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	38	case	_	_
+36	a	o	DET	_	_	38	det	_	_
+37	próxima	próximo	ADJ	_	_	38	amod	_	_
+38	partida	partida	NOUN	_	_	3	nmod	_	_
+39	,	,	PUNCT	_	_	34	punct	_	_
+40	por	por	ADP	_	_	41	case	_	_
+41	conta	conta	NOUN	_	_	3	nmod	_	_
+42-43	duma	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	uma	um	DET	_	_	44	det	_	_
+44	torção	torção	NOUN	_	_	41	nmod	_	_
+45-46	no	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	47	case	_	_
+46	o	o	DET	_	_	47	det	_	_
+47	tornozelo	tornozelo	NOUN	_	_	41	nmod	_	_
+48	direito	direito	ADJ	_	_	47	amod	_	_
+49	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 30
+# text = O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque em a cabeça em a partida entre Real Madrid e Valencia , realizada neste domingo .
+1	O	o	DET	_	_	2	det	_	_
+2	zagueiro	zagueiro	NOUN	_	_	12	nsubj	_	_
+3	Pepe	_	PROPN	_	_	28	nsubj	_	_
+4	foi	_	AUX	_	_	5	conj	_	_
+5	encaminhado	encaminhar	VERB	_	_	0	root	_	_
+6	a	_	ADP	_	_	8	case	_	_
+7	um	um	DET	_	_	8	det	_	_
+8	hospital	hospital	NOUN	_	_	5	obl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	Madri	_	PROPN	_	_	8	nmod	_	_
+11	após	_	ADP	_	_	12	mark	_	_
+12	ter	ter	AUX	_	_	5	xcomp	_	_
+13	sofrido	sofrer	VERB	_	_	10	acl	_	_
+14	um	um	DET	_	_	15	det	_	_
+15	choque	choque	NOUN	_	_	10	nmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	_	18	det	_	_
+18	cabeça	cabeça	NOUN	_	_	1	nmod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	_	21	det	_	_
+21	partida	partida	NOUN	_	_	10	nmod	_	_
+22	entre	_	ADP	_	_	23	case	_	_
+23	Real	_	PROPN	_	_	20	nmod	_	_
+24	Madrid	_	PROPN	_	_	20	nmod	_	_
+25	e	e	CCONJ	_	_	2	cc	_	_
+26	Valencia	_	PROPN	_	_	20	nmod	_	_
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	realizada	realizar	VERB	_	_	10	acl	_	_
+29	neste	_	ADV	_	_	28	advmod	_	_
+30	domingo	_	NOUN	_	_	28	obl	_	_
+31	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 31
+# text = Concentre se em as suas aspirações e então siga com confiança em a direção de os seus objetivos .
+1-2	Concentre-se	_	_	_	_	_	_	_	_
+1	Concentre	concentrar	VERB	_	_	0	root	_	_
+2	se	_	PRON	_	_	1	obj	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	6	case	_	_
+4	as	o	DET	_	_	6	det	_	_
+5	suas	_	PRON	_	_	6	nmod:poss	_	_
+6	aspirações	aspiração	NOUN	_	_	10	obl	_	_
+7	e	e	CCONJ	_	_	1	cc	_	_
+8	então	então	ADV	_	_	9	advmod	_	_
+9	siga	seguir	VERB	_	_	1	parataxis	_	_
+10	com	com	ADP	_	_	9	case	_	_
+11	confiança	confiança	NOUN	_	_	10	obl	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	_	14	det	_	_
+14	direção	direção	NOUN	_	_	9	obl	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	_	18	det	_	_
+17	seus	_	PRON	_	_	11	nmod:poss	_	_
+18	objetivos	objetivo	NOUN	_	_	10	obl	_	_
+19	.	.	PUNCT	_	_	1	dep	_	_
+
+# sent_id = 32
+# text = Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+1	Ele	_	PRON	_	_	2	nsubj	_	_
+2	chegou	chegar	VERB	_	_	0	root	_	_
+3	para	para	ADP	_	_	2	mark	_	_
+4	mim	_	PRON	_	_	2	obj	_	_
+5	e	e	CCONJ	_	_	2	cc	_	_
+6	disse	dizer	VERB	_	_	2	xcomp	_	_
+7	que	que	SCONJ	_	_	6	mark	_	_
+8	era	_	AUX	_	_	11	conj	_	_
+9	melhor	melhor	ADJ	_	_	2	amod	_	_
+10	eu	_	PRON	_	_	11	nsubj	_	_
+11	ser	ser	VERB	_	_	9	ccomp	_	_
+12	emprestado	_	VERB	_	_	10	xcomp	_	_
+13	porque	_	SCONJ	_	_	9	mark	_	_
+14	via	ver	VERB	_	_	9	ccomp	_	_
+15	potencial	potencial	NOUN	_	_	1	obl	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	mim	_	PRON	_	_	1	obl	_	_
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 33
+# text = Alternativamente , um sintetizador pode incorporar um modelo de o trato vocal ( caminho percorrido por a voz ) e outras características de a voz humana , para criar como saída uma voz completamente " sintética " .
+1	Alternativamente	alternativamente	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	um	um	DET	_	_	4	det	_	_
+4	sintetizador	sintetizador	NOUN	_	_	5	nsubj	_	_
+5	pode	_	VERB	_	_	0	root	_	_
+6	incorporar	incorporar	VERB	_	_	5	xcomp	_	_
+7	um	um	DET	_	_	8	det	_	_
+8	modelo	modelo	NOUN	_	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	_	11	det	_	_
+11	trato	trato	NOUN	_	_	8	nmod	_	_
+12	vocal	vocal	ADJ	_	_	11	amod	_	_
+13	(	(	PUNCT	_	_	11	punct	_	_
+14	caminho	caminho	NOUN	_	_	15	nsubj	_	_
+15	percorrido	percorrer	VERB	_	_	11	acl	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	_	18	det	_	_
+18	voz	voz	NOUN	_	_	11	nmod	_	_
+19	)	)	PUNCT	_	_	14	punct	_	_
+20	e	e	CCONJ	_	_	5	cc	_	_
+21	outras	_	ADJ	_	_	22	amod	_	_
+22	características	_	NOUN	_	_	5	obl	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	_	25	det	_	_
+25	voz	voz	NOUN	_	_	2	nmod	_	_
+26	humana	humano	ADJ	_	_	25	amod	_	_
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	para	_	ADP	_	_	29	mark	_	_
+29	criar	criar	VERB	_	_	5	xcomp	_	_
+30	como	como	ADP	_	_	33	case	_	_
+31	saída	saída	NOUN	_	_	30	obl	_	_
+32	uma	um	DET	_	_	33	det	_	_
+33	voz	voz	NOUN	_	_	20	obl	_	_
+34	completamente	completamente	ADV	_	_	36	advmod	_	_
+35	"	"	PUNCT	_	_	30	punct	_	_
+36	sintética	sintético	ADJ	_	_	33	amod	_	_
+37	"	"	PUNCT	_	_	33	punct	_	_
+38	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 34
+# text = 1998 XO53 ( asteroide 29686 ) é um asteroide de a cintura principal .
+1	1998	1998	NUM	_	_	4	nummod	_	_
+2	XO53	_	X	_	_	4	dep	_	_
+3	(	(	PUNCT	_	_	4	punct	_	_
+4	asteroide	asteroide	NOUN	_	_	7	nsubj	_	_
+5	29686	29686	NUM	_	_	4	nummod	_	_
+6	)	)	PUNCT	_	_	4	punct	_	_
+7	é	ser	AUX	_	_	0	root	_	_
+8	um	um	DET	_	_	9	det	_	_
+9	asteroide	asteroide	NOUN	_	_	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	_	12	det	_	_
+12	cintura	cintura	NOUN	_	_	9	nmod	_	_
+13	principal	principal	ADJ	_	_	12	amod	_	_
+14	.	.	PUNCT	_	_	7	dep	_	_
+
+# sent_id = 35
+# text = Estamos numa cruzada em o Brasil para reduzir os custos , afirmou o ministro .
+1	Estamos	estar	VERB	_	_	0	root	_	_
+2	numa	_	ADP	_	_	12	case	_	_
+3	cruzada	_	NOUN	_	_	1	obl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	1	case	_	_
+5	o	o	DET	_	_	6	det	_	_
+6	Brasil	_	PROPN	_	_	3	nmod	_	_
+7	para	_	SCONJ	_	_	8	mark	_	_
+8	reduzir	reduzir	VERB	_	_	1	xcomp	_	_
+9	os	o	DET	_	_	10	det	_	_
+10	custos	custo	NOUN	_	_	8	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	afirmou	afirmar	VERB	_	_	1	conj	_	_
+13	o	o	DET	_	_	14	det	_	_
+14	ministro	ministro	NOUN	_	_	11	nsubj	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 36
+# text = Substituído a os 37 minutos de o segundo tempo de o amistoso de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+1	Substituído	substituir	VERB	_	_	0	root	_	_
+2-3	aos	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	1	case	_	_
+3	os	o	DET	_	_	5	det	_	_
+4	37	37	NUM	_	_	5	nummod	_	_
+5	minutos	minuto	NOUN	_	_	12	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	1	case	_	_
+7	o	o	DET	_	_	8	det	_	_
+8	segundo	segundo	NOUN	_	_	9	nmod	_	_
+9	tempo	tempo	NOUN	_	_	12	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	1	case	_	_
+11	o	o	DET	_	_	12	det	_	_
+12	amistoso	_	NOUN	_	_	18	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	1	case	_	_
+14	a	o	DET	_	_	15	det	_	_
+15	Seleção	_	NOUN	_	_	10	nmod	_	_
+16	com	com	ADP	_	_	1	case	_	_
+17	os	o	DET	_	_	18	det	_	_
+18	suecos	sueco	NOUN	_	_	10	nmod	_	_
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	Neymar	_	PROPN	_	_	10	nsubj	_	_
+21	mostrou	mostrar	VERB	_	_	11	ccomp	_	_
+22	que	que	SCONJ	_	_	2	mark	_	_
+23	está	estar	AUX	_	_	21	ccomp	_	_
+24	animado	animado	ADJ	_	_	27	amod	_	_
+25	com	com	ADP	_	_	23	case	_	_
+26	a	o	DET	_	_	27	det	_	_
+27	possibilidade	possibilidade	NOUN	_	_	21	obj	_	_
+28	de	_	ADP	_	_	21	mark	_	_
+29	jogar	jogar	VERB	_	_	20	acl	_	_
+30	contra	_	ADP	_	_	29	case	_	_
+31	os	o	DET	_	_	32	det	_	_
+32	catarinenses	catarinense	NOUN	_	_	24	obl	_	_
+33	,	,	PUNCT	_	_	28	punct	_	_
+34	tanto	tanto	ADV	_	_	21	advmod	_	_
+35	que	_	SCONJ	_	_	3	mark	_	_
+36	enviou	enviar	VERB	_	_	2	ccomp	_	_
+37	uma	um	DET	_	_	38	det	_	_
+38	mensagem	mensagem	NOUN	_	_	3	obl	_	_
+39	,	,	PUNCT	_	_	34	punct	_	_
+40	via	_	ADP	_	_	36	case	_	_
+41	twitter	_	PROPN	_	_	47	obl	_	_
+42	,	,	PUNCT	_	_	38	punct	_	_
+43	para	para	ADP	_	_	36	mark	_	_
+44	o	o	DET	_	_	45	det	_	_
+45	centroavante	centroavante	NOUN	_	_	48	nsubj	_	_
+46	André	_	PROPN	_	_	40	obl	_	_
+47	--	_	PUNCT	_	_	43	punct	_	_
+48	contratado	contratar	VERB	_	_	4	ccomp	_	_
+49	recentemente	recentemente	ADV	_	_	48	advmod	_	_
+50	junto	junto	ADV	_	_	48	advmod	_	_
+51-52	ao	_	_	_	_	_	_	_	_
+51	a	a	ADP	_	_	53	case	_	_
+52	o	o	DET	_	_	53	det	_	_
+53	Atlético	_	PROPN	_	_	40	obl	_	_
+54	-	-	PUNCT	_	_	50	punct	_	_
+55	MG	_	PROPN	_	_	50	obl	_	_
+56	--	_	PUNCT	_	_	51	punct	_	_
+57	e	e	CCONJ	_	_	4	cc	_	_
+58	o	o	DET	_	_	59	det	_	_
+59	meia	_	NOUN	_	_	50	obl	_	_
+60	Paulo	_	PROPN	_	_	5	appos	_	_
+61	Henrique	_	PROPN	_	_	63	nsubj	_	_
+62	Ganso	_	PROPN	_	_	60	appos	_	_
+63	.	.	PUNCT	_	_	1	dep	_	_
+
+# sent_id = 37
+# text = Dentre os 6000 participantes de a primeira conferência de usuários de a Amazon Web Services estavam representantes de as companhias concorrentes , Google e Microsoft .
+1	Dentre	_	ADP	_	_	4	case	_	_
+2	os	o	DET	_	_	4	det	_	_
+3	6000	6000	NUM	_	_	4	nummod	_	_
+4	participantes	participante	NOUN	_	_	16	obl	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	16	case	_	_
+6	a	o	DET	_	_	8	det	_	_
+7	primeira	primeiro	ADJ	_	_	8	amod	_	_
+8	conferência	conferência	NOUN	_	_	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	usuários	usuário	NOUN	_	_	8	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	_	13	det	_	_
+13	Amazon	_	PROPN	_	_	4	nmod	_	_
+14	Web	_	PROPN	_	_	1	nmod	_	_
+15	Services	_	PROPN	_	_	1	nmod	_	_
+16	estavam	estar	VERB	_	_	0	root	_	_
+17	representantes	representante	NOUN	_	_	10	nmod	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	as	o	DET	_	_	20	det	_	_
+20	companhias	companhia	NOUN	_	_	1	nmod	_	_
+21	concorrentes	concorrente	ADJ	_	_	20	amod	_	_
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	Google	_	PROPN	_	_	2	nmod	_	_
+24	e	e	CCONJ	_	_	2	cc	_	_
+25	Microsoft	_	PROPN	_	_	2	nmod	_	_
+26	.	.	PUNCT	_	_	16	dep	_	_
+
+# sent_id = 38
+# text = Foucart é uma comuna francesa em a região administrativa de a Alta - Normandia , em o departamento Seine - Maritime .
+1	Foucart	_	PROPN	_	_	2	nsubj	_	_
+2	é	ser	AUX	_	_	0	root	_	_
+3	uma	um	DET	_	_	4	det	_	_
+4	comuna	comuna	NOUN	_	_	2	obj	_	_
+5	francesa	francês	ADJ	_	_	4	amod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	_	8	det	_	_
+8	região	região	NOUN	_	_	4	nmod	_	_
+9	administrativa	administrativo	ADJ	_	_	8	amod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	_	12	det	_	_
+12	Alta	_	PROPN	_	_	8	nmod	_	_
+13	-	-	PUNCT	_	_	10	punct	_	_
+14	Normandia	_	PROPN	_	_	10	nmod	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	_	18	det	_	_
+18	departamento	departamento	NOUN	_	_	8	nmod	_	_
+19	Seine	_	PROPN	_	_	10	nmod	_	_
+20	-	-	PUNCT	_	_	16	punct	_	_
+21	Maritime	_	PROPN	_	_	10	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 39
+# text = Eduardo Paes é o prefeito de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+1	Eduardo	_	PROPN	_	_	3	nsubj	_	_
+2	Paes	_	PROPN	_	_	14	nsubj	_	_
+3	é	ser	AUX	_	_	0	root	_	_
+4	o	o	DET	_	_	5	det	_	_
+5	prefeito	prefeito	NOUN	_	_	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	_	8	det	_	_
+8	Rio	_	PROPN	_	_	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Janeiro	_	PROPN	_	_	8	compound	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	uma	um	DET	_	_	13	det	_	_
+13	cidade	cidade	NOUN	_	_	3	obj	_	_
+14	bela	belo	ADJ	_	_	13	amod	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	complexa	complexo	ADJ	_	_	13	amod	_	_
+17	e	e	CCONJ	_	_	1	cc	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	expansão	expansão	NOUN	_	_	1	nmod	_	_
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	que	_	PRON	_	_	20	nsubj	_	_
+22	tem	ter	AUX	_	_	2	acl	_	_
+23	6,5	6,5	NUM	_	_	2	nummod	_	_
+24	milhões	_	NOUN	_	_	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	habitantes	habitante	NOUN	_	_	21	nmod	_	_
+27	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 40
+# text = A Troica discorda de alguns pontos de o plano de austeridade e quer que o país faça mais cortes de gastos em o próximo ano de o que o planejado por o governo grego .
+1	A	o	DET	_	_	2	det	_	_
+2	Troica	Troica	PROPN	_	_	3	nsubj	_	_
+3	discorda	discordar	VERB	_	_	0	root	_	_
+4-5	dalguns	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	alguns	algum	DET	_	_	6	det	_	_
+6	pontos	ponto	NOUN	_	_	3	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	_	9	det	_	_
+9	plano	plano	NOUN	_	_	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	austeridade	austeridade	NOUN	_	_	6	nmod	_	_
+12	e	e	CCONJ	_	_	3	cc	_	_
+13	quer	querer	VERB	_	_	33	acl	_	_
+14	que	que	SCONJ	_	_	1	mark	_	_
+15	o	o	DET	_	_	16	det	_	_
+16	país	país	NOUN	_	_	11	nmod	_	_
+17	faça	fazer	VERB	_	_	11	acl	_	_
+18	mais	mais	ADV	_	_	13	advmod	_	_
+19	cortes	corte	NOUN	_	_	11	nmod	_	_
+20	de	de	ADP	_	_	17	case	_	_
+21	gastos	gasto	NOUN	_	_	11	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	o	o	DET	_	_	25	det	_	_
+24	próximo	próximo	ADJ	_	_	21	amod	_	_
+25	ano	ano	NOUN	_	_	2	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	_	25	det	_	_
+28	que	que	PRON	_	_	3	obj	_	_
+29	o	o	DET	_	_	3	det	_	_
+30	planejado	planejar	VERB	_	_	2	acl	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	o	o	DET	_	_	33	det	_	_
+33	governo	governo	NOUN	_	_	3	obl	_	_
+34	grego	grego	ADJ	_	_	33	amod	_	_
+35	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 41
+# text = Há uma reativação de a busca por crédito , que ocorre de forma gradual .
+1	Há	haver	VERB	_	_	0	root	_	_
+2	uma	um	DET	_	_	3	det	_	_
+3	reativação	reativação	NOUN	_	_	1	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	1	mark	_	_
+5	a	o	DET	_	_	6	det	_	_
+6	busca	busca	NOUN	_	_	3	nmod	_	_
+7	por	por	ADP	_	_	1	mark	_	_
+8	crédito	crédito	NOUN	_	_	6	nmod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	que	_	PRON	_	_	11	nsubj	_	_
+11	ocorre	ocorrer	VERB	_	_	1	ccomp	_	_
+12	de	de	ADP	_	_	1	mark	_	_
+13	forma	forma	NOUN	_	_	1	obl	_	_
+14	gradual	gradual	ADJ	_	_	13	amod	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 42
+# text = Ministro afirma que já esperava " incompreensões " por o fato de ter absolvido o petista João Paulo Cunha .
+1	Ministro	ministro	NOUN	_	_	2	nsubj	_	_
+2	afirma	afirmar	VERB	_	_	0	root	_	_
+3	que	que	SCONJ	_	_	2	mark	_	_
+4	já	já	ADV	_	_	5	advmod	_	_
+5	esperava	esperar	VERB	_	_	2	ccomp	_	_
+6	"	"	PUNCT	_	_	7	punct	_	_
+7	incompreensões	incompreensão	NOUN	_	_	5	obj	_	_
+8	"	"	PUNCT	_	_	7	punct	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	_	11	det	_	_
+11	fato	fato	NOUN	_	_	5	obl	_	_
+12	de	de	ADP	_	_	14	mark	_	_
+13	ter	ter	AUX	_	_	14	conj	_	_
+14	absolvido	absolver	VERB	_	_	1	acl	_	_
+15	o	o	DET	_	_	16	det	_	_
+16	petista	petista	NOUN	_	_	13	obj	_	_
+17	João	João	PROPN	_	_	1	appos	_	_
+18	Paulo	Paulo	PROPN	_	_	1	appos	_	_
+19	Cunha	Cunha	PROPN	_	_	1	appos	_	_
+20	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 43
+# text = Sob a camisa , a barriga começava a despontar .
+1	Sob	sob	ADP	_	_	3	case	_	_
+2	a	o	DET	_	_	3	det	_	_
+3	camisa	camisa	NOUN	_	_	6	nmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	_	6	det	_	_
+6	barriga	barriga	NOUN	_	_	7	nsubj	_	_
+7	começava	começar	VERB	_	_	0	root	_	_
+8	a	a	PART	_	_	9	mark	_	_
+9	despontar	despontar	VERB	_	_	7	xcomp	_	_
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 44
+# text = A ideia é de que todos desliguem seus celulares .
+1	A	o	DET	_	_	2	det	_	_
+2	ideia	ideia	NOUN	_	_	7	nsubj	_	_
+3	é	ser	AUX	_	_	7	advcl	_	_
+4	de	_	ADP	_	_	3	mark	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	todos	_	PRON	_	_	7	nsubj	_	_
+7	desliguem	desligar	VERB	_	_	0	root	_	_
+8	seus	_	DET	_	_	9	det	_	_
+9	celulares	_	NOUN	_	_	7	obj	_	_
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 45
+# text = Depois de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle de o trono em cerca de 1285 .
+1	Depois	depois	ADV	_	_	26	advmod	_	_
+2-3	duma	_	_	_	_	_	_	_	_
+2	de	_	ADP	_	_	4	case	_	_
+3	uma	um	DET	_	_	4	det	_	_
+4	luta	luta	NOUN	_	_	26	nsubj	_	_
+5	debilitante	debilitante	ADJ	_	_	4	amod	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	a	o	DET	_	_	8	det	_	_
+8	sucessão	sucessão	NOUN	_	_	4	nmod	_	_
+9	entre	_	ADP	_	_	11	case	_	_
+10	os	o	DET	_	_	11	det	_	_
+11	filhos	filho	NOUN	_	_	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Sundiata	_	PROPN	_	_	10	nmod	_	_
+14	Keita	_	PROPN	_	_	10	nmod	_	_
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	Ouati	_	PROPN	_	_	10	nmod	_	_
+17	e	e	CCONJ	_	_	1	cc	_	_
+18	Khalifa	_	PROPN	_	_	1	nmod	_	_
+19	e	e	CCONJ	_	_	1	cc	_	_
+20	seu	_	DET	_	_	21	det	_	_
+21	neto	neto	NOUN	_	_	1	nmod	_	_
+22	Abu	_	PROPN	_	_	2	nmod	_	_
+23	Bakr	_	PROPN	_	_	2	nmod	_	_
+24	,	,	PUNCT	_	_	21	punct	_	_
+25	Sakoura	_	PROPN	_	_	26	nsubj	_	_
+26	tomou	tomar	VERB	_	_	0	root	_	_
+27	o	o	DET	_	_	28	det	_	_
+28	controle	_	NOUN	_	_	26	obj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	_	31	det	_	_
+31	trono	trono	NOUN	_	_	2	nmod	_	_
+32	em	em	ADP	_	_	26	mark	_	_
+33	cerca	cerca	ADV	_	_	26	advmod	_	_
+34	de	de	ADP	_	_	26	mark	_	_
+35	1285	1285	NUM	_	_	3	nummod	_	_
+36	.	.	PUNCT	_	_	26	dep	_	_
+
+# sent_id = 46
+# text = A situação criaria uma figura estranha de o deputado com mandato , mas que passa os dias dentro de um presídio .
+1	A	o	DET	_	_	2	det	_	_
+2	situação	situação	NOUN	_	_	3	nsubj	_	_
+3	criaria	criar	VERB	_	_	0	root	_	_
+4	uma	um	DET	_	_	5	det	_	_
+5	figura	figura	NOUN	_	_	3	obj	_	_
+6	estranha	estranho	ADJ	_	_	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	_	9	det	_	_
+9	deputado	deputado	NOUN	_	_	5	nmod	_	_
+10	com	com	ADP	_	_	3	mark	_	_
+11	mandato	mandato	NOUN	_	_	9	nmod	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	mas	mas	CCONJ	_	_	3	cc	_	_
+14	que	_	PRON	_	_	11	nmod:poss	_	_
+15	passa	passar	VERB	_	_	11	acl	_	_
+16	os	o	DET	_	_	17	det	_	_
+17	dias	dia	NOUN	_	_	11	nmod	_	_
+18	dentro	dentro	ADP	_	_	15	mark	_	_
+19-20	dum	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	um	um	DET	_	_	21	det	_	_
+21	presídio	presídio	NOUN	_	_	11	nmod	_	_
+22	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 47
+# text = Além disso , os investidores esperam cautelosos por o resultado de a reunião de política monetária de o Banco Central Europeu ( BCE ) , por a coletiva de o presidente de o BCE , Mário Draghi , por o número de pedidos de auxílio - desemprego em os EUA e por os dados de inflação em a China esta noite .
+1	Além	além	ADV	_	_	6	advmod	_	_
+2	disso	_	ADV	_	_	6	advmod	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	os	o	DET	_	_	5	det	_	_
+5	investidores	investidor	NOUN	_	_	6	nsubj	_	_
+6	esperam	esperar	VERB	_	_	0	root	_	_
+7	cautelosos	cauteloso	ADJ	_	_	5	amod	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	_	10	det	_	_
+10	resultado	resultado	NOUN	_	_	6	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	_	13	det	_	_
+13	reunião	reunião	NOUN	_	_	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	política	_	NOUN	_	_	1	nmod	_	_
+16	monetária	monetário	ADJ	_	_	13	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	_	19	det	_	_
+19	Banco	_	PROPN	_	_	1	nmod	_	_
+20	Central	_	PROPN	_	_	1	nmod	_	_
+21	Europeu	_	PROPN	_	_	1	nmod	_	_
+22	(	(	PUNCT	_	_	17	punct	_	_
+23	BCE	_	PROPN	_	_	1	nmod	_	_
+24	)	)	PUNCT	_	_	19	punct	_	_
+25	,	,	PUNCT	_	_	20	punct	_	_
+26-27	pela	_	_	_	_	_	_	_	_
+26	por	por	ADP	_	_	28	case	_	_
+27	a	o	DET	_	_	28	det	_	_
+28	coletiva	coletiva	NOUN	_	_	62	nsubj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	_	31	det	_	_
+31	presidente	presidente	NOUN	_	_	2	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	_	34	det	_	_
+34	BCE	_	PROPN	_	_	3	nmod	_	_
+35	,	,	PUNCT	_	_	31	punct	_	_
+36	Mário	_	PROPN	_	_	3	nmod	_	_
+37	Draghi	_	PROPN	_	_	3	nmod	_	_
+38	,	,	PUNCT	_	_	34	punct	_	_
+39-40	pelo	_	_	_	_	_	_	_	_
+39	por	por	ADP	_	_	41	case	_	_
+40	o	o	DET	_	_	41	det	_	_
+41	número	número	NOUN	_	_	6	obj	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	pedidos	pedido	NOUN	_	_	4	nmod	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	auxílio	auxílio	NOUN	_	_	4	nmod	_	_
+46	-	-	PUNCT	_	_	41	punct	_	_
+47	desemprego	desemprego	NOUN	_	_	4	nmod	_	_
+48-49	nos	_	_	_	_	_	_	_	_
+48	em	em	ADP	_	_	50	case	_	_
+49	os	o	DET	_	_	50	det	_	_
+50	EUA	_	PROPN	_	_	4	nmod	_	_
+51	e	e	CCONJ	_	_	4	cc	_	_
+52-53	pelos	_	_	_	_	_	_	_	_
+52	por	por	ADP	_	_	54	case	_	_
+53	os	o	DET	_	_	54	det	_	_
+54	dados	dado	NOUN	_	_	4	nmod	_	_
+55	de	de	ADP	_	_	59	case	_	_
+56	inflação	inflação	NOUN	_	_	5	nmod	_	_
+57-58	na	_	_	_	_	_	_	_	_
+57	em	em	ADP	_	_	59	case	_	_
+58	a	o	DET	_	_	59	det	_	_
+59	China	_	PROPN	_	_	5	nmod	_	_
+60	esta	_	DET	_	_	61	det	_	_
+61	noite	noite	NOUN	_	_	5	nmod	_	_
+62	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 48
+# text = Em a sexta e em o sábado o evento começa a as 21h e em o domingo , a as 19h .
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	_	3	det	_	_
+3	sexta	_	NOUN	_	_	10	nsubj	_	_
+4	e	e	CCONJ	_	_	1	cc	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	_	7	det	_	_
+7	sábado	_	NOUN	_	_	3	appos	_	_
+8	o	o	DET	_	_	9	det	_	_
+9	evento	evento	NOUN	_	_	1	nsubj	_	_
+10	começa	_	VERB	_	_	0	root	_	_
+11-12	às	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	10	mark	_	_
+12	as	o	DET	_	_	13	det	_	_
+13	21h	_	NOUN	_	_	1	obl	_	_
+14	e	e	CCONJ	_	_	1	cc	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	_	17	det	_	_
+17	domingo	_	NOUN	_	_	1	obl	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	as	o	DET	_	_	21	det	_	_
+21	19h	_	NOUN	_	_	1	obl	_	_
+22	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 49
+# text = Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	_	3	det	_	_
+3	entanto	entanto	NOUN	_	_	10	nsubj	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	_	6	det	_	_
+6	número	número	NOUN	_	_	12	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	pessoas	pessoa	NOUN	_	_	6	nmod	_	_
+9	que	que	PRON	_	_	10	nsubj	_	_
+10	passaram	passar	VERB	_	_	0	root	_	_
+11	a	a	ADP	_	_	10	dep	_	_
+12	integrar	integrar	VERB	_	_	1	xcomp	_	_
+13	a	o	DET	_	_	14	det	_	_
+14	força	força	NOUN	_	_	10	obj	_	_
+15	de	de	ADP	_	_	12	case	_	_
+16	trabalho	trabalho	NOUN	_	_	19	nmod	_	_
+17	aumentou	aumentar	VERB	_	_	11	xcomp	_	_
+18	em	em	ADP	_	_	17	case	_	_
+19	proporção	proporção	NOUN	_	_	10	obl	_	_
+20	maior	maior	ADJ	_	_	19	amod	_	_
+21	(	(	PUNCT	_	_	20	punct	_	_
+22	691	691	NUM	_	_	2	nummod	_	_
+23	mil	mil	NUM	_	_	2	nummod	_	_
+24	)	)	PUNCT	_	_	20	punct	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 50
+# text = Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+1	Sônia	_	PROPN	_	_	3	nsubj	_	_
+2	Moura	_	PROPN	_	_	11	nsubj	_	_
+3	disse	dizer	VERB	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	ainda	ainda	ADV	_	_	6	advmod	_	_
+6	pretende	pretender	VERB	_	_	3	ccomp	_	_
+7	enterrar	enterrar	VERB	_	_	6	xcomp	_	_
+8	a	o	DET	_	_	9	det	_	_
+9	filha	filho	NOUN	_	_	7	obj	_	_
+10	e	e	CCONJ	_	_	6	cc	_	_
+11	disse	dizer	VERB	_	_	3	conj	_	_
+12	não	não	PART	_	_	1	mark	_	_
+13	ter	ter	AUX	_	_	14	conj	_	_
+14	perdido	perder	VERB	_	_	1	acl	_	_
+15	a	o	DET	_	_	16	det	_	_
+16	esperança	esperança	NOUN	_	_	10	obl	_	_
+17	de	_	ADP	_	_	18	mark	_	_
+18	encontrar	encontrar	VERB	_	_	1	acl	_	_
+19	o	o	DET	_	_	20	det	_	_
+20	corpo	corpo	NOUN	_	_	10	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Eliza	_	PROPN	_	_	20	nmod	_	_
+23	.	.	PUNCT	_	_	18	punct	_	_
+

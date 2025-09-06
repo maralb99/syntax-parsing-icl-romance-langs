@@ -1,0 +1,466 @@
+SUMMARY ERROR ANALYSIS: ca_mixed_5.conllu vs. gold_file_ca.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1850
+UPOS errors: 131 (7.08%)
+HEAD errors: 987 (53.35%)
+DEPREL errors: 707 (38.22%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'que': 11 errors (0.60%)
+'no': 5 errors (0.27%)
+'es': 5 errors (0.27%)
+'estat': 4 errors (0.22%)
+'com': 4 errors (0.22%)
+'un': 3 errors (0.16%)
+'és': 3 errors (0.16%)
+'una': 3 errors (0.16%)
+'on': 3 errors (0.16%)
+'medicina': 3 errors (0.16%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+PROPN → NOUN: 24 occurrences (18.32%)
+Most common error-causing words:
+  'medicina': 3 times (12.5% of this error)
+  'dermatologia': 2 times (8.3% of this error)
+  'facultat': 2 times (8.3% of this error)
+  'laboratori': 2 times (8.3% of this error)
+  'fons': 1 times (4.2% of this error)
+
+Examples:
+  1. Line 1279: 'Fons' in sentence 34
+     Context: un Fons de
+     Sentence: La proposta dels de els populars també preveu la creació d' un Fons de Solidaritat que permeti disposar d' un nivell de serveis equilibrat entre les diferents comunitats autònomes del de el conjunt de l' Estat .
+  2. Line 1281: 'Solidaritat' in sentence 34
+     Context: de Solidaritat que
+     Sentence: La proposta dels de els populars també preveu la creació d' un Fons de Solidaritat que permeti disposar d' un nivell de serveis equilibrat entre les diferents comunitats autònomes del de el conjunt de l' Estat .
+  3. Line 1302: 'Estat' in sentence 34
+     Context: l' Estat .
+     Sentence: La proposta dels de els populars també preveu la creació d' un Fons de Solidaritat que permeti disposar d' un nivell de serveis equilibrat entre les diferents comunitats autònomes del de el conjunt de l' Estat .
+  4. Line 1611: 'Regidoria' in sentence 42
+     Context: la Regidoria de
+     Sentence: Aquest cicle de conferències , organitzat per la Regidoria de Ciutat del de el Coneixement , amb el patrocini de l' Instituto Novartis de Comunicación en Biomedicina , posa a l' abast dels de els ciutadans una nova proposta per conèixer i debatre l' activitat científica i acadèmica que es porta a terme als a els quatre hospitals universitaris de la ciutat , Clínic , Mar , Sant Pau i Vall d' Hebron .
+  5. Line 1613: 'Ciutat' in sentence 42
+     Context: de Ciutat del
+     Sentence: Aquest cicle de conferències , organitzat per la Regidoria de Ciutat del de el Coneixement , amb el patrocini de l' Instituto Novartis de Comunicación en Biomedicina , posa a l' abast dels de els ciutadans una nova proposta per conèixer i debatre l' activitat científica i acadèmica que es porta a terme als a els quatre hospitals universitaris de la ciutat , Clínic , Mar , Sant Pau i Vall d' Hebron .
+     ... and 19 more occurrences
+
+AUX → VERB: 12 occurrences (9.16%)
+Most common error-causing words:
+  'estat': 3 times (25.0% of this error)
+  'és': 2 times (16.7% of this error)
+  'està': 2 times (16.7% of this error)
+  'pot': 1 times (8.3% of this error)
+  'haurà': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 221: 'estat' in sentence 9
+     Context: ha estat el
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  2. Line 365: 'estat' in sentence 12
+     Context: ha estat també
+     Sentence: L' àrea de serveis del de el Palau Firal , que inclou la sala d' actes i les aules , ha estat també utilitzada amb diverses finalitats .
+  3. Line 441: 'és' in sentence 15
+     Context: no és escala
+     Sentence: Tot i que aquest port no és escala habitual d' aquesta mena de creuers comercials , es tracta d' una acció puntual endegada pel per el departament comercial de l' Autoritat Portuària amb companyies navilieres d' arreu del de el món .
+  4. Line 574: 'està' in sentence 19
+     Context: També està prevista
+     Sentence: També està prevista l' arribada del de el creuer ' Silver Shadow ' , de la companyia Silversea Cruises , amb una eslora de 182 metres i 388 passatgers .
+  5. Line 693: 'pot' in sentence 21
+     Context: social pot perjudicar
+     Sentence: L' advocat del de el professor d' una escola de Sant Quirze del de el Vallès ( Vallès Occidental ) que ha estat detingut per presumptes abusos sexuals a una alumna del de el centre , de 8 anys , ha anunciat que no recorrerà l' ordre judicial de presó preventiva per considerar que l' alarma social pot perjudicar més el mestre si està al a el carrer .
+     ... and 7 more occurrences
+
+PRON → SCONJ: 11 occurrences (8.40%)
+Most common error-causing words:
+  'que': 11 times (100.0% of this error)
+
+Examples:
+  1. Line 230: 'que' in sentence 9
+     Context: , que van
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  2. Line 295: 'que' in sentence 10
+     Context: escenari que fa
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  3. Line 354: 'que' in sentence 12
+     Context: , que inclou
+     Sentence: L' àrea de serveis del de el Palau Firal , que inclou la sala d' actes i les aules , ha estat també utilitzada amb diverses finalitats .
+  4. Line 506: 'que' in sentence 17
+     Context: , que atracarà
+     Sentence: El creuer , que atracarà al a el Moll de Costa , arribarà a les 8 del de el matí i salparà a les 22 hores , té una eslora de 76 metres i duu a bord un total de 22 passatgers .
+  5. Line 795: 'que' in sentence 23
+     Context: mesura que instarà
+     Sentence: Segons l' advocat , la primera mesura que instarà al a el jutge és la petició d' una prova pericial forense en relació a l' estat físic de la nena que ha estat presumptament víctima dels de els abusos , i si es demostra la veracitat dels de els abusos denunciats , demanarà que un metge explori el professor per mirar de descobrir si pateix algun tipus de trastorn mental .
+     ... and 6 more occurrences
+
+DET → ADJ: 8 occurrences (6.11%)
+Most common error-causing words:
+  'aquest': 1 times (12.5% of this error)
+  'aquests': 1 times (12.5% of this error)
+  'seva': 1 times (12.5% of this error)
+  'diverses': 1 times (12.5% of this error)
+  'mateix': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 34: 'aquest' in sentence 2
+     Context: En aquest temps
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 218: 'aquests' in sentence 9
+     Context: d' aquests casos
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  3. Line 302: 'seva' in sentence 10
+     Context: la seva gira
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  4. Line 369: 'diverses' in sentence 12
+     Context: amb diverses finalitats
+     Sentence: L' àrea de serveis del de el Palau Firal , que inclou la sala d' actes i les aules , ha estat també utilitzada amb diverses finalitats .
+  5. Line 550: 'mateix' in sentence 18
+     Context: Aquest mateix vaixell
+     Sentence: Aquest mateix vaixell tornarà a atracar al a el port de Tarragona els propers dies 11 i 18 de juny .
+     ... and 3 more occurrences
+
+PRON → AUX: 7 occurrences (5.34%)
+Most common error-causing words:
+  'es': 5 times (71.4% of this error)
+  's'': 2 times (28.6% of this error)
+
+Examples:
+  1. Line 330: 'es' in sentence 11
+     Context: que es presentaran
+     Sentence: Alhora , el recinte ha servit com a espai per als a els assajos de la Fira Medieval i d' espectacles que es presentaran a la Fira d' Espectacles d' Arrel Tradicional .
+  2. Line 1360: 'es' in sentence 36
+     Context: PP es considera
+     Sentence: Tot i que des del de el PP es considera que aquest document sobre finançament serà la base per negociar amb la resta de forces polítiques , els populars asseguren que el diàleg entre les comunitats autònomes es farà a través del de el Consell de Política Fiscal i Financera .
+  3. Line 1389: 'es' in sentence 36
+     Context: autònomes es farà
+     Sentence: Tot i que des del de el PP es considera que aquest document sobre finançament serà la base per negociar amb la resta de forces polítiques , els populars asseguren que el diàleg entre les comunitats autònomes es farà a través del de el Consell de Política Fiscal i Financera .
+  4. Line 1692: 'es' in sentence 43
+     Context: XXI es pronuncien
+     Sentence: Les conferències que composen el cicle Medicina al a el Segle XXI es pronuncien rotativament , els dimarts , a les 19'30 hores , a cada un dels de els hospitals , amb entrada lliure per a tothom .
+  5. Line 1752: 'es' in sentence 45
+     Context: cicle es compon
+     Sentence: És a dir , el cicle es compon de sèries de cinc conferències , les quals s' aniran celebrant durant el proper any i mig , i s' hi tractaran temes com ara els accidents infantils , les malalties importades , el bioterrorisme , l' Alzheimer , o la recerca amb embrions humans , entre d' altres .
+     ... and 2 more occurrences
+
+ADJ → VERB: 7 occurrences (5.34%)
+Most common error-causing words:
+  'prevista': 1 times (14.3% of this error)
+  'acordada': 1 times (14.3% of this error)
+  'transferits': 1 times (14.3% of this error)
+  'governades': 1 times (14.3% of this error)
+  'encapçalada': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 575: 'prevista' in sentence 19
+     Context: està prevista l'
+     Sentence: També està prevista l' arribada del de el creuer ' Silver Shadow ' , de la companyia Silversea Cruises , amb una eslora de 182 metres i 388 passatgers .
+  2. Line 766: 'acordada' in sentence 22
+     Context: presó acordada pel
+     Sentence: Damián Téllez , advocat de M.C.B. , un mestre de Sant Quirze del de el Vallès de 33 anys d' edat a qui el jutjat número 3 de Sabadell ( Vallès Occidental ) investiga per uns presumptes abusos sexuals , ha anunciat en declaracions a Intra-ACN que no té intenció de recórrer de moment l' ordre de presó acordada pel per el jutge , a l' espera que avanci la investigació i s' esclareixin els fets .
+  3. Line 1220: 'transferits' in sentence 32
+     Context: estan transferits com
+     Sentence: Al A el costat d' això , es vol reforçar la capacitat d' obtenció de recursos a través d' atorgar més competències normatives sobre els que actualment ja estan transferits com és el cas de patrimoni , successions , transmissions patrimonials i l' IRPF .
+  4. Line 1499: 'governades' in sentence 39
+     Context: Autònomes governades pel
+     Sentence: En la Interparlamentària hi participen , durant dos dies , diputats autonòmics i del de el Congrés , senadors , eurodiputats i els presidents de les Comunitats Autònomes governades pel per el PP o , en cas contrari , els presidents del de el partit de la comunitat .
+  5. Line 1532: 'encapçalada' in sentence 40
+     Context: està encapçalada per
+     Sentence: En el cas de Catalunya , la delegació està encapçalada per Alberto Fernández Díaz .
+     ... and 2 more occurrences
+
+NUM → DET: 5 occurrences (3.82%)
+Most common error-causing words:
+  'una': 3 times (60.0% of this error)
+  'un': 2 times (40.0% of this error)
+
+Examples:
+  1. Line 11: 'un' in sentence 1
+     Context: fet un balanç
+     Sentence: Fundació Privada Fira de Manresa ha fet un balanç de l' activitat del de el Palau Firal durant els primers cinc mesos de l' any .
+  2. Line 531: 'una' in sentence 17
+     Context: té una eslora
+     Sentence: El creuer , que atracarà al a el Moll de Costa , arribarà a les 8 del de el matí i salparà a les 22 hores , té una eslora de 76 metres i duu a bord un total de 22 passatgers .
+  3. Line 893: 'una' in sentence 24
+     Context: sobre una altra
+     Sentence: El cas és que el professor , segons l' advocat , ha desmentit les informacions segons les quals s' havia autoinculpat , i espera igualment que s' esclareixin els rumors sobre una altra presumpta víctima dels de els mateixos fets .
+  4. Line 1706: 'un' in sentence 43
+     Context: cada un dels
+     Sentence: Les conferències que composen el cicle Medicina al a el Segle XXI es pronuncien rotativament , els dimarts , a les 19'30 hores , a cada un dels de els hospitals , amb entrada lliure per a tothom .
+  5. Line 1728: 'una' in sentence 44
+     Context: celebrarà una sessió
+     Sentence: Cada quatre conferències , se celebrarà una sessió on es debatran temes d' actualitat de l' àrea de la salut .
+
+ADV → PART: 5 occurrences (3.82%)
+Most common error-causing words:
+  'no': 5 times (100.0% of this error)
+
+Examples:
+  1. Line 60: 'no' in sentence 2
+     Context: quals no s'
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 182: 'no' in sentence 7
+     Context: algunes no s'
+     Sentence: D' aquestes activitats , algunes no s' han obert al a el públic .
+  3. Line 440: 'no' in sentence 15
+     Context: port no és
+     Sentence: Tot i que aquest port no és escala habitual d' aquesta mena de creuers comercials , es tracta d' una acció puntual endegada pel per el departament comercial de l' Autoritat Portuària amb companyies navilieres d' arreu del de el món .
+  4. Line 679: 'no' in sentence 21
+     Context: que no recorrerà
+     Sentence: L' advocat del de el professor d' una escola de Sant Quirze del de el Vallès ( Vallès Occidental ) que ha estat detingut per presumptes abusos sexuals a una alumna del de el centre , de 8 anys , ha anunciat que no recorrerà l' ordre judicial de presó preventiva per considerar que l' alarma social pot perjudicar més el mestre si està al a el carrer .
+  5. Line 755: 'no' in sentence 22
+     Context: que no té
+     Sentence: Damián Téllez , advocat de M.C.B. , un mestre de Sant Quirze del de el Vallès de 33 anys d' edat a qui el jutjat número 3 de Sabadell ( Vallès Occidental ) investiga per uns presumptes abusos sexuals , ha anunciat en declaracions a Intra-ACN que no té intenció de recórrer de moment l' ordre de presó acordada pel per el jutge , a l' espera que avanci la investigació i s' esclareixin els fets .
+
+PRON → DET: 4 occurrences (3.05%)
+Most common error-causing words:
+  'algunes': 2 times (50.0% of this error)
+  'un': 1 times (25.0% of this error)
+  'uns': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 56: 'algunes' in sentence 2
+     Context: , algunes de
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 181: 'algunes' in sentence 7
+     Context: , algunes no
+     Sentence: D' aquestes activitats , algunes no s' han obert al a el públic .
+  3. Line 216: 'Un' in sentence 9
+     Context: START Un d'
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  4. Line 1971: 'Uns' in sentence 50
+     Context: START Uns 900
+     Sentence: Uns 900 productors s' han concentrat davant la basílica i han exposat a l' abat que són necessaris ajuts de 300 euros per hectàrea per al a el sector .
+
+SCONJ → ADP: 4 occurrences (3.05%)
+Most common error-causing words:
+  'com': 4 times (100.0% of this error)
+
+Examples:
+  1. Line 314: 'com' in sentence 11
+     Context: servit com a
+     Sentence: Alhora , el recinte ha servit com a espai per als a els assajos de la Fira Medieval i d' espectacles que es presentaran a la Fira d' Espectacles d' Arrel Tradicional .
+  2. Line 385: 'com' in sentence 13
+     Context: institucions com Jove
+     Sentence: Així s' hi ha fet actes i reunions d' institucions com Jove Cambra , Comissions Obreres , el Col·legi d' Interventors i Secretaris o el Centre de Formació Pràctica .
+  3. Line 1028: 'com' in sentence 28
+     Context: identificar com a
+     Sentence: El forense va confirmar les sospites i ho va comunicar a la Guardia Civil , la qual , després d' un seguit de investigacions , va identificar com a sospitós un mestre del de el col·legi on va la nena .
+  4. Line 1777: 'com' in sentence 45
+     Context: temes com ara
+     Sentence: És a dir , el cicle es compon de sèries de cinc conferències , les quals s' aniran celebrant durant el proper any i mig , i s' hi tractaran temes com ara els accidents infantils , les malalties importades , el bioterrorisme , l' Alzheimer , o la recerca amb embrions humans , entre d' altres .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+nmod → obl: 54 occurrences (7.64%)
+Most common error-causing words:
+  'metres': 3 times (5.6% of this error)
+  'comunitats': 3 times (5.6% of this error)
+  'ciutadans': 2 times (3.7% of this error)
+  'presó': 2 times (3.7% of this error)
+  'abusos': 2 times (3.7% of this error)
+
+Examples:
+  1. Line 54: 'format' (UPOS: NOUN) in sentence 2
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 59: 'quals' (UPOS: PRON) in sentence 2
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  3. Line 86: 'dies' (UPOS: NOUN) in sentence 3
+     Sentence: Això suposa una utilització d' aquest recinte del de el 40 per cent de dies d' aquest any .
+  4. Line 89: 'any' (UPOS: NOUN) in sentence 3
+     Sentence: Això suposa una utilització d' aquest recinte del de el 40 per cent de dies d' aquest any .
+  5. Line 119: 'gestió' (UPOS: NOUN) in sentence 5
+     Sentence: Els responsables de la gestió del de el recinte afirmen que aquestes dades contrasten amb la percepció de molts ciutadans que aquest edifici roman inactiu durant bona part de l' any .
+     ... and 49 more occurrences
+
+flat → nmod: 42 occurrences (5.94%)
+Most common error-causing words:
+  'manresa': 2 times (4.8% of this error)
+  'civil': 2 times (4.8% of this error)
+  'vall': 2 times (4.8% of this error)
+  'dermatologia': 2 times (4.8% of this error)
+  'fira': 1 times (2.4% of this error)
+
+Examples:
+  1. Line 6: 'Fira' (UPOS: PROPN) in sentence 1
+     Sentence: Fundació Privada Fira de Manresa ha fet un balanç de l' activitat del de el Palau Firal durant els primers cinc mesos de l' any .
+  2. Line 8: 'Manresa' (UPOS: PROPN) in sentence 1
+     Sentence: Fundació Privada Fira de Manresa ha fet un balanç de l' activitat del de el Palau Firal durant els primers cinc mesos de l' any .
+  3. Line 20: 'Firal' (UPOS: PROPN) in sentence 1
+     Sentence: Fundació Privada Fira de Manresa ha fet un balanç de l' activitat del de el Palau Firal durant els primers cinc mesos de l' any .
+  4. Line 97: 'Manresa' (UPOS: PROPN) in sentence 4
+     Sentence: Segons Fira de Manresa , les estadístiques constaten que el Palau és un equipament ' viu ' .
+  5. Line 325: 'Medieval' (UPOS: PROPN) in sentence 11
+     Sentence: Alhora , el recinte ha servit com a espai per als a els assajos de la Fira Medieval i d' espectacles que es presentaran a la Fira d' Espectacles d' Arrel Tradicional .
+     ... and 37 more occurrences
+
+case → mark: 42 occurrences (5.94%)
+Most common error-causing words:
+  'de': 11 times (26.2% of this error)
+  'a': 11 times (26.2% of this error)
+  'per': 5 times (11.9% of this error)
+  'd'': 4 times (9.5% of this error)
+  'en': 3 times (7.1% of this error)
+
+Examples:
+  1. Line 80: 'de' (UPOS: ADP) in sentence 3
+     Sentence: Això suposa una utilització d' aquest recinte del de el 40 per cent de dies d' aquest any .
+  2. Line 143: 'de' (UPOS: ADP) in sentence 5
+     Sentence: Els responsables de la gestió del de el recinte afirmen que aquestes dades contrasten amb la percepció de molts ciutadans que aquest edifici roman inactiu durant bona part de l' any .
+  3. Line 166: 'a' (UPOS: ADP) in sentence 6
+     Sentence: En aquests primers cinc mesos d' any , el Palau Firal ha acollit 13 activitats , a més dels de els certàmens firals .
+  4. Line 264: 'de' (UPOS: ADP) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  5. Line 267: 'de' (UPOS: ADP) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+     ... and 37 more occurrences
+
+obj → obl: 26 occurrences (3.68%)
+Most common error-causing words:
+  'palau': 2 times (7.7% of this error)
+  'ordre': 2 times (7.7% of this error)
+  'mestre': 2 times (7.7% of this error)
+  'activitats': 1 times (3.8% of this error)
+  'públic': 1 times (3.8% of this error)
+
+Examples:
+  1. Line 42: 'activitats' (UPOS: NOUN) in sentence 2
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 189: 'públic' (UPOS: NOUN) in sentence 7
+     Sentence: D' aquestes activitats , algunes no s' han obert al a el públic .
+  3. Line 209: 'proves' (UPOS: NOUN) in sentence 8
+     Sentence: Per exemple , empreses i entitats han utilitzat l' edifici per a fer-hi fer hi proves i assajos .
+  4. Line 234: 'Palau' (UPOS: PROPN) in sentence 9
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  5. Line 286: 'Palau' (UPOS: PROPN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+     ... and 21 more occurrences
+
+flat → appos: 22 occurrences (3.11%)
+Most common error-causing words:
+  'vallès': 4 times (18.2% of this error)
+  'quirze': 2 times (9.1% of this error)
+  'occidental': 2 times (9.1% of this error)
+  'castells': 2 times (9.1% of this error)
+  'andalusia': 1 times (4.5% of this error)
+
+Examples:
+  1. Line 251: 'Andalusia' (UPOS: PROPN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  2. Line 352: 'Firal' (UPOS: PROPN) in sentence 12
+     Sentence: L' àrea de serveis del de el Palau Firal , que inclou la sala d' actes i les aules , ha estat també utilitzada amb diverses finalitats .
+  3. Line 647: 'Quirze' (UPOS: PROPN) in sentence 21
+     Sentence: L' advocat del de el professor d' una escola de Sant Quirze del de el Vallès ( Vallès Occidental ) que ha estat detingut per presumptes abusos sexuals a una alumna del de el centre , de 8 anys , ha anunciat que no recorrerà l' ordre judicial de presó preventiva per considerar que l' alarma social pot perjudicar més el mestre si està al a el carrer .
+  4. Line 651: 'Vallès' (UPOS: PROPN) in sentence 21
+     Sentence: L' advocat del de el professor d' una escola de Sant Quirze del de el Vallès ( Vallès Occidental ) que ha estat detingut per presumptes abusos sexuals a una alumna del de el centre , de 8 anys , ha anunciat que no recorrerà l' ordre judicial de presó preventiva per considerar que l' alarma social pot perjudicar més el mestre si està al a el carrer .
+  5. Line 653: 'Vallès' (UPOS: PROPN) in sentence 21
+     Sentence: L' advocat del de el professor d' una escola de Sant Quirze del de el Vallès ( Vallès Occidental ) que ha estat detingut per presumptes abusos sexuals a una alumna del de el centre , de 8 anys , ha anunciat que no recorrerà l' ordre judicial de presó preventiva per considerar que l' alarma social pot perjudicar més el mestre si està al a el carrer .
+     ... and 17 more occurrences
+
+flat → obl: 21 occurrences (2.97%)
+Most common error-causing words:
+  'firal': 3 times (14.3% of this error)
+  'hebron': 2 times (9.5% of this error)
+  'santa': 1 times (4.8% of this error)
+  'sanz': 1 times (4.8% of this error)
+  'unió': 1 times (4.8% of this error)
+
+Examples:
+  1. Line 160: 'Firal' (UPOS: PROPN) in sentence 6
+     Sentence: En aquests primers cinc mesos d' any , el Palau Firal ha acollit 13 activitats , a més dels de els certàmens firals .
+  2. Line 235: 'Firal' (UPOS: PROPN) in sentence 9
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  3. Line 276: 'Santa' (UPOS: PROPN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  4. Line 287: 'Firal' (UPOS: PROPN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  5. Line 299: 'Sanz' (UPOS: PROPN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+     ... and 16 more occurrences
+
+conj → obl: 16 occurrences (2.26%)
+Most common error-causing words:
+  'certàmens': 1 times (6.2% of this error)
+  'assajos': 1 times (6.2% of this error)
+  'espectacles': 1 times (6.2% of this error)
+  'aules': 1 times (6.2% of this error)
+  'passatgers': 1 times (6.2% of this error)
+
+Examples:
+  1. Line 50: 'certàmens' (UPOS: NOUN) in sentence 2
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 211: 'assajos' (UPOS: NOUN) in sentence 8
+     Sentence: Per exemple , empreses i entitats han utilitzat l' edifici per a fer-hi fer hi proves i assajos .
+  3. Line 328: 'espectacles' (UPOS: NOUN) in sentence 11
+     Sentence: Alhora , el recinte ha servit com a espai per als a els assajos de la Fira Medieval i d' espectacles que es presentaran a la Fira d' Espectacles d' Arrel Tradicional .
+  4. Line 362: 'aules' (UPOS: NOUN) in sentence 12
+     Sentence: L' àrea de serveis del de el Palau Firal , que inclou la sala d' actes i les aules , ha estat també utilitzada amb diverses finalitats .
+  5. Line 601: 'passatgers' (UPOS: NOUN) in sentence 19
+     Sentence: També està prevista l' arribada del de el creuer ' Silver Shadow ' , de la companyia Silversea Cruises , amb una eslora de 182 metres i 388 passatgers .
+     ... and 11 more occurrences
+
+obl → nmod: 16 occurrences (2.26%)
+Most common error-causing words:
+  'investigacions': 2 times (12.5% of this error)
+  'part': 1 times (6.2% of this error)
+  'mesos': 1 times (6.2% of this error)
+  'activitats': 1 times (6.2% of this error)
+  'prova': 1 times (6.2% of this error)
+
+Examples:
+  1. Line 142: 'part' (UPOS: NOUN) in sentence 5
+     Sentence: Els responsables de la gestió del de el recinte afirmen que aquestes dades contrasten amb la percepció de molts ciutadans que aquest edifici roman inactiu durant bona part de l' any .
+  2. Line 154: 'mesos' (UPOS: NOUN) in sentence 6
+     Sentence: En aquests primers cinc mesos d' any , el Palau Firal ha acollit 13 activitats , a més dels de els certàmens firals .
+  3. Line 179: 'activitats' (UPOS: NOUN) in sentence 7
+     Sentence: D' aquestes activitats , algunes no s' han obert al a el públic .
+  4. Line 292: 'prova' (UPOS: NOUN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  5. Line 303: 'gira' (UPOS: NOUN) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+     ... and 11 more occurrences
+
+aux → advcl: 15 occurrences (2.12%)
+Most common error-causing words:
+  'va': 9 times (60.0% of this error)
+  'ha': 4 times (26.7% of this error)
+  'van': 2 times (13.3% of this error)
+
+Examples:
+  1. Line 220: 'ha' (UPOS: AUX) in sentence 9
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  2. Line 231: 'van' (UPOS: AUX) in sentence 9
+     Sentence: Un d' aquests casos ha estat el dels de els Armats de Manresa , que van utilitzar el Palau Firal durant 11 dies per als a els assajos .
+  3. Line 253: 'va' (UPOS: AUX) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  4. Line 282: 'va' (UPOS: AUX) in sentence 10
+     Sentence: La Casa d' Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l' escenari que fa servir Alejandro Sanz en la seva gira .
+  5. Line 913: 'va' (UPOS: AUX) in sentence 25
+     Sentence: La detenció del de el professor es va produir dissabte passat a les quatre de la tarda , després d' un seguit d' investigacions de la Guardia Civil .
+     ... and 10 more occurrences
+
+fixed → case: 14 occurrences (1.98%)
+Most common error-causing words:
+  'de': 7 times (50.0% of this error)
+  'a': 5 times (35.7% of this error)
+  'través': 1 times (7.1% of this error)
+  'd'': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 48: 'de' (UPOS: ADP) in sentence 2
+     Sentence: En aquest temps , el Palau ha acollit 13 activitats diverses , a banda dels de els certàmens firals de gran format , algunes de les quals no s' han obert al a el públic .
+  2. Line 169: 'de' (UPOS: ADP) in sentence 6
+     Sentence: En aquests primers cinc mesos d' any , el Palau Firal ha acollit 13 activitats , a més dels de els certàmens firals .
+  3. Line 315: 'a' (UPOS: ADP) in sentence 11
+     Sentence: Alhora , el recinte ha servit com a espai per als a els assajos de la Fira Medieval i d' espectacles que es presentaran a la Fira d' Espectacles d' Arrel Tradicional .
+  4. Line 422: 'a' (UPOS: ADP) in sentence 14
+     Sentence: El port de Tarragona rebrà , durant tot el mes de juny , fins a cinc creuers de luxe i vora mil passatgers .
+  5. Line 811: 'a' (UPOS: ADP) in sentence 23
+     Sentence: Segons l' advocat , la primera mesura que instarà al a el jutge és la petició d' una prova pericial forense en relació a l' estat físic de la nena que ha estat presumptament víctima dels de els abusos , i si es demostra la veracitat dels de els abusos denunciats , demanarà que un metge explori el professor per mirar de descobrir si pateix algun tipus de trastorn mental .
+     ... and 9 more occurrences
+

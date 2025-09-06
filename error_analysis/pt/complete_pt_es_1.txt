@@ -1,0 +1,3871 @@
+COMPLETE ERROR ANALYSIS: pt_es_1.conllu vs. gold_file_pt.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1342
+UPOS errors: 106 (7.90%)
+HEAD errors: 667 (49.70%)
+DEPREL errors: 404 (30.10%)
+
+================================================================================
+
+COMPLETE WORD ERROR STATISTICS:
+==================================================
+
+ALL ERROR-CAUSING WORDS (sorted by frequency):
+'que': 22 total errors (1.87%)
+'não': 6 total errors (0.51%)
+'a': 4 total errors (0.34%)
+'um': 3 total errors (0.25%)
+'pode': 3 total errors (0.25%)
+'o': 3 total errors (0.25%)
+'domingo': 3 total errors (0.25%)
+'até': 2 total errors (0.17%)
+'ser': 2 total errors (0.17%)
+'é': 2 total errors (0.17%)
+'uma': 2 total errors (0.17%)
+'ter': 2 total errors (0.17%)
+'se': 2 total errors (0.17%)
+'foi': 2 total errors (0.17%)
+'-': 2 total errors (0.17%)
+'tenham': 1 total errors (0.08%)
+'secretaria': 1 total errors (0.08%)
+'serviços': 1 total errors (0.08%)
+'urbanos': 1 total errors (0.08%)
+'esta': 1 total errors (0.08%)
+'está': 1 total errors (0.08%)
+'colocado': 1 total errors (0.08%)
+'estão': 1 total errors (0.08%)
+'sendo': 1 total errors (0.08%)
+'congresso': 1 total errors (0.08%)
+'outro': 1 total errors (0.08%)
+'up': 1 total errors (0.08%)
+'visual': 1 total errors (0.08%)
+'poderia': 1 total errors (0.08%)
+'poderão': 1 total errors (0.08%)
+'podem': 1 total errors (0.08%)
+'tv': 1 total errors (0.08%)
+'americano': 1 total errors (0.08%)
+'podemos': 1 total errors (0.08%)
+'outra': 1 total errors (0.08%)
+'branco': 1 total errors (0.08%)
+'vinculada': 1 total errors (0.08%)
+'r': 1 total errors (0.08%)
+'naquela': 1 total errors (0.08%)
+'eliminatórias': 1 total errors (0.08%)
+'neste': 1 total errors (0.08%)
+'era': 1 total errors (0.08%)
+'porque': 1 total errors (0.08%)
+'outras': 1 total errors (0.08%)
+'xo53': 1 total errors (0.08%)
+'segundo': 1 total errors (0.08%)
+'seleção': 1 total errors (0.08%)
+'twitter': 1 total errors (0.08%)
+'complexa': 1 total errors (0.08%)
+'tem': 1 total errors (0.08%)
+'milhões': 1 total errors (0.08%)
+'mais': 1 total errors (0.08%)
+'de': 1 total errors (0.08%)
+'dentro': 1 total errors (0.08%)
+'disso': 1 total errors (0.08%)
+'em': 1 total errors (0.08%)
+'sexta': 1 total errors (0.08%)
+'sábado': 1 total errors (0.08%)
+'21h': 1 total errors (0.08%)
+'19h': 1 total errors (0.08%)
+'entanto': 1 total errors (0.08%)
+
+--------------------------------------------------
+
+ALL UPOS ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: AUX → VERB
+Occurrences: 18 (16.98%)
+All error-causing words for this error:
+  'pode': 3 times (16.7%)
+  'é': 2 times (11.1%)
+  'ter': 2 times (11.1%)
+  'foi': 2 times (11.1%)
+  'tenham': 1 times (5.6%)
+  'está': 1 times (5.6%)
+  'estão': 1 times (5.6%)
+  'sendo': 1 times (5.6%)
+  'poderia': 1 times (5.6%)
+  'poderão': 1 times (5.6%)
+  'podem': 1 times (5.6%)
+  'podemos': 1 times (5.6%)
+  'ser': 1 times (5.6%)
+
+All lines: 60, 82, 228, 259, 260, 398, 399, 424, 441, 479, 531, 701, 805, 833, 902, 917, 1231, 1257
+All occurrences:
+  1. Line 60: 'tenham' in sentence 2
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: que tenham emitido
+     Full sentence: Ver também a lista de entidades que tenham emitido selos postais .
+
+  2. Line 82: 'É' in sentence 4
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: START É um
+     Full sentence: É um dos de os três ácidos ftálicos isoméricos .
+
+  3. Line 228: 'está' in sentence 10
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: , está apenas
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+  4. Line 259: 'estão' in sentence 11
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: sempre estão sendo
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  5. Line 260: 'sendo' in sentence 11
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: estão sendo tomados
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  6. Line 398: 'poderia' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: quem poderia ter
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  7. Line 399: 'ter' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: poderia ter feito
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  8. Line 424: 'poderão' in sentence 16
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: que poderão ajudar
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  9. Line 441: 'podem' in sentence 17
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: não podem ser
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  10. Line 479: 'podemos' in sentence 19
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Não podemos fazer
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  11. Line 531: 'pode' in sentence 21
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: , pode ser
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  12. Line 701: 'foi' in sentence 26
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ele foi preso
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+  13. Line 805: 'pode' in sentence 29
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Fahel pode ficar
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  14. Line 833: 'foi' in sentence 30
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Pepe foi encaminhado
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  15. Line 902: 'ser' in sentence 32
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: eu ser emprestado
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  16. Line 917: 'pode' in sentence 33
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: sintetizador pode incorporar
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  17. Line 1231: 'ter' in sentence 42
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: de ter absolvido
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+  18. Line 1257: 'é' in sentence 44
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ideia é de
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+--------------------------------------------------
+
+ERROR: CCONJ → SCONJ
+Occurrences: 14 (13.21%)
+All error-causing words for this error:
+  'que': 13 times (92.9%)
+  'porque': 1 times (7.1%)
+
+All lines: 99, 159, 302, 483, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+All occurrences:
+  1. Line 99: 'que' in sentence 5
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: ainda que a
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 159: 'que' in sentence 7
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: para que esta
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  3. Line 302: 'que' in sentence 12
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: esclarecendo que a
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  4. Line 483: 'que' in sentence 19
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: coisa que sair
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  5. Line 501: 'que' in sentence 20
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: diz que simplesmente
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  6. Line 537: 'que' in sentence 21
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: já que normalmente
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  7. Line 594: 'que' in sentence 23
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: vez que permite
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  8. Line 728: 'que' in sentence 27
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: de que o
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  9. Line 898: 'que' in sentence 32
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: disse que era
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  10. Line 904: 'porque' in sentence 32
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: emprestado porque via
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  11. Line 1019: 'que' in sentence 36
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: mostrou que está
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  12. Line 1032: 'que' in sentence 36
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: tanto que enviou
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  13. Line 1259: 'que' in sentence 44
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: de que todos
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+  14. Line 1473: 'que' in sentence 50
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: disse que ainda
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: PROPN → NOUN
+Occurrences: 12 (11.32%)
+All error-causing words for this error:
+  'domingo': 3 times (25.0%)
+  'secretaria': 1 times (8.3%)
+  'serviços': 1 times (8.3%)
+  'urbanos': 1 times (8.3%)
+  'congresso': 1 times (8.3%)
+  'tv': 1 times (8.3%)
+  'eliminatórias': 1 times (8.3%)
+  'seleção': 1 times (8.3%)
+  'sexta': 1 times (8.3%)
+  'sábado': 1 times (8.3%)
+
+All lines: 101, 103, 104, 271, 454, 754, 797, 861, 1012, 1414, 1419, 1431
+All occurrences:
+  1. Line 101: 'Secretaria' in sentence 5
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: a Secretaria de
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 103: 'Serviços' in sentence 5
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de Serviços Urbanos
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  3. Line 104: 'Urbanos' in sentence 5
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: Serviços Urbanos regularizou
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  4. Line 271: 'Congresso' in sentence 12
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: O Congresso procura
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  5. Line 454: 'TV' in sentence 18
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: A TV Globo
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  6. Line 754: 'Eliminatórias' in sentence 28
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: as Eliminatórias e
+     Full sentence: Na Em a ocasião , o Brasil fazia campanha irregular nas em as Eliminatórias e vinha de dois trabalhos diferentes em menos dum de um ano .
+
+  7. Line 797: 'domingo' in sentence 29
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: último domingo ,
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  8. Line 861: 'domingo' in sentence 30
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: neste domingo .
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  9. Line 1012: 'Seleção' in sentence 36
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: a Seleção com
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  10. Line 1414: 'sexta' in sentence 48
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: a sexta e
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  11. Line 1419: 'sábado' in sentence 48
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: o sábado o
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  12. Line 1431: 'domingo' in sentence 48
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: o domingo ,
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: PRON → SCONJ
+Occurrences: 9 (8.49%)
+All error-causing words for this error:
+  'que': 9 times (100.0%)
+
+All lines: 59, 197, 293, 311, 340, 423, 625, 1323, 1450
+All occurrences:
+  1. Line 59: 'que' in sentence 2
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: entidades que tenham
+     Full sentence: Ver também a lista de entidades que tenham emitido selos postais .
+
+  2. Line 197: 'que' in sentence 9
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: acusações que a
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  3. Line 293: 'que' in sentence 12
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: medidas que ajudaram
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  4. Line 311: 'que' in sentence 12
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: áreas que mais
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  5. Line 340: 'que' in sentence 13
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: enzima que faça
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  6. Line 423: 'que' in sentence 16
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: crime que poderão
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  7. Line 625: 'que' in sentence 24
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: o que pagou
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  8. Line 1323: 'que' in sentence 46
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: mas que passa
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+  9. Line 1450: 'que' in sentence 49
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: pessoas que passaram
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: PRON → DET
+Occurrences: 6 (5.66%)
+All error-causing words for this error:
+  'o': 3 times (50.0%)
+  'um': 1 times (16.7%)
+  'esta': 1 times (16.7%)
+  'uma': 1 times (16.7%)
+
+All lines: 83, 189, 306, 624, 1186, 1188
+All occurrences:
+  1. Line 83: 'um' in sentence 4
+     Gold UPOS: PRON → System UPOS: DET
+     Context: É um dos
+     Full sentence: É um dos de os três ácidos ftálicos isoméricos .
+
+  2. Line 189: 'Esta' in sentence 9
+     Gold UPOS: PRON → System UPOS: DET
+     Context: START Esta é
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  3. Line 306: 'uma' in sentence 12
+     Gold UPOS: PRON → System UPOS: DET
+     Context: é uma das
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  4. Line 624: 'o' in sentence 24
+     Gold UPOS: PRON → System UPOS: DET
+     Context: vez o que
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  5. Line 1186: 'o' in sentence 40
+     Gold UPOS: PRON → System UPOS: DET
+     Context: de o que
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  6. Line 1188: 'o' in sentence 40
+     Gold UPOS: PRON → System UPOS: DET
+     Context: que o planejado
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: ADV → PART
+Occurrences: 6 (5.66%)
+All error-causing words for this error:
+  'não': 6 times (100.0%)
+
+All lines: 393, 440, 478, 494, 503, 1481
+All occurrences:
+  1. Line 393: 'não' in sentence 16
+     Gold UPOS: ADV → System UPOS: PART
+     Context: ainda não tem
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  2. Line 440: 'não' in sentence 17
+     Gold UPOS: ADV → System UPOS: PART
+     Context: Eles não podem
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  3. Line 478: 'Não' in sentence 19
+     Gold UPOS: ADV → System UPOS: PART
+     Context: " Não podemos
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  4. Line 494: 'não' in sentence 20
+     Gold UPOS: ADV → System UPOS: PART
+     Context: Se não votar
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  5. Line 503: 'não' in sentence 20
+     Gold UPOS: ADV → System UPOS: PART
+     Context: simplesmente não comparecerá
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  6. Line 1481: 'não' in sentence 50
+     Gold UPOS: ADV → System UPOS: PART
+     Context: disse não ter
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: ADP → DET
+Occurrences: 4 (3.77%)
+All error-causing words for this error:
+  'a': 2 times (50.0%)
+  'naquela': 1 times (25.0%)
+  'em': 1 times (25.0%)
+
+All lines: 635, 716, 790, 1412
+All occurrences:
+  1. Line 635: 'naquela' in sentence 24
+     Gold UPOS: ADP → System UPOS: DET
+     Context: atendidos naquela tarde
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  2. Line 716: 'A' in sentence 27
+     Gold UPOS: ADP → System UPOS: DET
+     Context: Às A as
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  3. Line 790: 'a' in sentence 29
+     Gold UPOS: ADP → System UPOS: DET
+     Context: 2 a 0
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  4. Line 1412: 'Em' in sentence 48
+     Gold UPOS: ADP → System UPOS: DET
+     Context: Na Em a
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: VERB → AUX
+Occurrences: 3 (2.83%)
+All error-causing words for this error:
+  'ser': 1 times (33.3%)
+  'era': 1 times (33.3%)
+  'tem': 1 times (33.3%)
+
+All lines: 76, 899, 1147
+All occurrences:
+  1. Line 76: 'ser' in sentence 3
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: ele ser feliz
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 899: 'era' in sentence 32
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: que era melhor
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  3. Line 1147: 'tem' in sentence 39
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: que tem 6,5
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: DET → ADJ
+Occurrences: 3 (2.83%)
+All error-causing words for this error:
+  'outro': 1 times (33.3%)
+  'outra': 1 times (33.3%)
+  'outras': 1 times (33.3%)
+
+All lines: 287, 481, 935
+All occurrences:
+  1. Line 287: 'outro' in sentence 12
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: por outro lado
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  2. Line 481: 'outra' in sentence 19
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: fazer outra coisa
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  3. Line 935: 'outras' in sentence 33
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: e outras características
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+--------------------------------------------------
+
+ERROR: NUM → NOUN
+Occurrences: 3 (2.83%)
+All error-causing words for this error:
+  'milhões': 1 times (33.3%)
+  '21h': 1 times (33.3%)
+  '19h': 1 times (33.3%)
+
+All lines: 1149, 1426, 1436
+All occurrences:
+  1. Line 1149: 'milhões' in sentence 39
+     Gold UPOS: NUM → System UPOS: NOUN
+     Context: 6,5 milhões de
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  2. Line 1426: '21h' in sentence 48
+     Gold UPOS: NUM → System UPOS: NOUN
+     Context: as 21h e
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  3. Line 1436: '19h' in sentence 48
+     Gold UPOS: NUM → System UPOS: NOUN
+     Context: as 19h .
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: ADP → ADV
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'até': 1 times (50.0%)
+  'neste': 1 times (50.0%)
+
+All lines: 4, 860
+All occurrences:
+  1. Line 4: 'Até' in sentence 1
+     Gold UPOS: ADP → System UPOS: ADV
+     Context: START Até agora
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 860: 'neste' in sentence 30
+     Gold UPOS: ADP → System UPOS: ADV
+     Context: realizada neste domingo
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+--------------------------------------------------
+
+ERROR: NOUN → X
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'up': 1 times (50.0%)
+  'visual': 1 times (50.0%)
+
+All lines: 359, 363
+All occurrences:
+  1. Line 359: 'up' in sentence 14
+     Gold UPOS: NOUN → System UPOS: X
+     Context: um up no
+     Full sentence: " O salto dá um up no em o visual !
+
+  2. Line 363: 'visual' in sentence 14
+     Gold UPOS: NOUN → System UPOS: X
+     Context: o visual !
+     Full sentence: " O salto dá um up no em o visual !
+
+--------------------------------------------------
+
+ERROR: ADV → ADP
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'até': 1 times (50.0%)
+  'dentro': 1 times (50.0%)
+
+All lines: 383, 1327
+All occurrences:
+  1. Line 383: 'até' in sentence 15
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: de até 5,7
+     Full sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+
+  2. Line 1327: 'dentro' in sentence 46
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: dias dentro dum
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADJ
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'americano': 1 times (50.0%)
+  'complexa': 1 times (50.0%)
+
+All lines: 466, 1141
+All occurrences:
+  1. Line 466: 'americano' in sentence 18
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: o americano Stephan
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 1141: 'complexa' in sentence 39
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: , complexa e
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: ADJ → NOUN
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'branco': 1 times (50.0%)
+  'segundo': 1 times (50.0%)
+
+All lines: 497, 1003
+All occurrences:
+  1. Line 497: 'branco' in sentence 20
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: em branco ,
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  2. Line 1003: 'segundo' in sentence 36
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: o segundo tempo
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: PUNCT → SYM
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  '-': 2 times (100.0%)
+
+All lines: 1111, 1119
+All occurrences:
+  1. Line 1111: '-' in sentence 38
+     Gold UPOS: PUNCT → System UPOS: SYM
+     Context: Alta - Normandia
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+  2. Line 1119: '-' in sentence 38
+     Gold UPOS: PUNCT → System UPOS: SYM
+     Context: Seine - Maritime
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+--------------------------------------------------
+
+ERROR: SCONJ → ADP
+Occurrences: 2 (1.89%)
+All error-causing words for this error:
+  'de': 1 times (50.0%)
+  'a': 1 times (50.0%)
+
+All lines: 1230, 1452
+All occurrences:
+  1. Line 1230: 'de' in sentence 42
+     Gold UPOS: SCONJ → System UPOS: ADP
+     Context: fato de ter
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+  2. Line 1452: 'a' in sentence 49
+     Gold UPOS: SCONJ → System UPOS: ADP
+     Context: passaram a integrar
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: PRON → NOUN
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'uma': 1 times (100.0%)
+
+All lines: 191
+All occurrences:
+  1. Line 191: 'uma' in sentence 9
+     Gold UPOS: PRON → System UPOS: NOUN
+     Context: é uma das
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+--------------------------------------------------
+
+ERROR: NOUN → VERB
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'colocado': 1 times (100.0%)
+
+All lines: 240
+All occurrences:
+  1. Line 240: 'colocado' in sentence 10
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: quarto colocado ,
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+--------------------------------------------------
+
+ERROR: CCONJ → X
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 493
+All occurrences:
+  1. Line 493: 'Se' in sentence 20
+     Gold UPOS: CCONJ → System UPOS: X
+     Context: START Se não
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+--------------------------------------------------
+
+ERROR: ADJ → VERB
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'vinculada': 1 times (100.0%)
+
+All lines: 540
+All occurrences:
+  1. Line 540: 'vinculada' in sentence 21
+     Gold UPOS: ADJ → System UPOS: VERB
+     Context: está vinculada à
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+--------------------------------------------------
+
+ERROR: NOUN → SYM
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'r': 1 times (100.0%)
+
+All lines: 618
+All occurrences:
+  1. Line 618: 'R' in sentence 24
+     Gold UPOS: NOUN → System UPOS: SYM
+     Context: custa R $
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: PRON → NUM
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'um': 1 times (100.0%)
+
+All lines: 628
+All occurrences:
+  1. Line 628: 'um' in sentence 24
+     Gold UPOS: PRON → System UPOS: NUM
+     Context: cada um dos
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: DET → NUM
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'um': 1 times (100.0%)
+
+All lines: 687
+All occurrences:
+  1. Line 687: 'um' in sentence 25
+     Gold UPOS: DET → System UPOS: NUM
+     Context: usuários um alto
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+--------------------------------------------------
+
+ERROR: PART → PRON
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 868
+All occurrences:
+  1. Line 868: 'se' in sentence 31
+     Gold UPOS: PART → System UPOS: PRON
+     Context: Concentre se nas
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+--------------------------------------------------
+
+ERROR: PROPN → X
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'xo53': 1 times (100.0%)
+
+All lines: 958
+All occurrences:
+  1. Line 958: 'XO53' in sentence 34
+     Gold UPOS: PROPN → System UPOS: X
+     Context: 1998 XO53 (
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+--------------------------------------------------
+
+ERROR: NOUN → PROPN
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'twitter': 1 times (100.0%)
+
+All lines: 1038
+All occurrences:
+  1. Line 1038: 'twitter' in sentence 36
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: via twitter ,
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: DET → ADV
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'mais': 1 times (100.0%)
+
+All lines: 1175
+All occurrences:
+  1. Line 1175: 'mais' in sentence 40
+     Gold UPOS: DET → System UPOS: ADV
+     Context: faça mais cortes
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: SCONJ → PART
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 1249
+All occurrences:
+  1. Line 1249: 'a' in sentence 43
+     Gold UPOS: SCONJ → System UPOS: PART
+     Context: começava a despontar
+     Full sentence: Sob a camisa , a barriga começava a despontar .
+
+--------------------------------------------------
+
+ERROR: X → ADV
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'disso': 1 times (100.0%)
+
+All lines: 1337
+All occurrences:
+  1. Line 1337: 'disso' in sentence 47
+     Gold UPOS: X → System UPOS: ADV
+     Context: Além disso ,
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADV
+Occurrences: 1 (0.94%)
+All error-causing words for this error:
+  'entanto': 1 times (100.0%)
+
+All lines: 1444
+All occurrences:
+  1. Line 1444: 'entanto' in sentence 49
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: o entanto ,
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ALL DEPREL ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: nmod → obl
+Occurrences: 48 (11.88%)
+All error-causing words for this error:
+  'praça': 1 times (2.1%)
+  'cidade': 1 times (2.1%)
+  'leste': 1 times (2.1%)
+  'capital': 1 times (2.1%)
+  'petista': 1 times (2.1%)
+  'eventos': 1 times (2.1%)
+  'band': 1 times (2.1%)
+  'grêmio': 1 times (2.1%)
+  'fluminense': 1 times (2.1%)
+  'consumidor': 1 times (2.1%)
+  'actuação': 1 times (2.1%)
+  'concentração': 1 times (2.1%)
+  'anderson': 1 times (2.1%)
+  'ruas': 1 times (2.1%)
+  'prefeito': 1 times (2.1%)
+  'restrição': 1 times (2.1%)
+  'elaboração': 1 times (2.1%)
+  'políticas': 1 times (2.1%)
+  'saúde': 1 times (2.1%)
+  'imprensa': 1 times (2.1%)
+  'ces': 1 times (2.1%)
+  'jogos': 1 times (2.1%)
+  'horas': 1 times (2.1%)
+  'trabalhos': 1 times (2.1%)
+  'ano': 1 times (2.1%)
+  'hospital': 1 times (2.1%)
+  'aspirações': 1 times (2.1%)
+  'confiança': 1 times (2.1%)
+  'direção': 1 times (2.1%)
+  'objetivos': 1 times (2.1%)
+  'mim': 1 times (2.1%)
+  'voz': 1 times (2.1%)
+  'saída': 1 times (2.1%)
+  'brasil': 1 times (2.1%)
+  'suecos': 1 times (2.1%)
+  'possibilidade': 1 times (2.1%)
+  'catarinenses': 1 times (2.1%)
+  'twitter': 1 times (2.1%)
+  'centroavante': 1 times (2.1%)
+  'atlético': 1 times (2.1%)
+  'participantes': 1 times (2.1%)
+  'amazon': 1 times (2.1%)
+  'gastos': 1 times (2.1%)
+  'crédito': 1 times (2.1%)
+  'forma': 1 times (2.1%)
+  'noite': 1 times (2.1%)
+  '21h': 1 times (2.1%)
+  '19h': 1 times (2.1%)
+
+All lines: 117, 132, 141, 145, 205, 212, 221, 236, 248, 265, 335, 347, 462, 488, 515, 544, 582, 586, 590, 661, 665, 691, 719, 759, 766, 837, 873, 878, 882, 887, 908, 940, 946, 981, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1079, 1178, 1207, 1212, 1406, 1426, 1436
+All occurrences:
+  1. Line 117: 'praça' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 132: 'cidade' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+
+  3. Line 141: 'leste' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+
+  4. Line 145: 'capital' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+
+  5. Line 205: 'petista' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  6. Line 212: 'eventos' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  7. Line 221: 'Band' (UPOS: PROPN) in sentence 9
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  8. Line 236: 'Grêmio' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+  9. Line 248: 'Fluminense' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+  10. Line 265: 'consumidor' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  11. Line 335: 'actuação' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  12. Line 347: 'concentração' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  13. Line 462: 'Anderson' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  14. Line 488: 'ruas' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  15. Line 515: 'prefeito' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  16. Line 544: 'restrição' (UPOS: NOUN) in sentence 21
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  17. Line 582: 'elaboração' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  18. Line 586: 'políticas' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  19. Line 590: 'saúde' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  20. Line 661: 'imprensa' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  21. Line 665: 'CES' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  22. Line 691: 'jogos' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  23. Line 719: 'horas' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  24. Line 759: 'trabalhos' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Na Em a ocasião , o Brasil fazia campanha irregular nas em as Eliminatórias e vinha de dois trabalhos diferentes em menos dum de um ano .
+
+  25. Line 766: 'ano' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Na Em a ocasião , o Brasil fazia campanha irregular nas em as Eliminatórias e vinha de dois trabalhos diferentes em menos dum de um ano .
+
+  26. Line 837: 'hospital' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  27. Line 873: 'aspirações' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  28. Line 878: 'confiança' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  29. Line 882: 'direção' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  30. Line 887: 'objetivos' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  31. Line 908: 'mim' (UPOS: PRON) in sentence 32
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  32. Line 940: 'voz' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  33. Line 946: 'saída' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  34. Line 981: 'Brasil' (UPOS: PROPN) in sentence 35
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Estamos numa cruzada no em o Brasil para reduzir os custos , afirmou o ministro .
+
+  35. Line 1015: 'suecos' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  36. Line 1024: 'possibilidade' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  37. Line 1029: 'catarinenses' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  38. Line 1038: 'twitter' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  39. Line 1042: 'centroavante' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  40. Line 1051: 'Atlético' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  41. Line 1068: 'participantes' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  42. Line 1079: 'Amazon' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  43. Line 1178: 'gastos' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  44. Line 1207: 'crédito' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+  45. Line 1212: 'forma' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+  46. Line 1406: 'noite' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  47. Line 1426: '21h' (UPOS: NUM) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  48. Line 1436: '19h' (UPOS: NUM) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: case → mark
+Occurrences: 25 (6.19%)
+All error-causing words for this error:
+  'em': 8 times (32.0%)
+  'de': 5 times (20.0%)
+  'a': 4 times (16.0%)
+  'para': 3 times (12.0%)
+  'por': 3 times (12.0%)
+  'numa': 1 times (4.0%)
+  'via': 1 times (4.0%)
+
+All lines: 166, 263, 361, 382, 420, 427, 470, 527, 600, 655, 659, 690, 788, 894, 930, 976, 996, 1037, 1070, 1177, 1211, 1301, 1303, 1424, 1459
+All occurrences:
+  1. Line 166: 'para' (UPOS: ADP) in sentence 7
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  2. Line 263: 'por' (UPOS: ADP) in sentence 11
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  3. Line 361: 'em' (UPOS: ADP) in sentence 14
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: " O salto dá um up no em o visual !
+
+  4. Line 382: 'de' (UPOS: ADP) in sentence 15
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+
+  5. Line 420: 'em' (UPOS: ADP) in sentence 16
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  6. Line 427: 'em' (UPOS: ADP) in sentence 16
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  7. Line 470: 'a' (UPOS: ADP) in sentence 18
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  8. Line 527: 'em' (UPOS: ADP) in sentence 21
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  9. Line 600: 'para' (UPOS: ADP) in sentence 23
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  10. Line 655: 'em' (UPOS: ADP) in sentence 25
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  11. Line 659: 'a' (UPOS: ADP) in sentence 25
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  12. Line 690: 'em' (UPOS: ADP) in sentence 25
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  13. Line 788: 'por' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  14. Line 894: 'para' (UPOS: ADP) in sentence 32
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  15. Line 930: 'por' (UPOS: ADP) in sentence 33
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  16. Line 976: 'numa' (UPOS: ADP) in sentence 35
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Estamos numa cruzada no em o Brasil para reduzir os custos , afirmou o ministro .
+
+  17. Line 996: 'a' (UPOS: ADP) in sentence 36
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  18. Line 1037: 'via' (UPOS: ADP) in sentence 36
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  19. Line 1070: 'de' (UPOS: ADP) in sentence 37
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  20. Line 1177: 'de' (UPOS: ADP) in sentence 40
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  21. Line 1211: 'de' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+  22. Line 1301: 'em' (UPOS: ADP) in sentence 45
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  23. Line 1303: 'de' (UPOS: ADP) in sentence 45
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  24. Line 1424: 'a' (UPOS: ADP) in sentence 48
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  25. Line 1459: 'em' (UPOS: ADP) in sentence 49
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: nmod → nsubj
+Occurrences: 10 (2.48%)
+All error-causing words for this error:
+  'acusações': 1 times (10.0%)
+  'músculo': 1 times (10.0%)
+  'máxima': 1 times (10.0%)
+  'zona': 1 times (10.0%)
+  'planejamento': 1 times (10.0%)
+  'consultório': 1 times (10.0%)
+  'vez': 1 times (10.0%)
+  'anos': 1 times (10.0%)
+  'ocasião': 1 times (10.0%)
+  'luta': 1 times (10.0%)
+
+All lines: 196, 329, 371, 508, 557, 613, 623, 697, 744, 1272
+All occurrences:
+  1. Line 196: 'acusações' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 329: 'músculo' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  3. Line 371: 'máxima' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+
+  4. Line 508: 'zona' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  5. Line 557: 'Planejamento' (UPOS: PROPN) in sentence 22
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+
+  6. Line 613: 'consultório' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  7. Line 623: 'vez' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  8. Line 697: 'anos' (UPOS: NOUN) in sentence 26
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+  9. Line 744: 'ocasião' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Na Em a ocasião , o Brasil fazia campanha irregular nas em as Eliminatórias e vinha de dois trabalhos diferentes em menos dum de um ano .
+
+  10. Line 1272: 'luta' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: conj → nmod
+Occurrences: 9 (2.23%)
+All error-causing words for this error:
+  'prata': 1 times (11.1%)
+  'bronzes': 1 times (11.1%)
+  'valencia': 1 times (11.1%)
+  'expansão': 1 times (11.1%)
+  'khalifa': 1 times (11.1%)
+  'neto': 1 times (11.1%)
+  'dados': 1 times (11.1%)
+  'sábado': 1 times (11.1%)
+  'domingo': 1 times (11.1%)
+
+All lines: 16, 19, 857, 1144, 1286, 1289, 1398, 1419, 1431
+All occurrences:
+  1. Line 16: 'prata' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 19: 'bronzes' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  3. Line 857: 'Valencia' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  4. Line 1144: 'expansão' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  5. Line 1286: 'Khalifa' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  6. Line 1289: 'neto' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  7. Line 1398: 'dados' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  8. Line 1419: 'sábado' (UPOS: PROPN) in sentence 48
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+  9. Line 1431: 'domingo' (UPOS: PROPN) in sentence 48
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: obj → nmod
+Occurrences: 9 (2.23%)
+All error-causing words for this error:
+  'pódios': 1 times (11.1%)
+  'país': 1 times (11.1%)
+  'recursos': 1 times (11.1%)
+  'choque': 1 times (11.1%)
+  'habitantes': 1 times (11.1%)
+  'petista': 1 times (11.1%)
+  'controle': 1 times (11.1%)
+  'dias': 1 times (11.1%)
+  'corpo': 1 times (11.1%)
+
+All lines: 25, 296, 598, 844, 1151, 1234, 1296, 1326, 1489
+All occurrences:
+  1. Line 25: 'pódios' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 296: 'país' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  3. Line 598: 'recursos' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  4. Line 844: 'choque' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  5. Line 1151: 'habitantes' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  6. Line 1234: 'petista' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+  7. Line 1296: 'controle' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  8. Line 1326: 'dias' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+  9. Line 1489: 'corpo' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: xcomp → amod
+Occurrences: 9 (2.23%)
+All error-causing words for this error:
+  'feliz': 1 times (11.1%)
+  'prevista': 1 times (11.1%)
+  'benéfica': 1 times (11.1%)
+  'dependente': 1 times (11.1%)
+  'perigosa': 1 times (11.1%)
+  'útil': 1 times (11.1%)
+  'melhor': 1 times (11.1%)
+  'animado': 1 times (11.1%)
+  'cautelosos': 1 times (11.1%)
+
+All lines: 77, 111, 165, 331, 534, 578, 900, 1021, 1342
+All occurrences:
+  1. Line 77: 'feliz' (UPOS: ADJ) in sentence 3
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 111: 'prevista' (UPOS: ADJ) in sentence 5
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  3. Line 165: 'benéfica' (UPOS: ADJ) in sentence 7
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  4. Line 331: 'dependente' (UPOS: ADJ) in sentence 13
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  5. Line 534: 'perigosa' (UPOS: ADJ) in sentence 21
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  6. Line 578: 'útil' (UPOS: ADJ) in sentence 23
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  7. Line 900: 'melhor' (UPOS: ADJ) in sentence 32
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  8. Line 1021: 'animado' (UPOS: ADJ) in sentence 36
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  9. Line 1342: 'cautelosos' (UPOS: ADJ) in sentence 47
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: cop → root
+Occurrences: 8 (1.98%)
+All error-causing words for this error:
+  'é': 6 times (75.0%)
+  'está': 1 times (12.5%)
+  'serão': 1 times (12.5%)
+
+All lines: 70, 82, 228, 562, 963, 1098, 1127, 1257
+All occurrences:
+  1. Line 70: 'é' (UPOS: AUX) in sentence 3
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 82: 'É' (UPOS: AUX) in sentence 4
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: É um dos de os três ácidos ftálicos isoméricos .
+
+  3. Line 228: 'está' (UPOS: AUX) in sentence 10
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+  4. Line 562: 'serão' (UPOS: AUX) in sentence 22
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+
+  5. Line 963: 'é' (UPOS: AUX) in sentence 34
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+  6. Line 1098: 'é' (UPOS: AUX) in sentence 38
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+  7. Line 1127: 'é' (UPOS: AUX) in sentence 39
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  8. Line 1257: 'é' (UPOS: AUX) in sentence 44
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+--------------------------------------------------
+
+ERROR: nsubj → mark
+Occurrences: 7 (1.73%)
+All error-causing words for this error:
+  'que': 7 times (100.0%)
+
+All lines: 59, 293, 311, 340, 423, 1323, 1450
+All occurrences:
+  1. Line 59: 'que' (UPOS: PRON) in sentence 2
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Ver também a lista de entidades que tenham emitido selos postais .
+
+  2. Line 293: 'que' (UPOS: PRON) in sentence 12
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  3. Line 311: 'que' (UPOS: PRON) in sentence 12
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  4. Line 340: 'que' (UPOS: PRON) in sentence 13
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  5. Line 423: 'que' (UPOS: PRON) in sentence 16
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  6. Line 1323: 'que' (UPOS: PRON) in sentence 46
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+  7. Line 1450: 'que' (UPOS: PRON) in sentence 49
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: appos → nmod
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'ouros': 1 times (16.7%)
+  'quilômetros': 1 times (16.7%)
+  'caminho': 1 times (16.7%)
+  'cidade': 1 times (16.7%)
+  'bce': 1 times (16.7%)
+  'mário': 1 times (16.7%)
+
+All lines: 13, 137, 927, 1138, 1361, 1377
+All occurrences:
+  1. Line 13: 'ouros' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 137: 'quilômetros' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+
+  3. Line 927: 'caminho' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  4. Line 1138: 'cidade' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  5. Line 1361: 'BCE' (UPOS: PROPN) in sentence 47
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  6. Line 1377: 'Mário' (UPOS: PROPN) in sentence 47
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: obj → obl
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'contrato': 1 times (16.7%)
+  'reposição': 1 times (16.7%)
+  'candidatos': 1 times (16.7%)
+  'voz': 1 times (16.7%)
+  'mensagem': 1 times (16.7%)
+  'cortes': 1 times (16.7%)
+
+All lines: 107, 343, 513, 948, 1035, 1176
+All occurrences:
+  1. Line 107: 'contrato' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 343: 'reposição' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  3. Line 513: 'candidatos' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  4. Line 948: 'voz' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  5. Line 1035: 'mensagem' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  6. Line 1176: 'cortes' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: det:poss → det
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'seus': 3 times (50.0%)
+  'sua': 1 times (16.7%)
+  'suas': 1 times (16.7%)
+  'seu': 1 times (16.7%)
+
+All lines: 167, 512, 872, 886, 1262, 1288
+All occurrences:
+  1. Line 167: 'sua' (UPOS: DET) in sentence 7
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  2. Line 512: 'seus' (UPOS: DET) in sentence 20
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  3. Line 872: 'suas' (UPOS: DET) in sentence 31
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  4. Line 886: 'seus' (UPOS: DET) in sentence 31
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+  5. Line 1262: 'seus' (UPOS: DET) in sentence 44
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+  6. Line 1288: 'seu' (UPOS: DET) in sentence 45
+     Gold DEPREL: det:poss → System DEPREL: det
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: root → xcomp
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'conta': 1 times (16.7%)
+  'fazer': 1 times (16.7%)
+  'ser': 1 times (16.7%)
+  'preso': 1 times (16.7%)
+  'encaminhado': 1 times (16.7%)
+  'incorporar': 1 times (16.7%)
+
+All lines: 184, 480, 532, 702, 834, 918
+All occurrences:
+  1. Line 184: 'conta' (UPOS: VERB) in sentence 8
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: O couro do de o peixe sempre rende " , conta .
+
+  2. Line 480: 'fazer' (UPOS: VERB) in sentence 19
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  3. Line 532: 'ser' (UPOS: VERB) in sentence 21
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  4. Line 702: 'preso' (UPOS: VERB) in sentence 26
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+  5. Line 834: 'encaminhado' (UPOS: VERB) in sentence 30
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  6. Line 918: 'incorporar' (UPOS: VERB) in sentence 33
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+--------------------------------------------------
+
+ERROR: punct → dep
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  '.': 4 times (66.7%)
+  '-': 2 times (33.3%)
+
+All lines: 222, 266, 971, 1111, 1119, 1305
+All occurrences:
+  1. Line 222: '.' (UPOS: PUNCT) in sentence 9
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 266: '.' (UPOS: PUNCT) in sentence 11
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  3. Line 971: '.' (UPOS: PUNCT) in sentence 34
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+  4. Line 1111: '-' (UPOS: PUNCT) in sentence 38
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+  5. Line 1119: '-' (UPOS: PUNCT) in sentence 38
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+  6. Line 1305: '.' (UPOS: PUNCT) in sentence 45
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: nsubj:pass → nsubj
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'cuidados': 1 times (16.7%)
+  'eles': 1 times (16.7%)
+  'ele': 1 times (16.7%)
+  'juízes': 1 times (16.7%)
+  'zagueiro': 1 times (16.7%)
+  'eu': 1 times (16.7%)
+
+All lines: 256, 439, 700, 724, 831, 901
+All occurrences:
+  1. Line 256: 'cuidados' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  2. Line 439: 'Eles' (UPOS: PRON) in sentence 17
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  3. Line 700: 'ele' (UPOS: PRON) in sentence 26
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+  4. Line 724: 'juízes' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  5. Line 831: 'zagueiro' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  6. Line 901: 'eu' (UPOS: PRON) in sentence 32
+     Gold DEPREL: nsubj:pass → System DEPREL: nsubj
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+--------------------------------------------------
+
+ERROR: aux → root
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'pode': 3 times (50.0%)
+  'estão': 1 times (16.7%)
+  'podem': 1 times (16.7%)
+  'podemos': 1 times (16.7%)
+
+All lines: 259, 441, 479, 531, 805, 917
+All occurrences:
+  1. Line 259: 'estão' (UPOS: AUX) in sentence 11
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  2. Line 441: 'podem' (UPOS: AUX) in sentence 17
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  3. Line 479: 'podemos' (UPOS: AUX) in sentence 19
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  4. Line 531: 'pode' (UPOS: AUX) in sentence 21
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  5. Line 805: 'pode' (UPOS: AUX) in sentence 29
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  6. Line 917: 'pode' (UPOS: AUX) in sentence 33
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → acl
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'ajudaram': 1 times (16.7%)
+  'recebe': 1 times (16.7%)
+  'faça': 1 times (16.7%)
+  'ajudar': 1 times (16.7%)
+  'tem': 1 times (16.7%)
+  'ocorre': 1 times (16.7%)
+
+All lines: 294, 313, 341, 425, 1147, 1210
+All occurrences:
+  1. Line 294: 'ajudaram' (UPOS: VERB) in sentence 12
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  2. Line 313: 'recebe' (UPOS: VERB) in sentence 12
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  3. Line 341: 'faça' (UPOS: VERB) in sentence 13
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+
+  4. Line 425: 'ajudar' (UPOS: VERB) in sentence 16
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  5. Line 1147: 'tem' (UPOS: VERB) in sentence 39
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  6. Line 1210: 'ocorre' (UPOS: VERB) in sentence 41
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+--------------------------------------------------
+
+ERROR: conj → appos
+Occurrences: 6 (1.49%)
+All error-causing words for this error:
+  'saúde': 1 times (16.7%)
+  'segurança': 1 times (16.7%)
+  'planificação': 1 times (16.7%)
+  'ideacentre': 1 times (16.7%)
+  'erazer': 1 times (16.7%)
+  'microsoft': 1 times (16.7%)
+
+All lines: 565, 567, 584, 673, 677, 1092
+All occurrences:
+  1. Line 565: 'saúde' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+
+  2. Line 567: 'segurança' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+
+  3. Line 584: 'planificação' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  4. Line 673: 'IdeaCentre' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  5. Line 677: 'Erazer' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  6. Line 1092: 'Microsoft' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+--------------------------------------------------
+
+ERROR: root → obj
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'chance': 1 times (20.0%)
+  'ponto': 1 times (20.0%)
+  'educação': 1 times (20.0%)
+  'asteroide': 1 times (20.0%)
+  'prefeito': 1 times (20.0%)
+
+All lines: 72, 231, 563, 965, 1129
+All occurrences:
+  1. Line 72: 'chance' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 231: 'ponto' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+  3. Line 563: 'educação' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+
+  4. Line 965: 'asteroide' (UPOS: NOUN) in sentence 34
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+  5. Line 1129: 'prefeito' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: mark → case
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'de': 3 times (60.0%)
+  'em': 1 times (20.0%)
+  'a': 1 times (20.0%)
+
+All lines: 74, 257, 496, 727, 1452
+All occurrences:
+  1. Line 74: 'de' (UPOS: ADP) in sentence 3
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 257: 'de' (UPOS: ADP) in sentence 11
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  3. Line 496: 'em' (UPOS: ADP) in sentence 20
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  4. Line 727: 'de' (UPOS: ADP) in sentence 27
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  5. Line 1452: 'a' (UPOS: SCONJ) in sentence 49
+     Gold DEPREL: mark → System DEPREL: case
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: nsubj → obl
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'secretaria': 1 times (20.0%)
+  'manutenção': 1 times (20.0%)
+  'ele': 1 times (20.0%)
+  'autor': 1 times (20.0%)
+  'país': 1 times (20.0%)
+
+All lines: 101, 113, 448, 771, 1173
+All occurrences:
+  1. Line 101: 'Secretaria' (UPOS: PROPN) in sentence 5
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 113: 'manutenção' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  3. Line 448: 'ele' (UPOS: PRON) in sentence 17
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  4. Line 771: 'Autor' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  5. Line 1173: 'país' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: amod → nmod
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'urbanos': 1 times (20.0%)
+  'real': 1 times (20.0%)
+  'segundo': 1 times (20.0%)
+  'central': 1 times (20.0%)
+  'europeu': 1 times (20.0%)
+
+All lines: 104, 854, 1003, 1358, 1359
+All occurrences:
+  1. Line 104: 'Urbanos' (UPOS: PROPN) in sentence 5
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 854: 'Real' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  3. Line 1003: 'segundo' (UPOS: ADJ) in sentence 36
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  4. Line 1358: 'Central' (UPOS: PROPN) in sentence 47
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  5. Line 1359: 'Europeu' (UPOS: PROPN) in sentence 47
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: conj → acl
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'está': 1 times (20.0%)
+  'repetida': 1 times (20.0%)
+  'apresentou': 1 times (20.0%)
+  'quer': 1 times (20.0%)
+  'passa': 1 times (20.0%)
+
+All lines: 110, 210, 652, 1170, 1324
+All occurrences:
+  1. Line 110: 'está' (UPOS: VERB) in sentence 5
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+
+  2. Line 210: 'repetida' (UPOS: VERB) in sentence 9
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  3. Line 652: 'apresentou' (UPOS: VERB) in sentence 25
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  4. Line 1170: 'quer' (UPOS: VERB) in sentence 40
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  5. Line 1324: 'passa' (UPOS: VERB) in sentence 46
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+--------------------------------------------------
+
+ERROR: conj → obl
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'debate': 1 times (20.0%)
+  'vereador': 1 times (20.0%)
+  'programas': 1 times (20.0%)
+  'características': 1 times (20.0%)
+  'meia': 1 times (20.0%)
+
+All lines: 217, 518, 588, 936, 1057
+All occurrences:
+  1. Line 217: 'debate' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 518: 'vereador' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  3. Line 588: 'programas' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  4. Line 936: 'características' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+  5. Line 1057: 'meia' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: nmod → advmod
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'sempre': 1 times (20.0%)
+  'entanto': 1 times (20.0%)
+  'menos': 1 times (20.0%)
+  'fora': 1 times (20.0%)
+  'disso': 1 times (20.0%)
+
+All lines: 258, 529, 762, 808, 1337
+All occurrences:
+  1. Line 258: 'sempre' (UPOS: ADV) in sentence 11
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  2. Line 529: 'entanto' (UPOS: ADV) in sentence 21
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  3. Line 762: 'menos' (UPOS: ADV) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: Na Em a ocasião , o Brasil fazia campanha irregular nas em as Eliminatórias e vinha de dois trabalhos diferentes em menos dum de um ano .
+
+  4. Line 808: 'fora' (UPOS: ADV) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  5. Line 1337: 'disso' (UPOS: X) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: root → ccomp
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'tomados': 1 times (20.0%)
+  'disse': 1 times (20.0%)
+  'considerados': 1 times (20.0%)
+  'diz': 1 times (20.0%)
+  'mostrou': 1 times (20.0%)
+
+All lines: 261, 298, 443, 500, 1018
+All occurrences:
+  1. Line 261: 'tomados' (UPOS: VERB) in sentence 11
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  2. Line 298: 'disse' (UPOS: VERB) in sentence 12
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  3. Line 443: 'considerados' (UPOS: VERB) in sentence 17
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+  4. Line 500: 'diz' (UPOS: VERB) in sentence 20
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  5. Line 1018: 'mostrou' (UPOS: VERB) in sentence 36
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: flat → appos
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'silva': 1 times (20.0%)
+  'a730': 1 times (20.0%)
+  'c540': 1 times (20.0%)
+  'paes': 1 times (20.0%)
+  'keita': 1 times (20.0%)
+
+All lines: 463, 670, 674, 1126, 1282
+All occurrences:
+  1. Line 463: 'Silva' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 670: 'A730' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  3. Line 674: 'C540' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  4. Line 1126: 'Paes' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+  5. Line 1282: 'Keita' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: flat → nmod
+Occurrences: 5 (1.24%)
+All error-causing words for this error:
+  'web': 1 times (20.0%)
+  'services': 1 times (20.0%)
+  'bakr': 1 times (20.0%)
+  'draghi': 1 times (20.0%)
+  'desemprego': 1 times (20.0%)
+
+All lines: 1080, 1081, 1291, 1378, 1389
+All occurrences:
+  1. Line 1080: 'Web' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  2. Line 1081: 'Services' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  3. Line 1291: 'Bakr' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+  4. Line 1378: 'Draghi' (UPOS: PROPN) in sentence 47
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  5. Line 1389: 'desemprego' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: appos → nummod
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'dois': 1 times (25.0%)
+  '2013': 1 times (25.0%)
+  '29686': 1 times (25.0%)
+  '691': 1 times (25.0%)
+
+All lines: 28, 666, 961, 1463
+All occurrences:
+  1. Line 28: 'dois' (UPOS: NUM) in sentence 1
+     Gold DEPREL: appos → System DEPREL: nummod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 666: '2013' (UPOS: NUM) in sentence 25
+     Gold DEPREL: appos → System DEPREL: nummod
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  3. Line 961: '29686' (UPOS: NUM) in sentence 34
+     Gold DEPREL: appos → System DEPREL: nummod
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+  4. Line 1463: '691' (UPOS: NUM) in sentence 49
+     Gold DEPREL: appos → System DEPREL: nummod
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: aux → acl
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'tenham': 1 times (25.0%)
+  'poderia': 1 times (25.0%)
+  'poderão': 1 times (25.0%)
+  'ter': 1 times (25.0%)
+
+All lines: 60, 398, 424, 1231
+All occurrences:
+  1. Line 60: 'tenham' (UPOS: AUX) in sentence 2
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Ver também a lista de entidades que tenham emitido selos postais .
+
+  2. Line 398: 'poderia' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  3. Line 424: 'poderão' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  4. Line 1231: 'ter' (UPOS: AUX) in sentence 42
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+--------------------------------------------------
+
+ERROR: nmod → obj
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'ácidos': 1 times (25.0%)
+  'mim': 1 times (25.0%)
+  'resultado': 1 times (25.0%)
+  'trabalho': 1 times (25.0%)
+
+All lines: 88, 895, 1346, 1457
+All occurrences:
+  1. Line 88: 'ácidos' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: É um dos de os três ácidos ftálicos isoméricos .
+
+  2. Line 895: 'mim' (UPOS: PRON) in sentence 32
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+  3. Line 1346: 'resultado' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+  4. Line 1457: 'trabalho' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: appos → obl
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'sofia': 1 times (25.0%)
+  'stephan': 1 times (25.0%)
+  'andré': 1 times (25.0%)
+  'paulo': 1 times (25.0%)
+
+All lines: 148, 467, 1043, 1058
+All occurrences:
+  1. Line 148: 'Sofia' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+
+  2. Line 467: 'Stephan' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  3. Line 1043: 'André' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  4. Line 1058: 'Paulo' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: fixed → mark
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'que': 4 times (100.0%)
+
+All lines: 159, 537, 594, 1032
+All occurrences:
+  1. Line 159: 'que' (UPOS: CCONJ) in sentence 7
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  2. Line 537: 'que' (UPOS: CCONJ) in sentence 21
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  3. Line 594: 'que' (UPOS: CCONJ) in sentence 23
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  4. Line 1032: 'que' (UPOS: CCONJ) in sentence 36
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: advcl → xcomp
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'seja': 1 times (25.0%)
+  'escolher': 1 times (25.0%)
+  'garantir': 1 times (25.0%)
+  'criar': 1 times (25.0%)
+
+All lines: 164, 511, 682, 944
+All occurrences:
+  1. Line 164: 'seja' (UPOS: VERB) in sentence 7
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+
+  2. Line 511: 'escolher' (UPOS: VERB) in sentence 20
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  3. Line 682: 'garantir' (UPOS: VERB) in sentence 25
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  4. Line 944: 'criar' (UPOS: VERB) in sentence 33
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+--------------------------------------------------
+
+ERROR: ccomp → root
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'rende': 1 times (25.0%)
+  'procura': 1 times (25.0%)
+  'informados': 1 times (25.0%)
+  'estamos': 1 times (25.0%)
+
+All lines: 181, 272, 726, 975
+All occurrences:
+  1. Line 181: 'rende' (UPOS: VERB) in sentence 8
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: O couro do de o peixe sempre rende " , conta .
+
+  2. Line 272: 'procura' (UPOS: VERB) in sentence 12
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  3. Line 726: 'informados' (UPOS: VERB) in sentence 27
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  4. Line 975: 'Estamos' (UPOS: VERB) in sentence 35
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Estamos numa cruzada no em o Brasil para reduzir os custos , afirmou o ministro .
+
+--------------------------------------------------
+
+ERROR: advmod → mark
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'não': 2 times (50.0%)
+  'até': 1 times (25.0%)
+  'dentro': 1 times (25.0%)
+
+All lines: 383, 503, 1327, 1481
+All occurrences:
+  1. Line 383: 'até' (UPOS: ADV) in sentence 15
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+
+  2. Line 503: 'não' (UPOS: ADV) in sentence 20
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+  3. Line 1327: 'dentro' (UPOS: ADV) in sentence 46
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+  4. Line 1481: 'não' (UPOS: ADV) in sentence 50
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: case → dep
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'entre': 1 times (25.0%)
+  'de': 1 times (25.0%)
+  'por': 1 times (25.0%)
+  'em': 1 times (25.0%)
+
+All lines: 461, 818, 1206, 1412
+All occurrences:
+  1. Line 461: 'entre' (UPOS: ADP) in sentence 18
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 818: 'de' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  3. Line 1206: 'por' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+  4. Line 1412: 'Em' (UPOS: ADP) in sentence 48
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Na Em a sexta e no em o sábado o evento começa às a as 21h e no em o domingo , às a as 19h .
+
+--------------------------------------------------
+
+ERROR: flat → obl
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'bonnar': 1 times (25.0%)
+  'mg': 1 times (25.0%)
+  'henrique': 1 times (25.0%)
+  'ganso': 1 times (25.0%)
+
+All lines: 468, 1053, 1059, 1060
+All occurrences:
+  1. Line 468: 'Bonnar' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 1053: 'MG' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  3. Line 1059: 'Henrique' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  4. Line 1060: 'Ganso' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: advcl → acl
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'sair': 1 times (25.0%)
+  'permite': 1 times (25.0%)
+  'sofrido': 1 times (25.0%)
+  'enviou': 1 times (25.0%)
+
+All lines: 484, 595, 842, 1033
+All occurrences:
+  1. Line 484: 'sair' (UPOS: VERB) in sentence 19
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  2. Line 595: 'permite' (UPOS: VERB) in sentence 23
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  3. Line 842: 'sofrido' (UPOS: VERB) in sentence 30
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  4. Line 1033: 'enviou' (UPOS: VERB) in sentence 36
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: root → acl
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'diz': 1 times (25.0%)
+  'ficar': 1 times (25.0%)
+  'afirmou': 1 times (25.0%)
+  'aumentou': 1 times (25.0%)
+
+All lines: 734, 806, 987, 1458
+All occurrences:
+  1. Line 734: 'diz' (UPOS: VERB) in sentence 27
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  2. Line 806: 'ficar' (UPOS: VERB) in sentence 29
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  3. Line 987: 'afirmou' (UPOS: VERB) in sentence 35
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Estamos numa cruzada no em o Brasil para reduzir os custos , afirmou o ministro .
+
+  4. Line 1458: 'aumentou' (UPOS: VERB) in sentence 49
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: appos → nsubj
+Occurrences: 4 (0.99%)
+All error-causing words for this error:
+  'volante': 1 times (25.0%)
+  'fahel': 1 times (25.0%)
+  'pepe': 1 times (25.0%)
+  'asteroide': 1 times (25.0%)
+
+All lines: 803, 804, 832, 960
+All occurrences:
+  1. Line 803: 'volante' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  2. Line 804: 'Fahel' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  3. Line 832: 'Pepe' (UPOS: PROPN) in sentence 30
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  4. Line 960: 'asteroide' (UPOS: NOUN) in sentence 34
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+--------------------------------------------------
+
+ERROR: mark → advmod
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'até': 1 times (33.3%)
+  'já': 1 times (33.3%)
+  'tanto': 1 times (33.3%)
+
+All lines: 4, 536, 1031
+All occurrences:
+  1. Line 4: 'Até' (UPOS: ADP) in sentence 1
+     Gold DEPREL: mark → System DEPREL: advmod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 536: 'já' (UPOS: ADV) in sentence 21
+     Gold DEPREL: mark → System DEPREL: advmod
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  3. Line 1031: 'tanto' (UPOS: ADV) in sentence 36
+     Gold DEPREL: mark → System DEPREL: advmod
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: conj → nummod
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'um': 2 times (66.7%)
+  'três': 1 times (33.3%)
+
+All lines: 34, 43, 244
+All occurrences:
+  1. Line 34: 'um' (UPOS: NUM) in sentence 1
+     Gold DEPREL: conj → System DEPREL: nummod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  2. Line 43: 'um' (UPOS: NUM) in sentence 1
+     Gold DEPREL: conj → System DEPREL: nummod
+     Full sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+
+  3. Line 244: 'três' (UPOS: NUM) in sentence 10
+     Gold DEPREL: conj → System DEPREL: nummod
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod:poss
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'ele': 1 times (33.3%)
+  'quem': 1 times (33.3%)
+  'que': 1 times (33.3%)
+
+All lines: 75, 397, 1209
+All occurrences:
+  1. Line 75: 'ele' (UPOS: PRON) in sentence 3
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 397: 'quem' (UPOS: PRON) in sentence 16
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  3. Line 1209: 'que' (UPOS: PRON) in sentence 41
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: Há uma reativação da de a busca por crédito , que ocorre de forma gradual .
+
+--------------------------------------------------
+
+ERROR: det → amod
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'outro': 1 times (33.3%)
+  'outra': 1 times (33.3%)
+  'outras': 1 times (33.3%)
+
+All lines: 287, 481, 935
+All occurrences:
+  1. Line 287: 'outro' (UPOS: DET) in sentence 12
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  2. Line 481: 'outra' (UPOS: DET) in sentence 19
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+
+  3. Line 935: 'outras' (UPOS: DET) in sentence 33
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+
+--------------------------------------------------
+
+ERROR: nmod → acl
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'feito': 1 times (33.3%)
+  'terminara': 1 times (33.3%)
+  'encontrar': 1 times (33.3%)
+
+All lines: 400, 731, 1487
+All occurrences:
+  1. Line 400: 'feito' (UPOS: VERB) in sentence 16
+     Gold DEPREL: nmod → System DEPREL: acl
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  2. Line 731: 'terminara' (UPOS: VERB) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: acl
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  3. Line 1487: 'encontrar' (UPOS: VERB) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: acl
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: xcomp → acl
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'encontrar': 1 times (33.3%)
+  'organizar': 1 times (33.3%)
+  'perdido': 1 times (33.3%)
+
+All lines: 411, 596, 1483
+All occurrences:
+  1. Line 411: 'encontrar' (UPOS: VERB) in sentence 16
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+  2. Line 596: 'organizar' (UPOS: VERB) in sentence 23
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+  3. Line 1483: 'perdido' (UPOS: VERB) in sentence 50
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: flat → nsubj
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'globo': 1 times (33.3%)
+  'x700': 1 times (33.3%)
+  'moura': 1 times (33.3%)
+
+All lines: 455, 678, 1471
+All occurrences:
+  1. Line 455: 'Globo' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: flat → System DEPREL: nsubj
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 678: 'X700' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: nsubj
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+  3. Line 1471: 'Moura' (UPOS: PROPN) in sentence 50
+     Gold DEPREL: flat → System DEPREL: nsubj
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: case → det
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'a': 2 times (66.7%)
+  'naquela': 1 times (33.3%)
+
+All lines: 635, 716, 790
+All occurrences:
+  1. Line 635: 'naquela' (UPOS: ADP) in sentence 24
+     Gold DEPREL: case → System DEPREL: det
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  2. Line 716: 'A' (UPOS: ADP) in sentence 27
+     Gold DEPREL: case → System DEPREL: det
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+  3. Line 790: 'a' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: det
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+--------------------------------------------------
+
+ERROR: nmod → nummod
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  '2': 1 times (33.3%)
+  '0': 1 times (33.3%)
+  '1285': 1 times (33.3%)
+
+All lines: 789, 791, 1304
+All occurrences:
+  1. Line 789: '2' (UPOS: NUM) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  2. Line 791: '0' (UPOS: NUM) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+
+  3. Line 1304: '1285' (UPOS: NUM) in sentence 45
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: nmod → compound
+Occurrences: 3 (0.74%)
+All error-causing words for this error:
+  'conferência': 1 times (33.3%)
+  'usuários': 1 times (33.3%)
+  'janeiro': 1 times (33.3%)
+
+All lines: 1073, 1075, 1135
+All occurrences:
+  1. Line 1073: 'conferência' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: compound
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  2. Line 1075: 'usuários' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: compound
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+  3. Line 1135: 'Janeiro' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: compound
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'nina': 1 times (50.0%)
+  'motim': 1 times (50.0%)
+
+All lines: 69, 730
+All occurrences:
+  1. Line 69: 'Nina' (UPOS: PROPN) in sentence 3
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 730: 'motim' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+--------------------------------------------------
+
+ERROR: nmod → xcomp
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'ser': 1 times (50.0%)
+  'jogar': 1 times (50.0%)
+
+All lines: 76, 1026
+All occurrences:
+  1. Line 76: 'ser' (UPOS: VERB) in sentence 3
+     Gold DEPREL: nmod → System DEPREL: xcomp
+     Full sentence: A Nina é a chance dele de ele ser feliz .
+
+  2. Line 1026: 'jogar' (UPOS: VERB) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: xcomp
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: root → nmod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'uma': 1 times (50.0%)
+  'comuna': 1 times (50.0%)
+
+All lines: 191, 1100
+All occurrences:
+  1. Line 191: 'uma' (UPOS: PRON) in sentence 9
+     Gold DEPREL: root → System DEPREL: nmod
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 1100: 'comuna' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: root → System DEPREL: nmod
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+--------------------------------------------------
+
+ERROR: obj → mark
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'que': 2 times (100.0%)
+
+All lines: 197, 625
+All occurrences:
+  1. Line 197: 'que' (UPOS: PRON) in sentence 9
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 625: 'que' (UPOS: PRON) in sentence 24
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: aux → csubj
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'tem': 2 times (100.0%)
+
+All lines: 201, 208
+All occurrences:
+  1. Line 201: 'tem' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: csubj
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 208: 'tem' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: csubj
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → root
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'dirigido': 1 times (50.0%)
+  'passaram': 1 times (50.0%)
+
+All lines: 202, 1451
+All occurrences:
+  1. Line 202: 'dirigido' (UPOS: VERB) in sentence 9
+     Gold DEPREL: acl:relcl → System DEPREL: root
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 1451: 'passaram' (UPOS: VERB) in sentence 49
+     Gold DEPREL: acl:relcl → System DEPREL: root
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: aux:pass → csubj
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'sido': 1 times (50.0%)
+  'foram': 1 times (50.0%)
+
+All lines: 209, 725
+All occurrences:
+  1. Line 209: 'sido' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux:pass → System DEPREL: csubj
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+  2. Line 725: 'foram' (UPOS: AUX) in sentence 27
+     Gold DEPREL: aux:pass → System DEPREL: csubj
+     Full sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+
+--------------------------------------------------
+
+ERROR: aux:pass → xcomp
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'sendo': 1 times (50.0%)
+  'ser': 1 times (50.0%)
+
+All lines: 260, 442
+All occurrences:
+  1. Line 260: 'sendo' (UPOS: AUX) in sentence 11
+     Gold DEPREL: aux:pass → System DEPREL: xcomp
+     Full sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+
+  2. Line 442: 'ser' (UPOS: AUX) in sentence 17
+     Gold DEPREL: aux:pass → System DEPREL: xcomp
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+--------------------------------------------------
+
+ERROR: nsubj → obj
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'educação': 1 times (50.0%)
+  'representantes': 1 times (50.0%)
+
+All lines: 304, 1083
+All occurrences:
+  1. Line 304: 'educação' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+  2. Line 1083: 'representantes' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Dentre os 6000 participantes da de a primeira conferência de usuários da de a Amazon Web Services estavam representantes das de as companhias concorrentes , Google e Microsoft .
+
+--------------------------------------------------
+
+ERROR: obj → dep
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'up': 1 times (50.0%)
+  'r': 1 times (50.0%)
+
+All lines: 359, 618
+All occurrences:
+  1. Line 359: 'up' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: obj → System DEPREL: dep
+     Full sentence: " O salto dá um up no em o visual !
+
+  2. Line 618: 'R' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: obj → System DEPREL: dep
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: nmod → dep
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'visual': 1 times (50.0%)
+  '%': 1 times (50.0%)
+
+All lines: 363, 385
+All occurrences:
+  1. Line 363: 'visual' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: dep
+     Full sentence: " O salto dá um up no em o visual !
+
+  2. Line 385: '%' (UPOS: SYM) in sentence 15
+     Gold DEPREL: nmod → System DEPREL: dep
+     Full sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+
+--------------------------------------------------
+
+ERROR: conj → amod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'americano': 1 times (50.0%)
+  'complexa': 1 times (50.0%)
+
+All lines: 466, 1141
+All occurrences:
+  1. Line 466: 'americano' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+  2. Line 1141: 'complexa' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: advcl → ccomp
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'está': 1 times (50.0%)
+  'via': 1 times (50.0%)
+
+All lines: 539, 905
+All occurrences:
+  1. Line 539: 'está' (UPOS: VERB) in sentence 21
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+  2. Line 905: 'via' (UPOS: VERB) in sentence 32
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+--------------------------------------------------
+
+ERROR: flat → dep
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  '$': 1 times (50.0%)
+  'xo53': 1 times (50.0%)
+
+All lines: 619, 958
+All occurrences:
+  1. Line 619: '$' (UPOS: SYM) in sentence 24
+     Gold DEPREL: flat → System DEPREL: dep
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  2. Line 958: 'XO53' (UPOS: PROPN) in sentence 34
+     Gold DEPREL: flat → System DEPREL: dep
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+--------------------------------------------------
+
+ERROR: nsubj → nummod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'um': 1 times (50.0%)
+  '1998': 1 times (50.0%)
+
+All lines: 628, 957
+All occurrences:
+  1. Line 628: 'um' (UPOS: PRON) in sentence 24
+     Gold DEPREL: nsubj → System DEPREL: nummod
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+  2. Line 957: '1998' (UPOS: NUM) in sentence 34
+     Gold DEPREL: nsubj → System DEPREL: nummod
+     Full sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+
+--------------------------------------------------
+
+ERROR: aux:pass → root
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'foi': 2 times (100.0%)
+
+All lines: 701, 833
+All occurrences:
+  1. Line 701: 'foi' (UPOS: AUX) in sentence 26
+     Gold DEPREL: aux:pass → System DEPREL: root
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+  2. Line 833: 'foi' (UPOS: AUX) in sentence 30
+     Gold DEPREL: aux:pass → System DEPREL: root
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+--------------------------------------------------
+
+ERROR: aux → conj
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'ter': 2 times (100.0%)
+
+All lines: 841, 1482
+All occurrences:
+  1. Line 841: 'ter' (UPOS: AUX) in sentence 30
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  2. Line 1482: 'ter' (UPOS: AUX) in sentence 50
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Sônia Moura disse que ainda pretende enterrar a filha e disse não ter perdido a esperança de encontrar o corpo de Eliza .
+
+--------------------------------------------------
+
+ERROR: case → advmod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'neste': 1 times (50.0%)
+  'depois': 1 times (50.0%)
+
+All lines: 860, 1268
+All occurrences:
+  1. Line 860: 'neste' (UPOS: ADP) in sentence 30
+     Gold DEPREL: case → System DEPREL: advmod
+     Full sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+
+  2. Line 1268: 'Depois' (UPOS: ADV) in sentence 45
+     Gold DEPREL: case → System DEPREL: advmod
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: ccomp → acl
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'está': 1 times (50.0%)
+  'faça': 1 times (50.0%)
+
+All lines: 1020, 1174
+All occurrences:
+  1. Line 1020: 'está' (UPOS: VERB) in sentence 36
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+  2. Line 1174: 'faça' (UPOS: VERB) in sentence 40
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: nmod → appos
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'normandia': 1 times (50.0%)
+  'sundiata': 1 times (50.0%)
+
+All lines: 1112, 1281
+All occurrences:
+  1. Line 1112: 'Normandia' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+  2. Line 1281: 'Sundiata' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: obl → nmod
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'ano': 1 times (50.0%)
+  'proporção': 1 times (50.0%)
+
+All lines: 1183, 1460
+All occurrences:
+  1. Line 1183: 'ano' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  2. Line 1460: 'proporção' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: fixed → det
+Occurrences: 2 (0.50%)
+All error-causing words for this error:
+  'o': 2 times (100.0%)
+
+All lines: 1186, 1443
+All occurrences:
+  1. Line 1186: 'o' (UPOS: PRON) in sentence 40
+     Gold DEPREL: fixed → System DEPREL: det
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+  2. Line 1443: 'o' (UPOS: DET) in sentence 49
+     Gold DEPREL: fixed → System DEPREL: det
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → xcomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'emitido': 1 times (100.0%)
+
+All lines: 61
+All occurrences:
+  1. Line 61: 'emitido' (UPOS: VERB) in sentence 2
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: Ver também a lista de entidades que tenham emitido selos postais .
+
+--------------------------------------------------
+
+ERROR: root → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'um': 1 times (100.0%)
+
+All lines: 83
+All occurrences:
+  1. Line 83: 'um' (UPOS: PRON) in sentence 4
+     Gold DEPREL: root → System DEPREL: det
+     Full sentence: É um dos de os três ácidos ftálicos isoméricos .
+
+--------------------------------------------------
+
+ERROR: nsubj → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'esta': 1 times (100.0%)
+
+All lines: 189
+All occurrences:
+  1. Line 189: 'Esta' (UPOS: PRON) in sentence 9
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+--------------------------------------------------
+
+ERROR: cop → csubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'é': 1 times (100.0%)
+
+All lines: 190
+All occurrences:
+  1. Line 190: 'é' (UPOS: AUX) in sentence 9
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+
+--------------------------------------------------
+
+ERROR: appos → xcomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'colocado': 1 times (100.0%)
+
+All lines: 240
+All occurrences:
+  1. Line 240: 'colocado' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: appos → System DEPREL: xcomp
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+--------------------------------------------------
+
+ERROR: appos → amod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'terceiro': 1 times (100.0%)
+
+All lines: 250
+All occurrences:
+  1. Line 250: 'terceiro' (UPOS: ADJ) in sentence 10
+     Gold DEPREL: appos → System DEPREL: amod
+     Full sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+
+--------------------------------------------------
+
+ERROR: iobj → nmod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'sociedade': 1 times (100.0%)
+
+All lines: 282
+All occurrences:
+  1. Line 282: 'sociedade' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: iobj → System DEPREL: nmod
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+--------------------------------------------------
+
+ERROR: conj → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'aprovou': 1 times (100.0%)
+
+All lines: 291
+All occurrences:
+  1. Line 291: 'aprovou' (UPOS: VERB) in sentence 12
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+--------------------------------------------------
+
+ERROR: cop → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'é': 1 times (100.0%)
+
+All lines: 305
+All occurrences:
+  1. Line 305: 'é' (UPOS: AUX) in sentence 12
+     Gold DEPREL: cop → System DEPREL: ccomp
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+--------------------------------------------------
+
+ERROR: ccomp → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'uma': 1 times (100.0%)
+
+All lines: 306
+All occurrences:
+  1. Line 306: 'uma' (UPOS: PRON) in sentence 12
+     Gold DEPREL: ccomp → System DEPREL: det
+     Full sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+
+--------------------------------------------------
+
+ERROR: aux → xcomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'ter': 1 times (100.0%)
+
+All lines: 399
+All occurrences:
+  1. Line 399: 'ter' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+
+--------------------------------------------------
+
+ERROR: obj → xcomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'marginais': 1 times (100.0%)
+
+All lines: 444
+All occurrences:
+  1. Line 444: 'marginais' (UPOS: ADJ) in sentence 17
+     Gold DEPREL: obj → System DEPREL: xcomp
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+--------------------------------------------------
+
+ERROR: parataxis → xcomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'disse': 1 times (100.0%)
+
+All lines: 447
+All occurrences:
+  1. Line 447: 'disse' (UPOS: VERB) in sentence 17
+     Gold DEPREL: parataxis → System DEPREL: xcomp
+     Full sentence: " Eles não podem ser considerados marginais " , disse ele .
+
+--------------------------------------------------
+
+ERROR: nsubj → compound
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'tv': 1 times (100.0%)
+
+All lines: 454
+All occurrences:
+  1. Line 454: 'TV' (UPOS: PROPN) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: compound
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+--------------------------------------------------
+
+ERROR: nmod → amod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'vivo': 1 times (100.0%)
+
+All lines: 472
+All occurrences:
+  1. Line 472: 'vivo' (UPOS: ADJ) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+
+--------------------------------------------------
+
+ERROR: mark → dep
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 493
+All occurrences:
+  1. Line 493: 'Se' (UPOS: CCONJ) in sentence 20
+     Gold DEPREL: mark → System DEPREL: dep
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+--------------------------------------------------
+
+ERROR: advcl → root
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'votar': 1 times (100.0%)
+
+All lines: 495
+All occurrences:
+  1. Line 495: 'votar' (UPOS: VERB) in sentence 20
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+
+--------------------------------------------------
+
+ERROR: xcomp → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'vinculada': 1 times (100.0%)
+
+All lines: 540
+All occurrences:
+  1. Line 540: 'vinculada' (UPOS: ADJ) in sentence 21
+     Gold DEPREL: xcomp → System DEPREL: ccomp
+     Full sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+
+--------------------------------------------------
+
+ERROR: mark → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'uma': 1 times (100.0%)
+
+All lines: 592
+All occurrences:
+  1. Line 592: 'uma' (UPOS: DET) in sentence 23
+     Gold DEPREL: mark → System DEPREL: det
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+--------------------------------------------------
+
+ERROR: fixed → obl
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'vez': 1 times (100.0%)
+
+All lines: 593
+All occurrences:
+  1. Line 593: 'vez' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: fixed → System DEPREL: obl
+     Full sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+
+--------------------------------------------------
+
+ERROR: appos → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'o': 1 times (100.0%)
+
+All lines: 624
+All occurrences:
+  1. Line 624: 'o' (UPOS: PRON) in sentence 24
+     Gold DEPREL: appos → System DEPREL: det
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'pagou': 1 times (100.0%)
+
+All lines: 626
+All occurrences:
+  1. Line 626: 'pagou' (UPOS: VERB) in sentence 24
+     Gold DEPREL: acl:relcl → System DEPREL: ccomp
+     Full sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+--------------------------------------------------
+
+ERROR: iobj → obl
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'usuários': 1 times (100.0%)
+
+All lines: 686
+All occurrences:
+  1. Line 686: 'usuários' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: iobj → System DEPREL: obl
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+--------------------------------------------------
+
+ERROR: det → nummod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'um': 1 times (100.0%)
+
+All lines: 687
+All occurrences:
+  1. Line 687: 'um' (UPOS: DET) in sentence 25
+     Gold DEPREL: det → System DEPREL: nummod
+     Full sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+
+--------------------------------------------------
+
+ERROR: obj → nsubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'o': 1 times (100.0%)
+
+All lines: 707
+All occurrences:
+  1. Line 707: 'o' (UPOS: PRON) in sentence 26
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Dois anos depois , ele foi preso -- e eu nunca o vi novamente .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nmod:poss
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 868
+All occurrences:
+  1. Line 868: 'se' (UPOS: PART) in sentence 31
+     Gold DEPREL: expl:pv → System DEPREL: nmod:poss
+     Full sentence: Concentre-se Concentre se nas em as suas aspirações e então siga com confiança na em a direção dos de os seus objetivos .
+
+--------------------------------------------------
+
+ERROR: ccomp → conj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'era': 1 times (100.0%)
+
+All lines: 899
+All occurrences:
+  1. Line 899: 'era' (UPOS: VERB) in sentence 32
+     Gold DEPREL: ccomp → System DEPREL: conj
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+--------------------------------------------------
+
+ERROR: aux:pass → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'ser': 1 times (100.0%)
+
+All lines: 902
+All occurrences:
+  1. Line 902: 'ser' (UPOS: AUX) in sentence 32
+     Gold DEPREL: aux:pass → System DEPREL: ccomp
+     Full sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+
+--------------------------------------------------
+
+ERROR: advcl → parataxis
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'reduzir': 1 times (100.0%)
+
+All lines: 983
+All occurrences:
+  1. Line 983: 'reduzir' (UPOS: VERB) in sentence 35
+     Gold DEPREL: advcl → System DEPREL: parataxis
+     Full sentence: Estamos numa cruzada no em o Brasil para reduzir os custos , afirmou o ministro .
+
+--------------------------------------------------
+
+ERROR: acl → root
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'substituído': 1 times (100.0%)
+
+All lines: 994
+All occurrences:
+  1. Line 994: 'Substituído' (UPOS: VERB) in sentence 36
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+
+--------------------------------------------------
+
+ERROR: amod → obl
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'alta': 1 times (100.0%)
+
+All lines: 1110
+All occurrences:
+  1. Line 1110: 'Alta' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: amod → System DEPREL: obl
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+--------------------------------------------------
+
+ERROR: amod → appos
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'maritime': 1 times (100.0%)
+
+All lines: 1120
+All occurrences:
+  1. Line 1120: 'Maritime' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: amod → System DEPREL: appos
+     Full sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+
+--------------------------------------------------
+
+ERROR: nummod → obj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'milhões': 1 times (100.0%)
+
+All lines: 1149
+All occurrences:
+  1. Line 1149: 'milhões' (UPOS: NUM) in sentence 39
+     Gold DEPREL: nummod → System DEPREL: obj
+     Full sentence: Eduardo Paes é o prefeito do de o Rio de Janeiro , uma cidade bela , complexa e em expansão , que tem 6,5 milhões de habitantes .
+
+--------------------------------------------------
+
+ERROR: det → advmod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'mais': 1 times (100.0%)
+
+All lines: 1175
+All occurrences:
+  1. Line 1175: 'mais' (UPOS: DET) in sentence 40
+     Gold DEPREL: det → System DEPREL: advmod
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: fixed → nsubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 1187
+All occurrences:
+  1. Line 1187: 'que' (UPOS: PRON) in sentence 40
+     Gold DEPREL: fixed → System DEPREL: nsubj
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: nmod → det
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'o': 1 times (100.0%)
+
+All lines: 1188
+All occurrences:
+  1. Line 1188: 'o' (UPOS: PRON) in sentence 40
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: obl:agent → obl
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'governo': 1 times (100.0%)
+
+All lines: 1193
+All occurrences:
+  1. Line 1193: 'governo' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+
+--------------------------------------------------
+
+ERROR: appos → obj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'joão': 1 times (100.0%)
+
+All lines: 1235
+All occurrences:
+  1. Line 1235: 'João' (UPOS: PROPN) in sentence 42
+     Gold DEPREL: appos → System DEPREL: obj
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+--------------------------------------------------
+
+ERROR: flat:name → obj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'paulo': 1 times (100.0%)
+
+All lines: 1236
+All occurrences:
+  1. Line 1236: 'Paulo' (UPOS: PROPN) in sentence 42
+     Gold DEPREL: flat:name → System DEPREL: obj
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+--------------------------------------------------
+
+ERROR: flat:name → nmod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'cunha': 1 times (100.0%)
+
+All lines: 1237
+All occurrences:
+  1. Line 1237: 'Cunha' (UPOS: PROPN) in sentence 42
+     Gold DEPREL: flat:name → System DEPREL: nmod
+     Full sentence: Ministro afirma que já esperava " incompreensões " pelo por o fato de ter absolvido o petista João Paulo Cunha .
+
+--------------------------------------------------
+
+ERROR: obl → nsubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'camisa': 1 times (100.0%)
+
+All lines: 1244
+All occurrences:
+  1. Line 1244: 'camisa' (UPOS: NOUN) in sentence 43
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Sob a camisa , a barriga começava a despontar .
+
+--------------------------------------------------
+
+ERROR: root → nsubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'ideia': 1 times (100.0%)
+
+All lines: 1256
+All occurrences:
+  1. Line 1256: 'ideia' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+--------------------------------------------------
+
+ERROR: nmod → ccomp
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'desliguem': 1 times (100.0%)
+
+All lines: 1261
+All occurrences:
+  1. Line 1261: 'desliguem' (UPOS: VERB) in sentence 44
+     Gold DEPREL: nmod → System DEPREL: ccomp
+     Full sentence: A ideia é de que todos desliguem seus celulares .
+
+--------------------------------------------------
+
+ERROR: fixed → case
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 1270
+All occurrences:
+  1. Line 1270: 'de' (UPOS: ADP) in sentence 45
+     Gold DEPREL: fixed → System DEPREL: case
+     Full sentence: Depois duma de uma luta debilitante para a sucessão entre os filhos de Sundiata Keita , Ouati e Khalifa e seu neto Abu Bakr , Sakoura tomou o controle do de o trono em cerca de 1285 .
+
+--------------------------------------------------
+
+ERROR: conj → nsubj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'coletiva': 1 times (100.0%)
+
+All lines: 1367
+All occurrences:
+  1. Line 1367: 'coletiva' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: conj → System DEPREL: nsubj
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: conj → obj
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'número': 1 times (100.0%)
+
+All lines: 1383
+All occurrences:
+  1. Line 1383: 'número' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: Além disso , os investidores esperam cautelosos pelo por o resultado da de a reunião de política monetária do de o Banco Central Europeu ( BCE ) , pela por a coletiva do de o presidente do de o BCE , Mário Draghi , pelo por o número de pedidos de auxílio - desemprego nos em os EUA e pelos por os dados de inflação na em a China esta noite .
+
+--------------------------------------------------
+
+ERROR: cc → mark
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'em': 1 times (100.0%)
+
+All lines: 1442
+All occurrences:
+  1. Line 1442: 'Em' (UPOS: ADP) in sentence 49
+     Gold DEPREL: cc → System DEPREL: mark
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: fixed → advmod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'entanto': 1 times (100.0%)
+
+All lines: 1444
+All occurrences:
+  1. Line 1444: 'entanto' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: fixed → System DEPREL: advmod
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+
+ERROR: flat → nummod
+Occurrences: 1 (0.25%)
+All error-causing words for this error:
+  'mil': 1 times (100.0%)
+
+All lines: 1464
+All occurrences:
+  1. Line 1464: 'mil' (UPOS: NUM) in sentence 49
+     Gold DEPREL: flat → System DEPREL: nummod
+     Full sentence: No Em o entanto , o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior ( 691 mil ) .
+
+--------------------------------------------------
+

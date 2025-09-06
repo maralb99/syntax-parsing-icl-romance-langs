@@ -1,0 +1,3840 @@
+COMPLETE ERROR ANALYSIS: oc_fr_1.conllu vs. gold_file_oc.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 904
+UPOS errors: 114 (12.61%)
+HEAD errors: 470 (51.99%)
+DEPREL errors: 341 (37.72%)
+
+================================================================================
+
+COMPLETE WORD ERROR STATISTICS:
+==================================================
+
+ALL ERROR-CAUSING WORDS (sorted by frequency):
+'que': 16 total errors (1.73%)
+'èra': 5 total errors (0.54%)
+'es': 5 total errors (0.54%)
+'a': 4 total errors (0.43%)
+'pas': 3 total errors (0.32%)
+'lo': 3 total errors (0.32%)
+'n'': 2 total errors (0.22%)
+'dieu': 2 total errors (0.22%)
+'qu’': 2 total errors (0.22%)
+'acadèmia': 2 total errors (0.22%)
+'ara': 1 total errors (0.11%)
+'uech': 1 total errors (0.11%)
+'pus': 1 total errors (0.11%)
+'degun': 1 total errors (0.11%)
+'defòra': 1 total errors (0.11%)
+'levat': 1 total errors (0.11%)
+'institucionalas': 1 total errors (0.11%)
+'sens': 1 total errors (0.11%)
+'mendre': 1 total errors (0.11%)
+'doàs': 1 total errors (0.11%)
+'de': 1 total errors (0.11%)
+'gascon': 1 total errors (0.11%)
+'sa': 1 total errors (0.11%)
+'genta': 1 total errors (0.11%)
+'dengús': 1 total errors (0.11%)
+'gis': 1 total errors (0.11%)
+'autra': 1 total errors (0.11%)
+'quau': 1 total errors (0.11%)
+'tota': 1 total errors (0.11%)
+'sensa': 1 total errors (0.11%)
+'ne’n': 1 total errors (0.11%)
+'seunas': 1 total errors (0.11%)
+'pres': 1 total errors (0.11%)
+'siáu': 1 total errors (0.11%)
+'tot': 1 total errors (0.11%)
+'òc': 1 total errors (0.11%)
+'doncas': 1 total errors (0.11%)
+'el': 1 total errors (0.11%)
+'pèr': 1 total errors (0.11%)
+'sèmbla-dieu': 1 total errors (0.11%)
+'dempuei': 1 total errors (0.11%)
+'un': 1 total errors (0.11%)
+'beu': 1 total errors (0.11%)
+'pauc': 1 total errors (0.11%)
+'quauquaren': 1 total errors (0.11%)
+'amont': 1 total errors (0.11%)
+'sonque': 1 total errors (0.11%)
+'e': 1 total errors (0.11%)
+'minjar': 1 total errors (0.11%)
+'seràs': 1 total errors (0.11%)
+'ne': 1 total errors (0.11%)
+'mas': 1 total errors (0.11%)
+'n'en': 1 total errors (0.11%)
+'alevat': 1 total errors (0.11%)
+'cò': 1 total errors (0.11%)
+'ora': 1 total errors (0.11%)
+'l’': 1 total errors (0.11%)
+'totei': 1 total errors (0.11%)
+'ei': 1 total errors (0.11%)
+'coma': 1 total errors (0.11%)
+'consí': 1 total errors (0.11%)
+''n': 1 total errors (0.11%)
+'beleg': 1 total errors (0.11%)
+'aderent': 1 total errors (0.11%)
+'companhia': 1 total errors (0.11%)
+'associacion': 1 total errors (0.11%)
+'darrèr': 1 total errors (0.11%)
+'b'': 1 total errors (0.11%)
+'non': 1 total errors (0.11%)
+'cal': 1 total errors (0.11%)
+'promèiras': 1 total errors (0.11%)
+'dobe': 1 total errors (0.11%)
+'solide': 1 total errors (0.11%)
+'polit': 1 total errors (0.11%)
+'las': 1 total errors (0.11%)
+'velhèt': 1 total errors (0.11%)
+'qu'': 1 total errors (0.11%)
+'soa': 1 total errors (0.11%)
+'fuguèrem': 1 total errors (0.11%)
+'semiat': 1 total errors (0.11%)
+
+--------------------------------------------------
+
+ALL UPOS ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: VERB → AUX
+Occurrences: 16 (14.04%)
+All error-causing words for this error:
+  'èra': 5 times (31.2%)
+  'es': 5 times (31.2%)
+  'siáu': 1 times (6.2%)
+  'a': 1 times (6.2%)
+  'seràs': 1 times (6.2%)
+  'ei': 1 times (6.2%)
+  'cal': 1 times (6.2%)
+  'fuguèrem': 1 times (6.2%)
+
+All lines: 197, 364, 368, 386, 396, 407, 427, 496, 518, 682, 725, 729, 792, 893, 965, 1017
+All occurrences:
+  1. Line 197: 'èra' in sentence 7
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , èra pas
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  2. Line 364: 'es' in sentence 14
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: gost es pas
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 368: 'siáu' in sentence 14
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , siáu segur
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  4. Line 386: 'es' in sentence 14
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: : es la
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  5. Line 396: 'es' in sentence 15
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Doncas es el
+     Full sentence: Doncas es el que prenèm .
+
+  6. Line 407: 'èra' in sentence 16
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , èra gaireben
+     Full sentence: Aquel jorn , èra gaireben joial .
+
+  7. Line 427: 'a' in sentence 17
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: sèmbla-Dieu a una
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  8. Line 496: 'Es' in sentence 21
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: START Es un
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  9. Line 518: 'seràs' in sentence 23
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Que seràs lèu
+     Full sentence: Que seràs lèu grasset !
+
+  10. Line 682: 'ei' in sentence 31
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Qu’ ei disponible
+     Full sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+
+  11. Line 725: 'èra' in sentence 33
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , èra qu’
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  12. Line 729: 'èra' in sentence 33
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: nom èra la
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  13. Line 792: 'èra' in sentence 37
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: qu’ èra aderent
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  14. Line 893: 'cal' in sentence 41
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , cal far
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  15. Line 965: 'es' in sentence 46
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Qu' es luènh
+     Full sentence: Qu' es luènh , mon Dieu !
+
+  16. Line 1017: 'fuguèrem' in sentence 49
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: ne’n fuguèrem fòrça
+     Full sentence: Chau reconéisser que , pel per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+
+--------------------------------------------------
+
+ERROR: PRON → SCONJ
+Occurrences: 10 (8.77%)
+All error-causing words for this error:
+  'que': 10 times (100.0%)
+
+All lines: 192, 266, 398, 417, 499, 554, 602, 655, 890, 1028
+All occurrences:
+  1. Line 192: 'que' in sentence 7
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: quela que prenguèt
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  2. Line 266: 'que' in sentence 9
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: alegressa que m'
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  3. Line 398: 'que' in sentence 15
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: el que prenèm
+     Full sentence: Doncas es el que prenèm .
+
+  4. Line 417: 'que' in sentence 17
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: çò que s’es
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  5. Line 499: 'que' in sentence 21
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: trabalh que fasiá
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  6. Line 554: 'que' in sentence 26
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: besonha que me
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+  7. Line 602: 'que' in sentence 28
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: maire que me
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  8. Line 655: 'que' in sentence 29
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: pèira que per
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  9. Line 890: 'que' in sentence 41
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: ròca que limpa
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  10. Line 1028: 'que' in sentence 50
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: marchands que corron
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: ADV → SCONJ
+Occurrences: 9 (7.89%)
+All error-causing words for this error:
+  'que': 5 times (55.6%)
+  'qu’': 2 times (22.2%)
+  'b'': 1 times (11.1%)
+  'qu'': 1 times (11.1%)
+
+All lines: 517, 525, 568, 681, 748, 791, 828, 853, 964
+All occurrences:
+  1. Line 517: 'Que' in sentence 23
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Que seràs
+     Full sentence: Que seràs lèu grasset !
+
+  2. Line 525: 'Que' in sentence 24
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Que lo
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+  3. Line 568: 'Que' in sentence 27
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Que s'
+     Full sentence: Que s' i viu a la cosina .
+
+  4. Line 681: 'Qu’' in sentence 31
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Qu’ ei
+     Full sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+
+  5. Line 748: 'Que' in sentence 34
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Que 'm
+     Full sentence: Que 'm torni estonar e encolerar .
+
+  6. Line 791: 'qu’' in sentence 37
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: Nadal qu’ èra
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  7. Line 828: 'Que' in sentence 38
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Que 'u
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+  8. Line 853: 'b'' in sentence 39
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: , b' an
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+  9. Line 964: 'Qu'' in sentence 46
+     Gold UPOS: ADV → System UPOS: SCONJ
+     Context: START Qu' es
+     Full sentence: Qu' es luènh , mon Dieu !
+
+--------------------------------------------------
+
+ERROR: NOUN → PROPN
+Occurrences: 7 (6.14%)
+All error-causing words for this error:
+  'dieu': 2 times (28.6%)
+  'acadèmia': 2 times (28.6%)
+  'sèmbla-dieu': 1 times (14.3%)
+  'companhia': 1 times (14.3%)
+  'associacion': 1 times (14.3%)
+
+All lines: 424, 426, 799, 810, 816, 821, 969
+All occurrences:
+  1. Line 424: 'Dieu' in sentence 17
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: un Dieu ò
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  2. Line 426: 'sèmbla-Dieu' in sentence 17
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: ò sèmbla-Dieu a
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  3. Line 799: 'Companhia' in sentence 37
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: la Companhia deus
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  4. Line 810: 'Associacion' in sentence 37
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: l’ Associacion Miguel
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  5. Line 816: 'Acadèmia' in sentence 37
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: l’ Acadèmia de
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  6. Line 821: 'Acadèmia' in sentence 37
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: l’ Acadèmia de
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  7. Line 969: 'Dieu' in sentence 46
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: mon Dieu !
+     Full sentence: Qu' es luènh , mon Dieu !
+
+--------------------------------------------------
+
+ERROR: PRON → PART
+Occurrences: 6 (5.26%)
+All error-causing words for this error:
+  'n'': 2 times (33.3%)
+  'ne’n': 1 times (16.7%)
+  'ne': 1 times (16.7%)
+  'n'en': 1 times (16.7%)
+  ''n': 1 times (16.7%)
+
+All lines: 302, 371, 544, 583, 762, 830
+All occurrences:
+  1. Line 302: 'ne’n' in sentence 11
+     Gold UPOS: PRON → System UPOS: PART
+     Context: dets ne’n venián
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+  2. Line 371: 'n'' in sentence 14
+     Gold UPOS: PRON → System UPOS: PART
+     Context: que n' ai
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 544: 'ne' in sentence 25
+     Gold UPOS: PRON → System UPOS: PART
+     Context: , ne larga
+     Full sentence: De bombas atomicas , ne larga dotze .
+
+  4. Line 583: 'n'en' in sentence 28
+     Gold UPOS: PRON → System UPOS: PART
+     Context: se n'en parlava
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  5. Line 762: ''n' in sentence 35
+     Gold UPOS: PRON → System UPOS: PART
+     Context: se 'n tirar
+     Full sentence: Consí far per se 'n tirar ?
+
+  6. Line 830: 'n'' in sentence 38
+     Gold UPOS: PRON → System UPOS: PART
+     Context: 'u n' èi
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+--------------------------------------------------
+
+ERROR: ADJ → NOUN
+Occurrences: 5 (4.39%)
+All error-causing words for this error:
+  'institucionalas': 1 times (20.0%)
+  'mendre': 1 times (20.0%)
+  'genta': 1 times (20.0%)
+  'seunas': 1 times (20.0%)
+  'promèiras': 1 times (20.0%)
+
+All lines: 99, 135, 226, 331, 910
+All occurrences:
+  1. Line 99: 'institucionalas' in sentence 3
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: relacions institucionalas ,
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  2. Line 135: 'mendre' in sentence 4
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: lo mendre regret
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  3. Line 226: 'genta' in sentence 8
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: èra genta :
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  4. Line 331: 'seunas' in sentence 12
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: las seunas ,
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  5. Line 910: 'promèiras' in sentence 42
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: dotze promèiras annadas
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADJ
+Occurrences: 5 (4.39%)
+All error-causing words for this error:
+  'gascon': 1 times (20.0%)
+  'pauc': 1 times (20.0%)
+  'beleg': 1 times (20.0%)
+  'aderent': 1 times (20.0%)
+  'darrèr': 1 times (20.0%)
+
+All lines: 182, 460, 773, 793, 848
+All occurrences:
+  1. Line 182: 'gascon' in sentence 6
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: en gascon de
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+  2. Line 460: 'pauc' in sentence 18
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: un pauc ,
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  3. Line 773: 'beleg' in sentence 36
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: un beleg trapèri
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  4. Line 793: 'aderent' in sentence 37
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: èra aderent a
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  5. Line 848: 'darrèr' in sentence 39
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: lo darrèr de
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+--------------------------------------------------
+
+ERROR: PRON → DET
+Occurrences: 5 (4.39%)
+All error-causing words for this error:
+  'lo': 1 times (20.0%)
+  'tot': 1 times (20.0%)
+  'el': 1 times (20.0%)
+  'un': 1 times (20.0%)
+  'l’': 1 times (20.0%)
+
+All lines: 335, 377, 397, 453, 657
+All occurrences:
+  1. Line 335: 'lo' in sentence 12
+     Gold UPOS: PRON → System UPOS: DET
+     Context: en lo fintant
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  2. Line 377: 'tot' in sentence 14
+     Gold UPOS: PRON → System UPOS: DET
+     Context: puei tot me
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 397: 'el' in sentence 15
+     Gold UPOS: PRON → System UPOS: DET
+     Context: es el que
+     Full sentence: Doncas es el que prenèm .
+
+  4. Line 453: 'un' in sentence 18
+     Gold UPOS: PRON → System UPOS: DET
+     Context: , un a
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  5. Line 657: 'l’' in sentence 29
+     Gold UPOS: PRON → System UPOS: DET
+     Context: per l’ auborar
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: ADV → NOUN
+Occurrences: 4 (3.51%)
+All error-causing words for this error:
+  'ara': 1 times (25.0%)
+  'gis': 1 times (25.0%)
+  'amont': 1 times (25.0%)
+  'ora': 1 times (25.0%)
+
+All lines: 8, 234, 476, 619
+All occurrences:
+  1. Line 8: 'ara' in sentence 1
+     Gold UPOS: ADV → System UPOS: NOUN
+     Context: d' ara ,
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 234: 'gis' in sentence 8
+     Gold UPOS: ADV → System UPOS: NOUN
+     Context: trobará gis d'
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 476: 'Amont' in sentence 19
+     Gold UPOS: ADV → System UPOS: NOUN
+     Context: START Amont d’
+     Full sentence: Amont d’ en naut .
+
+  4. Line 619: 'ora' in sentence 28
+     Gold UPOS: ADV → System UPOS: NOUN
+     Context: d' ora per
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: ADV → PART
+Occurrences: 4 (3.51%)
+All error-causing words for this error:
+  'pas': 3 times (75.0%)
+  'non': 1 times (25.0%)
+
+All lines: 44, 198, 365, 874
+All occurrences:
+  1. Line 44: 'pas' in sentence 1
+     Gold UPOS: ADV → System UPOS: PART
+     Context: sabi pas tròp
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 198: 'pas' in sentence 7
+     Gold UPOS: ADV → System UPOS: PART
+     Context: èra pas de
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  3. Line 365: 'pas' in sentence 14
+     Gold UPOS: ADV → System UPOS: PART
+     Context: es pas marrit
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  4. Line 874: 'non' in sentence 40
+     Gold UPOS: ADV → System UPOS: PART
+     Context: que non se
+     Full sentence: Tot en un còp , me sentiguèri las , fatigat que non se pòt mai .
+
+--------------------------------------------------
+
+ERROR: DET → PRON
+Occurrences: 4 (3.51%)
+All error-causing words for this error:
+  'lo': 2 times (50.0%)
+  'sa': 1 times (25.0%)
+  'quau': 1 times (25.0%)
+
+All lines: 131, 134, 194, 240
+All occurrences:
+  1. Line 131: 'lo' in sentence 4
+     Gold UPOS: DET → System UPOS: PRON
+     Context: espieren lo comissari
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 134: 'lo' in sentence 4
+     Gold UPOS: DET → System UPOS: PRON
+     Context: sens lo mendre
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  3. Line 194: 'sa' in sentence 7
+     Gold UPOS: DET → System UPOS: PRON
+     Context: prenguèt sa plaça
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  4. Line 240: 'quau' in sentence 8
+     Gold UPOS: DET → System UPOS: PRON
+     Context: comblar quau pertús
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: PRON → NOUN
+Occurrences: 3 (2.63%)
+All error-causing words for this error:
+  'degun': 1 times (33.3%)
+  'dengús': 1 times (33.3%)
+  'quauquaren': 1 times (33.3%)
+
+All lines: 22, 232, 467
+All occurrences:
+  1. Line 22: 'degun' in sentence 1
+     Gold UPOS: PRON → System UPOS: NOUN
+     Context: pus degun defòra
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 232: 'dengús' in sentence 8
+     Gold UPOS: PRON → System UPOS: NOUN
+     Context: jamai dengús trobará
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 467: 'quauquaren' in sentence 18
+     Gold UPOS: PRON → System UPOS: NOUN
+     Context: petit quauquaren de
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: ADV → ADP
+Occurrences: 3 (2.63%)
+All error-causing words for this error:
+  'defòra': 1 times (33.3%)
+  'dempuei': 1 times (33.3%)
+  'sonque': 1 times (33.3%)
+
+All lines: 23, 440, 489
+All occurrences:
+  1. Line 23: 'defòra' in sentence 1
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: degun defòra ,
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 440: 'dempuei' in sentence 18
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: malandrós dempuei sieis
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  3. Line 489: 'sonque' in sentence 20
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: blanc sonque la
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+--------------------------------------------------
+
+ERROR: ADJ → DET
+Occurrences: 3 (2.63%)
+All error-causing words for this error:
+  'autra': 1 times (33.3%)
+  'tota': 1 times (33.3%)
+  'soa': 1 times (33.3%)
+
+All lines: 236, 250, 980
+All occurrences:
+  1. Line 236: 'autra' in sentence 8
+     Gold UPOS: ADJ → System UPOS: DET
+     Context: d' autra pèira
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  2. Line 250: 'tota' in sentence 8
+     Gold UPOS: ADJ → System UPOS: DET
+     Context: furgariá tota la
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 980: 'soa' in sentence 47
+     Gold UPOS: ADJ → System UPOS: DET
+     Context: la soa lenga
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: ADV → ADJ
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'pus': 1 times (50.0%)
+  'solide': 1 times (50.0%)
+
+All lines: 21, 943
+All occurrences:
+  1. Line 21: 'pus' in sentence 1
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: a pus degun
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 943: 'solide' in sentence 44
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: gelarà solide tota
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+--------------------------------------------------
+
+ERROR: ADP → VERB
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'a': 1 times (50.0%)
+  'alevat': 1 times (50.0%)
+
+All lines: 25, 592
+All occurrences:
+  1. Line 25: 'a' in sentence 1
+     Gold UPOS: ADP → System UPOS: VERB
+     Context: , a levat
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 592: 'alevat' in sentence 28
+     Gold UPOS: ADP → System UPOS: VERB
+     Context: e alevat que
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: ADP → ADV
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'sensa': 1 times (50.0%)
+  'dobe': 1 times (50.0%)
+
+All lines: 287, 930
+All occurrences:
+  1. Line 287: 'sensa' in sentence 10
+     Gold UPOS: ADP → System UPOS: ADV
+     Context: dedins sensa culhier
+     Full sentence: Mandam puei lei mans dedins sensa culhier e portam la bolhida a la boca .
+
+  2. Line 930: 'dobe' in sentence 43
+     Gold UPOS: ADP → System UPOS: ADV
+     Context: cherchinhar dobe son
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+--------------------------------------------------
+
+ERROR: ADV → INTJ
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'òc': 1 times (50.0%)
+  'consí': 1 times (50.0%)
+
+All lines: 381, 758
+All occurrences:
+  1. Line 381: 'òc' in sentence 14
+     Gold UPOS: ADV → System UPOS: INTJ
+     Context: : òc ,
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 758: 'Consí' in sentence 35
+     Gold UPOS: ADV → System UPOS: INTJ
+     Context: START Consí far
+     Full sentence: Consí far per se 'n tirar ?
+
+--------------------------------------------------
+
+ERROR: ADJ → VERB
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'beu': 1 times (50.0%)
+  'polit': 1 times (50.0%)
+
+All lines: 455, 957
+All occurrences:
+  1. Line 455: 'beu' in sentence 18
+     Gold UPOS: ADJ → System UPOS: VERB
+     Context: a beu s’
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 957: 'polit' in sentence 45
+     Gold UPOS: ADJ → System UPOS: VERB
+     Context: enfant polit las
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: VERB → NOUN
+Occurrences: 2 (1.75%)
+All error-causing words for this error:
+  'minjar': 1 times (50.0%)
+  'velhèt': 1 times (50.0%)
+
+All lines: 511, 959
+All occurrences:
+  1. Line 511: 'minjar' in sentence 22
+     Gold UPOS: VERB → System UPOS: NOUN
+     Context: de minjar hormatge
+     Full sentence: E de minjar hormatge ?
+
+  2. Line 959: 'velhèt' in sentence 45
+     Gold UPOS: VERB → System UPOS: NOUN
+     Context: las velhèt .
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: NUM → NOUN
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'uech': 1 times (100.0%)
+
+All lines: 11
+All occurrences:
+  1. Line 11: 'uech' in sentence 1
+     Gold UPOS: NUM → System UPOS: NOUN
+     Context: passat uech oras
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: AUX → VERB
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 20
+All occurrences:
+  1. Line 20: 'a' in sentence 1
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: i a pus
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: NOUN → VERB
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'levat': 1 times (100.0%)
+
+All lines: 26
+All occurrences:
+  1. Line 26: 'levat' in sentence 1
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: a levat lei
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: ADP → NOUN
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'sens': 1 times (100.0%)
+
+All lines: 133
+All occurrences:
+  1. Line 133: 'sens' in sentence 4
+     Gold UPOS: ADP → System UPOS: NOUN
+     Context: comissari sens lo
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: DET → ADJ
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'doàs': 1 times (100.0%)
+
+All lines: 139
+All occurrences:
+  1. Line 139: 'doàs' in sentence 4
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: e doàs aurelhas
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: DET → ADP
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 161
+All occurrences:
+  1. Line 161: 'de' in sentence 5
+     Gold UPOS: DET → System UPOS: ADP
+     Context: puslèu de retardataris
+     Full sentence: Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+
+--------------------------------------------------
+
+ERROR: VERB → ADP
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'pres': 1 times (100.0%)
+
+All lines: 348
+All occurrences:
+  1. Line 348: 'pres' in sentence 13
+     Gold UPOS: VERB → System UPOS: ADP
+     Context: repais pres sul
+     Full sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+
+--------------------------------------------------
+
+ERROR: CCONJ → ADV
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'doncas': 1 times (100.0%)
+
+All lines: 395
+All occurrences:
+  1. Line 395: 'Doncas' in sentence 15
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: START Doncas es
+     Full sentence: Doncas es el que prenèm .
+
+--------------------------------------------------
+
+ERROR: ADP → PRON
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'pèr': 1 times (100.0%)
+
+All lines: 414
+All occurrences:
+  1. Line 414: 'Pèr' in sentence 17
+     Gold UPOS: ADP → System UPOS: PRON
+     Context: START Pèr comprene
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+--------------------------------------------------
+
+ERROR: ADP → AUX
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 436
+All occurrences:
+  1. Line 436: 'a' in sentence 18
+     Gold UPOS: ADP → System UPOS: AUX
+     Context: Un a beu
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: CCONJ → INTJ
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'e': 1 times (100.0%)
+
+All lines: 509
+All occurrences:
+  1. Line 509: 'E' in sentence 22
+     Gold UPOS: CCONJ → System UPOS: INTJ
+     Context: START E de
+     Full sentence: E de minjar hormatge ?
+
+--------------------------------------------------
+
+ERROR: ADV → CCONJ
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'mas': 1 times (100.0%)
+
+All lines: 561
+All occurrences:
+  1. Line 561: 'mas' in sentence 26
+     Gold UPOS: ADV → System UPOS: CCONJ
+     Context: es mas una
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADP
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'cò': 1 times (100.0%)
+
+All lines: 607
+All occurrences:
+  1. Line 607: 'cò' in sentence 28
+     Gold UPOS: NOUN → System UPOS: ADP
+     Context: en cò de
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: DET → ADV
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'totei': 1 times (100.0%)
+
+All lines: 670
+All occurrences:
+  1. Line 670: 'totei' in sentence 30
+     Gold UPOS: DET → System UPOS: ADV
+     Context: ensagèron totei leis
+     Full sentence: S’ ensagèron totei leis insecticids pèr un chaple definitiu .
+
+--------------------------------------------------
+
+ERROR: SCONJ → ADP
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'coma': 1 times (100.0%)
+
+All lines: 737
+All occurrences:
+  1. Line 737: 'coma' in sentence 33
+     Gold UPOS: SCONJ → System UPOS: ADP
+     Context: concebut coma luòc
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+--------------------------------------------------
+
+ERROR: PRON → ADJ
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'las': 1 times (100.0%)
+
+All lines: 958
+All occurrences:
+  1. Line 958: 'las' in sentence 45
+     Gold UPOS: PRON → System UPOS: ADJ
+     Context: polit las velhèt
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: ADV → PRON
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 974
+All occurrences:
+  1. Line 974: 'Que' in sentence 47
+     Gold UPOS: ADV → System UPOS: PRON
+     Context: START Que ’s
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: VERB → ADJ
+Occurrences: 1 (0.88%)
+All error-causing words for this error:
+  'semiat': 1 times (100.0%)
+
+All lines: 1038
+All occurrences:
+  1. Line 1038: 'semiat' in sentence 50
+     Gold UPOS: VERB → System UPOS: ADJ
+     Context: manto semiat de
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ALL DEPREL ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: nmod → obl
+Occurrences: 19 (5.57%)
+All error-causing words for this error:
+  'vespre': 1 times (5.3%)
+  'bob': 1 times (5.3%)
+  'enigma': 1 times (5.3%)
+  'paire': 1 times (5.3%)
+  'farineta': 1 times (5.3%)
+  'se': 1 times (5.3%)
+  'asinariá': 1 times (5.3%)
+  'cosina': 1 times (5.3%)
+  'pèira': 1 times (5.3%)
+  'espaci': 1 times (5.3%)
+  'residéncia': 1 times (5.3%)
+  'monde': 1 times (5.3%)
+  'hormigueta': 1 times (5.3%)
+  'vida': 1 times (5.3%)
+  'vitalitat': 1 times (5.3%)
+  'ainats': 1 times (5.3%)
+  'mens': 1 times (5.3%)
+  'man': 1 times (5.3%)
+  'pietat': 1 times (5.3%)
+
+All lines: 16, 184, 277, 322, 390, 469, 504, 574, 654, 735, 740, 743, 851, 914, 987, 991, 1011, 1047, 1053
+All occurrences:
+  1. Line 16: 'vespre' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 184: 'Bob' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+  3. Line 277: 'enigma' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  4. Line 322: 'paire' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  5. Line 390: 'farineta' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  6. Line 469: 'se' (UPOS: PRON) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  7. Line 504: 'asinariá' (UPOS: NOUN) in sentence 21
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  8. Line 574: 'cosina' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Que s' i viu a la cosina .
+
+  9. Line 654: 'pèira' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  10. Line 735: 'espaci' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  11. Line 740: 'residéncia' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  12. Line 743: 'monde' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  13. Line 851: 'hormigueta' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+  14. Line 914: 'vida' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+  15. Line 987: 'vitalitat' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+  16. Line 991: 'ainats' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+  17. Line 1011: 'mens' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Chau reconéisser que , pel per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+
+  18. Line 1047: 'man' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+  19. Line 1053: 'pietat' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: case → mark
+Occurrences: 19 (5.57%)
+All error-causing words for this error:
+  'de': 5 times (26.3%)
+  'd'': 4 times (21.1%)
+  'en': 4 times (21.1%)
+  'a': 3 times (15.8%)
+  'coma': 1 times (5.3%)
+  'dab': 1 times (5.3%)
+  'per': 1 times (5.3%)
+
+All lines: 126, 178, 235, 242, 257, 305, 334, 337, 487, 614, 618, 639, 662, 760, 771, 846, 896, 898, 924
+All occurrences:
+  1. Line 126: 'coma' (UPOS: SCONJ) in sentence 4
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 178: 'dab' (UPOS: ADP) in sentence 6
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+  3. Line 235: 'd'' (UPOS: ADP) in sentence 8
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  4. Line 242: 'd'' (UPOS: ADP) in sentence 8
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  5. Line 257: 'En' (UPOS: ADP) in sentence 9
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  6. Line 305: 'de' (UPOS: ADP) in sentence 11
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+  7. Line 334: 'en' (UPOS: ADP) in sentence 12
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  8. Line 337: 'de' (UPOS: ADP) in sentence 12
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  9. Line 487: 'a' (UPOS: ADP) in sentence 20
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+  10. Line 614: 'de' (UPOS: ADP) in sentence 28
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  11. Line 618: 'd'' (UPOS: ADP) in sentence 28
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  12. Line 639: 'de' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  13. Line 662: 'a' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  14. Line 760: 'per' (UPOS: ADP) in sentence 35
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Consí far per se 'n tirar ?
+
+  15. Line 771: 'd'' (UPOS: ADP) in sentence 36
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  16. Line 846: 'a' (UPOS: ADP) in sentence 39
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+  17. Line 896: 'en' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  18. Line 898: 'en' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  19. Line 924: 'de' (UPOS: ADP) in sentence 43
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+--------------------------------------------------
+
+ERROR: obj → obl
+Occurrences: 13 (3.81%)
+All error-causing words for this error:
+  'oras': 1 times (7.7%)
+  'afars': 1 times (7.7%)
+  'plaça': 1 times (7.7%)
+  'tèrra': 1 times (7.7%)
+  'mans': 1 times (7.7%)
+  'me': 1 times (7.7%)
+  'quauquaren': 1 times (7.7%)
+  'halha': 1 times (7.7%)
+  'pluma': 1 times (7.7%)
+  'definicion': 1 times (7.7%)
+  'vetustat': 1 times (7.7%)
+  'atencion': 1 times (7.7%)
+  'objècts': 1 times (7.7%)
+
+All lines: 12, 108, 195, 252, 328, 378, 467, 491, 713, 732, 785, 895, 1051
+All occurrences:
+  1. Line 12: 'oras' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 108: 'afars' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  3. Line 195: 'plaça' (UPOS: NOUN) in sentence 7
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  4. Line 252: 'tèrra' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  5. Line 328: 'mans' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  6. Line 378: 'me' (UPOS: PRON) in sentence 14
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  7. Line 467: 'quauquaren' (UPOS: PRON) in sentence 18
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  8. Line 491: 'halha' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+  9. Line 713: 'pluma' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Au a lo bon moment , lo hilh deu de lo rei se botèc la pluma dens la boca .
+
+  10. Line 732: 'definicion' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  11. Line 785: 'vetustat' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  12. Line 895: 'atencion' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  13. Line 1051: 'objècts' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: punct → dep
+Occurrences: 11 (3.23%)
+All error-causing words for this error:
+  '.': 11 times (100.0%)
+
+All lines: 46, 79, 118, 147, 164, 310, 492, 664, 677, 935, 992
+All occurrences:
+  1. Line 46: '.' (UPOS: PUNCT) in sentence 1
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 79: '.' (UPOS: PUNCT) in sentence 2
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  3. Line 118: '.' (UPOS: PUNCT) in sentence 3
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  4. Line 147: '.' (UPOS: PUNCT) in sentence 4
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  5. Line 164: '.' (UPOS: PUNCT) in sentence 5
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+
+  6. Line 310: '.' (UPOS: PUNCT) in sentence 11
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+  7. Line 492: '.' (UPOS: PUNCT) in sentence 20
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+  8. Line 664: '.' (UPOS: PUNCT) in sentence 29
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  9. Line 677: '.' (UPOS: PUNCT) in sentence 30
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: S’ ensagèron totei leis insecticids pèr un chaple definitiu .
+
+  10. Line 935: '.' (UPOS: PUNCT) in sentence 43
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+  11. Line 992: '.' (UPOS: PUNCT) in sentence 47
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: obj → nsubj
+Occurrences: 10 (2.93%)
+All error-causing words for this error:
+  's'': 1 times (10.0%)
+  'lo': 1 times (10.0%)
+  'i': 1 times (10.0%)
+  'm'': 1 times (10.0%)
+  ''m': 1 times (10.0%)
+  ''u': 1 times (10.0%)
+  'mur': 1 times (10.0%)
+  'jornada': 1 times (10.0%)
+  't'': 1 times (10.0%)
+  'marchands': 1 times (10.0%)
+
+All lines: 316, 526, 570, 628, 749, 829, 932, 946, 998, 1027
+All occurrences:
+  1. Line 316: 's'' (UPOS: PRON) in sentence 12
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  2. Line 526: 'lo' (UPOS: PRON) in sentence 24
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+  3. Line 570: 'i' (UPOS: PRON) in sentence 27
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Que s' i viu a la cosina .
+
+  4. Line 628: 'm'' (UPOS: PRON) in sentence 28
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  5. Line 749: ''m' (UPOS: PRON) in sentence 34
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Que 'm torni estonar e encolerar .
+
+  6. Line 829: ''u' (UPOS: PRON) in sentence 38
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+  7. Line 932: 'mur' (UPOS: NOUN) in sentence 43
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+  8. Line 946: 'jornada' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+  9. Line 998: 't'' (UPOS: PRON) in sentence 48
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Paire , t' ajudarem !
+
+  10. Line 1027: 'marchands' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: obl → nsubj
+Occurrences: 9 (2.64%)
+All error-causing words for this error:
+  'ora': 1 times (11.1%)
+  'qui': 1 times (11.1%)
+  'qué': 1 times (11.1%)
+  'culhier': 1 times (11.1%)
+  'bombas': 1 times (11.1%)
+  'maire': 1 times (11.1%)
+  'recanton': 1 times (11.1%)
+  'se': 1 times (11.1%)
+  'còp': 1 times (11.1%)
+
+All lines: 6, 102, 259, 288, 541, 601, 638, 761, 866
+All occurrences:
+  1. Line 6: 'ora' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 102: 'qui' (UPOS: PRON) in sentence 3
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  3. Line 259: 'qué' (UPOS: PRON) in sentence 9
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  4. Line 288: 'culhier' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Mandam puei lei mans dedins sensa culhier e portam la bolhida a la boca .
+
+  5. Line 541: 'bombas' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: De bombas atomicas , ne larga dotze .
+
+  6. Line 601: 'maire' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  7. Line 638: 'recanton' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  8. Line 761: 'se' (UPOS: PRON) in sentence 35
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Consí far per se 'n tirar ?
+
+  9. Line 866: 'còp' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Tot en un còp , me sentiguèri las , fatigat que non se pòt mai .
+
+--------------------------------------------------
+
+ERROR: advmod → mark
+Occurrences: 9 (2.64%)
+All error-causing words for this error:
+  'pas': 2 times (22.2%)
+  'que': 2 times (22.2%)
+  'defòra': 1 times (11.1%)
+  'qu’': 1 times (11.1%)
+  'b'': 1 times (11.1%)
+  'non': 1 times (11.1%)
+  'qu'': 1 times (11.1%)
+
+All lines: 23, 44, 365, 525, 791, 828, 853, 874, 964
+All occurrences:
+  1. Line 23: 'defòra' (UPOS: ADV) in sentence 1
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 44: 'pas' (UPOS: ADV) in sentence 1
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  3. Line 365: 'pas' (UPOS: ADV) in sentence 14
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  4. Line 525: 'Que' (UPOS: ADV) in sentence 24
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+  5. Line 791: 'qu’' (UPOS: ADV) in sentence 37
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  6. Line 828: 'Que' (UPOS: ADV) in sentence 38
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+  7. Line 853: 'b'' (UPOS: ADV) in sentence 39
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+  8. Line 874: 'non' (UPOS: ADV) in sentence 40
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Tot en un còp , me sentiguèri las , fatigat que non se pòt mai .
+
+  9. Line 964: 'Qu'' (UPOS: ADV) in sentence 46
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Qu' es luènh , mon Dieu !
+
+--------------------------------------------------
+
+ERROR: obl → nmod
+Occurrences: 9 (2.64%)
+All error-causing words for this error:
+  'mendre': 1 times (11.1%)
+  'biais': 1 times (11.1%)
+  'sirveton': 1 times (11.1%)
+  'grand': 1 times (11.1%)
+  'chaple': 1 times (11.1%)
+  'sostitolatge': 1 times (11.1%)
+  'moment': 1 times (11.1%)
+  'associacions': 1 times (11.1%)
+  'lenga': 1 times (11.1%)
+
+All lines: 135, 244, 352, 610, 675, 688, 702, 796, 981
+All occurrences:
+  1. Line 135: 'mendre' (UPOS: ADJ) in sentence 4
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 244: 'biais' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 352: 'sirveton' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+
+  4. Line 610: 'grand' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  5. Line 675: 'chaple' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: S’ ensagèron totei leis insecticids pèr un chaple definitiu .
+
+  6. Line 688: 'sostitolatge' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+
+  7. Line 702: 'moment' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Au a lo bon moment , lo hilh deu de lo rei se botèc la pluma dens la boca .
+
+  8. Line 796: 'associacions' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  9. Line 981: 'lenga' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: flat → appos
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'barrera': 1 times (16.7%)
+  'carlos': 1 times (16.7%)
+  'medina': 1 times (16.7%)
+  'puigdemont': 1 times (16.7%)
+  'per': 1 times (16.7%)
+  'miguel': 1 times (16.7%)
+
+All lines: 56, 63, 64, 78, 532, 811
+All occurrences:
+  1. Line 56: 'Barrera' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  2. Line 63: 'Carlos' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  3. Line 64: 'Medina' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  4. Line 78: 'Puigdemont' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  5. Line 532: 'Per' (UPOS: PROPN) in sentence 24
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+  6. Line 811: 'Miguel' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: conj → obl
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'catalonha': 1 times (16.7%)
+  'retardataris': 1 times (16.7%)
+  'francés': 1 times (16.7%)
+  'malícia': 1 times (16.7%)
+  'mèstre': 1 times (16.7%)
+  'promotor': 1 times (16.7%)
+
+All lines: 117, 162, 693, 858, 934, 984
+All occurrences:
+  1. Line 117: 'Catalonha' (UPOS: PROPN) in sentence 3
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  2. Line 162: 'retardataris' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+
+  3. Line 693: 'francés' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+
+  4. Line 858: 'malícia' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+  5. Line 934: 'mèstre' (UPOS: NOUN) in sentence 43
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+  6. Line 984: 'promotor' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: acl → root
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'espieren': 1 times (16.7%)
+  'gardava': 1 times (16.7%)
+  'fasiá': 1 times (16.7%)
+  'concebut': 1 times (16.7%)
+  'trapèri': 1 times (16.7%)
+  'limpa': 1 times (16.7%)
+
+All lines: 130, 218, 500, 736, 774, 891
+All occurrences:
+  1. Line 130: 'espieren' (UPOS: VERB) in sentence 4
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 218: 'gardava' (UPOS: VERB) in sentence 8
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 500: 'fasiá' (UPOS: VERB) in sentence 21
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  4. Line 736: 'concebut' (UPOS: VERB) in sentence 33
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+  5. Line 774: 'trapèri' (UPOS: VERB) in sentence 36
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  6. Line 891: 'limpa' (UPOS: VERB) in sentence 41
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+--------------------------------------------------
+
+ERROR: obj → mark
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'que': 5 times (83.3%)
+  'n'': 1 times (16.7%)
+
+All lines: 192, 266, 371, 398, 554, 655
+All occurrences:
+  1. Line 192: 'que' (UPOS: PRON) in sentence 7
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  2. Line 266: 'que' (UPOS: PRON) in sentence 9
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  3. Line 371: 'n'' (UPOS: PRON) in sentence 14
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  4. Line 398: 'que' (UPOS: PRON) in sentence 15
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Doncas es el que prenèm .
+
+  5. Line 554: 'que' (UPOS: PRON) in sentence 26
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+  6. Line 655: 'que' (UPOS: PRON) in sentence 29
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: acl → xcomp
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'agantat': 1 times (16.7%)
+  'recordar': 1 times (16.7%)
+  'tapat': 1 times (16.7%)
+  'meton': 1 times (16.7%)
+  'justificar': 1 times (16.7%)
+  'vestits': 1 times (16.7%)
+
+All lines: 269, 558, 649, 661, 783, 1033
+All occurrences:
+  1. Line 269: 'agantat' (UPOS: VERB) in sentence 9
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  2. Line 558: 'recordar' (UPOS: VERB) in sentence 26
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+  3. Line 649: 'tapat' (UPOS: VERB) in sentence 29
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  4. Line 661: 'meton' (UPOS: VERB) in sentence 29
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  5. Line 783: 'justificar' (UPOS: VERB) in sentence 36
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  6. Line 1033: 'vestits' (UPOS: VERB) in sentence 50
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: root → conj
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'es': 3 times (50.0%)
+  'a': 1 times (16.7%)
+  'cal': 1 times (16.7%)
+  'gelar': 1 times (16.7%)
+
+All lines: 364, 427, 496, 560, 893, 940
+All occurrences:
+  1. Line 364: 'es' (UPOS: VERB) in sentence 14
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 427: 'a' (UPOS: VERB) in sentence 17
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  3. Line 496: 'Es' (UPOS: VERB) in sentence 21
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  4. Line 560: 'es' (UPOS: VERB) in sentence 26
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+  5. Line 893: 'cal' (UPOS: VERB) in sentence 41
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  6. Line 940: 'gelar' (UPOS: VERB) in sentence 44
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+--------------------------------------------------
+
+ERROR: aux → conj
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'ai': 1 times (16.7%)
+  'agut': 1 times (16.7%)
+  'es': 1 times (16.7%)
+  'èra': 1 times (16.7%)
+  'èi': 1 times (16.7%)
+  'an': 1 times (16.7%)
+
+All lines: 372, 373, 420, 596, 831, 854
+All occurrences:
+  1. Line 372: 'ai' (UPOS: AUX) in sentence 14
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 373: 'agut' (UPOS: AUX) in sentence 14
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 420: 'es' (UPOS: AUX) in sentence 17
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  4. Line 596: 'èra' (UPOS: AUX) in sentence 28
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  5. Line 831: 'èi' (UPOS: AUX) in sentence 38
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+  6. Line 854: 'an' (UPOS: AUX) in sentence 39
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+--------------------------------------------------
+
+ERROR: nsubj → mark
+Occurrences: 6 (1.76%)
+All error-causing words for this error:
+  'que': 6 times (100.0%)
+
+All lines: 417, 499, 517, 602, 890, 1028
+All occurrences:
+  1. Line 417: 'que' (UPOS: PRON) in sentence 17
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  2. Line 499: 'que' (UPOS: PRON) in sentence 21
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+
+  3. Line 517: 'Que' (UPOS: ADV) in sentence 23
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Que seràs lèu grasset !
+
+  4. Line 602: 'que' (UPOS: PRON) in sentence 28
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  5. Line 890: 'que' (UPOS: PRON) in sentence 41
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+  6. Line 1028: 'que' (UPOS: PRON) in sentence 50
+     Gold DEPREL: nsubj → System DEPREL: mark
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: nsubj → obj
+Occurrences: 5 (1.47%)
+All error-causing words for this error:
+  'degun': 1 times (20.0%)
+  'torn': 1 times (20.0%)
+  'vòlha': 1 times (20.0%)
+  'quò': 1 times (20.0%)
+  'nom': 1 times (20.0%)
+
+All lines: 22, 172, 262, 462, 728
+All occurrences:
+  1. Line 22: 'degun' (UPOS: PRON) in sentence 1
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 172: 'torn' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+  3. Line 262: 'vòlha' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  4. Line 462: 'quò' (UPOS: PRON) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  5. Line 728: 'nom' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+--------------------------------------------------
+
+ERROR: expl → nsubj
+Occurrences: 5 (1.47%)
+All error-causing words for this error:
+  'se': 4 times (80.0%)
+  's'': 1 times (20.0%)
+
+All lines: 83, 141, 151, 659, 710
+All occurrences:
+  1. Line 83: 'Se' (UPOS: PRON) in sentence 3
+     Gold DEPREL: expl → System DEPREL: nsubj
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  2. Line 141: 's'' (UPOS: PRON) in sentence 4
+     Gold DEPREL: expl → System DEPREL: nsubj
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  3. Line 151: 'Se' (UPOS: PRON) in sentence 5
+     Gold DEPREL: expl → System DEPREL: nsubj
+     Full sentence: Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+
+  4. Line 659: 'se' (UPOS: PRON) in sentence 29
+     Gold DEPREL: expl → System DEPREL: nsubj
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  5. Line 710: 'se' (UPOS: PRON) in sentence 32
+     Gold DEPREL: expl → System DEPREL: nsubj
+     Full sentence: Au a lo bon moment , lo hilh deu de lo rei se botèc la pluma dens la boca .
+
+--------------------------------------------------
+
+ERROR: xcomp → amod
+Occurrences: 5 (1.47%)
+All error-causing words for this error:
+  'neirs': 1 times (20.0%)
+  'marrit': 1 times (20.0%)
+  'joial': 1 times (20.0%)
+  'disponible': 1 times (20.0%)
+  'aderent': 1 times (20.0%)
+
+All lines: 304, 366, 409, 683, 793
+All occurrences:
+  1. Line 304: 'neirs' (UPOS: ADJ) in sentence 11
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+  2. Line 366: 'marrit' (UPOS: ADJ) in sentence 14
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 409: 'joial' (UPOS: ADJ) in sentence 16
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Aquel jorn , èra gaireben joial .
+
+  4. Line 683: 'disponible' (UPOS: ADJ) in sentence 31
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+
+  5. Line 793: 'aderent' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: conj → appos
+Occurrences: 4 (1.17%)
+All error-causing words for this error:
+  'berbère': 1 times (25.0%)
+  'vicesindic': 1 times (25.0%)
+  'sèmbla-dieu': 1 times (25.0%)
+  'garona': 1 times (25.0%)
+
+All lines: 41, 60, 426, 807
+All occurrences:
+  1. Line 41: 'berbère' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 60: 'vicesindic' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  3. Line 426: 'sèmbla-Dieu' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+  4. Line 807: 'Garona' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: iobj → nsubj
+Occurrences: 4 (1.17%)
+All error-causing words for this error:
+  'm'': 1 times (25.0%)
+  'li': 1 times (25.0%)
+  'nos': 1 times (25.0%)
+  'me': 1 times (25.0%)
+
+All lines: 267, 325, 353, 555
+All occurrences:
+  1. Line 267: 'm'' (UPOS: PRON) in sentence 9
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  2. Line 325: 'li' (UPOS: PRON) in sentence 12
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  3. Line 353: 'nos' (UPOS: PRON) in sentence 13
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+
+  4. Line 555: 'me' (UPOS: PRON) in sentence 26
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+--------------------------------------------------
+
+ERROR: case → dep
+Occurrences: 4 (1.17%)
+All error-causing words for this error:
+  'a': 2 times (50.0%)
+  'de': 1 times (25.0%)
+  'per': 1 times (25.0%)
+
+All lines: 530, 630, 656, 699
+All occurrences:
+  1. Line 530: 'a' (UPOS: ADP) in sentence 24
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+  2. Line 630: 'de' (UPOS: ADP) in sentence 28
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  3. Line 656: 'per' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  4. Line 699: 'a' (UPOS: ADP) in sentence 32
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Au a lo bon moment , lo hilh deu de lo rei se botèc la pluma dens la boca .
+
+--------------------------------------------------
+
+ERROR: nmod → nsubj
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'ara': 1 times (33.3%)
+  'sala': 1 times (33.3%)
+  'traucasses': 1 times (33.3%)
+
+All lines: 8, 641, 886
+All occurrences:
+  1. Line 8: 'ara' (UPOS: ADV) in sentence 1
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 641: 'sala' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+  3. Line 886: 'traucasses' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+--------------------------------------------------
+
+ERROR: nmod → appos
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'catalonha': 1 times (33.3%)
+  'escrivans': 1 times (33.3%)
+  'tarn': 1 times (33.3%)
+
+All lines: 75, 803, 805
+All occurrences:
+  1. Line 75: 'Catalonha' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  2. Line 803: 'escrivans' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+  3. Line 805: 'Tarn' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: conj → nmod
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'relacions': 1 times (33.3%)
+  'aurelhas': 1 times (33.3%)
+  'ròca': 1 times (33.3%)
+
+All lines: 98, 140, 889
+All occurrences:
+  1. Line 98: 'relacions' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  2. Line 140: 'aurelhas' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  3. Line 889: 'ròca' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+--------------------------------------------------
+
+ERROR: parataxis → conj
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'èra': 1 times (33.3%)
+  'siáu': 1 times (33.3%)
+  'es': 1 times (33.3%)
+
+All lines: 197, 368, 386
+All occurrences:
+  1. Line 197: 'èra' (UPOS: VERB) in sentence 7
+     Gold DEPREL: parataxis → System DEPREL: conj
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+  2. Line 368: 'siáu' (UPOS: VERB) in sentence 14
+     Gold DEPREL: parataxis → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  3. Line 386: 'es' (UPOS: VERB) in sentence 14
+     Gold DEPREL: parataxis → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+--------------------------------------------------
+
+ERROR: amod → det
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'autra': 1 times (33.3%)
+  'tota': 1 times (33.3%)
+  'soa': 1 times (33.3%)
+
+All lines: 236, 250, 980
+All occurrences:
+  1. Line 236: 'autra' (UPOS: ADJ) in sentence 8
+     Gold DEPREL: amod → System DEPREL: det
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  2. Line 250: 'tota' (UPOS: ADJ) in sentence 8
+     Gold DEPREL: amod → System DEPREL: det
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  3. Line 980: 'soa' (UPOS: ADJ) in sentence 47
+     Gold DEPREL: amod → System DEPREL: det
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: obj → nmod
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'pertús': 1 times (33.3%)
+  'hormatge': 1 times (33.3%)
+  'annadas': 1 times (33.3%)
+
+All lines: 241, 512, 911
+All occurrences:
+  1. Line 241: 'pertús' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  2. Line 512: 'hormatge' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: E de minjar hormatge ?
+
+  3. Line 911: 'annadas' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+--------------------------------------------------
+
+ERROR: ccomp → acl
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'assajava': 1 times (33.3%)
+  'passère': 1 times (33.3%)
+  'ganivelar': 1 times (33.3%)
+
+All lines: 333, 907, 925
+All occurrences:
+  1. Line 333: 'assajava' (UPOS: VERB) in sentence 12
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  2. Line 907: 'passère' (UPOS: VERB) in sentence 42
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+  3. Line 925: 'ganivelar' (UPOS: VERB) in sentence 43
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+--------------------------------------------------
+
+ERROR: xcomp → acl
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'fintant': 1 times (33.3%)
+  'parlar': 1 times (33.3%)
+  'veire': 1 times (33.3%)
+
+All lines: 336, 339, 605
+All occurrences:
+  1. Line 336: 'fintant' (UPOS: VERB) in sentence 12
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  2. Line 339: 'parlar' (UPOS: VERB) in sentence 12
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+  3. Line 605: 'veire' (UPOS: VERB) in sentence 28
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: nsubj → det
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'tot': 1 times (33.3%)
+  'el': 1 times (33.3%)
+  'un': 1 times (33.3%)
+
+All lines: 377, 397, 453
+All occurrences:
+  1. Line 377: 'tot' (UPOS: PRON) in sentence 14
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 397: 'el' (UPOS: PRON) in sentence 15
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Doncas es el que prenèm .
+
+  3. Line 453: 'un' (UPOS: PRON) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: xcomp → root
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'beu': 1 times (33.3%)
+  'pòde': 1 times (33.3%)
+  'deu': 1 times (33.3%)
+
+All lines: 437, 556, 939
+All occurrences:
+  1. Line 437: 'beu' (UPOS: VERB) in sentence 18
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 556: 'pòde' (UPOS: VERB) in sentence 26
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+  3. Line 939: 'Deu' (UPOS: VERB) in sentence 44
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+--------------------------------------------------
+
+ERROR: conj → ccomp
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'passava': 1 times (33.3%)
+  'avisavi': 1 times (33.3%)
+  'gela': 1 times (33.3%)
+
+All lines: 589, 629, 949
+All occurrences:
+  1. Line 589: 'passava' (UPOS: VERB) in sentence 28
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  2. Line 629: 'avisavi' (UPOS: VERB) in sentence 28
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  3. Line 949: 'gela' (UPOS: VERB) in sentence 44
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+--------------------------------------------------
+
+ERROR: ccomp → conj
+Occurrences: 3 (0.88%)
+All error-causing words for this error:
+  'cherchinhar': 1 times (33.3%)
+  'gelarà': 1 times (33.3%)
+  'fuguèrem': 1 times (33.3%)
+
+All lines: 929, 942, 1017
+All occurrences:
+  1. Line 929: 'cherchinhar' (UPOS: VERB) in sentence 43
+     Gold DEPREL: ccomp → System DEPREL: conj
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+  2. Line 942: 'gelarà' (UPOS: VERB) in sentence 44
+     Gold DEPREL: ccomp → System DEPREL: conj
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+  3. Line 1017: 'fuguèrem' (UPOS: VERB) in sentence 49
+     Gold DEPREL: ccomp → System DEPREL: conj
+     Full sentence: Chau reconéisser que , pel per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+
+--------------------------------------------------
+
+ERROR: advmod → amod
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'pus': 1 times (50.0%)
+  'solide': 1 times (50.0%)
+
+All lines: 21, 943
+All occurrences:
+  1. Line 21: 'pus' (UPOS: ADV) in sentence 1
+     Gold DEPREL: advmod → System DEPREL: amod
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 943: 'solide' (UPOS: ADV) in sentence 44
+     Gold DEPREL: advmod → System DEPREL: amod
+     Full sentence: Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+
+--------------------------------------------------
+
+ERROR: nmod → obj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'maugrabens': 1 times (50.0%)
+  'i': 1 times (50.0%)
+
+All lines: 28, 457
+All occurrences:
+  1. Line 28: 'maugrabens' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 457: 'i' (UPOS: PRON) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: obj → nmod:poss
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'que': 1 times (50.0%)
+  'me': 1 times (50.0%)
+
+All lines: 33, 603
+All occurrences:
+  1. Line 33: 'que' (UPOS: PRON) in sentence 1
+     Gold DEPREL: obj → System DEPREL: nmod:poss
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 603: 'me' (UPOS: PRON) in sentence 28
+     Gold DEPREL: obj → System DEPREL: nmod:poss
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: cop → conj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'es': 2 times (100.0%)
+
+All lines: 36, 383
+All occurrences:
+  1. Line 36: 'es' (UPOS: AUX) in sentence 1
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 383: 'es' (UPOS: AUX) in sentence 14
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+--------------------------------------------------
+
+ERROR: parataxis → acl
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'sabi': 1 times (50.0%)
+  'èra': 1 times (50.0%)
+
+All lines: 43, 225
+All occurrences:
+  1. Line 43: 'sabi' (UPOS: VERB) in sentence 1
+     Gold DEPREL: parataxis → System DEPREL: acl
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+  2. Line 225: 'èra' (UPOS: VERB) in sentence 8
+     Gold DEPREL: parataxis → System DEPREL: acl
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: det → dep
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'lo': 2 times (100.0%)
+
+All lines: 50, 362
+All occurrences:
+  1. Line 50: 'Lo' (UPOS: DET) in sentence 2
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  2. Line 362: 'Lo' (UPOS: DET) in sentence 14
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+--------------------------------------------------
+
+ERROR: obj → appos
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'president': 1 times (50.0%)
+  'pèira': 1 times (50.0%)
+
+All lines: 70, 237
+All occurrences:
+  1. Line 70: 'president' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: obj → System DEPREL: appos
+     Full sentence: Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+
+  2. Line 237: 'pèira' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: obj → System DEPREL: appos
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: nsubj → obl
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'elegits': 1 times (50.0%)
+  'ren': 1 times (50.0%)
+
+All lines: 104, 631
+All occurrences:
+  1. Line 104: 'elegits' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+  2. Line 631: 'ren' (UPOS: PRON) in sentence 28
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: det → obj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'lo': 1 times (50.0%)
+  'sa': 1 times (50.0%)
+
+All lines: 131, 194
+All occurrences:
+  1. Line 131: 'lo' (UPOS: DET) in sentence 4
+     Gold DEPREL: det → System DEPREL: obj
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 194: 'sa' (UPOS: DET) in sentence 7
+     Gold DEPREL: det → System DEPREL: obj
+     Full sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+
+--------------------------------------------------
+
+ERROR: det → nmod:poss
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'lo': 1 times (50.0%)
+  'quau': 1 times (50.0%)
+
+All lines: 134, 240
+All occurrences:
+  1. Line 134: 'lo' (UPOS: DET) in sentence 4
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 240: 'quau' (UPOS: DET) in sentence 8
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: compound → obl
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'regret': 1 times (50.0%)
+  'cantorau': 1 times (50.0%)
+
+All lines: 136, 977
+All occurrences:
+  1. Line 136: 'regret' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: compound → System DEPREL: obl
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+  2. Line 977: 'cantorau' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: compound → System DEPREL: obl
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: root → nsubj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'mur': 1 times (50.0%)
+  'afar': 1 times (50.0%)
+
+All lines: 217, 770
+All occurrences:
+  1. Line 217: 'mur' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+  2. Line 770: 'afar' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+--------------------------------------------------
+
+ERROR: advcl → xcomp
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'anar': 1 times (50.0%)
+  'véner': 1 times (50.0%)
+
+All lines: 271, 1050
+All occurrences:
+  1. Line 271: 'anar' (UPOS: VERB) in sentence 9
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+  2. Line 1050: 'véner' (UPOS: VERB) in sentence 50
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: case → advmod
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'sensa': 1 times (50.0%)
+  'dobe': 1 times (50.0%)
+
+All lines: 287, 930
+All occurrences:
+  1. Line 287: 'sensa' (UPOS: ADP) in sentence 10
+     Gold DEPREL: case → System DEPREL: advmod
+     Full sentence: Mandam puei lei mans dedins sensa culhier e portam la bolhida a la boca .
+
+  2. Line 930: 'dobe' (UPOS: ADP) in sentence 43
+     Gold DEPREL: case → System DEPREL: advmod
+     Full sentence: Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+
+--------------------------------------------------
+
+ERROR: obj → det
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'los': 1 times (50.0%)
+  'lo': 1 times (50.0%)
+
+All lines: 308, 335
+All occurrences:
+  1. Line 308: 'los' (UPOS: DET) in sentence 11
+     Gold DEPREL: obj → System DEPREL: det
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+  2. Line 335: 'lo' (UPOS: PRON) in sentence 12
+     Gold DEPREL: obj → System DEPREL: det
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+--------------------------------------------------
+
+ERROR: ccomp → root
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'manjat': 1 times (50.0%)
+  'prenèm': 1 times (50.0%)
+
+All lines: 374, 399
+All occurrences:
+  1. Line 374: 'manjat' (UPOS: VERB) in sentence 14
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 399: 'prenèm' (UPOS: VERB) in sentence 15
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Doncas es el que prenèm .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod:poss
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'aquò': 1 times (50.0%)
+  'ne’n': 1 times (50.0%)
+
+All lines: 384, 1016
+All occurrences:
+  1. Line 384: 'aquò' (UPOS: PRON) in sentence 14
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+  2. Line 1016: 'ne’n' (UPOS: PRON) in sentence 49
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: Chau reconéisser que , pel per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+
+--------------------------------------------------
+
+ERROR: root → csubj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'es': 1 times (50.0%)
+  'èra': 1 times (50.0%)
+
+All lines: 396, 725
+All occurrences:
+  1. Line 396: 'es' (UPOS: VERB) in sentence 15
+     Gold DEPREL: root → System DEPREL: csubj
+     Full sentence: Doncas es el que prenèm .
+
+  2. Line 725: 'èra' (UPOS: VERB) in sentence 33
+     Gold DEPREL: root → System DEPREL: csubj
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+--------------------------------------------------
+
+ERROR: advmod → case
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'dempuei': 1 times (50.0%)
+  'sonque': 1 times (50.0%)
+
+All lines: 440, 489
+All occurrences:
+  1. Line 440: 'dempuei' (UPOS: ADV) in sentence 18
+     Gold DEPREL: advmod → System DEPREL: case
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 489: 'sonque' (UPOS: ADV) in sentence 20
+     Gold DEPREL: advmod → System DEPREL: case
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+--------------------------------------------------
+
+ERROR: obl → nummod
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'quatre-vint': 1 times (50.0%)
+  'tres': 1 times (50.0%)
+
+All lines: 450, 663
+All occurrences:
+  1. Line 450: 'quatre-vint' (UPOS: NUM) in sentence 18
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 663: 'tres' (UPOS: NUM) in sentence 29
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: aux → advcl
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'a': 1 times (50.0%)
+  'an': 1 times (50.0%)
+
+All lines: 454, 642
+All occurrences:
+  1. Line 454: 'a' (UPOS: AUX) in sentence 18
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 642: 'an' (UPOS: AUX) in sentence 29
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: amod → xcomp
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'mòrt': 1 times (50.0%)
+  'benaises': 1 times (50.0%)
+
+All lines: 471, 1019
+All occurrences:
+  1. Line 471: 'mòrt' (UPOS: ADJ) in sentence 18
+     Gold DEPREL: amod → System DEPREL: xcomp
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+  2. Line 1019: 'benaises' (UPOS: ADJ) in sentence 49
+     Gold DEPREL: amod → System DEPREL: xcomp
+     Full sentence: Chau reconéisser que , pel per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+
+--------------------------------------------------
+
+ERROR: obl → case
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'a': 1 times (50.0%)
+  'ambe': 1 times (50.0%)
+
+All lines: 572, 915
+All occurrences:
+  1. Line 572: 'a' (UPOS: ADP) in sentence 27
+     Gold DEPREL: obl → System DEPREL: case
+     Full sentence: Que s' i viu a la cosina .
+
+  2. Line 915: 'ambe' (UPOS: ADP) in sentence 42
+     Gold DEPREL: obl → System DEPREL: case
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+--------------------------------------------------
+
+ERROR: conj → acl
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'veniá': 1 times (50.0%)
+  'partiá': 1 times (50.0%)
+
+All lines: 604, 617
+All occurrences:
+  1. Line 604: 'veniá' (UPOS: VERB) in sentence 28
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+  2. Line 617: 'partiá' (UPOS: VERB) in sentence 28
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: xcomp → conj
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'estonar': 1 times (50.0%)
+  'far': 1 times (50.0%)
+
+All lines: 751, 894
+All occurrences:
+  1. Line 751: 'estonar' (UPOS: VERB) in sentence 34
+     Gold DEPREL: xcomp → System DEPREL: conj
+     Full sentence: Que 'm torni estonar e encolerar .
+
+  2. Line 894: 'far' (UPOS: VERB) in sentence 41
+     Gold DEPREL: xcomp → System DEPREL: conj
+     Full sentence: Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+
+--------------------------------------------------
+
+ERROR: obl → amod
+Occurrences: 2 (0.59%)
+All error-causing words for this error:
+  'beleg': 1 times (50.0%)
+  'darrèr': 1 times (50.0%)
+
+All lines: 773, 848
+All occurrences:
+  1. Line 773: 'beleg' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obl → System DEPREL: amod
+     Full sentence: Dins l' afar d' un beleg trapèri totas las rasons del de lo monde per justificar sa vetustat .
+
+  2. Line 848: 'darrèr' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obl → System DEPREL: amod
+     Full sentence: Adès encòra , au a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+
+--------------------------------------------------
+
+ERROR: nummod → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'uech': 1 times (100.0%)
+
+All lines: 11
+All occurrences:
+  1. Line 11: 'uech' (UPOS: NUM) in sentence 1
+     Gold DEPREL: nummod → System DEPREL: obl
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: advcl → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'i': 1 times (100.0%)
+
+All lines: 19
+All occurrences:
+  1. Line 19: 'i' (UPOS: PRON) in sentence 1
+     Gold DEPREL: advcl → System DEPREL: nsubj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: aux → acl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 20
+All occurrences:
+  1. Line 20: 'a' (UPOS: AUX) in sentence 1
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: case → conj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 25
+All occurrences:
+  1. Line 25: 'a' (UPOS: ADP) in sentence 1
+     Gold DEPREL: case → System DEPREL: conj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: obl → conj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'levat': 1 times (100.0%)
+
+All lines: 26
+All occurrences:
+  1. Line 26: 'levat' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: obl → System DEPREL: conj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: parataxis → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'lenga': 1 times (100.0%)
+
+All lines: 31
+All occurrences:
+  1. Line 31: 'lenga' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: parataxis → System DEPREL: nmod
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: iobj → nmod:poss
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'li': 1 times (100.0%)
+
+All lines: 34
+All occurrences:
+  1. Line 34: 'li' (UPOS: PRON) in sentence 1
+     Gold DEPREL: iobj → System DEPREL: nmod:poss
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: conj → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'arabe': 1 times (100.0%)
+
+All lines: 39
+All occurrences:
+  1. Line 39: 'arabe' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+
+--------------------------------------------------
+
+ERROR: amod → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'institucionalas': 1 times (100.0%)
+
+All lines: 99
+All occurrences:
+  1. Line 99: 'institucionalas' (UPOS: ADJ) in sentence 3
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+
+--------------------------------------------------
+
+ERROR: nmod → det
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'las': 1 times (100.0%)
+
+All lines: 128
+All occurrences:
+  1. Line 128: 'las' (UPOS: DET) in sentence 4
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: root → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'bolas': 1 times (100.0%)
+
+All lines: 129
+All occurrences:
+  1. Line 129: 'bolas' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: root → System DEPREL: nmod
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: case → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'sens': 1 times (100.0%)
+
+All lines: 133
+All occurrences:
+  1. Line 133: 'sens' (UPOS: ADP) in sentence 4
+     Gold DEPREL: case → System DEPREL: nmod
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: det → amod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'doàs': 1 times (100.0%)
+
+All lines: 139
+All occurrences:
+  1. Line 139: 'doàs' (UPOS: DET) in sentence 4
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: advcl → case
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'per': 1 times (100.0%)
+
+All lines: 144
+All occurrences:
+  1. Line 144: 'per' (UPOS: ADP) in sentence 4
+     Gold DEPREL: advcl → System DEPREL: case
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: obj → discourse
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'bravò': 1 times (100.0%)
+
+All lines: 146
+All occurrences:
+  1. Line 146: 'bravò' (UPOS: INTJ) in sentence 4
+     Gold DEPREL: obj → System DEPREL: discourse
+     Full sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+
+--------------------------------------------------
+
+ERROR: det → case
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 161
+All occurrences:
+  1. Line 161: 'de' (UPOS: DET) in sentence 5
+     Gold DEPREL: det → System DEPREL: case
+     Full sentence: Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+
+--------------------------------------------------
+
+ERROR: nmod → amod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'gascon': 1 times (100.0%)
+
+All lines: 182
+All occurrences:
+  1. Line 182: 'gascon' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+--------------------------------------------------
+
+ERROR: flat → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'marley': 1 times (100.0%)
+
+All lines: 185
+All occurrences:
+  1. Line 185: 'Marley' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+
+--------------------------------------------------
+
+ERROR: xcomp → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'genta': 1 times (100.0%)
+
+All lines: 226
+All occurrences:
+  1. Line 226: 'genta' (UPOS: ADJ) in sentence 8
+     Gold DEPREL: xcomp → System DEPREL: nsubj
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: parataxis → appos
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'nis': 1 times (100.0%)
+
+All lines: 229
+All occurrences:
+  1. Line 229: 'nis' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: parataxis → System DEPREL: appos
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: nsubj → appos
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'dengús': 1 times (100.0%)
+
+All lines: 232
+All occurrences:
+  1. Line 232: 'dengús' (UPOS: PRON) in sentence 8
+     Gold DEPREL: nsubj → System DEPREL: appos
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: advmod → appos
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'gis': 1 times (100.0%)
+
+All lines: 234
+All occurrences:
+  1. Line 234: 'gis' (UPOS: ADV) in sentence 8
+     Gold DEPREL: advmod → System DEPREL: appos
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: advcl → acl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'comblar': 1 times (100.0%)
+
+All lines: 239
+All occurrences:
+  1. Line 239: 'comblar' (UPOS: VERB) in sentence 8
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+
+--------------------------------------------------
+
+ERROR: appos → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'alegressa': 1 times (100.0%)
+
+All lines: 265
+All occurrences:
+  1. Line 265: 'alegressa' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+--------------------------------------------------
+
+ERROR: aux → ccomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'aviá': 1 times (100.0%)
+
+All lines: 268
+All occurrences:
+  1. Line 268: 'aviá' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+
+--------------------------------------------------
+
+ERROR: iobj → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'ne’n': 1 times (100.0%)
+
+All lines: 302
+All occurrences:
+  1. Line 302: 'ne’n' (UPOS: PRON) in sentence 11
+     Gold DEPREL: iobj → System DEPREL: advmod
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+--------------------------------------------------
+
+ERROR: acl → advcl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'pichava': 1 times (100.0%)
+
+All lines: 309
+All occurrences:
+  1. Line 309: 'pichava' (UPOS: VERB) in sentence 11
+     Gold DEPREL: acl → System DEPREL: advcl
+     Full sentence: Los dets ne’n venián neirs de tant que los pichava .
+
+--------------------------------------------------
+
+ERROR: aux → csubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'èra': 1 times (100.0%)
+
+All lines: 317
+All occurrences:
+  1. Line 317: 'èra' (UPOS: AUX) in sentence 12
+     Gold DEPREL: aux → System DEPREL: csubj
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+--------------------------------------------------
+
+ERROR: amod → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'seunas': 1 times (100.0%)
+
+All lines: 331
+All occurrences:
+  1. Line 331: 'seunas' (UPOS: ADJ) in sentence 12
+     Gold DEPREL: amod → System DEPREL: obl
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+--------------------------------------------------
+
+ERROR: iobj → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'li': 1 times (100.0%)
+
+All lines: 338
+All occurrences:
+  1. Line 338: 'li' (UPOS: PRON) in sentence 12
+     Gold DEPREL: iobj → System DEPREL: obj
+     Full sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+
+--------------------------------------------------
+
+ERROR: acl → case
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'pres': 1 times (100.0%)
+
+All lines: 348
+All occurrences:
+  1. Line 348: 'pres' (UPOS: VERB) in sentence 13
+     Gold DEPREL: acl → System DEPREL: case
+     Full sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+
+--------------------------------------------------
+
+ERROR: xcomp → advcl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'segur': 1 times (100.0%)
+
+All lines: 369
+All occurrences:
+  1. Line 369: 'segur' (UPOS: ADJ) in sentence 14
+     Gold DEPREL: xcomp → System DEPREL: advcl
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+--------------------------------------------------
+
+ERROR: appos → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'sopa': 1 times (100.0%)
+
+All lines: 388
+All occurrences:
+  1. Line 388: 'sopa' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: appos → System DEPREL: obj
+     Full sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+
+--------------------------------------------------
+
+ERROR: discourse → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'doncas': 1 times (100.0%)
+
+All lines: 395
+All occurrences:
+  1. Line 395: 'Doncas' (UPOS: CCONJ) in sentence 15
+     Gold DEPREL: discourse → System DEPREL: advmod
+     Full sentence: Doncas es el que prenèm .
+
+--------------------------------------------------
+
+ERROR: mark → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'pèr': 1 times (100.0%)
+
+All lines: 414
+All occurrences:
+  1. Line 414: 'Pèr' (UPOS: ADP) in sentence 17
+     Gold DEPREL: mark → System DEPREL: nsubj
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+--------------------------------------------------
+
+ERROR: advcl → root
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'comprene': 1 times (100.0%)
+
+All lines: 415
+All occurrences:
+  1. Line 415: 'comprene' (UPOS: VERB) in sentence 17
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+--------------------------------------------------
+
+ERROR: expl → dep
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  's’': 1 times (100.0%)
+
+All lines: 419
+All occurrences:
+  1. Line 419: 's’' (UPOS: PRON) in sentence 17
+     Gold DEPREL: expl → System DEPREL: dep
+     Full sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+
+--------------------------------------------------
+
+ERROR: case → advcl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'a': 1 times (100.0%)
+
+All lines: 436
+All occurrences:
+  1. Line 436: 'a' (UPOS: ADP) in sentence 18
+     Gold DEPREL: case → System DEPREL: advcl
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: advcl → amod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'malandrós': 1 times (100.0%)
+
+All lines: 439
+All occurrences:
+  1. Line 439: 'malandrós' (UPOS: ADJ) in sentence 18
+     Gold DEPREL: advcl → System DEPREL: amod
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: advcl → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'lonh': 1 times (100.0%)
+
+All lines: 446
+All occurrences:
+  1. Line 446: 'lonh' (UPOS: ADV) in sentence 18
+     Gold DEPREL: advcl → System DEPREL: advmod
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: compound → nummod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'quinze': 1 times (100.0%)
+
+All lines: 451
+All occurrences:
+  1. Line 451: 'quinze' (UPOS: NUM) in sentence 18
+     Gold DEPREL: compound → System DEPREL: nummod
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: amod → ccomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'beu': 1 times (100.0%)
+
+All lines: 455
+All occurrences:
+  1. Line 455: 'beu' (UPOS: ADJ) in sentence 18
+     Gold DEPREL: amod → System DEPREL: ccomp
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: obj → xcomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'pauc': 1 times (100.0%)
+
+All lines: 460
+All occurrences:
+  1. Line 460: 'pauc' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: obj → System DEPREL: xcomp
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: root → acl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'fai': 1 times (100.0%)
+
+All lines: 463
+All occurrences:
+  1. Line 463: 'fai' (UPOS: VERB) in sentence 18
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+
+--------------------------------------------------
+
+ERROR: xcomp → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'blanc': 1 times (100.0%)
+
+All lines: 488
+All occurrences:
+  1. Line 488: 'blanc' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: xcomp → System DEPREL: obj
+     Full sentence: Lo cran arrasat a blanc sonque la halha .
+
+--------------------------------------------------
+
+ERROR: nsubj → csubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 527
+All occurrences:
+  1. Line 527: 'se' (UPOS: PRON) in sentence 24
+     Gold DEPREL: nsubj → System DEPREL: csubj
+     Full sentence: Que lo se voleràn préner a Sent Per , en convent ...
+
+--------------------------------------------------
+
+ERROR: nsubj → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'ne': 1 times (100.0%)
+
+All lines: 544
+All occurrences:
+  1. Line 544: 'ne' (UPOS: PRON) in sentence 25
+     Gold DEPREL: nsubj → System DEPREL: advmod
+     Full sentence: De bombas atomicas , ne larga dotze .
+
+--------------------------------------------------
+
+ERROR: advmod → cc
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'mas': 1 times (100.0%)
+
+All lines: 561
+All occurrences:
+  1. Line 561: 'mas' (UPOS: ADV) in sentence 26
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+
+--------------------------------------------------
+
+ERROR: ccomp → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 582
+All occurrences:
+  1. Line 582: 'se' (UPOS: PRON) in sentence 28
+     Gold DEPREL: ccomp → System DEPREL: nsubj
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: nmod → mark
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'n'en': 1 times (100.0%)
+
+All lines: 583
+All occurrences:
+  1. Line 583: 'n'en' (UPOS: PRON) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: mark
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: obj → iobj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 588
+All occurrences:
+  1. Line 588: 'se' (UPOS: PRON) in sentence 28
+     Gold DEPREL: obj → System DEPREL: iobj
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: case → ccomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'alevat': 1 times (100.0%)
+
+All lines: 592
+All occurrences:
+  1. Line 592: 'alevat' (UPOS: ADP) in sentence 28
+     Gold DEPREL: case → System DEPREL: ccomp
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: nmod → case
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'cò': 1 times (100.0%)
+
+All lines: 607
+All occurrences:
+  1. Line 607: 'cò' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: case
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: advmod → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'ora': 1 times (100.0%)
+
+All lines: 619
+All occurrences:
+  1. Line 619: 'ora' (UPOS: ADV) in sentence 28
+     Gold DEPREL: advmod → System DEPREL: nmod
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'trabalh': 1 times (100.0%)
+
+All lines: 622
+All occurrences:
+  1. Line 622: 'trabalh' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+--------------------------------------------------
+
+ERROR: obl → det
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'l’': 1 times (100.0%)
+
+All lines: 657
+All occurrences:
+  1. Line 657: 'l’' (UPOS: PRON) in sentence 29
+     Gold DEPREL: obl → System DEPREL: det
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: ccomp → xcomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'auborar': 1 times (100.0%)
+
+All lines: 658
+All occurrences:
+  1. Line 658: 'auborar' (UPOS: VERB) in sentence 29
+     Gold DEPREL: ccomp → System DEPREL: xcomp
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: iobj → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'li': 1 times (100.0%)
+
+All lines: 660
+All occurrences:
+  1. Line 660: 'li' (UPOS: PRON) in sentence 29
+     Gold DEPREL: iobj → System DEPREL: obl
+     Full sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+
+--------------------------------------------------
+
+ERROR: det → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'totei': 1 times (100.0%)
+
+All lines: 670
+All occurrences:
+  1. Line 670: 'totei' (UPOS: DET) in sentence 30
+     Gold DEPREL: det → System DEPREL: advmod
+     Full sentence: S’ ensagèron totei leis insecticids pèr un chaple definitiu .
+
+--------------------------------------------------
+
+ERROR: ccomp → csubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'èra': 1 times (100.0%)
+
+All lines: 729
+All occurrences:
+  1. Line 729: 'èra' (UPOS: VERB) in sentence 33
+     Gold DEPREL: ccomp → System DEPREL: csubj
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+--------------------------------------------------
+
+ERROR: xcomp → obl
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'luòc': 1 times (100.0%)
+
+All lines: 738
+All occurrences:
+  1. Line 738: 'luòc' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: xcomp → System DEPREL: obl
+     Full sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+
+--------------------------------------------------
+
+ERROR: mark → discourse
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'consí': 1 times (100.0%)
+
+All lines: 758
+All occurrences:
+  1. Line 758: 'Consí' (UPOS: ADV) in sentence 35
+     Gold DEPREL: mark → System DEPREL: discourse
+     Full sentence: Consí far per se 'n tirar ?
+
+--------------------------------------------------
+
+ERROR: acl → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  ''n': 1 times (100.0%)
+
+All lines: 762
+All occurrences:
+  1. Line 762: ''n' (UPOS: PRON) in sentence 35
+     Gold DEPREL: acl → System DEPREL: advmod
+     Full sentence: Consí far per se 'n tirar ?
+
+--------------------------------------------------
+
+ERROR: flat → case
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 812
+All occurrences:
+  1. Line 812: 'de' (UPOS: ADP) in sentence 37
+     Gold DEPREL: flat → System DEPREL: case
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: flat → nmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'cervantes': 1 times (100.0%)
+
+All lines: 813
+All occurrences:
+  1. Line 813: 'Cervantes' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+
+--------------------------------------------------
+
+ERROR: obl → advmod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'n'': 1 times (100.0%)
+
+All lines: 830
+All occurrences:
+  1. Line 830: 'n'' (UPOS: PRON) in sentence 38
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: Que 'u n' èi parlat ath a eth curè adès .
+
+--------------------------------------------------
+
+ERROR: amod → conj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'fatigat': 1 times (100.0%)
+
+All lines: 872
+All occurrences:
+  1. Line 872: 'fatigat' (UPOS: ADJ) in sentence 40
+     Gold DEPREL: amod → System DEPREL: conj
+     Full sentence: Tot en un còp , me sentiguèri las , fatigat que non se pòt mai .
+
+--------------------------------------------------
+
+ERROR: amod → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'promèiras': 1 times (100.0%)
+
+All lines: 910
+All occurrences:
+  1. Line 910: 'promèiras' (UPOS: ADJ) in sentence 42
+     Gold DEPREL: amod → System DEPREL: obj
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+--------------------------------------------------
+
+ERROR: appos → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'franc': 1 times (100.0%)
+
+All lines: 918
+All occurrences:
+  1. Line 918: 'Franc' (UPOS: PROPN) in sentence 42
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+
+--------------------------------------------------
+
+ERROR: amod → root
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'polit': 1 times (100.0%)
+
+All lines: 957
+All occurrences:
+  1. Line 957: 'polit' (UPOS: ADJ) in sentence 45
+     Gold DEPREL: amod → System DEPREL: root
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: obj → amod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'las': 1 times (100.0%)
+
+All lines: 958
+All occurrences:
+  1. Line 958: 'las' (UPOS: PRON) in sentence 45
+     Gold DEPREL: obj → System DEPREL: amod
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: root → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'velhèt': 1 times (100.0%)
+
+All lines: 959
+All occurrences:
+  1. Line 959: 'velhèt' (UPOS: VERB) in sentence 45
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: L' enfant polit las velhèt .
+
+--------------------------------------------------
+
+ERROR: vocative → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'dieu': 1 times (100.0%)
+
+All lines: 969
+All occurrences:
+  1. Line 969: 'Dieu' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: vocative → System DEPREL: obj
+     Full sentence: Qu' es luènh , mon Dieu !
+
+--------------------------------------------------
+
+ERROR: advmod → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 974
+All occurrences:
+  1. Line 974: 'Que' (UPOS: ADV) in sentence 47
+     Gold DEPREL: advmod → System DEPREL: nsubj
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: iobj → csubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  '’s': 1 times (100.0%)
+
+All lines: 975
+All occurrences:
+  1. Line 975: '’s' (UPOS: PRON) in sentence 47
+     Gold DEPREL: iobj → System DEPREL: csubj
+     Full sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+--------------------------------------------------
+
+ERROR: vocative → nsubj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'paire': 1 times (100.0%)
+
+All lines: 996
+All occurrences:
+  1. Line 996: 'Paire' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: vocative → System DEPREL: nsubj
+     Full sentence: Paire , t' ajudarem !
+
+--------------------------------------------------
+
+ERROR: acl → ccomp
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'corron': 1 times (100.0%)
+
+All lines: 1029
+All occurrences:
+  1. Line 1029: 'corron' (UPOS: VERB) in sentence 50
+     Gold DEPREL: acl → System DEPREL: ccomp
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: obl → obj
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'heras': 1 times (100.0%)
+
+All lines: 1031
+All occurrences:
+  1. Line 1031: 'heras' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+
+ERROR: acl → amod
+Occurrences: 1 (0.29%)
+All error-causing words for this error:
+  'semiat': 1 times (100.0%)
+
+All lines: 1038
+All occurrences:
+  1. Line 1038: 'semiat' (UPOS: VERB) in sentence 50
+     Gold DEPREL: acl → System DEPREL: amod
+     Full sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+--------------------------------------------------
+

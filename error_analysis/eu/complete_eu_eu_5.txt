@@ -1,0 +1,3306 @@
+COMPLETE ERROR ANALYSIS: eu_eu_5.conllu vs. gold_file_eu.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 582
+UPOS errors: 91 (15.64%)
+HEAD errors: 342 (58.76%)
+DEPREL errors: 323 (55.50%)
+
+================================================================================
+
+COMPLETE WORD ERROR STATISTICS:
+==================================================
+
+ALL ERROR-CAUSING WORDS (sorted by frequency):
+'izan': 4 total errors (0.53%)
+'behar': 3 total errors (0.40%)
+'beste': 2 total errors (0.26%)
+'daitezke': 2 total errors (0.26%)
+'barne': 2 total errors (0.26%)
+'nahi': 2 total errors (0.26%)
+'batzuk': 2 total errors (0.26%)
+'euskal': 2 total errors (0.26%)
+'ordea': 1 total errors (0.13%)
+'gehiago': 1 total errors (0.13%)
+'txikikoa': 1 total errors (0.13%)
+'batzuetan': 1 total errors (0.13%)
+'zeharo': 1 total errors (0.13%)
+'apurrak': 1 total errors (0.13%)
+'uste': 1 total errors (0.13%)
+'dut': 1 total errors (0.13%)
+'dakizuke': 1 total errors (0.13%)
+'beraz': 1 total errors (0.13%)
+'liteke': 1 total errors (0.13%)
+'dagokionez': 1 total errors (0.13%)
+'garairik': 1 total errors (0.13%)
+'haiek': 1 total errors (0.13%)
+'dira': 1 total errors (0.13%)
+'baldin': 1 total errors (0.13%)
+'badugu': 1 total errors (0.13%)
+'errezeloz': 1 total errors (0.13%)
+'halere': 1 total errors (0.13%)
+'aurrelari': 1 total errors (0.13%)
+'dela': 1 total errors (0.13%)
+'gero': 1 total errors (0.13%)
+'dezente': 1 total errors (0.13%)
+'izandako': 1 total errors (0.13%)
+'halaber': 1 total errors (0.13%)
+'estuegiak': 1 total errors (0.13%)
+'ondorioz': 1 total errors (0.13%)
+'egunetik': 1 total errors (0.13%)
+'komenigarria': 1 total errors (0.13%)
+'lehen': 1 total errors (0.13%)
+'deian': 1 total errors (0.13%)
+'hauek': 1 total errors (0.13%)
+'cd-rometan': 1 total errors (0.13%)
+'du': 1 total errors (0.13%)
+'han': 1 total errors (0.13%)
+'bertan': 1 total errors (0.13%)
+'erre': 1 total errors (0.13%)
+'zituzten': 1 total errors (0.13%)
+'gainontzekoak': 1 total errors (0.13%)
+'libre': 1 total errors (0.13%)
+'gintuzten': 1 total errors (0.13%)
+'atzokoan': 1 total errors (0.13%)
+'burtsan': 1 total errors (0.13%)
+'zizkion': 1 total errors (0.13%)
+'de': 1 total errors (0.13%)
+'aurretik': 1 total errors (0.13%)
+'euskaldunak': 1 total errors (0.13%)
+'hasieran': 1 total errors (0.13%)
+'marroi-zikin': 1 total errors (0.13%)
+'asko': 1 total errors (0.13%)
+'zitzaionik': 1 total errors (0.13%)
+'zuen': 1 total errors (0.13%)
+'gazte': 1 total errors (0.13%)
+'palestinarrak': 1 total errors (0.13%)
+'genuen': 1 total errors (0.13%)
+'gabe': 1 total errors (0.13%)
+'bere': 1 total errors (0.13%)
+'milaka': 1 total errors (0.13%)
+'lehorretan': 1 total errors (0.13%)
+'nuela': 1 total errors (0.13%)
+'marka': 1 total errors (0.13%)
+'zein': 1 total errors (0.13%)
+'suitzako': 1 total errors (0.13%)
+'itzulian': 1 total errors (0.13%)
+'kontuan': 1 total errors (0.13%)
+'dugu': 1 total errors (0.13%)
+'baititu': 1 total errors (0.13%)
+'itsasoan': 1 total errors (0.13%)
+'denboraldi-aurreko': 1 total errors (0.13%)
+'adiskidantzazko': 1 total errors (0.13%)
+'bagina': 1 total errors (0.13%)
+'udalekuetara': 1 total errors (0.13%)
+
+--------------------------------------------------
+
+ALL UPOS ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: VERB → AUX
+Occurrences: 14 (15.38%)
+All error-causing words for this error:
+  'izan': 3 times (21.4%)
+  'dut': 1 times (7.1%)
+  'dagokionez': 1 times (7.1%)
+  'dela': 1 times (7.1%)
+  'izandako': 1 times (7.1%)
+  'du': 1 times (7.1%)
+  'zizkion': 1 times (7.1%)
+  'zitzaionik': 1 times (7.1%)
+  'zuen': 1 times (7.1%)
+  'genuen': 1 times (7.1%)
+  'dugu': 1 times (7.1%)
+  'bagina': 1 times (7.1%)
+
+All lines: 55, 63, 124, 236, 278, 366, 417, 495, 545, 590, 656, 665, 667, 723
+All occurrences:
+  1. Line 55: 'izan' in sentence 5
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Aurten izan ditudan
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 63: 'dut' in sentence 5
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: uste dut .
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  3. Line 124: 'dagokionez' in sentence 10
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Aurkariari dagokionez ,
+     Full sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+
+  4. Line 236: 'dela' in sentence 17
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: indartsua dela erakutsi
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+  5. Line 278: 'izandako' in sentence 20
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: Txilen izandako giza
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  6. Line 366: 'du' in sentence 25
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: behar du .
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  7. Line 417: 'zizkion' in sentence 28
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: behar zizkion Israelgo
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  8. Line 495: 'zitzaionik' in sentence 33
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: axola zitzaionik :
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+  9. Line 545: 'zuen' in sentence 38
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: esana zuen arreta
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  10. Line 590: 'genuen' in sentence 41
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: nahi genuen .
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  11. Line 656: 'izan' in sentence 45
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: behar izan nuen
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+  12. Line 665: 'izan' in sentence 46
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: kontuan izan behar
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  13. Line 667: 'dugu' in sentence 46
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: behar dugu erasoan
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  14. Line 723: 'bagina' in sentence 49
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: abereak bagina bezala
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: AUX → VERB
+Occurrences: 11 (12.09%)
+All error-causing words for this error:
+  'daitezke': 2 times (18.2%)
+  'izan': 1 times (9.1%)
+  'dakizuke': 1 times (9.1%)
+  'liteke': 1 times (9.1%)
+  'dira': 1 times (9.1%)
+  'badugu': 1 times (9.1%)
+  'zituzten': 1 times (9.1%)
+  'gintuzten': 1 times (9.1%)
+  'nuela': 1 times (9.1%)
+  'baititu': 1 times (9.1%)
+
+All lines: 12, 82, 83, 96, 176, 185, 375, 390, 524, 629, 678
+All occurrences:
+  1. Line 12: 'daitezke' in sentence 1
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: izan daitezke .
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 82: 'izan' in sentence 7
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: baliagarria izan dakizuke
+     Full sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+
+  3. Line 83: 'dakizuke' in sentence 7
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: izan dakizuke .
+     Full sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+
+  4. Line 96: 'liteke' in sentence 8
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: esan liteke .
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  5. Line 176: 'dira' in sentence 13
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: haiek dira irabazteko
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  6. Line 185: 'badugu' in sentence 13
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: baldin badugu ,
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  7. Line 375: 'zituzten' in sentence 26
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: erre zituzten ,
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  8. Line 390: 'gintuzten' in sentence 26
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: utzi gintuzten .
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  9. Line 524: 'daitezke' in sentence 36
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: egin daitezke eragiketa
+     Full sentence: Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+
+  10. Line 629: 'nuela' in sentence 43
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ez nuela nire
+     Full sentence: Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+
+  11. Line 678: 'baititu' in sentence 46
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ez baititu bere
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADJ
+Occurrences: 9 (9.89%)
+All error-causing words for this error:
+  'euskal': 2 times (22.2%)
+  'txikikoa': 1 times (11.1%)
+  'errezeloz': 1 times (11.1%)
+  'aurrelari': 1 times (11.1%)
+  'barne': 1 times (11.1%)
+  'gazte': 1 times (11.1%)
+  'denboraldi-aurreko': 1 times (11.1%)
+  'adiskidantzazko': 1 times (11.1%)
+
+All lines: 19, 199, 230, 385, 398, 462, 564, 697, 701
+All occurrences:
+  1. Line 19: 'txikikoa' in sentence 2
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: adin txikikoa aske
+     Full sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+
+  2. Line 199: 'errezeloz' in sentence 14
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: , errezeloz hartu
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  3. Line 230: 'Aurrelari' in sentence 17
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: START Aurrelari langilea
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+  4. Line 385: 'barne' in sentence 26
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: ni barne nintzelarik
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  5. Line 398: 'euskal' in sentence 27
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: Gamesa euskal enpresaren
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  6. Line 462: 'Euskal' in sentence 31
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: - Euskal Herrian
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+  7. Line 564: 'gazte' in sentence 39
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: bost gazte palestinarrak
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+  8. Line 697: 'DENBORALDI-AURREKO' in sentence 48
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: START DENBORALDI-AURREKO prestakuntzarekin
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+  9. Line 701: 'adiskidantzazko' in sentence 48
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: , adiskidantzazko partidua
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: ADJ → NOUN
+Occurrences: 9 (9.89%)
+All error-causing words for this error:
+  'apurrak': 1 times (11.1%)
+  'garairik': 1 times (11.1%)
+  'estuegiak': 1 times (11.1%)
+  'komenigarria': 1 times (11.1%)
+  'gainontzekoak': 1 times (11.1%)
+  'euskaldunak': 1 times (11.1%)
+  'marroi-zikin': 1 times (11.1%)
+  'palestinarrak': 1 times (11.1%)
+  'lehorretan': 1 times (11.1%)
+
+All lines: 58, 130, 297, 314, 382, 468, 482, 565, 618
+All occurrences:
+  1. Line 58: 'apurrak' in sentence 5
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: aukera apurrak ondo
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 130: 'garairik' in sentence 10
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: bere garairik onenean
+     Full sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+
+  3. Line 297: 'estuegiak' in sentence 21
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: nabarmen estuegiak "
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  4. Line 314: 'komenigarria' in sentence 22
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: eta komenigarria izango
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  5. Line 382: 'gainontzekoak' in sentence 26
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: eta gainontzekoak ,
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  6. Line 468: 'euskaldunak' in sentence 31
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: guraso euskaldunak dituzte
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+  7. Line 482: 'marroi-zikin' in sentence 32
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: ahala marroi-zikin bihurtzen
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  8. Line 565: 'palestinarrak' in sentence 39
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: gazte palestinarrak galdu
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+  9. Line 618: 'lehorretan' in sentence 42
+     Gold UPOS: ADJ → System UPOS: NOUN
+     Context: eta lehorretan .
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: NOUN → VERB
+Occurrences: 9 (9.89%)
+All error-causing words for this error:
+  'behar': 3 times (33.3%)
+  'nahi': 2 times (22.2%)
+  'uste': 1 times (11.1%)
+  'deian': 1 times (11.1%)
+  'itzulian': 1 times (11.1%)
+  'kontuan': 1 times (11.1%)
+
+All lines: 62, 331, 359, 365, 416, 589, 649, 664, 666
+All occurrences:
+  1. Line 62: 'uste' in sentence 5
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: ditudala uste dut
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 331: 'deian' in sentence 23
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: eginiko deian funtzionarioengatik
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  3. Line 359: 'nahi' in sentence 25
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: irabazi nahi dituen
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  4. Line 365: 'behar' in sentence 25
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: ohitu behar du
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  5. Line 416: 'behar' in sentence 28
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: jakinarazi behar zizkion
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  6. Line 589: 'nahi' in sentence 41
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: jokatu nahi genuen
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  7. Line 649: 'itzulian' in sentence 45
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: Suitzako itzulian nekatuta
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+  8. Line 664: 'kontuan' in sentence 46
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: , kontuan izan
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  9. Line 666: 'behar' in sentence 46
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: izan behar dugu
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADV
+Occurrences: 5 (5.49%)
+All error-causing words for this error:
+  'ondorioz': 1 times (20.0%)
+  'atzokoan': 1 times (20.0%)
+  'burtsan': 1 times (20.0%)
+  'aurretik': 1 times (20.0%)
+  'hasieran': 1 times (20.0%)
+
+All lines: 304, 395, 403, 456, 474
+All occurrences:
+  1. Line 304: 'Ondorioz' in sentence 22
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: START Ondorioz ,
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 395: 'ATZOKOAN' in sentence 27
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: START ATZOKOAN estrainekoz
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  3. Line 403: 'burtsan' in sentence 27
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: zuten burtsan eta
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  4. Line 456: 'aurretik' in sentence 30
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: du aurretik .
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+  5. Line 474: 'hasieran' in sentence 32
+     Gold UPOS: NOUN → System UPOS: ADV
+     Context: START hasieran bere
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+--------------------------------------------------
+
+ERROR: CCONJ → ADV
+Occurrences: 4 (4.40%)
+All error-causing words for this error:
+  'ordea': 1 times (25.0%)
+  'beraz': 1 times (25.0%)
+  'halere': 1 times (25.0%)
+  'halaber': 1 times (25.0%)
+
+All lines: 5, 88, 213, 287
+All occurrences:
+  1. Line 5: 'ordea' in sentence 1
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: Atenasen ordea ,
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 88: 'Beraz' in sentence 8
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: START Beraz ,
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  3. Line 213: 'Halere' in sentence 15
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: START Halere ,
+     Full sentence: Halere , badute antza :
+
+  4. Line 287: 'Halaber' in sentence 21
+     Gold UPOS: CCONJ → System UPOS: ADV
+     Context: START Halaber ,
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+--------------------------------------------------
+
+ERROR: ADV → ADJ
+Occurrences: 4 (4.40%)
+All error-causing words for this error:
+  'zeharo': 1 times (25.0%)
+  'dezente': 1 times (25.0%)
+  'lehen': 1 times (25.0%)
+  'libre': 1 times (25.0%)
+
+All lines: 37, 257, 320, 388
+All occurrences:
+  1. Line 37: 'zeharo' in sentence 3
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: , zeharo aldatu
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 257: 'dezente' in sentence 19
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: egitean dezente zabaldu
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  3. Line 320: 'lehen' in sentence 22
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: , lehen zegoena
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  4. Line 388: 'libre' in sentence 26
+     Gold UPOS: ADV → System UPOS: ADJ
+     Context: , libre utzi
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: DET → PRON
+Occurrences: 3 (3.30%)
+All error-causing words for this error:
+  'haiek': 1 times (33.3%)
+  'hauek': 1 times (33.3%)
+  'bere': 1 times (33.3%)
+
+All lines: 175, 343, 608
+All occurrences:
+  1. Line 175: 'haiek' in sentence 13
+     Gold UPOS: DET → System UPOS: PRON
+     Context: eta haiek dira
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 343: 'Hauek' in sentence 24
+     Gold UPOS: DET → System UPOS: PRON
+     Context: START Hauek CD-ROMetan
+     Full sentence: Hauek CD-ROMetan saltzen dira .
+
+  3. Line 608: 'bere' in sentence 42
+     Gold UPOS: DET → System UPOS: PRON
+     Context: , bere horretantxe
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: NOUN → PROPN
+Occurrences: 3 (3.30%)
+All error-causing words for this error:
+  'barne': 1 times (33.3%)
+  'cd-rometan': 1 times (33.3%)
+  'marka': 1 times (33.3%)
+
+All lines: 249, 344, 637
+All occurrences:
+  1. Line 249: 'Barne' in sentence 18
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: zen Barne ministroa
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+  2. Line 344: 'CD-ROMetan' in sentence 24
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: Hauek CD-ROMetan saltzen
+     Full sentence: Hauek CD-ROMetan saltzen dira .
+
+  3. Line 637: 'Marka' in sentence 44
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: START Marka onena
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADP
+Occurrences: 3 (3.30%)
+All error-causing words for this error:
+  'egunetik': 1 times (33.3%)
+  'itsasoan': 1 times (33.3%)
+  'udalekuetara': 1 times (33.3%)
+
+All lines: 309, 688, 730
+All occurrences:
+  1. Line 309: 'egunetik' in sentence 22
+     Gold UPOS: NOUN → System UPOS: ADP
+     Context: aniztasuna egunetik egunera
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 688: 'Itsasoan' in sentence 47
+     Gold UPOS: NOUN → System UPOS: ADP
+     Context: START Itsasoan egoera
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+  3. Line 730: 'Udalekuetara' in sentence 50
+     Gold UPOS: NOUN → System UPOS: ADP
+     Context: START Udalekuetara goaz
+     Full sentence: Udalekuetara goaz !
+
+--------------------------------------------------
+
+ERROR: DET → ADJ
+Occurrences: 2 (2.20%)
+All error-causing words for this error:
+  'beste': 1 times (50.0%)
+  'gehiago': 1 times (50.0%)
+
+All lines: 7, 10
+All occurrences:
+  1. Line 7: 'beste' in sentence 1
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: , beste bost
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 10: 'gehiago' in sentence 1
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: jarduera gehiago izan
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+--------------------------------------------------
+
+ERROR: DET → NUM
+Occurrences: 2 (2.20%)
+All error-causing words for this error:
+  'batzuetan': 1 times (50.0%)
+  'milaka': 1 times (50.0%)
+
+All lines: 35, 612
+All occurrences:
+  1. Line 35: 'batzuetan' in sentence 3
+     Gold UPOS: DET → System UPOS: NUM
+     Context: ordu batzuetan ,
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 612: 'milaka' in sentence 42
+     Gold UPOS: DET → System UPOS: NUM
+     Context: du milaka urtez
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: DET → NOUN
+Occurrences: 2 (2.20%)
+All error-causing words for this error:
+  'batzuk': 2 times (100.0%)
+
+All lines: 371, 378
+All occurrences:
+  1. Line 371: 'Batzuk' in sentence 26
+     Gold UPOS: DET → System UPOS: NOUN
+     Context: START Batzuk han
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  2. Line 378: 'batzuk' in sentence 26
+     Gold UPOS: DET → System UPOS: NOUN
+     Context: beste batzuk galeretara
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: ADV → DET
+Occurrences: 2 (2.20%)
+All error-causing words for this error:
+  'han': 1 times (50.0%)
+  'asko': 1 times (50.0%)
+
+All lines: 372, 493
+All occurrences:
+  1. Line 372: 'han' in sentence 26
+     Gold UPOS: ADV → System UPOS: DET
+     Context: Batzuk han bertan
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  2. Line 493: 'asko' in sentence 33
+     Gold UPOS: ADV → System UPOS: DET
+     Context: zirudien asko axola
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+--------------------------------------------------
+
+ERROR: CCONJ → SCONJ
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'baldin': 1 times (100.0%)
+
+All lines: 184
+All occurrences:
+  1. Line 184: 'baldin' in sentence 13
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: bat baldin badugu
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+--------------------------------------------------
+
+ERROR: ADV → PROPN
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'gero': 1 times (100.0%)
+
+All lines: 244
+All occurrences:
+  1. Line 244: 'Gero' in sentence 18
+     Gold UPOS: ADV → System UPOS: PROPN
+     Context: START Gero hileta
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+--------------------------------------------------
+
+ERROR: ADV → ADP
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'bertan': 1 times (100.0%)
+
+All lines: 373
+All occurrences:
+  1. Line 373: 'bertan' in sentence 26
+     Gold UPOS: ADV → System UPOS: ADP
+     Context: han bertan erre
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: VERB → ADJ
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'erre': 1 times (100.0%)
+
+All lines: 374
+All occurrences:
+  1. Line 374: 'erre' in sentence 26
+     Gold UPOS: VERB → System UPOS: ADJ
+     Context: bertan erre zituzten
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: DET → CCONJ
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'beste': 1 times (100.0%)
+
+All lines: 377
+All occurrences:
+  1. Line 377: 'beste' in sentence 26
+     Gold UPOS: DET → System UPOS: CCONJ
+     Context: , beste batzuk
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: X → PROPN
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'de': 1 times (100.0%)
+
+All lines: 428
+All occurrences:
+  1. Line 428: 'De' in sentence 29
+     Gold UPOS: X → System UPOS: PROPN
+     Context: , De Paula
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+--------------------------------------------------
+
+ERROR: ADV → PART
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'gabe': 1 times (100.0%)
+
+All lines: 606
+All occurrences:
+  1. Line 606: 'gabe' in sentence 42
+     Gold UPOS: ADV → System UPOS: PART
+     Context: usteldu gabe ,
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: CCONJ → DET
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'zein': 1 times (100.0%)
+
+All lines: 642
+All occurrences:
+  1. Line 642: 'zein' in sentence 44
+     Gold UPOS: CCONJ → System UPOS: DET
+     Context: ziabogan zein helmugan
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+--------------------------------------------------
+
+ERROR: PROPN → ADJ
+Occurrences: 1 (1.10%)
+All error-causing words for this error:
+  'suitzako': 1 times (100.0%)
+
+All lines: 648
+All occurrences:
+  1. Line 648: 'Suitzako' in sentence 45
+     Gold UPOS: PROPN → System UPOS: ADJ
+     Context: START Suitzako itzulian
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ALL DEPREL ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: aux → conj
+Occurrences: 20 (6.19%)
+All error-causing words for this error:
+  'zuten': 5 times (25.0%)
+  'du': 4 times (20.0%)
+  'da': 3 times (15.0%)
+  'zen': 2 times (10.0%)
+  'zuen': 2 times (10.0%)
+  'ditugu': 1 times (5.0%)
+  'dute': 1 times (5.0%)
+  'ziren': 1 times (5.0%)
+  'duela': 1 times (5.0%)
+
+All lines: 73, 111, 117, 189, 248, 259, 272, 291, 334, 338, 402, 408, 516, 538, 567, 602, 611, 640, 673, 692
+All occurrences:
+  1. Line 73: 'du' (UPOS: AUX) in sentence 6
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Athleticek presio itzela pairatu beharko du .
+
+  2. Line 111: 'zuten' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  3. Line 117: 'du' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  4. Line 189: 'ditugu' (UPOS: AUX) in sentence 13
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  5. Line 248: 'zen' (UPOS: AUX) in sentence 18
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+  6. Line 259: 'da' (UPOS: AUX) in sentence 19
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  7. Line 272: 'zen' (UPOS: AUX) in sentence 20
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  8. Line 291: 'dute' (UPOS: AUX) in sentence 21
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  9. Line 334: 'zuen' (UPOS: AUX) in sentence 23
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  10. Line 338: 'zuen' (UPOS: AUX) in sentence 23
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  11. Line 402: 'zuten' (UPOS: AUX) in sentence 27
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  12. Line 408: 'zuten' (UPOS: AUX) in sentence 27
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  13. Line 516: 'du' (UPOS: AUX) in sentence 35
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Golarekin asmatu edo ez , lan baliagarria egingo du .
+
+  14. Line 538: 'ziren' (UPOS: AUX) in sentence 37
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Azkenean , Koxtape eta Hondarribia sailkatu ziren .
+
+  15. Line 567: 'zuten' (UPOS: AUX) in sentence 39
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+  16. Line 602: 'da' (UPOS: AUX) in sentence 42
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  17. Line 611: 'du' (UPOS: AUX) in sentence 42
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  18. Line 640: 'zuten' (UPOS: AUX) in sentence 44
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+  19. Line 673: 'duela' (UPOS: AUX) in sentence 46
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  20. Line 692: 'da' (UPOS: AUX) in sentence 47
+     Gold DEPREL: aux → System DEPREL: conj
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+--------------------------------------------------
+
+ERROR: obl → nsubj
+Occurrences: 14 (4.33%)
+All error-causing words for this error:
+  'egun': 2 times (14.3%)
+  'atenasen': 1 times (7.1%)
+  'marrazkian': 1 times (7.1%)
+  'elizkizunera': 1 times (7.1%)
+  'egunera': 1 times (7.1%)
+  'cd-rometan': 1 times (7.1%)
+  'talde': 1 times (7.1%)
+  'herrian': 1 times (7.1%)
+  'golarekin': 1 times (7.1%)
+  'zirkuitu': 1 times (7.1%)
+  'hondar': 1 times (7.1%)
+  'prestakuntzarekin': 1 times (7.1%)
+  'ruandan': 1 times (7.1%)
+
+All lines: 4, 45, 101, 246, 310, 344, 361, 463, 508, 521, 586, 615, 698, 717
+All occurrences:
+  1. Line 4: 'Atenasen' (UPOS: PROPN) in sentence 1
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 45: 'marrazkian' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Bigarren marrazkian agertzen den muntaia egizu .
+
+  3. Line 101: 'Egun' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  4. Line 246: 'elizkizunera' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+  5. Line 310: 'egunera' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  6. Line 344: 'CD-ROMetan' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Hauek CD-ROMetan saltzen dira .
+
+  7. Line 361: 'talde' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  8. Line 463: 'Herrian' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+  9. Line 508: 'Golarekin' (UPOS: NOUN) in sentence 35
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Golarekin asmatu edo ez , lan baliagarria egingo du .
+
+  10. Line 521: 'Zirkuitu' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+
+  11. Line 586: 'Egun' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  12. Line 615: 'hondar' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  13. Line 698: 'prestakuntzarekin' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+  14. Line 717: 'Ruandan' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: aux → xcomp
+Occurrences: 11 (3.41%)
+All error-causing words for this error:
+  'zen': 3 times (27.3%)
+  'daitezke': 2 times (18.2%)
+  'dira': 2 times (18.2%)
+  'liteke': 1 times (9.1%)
+  'zutela': 1 times (9.1%)
+  'da': 1 times (9.1%)
+  'zituztela': 1 times (9.1%)
+
+All lines: 12, 39, 96, 109, 145, 346, 465, 484, 524, 549, 626
+All occurrences:
+  1. Line 12: 'daitezke' (UPOS: AUX) in sentence 1
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 39: 'zen' (UPOS: AUX) in sentence 3
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  3. Line 96: 'liteke' (UPOS: AUX) in sentence 8
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  4. Line 109: 'zutela' (UPOS: AUX) in sentence 9
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  5. Line 145: 'zen' (UPOS: AUX) in sentence 11
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+
+  6. Line 346: 'dira' (UPOS: AUX) in sentence 24
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Hauek CD-ROMetan saltzen dira .
+
+  7. Line 465: 'dira' (UPOS: AUX) in sentence 31
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+  8. Line 484: 'da' (UPOS: AUX) in sentence 32
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  9. Line 524: 'daitezke' (UPOS: AUX) in sentence 36
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+
+  10. Line 549: 'zituztela' (UPOS: AUX) in sentence 38
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  11. Line 626: 'zen' (UPOS: AUX) in sentence 43
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+
+--------------------------------------------------
+
+ERROR: nmod → nsubj
+Occurrences: 10 (3.10%)
+All error-causing words for this error:
+  'o.g.m.': 1 times (10.0%)
+  'gure': 1 times (10.0%)
+  'langilea': 1 times (10.0%)
+  'hileta': 1 times (10.0%)
+  'rettig': 1 times (10.0%)
+  'partiduen': 1 times (10.0%)
+  'gamesa': 1 times (10.0%)
+  'enpresaren': 1 times (10.0%)
+  'baraken': 1 times (10.0%)
+  'bere': 1 times (10.0%)
+
+All lines: 17, 28, 231, 245, 269, 356, 397, 399, 413, 608
+All occurrences:
+  1. Line 17: 'O.G.M.' (UPOS: PROPN) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+
+  2. Line 28: 'Gure' (UPOS: PRON) in sentence 3
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  3. Line 231: 'langilea' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+  4. Line 245: 'hileta' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+  5. Line 269: 'Rettig' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  6. Line 356: 'partiduen' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  7. Line 397: 'Gamesa' (UPOS: PROPN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  8. Line 399: 'enpresaren' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  9. Line 413: 'Baraken' (UPOS: PROPN) in sentence 28
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  10. Line 608: 'bere' (UPOS: DET) in sentence 42
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: obj → nsubj
+Occurrences: 10 (3.10%)
+All error-causing words for this error:
+  'aukera': 1 times (10.0%)
+  'presio': 1 times (10.0%)
+  'taldea': 1 times (10.0%)
+  'ahaleginak': 1 times (10.0%)
+  'diskoa': 1 times (10.0%)
+  'tratu': 1 times (10.0%)
+  'batzuk': 1 times (10.0%)
+  'istoria': 1 times (10.0%)
+  'marka': 1 times (10.0%)
+  'egoera': 1 times (10.0%)
+
+All lines: 57, 69, 171, 187, 255, 335, 371, 554, 637, 689
+All occurrences:
+  1. Line 57: 'aukera' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 69: 'presio' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Athleticek presio itzela pairatu beharko du .
+
+  3. Line 171: 'taldea' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  4. Line 187: 'ahaleginak' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  5. Line 255: 'Diskoa' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  6. Line 335: 'tratu' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  7. Line 371: 'Batzuk' (UPOS: DET) in sentence 26
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  8. Line 554: 'istoria' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  9. Line 637: 'Marka' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+  10. Line 689: 'egoera' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+--------------------------------------------------
+
+ERROR: aux → ccomp
+Occurrences: 10 (3.10%)
+All error-causing words for this error:
+  'dakizuke': 1 times (10.0%)
+  'nintzela': 1 times (10.0%)
+  'zaizkie': 1 times (10.0%)
+  'dute': 1 times (10.0%)
+  'duten': 1 times (10.0%)
+  'dituen': 1 times (10.0%)
+  'dizute': 1 times (10.0%)
+  'du': 1 times (10.0%)
+  'nuela': 1 times (10.0%)
+  'gaituzte': 1 times (10.0%)
+
+All lines: 83, 94, 162, 201, 206, 360, 449, 455, 629, 720
+All occurrences:
+  1. Line 83: 'dakizuke' (UPOS: AUX) in sentence 7
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+
+  2. Line 94: 'nintzela' (UPOS: AUX) in sentence 8
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  3. Line 162: 'zaizkie' (UPOS: AUX) in sentence 12
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+  4. Line 201: 'dute' (UPOS: AUX) in sentence 14
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  5. Line 206: 'duten' (UPOS: AUX) in sentence 14
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  6. Line 360: 'dituen' (UPOS: AUX) in sentence 25
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  7. Line 449: 'dizute' (UPOS: AUX) in sentence 30
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+  8. Line 455: 'du' (UPOS: AUX) in sentence 30
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+  9. Line 629: 'nuela' (UPOS: AUX) in sentence 43
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+
+  10. Line 720: 'gaituzte' (UPOS: AUX) in sentence 49
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: advcl → acl
+Occurrences: 10 (3.10%)
+All error-causing words for this error:
+  'baliatzeko': 1 times (10.0%)
+  'erabakitako': 1 times (10.0%)
+  'ezagutzeko': 1 times (10.0%)
+  'jokatzera': 1 times (10.0%)
+  'nintzelarik': 1 times (10.0%)
+  'errepikatzeko': 1 times (10.0%)
+  'sartutako': 1 times (10.0%)
+  'ikusten': 1 times (10.0%)
+  'jokatzeko': 1 times (10.0%)
+  'izango': 1 times (10.0%)
+
+All lines: 190, 293, 322, 363, 386, 556, 599, 632, 680, 683
+All occurrences:
+  1. Line 190: 'baliatzeko' (UPOS: VERB) in sentence 13
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 293: 'erabakitako' (UPOS: VERB) in sentence 21
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  3. Line 322: 'ezagutzeko' (UPOS: VERB) in sentence 22
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  4. Line 363: 'jokatzera' (UPOS: VERB) in sentence 25
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  5. Line 386: 'nintzelarik' (UPOS: VERB) in sentence 26
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  6. Line 556: 'errepikatzeko' (UPOS: VERB) in sentence 38
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  7. Line 599: 'sartutako' (UPOS: VERB) in sentence 42
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  8. Line 632: 'ikusten' (UPOS: VERB) in sentence 43
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+
+  9. Line 680: 'jokatzeko' (UPOS: VERB) in sentence 46
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  10. Line 683: 'izango' (UPOS: VERB) in sentence 46
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: aux → advcl
+Occurrences: 9 (2.79%)
+All error-causing words for this error:
+  'da': 1 times (11.1%)
+  'den': 1 times (11.1%)
+  'ditudan': 1 times (11.1%)
+  'ditudala': 1 times (11.1%)
+  'ziren': 1 times (11.1%)
+  'du': 1 times (11.1%)
+  'zenean': 1 times (11.1%)
+  'zen': 1 times (11.1%)
+  'nuen': 1 times (11.1%)
+
+All lines: 22, 47, 56, 61, 223, 238, 501, 503, 657
+All occurrences:
+  1. Line 22: 'da' (UPOS: AUX) in sentence 2
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+
+  2. Line 47: 'den' (UPOS: AUX) in sentence 4
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Bigarren marrazkian agertzen den muntaia egizu .
+
+  3. Line 56: 'ditudan' (UPOS: AUX) in sentence 5
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  4. Line 61: 'ditudala' (UPOS: AUX) in sentence 5
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  5. Line 223: 'ziren' (UPOS: AUX) in sentence 16
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Lehenago ez ziren egoten itsasontzietan .
+
+  6. Line 238: 'du' (UPOS: AUX) in sentence 17
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+  7. Line 501: 'zenean' (UPOS: AUX) in sentence 34
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Gaixotu zenean argaldu zen .
+
+  8. Line 503: 'zen' (UPOS: AUX) in sentence 34
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Gaixotu zenean argaldu zen .
+
+  9. Line 657: 'nuen' (UPOS: AUX) in sentence 45
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: advcl → root
+Occurrences: 9 (2.79%)
+All error-causing words for this error:
+  'idazten': 1 times (11.1%)
+  'emandako': 1 times (11.1%)
+  'egitean': 1 times (11.1%)
+  'eginiko': 1 times (11.1%)
+  'zahartu': 1 times (11.1%)
+  'gaixotu': 1 times (11.1%)
+  'asmatu': 1 times (11.1%)
+  'esana': 1 times (11.1%)
+  'jarraituz': 1 times (11.1%)
+
+All lines: 90, 140, 256, 330, 480, 500, 509, 544, 699
+All occurrences:
+  1. Line 90: 'idazten' (UPOS: VERB) in sentence 8
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  2. Line 140: 'emandako' (UPOS: VERB) in sentence 11
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+
+  3. Line 256: 'egitean' (UPOS: VERB) in sentence 19
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  4. Line 330: 'eginiko' (UPOS: VERB) in sentence 23
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  5. Line 480: 'zahartu' (UPOS: VERB) in sentence 32
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  6. Line 500: 'Gaixotu' (UPOS: VERB) in sentence 34
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Gaixotu zenean argaldu zen .
+
+  7. Line 509: 'asmatu' (UPOS: VERB) in sentence 35
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Golarekin asmatu edo ez , lan baliagarria egingo du .
+
+  8. Line 544: 'esana' (UPOS: VERB) in sentence 38
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  9. Line 699: 'jarraituz' (UPOS: VERB) in sentence 48
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: root → xcomp
+Occurrences: 8 (2.48%)
+All error-causing words for this error:
+  'beharko': 2 times (25.0%)
+  'esan': 1 times (12.5%)
+  'iragarri': 1 times (12.5%)
+  'zabaldu': 1 times (12.5%)
+  'esango': 1 times (12.5%)
+  'egingo': 1 times (12.5%)
+  'zuen': 1 times (12.5%)
+
+All lines: 72, 95, 110, 258, 448, 515, 545, 691
+All occurrences:
+  1. Line 72: 'beharko' (UPOS: VERB) in sentence 6
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Athleticek presio itzela pairatu beharko du .
+
+  2. Line 95: 'esan' (UPOS: VERB) in sentence 8
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  3. Line 110: 'iragarri' (UPOS: VERB) in sentence 9
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  4. Line 258: 'zabaldu' (UPOS: VERB) in sentence 19
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  5. Line 448: 'esango' (UPOS: VERB) in sentence 30
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+  6. Line 515: 'egingo' (UPOS: VERB) in sentence 35
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Golarekin asmatu edo ez , lan baliagarria egingo du .
+
+  7. Line 545: 'zuen' (UPOS: VERB) in sentence 38
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  8. Line 691: 'beharko' (UPOS: VERB) in sentence 47
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+--------------------------------------------------
+
+ERROR: advmod → cc
+Occurrences: 8 (2.48%)
+All error-causing words for this error:
+  'ere': 5 times (62.5%)
+  'ordea': 2 times (25.0%)
+  'bestalde': 1 times (12.5%)
+
+All lines: 91, 143, 197, 267, 436, 490, 527, 662
+All occurrences:
+  1. Line 91: 'ere' (UPOS: CCONJ) in sentence 8
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  2. Line 143: 'ere' (UPOS: CCONJ) in sentence 11
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+
+  3. Line 197: 'ordea' (UPOS: CCONJ) in sentence 14
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  4. Line 267: 'ordea' (UPOS: CCONJ) in sentence 20
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  5. Line 436: 'ere' (UPOS: CCONJ) in sentence 29
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+  6. Line 490: 'ere' (UPOS: CCONJ) in sentence 33
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+  7. Line 527: 'ere' (UPOS: CCONJ) in sentence 36
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+
+  8. Line 662: 'Bestalde' (UPOS: CCONJ) in sentence 46
+     Gold DEPREL: advmod → System DEPREL: cc
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: obj → obl
+Occurrences: 6 (1.86%)
+All error-causing words for this error:
+  'etxea': 1 times (16.7%)
+  'batzuk': 1 times (16.7%)
+  'gainontzekoak': 1 times (16.7%)
+  'estreinaldi': 1 times (16.7%)
+  'lan': 1 times (16.7%)
+  'ezaugarri': 1 times (16.7%)
+
+All lines: 29, 378, 382, 405, 513, 681
+All occurrences:
+  1. Line 29: 'etxea' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 378: 'batzuk' (UPOS: DET) in sentence 26
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  3. Line 382: 'gainontzekoak' (UPOS: ADJ) in sentence 26
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  4. Line 405: 'estreinaldi' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  5. Line 513: 'lan' (UPOS: NOUN) in sentence 35
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Golarekin asmatu edo ez , lan baliagarria egingo du .
+
+  6. Line 681: 'ezaugarri' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: compound → xcomp
+Occurrences: 6 (1.86%)
+All error-causing words for this error:
+  'egin': 2 times (33.3%)
+  'uste': 1 times (16.7%)
+  'behar': 1 times (16.7%)
+  'nahi': 1 times (16.7%)
+  'egingo': 1 times (16.7%)
+
+All lines: 62, 290, 416, 589, 654, 719
+All occurrences:
+  1. Line 62: 'uste' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 290: 'egin' (UPOS: VERB) in sentence 21
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  3. Line 416: 'behar' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  4. Line 589: 'nahi' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  5. Line 654: 'egin' (UPOS: VERB) in sentence 45
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+  6. Line 719: 'egingo' (UPOS: VERB) in sentence 49
+     Gold DEPREL: compound → System DEPREL: xcomp
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: conj → acl
+Occurrences: 6 (1.86%)
+All error-causing words for this error:
+  'aldatu': 1 times (16.7%)
+  'egingo': 1 times (16.7%)
+  'bidali': 1 times (16.7%)
+  'utzi': 1 times (16.7%)
+  'izan': 1 times (16.7%)
+  'dituzte': 1 times (16.7%)
+
+All lines: 116, 188, 380, 389, 407, 469
+All occurrences:
+  1. Line 116: 'aldatu' (UPOS: VERB) in sentence 9
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  2. Line 188: 'egingo' (UPOS: VERB) in sentence 13
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  3. Line 380: 'bidali' (UPOS: VERB) in sentence 26
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  4. Line 389: 'utzi' (UPOS: VERB) in sentence 26
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  5. Line 407: 'izan' (UPOS: VERB) in sentence 27
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  6. Line 469: 'dituzte' (UPOS: VERB) in sentence 31
+     Gold DEPREL: conj → System DEPREL: acl
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+--------------------------------------------------
+
+ERROR: nmod → amod
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'txikikoa': 1 times (20.0%)
+  'musikalen': 1 times (20.0%)
+  'euskal': 1 times (20.0%)
+  'denboraldi-aurreko': 1 times (20.0%)
+  'adiskidantzazko': 1 times (20.0%)
+
+All lines: 19, 307, 398, 697, 701
+All occurrences:
+  1. Line 19: 'txikikoa' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+
+  2. Line 307: 'musikalen' (UPOS: ADJ) in sentence 22
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  3. Line 398: 'euskal' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  4. Line 697: 'DENBORALDI-AURREKO' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+  5. Line 701: 'adiskidantzazko' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: amod
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: obl → nmod
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'egun': 1 times (20.0%)
+  'kolonbian': 1 times (20.0%)
+  'txilen': 1 times (20.0%)
+  'galeretara': 1 times (20.0%)
+  'gaza': 1 times (20.0%)
+
+All lines: 31, 204, 277, 379, 569
+All occurrences:
+  1. Line 31: 'egun' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 204: 'Kolonbian' (UPOS: PROPN) in sentence 14
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  3. Line 277: 'Txilen' (UPOS: PROPN) in sentence 20
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  4. Line 379: 'galeretara' (UPOS: NOUN) in sentence 26
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  5. Line 569: 'Gaza' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+--------------------------------------------------
+
+ERROR: xcomp → root
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'pairatu': 1 times (20.0%)
+  'irabazi': 1 times (20.0%)
+  'jakinarazi': 1 times (20.0%)
+  'jokatu': 1 times (20.0%)
+  'ikusi': 1 times (20.0%)
+
+All lines: 71, 358, 415, 588, 690
+All occurrences:
+  1. Line 71: 'pairatu' (UPOS: VERB) in sentence 6
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Athleticek presio itzela pairatu beharko du .
+
+  2. Line 358: 'irabazi' (UPOS: VERB) in sentence 25
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  3. Line 415: 'jakinarazi' (UPOS: VERB) in sentence 28
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  4. Line 588: 'jokatu' (UPOS: VERB) in sentence 41
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  5. Line 690: 'ikusi' (UPOS: VERB) in sentence 47
+     Gold DEPREL: xcomp → System DEPREL: root
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+--------------------------------------------------
+
+ERROR: root → amod
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'baliagarria': 1 times (20.0%)
+  'txikiagoa': 1 times (20.0%)
+  'erre': 1 times (20.0%)
+  'horixka': 1 times (20.0%)
+  'patetikoa': 1 times (20.0%)
+
+All lines: 81, 311, 374, 477, 578
+All occurrences:
+  1. Line 81: 'baliagarria' (UPOS: ADJ) in sentence 7
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+
+  2. Line 311: 'txikiagoa' (UPOS: ADJ) in sentence 22
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  3. Line 374: 'erre' (UPOS: VERB) in sentence 26
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  4. Line 477: 'horixka' (UPOS: ADJ) in sentence 32
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  5. Line 578: 'patetikoa' (UPOS: ADJ) in sentence 40
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: - Eszena patetikoa da oso .
+
+--------------------------------------------------
+
+ERROR: conj → appos
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'eak': 1 times (20.0%)
+  'surinam': 1 times (20.0%)
+  'hondarribia': 1 times (20.0%)
+  'zisjordanian': 1 times (20.0%)
+  'helmugan': 1 times (20.0%)
+
+All lines: 106, 156, 536, 571, 643
+All occurrences:
+  1. Line 106: 'EAk' (UPOS: PROPN) in sentence 9
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  2. Line 156: 'Surinam' (UPOS: PROPN) in sentence 12
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+  3. Line 536: 'Hondarribia' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Azkenean , Koxtape eta Hondarribia sailkatu ziren .
+
+  4. Line 571: 'Zisjordanian' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+  5. Line 643: 'helmugan' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+--------------------------------------------------
+
+ERROR: nmod → det
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'bere': 5 times (100.0%)
+
+All lines: 129, 328, 475, 670, 679
+All occurrences:
+  1. Line 129: 'bere' (UPOS: DET) in sentence 10
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+
+  2. Line 328: 'bere' (UPOS: DET) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  3. Line 475: 'bere' (UPOS: DET) in sentence 32
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  4. Line 670: 'bere' (UPOS: DET) in sentence 46
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+  5. Line 679: 'bere' (UPOS: DET) in sentence 46
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: nsubj → obj
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'ministroa': 1 times (20.0%)
+  'taldea': 1 times (20.0%)
+  'beraiek': 1 times (20.0%)
+  'ordezkariak': 1 times (20.0%)
+  'eragiketa': 1 times (20.0%)
+
+All lines: 250, 260, 292, 419, 525
+All occurrences:
+  1. Line 250: 'ministroa' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+  2. Line 260: 'taldea' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  3. Line 292: 'beraiek' (UPOS: PRON) in sentence 21
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  4. Line 419: 'ordezkariak' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  5. Line 525: 'eragiketa' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+
+--------------------------------------------------
+
+ERROR: obl → advmod
+Occurrences: 5 (1.55%)
+All error-causing words for this error:
+  'ondorioz': 1 times (20.0%)
+  'atzokoan': 1 times (20.0%)
+  'burtsan': 1 times (20.0%)
+  'aurretik': 1 times (20.0%)
+  'hasieran': 1 times (20.0%)
+
+All lines: 304, 395, 403, 456, 474
+All occurrences:
+  1. Line 304: 'Ondorioz' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 395: 'ATZOKOAN' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  3. Line 403: 'burtsan' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  4. Line 456: 'aurretik' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+  5. Line 474: 'hasieran' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+--------------------------------------------------
+
+ERROR: root → acl
+Occurrences: 4 (1.24%)
+All error-causing words for this error:
+  'egizu': 1 times (25.0%)
+  'salatu': 1 times (25.0%)
+  'hondatzen': 1 times (25.0%)
+  'du': 1 times (25.0%)
+
+All lines: 49, 337, 603, 703
+All occurrences:
+  1. Line 49: 'egizu' (UPOS: VERB) in sentence 4
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Bigarren marrazkian agertzen den muntaia egizu .
+
+  2. Line 337: 'salatu' (UPOS: VERB) in sentence 23
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+  3. Line 603: 'hondatzen' (UPOS: VERB) in sentence 42
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  4. Line 703: 'du' (UPOS: VERB) in sentence 48
+     Gold DEPREL: root → System DEPREL: acl
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: root → conj
+Occurrences: 4 (1.24%)
+All error-causing words for this error:
+  'zizkion': 1 times (25.0%)
+  'genuen': 1 times (25.0%)
+  'nenbilen': 1 times (25.0%)
+  'dugu': 1 times (25.0%)
+
+All lines: 417, 590, 651, 667
+All occurrences:
+  1. Line 417: 'zizkion' (UPOS: VERB) in sentence 28
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+  2. Line 590: 'genuen' (UPOS: VERB) in sentence 41
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: " Egun horretan jokatu nahi genuen .
+
+  3. Line 651: 'nenbilen' (UPOS: VERB) in sentence 45
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+  4. Line 667: 'dugu' (UPOS: VERB) in sentence 46
+     Gold DEPREL: root → System DEPREL: conj
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: advmod → amod
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'zeharo': 1 times (33.3%)
+  'dezente': 1 times (33.3%)
+  'lehen': 1 times (33.3%)
+
+All lines: 37, 257, 320
+All occurrences:
+  1. Line 37: 'zeharo' (UPOS: ADV) in sentence 3
+     Gold DEPREL: advmod → System DEPREL: amod
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 257: 'dezente' (UPOS: ADV) in sentence 19
+     Gold DEPREL: advmod → System DEPREL: amod
+     Full sentence: Diskoa egitean dezente zabaldu da taldea .
+
+  3. Line 320: 'lehen' (UPOS: ADV) in sentence 22
+     Gold DEPREL: advmod → System DEPREL: amod
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+--------------------------------------------------
+
+ERROR: ccomp → root
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'baliatu': 1 times (33.3%)
+  'sinatuko': 1 times (33.3%)
+  'asmatu': 1 times (33.3%)
+
+All lines: 60, 108, 447
+All occurrences:
+  1. Line 60: 'baliatu' (UPOS: VERB) in sentence 5
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 108: 'sinatuko' (UPOS: VERB) in sentence 9
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  3. Line 447: 'asmatu' (UPOS: VERB) in sentence 30
+     Gold DEPREL: ccomp → System DEPREL: root
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+--------------------------------------------------
+
+ERROR: iobj → nsubj
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'aurkariari': 1 times (33.3%)
+  'elkarte': 1 times (33.3%)
+  'susanari': 1 times (33.3%)
+
+All lines: 123, 152, 489
+All occurrences:
+  1. Line 123: 'Aurkariari' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+
+  2. Line 152: 'elkarte' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+  3. Line 489: 'Susanari' (UPOS: PROPN) in sentence 33
+     Gold DEPREL: iobj → System DEPREL: nsubj
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+--------------------------------------------------
+
+ERROR: obl → obj
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'garairik': 1 times (33.3%)
+  'zerrandaz': 1 times (33.3%)
+  'arreta': 1 times (33.3%)
+
+All lines: 130, 142, 546
+All occurrences:
+  1. Line 130: 'garairik' (UPOS: ADJ) in sentence 10
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+
+  2. Line 142: 'zerrandaz' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+
+  3. Line 546: 'arreta' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+--------------------------------------------------
+
+ERROR: conj → amod
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'behartsuak': 1 times (33.3%)
+  'azkarra': 1 times (33.3%)
+  'indartsua': 1 times (33.3%)
+
+All lines: 160, 233, 235
+All occurrences:
+  1. Line 160: 'behartsuak' (UPOS: ADJ) in sentence 12
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+  2. Line 233: 'azkarra' (UPOS: ADJ) in sentence 17
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+  3. Line 235: 'indartsua' (UPOS: ADJ) in sentence 17
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+--------------------------------------------------
+
+ERROR: nmod → obl
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'batasunerako': 1 times (33.3%)
+  'egiptoko': 1 times (33.3%)
+  'bilbo': 1 times (33.3%)
+
+All lines: 163, 614, 709
+All occurrences:
+  1. Line 163: 'batasunerako' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+  2. Line 614: 'Egiptoko' (UPOS: PROPN) in sentence 42
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  3. Line 709: 'Bilbo' (UPOS: PROPN) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: aux → acl
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'badugu': 1 times (33.3%)
+  'gintuzten': 1 times (33.3%)
+  'baititu': 1 times (33.3%)
+
+All lines: 185, 390, 678
+All occurrences:
+  1. Line 185: 'badugu' (UPOS: AUX) in sentence 13
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 390: 'gintuzten' (UPOS: AUX) in sentence 26
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  3. Line 678: 'baititu' (UPOS: AUX) in sentence 46
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: obl → amod
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'errezeloz': 1 times (33.3%)
+  'barne': 1 times (33.3%)
+  'estrainekoz': 1 times (33.3%)
+
+All lines: 199, 385, 396
+All occurrences:
+  1. Line 199: 'errezeloz' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: obl → System DEPREL: amod
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+  2. Line 385: 'barne' (UPOS: NOUN) in sentence 26
+     Gold DEPREL: obl → System DEPREL: amod
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  3. Line 396: 'estrainekoz' (UPOS: ADJ) in sentence 27
+     Gold DEPREL: obl → System DEPREL: amod
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'komisioa': 1 times (33.3%)
+  'akzioak': 1 times (33.3%)
+  'athleticek': 1 times (33.3%)
+
+All lines: 270, 400, 669
+All occurrences:
+  1. Line 270: 'komisioa' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  2. Line 400: 'akzioak' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+
+  3. Line 669: 'Athleticek' (UPOS: PROPN) in sentence 46
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: compound → obj
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'giza': 1 times (33.3%)
+  'axola': 1 times (33.3%)
+  'behar': 1 times (33.3%)
+
+All lines: 279, 494, 655
+All occurrences:
+  1. Line 279: 'giza' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: compound → System DEPREL: obj
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  2. Line 494: 'axola' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: compound → System DEPREL: obj
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+  3. Line 655: 'behar' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: compound → System DEPREL: obj
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: obj → nmod
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'urratzeak': 1 times (33.3%)
+  'guraso': 1 times (33.3%)
+  'jokoa': 1 times (33.3%)
+
+All lines: 281, 467, 671
+All occurrences:
+  1. Line 281: 'urratzeak' (UPOS: NOUN) in sentence 20
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+  2. Line 467: 'guraso' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+  3. Line 671: 'jokoa' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: cop → csubj
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'da': 3 times (100.0%)
+
+All lines: 312, 353, 478
+All occurrences:
+  1. Line 312: 'da' (UPOS: AUX) in sentence 22
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 353: 'da' (UPOS: AUX) in sentence 25
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  3. Line 478: 'da' (UPOS: AUX) in sentence 32
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+--------------------------------------------------
+
+ERROR: conj → obl
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'komenigarria': 1 times (33.3%)
+  'de': 1 times (33.3%)
+  'lehorretan': 1 times (33.3%)
+
+All lines: 314, 428, 618
+All occurrences:
+  1. Line 314: 'komenigarria' (UPOS: ADJ) in sentence 22
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 428: 'De' (UPOS: X) in sentence 29
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+  3. Line 618: 'lehorretan' (UPOS: ADJ) in sentence 42
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: conj → ccomp
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'du': 1 times (33.3%)
+  'bihurtzen': 1 times (33.3%)
+  'irauten': 1 times (33.3%)
+
+All lines: 366, 483, 610
+All occurrences:
+  1. Line 366: 'du' (UPOS: VERB) in sentence 25
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+  2. Line 483: 'bihurtzen' (UPOS: VERB) in sentence 32
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+  3. Line 610: 'irauten' (UPOS: VERB) in sentence 42
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: conj → compound
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'corino': 1 times (33.3%)
+  'alvarez': 1 times (33.3%)
+  'aldeondo': 1 times (33.3%)
+
+All lines: 431, 433, 435
+All occurrences:
+  1. Line 431: 'Corino' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: compound
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+  2. Line 433: 'Alvarez' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: compound
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+  3. Line 435: 'Aldeondo' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: conj → System DEPREL: compound
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+--------------------------------------------------
+
+ERROR: advmod → mark
+Occurrences: 3 (0.93%)
+All error-causing words for this error:
+  'ez': 3 times (100.0%)
+
+All lines: 555, 601, 677
+All occurrences:
+  1. Line 555: 'ez' (UPOS: PART) in sentence 38
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  2. Line 601: 'ez' (UPOS: PART) in sentence 42
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+  3. Line 677: 'ez' (UPOS: PART) in sentence 46
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: det → amod
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'beste': 1 times (50.0%)
+  'gehiago': 1 times (50.0%)
+
+All lines: 7, 10
+All occurrences:
+  1. Line 7: 'beste' (UPOS: DET) in sentence 1
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+  2. Line 10: 'gehiago' (UPOS: DET) in sentence 1
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+
+--------------------------------------------------
+
+ERROR: nummod → dep
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'batean': 1 times (50.0%)
+  'bi': 1 times (50.0%)
+
+All lines: 32, 151
+All occurrences:
+  1. Line 32: 'batean' (UPOS: NUM) in sentence 3
+     Gold DEPREL: nummod → System DEPREL: dep
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 151: 'Bi' (UPOS: NUM) in sentence 12
+     Gold DEPREL: nummod → System DEPREL: dep
+     Full sentence: Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+
+--------------------------------------------------
+
+ERROR: det → nummod
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'batzuetan': 1 times (50.0%)
+  'milaka': 1 times (50.0%)
+
+All lines: 35, 612
+All occurrences:
+  1. Line 35: 'batzuetan' (UPOS: DET) in sentence 3
+     Gold DEPREL: det → System DEPREL: nummod
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+  2. Line 612: 'milaka' (UPOS: DET) in sentence 42
+     Gold DEPREL: det → System DEPREL: nummod
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: acl → advcl
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'izan': 1 times (50.0%)
+  'jasotzen': 1 times (50.0%)
+
+All lines: 55, 333
+All occurrences:
+  1. Line 55: 'izan' (UPOS: VERB) in sentence 5
+     Gold DEPREL: acl → System DEPREL: advcl
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 333: 'jasotzen' (UPOS: VERB) in sentence 23
+     Gold DEPREL: acl → System DEPREL: advcl
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+--------------------------------------------------
+
+ERROR: amod → nsubj
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'apurrak': 1 times (50.0%)
+  'palestinarrak': 1 times (50.0%)
+
+All lines: 58, 565
+All occurrences:
+  1. Line 58: 'apurrak' (UPOS: ADJ) in sentence 5
+     Gold DEPREL: amod → System DEPREL: nsubj
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 565: 'palestinarrak' (UPOS: ADJ) in sentence 39
+     Gold DEPREL: amod → System DEPREL: nsubj
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+--------------------------------------------------
+
+ERROR: root → advcl
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'dut': 1 times (50.0%)
+  'aritu': 1 times (50.0%)
+
+All lines: 63, 144
+All occurrences:
+  1. Line 63: 'dut' (UPOS: VERB) in sentence 5
+     Gold DEPREL: root → System DEPREL: advcl
+     Full sentence: Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+
+  2. Line 144: 'aritu' (UPOS: VERB) in sentence 11
+     Gold DEPREL: root → System DEPREL: advcl
+     Full sentence: Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+
+--------------------------------------------------
+
+ERROR: cop → root
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'izan': 1 times (50.0%)
+  'da': 1 times (50.0%)
+
+All lines: 82, 579
+All occurrences:
+  1. Line 82: 'izan' (UPOS: AUX) in sentence 7
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+
+  2. Line 579: 'da' (UPOS: AUX) in sentence 40
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: - Eszena patetikoa da oso .
+
+--------------------------------------------------
+
+ERROR: ccomp → advcl
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'hasi': 1 times (50.0%)
+  'dela': 1 times (50.0%)
+
+All lines: 93, 236
+All occurrences:
+  1. Line 93: 'hasi' (UPOS: VERB) in sentence 8
+     Gold DEPREL: ccomp → System DEPREL: advcl
+     Full sentence: Beraz , idazten ere lehenago hasi nintzela esan liteke .
+
+  2. Line 236: 'dela' (UPOS: VERB) in sentence 17
+     Gold DEPREL: ccomp → System DEPREL: advcl
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+--------------------------------------------------
+
+ERROR: obj → csubj
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'hitzarmena': 1 times (50.0%)
+  'esanak': 1 times (50.0%)
+
+All lines: 107, 414
+All occurrences:
+  1. Line 107: 'hitzarmena' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: obj → System DEPREL: csubj
+     Full sentence: Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+
+  2. Line 414: 'esanak' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: obj → System DEPREL: csubj
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+--------------------------------------------------
+
+ERROR: advcl → xcomp
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'irabazteko': 1 times (50.0%)
+  'aztertzeko': 1 times (50.0%)
+
+All lines: 177, 282
+All occurrences:
+  1. Line 177: 'irabazteko' (UPOS: VERB) in sentence 13
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 282: 'aztertzeko' (UPOS: VERB) in sentence 20
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+--------------------------------------------------
+
+ERROR: conj → obj
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'hautagaiak': 1 times (50.0%)
+  'gorpua': 1 times (50.0%)
+
+All lines: 178, 600
+All occurrences:
+  1. Line 178: 'hautagaiak' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 600: 'gorpua' (UPOS: NOUN) in sentence 42
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: advcl → mark
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'baldin': 1 times (50.0%)
+  'gabe': 1 times (50.0%)
+
+All lines: 184, 606
+All occurrences:
+  1. Line 184: 'baldin' (UPOS: CCONJ) in sentence 13
+     Gold DEPREL: advcl → System DEPREL: mark
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+  2. Line 606: 'gabe' (UPOS: ADV) in sentence 42
+     Gold DEPREL: advcl → System DEPREL: mark
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: nsubj → obl
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'datak': 1 times (50.0%)
+  'abereak': 1 times (50.0%)
+
+All lines: 294, 722
+All occurrences:
+  1. Line 294: 'datak' (UPOS: NOUN) in sentence 21
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+  2. Line 722: 'abereak' (UPOS: NOUN) in sentence 49
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: cop → conj
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'izango': 1 times (50.0%)
+  'daude': 1 times (50.0%)
+
+All lines: 315, 439
+All occurrences:
+  1. Line 315: 'izango' (UPOS: AUX) in sentence 22
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 439: 'daude' (UPOS: AUX) in sentence 29
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+--------------------------------------------------
+
+ERROR: aux → csubj
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'litzateke': 1 times (50.0%)
+  'duzula': 1 times (50.0%)
+
+All lines: 316, 446
+All occurrences:
+  1. Line 316: 'litzateke' (UPOS: AUX) in sentence 22
+     Gold DEPREL: aux → System DEPREL: csubj
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+  2. Line 446: 'duzula' (UPOS: AUX) in sentence 30
+     Gold DEPREL: aux → System DEPREL: csubj
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+--------------------------------------------------
+
+ERROR: advmod → det
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'han': 1 times (50.0%)
+  'asko': 1 times (50.0%)
+
+All lines: 372, 493
+All occurrences:
+  1. Line 372: 'han' (UPOS: ADV) in sentence 26
+     Gold DEPREL: advmod → System DEPREL: det
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+  2. Line 493: 'asko' (UPOS: ADV) in sentence 33
+     Gold DEPREL: advmod → System DEPREL: det
+     Full sentence: Susanari ere ez zirudien asko axola zitzaionik :
+
+--------------------------------------------------
+
+ERROR: ccomp → acl
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'prestatu': 1 times (50.0%)
+  'aldatuko': 1 times (50.0%)
+
+All lines: 548, 672
+All occurrences:
+  1. Line 548: 'prestatu' (UPOS: VERB) in sentence 38
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  2. Line 672: 'aldatuko' (UPOS: VERB) in sentence 46
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: nmod → nmod:poss
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'gure': 1 times (50.0%)
+  'nire': 1 times (50.0%)
+
+All lines: 553, 630
+All occurrences:
+  1. Line 553: 'gure' (UPOS: PRON) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: nmod:poss
+     Full sentence: Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+
+  2. Line 630: 'nire' (UPOS: PRON) in sentence 43
+     Gold DEPREL: nmod → System DEPREL: nmod:poss
+     Full sentence: Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+
+--------------------------------------------------
+
+ERROR: obl → case
+Occurrences: 2 (0.62%)
+All error-causing words for this error:
+  'itsasoan': 1 times (50.0%)
+  'udalekuetara': 1 times (50.0%)
+
+All lines: 688, 730
+All occurrences:
+  1. Line 688: 'Itsasoan' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: obl → System DEPREL: case
+     Full sentence: Itsasoan egoera ikusi beharko da .
+
+  2. Line 730: 'Udalekuetara' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: obl → System DEPREL: case
+     Full sentence: Udalekuetara goaz !
+
+--------------------------------------------------
+
+ERROR: nsubj → appos
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'adin': 1 times (100.0%)
+
+All lines: 18
+All occurrences:
+  1. Line 18: 'adin' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nsubj → System DEPREL: appos
+     Full sentence: O.G.M. adin txikikoa aske irten da Langraiztik .
+
+--------------------------------------------------
+
+ERROR: appos → obl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'ordu': 1 times (100.0%)
+
+All lines: 34
+All occurrences:
+  1. Line 34: 'ordu' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+
+--------------------------------------------------
+
+ERROR: acl → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'agertzen': 1 times (100.0%)
+
+All lines: 46
+All occurrences:
+  1. Line 46: 'agertzen' (UPOS: VERB) in sentence 4
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Bigarren marrazkian agertzen den muntaia egizu .
+
+--------------------------------------------------
+
+ERROR: nsubj → dep
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'haiek': 1 times (100.0%)
+
+All lines: 175
+All occurrences:
+  1. Line 175: 'haiek' (UPOS: DET) in sentence 13
+     Gold DEPREL: nsubj → System DEPREL: dep
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+--------------------------------------------------
+
+ERROR: cop → xcomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'dira': 1 times (100.0%)
+
+All lines: 176
+All occurrences:
+  1. Line 176: 'dira' (UPOS: AUX) in sentence 13
+     Gold DEPREL: cop → System DEPREL: xcomp
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+--------------------------------------------------
+
+ERROR: obj → appos
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'xantza': 1 times (100.0%)
+
+All lines: 181
+All occurrences:
+  1. Line 181: 'xantza' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: appos
+     Full sentence: Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+
+--------------------------------------------------
+
+ERROR: nsubj → det
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'askok': 1 times (100.0%)
+
+All lines: 195
+All occurrences:
+  1. Line 195: 'Askok' (UPOS: DET) in sentence 14
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+
+--------------------------------------------------
+
+ERROR: obj → amod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'aurrelari': 1 times (100.0%)
+
+All lines: 230
+All occurrences:
+  1. Line 230: 'Aurrelari' (UPOS: NOUN) in sentence 17
+     Gold DEPREL: obj → System DEPREL: amod
+     Full sentence: Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+
+--------------------------------------------------
+
+ERROR: advmod → nsubj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'gero': 1 times (100.0%)
+
+All lines: 244
+All occurrences:
+  1. Line 244: 'Gero' (UPOS: ADV) in sentence 18
+     Gold DEPREL: advmod → System DEPREL: nsubj
+     Full sentence: Gero hileta elizkizunera joan zen Barne ministroa .
+
+--------------------------------------------------
+
+ERROR: obl → nummod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  '1991n': 1 times (100.0%)
+
+All lines: 265
+All occurrences:
+  1. Line 265: '1991n' (UPOS: NUM) in sentence 20
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+
+--------------------------------------------------
+
+ERROR: ccomp → nsubj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'estuegiak': 1 times (100.0%)
+
+All lines: 297
+All occurrences:
+  1. Line 297: 'estuegiak' (UPOS: ADJ) in sentence 21
+     Gold DEPREL: ccomp → System DEPREL: nsubj
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+--------------------------------------------------
+
+ERROR: cop → ccomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'zirela': 1 times (100.0%)
+
+All lines: 299
+All occurrences:
+  1. Line 299: 'zirela' (UPOS: AUX) in sentence 21
+     Gold DEPREL: cop → System DEPREL: ccomp
+     Full sentence: Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+
+--------------------------------------------------
+
+ERROR: compound → case
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'egunetik': 1 times (100.0%)
+
+All lines: 309
+All occurrences:
+  1. Line 309: 'egunetik' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: compound → System DEPREL: case
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+--------------------------------------------------
+
+ERROR: csubj → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'begiratzea': 1 times (100.0%)
+
+All lines: 318
+All occurrences:
+  1. Line 318: 'begiratzea' (UPOS: VERB) in sentence 22
+     Gold DEPREL: csubj → System DEPREL: root
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+--------------------------------------------------
+
+ERROR: obj → parataxis
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'zegoena': 1 times (100.0%)
+
+All lines: 321
+All occurrences:
+  1. Line 321: 'zegoena' (UPOS: VERB) in sentence 22
+     Gold DEPREL: obj → System DEPREL: parataxis
+     Full sentence: Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+
+--------------------------------------------------
+
+ERROR: iobj → obl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'abokatuari': 1 times (100.0%)
+
+All lines: 329
+All occurrences:
+  1. Line 329: 'abokatuari' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: iobj → System DEPREL: obl
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+--------------------------------------------------
+
+ERROR: obl → xcomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'deian': 1 times (100.0%)
+
+All lines: 331
+All occurrences:
+  1. Line 331: 'deian' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: obl → System DEPREL: xcomp
+     Full sentence: Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+
+--------------------------------------------------
+
+ERROR: root → nsubj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'jokalari': 1 times (100.0%)
+
+All lines: 351
+All occurrences:
+  1. Line 351: 'Jokalari' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+--------------------------------------------------
+
+ERROR: obj → nummod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  '%70': 1 times (100.0%)
+
+All lines: 357
+All occurrences:
+  1. Line 357: '%70' (UPOS: NUM) in sentence 25
+     Gold DEPREL: obj → System DEPREL: nummod
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+--------------------------------------------------
+
+ERROR: acl → xcomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'nahi': 1 times (100.0%)
+
+All lines: 359
+All occurrences:
+  1. Line 359: 'nahi' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+--------------------------------------------------
+
+ERROR: xcomp → acl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'ohitu': 1 times (100.0%)
+
+All lines: 364
+All occurrences:
+  1. Line 364: 'ohitu' (UPOS: VERB) in sentence 25
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+--------------------------------------------------
+
+ERROR: compound → acl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'behar': 1 times (100.0%)
+
+All lines: 365
+All occurrences:
+  1. Line 365: 'behar' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: compound → System DEPREL: acl
+     Full sentence: Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+
+--------------------------------------------------
+
+ERROR: advmod → case
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'bertan': 1 times (100.0%)
+
+All lines: 373
+All occurrences:
+  1. Line 373: 'bertan' (UPOS: ADV) in sentence 26
+     Gold DEPREL: advmod → System DEPREL: case
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: aux → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'zituzten': 1 times (100.0%)
+
+All lines: 375
+All occurrences:
+  1. Line 375: 'zituzten' (UPOS: AUX) in sentence 26
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: det → cc
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'beste': 1 times (100.0%)
+
+All lines: 377
+All occurrences:
+  1. Line 377: 'beste' (UPOS: DET) in sentence 26
+     Gold DEPREL: det → System DEPREL: cc
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod:poss
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'ni': 1 times (100.0%)
+
+All lines: 384
+All occurrences:
+  1. Line 384: 'ni' (UPOS: PRON) in sentence 26
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: xcomp → amod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'libre': 1 times (100.0%)
+
+All lines: 388
+All occurrences:
+  1. Line 388: 'libre' (UPOS: ADV) in sentence 26
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+
+--------------------------------------------------
+
+ERROR: iobj → nmod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'lehendakariari': 1 times (100.0%)
+
+All lines: 421
+All occurrences:
+  1. Line 421: 'lehendakariari' (UPOS: NOUN) in sentence 28
+     Gold DEPREL: iobj → System DEPREL: nmod
+     Full sentence: Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+
+--------------------------------------------------
+
+ERROR: flat → compound
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'paula': 1 times (100.0%)
+
+All lines: 429
+All occurrences:
+  1. Line 429: 'Paula' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat → System DEPREL: compound
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+--------------------------------------------------
+
+ERROR: compound → nsubj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'min': 1 times (100.0%)
+
+All lines: 437
+All occurrences:
+  1. Line 437: 'min' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: compound → System DEPREL: nsubj
+     Full sentence: Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+
+--------------------------------------------------
+
+ERROR: compound → advcl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'egiten': 1 times (100.0%)
+
+All lines: 454
+All occurrences:
+  1. Line 454: 'egiten' (UPOS: VERB) in sentence 30
+     Gold DEPREL: compound → System DEPREL: advcl
+     Full sentence: Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+
+--------------------------------------------------
+
+ERROR: compound → amod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'euskal': 1 times (100.0%)
+
+All lines: 462
+All occurrences:
+  1. Line 462: 'Euskal' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: compound → System DEPREL: amod
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+--------------------------------------------------
+
+ERROR: amod → obj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'euskaldunak': 1 times (100.0%)
+
+All lines: 468
+All occurrences:
+  1. Line 468: 'euskaldunak' (UPOS: ADJ) in sentence 31
+     Gold DEPREL: amod → System DEPREL: obj
+     Full sentence: - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+
+--------------------------------------------------
+
+ERROR: advcl → advmod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'ahala': 1 times (100.0%)
+
+All lines: 481
+All occurrences:
+  1. Line 481: 'ahala' (UPOS: ADV) in sentence 32
+     Gold DEPREL: advcl → System DEPREL: advmod
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+--------------------------------------------------
+
+ERROR: xcomp → nsubj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'marroi-zikin': 1 times (100.0%)
+
+All lines: 482
+All occurrences:
+  1. Line 482: 'marroi-zikin' (UPOS: ADJ) in sentence 32
+     Gold DEPREL: xcomp → System DEPREL: nsubj
+     Full sentence: hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+
+--------------------------------------------------
+
+ERROR: root → ccomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'argaldu': 1 times (100.0%)
+
+All lines: 502
+All occurrences:
+  1. Line 502: 'argaldu' (UPOS: VERB) in sentence 34
+     Gold DEPREL: root → System DEPREL: ccomp
+     Full sentence: Gaixotu zenean argaldu zen .
+
+--------------------------------------------------
+
+ERROR: nsubj → amod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'gazte': 1 times (100.0%)
+
+All lines: 564
+All occurrences:
+  1. Line 564: 'gazte' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nsubj → System DEPREL: amod
+     Full sentence: Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+
+--------------------------------------------------
+
+ERROR: nsubj → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'momifikatu': 1 times (100.0%)
+
+All lines: 596
+All occurrences:
+  1. Line 596: 'momifikatu' (UPOS: VERB) in sentence 42
+     Gold DEPREL: nsubj → System DEPREL: root
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: advcl → conj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'usteldu': 1 times (100.0%)
+
+All lines: 605
+All occurrences:
+  1. Line 605: 'usteldu' (UPOS: VERB) in sentence 42
+     Gold DEPREL: advcl → System DEPREL: conj
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: obl → det
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'horretantxe': 1 times (100.0%)
+
+All lines: 609
+All occurrences:
+  1. Line 609: 'horretantxe' (UPOS: DET) in sentence 42
+     Gold DEPREL: obl → System DEPREL: det
+     Full sentence: Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+
+--------------------------------------------------
+
+ERROR: cc → det
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'zein': 1 times (100.0%)
+
+All lines: 642
+All occurrences:
+  1. Line 642: 'zein' (UPOS: CCONJ) in sentence 44
+     Gold DEPREL: cc → System DEPREL: det
+     Full sentence: Marka onena egin zuten ziabogan zein helmugan .
+
+--------------------------------------------------
+
+ERROR: nmod → advcl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'suitzako': 1 times (100.0%)
+
+All lines: 648
+All occurrences:
+  1. Line 648: 'Suitzako' (UPOS: PROPN) in sentence 45
+     Gold DEPREL: nmod → System DEPREL: advcl
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: obl → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'itzulian': 1 times (100.0%)
+
+All lines: 649
+All occurrences:
+  1. Line 649: 'itzulian' (UPOS: NOUN) in sentence 45
+     Gold DEPREL: obl → System DEPREL: root
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: xcomp → conj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'erretiratu': 1 times (100.0%)
+
+All lines: 653
+All occurrences:
+  1. Line 653: 'erretiratu' (UPOS: VERB) in sentence 45
+     Gold DEPREL: xcomp → System DEPREL: conj
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: conj → advcl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'izan': 1 times (100.0%)
+
+All lines: 656
+All occurrences:
+  1. Line 656: 'izan' (UPOS: VERB) in sentence 45
+     Gold DEPREL: conj → System DEPREL: advcl
+     Full sentence: Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+
+--------------------------------------------------
+
+ERROR: compound → root
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'kontuan': 1 times (100.0%)
+
+All lines: 664
+All occurrences:
+  1. Line 664: 'kontuan' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: compound → System DEPREL: root
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: compound → conj
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'behar': 1 times (100.0%)
+
+All lines: 666
+All occurrences:
+  1. Line 666: 'behar' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: compound → System DEPREL: conj
+     Full sentence: Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+
+--------------------------------------------------
+
+ERROR: appos → nummod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  '19:00': 1 times (100.0%)
+
+All lines: 707
+All occurrences:
+  1. Line 707: '19:00' (UPOS: NUM) in sentence 48
+     Gold DEPREL: appos → System DEPREL: nummod
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: flat → obl
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'basket': 1 times (100.0%)
+
+All lines: 710
+All occurrences:
+  1. Line 710: 'Basket' (UPOS: PROPN) in sentence 48
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: punct → dep
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  '.': 1 times (100.0%)
+
+All lines: 712
+All occurrences:
+  1. Line 712: '.' (UPOS: PUNCT) in sentence 48
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+
+--------------------------------------------------
+
+ERROR: advcl → ccomp
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'bagina': 1 times (100.0%)
+
+All lines: 723
+All occurrences:
+  1. Line 723: 'bagina' (UPOS: VERB) in sentence 49
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+
+ERROR: mark → advmod
+Occurrences: 1 (0.31%)
+All error-causing words for this error:
+  'bezala': 1 times (100.0%)
+
+All lines: 724
+All occurrences:
+  1. Line 724: 'bezala' (UPOS: ADV) in sentence 49
+     Gold DEPREL: mark → System DEPREL: advmod
+     Full sentence: " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+
+--------------------------------------------------
+

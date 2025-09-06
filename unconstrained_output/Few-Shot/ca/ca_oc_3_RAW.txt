@@ -1,0 +1,2249 @@
+Raw model output for sentence :
+```conllu
+1	Fundació	Fundació	PROPN	_	_	5	nsubj	_	_
+2	Privada	Privada	ADJ	_	_	1	amod	_	_
+3	Fira	Fira	PROPN	_	_	1	flat	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Manresa	Manresa	PROPN	_	_	0	root	_	_
+6	ha	haver	AUX	_	_	7	aux	_	_
+7	fet	fer	VERB	_	_	5	acl	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	balanç	balanç	NOUN	_	_	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	l'	el	DET	_	_	12	det	_	_
+12	activitat	activitat	NOUN	_	_	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	el	el	DET	_	_	15	det	_	_
+15	Palau	Palau	PROPN	_	_	12	nmod	_	_
+16	Firal	Firal	ADJ	_	_	15	amod	_	_
+17	durant	durant	ADP	_	_	18	case	_	_
+18	els	el	DET	_	_	19	det	_	_
+19	primers	primer	ADJ	_	_	20	amod	_	_
+20	cinc	cinc	NUM	_	_	21	nummod	_	_
+21	mesos	mes	NOUN	_	_	17	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	l'	el	DET	_	_	24	det	_	_
+24	any	any	NOUN	_	_	21	nmod	_	_
+25	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1-2	En	_	_	_	_	_	_	_	_
+1	en	en	ADP	_	_	3	case	_	_
+2	aquest	aquest	DET	_	_	3	det	_	_
+3	temps	temps	NOUN	_	_	10	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	Palau	Palau	PROPN	_	_	10	nsubj	_	_
+7	ha	haver	AUX	_	_	10	aux	_	_
+8	acollit	acollir	VERB	_	_	10	xcomp	_	_
+9	13	13	NUM	_	_	10	nummod	_	_
+10	activitats	activitat	NOUN	_	_	0	root	_	_
+11	diverses	divers	ADJ	_	_	10	amod	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	banda	banda	NOUN	_	_	10	obl	_	_
+15-16	dels	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	els	el	DET	_	_	17	det	_	_
+17	certàmens	certamen	NOUN	_	_	14	nmod	_	_
+18	firals	firal	ADJ	_	_	17	amod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	gran	gran	ADJ	_	_	21	amod	_	_
+21	format	format	NOUN	_	_	17	nmod	_	_
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	algunes	algun	DET	_	_	26	det	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	les	el	DET	_	_	26	det	_	_
+26	quals	qual	PRON	_	_	29	nsubj	_	_
+27	no	no	PART	_	_	28	neg	_	_
+28	s'	ell	PRON	_	_	29	aux	_	_
+29	han	haver	AUX	_	_	32	aux	_	_
+30	obert	obrir	VERB	_	_	32	xcomp	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	32	case	_	_
+32	el	el	DET	_	_	33	det	_	_
+33	públic	públic	NOUN	_	_	29	obj	_	_
+34	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Això	això	PRON	_	_	2	nsubj	_	_
+2	suposa	suposar	VERB	_	_	0	root	_	_
+3	una	un	DET	_	_	4	det	_	_
+4	utilització	utilització	NOUN	_	_	2	obj	_	_
+5	d'	de	ADP	_	_	6	case	_	_
+6	aquest	aquest	DET	_	_	7	det	_	_
+7	recinte	recinte	NOUN	_	_	4	nmod	_	_
+8-9	del	_	_	_	_	8	case	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	40	40	NUM	_	_	11	nummod	_	_
+11	per	per	ADP	_	_	12	case	_	_
+12	cent	cent	NUM	_	_	13	nummod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	dies	dia	NOUN	_	_	10	nmod	_	_
+15	d'	de	ADP	_	_	16	case	_	_
+16	aquest	aquest	DET	_	_	17	det	_	_
+17	any	any	NOUN	_	_	14	nmod	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Segons	segons	ADP	_	_	3	case	_	_
+2	Fira	Fira	PROPN	_	_	3	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Manresa	Manresa	PROPN	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	les	el	DET	_	_	7	det	_	_
+7	estadístiques	estadística	NOUN	_	_	8	nsubj	_	_
+8	constaten	constatar	VERB	_	_	4	parataxis	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	Palau	Palau	PROPN	_	_	12	nsubj	_	_
+12	és	ser	VERB	_	_	8	ccomp	_	_
+13	un	un	DET	_	_	14	det	_	_
+14	equipament	equipament	NOUN	_	_	12	xcomp	_	_
+15	'	'	PUNCT	_	_	14	punct	_	_
+16	viu	viu	ADJ	_	_	14	amod	_	_
+17	'	'	PUNCT	_	_	16	punct	_	_
+18	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token.
+- **LEMMA**: The base form or root of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag.
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph dependencies.
+- **MISC**: Any miscellaneous information.
+Raw model output for sentence :
+```conll
+1	Els	el	DET	_	_	5	det	_	_
+2	responsables	responsable	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	gestió	gestió	NOUN	_	_	9	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	recinte	recinte	NOUN	_	_	5	nmod	_	_
+9	afirmen	afirmar	VERB	_	_	0	root	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	aquestes	aquest	DET	_	_	12	det	_	_
+12	dades	dada	NOUN	_	_	13	nsubj	_	_
+13	contrasten	contrastar	VERB	_	_	9	ccomp	_	_
+14	amb	amb	ADP	_	_	16	case	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	percepció	percepció	NOUN	_	_	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	molts	molt	DET	_	_	19	det	_	_
+19	ciutadans	ciutadà	NOUN	_	_	16	nmod	_	_
+20	que	que	SCONJ	_	_	22	mark	_	_
+21	aquest	aquest	DET	_	_	22	det	_	_
+22	edifici	edifici	NOUN	_	_	19	acl	_	_
+23	roman	romandre	VERB	_	_	22	acl	_	_
+24	inactiu	inactiu	ADJ	_	_	22	amod	_	_
+25	durant	durant	ADP	_	_	27	case	_	_
+26	bona	bo	DET	_	_	27	det	_	_
+27	part	part	NOUN	_	_	23	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	l'	el	DET	_	_	30	det	_	_
+30	any	any	NOUN	_	_	27	nmod	_	_
+31	.	.	PUNCT	_	_	9	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1-2	En	_	_	_	_	_	_	_	_
+1	en	en	ADP	_	_	3	case	_	_
+2	aquests	aquest	DET	_	_	3	det	_	_
+3	primers	primer	ADJ	_	_	5	amod	_	_
+4	cinc	cinc	NUM	_	_	5	nummod	_	_
+5	mesos	mes	NOUN	_	_	6	nsubj	_	_
+6	d'	de	ADP	_	_	7	case	_	_
+7	any	any	NOUN	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	Palau	Palau	PROPN	_	_	13	nsubj	_	_
+11	Firal	Firal	PROPN	_	_	10	flat	_	_
+12	ha	haver	AUX	_	_	13	aux	_	_
+13	acollit	acollir	VERB	_	_	7	acl	_	_
+14	13	13	NUM	_	_	13	obj	_	_
+15	activitats	activitat	NOUN	_	_	13	obj	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	més	més	ADV	_	_	21	advmod	_	_
+19-20	dels	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	els	el	DET	_	_	21	det	_	_
+21	certàmens	certamen	NOUN	_	_	13	obl	_	_
+22	firals	firal	ADJ	_	_	21	amod	_	_
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., ADP = adposition, DET = determiner, NOUN = noun, VERB = verb)
+* **XPOS:** Language-specific POS tag (not relevant for Catalan, so left blank)
+* **FEATS:** Morphological features (e.g., gender, number, tense) 
+* **HEAD:** The ID of the syntactic head of the word.
+* **DEPREL:** The dependency relation between the word and its head.
+* **DEPS:** Enhanced dependency relation (not always used).
+* **MISC:** Any miscellaneous information (e.g., punctuation marks).
+
+
+
+**Key Decisions:**
+
+* **7 as root:** The sentence talks about the activities hosted by Palau Firal, making "ha acollit" (has hosted) the main action.
+* **13 as acl (adjectival clause):**  "ha acollit" modifies the noun "Palau Firal," acting as an adjectival clause.
+* **18 as advmod:** "a més" (more than) modifies the noun "certàmens firals" (firals contests) acting as an adverbial modifier.
+* **22 as amod:** "firals" (firals) modifies "certàmens" (contests), indicating a type of contest.
+Raw model output for sentence :
+```conllu
+1	D'	de	ADP	_	_	3	case	_	_
+2	aquestes	aquest	DET	_	_	3	det	_	_
+3	activitats	activitat	NOUN	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	algunes	algun	DET	_	_	6	det	_	_
+6	no	no	PART	_	_	8	neg	_	_
+7	s'	ell	PRON	_	_	8	nsubj	_	_
+8	han	haver	VERB	_	_	3	acl	_	_
+9	obert	obrir	VERB	_	_	8	xcomp	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	públic	públic	NOUN	_	_	9	obj	_	_
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Per	per	ADP	_	_	3	case	_	_
+2	exemple	exemple	NOUN	_	_	3	obl	_	_
+3	,	,	PUNCT	_	_	15	punct	_	_
+4	empreses	empresa	NOUN	_	_	5	nsubj	_	_
+5	i	i	CCONJ	_	_	6	conj	_	_
+6	entitats	entitat	NOUN	_	_	8	nsubj	_	_
+7	han	haver	AUX	_	_	8	aux	_	_
+8	utilitzat	utilitzar	VERB	_	_	0	root	_	_
+9	l'	el	DET	_	_	10	det	_	_
+10	edifici	edifici	NOUN	_	_	8	obj	_	_
+11	per	per	ADP	_	_	12	case	_	_
+12	a	a	ADP	_	_	14	mark	_	_
+13-14	fer-hi	fer	VERB	_	_	8	xcomp	_	_
+13	fer	fer	VERB	_	_	14	compound:svc	_	_
+14	hi	hi	PRON	_	_	12	obj	_	_
+15	proves	prova	NOUN	_	_	14	obj	_	_
+16	i	i	CCONJ	_	_	17	cc	_	_
+17	assajos	assaig	NOUN	_	_	15	conj	_	_
+18	.	.	PUNCT	_	_	8	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Un	un	DET	_	_	3	det	_	_
+2	d'	de	ADP	_	_	3	case	_	_
+3	aquests	aquest	NOUN	_	_	5	nsubj	_	_
+4	casos	cas	NOUN	_	_	3	compound	_	_
+5	ha	haver	VERB	_	_	0	root	_	_
+6	estat	ser	AUX	_	_	5	aux	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	dels	el	NOUN	_	_	10	nmod	_	_
+9	Armats	Armats	PROPN	_	_	8	compound	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	Manresa	Manresa	PROPN	_	_	12	nmod	_	_
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	_	15	nsubj	_	_
+14	van	anar	VERB	_	_	15	aux	_	_
+15	utilitzar	utilitzar	VERB	_	_	5	ccomp	_	_
+16	el	el	DET	_	_	17	det	_	_
+17	Palau	Palau	PROPN	_	_	15	obj	_	_
+18	Firal	Firal	PROPN	_	_	17	compound	_	_
+19	durant	durant	ADP	_	_	21	case	_	_
+20	11	11	NUM	_	_	21	nummod	_	_
+21	dies	dia	NOUN	_	_	15	obl	_	_
+22	per	per	ADP	_	_	24	case	_	_
+23	als	el	DET	_	_	24	det	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	els	el	DET	_	_	26	det	_	_
+26	assajos	assaig	NOUN	_	_	21	nmod	_	_
+27	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	La	el	DET	_	_	2	det	_	_
+2	Casa	Casa	PROPN	_	_	7	nsubj	_	_
+3	d'	de	ADP	_	_	4	case	_	_
+4	Andalusia	Andalusia	PROPN	_	_	2	nmod	_	_
+5	també	també	ADV	_	_	7	advmod	_	_
+6	va	anar	AUX	_	_	7	aux	_	_
+7	utilitzar	utilitzar	VERB	_	_	0	root	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	recinte	recinte	NOUN	_	_	7	obj	_	_
+10	durant	durant	ADP	_	_	11	case	_	_
+11	17	17	NUM	_	_	7	obl	_	_
+12	dies	dia	NOUN	_	_	11	nmod	_	_
+13	per	per	ADP	_	_	14	case	_	_
+14	assajar	assajar	VERB	_	_	7	xcomp	_	_
+15	els	el	DET	_	_	16	det	_	_
+16	passos	pas	NOUN	_	_	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	la	el	DET	_	_	19	det	_	_
+19	verge	verge	NOUN	_	_	14	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	la	el	DET	_	_	22	det	_	_
+22	Macarena	Macarena	PROPN	_	_	19	nmod	_	_
+23	per	per	ADP	_	_	24	case	_	_
+24	a	a	ADP	_	_	25	det	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	processó	processó	NOUN	_	_	24	obj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Setmana	Setmana	PROPN	_	_	26	nmod	_	_
+29	Santa	Santa	PROPN	_	_	28	flat	_	_
+30	i	i	CCONJ	_	_	31	cc	_	_
+31	una	un	DET	_	_	32	det	_	_
+32	empresa	empresa	NOUN	_	_	7	conj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	logística	logística	NOUN	_	_	32	nmod	_	_
+35	va	anar	AUX	_	_	36	aux	_	_
+36	fer	fer	VERB	_	_	32	xcomp	_	_
+37	servir	servir	VERB	_	_	36	xcomp	_	_
+38	el	el	DET	_	_	39	det	_	_
+39	Palau	Palau	PROPN	_	_	37	obj	_	_
+40	Firal	Firal	PROPN	_	_	39	flat	_	_
+41	per	per	ADP	_	_	42	case	_	_
+42	a	a	ADP	_	_	43	det	_	_
+43	posar	posar	VERB	_	_	37	xcomp	_	_
+44	a	a	ADP	_	_	45	case	_	_
+45	prova	prova	NOUN	_	_	43	obj	_	_
+46	l'	el	DET	_	_	47	det	_	_
+47	escenari	escenari	NOUN	_	_	45	nmod	_	_
+48	que	que	PRON	_	_	49	nsubj	_	_
+49	fa	fer	VERB	_	_	47	acl	_	_
+50	servir	servir	VERB	_	_	49	xcomp	_	_
+51	Alejandro	Alejandro	PROPN	_	_	50	obj	_	_
+52	Sanz	Sanz	PROPN	_	_	51	flat	_	_
+53	en	en	ADP	_	_	54	case	_	_
+54	la	el	DET	_	_	55	det	_	_
+55	seva	seu	NOUN	_	_	54	obj	_	_
+56	gira	gira	NOUN	_	_	55	nmod	_	_
+57	.	.	PUNCT	_	_	7	punct	_	_
+
+```
+Raw model output for sentence :
+```conll
+1	Alhora	alhora	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	el	el	DET	_	_	4	det	_	_
+4	recinte	recinte	NOUN	_	_	5	nsubj	_	_
+5	ha	haver	VERB	_	_	0	root	_	_
+6	servit	servir	VERB	_	_	5	xcomp	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	espai	espai	NOUN	_	_	6	obl	_	_
+10	per	per	ADP	_	_	11	case	_	_
+11-12	als	als	DET	_	_	13	det	_	_
+11	a	a	ADP	_	_	12	mark	_	_
+12	els	el	DET	_	_	13	nmod	_	_
+13	assajos	assaig	NOUN	_	_	9	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	Fira	Fira	PROPN	_	_	13	nmod	_	_
+17	Medieval	Medieval	ADJ	_	_	16	amod	_	_
+18	i	i	CCONJ	_	_	19	cc	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	espectacles	espectacle	NOUN	_	_	16	conj	_	_
+21	que	que	PRON	_	_	22	nsubj	_	_
+22	es	ser	VERB	_	_	20	acl	_	_
+23	presentaran	presentar	VERB	_	_	22	xcomp	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	Fira	Fira	PROPN	_	_	23	obl	_	_
+27	d'	de	ADP	_	_	28	case	_	_
+28	Espectacles	Espectacles	PROPN	_	_	26	nmod	_	_
+29	d'	de	ADP	_	_	30	case	_	_
+30	Arrel	Arrel	PROPN	_	_	28	nmod	_	_
+31	Tradicional	Tradicional	ADJ	_	_	30	amod	_	_
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not applicable in this case as we're using a simplified Catalan tagset)
+* **FEATS:** Morphological features (not applicable in this simple annotation)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used)
+* **MISC:**  Miscellaneous information (e.g., named entities)
+
+
+
+**Key Dependency Relations Used:**
+
+* **root:** The root of the sentence (verb in this case)
+* **advmod:** Adverbial modifier
+* **nsubj:** Nominal subject
+* **xcomp:** Open clausal complement (for verbs like "say", "think")
+* **obl:** Oblique nominal (indirect object or prepositional phrase)
+* **det:** Determiner
+* **nmod:** Noun modifier (adjectives, possessives, prepositional phrases)
+* **conj:** Conjoined element
+* **acl:** Clausal modifier of noun (relative clauses)
+* **cc:** Coordinating conjunction
+Raw model output for sentence :
+```conllu
+1	L'	_	DET	_	_	2	det	_	ID=1-2
+1.1	el	el	_	_	_	2	_	_
+2	àrea	àrea	NOUN	_	_	7	nsubj	_	ID=2
+3	de	de	ADP	_	_	4	case	_	ID=3
+4	serveis	servei	NOUN	_	_	2	nmod	_	ID=4
+5-6	del	_	_	_	_	_	_	_	ID=5-6
+5	de	de	ADP	_	_	6	case	_	ID=5
+6	el	el	DET	_	_	7	det	_	ID=6
+7	Palau	Palau	PROPN	_	_	0	root	_	ID=7
+8	Firal	Firal	PROPN	_	_	7	flat	_	ID=8
+9	,	,	PUNCT	_	_	10	punct	_	ID=9
+10	que	que	PRON	_	_	11	nsubj	_	ID=10
+11	inclou	incloure	VERB	_	_	7	acl	_	ID=11
+12	la	el	DET	_	_	13	det	_	ID=12
+13	sala	sala	NOUN	_	_	11	obj	_	ID=13
+14	d'	de	ADP	_	_	15	case	_	ID=14
+15	actes	acte	NOUN	_	_	13	nmod	_	ID=15
+16	i	i	CCONJ	_	_	17	cc	_	ID=16
+17	les	el	DET	_	_	18	det	_	ID=17
+18	aules	aula	NOUN	_	_	15	conj	_	ID=18
+19	,	,	PUNCT	_	_	20	punct	_	ID=19
+20	ha	haver	AUX	_	_	21	aux	_	ID=20
+21	estat	ser	VERB	_	_	27	advcl	_	ID=21
+22	també	també	ADV	_	_	21	advmod	_	ID=22
+23	utilitzada	utilitzar	VERB	_	_	21	xcomp	_	ID=23
+24	amb	amb	ADP	_	_	26	case	_	ID=24
+25	diverses	divers	ADJ	_	_	26	amod	_	ID=25
+26	finalitats	finalitat	NOUN	_	_	23	obj	_	ID=26
+27	.	.	PUNCT	_	_	7	punct	_	ID=27
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, ADP).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., gender, number).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph information (not always used).
+* **MISC:** Any other miscellaneous information.
+
+
+
+I've made some assumptions about the context, particularly for the pronoun "que" (which can be relative or interrogative).  In this case, it's treated as a relative pronoun introducing a relative clause.
+Raw model output for sentence :
+```conllu
+1	Així	així	ADV	_	_	5	advmod	_	_
+2	s'	ell	PRON	_	_	3	dep	_	_
+3	hi	hi	ADV	_	_	5	advmod	_	_
+4	ha	haver	AUX	_	_	5	aux	_	_
+5	fet	fer	VERB	_	_	0	root	_	_
+6	actes	acte	NOUN	_	_	5	obj	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	reunions	reunió	NOUN	_	_	6	conj	_	_
+9	d'	de	ADP	_	_	10	case	_	_
+10	institucions	institució	NOUN	_	_	8	nmod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	Jove	Jove	PROPN	_	_	10	nmod	_	_
+13	Cambra	Cambra	PROPN	_	_	12	flat	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Comissions	Comissions	NOUN	_	_	10	conj	_	_
+16	Obreres	Obreres	NOUN	_	_	15	flat	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	el	el	DET	_	_	19	det	_	_
+19	Col·legi	Col·legi	PROPN	_	_	15	conj	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	Interventors	Interventors	NOUN	_	_	19	nmod	_	_
+22	i	i	CCONJ	_	_	23	cc	_	_
+23	Secretaris	Secretaris	NOUN	_	_	21	conj	_	_
+24	o	o	CCONJ	_	_	25	cc	_	_
+25	el	el	DET	_	_	26	det	_	_
+26	Centre	Centre	PROPN	_	_	25	conj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Formació	Formació	NOUN	_	_	26	nmod	_	_
+29	Pràctica	Pràctica	NOUN	_	_	28	flat	_	_
+30	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	port	port	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Tarragona	Tarragona	PROPN	_	_	2	nmod	_	_
+5	rebrà	rebre	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	durant	durant	ADP	_	_	8	case	_	_
+8	tot	tot	NOUN	_	_	10	obl	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	mes	mes	NOUN	_	_	5	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	juny	juny	PROPN	_	_	10	nmod	_	_
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	fins	fins	ADP	_	_	15	case	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	cinc	cinc	NUM	_	_	17	nummod	_	_
+17	creuers	creuer	NOUN	_	_	5	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	luxe	luxe	NOUN	_	_	17	nmod	_	_
+20	i	i	CCONJ	_	_	21	cc	_	_
+21	vora	vora	NUM	_	_	17	conj	_	_
+22	mil	mil	NUM	_	_	21	nummod	_	_
+23	passatgers	passatger	NOUN	_	_	21	obj	_	_
+24	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1-2	Tot	_	_	_	_	_	_	_	_
+1	Tot	tot	DET	_	_	3	det	_	_
+2	i	i	CCONJ	_	_	3	cc	_	_
+3	que	que	PRON	_	_	10	nsubj	_	_
+4	aquest	aquest	DET	_	_	5	det	_	_
+5	port	port	NOUN	_	_	3	obl	_	_
+6	no	no	PART	_	_	7	neg	_	_
+7	és	ser	VERB	_	_	5	cop	_	_
+8	escala	escala	NOUN	_	_	7	xcomp	_	_
+9	habitual	habitual	ADJ	_	_	8	amod	_	_
+10	d'	de	ADP	_	_	12	case	_	_
+11	aquesta	aquest	DET	_	_	12	det	_	_
+12	mena	mena	NOUN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	creuers	creuer	NOUN	_	_	12	nmod	_	_
+15	comercials	comercial	ADJ	_	_	14	amod	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	es	ell	PRON	_	_	18	nsubj	_	_
+18	tracta	tractar	VERB	_	_	0	root	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	una	un	DET	_	_	21	det	_	_
+21	acció	acció	NOUN	_	_	18	obj	_	_
+22	puntual	puntual	ADJ	_	_	21	amod	_	_
+23	endegada	endegat	ADV	_	_	22	advmod	_	_
+24-25	pel	_	_	_	_	26	case	_	_
+24	per	per	ADP	_	_	25	fixed	_	_
+25	el	el	DET	_	_	26	det	_	_
+26	departament	departament	NOUN	_	_	21	nmod	_	_
+27	comercial	comercial	ADJ	_	_	26	amod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	l'	el	DET	_	_	30	det	_	_
+30	Autoritat	Autoritat	PROPN	_	_	27	nmod	_	_
+31	Portuària	Portuària	PROPN	_	_	30	flat	_	_
+32	amb	amb	ADP	_	_	33	case	_	_
+33	companyies	companyia	NOUN	_	_	18	obl	_	_
+34	navilieres	navilier	ADJ	_	_	33	amod	_	_
+35	d'	de	ADP	_	_	36	case	_	_
+36	arreu	arreu	ADV	_	_	34	nmod	_	_
+37-38	del	_	_	_	_	39	case	_	_
+37	de	de	ADP	_	_	38	fixed	_	_
+38	el	el	DET	_	_	39	det	_	_
+39	món	món	NOUN	_	_	36	obl	_	_
+40	.	.	PUNCT	_	_	18	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	3	det	_	_
+2	proper	proper	ADJ	_	_	3	amod	_	_
+3	divendres	divendres	NOUN	_	_	4	nsubj	_	_
+4	arribarà	arribar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	primer	primer	ADJ	_	_	7	amod	_	_
+7	vaixell	vaixell	NOUN	_	_	4	obj	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	'	'	PUNCT	_	_	11	punct	_	_
+11	Lili	Lili	PROPN	_	_	14	nsubj	_	_
+12	Marleen	Marleen	PROPN	_	_	11	flat	_	_
+13	'	'	PUNCT	_	_	14	punct	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	companyia	companyia	NOUN	_	_	15	obj	_	_
+18	Peter	Peter	PROPN	_	_	19	nsubj	_	_
+19	Deilmann	Deilmann	PROPN	_	_	17	appos	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	creuer	creuer	NOUN	_	_	5	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	_	5	nsubj	_	_
+5	atracarà	atracar	VERB	_	_	0	root	_	_
+6	al	al	ADP	_	_	7	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	Moll	Moll	PROPN	_	_	6	fixed	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Costa	Costa	PROPN	_	_	8	fixed	_	_
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	arribarà	arribar	VERB	_	_	5	conj	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	les	el	DET	_	_	15	det	_	_
+15	8	8	NUM	_	_	16	nummod	_	_
+16	del	de	ADP	_	_	17	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	matí	matí	NOUN	_	_	12	obl	_	_
+19	i	i	CCONJ	_	_	20	cc	_	_
+20	salparà	salpar	VERB	_	_	12	conj	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	les	el	DET	_	_	23	det	_	_
+23	22	22	NUM	_	_	24	nummod	_	_
+24	hores	hora	NOUN	_	_	20	obl	_	_
+25	,	,	PUNCT	_	_	20	punct	_	_
+26	té	tenir	VERB	_	_	5	parataxis	_	_
+27	una	un	DET	_	_	28	det	_	_
+28	eslora	eslora	NOUN	_	_	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	76	76	NUM	_	_	31	nummod	_	_
+31	metres	metre	NOUN	_	_	28	nmod	_	_
+32	i	i	CCONJ	_	_	33	cc	_	_
+33	duu	dur	VERB	_	_	28	conj	_	_
+34	a	a	ADP	_	_	35	case	_	_
+35	bord	bord	NOUN	_	_	33	obl	_	_
+36	un	un	DET	_	_	37	det	_	_
+37	total	total	NOUN	_	_	33	obj	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	22	22	NUM	_	_	40	nummod	_	_
+40	passatgers	passatger	NOUN	_	_	37	nmod	_	_
+41	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **5 (atracarà)**, **12 (arribarà)**, **20 (salparà)** - root verbs, each marking a main clause.
+* **2 (creuer)**, **4 (que)** - noun and relative pronoun acting as the subject of the clause headed by 5.
+* **14 (les)**, **15 (8)**, **16 (del)**, **17 (el)**, **18 (matí)** -  provide time information for the verb **12 (arribarà)**.
+* **22 (les)**, **23 (22)**, **24 (hores)** - provide time information for the verb **20 (salparà)**.
+* **26 (té)**, **27 (una)**, **28 (eslora)**, **30 (76)**, **31 (metres)** -  describe the characteristics of the ship.
+* **33 (duu)**, **35 (bord)**, **36 (un)**, **37 (total)**, **38 (de)**, **39 (22)**, **40 (passatgers)** -  specify the number of passengers the ship carries.
+
+**Note:**
+
+* The `fixed` relation is used to connect the two parts of the compound preposition "al el" (to the).
+*  The `parataxis` relation is used to connect the independent clause "té una eslora de 76 metres" to the main clause.
+Raw model output for sentence :
+```conll-u
+1	Aquest	aquest	DET	_	_	3	det	_	_
+2	mateix	mateix	ADJ	_	_	3	amod	_	_
+3	vaixell	vaixell	NOUN	_	_	6	nsubj	_	_
+4	tornarà	tornar	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	atracar	atracar	VERB	_	_	4	xcomp	_	_
+7-8	al	_	_	_	_	6	obl	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	port	port	NOUN	_	_	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Tarragona	Tarragona	PROPN	_	_	9	nmod	_	_
+12	els	el	DET	_	_	14	det	_	_
+13	propers	proper	ADJ	_	_	14	amod	_	_
+14	dies	dies	NOUN	_	_	4	obl	_	_
+15	11	11	NUM	_	_	14	nummod	_	_
+16	i	i	CCONJ	_	_	17	cc	_	_
+17	18	18	NUM	_	_	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	juny	juny	NOUN	_	_	14	nmod	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	També	també	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	està	estar	VERB	_	_	5	aux	_	_
+4	prevista	previst	ADJ	_	_	5	xcomp	_	_
+5	arribada	arribar	VERB	_	_	0	root	_	_
+6	l'	el	DET	_	_	7	det	_	_
+7	arribada	arribada	NOUN	_	_	5	obj	_	_
+8	del	de	ADP	_	_	10	case	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	creuer	creuer	NOUN	_	_	7	nmod	_	_
+12	'	'	PUNCT	_	_	11	punct	_	_
+13	Silver	Silver	PROPN	_	_	11	appos	_	_
+14	Shadow	Shadow	PROPN	_	_	13	flat	_	_
+15	'	'	PUNCT	_	_	14	punct	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	el	DET	_	_	19	det	_	_
+19	companyia	companyia	NOUN	_	_	11	nmod	_	_
+20	Silversea	Silversea	PROPN	_	_	19	appos	_	_
+21	Cruises	Cruises	PROPN	_	_	20	flat	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	amb	amb	ADP	_	_	25	case	_	_
+24	una	un	DET	_	_	25	det	_	_
+25	eslora	eslora	NOUN	_	_	23	obj	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	182	182	NUM	_	_	28	nummod	_	_
+28	metres	metre	NOUN	_	_	25	nmod	_	_
+29	i	i	CCONJ	_	_	31	cc	_	_
+30	388	388	NUM	_	_	31	nummod	_	_
+31	passatgers	passatger	NOUN	_	_	28	conj	_	_
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	dia	dia	NOUN	_	_	6	nsubj	_	_
+3	18	18	NUM	_	_	2	nummod	_	_
+4	atracarà	atracar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	vaixell	vaixell	NOUN	_	_	4	obj	_	_
+7	'	'	PUNCT	_	_	6	punct	_	_
+8	Assedo	Assedo	PROPN	_	_	6	appos	_	_
+9	'	'	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	el	DET	_	_	13	det	_	_
+13	companyia	companyia	NOUN	_	_	6	nmod	_	_
+14	Transtours	Transtours	PROPN	_	_	13	appos	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	amb	amb	ADP	_	_	18	case	_	_
+17	175	175	NUM	_	_	18	nummod	_	_
+18	metres	metre	NOUN	_	_	16	obl	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	eslora	eslora	NOUN	_	_	18	nmod	_	_
+21	i	i	CCONJ	_	_	23	cc	_	_
+22	un	un	DET	_	_	23	det	_	_
+23	passatge	passatge	NOUN	_	_	18	conj	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	500	500	NUM	_	_	26	nummod	_	_
+26	persones	persona	NOUN	_	_	23	nmod	_	_
+27	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	L'	el	DET	_	_	2	det	_	_
+2	advocat	advocat	NOUN	_	_	5	nsubj	_	_
+3-4	del	_	_	_	_	3	case	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	el	el	DET	_	_	5	det	_	_
+5	professor	professor	NOUN	_	_	0	root	_	_
+6	d'	de	ADP	_	_	7	case	_	_
+7	una	un	DET	_	_	8	det	_	_
+8	escola	escola	NOUN	_	_	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Sant	Sant	PROPN	_	_	14	nmod	_	_
+11	Quirze	Quirze	PROPN	_	_	10	flat	_	_
+12-13	del	_	_	_	_	12	case	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	el	el	DET	_	_	14	det	_	_
+14	Vallès	Vallès	PROPN	_	_	10	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	Vallès	Vallès	PROPN	_	_	14	appos	_	_
+17	Occidental	Occidental	PROPN	_	_	16	flat	_	_
+18	)	)	PUNCT	_	_	16	punct	_	_
+19	que	que	PRON	_	_	27	nsubj	_	_
+20	ha	haver	AUX	_	_	27	aux	_	_
+21	estat	ser	AUX	_	_	27	cop	_	_
+22	detingut	detenir	VERB	_	_	27	ccomp	_	_
+23	per	per	ADP	_	_	24	case	_	_
+24	presumptes	presumpte	ADJ	_	_	25	amod	_	_
+25	abusos	abús	NOUN	_	_	22	obj	_	_
+26	sexuals	sexual	ADJ	_	_	25	amod	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	una	un	DET	_	_	29	det	_	_
+29	alumna	alumna	NOUN	_	_	22	obl	_	_
+30-31	del	_	_	_	_	30	case	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	el	el	DET	_	_	32	det	_	_
+32	centre	centre	NOUN	_	_	29	nmod	_	_
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	8	8	NUM	_	_	36	nummod	_	_
+36	anys	any	NOUN	_	_	29	nmod	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	ha	haver	AUX	_	_	39	aux	_	_
+39	anunciat	anunciar	VERB	_	_	5	parataxis	_	_
+40	que	que	PRON	_	_	41	nsubj	_	_
+41	no	no	PART	_	_	42	neg	_	_
+42	recorrerà	recórrer	VERB	_	_	39	ccomp	_	_
+43	l'	el	DET	_	_	44	det	_	_
+44	ordre	ordre	NOUN	_	_	42	obj	_	_
+45	judicial	judicial	ADJ	_	_	44	amod	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	presó	presó	NOUN	_	_	44	nmod	_	_
+48	preventiva	preventiu	ADJ	_	_	47	amod	_	_
+49	per	per	ADP	_	_	50	case	_	_
+50	considerar	considerar	VERB	_	_	42	xcomp	_	_
+51	que	que	PRON	_	_	52	nsubj	_	_
+52	l'	el	DET	_	_	53	det	_	_
+53	alarma	alarma	NOUN	_	_	50	obj	_	_
+54	social	social	ADJ	_	_	53	amod	_	_
+55	pot	poder	AUX	_	_	56	aux	_	_
+56	perjudicar	perjudicar	VERB	_	_	50	xcomp	_	_
+57	més	més	ADV	_	_	56	advmod	_	_
+58	el	el	DET	_	_	59	det	_	_
+59	mestre	mestre	NOUN	_	_	56	obj	_	_
+60	si	si	CCONJ	_	_	61	cc	_	_
+61	està	estar	AUX	_	_	63	aux	_	_
+62-63	al	_	_	_	_	62	case	_	_
+62	a	a	ADP	_	_	63	case	_	_
+63	el	el	DET	_	_	64	det	_	_
+64	carrer	carrer	NOUN	_	_	61	obl	_	_
+65	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Damián	Damián	PROPN	_	_	3	nsubj	_	_
+2	Téllez	Téllez	PROPN	_	_	1	flat	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	advocat	advocat	NOUN	_	_	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	M.C.B.	M.C.B.	PROPN	_	_	4	nmod	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	mestre	mestre	NOUN	_	_	4	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Sant	Sant	PROPN	_	_	9	nmod	_	_
+12	Quirze	Quirze	PROPN	_	_	11	flat	_	_
+13	del	del	ADP	_	_	15	case	_	_
+14	de	de	ADP	_	_	13	fixed	_	_
+15	el	el	DET	_	_	16	det	_	_
+16	Vallès	Vallès	PROPN	_	_	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	33	33	NUM	_	_	16	nmod	_	_
+19	anys	any	NOUN	_	_	18	nmod	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	edat	edat	NOUN	_	_	19	nmod	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	qui	qui	PRON	_	_	21	nmod	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	jutjat	jutjat	NOUN	_	_	23	appos	_	_
+26	número	número	NOUN	_	_	25	nmod	_	_
+27	3	3	NUM	_	_	26	nummod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Sabadell	Sabadell	PROPN	_	_	26	nmod	_	_
+30	(	(	PUNCT	_	_	31	punct	_	_
+31	Vallès	Vallès	PROPN	_	_	29	nmod	_	_
+32	Occidental	Occidental	ADJ	_	_	31	amod	_	_
+33	)	)	PUNCT	_	_	31	punct	_	_
+34	investiga	investigar	VERB	_	_	4	pred	_	_
+35	per	per	ADP	_	_	36	case	_	_
+36	uns	un	DET	_	_	37	det	_	_
+37	presumptes	presumpte	ADJ	_	_	38	amod	_	_
+38	abusos	abús	NOUN	_	_	34	obj	_	_
+39	sexuals	sexual	ADJ	_	_	38	amod	_	_
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	ha	haver	AUX	_	_	42	aux	_	_
+42	anunciat	anunciar	VERB	_	_	34	ccomp	_	_
+43	en	en	ADP	_	_	44	case	_	_
+44	declaracions	declaració	NOUN	_	_	42	obl	_	_
+45	a	a	ADP	_	_	46	case	_	_
+46	Intra-ACN	Intra-ACN	PROPN	_	_	44	nmod	_	_
+47	que	que	SCONJ	_	_	48	mark	_	_
+48	no	no	PART	_	_	49	neg	_	_
+49	té	tenir	VERB	_	_	42	csubj	_	_
+50	intenció	intenció	NOUN	_	_	49	obj	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	recórrer	recórrer	VERB	_	_	50	obl	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	moment	moment	NOUN	_	_	52	obl	_	_
+55	l'	el	DET	_	_	56	det	_	_
+56	ordre	ordre	NOUN	_	_	52	obl	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	presó	presó	NOUN	_	_	56	nmod	_	_
+59	acordada	acordat	VERB	_	_	58	acl	_	_
+60	pel	per	ADP	_	_	61	case	_	_
+61	per	per	ADP	_	_	60	fixed	_	_
+62	el	el	DET	_	_	63	det	_	_
+63	jutge	jutge	NOUN	_	_	59	nsubj	_	_
+64	,	,	PUNCT	_	_	65	punct	_	_
+65	a	a	ADP	_	_	66	case	_	_
+66	l'	el	DET	_	_	67	det	_	_
+67	espera	espera	NOUN	_	_	65	obl	_	_
+68	que	que	SCONJ	_	_	69	mark	_	_
+69	avanci	avançar	VERB	_	_	67	acl	_	_
+70	la	el	DET	_	_	71	det	_	_
+71	investigació	investigació	NOUN	_	_	69	obj	_	_
+72	i	i	CCONJ	_	_	73	cc	_	_
+73	s'	ell	PRON	_	_	74	nsubj	_	_
+74	esclareixin	esclarir	VERB	_	_	69	conj	_	_
+75	els	el	DET	_	_	76	det	_	_
+76	fets	fet	NOUN	_	_	74	obj	_	_
+77	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Segons	segons	ADP	_	_	3	case	_	_
+2	l'	el	DET	_	_	3	det	_	_
+3	advocat	advocat	NOUN	_	_	7	nsubj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	primera	primer	ADJ	_	_	7	amod	_	_
+7	mesura	mesura	NOUN	_	_	0	root	_	_
+8	que	que	PRON	_	_	9	nsubj	_	_
+9	instarà	instar	VERB	_	_	7	acl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	jutge	jutge	NOUN	_	_	9	obj	_	_
+13	és	ser	AUX	_	_	14	aux	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	petició	petició	NOUN	_	_	19	obj	_	_
+16	d'	de	ADP	_	_	17	case	_	_
+17	una	un	DET	_	_	18	det	_	_
+18	prova	prova	NOUN	_	_	19	obj	_	_
+19	pericial	pericial	ADJ	_	_	20	amod	_	_
+20	forense	forense	ADJ	_	_	15	amod	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	relació	relació	NOUN	_	_	19	nmod	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	l'	el	DET	_	_	25	det	_	_
+25	estat	estat	NOUN	_	_	22	nmod	_	_
+26	físic	físic	ADJ	_	_	25	amod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	la	el	DET	_	_	29	det	_	_
+29	nena	nena	NOUN	_	_	26	nmod	_	_
+30	que	que	PRON	_	_	31	nsubj	_	_
+31	ha	haver	AUX	_	_	32	aux	_	_
+32	estat	ser	VERB	_	_	29	acl	_	_
+33	presumptament	presumptament	ADV	_	_	34	amod	_	_
+34	víctima	víctima	NOUN	_	_	32	xcomp	_	_
+35-36	dels	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	els	el	DET	_	_	37	det	_	_
+37	abusos	abús	NOUN	_	_	34	nmod	_	_
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	i	i	CCONJ	_	_	40	cc	_	_
+40	si	si	SCONJ	_	_	42	mark	_	_
+41	es	ell	PRON	_	_	42	nsubj	_	_
+42	demostra	demostrar	VERB	_	_	34	advcl	_	_
+43	la	el	DET	_	_	44	det	_	_
+44	veracitat	veracitat	NOUN	_	_	42	obj	_	_
+45-46	dels	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	els	el	DET	_	_	47	det	_	_
+47	abusos	abús	NOUN	_	_	44	nmod	_	_
+48	denunciats	denunciat	VERB	_	_	47	amod	_	_
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	demanarà	demanar	VERB	_	_	7	parataxis	_	_
+51	que	que	PRON	_	_	52	nsubj	_	_
+52	un	un	DET	_	_	53	det	_	_
+53	metge	metge	NOUN	_	_	54	obj	_	_
+54	explori	explorar	VERB	_	_	50	xcomp	_	_
+55	el	el	DET	_	_	56	det	_	_
+56	professor	professor	NOUN	_	_	54	obj	_	_
+57	per	per	ADP	_	_	58	case	_	_
+58	mirar	mirar	VERB	_	_	56	acl	_	_
+59	de	de	ADP	_	_	60	case	_	_
+60	descobrir	descobrir	VERB	_	_	58	obj	_	_
+61	si	si	SCONJ	_	_	62	mark	_	_
+62	pateix	patir	VERB	_	_	60	advcl	_	_
+63	algun	algun	DET	_	_	64	det	_	_
+64	tipus	tipus	NOUN	_	_	62	obj	_	_
+65	de	de	ADP	_	_	66	case	_	_
+66	trastorn	trastorn	NOUN	_	_	64	nmod	_	_
+67	mental	mental	ADJ	_	_	66	amod	_	_
+68	.	.	PUNCT	_	_	7	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	El	DET	_	_	2	det	_	_	_
+2	cas	NOUN	_	_	5	nsubj	_	_	_
+3	és	VERB	_	_	5	aux	_	_	_
+4	que	SCONJ	_	_	5	mark	_	_	_
+5	el	DET	_	_	6	det	_	_	_
+6	professor	NOUN	_	_	0	root	_	_	_
+7	,	PUNCT	_	_	6	punct	_	_	_
+8	segons	ADP	_	_	9	case	_	_	_
+9	l'	DET	_	_	10	det	_	_	_
+10	advocat	NOUN	_	_	6	nmod	_	_	_
+11	,	PUNCT	_	_	10	punct	_	_	_
+12	ha	AUX	_	_	13	aux	_	_	_
+13	desmentit	VERB	_	_	6	acl	_	_	_
+14	les	DET	_	_	15	det	_	_	_
+15	informacions	NOUN	_	_	13	obj	_	_	_
+16	segons	ADP	_	_	17	case	_	_	_
+17	les	DET	_	_	18	det	_	_	_
+18	quals	PRON	_	_	13	obl	_	_	_
+19	s'	PRON	_	_	20	nsubj	_	_	_
+20	havia	AUX	_	_	18	acl	_	_	_
+21	autoinculpat	VERB	_	_	20	xcomp	_	_	_
+22	,	PUNCT	_	_	21	punct	_	_	_
+23	i	CCONJ	_	_	24	cc	_	_	_
+24	espera	VERB	_	_	6	conj	_	_	_
+25	igualment	ADV	_	_	24	advmod	_	_	_
+26	que	SCONJ	_	_	27	mark	_	_	_
+27	s'	PRON	_	_	28	nsubj	_	_	_
+28	esclareixin	VERB	_	_	24	xcomp	_	_	_
+29	els	DET	_	_	30	det	_	_	_
+30	rumors	NOUN	_	_	28	obj	_	_	_
+31	sobre	ADP	_	_	32	case	_	_	_
+32	una	DET	_	_	33	det	_	_	_
+33	altra	ADJ	_	_	34	amod	_	_	_
+34	presumpta	ADJ	_	_	35	amod	_	_	_
+35	víctima	NOUN	_	_	30	obl	_	_	_
+36	dels	DET	_	_	37	det	_	_	_
+36-37	de	ADP	_	_	38	case	_	_	_
+37	els	DET	_	_	38	det	_	_	_
+38	mateixos	ADJ	_	_	35	nmod	_	_	_
+39	fets	NOUN	_	_	38	obl	_	_	_
+40	.	PUNCT	_	_	6	punct	_	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN for noun, VERB for verb).
+* **XPOS:** Language-specific part-of-speech tag (not applicable in this case as we're using a pre-tagged sentence).
+* **FEATS:** Morphological features (e.g., gender, number).
+
+* **HEAD:** The ID of the syntactic head of the current token.
+
+* **DEPREL:** The dependency relation between the current token and its head.
+
+* **DEPS:** Enhanced dependency graph dependencies (less common).
+* **MISC:** Miscellaneous information (e.g., named entities).
+
+
+
+**Notes:**
+
+* I've assumed the input tokenization and lemmatization are correct.
+
+*  The sentence structure is fairly complex, involving embedded clauses and coordinate structures.
+
+* The `advmod`, `acl`, `xcomp`, and `nmod` relations are used extensively to capture the various adverbial modifiers, adverbial clauses, complement clauses, and nominal modifiers in the sentence.
+Raw model output for sentence :
+```conllu
+1	La	_	DET	_	_	2	det	_	_
+2	detenció	_	NOUN	_	_	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	el	_	DET	_	_	5	det	_	_
+5	professor	_	NOUN	_	_	2	nmod	_	_
+6	es	_	PRON	_	_	7	aux	_	_
+7	va	_	VERB	_	_	0	root	_	_
+8	produir	_	VERB	_	_	7	xcomp	_	_
+9	dissabte	_	NOUN	_	_	8	obl	_	_
+10	passat	_	ADJ	_	_	9	amod	_	_
+11	a	_	ADP	_	_	12	case	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	quatre	_	NUM	_	_	15	nummod	_	_
+14	de	_	ADP	_	_	15	case	_	_
+15	la	_	DET	_	_	16	det	_	_
+16	tarda	_	NOUN	_	_	8	obl	_	_
+17	,	_	PUNCT	_	_	18	punct	_	_
+18	després	_	ADV	_	_	8	advmod	_	_
+19	d'	_	ADP	_	_	20	case	_	_
+20	un	_	DET	_	_	21	det	_	_
+21	seguit	_	NOUN	_	_	18	obl	_	_
+22	d'	_	ADP	_	_	23	case	_	_
+23	investigacions	_	NOUN	_	_	21	nmod	_	_
+24	de	_	ADP	_	_	25	case	_	_
+25	la	_	DET	_	_	26	det	_	_
+26	Guardia	_	PROPN	_	_	23	nmod	_	_
+27	Civil	_	PROPN	_	_	26	flat	_	_
+28	.	_	PUNCT	_	_	7	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Els	el	DET	_	_	2	det	_	_
+2	pares	pare	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	nena	nena	NOUN	_	_	6	obj	_	_
+6	van	anar	VERB	_	_	0	root	_	_
+7	portar-la	portar	VERB	_	_	6	xcomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	l'	el	DET	_	_	10	det	_	_
+10	hospital	hospital	NOUN	_	_	7	obl	_	_
+11	Taulí	Taulí	PROPN	_	_	10	flat	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Sabadell	Sabadell	PROPN	_	_	10	nmod	_	_
+14	perquè	perquè	SCONJ	_	_	17	mark	_	_
+15	es	ell	PRON	_	_	17	nsubj	_	_
+16	queixava	queixar-se	VERB	_	_	15	ccomp	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	dolors	dolor	NOUN	_	_	19	nmod	_	_
+19	abdominals	abdominal	ADJ	_	_	16	obl	_	_
+20	.	.	PUNCT	_	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Un	un	DET	_	_	2	det	_	_
+2	cop	cop	NOUN	_	_	5	obl	_	_
+3	allí	allí	ADV	_	_	2	advmod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	metge	metge	NOUN	_	_	10	nsubj	_	_
+7	que	que	PRON	_	_	10	obj	_	_
+8	la	ell	PRON	_	_	9	obj	_	_
+9	va	anar	VERB	_	_	10	aux	_	_
+10	reconèixer	reconèixer	VERB	_	_	0	root	_	_
+11	va	anar	VERB	_	_	12	aux	_	_
+12	sol·licitar	sol·licitar	VERB	_	_	10	conj	_	_
+13	la	el	DET	_	_	14	det	_	_
+14	presència	presència	NOUN	_	_	12	obj	_	_
+15	d'	de	ADP	_	_	16	case	_	_
+16	un	un	DET	_	_	17	det	_	_
+17	forense	forense	NOUN	_	_	14	nmod	_	_
+18	perquè	perquè	SCONJ	_	_	20	mark	_	_
+19	va	anar	VERB	_	_	20	aux	_	_
+20	veure	veure	VERB	_	_	18	advcl	_	_
+21	indicis	indici	NOUN	_	_	20	obj	_	_
+22	que	que	PRON	_	_	23	obj	_	_
+23	feien	fer	VERB	_	_	24	xcomp	_	_
+24	pensar	pensar	VERB	_	_	20	ccomp	_	_
+25	que	que	SCONJ	_	_	26	mark	_	_
+26	la	el	DET	_	_	27	det	_	_
+27	nena	nena	NOUN	_	_	24	xcomp	_	_
+28	podia	poder	AUX	_	_	29	aux	_	_
+29	haver	haver	VERB	_	_	31	aux	_	_
+30	estat	ser	AUX	_	_	31	auxpass	_	_
+31	víctima	víctima	NOUN	_	_	24	xcomp	_	_
+32	d'	de	ADP	_	_	33	case	_	_
+33	abusos	abús	NOUN	_	_	31	nmod	_	_
+34	sexuals	sexual	ADJ	_	_	33	amod	_	_
+35	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	forense	forense	NOUN	_	_	4	nsubj	_	_
+3	va	anar	AUX	_	_	4	aux	_	_
+4	confirmar	confirmar	VERB	_	_	0	root	_	_
+5	les	el	DET	_	_	6	det	_	_
+6	sospites	sospita	NOUN	_	_	4	obj	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	ho	ell	PRON	_	_	9	obj	_	_
+9	va	anar	VERB	_	_	4	conj	_	_
+10	comunicar	comunicar	VERB	_	_	9	xcomp	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	la	el	DET	_	_	13	det	_	_
+13	Guardia	Guardia	PROPN	_	_	10	obl	_	_
+14	Civil	Civil	PROPN	_	_	13	flat	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	qual	qual	PRON	_	_	27	nsubj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	després	després	ADV	_	_	27	advmod	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	un	un	DET	_	_	22	det	_	_
+22	seguit	seguit	NOUN	_	_	27	obl	_	_
+23	de	de	ADP	_	_	22	case	_	_
+24	investigacions	investigació	NOUN	_	_	22	nmod	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	va	anar	AUX	_	_	27	aux	_	_
+27	identificar	identificar	VERB	_	_	4	conj	_	_
+28	com	com	ADP	_	_	29	case	_	_
+29	a	a	DET	_	_	30	det	_	_
+30	sospitós	sospitós	ADJ	_	_	27	obj	_	_
+31	un	un	DET	_	_	32	det	_	_
+32	mestre	mestre	NOUN	_	_	30	appos	_	_
+33-34	del	_	_	_	_	35	dep	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	el	el	DET	_	_	35	det	_	_
+35	col·legi	col·legi	NOUN	_	_	32	nmod	_	_
+36	on	on	ADV	_	_	37	advmod	_	_
+37	va	anar	VERB	_	_	35	acl	_	_
+38	la	el	DET	_	_	39	det	_	_
+39	nena	nena	NOUN	_	_	37	obj	_	_
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **4 confirmar (root):** The main verb of the sentence.
+* **2 forense (nsubj):** The subject performing the action of confirming.
+* **3 va (aux):** Auxiliary verb indicating tense/aspect.
+* **5 les (det):** Determines the noun "sospites".
+* **6 sospites (obj):** The object of the verb "confirmar".
+* **9 comunicar (xcomp):**  Verb acting as a complement of "va" (auxiliary), indicating the action performed after confirming.
+* **10 a (case):**  Preposition indicating the direction/recipient of the action "comunicar".
+* **12 la (det):** Determines the noun "Guardia Civil".
+* **13 Guardia Civil (obl):**  The recipient/direction  of the action "comunicar".
+* **27 identificar (conj):** Verb  conjoined to "confirmar", indicating another action performed.
+* **28 com (case):** Preposition indicating how the identification was made.
+* **29 a (det):** Determines the noun "sospitós".
+* **30 sospitós (obj):** The object of the verb "identificar".
+* **33-34 del (dep):**  Dependency edge linking the preposition "del" to its related noun phrase.
+* **35 col·legi (nmod):** Noun phrase modifying "mestre", indicating where the master teaches.
+* **36 on (advmod):** Adverbial phrase indicating location.
+* **37 va (aux):** Auxiliary verb indicating tense/aspect in the clause "va la nena".
+* **38 la (det):** Determines the noun "nena".
+* **39 nena (obj):** The object of the verb "va" (in the sense of "took").
+
+**Notes:**
+
+*  The sentence contains several complex noun phrases and verb constructions, leading to a rich dependency structure.
+*  The use of prepositions and determiners is crucial for understanding the relationships between words.
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	3	det	_	_
+2	PP	PP	PROPN	_	_	3	nsubj	_	_
+3	ha	haver	AUX	_	_	0	root	_	_
+4	presentat	presentar	VERB	_	_	3	xcomp	_	_
+5	avui	avui	ADV	_	_	4	advmod	_	_
+6	el	el	DET	_	_	8	det	_	_
+7	seu	seu	PRON	_	_	8	nmod:poss	_	_
+8	document	document	NOUN	_	_	4	obj	_	_
+9	base	base	NOUN	_	_	8	nmod	_	_
+10	que	que	PRON	_	_	11	nsubj	_	_
+11	utilitzarà	utilitzar	VERB	_	_	8	acl	_	_
+12	per	per	ADP	_	_	13	case	_	_
+13	negociar	negociar	VERB	_	_	11	xcomp	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	revisió	revisió	NOUN	_	_	13	obj	_	_
+16	del	_	ADP	_	_	17	case	_	_
+17	finançament	finançament	NOUN	_	_	15	nmod	_	_
+18	autonòmic	autonòmic	ADJ	_	_	17	amod	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	_	23	nsubj	_	_
+21	s'	ell	PRON	_	_	23	aux	_	_
+22	els	ell	PRON	_	_	23	obj	_	_
+23	haurà	haver	VERB	_	_	15	acl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	tancar	tancar	VERB	_	_	23	xcomp	_	_
+26	abans	abans	ADV	_	_	25	advmod	_	_
+27	d'	de	ADP	_	_	29	case	_	_
+28	acabar	acabar	VERB	_	_	27	fixed	_	_
+29	aquest	aquest	DET	_	_	31	det	_	_
+30	any	any	NOUN	_	_	29	nmod	_	_
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	i	i	CCONJ	_	_	34	cc	_	_
+33	en	en	ADP	_	_	36	case	_	_
+34	el	el	DET	_	_	36	det	_	_
+35	qual	qual	PRON	_	_	36	nmod	_	_
+36	es	ell	PRON	_	_	38	nsubj	_	_
+37	contempla	contemplar	VERB	_	_	36	acl:relcl	_	_
+38	,	,	PUNCT	_	_	40	punct	_	_
+39	entre	entre	ADP	_	_	41	case	_	_
+40	altres	altre	PRON	_	_	41	nmod	_	_
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	la	el	DET	_	_	44	det	_	_
+43	inclusió	inclusió	NOUN	_	_	40	conj	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	la	el	DET	_	_	46	det	_	_
+46	Sanitat	Sanitat	NOUN	_	_	43	nmod	_	_
+47	,	,	PUNCT	_	_	49	punct	_	_
+48	en	en	ADP	_	_	50	case	_	_
+49	la	el	DET	_	_	50	det	_	_
+50	línia	línia	NOUN	_	_	46	nmod	_	_
+51	proposada	proposat	ADJ	_	_	50	amod	_	_
+52	per	per	ADP	_	_	54	case	_	_
+53	la	el	DET	_	_	54	det	_	_
+54	Generalitat	Generalitat	PROPN	_	_	51	nmod	_	_
+55	,	,	PUNCT	_	_	57	punct	_	_
+56	i	i	CCONJ	_	_	58	cc	_	_
+57	l'	el	DET	_	_	59	det	_	_
+58	Imserso	Imserso	PROPN	_	_	50	conj	_	_
+59	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **El, el, el, la, la, la, en, en, la, l', el, el, l'**: Determiners are attached to the noun they modify with the `det` relation.
+* **PP, ha, presentat, utilitzarà, haurà, contempla**: Verbs are linked to their subjects with the `nsubj` relation. 
+* **avui, abans, d', aquest, entre, altres, i, i**: Adverbial words are often linked to the verb they modify with relations like `advmod`, `case`, or `fixed`.
+* **del, de, de, de, per, per, en, en, en**: Prepositions are linked to their objects with the `case` relation.
+* **seu, seu, qual, altres, Generalitat, Imserso**: Noun phrases acting as modifiers or complements are connected with relations like `nmod`, `conj`, or `appos`.
+* **s'**: Reflexive pronoun linked to the auxiliary verb with `aux`.
+* **els**: Direct object of the auxiliary verb, linked with `obj`.
+* **revisió del finançament autonòmic**:  A noun phrase acting as the object of the main verb, linked with `obj`.
+
+**Note:** Some relationships might seem redundant (like multiple `det` relationships), but they are necessary to accurately represent the hierarchical structure of the sentence.
+Raw model output for sentence :
+```conll
+1-2	En	_	_	_	_	_	_	_	_
+1	en	en	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	cas	cas	NOUN	_	_	10	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	Sanitat	Sanitat	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	PP	PP	PROPN	_	_	10	nsubj	_	_
+10	estableix	establir	VERB	_	_	0	root	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	el	el	DET	_	_	13	det	_	_
+13	sistema	sistema	NOUN	_	_	10	obj	_	_
+14	tindrà	tenir	VERB	_	_	13	acl	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	compte	compte	NOUN	_	_	14	obl	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	més	més	ADV	_	_	20	advmod	_	_
+20-21	del	_	_	_	_	22	nummod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	el	el	DET	_	_	22	det	_	_
+22	nombre	nombre	NOUN	_	_	16	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	població	població	NOUN	_	_	22	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	cobertura	cobertura	NOUN	_	_	24	nmod	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	una	un	DET	_	_	29	det	_	_
+29	variable	variable	ADJ	_	_	32	amod	_	_
+30	en	en	ADP	_	_	31	case	_	_
+31	funció	funció	NOUN	_	_	29	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	la	el	DET	_	_	34	det	_	_
+34	piràmide	piràmide	NOUN	_	_	31	nmod	_	_
+35	d'	de	ADP	_	_	36	case	_	_
+36	edat	edat	NOUN	_	_	34	nmod	_	_
+37	o	o	CCONJ	_	_	38	cc	_	_
+38-39	dels	_	_	_	_	38	det	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	els	el	DET	_	_	40	det	_	_
+40	aturats	aturat	NOUN	_	_	34	conj	_	_
+41	amb	amb	ADP	_	_	42	case	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	objectiu	objectiu	NOUN	_	_	40	nmod	_	_
+44	d'	de	ADP	_	_	45	mark	_	_
+45	ajustar	ajustar	VERB	_	_	43	acl	_	_
+46	els	el	DET	_	_	47	det	_	_
+47	costos	cost	NOUN	_	_	45	obj	_	_
+48	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	La	el	DET	_	_	2	det	_	_
+2	proposta	proposta	NOUN	_	_	5	nsubj	_	_
+3	també	també	ADV	_	_	2	advmod	_	_
+4	inclou	incloure	VERB	_	_	0	root	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	participació	participació	NOUN	_	_	4	obj	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	els	el	DET	_	_	9	det	_	_
+9	impostos	impost	NOUN	_	_	6	nmod	_	_
+10	indirectes	indirecte	ADJ	_	_	9	amod	_	_
+11	entre	entre	ADP	_	_	12	case	_	_
+12	els	el	DET	_	_	13	det	_	_
+13	quals	qual	PRON	_	_	10	nmod	_	_
+14	hi	hi	ADV	_	_	15	advmod	_	_
+15	ha	haver	VERB	_	_	13	cop	_	_
+16	l'	el	DET	_	_	17	det	_	_
+17	IVA	IVA	PROPN	_	_	15	obj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	els	el	DET	_	_	20	det	_	_
+20	impostos	impost	NOUN	_	_	17	conj	_	_
+21	especials	especial	ADJ	_	_	20	amod	_	_
+22	i	i	CCONJ	_	_	23	cc	_	_
+23	els	el	DET	_	_	24	det	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	matriculació	matriculació	NOUN	_	_	20	nmod	_	_
+26	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	costat	costat	NOUN	_	_	10	obl	_	_
+4	d'	de	ADP	_	_	5	case	_	_
+5	això	això	PRON	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	es	ell	PRON	_	_	10	nsubj	_	_
+8	vol	voler	VERB	_	_	10	aux	_	_
+9	reforçar	reforçar	VERB	_	_	10	xcomp	_	_
+10	la	el	NOUN	_	_	0	root	_	_
+11	capacitat	capacitat	NOUN	_	_	10	obj	_	_
+12	d'	de	ADP	_	_	13	case	_	_
+13	obtenció	obtenció	NOUN	_	_	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	recursos	recurs	NOUN	_	_	13	nmod	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	través	través	ADP	_	_	19	obl	_	_
+18	d'	de	ADP	_	_	19	case	_	_
+19	atorgar	atorgar	VERB	_	_	15	xcomp	_	_
+20	més	més	ADV	_	_	21	advmod	_	_
+21	competències	competència	NOUN	_	_	19	obj	_	_
+22	normatives	normatiu	ADJ	_	_	21	amod	_	_
+23	sobre	sobre	ADP	_	_	24	case	_	_
+24	els	el	DET	_	_	26	det	_	_
+25	que	que	PRON	_	_	26	nsubj	_	_
+26	actualment	actualment	ADV	_	_	21	acl	_	_
+27	ja	ja	ADV	_	_	28	advmod	_	_
+28	estan	estar	VERB	_	_	26	aux	_	_
+29	transferits	transferit	VERB	_	_	26	xcomp	_	_
+30	com	com	ADP	_	_	32	obl	_	_
+31	és	ser	AUX	_	_	32	aux	_	_
+32	el	el	DET	_	_	29	obl	_	_
+33	cas	cas	NOUN	_	_	29	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	patrimoni	patrimoni	NOUN	_	_	33	nmod	_	_
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	successions	successió	NOUN	_	_	35	conj	_	_
+38	,	,	PUNCT	_	_	40	punct	_	_
+39	transmissions	transmissió	NOUN	_	_	35	conj	_	_
+40	patrimonials	patrimonial	ADJ	_	_	35	amod	_	_
+41	i	i	CCONJ	_	_	42	cc	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	IRPF	IRPF	PROPN	_	_	35	conj	_	_
+44	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1-2	A	_	_	_	_	_	_	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	més	més	ADV	_	_	3	advmod	_	_
+3	,	,	PUNCT	_	_	11	punct	_	_
+
+4-5	per	_	_	_	_	_	_	_	_
+4	per	per	ADP	_	_	6	case	_	_
+5	reforçar	reforçar	VERB	_	_	0	root	_	_
+
+6	la	el	DET	_	_	8	det	_	_
+7	'	'	PUNCT	_	_	8	punct	_	_
+8	corresponsabilitat	corresponsabilitat	NOUN	_	_	5	obj	_	_
+9	'	'	PUNCT	_	_	8	punct	_	_
+
+10-11	es	_	_	_	_	_	_	_	_
+10	es	ell	PRON	_	_	11	nsubj	_	_
+11	planteja	plantejar	VERB	_	_	5	conj	_	_
+
+12-13	impulsar	_	_	_	_	_	_	_	_
+12	impulsar	impulsar	VERB	_	_	11	xcomp	_	_
+
+13-14	la	_	_	_	_	_	_	_	_
+13	la	el	DET	_	_	15	det	_	_
+14	'	'	PUNCT	_	_	15	punct	_	_
+
+15-16	coordinació	_	_	_	_	_	_	_	_
+15	coordinació	coordinació	NOUN	_	_	12	obj	_	_
+16	'	'	PUNCT	_	_	15	punct	_	_
+
+17-18	de	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	el	DET	_	_	19	det	_	_
+
+19-20	comunitats	_	_	_	_	_	_	_	_
+19	comunitats	comunitat	NOUN	_	_	15	nmod	_	_
+20	autònomes	autònom	ADJ	_	_	19	amod	_	_
+
+21-22	amb	_	_	_	_	_	_	_	_
+21	amb	amb	ADP	_	_	23	case	_	_
+22	l'	el	DET	_	_	23	det	_	_
+
+23-24	Agència	_	_	_	_	_	_	_	_
+23	Agència	Agència	PROPN	_	_	19	nmod	_	_
+24	Tributària	Tributària	PROPN	_	_	23	flat	_	_
+
+25	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., ADP = adposition, VERB = verb, NOUN = noun)
+* **XPOS:** Language-specific POS tag (not applicable in this case)
+* **FEATS:** Morphological features (e.g., gender, number)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (less common)
+* **MISC:** Miscellaneous information (e.g., named entities)
+
+
+
+I've filled in the remaining columns based on the context and grammatical structure of the sentence. 
+Keep in mind that some choices, especially for complex words like "corresponsabilitat" or "coordinació", might be subject to interpretation based on the specific context of a larger text.
+Raw model output for sentence :
+```conll
+1	La	el	DET	_	_	2	det	_	_
+2	proposta	proposta	NOUN	_	_	7	nsubj	_	_
+3-4	dels	_	_	_	_	2	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	els	el	DET	_	_	5	det	_	_
+5	populars	popular	ADJ	_	_	2	nmod	_	_
+6	també	també	ADV	_	_	7	advmod	_	_
+7	preveu	preveure	VERB	_	_	0	root	_	_
+8	la	el	DET	_	_	9	det	_	_
+9	creació	creació	NOUN	_	_	7	obj	_	_
+10	d'	de	ADP	_	_	11	case	_	_
+11	un	un	DET	_	_	12	det	_	_
+12	Fons	Fons	NOUN	_	_	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Solidaritat	Solidaritat	NOUN	_	_	12	nmod	_	_
+15	que	que	PRON	_	_	16	nsubj	_	_
+16	permeti	permetre	VERB	_	_	9	acl	_	_
+17	disposar	disposar	VERB	_	_	16	xcomp	_	_
+18	d'	de	ADP	_	_	19	case	_	_
+19	un	un	DET	_	_	20	det	_	_
+20	nivell	nivell	NOUN	_	_	17	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	serveis	servei	NOUN	_	_	20	nmod	_	_
+23	equilibrat	equilibrat	ADJ	_	_	22	amod	_	_
+24	entre	entre	ADP	_	_	25	case	_	_
+25	les	el	DET	_	_	26	det	_	_
+26	diferents	diferent	ADJ	_	_	27	amod	_	_
+27	comunitats	comunitat	NOUN	_	_	24	nmod	_	_
+28	autònomes	autònom	ADJ	_	_	27	amod	_	_
+29-30	del	_	_	_	_	27	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	el	el	DET	_	_	31	det	_	_
+31	conjunt	conjunt	NOUN	_	_	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	l'	el	DET	_	_	34	det	_	_
+34	Estat	Estat	NOUN	_	_	31	nmod	_	_
+35	.	.	PUNCT	_	_	7	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquest	aquest	DET	_	_	2	det	_	_
+2	fons	fons	NOUN	_	_	5	nsubj	_	_
+3	ha	haver	AUX	_	_	5	aux	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	garantir	garantir	VERB	_	_	0	root	_	_
+6	recursos	recurs	NOUN	_	_	5	obj	_	_
+7	extraordinaris	extraordinari	ADJ	_	_	6	amod	_	_
+8	per	per	ADP	_	_	9	case	_	_
+9	a	a	DET	_	_	10	det	_	_
+10	les	el	NOUN	_	_	8	nmod	_	_
+11	comunitats	comunitat	NOUN	_	_	10	compound	_	_
+12	amb	amb	ADP	_	_	13	case	_	_
+13	menys	menys	ADJ	_	_	14	amod	_	_
+14	recursos	recurs	NOUN	_	_	12	nmod	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	funció	funció	NOUN	_	_	15	fixed	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	criteris	criteri	NOUN	_	_	17	fixed	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	població	població	NOUN	_	_	19	fixed	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	extensió	extensió	NOUN	_	_	0	parataxis	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	territori	territori	NOUN	_	_	22	nmod	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	dispersió	dispersió	NOUN	_	_	22	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	la	el	DET	_	_	30	det	_	_
+30	població	població	NOUN	_	_	28	nmod	_	_
+31	en	en	ADP	_	_	32	case	_	_
+32	aquest	aquest	DET	_	_	33	det	_	_
+33	territori	territori	NOUN	_	_	31	nmod	_	_
+34	o	o	CCONJ	_	_	35	cc	_	_
+35	el	el	DET	_	_	36	det	_	_
+36	fet	fet	NOUN	_	_	34	conj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	ser	ser	VERB	_	_	36	nmod	_	_
+39	una	un	DET	_	_	40	det	_	_
+40	illa	illa	NOUN	_	_	38	obj	_	_
+41	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Tot	tot	DET	_	_	3	det	_	_
+2	i	i	CCONJ	_	_	3	cc	_	_
+3	que	que	PRON	_	_	9	nsubj	_	_
+4	des	des	ADP	_	_	5	case	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	PP	PP	PROPN	_	_	3	nmod	_	_
+8	es	ell	PRON	_	_	9	aux	_	_
+9	considera	considerar	VERB	_	_	0	root	_	_
+10	que	que	SCONJ	_	_	11	mark	_	_
+11	aquest	aquest	DET	_	_	12	det	_	_
+12	document	document	NOUN	_	_	9	obj	_	_
+13	sobre	sobre	ADP	_	_	14	case	_	_
+14	finançament	finançament	NOUN	_	_	12	nmod	_	_
+15	serà	ser	AUX	_	_	16	aux	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	base	base	NOUN	_	_	9	xcomp	_	_
+18	per	per	ADP	_	_	19	case	_	_
+19	negociar	negociar	VERB	_	_	17	nmod	_	_
+20	amb	amb	ADP	_	_	21	case	_	_
+21	la	el	DET	_	_	22	det	_	_
+22	resta	resta	NOUN	_	_	19	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	forces	força	NOUN	_	_	22	nmod	_	_
+25	polítiques	polític	ADJ	_	_	24	amod	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	els	el	DET	_	_	28	det	_	_
+28	populars	popular	ADJ	_	_	29	nsubj	_	_
+29	asseguren	assegurar	VERB	_	_	9	parataxis	_	_
+30	que	que	SCONJ	_	_	31	mark	_	_
+31	el	el	DET	_	_	32	det	_	_
+32	diàleg	diàleg	NOUN	_	_	29	obj	_	_
+33	entre	entre	ADP	_	_	34	case	_	_
+34	les	el	DET	_	_	35	det	_	_
+35	comunitats	comunitat	NOUN	_	_	32	nmod	_	_
+36	autònomes	autònom	ADJ	_	_	35	amod	_	_
+37	es	ell	PRON	_	_	38	aux	_	_
+38	farà	fer	VERB	_	_	32	acl	_	_
+39	a	a	ADP	_	_	40	case	_	_
+40	través	través	ADP	_	_	41	case	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	el	el	DET	_	_	43	det	_	_
+43	Consell	Consell	PROPN	_	_	38	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	Política	Política	PROPN	_	_	43	nmod	_	_
+46	Fiscal	Fiscal	PROPN	_	_	45	flat	_	_
+47	i	i	CCONJ	_	_	48	cc	_	_
+48	Financera	Financera	PROPN	_	_	45	conj	_	_
+49	.	.	PUNCT	_	_	9	punct	_	_
+
+```
+Raw model output for sentence :
+```conll
+1-2	En	_	_	_	_	_	_	_	_
+1	en	en	ADP	_	_	3	case	_	_
+2	aquest	aquest	DET	_	_	3	det	_	_
+3	sentit	sentit	NOUN	_	_	10	obl	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	s'	ell	PRON	_	_	6	nsubj	_	_
+6	espera	esperar	VERB	_	_	0	root	_	_
+7	arribar	arribar	VERB	_	_	6	xcomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	acord	acord	NOUN	_	_	7	obj	_	_
+11	abans	abans	ADV	_	_	12	advmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	final	final	NOUN	_	_	14	compound	_	_
+14	d'	de	ADP	_	_	15	case	_	_
+15	any	any	NOUN	_	_	12	obj	_	_
+16	amb	amb	ADP	_	_	17	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	màxim	màxim	ADJ	_	_	20	amod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	consens	consens	NOUN	_	_	16	obj	_	_
+21	possible	possible	ADJ	_	_	20	amod	_	_
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **Root:** The main verb "espera" (expects) is the root of the sentence (index 6).
+
+* **Subject:**  "s'" (ell) is the subject of the verb "espera" (index 5).
+
+* **Object:** "un acord" (an agreement) is the direct object of the verb "arribar" (arrive) (index 10).
+
+* **Obligatory Adverbial (obl):** "en aquest sentit" (in this sense) acts as an adverbial modifier specifying the manner or direction of the expectation (index 3).
+
+* **Temporal Adverbial (advmod):** "abans de final d'any" (before the end of the year) specifies the time when the agreement is expected (index 11).
+
+* **Prepositional Phrases:** Several prepositional phrases are attached to the verb, modifying various elements:
+    * "a un acord" (to an agreement) - index 7-10
+    * "amb el màxim de consens possible" (with the maximum possible consensus) - index 16-21
+
+* **Punctuation:** The period at the end of the sentence is attached to the root verb (index 22).
+Raw model output for sentence :
+```conll
+1	El	DET	_	_	2	det	_	_	_
+2	document	NOUN	_	_	0	root	_	_	_
+3	base	NOUN	_	_	2	compound	_	_	_
+4-5	dels	_	_	_	_	_	_	_	_
+4	de	ADP	_	_	5	case	_	_	_
+5	els	DET	_	_	6	det	_	_	_
+6	populars	ADJ	_	_	2	amod	_	_	_
+7	s'	PRON	_	_	8	nsubj	_	_	_
+8	ha	AUX	_	_	9	aux	_	_	_
+9	presentat	VERB	_	_	2	acl	_	_	_
+10	en	ADP	_	_	11	case	_	_	_
+11	el	DET	_	_	12	det	_	_	_
+12	decurs	NOUN	_	_	9	obl	_	_	_
+13	de	ADP	_	_	14	case	_	_	_
+14	la	DET	_	_	15	det	_	_	_
+15	V	NUM	_	_	16	nummod	_	_	_
+16	Unió	NOUN	_	_	17	compound	_	_	_
+17	Interparlamentària	NOUN	_	_	18	compound	_	_	_
+18	Popular	ADJ	_	_	2	nmod	_	_	_
+19	que	PRON	_	_	20	nsubj	_	_	_
+20	se	PRON	_	_	21	aux	_	_	_
+21	celebra	VERB	_	_	18	acl	_	_	_
+22	a	ADP	_	_	23	case	_	_	_
+23	Santiago	PROPN	_	_	24	compound	_	_	_
+24	de	PROPN	_	_	25	compound	_	_	_
+25	Compostel·la	PROPN	_	_	21	obl	_	_	_
+26	(	PUNCT	_	_	27	punct	_	_	_
+27	Galícia	PROPN	_	_	25	appos	_	_	_
+28	)	PUNCT	_	_	27	punct	_	_	_
+29	i	CCONJ	_	_	30	cc	_	_	_
+30	on	ADV	_	_	31	advmod	_	_	_
+31	el	DET	_	_	32	det	_	_	_
+32	text	NOUN	_	_	34	nsubj	_	_	_
+33	ha	AUX	_	_	34	aux	_	_	_
+34	estat	VERB	_	_	21	ccomp	_	_	_
+35	debatut	VERB	_	_	34	xcomp	_	_	_
+36	.	PUNCT	_	_	2	punct	_	_	_
+```
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	Interparlamentària	Interparlamentària	PROPN	_	_	0	root	_	_
+4	hi	hi	ADV	_	_	5	advmod	_	_
+5	participen	participar	VERB	_	_	3	acl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	durant	durant	ADP	_	_	8	case	_	_
+8	dos	dos	NUM	_	_	9	nummod	_	_
+9	dies	dia	NOUN	_	_	5	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	diputats	diputat	NOUN	_	_	5	obj	_	_
+12	autonòmics	autonòmic	ADJ	_	_	11	amod	_	_
+13	i	i	CCONJ	_	_	14	cc	_	_
+14	del	de	ADP	_	_	16	case	_	_
+15	el	el	DET	_	_	16	det	_	_
+16	Congrés	Congrés	PROPN	_	_	11	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	senadors	senador	NOUN	_	_	11	conj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	eurodiputats	eurodiputat	NOUN	_	_	11	conj	_	_
+21	i	i	CCONJ	_	_	22	cc	_	_
+22	els	el	DET	_	_	23	det	_	_
+23	presidents	president	NOUN	_	_	11	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	les	el	DET	_	_	26	det	_	_
+26	Comunitats	Comunitats	PROPN	_	_	23	nmod	_	_
+27	Autònomes	Autònomes	PROPN	_	_	26	flat	_	_
+28	governades	governat	VERB	_	_	26	acl	_	_
+29	pel	per	ADP	_	_	31	case	_	_
+30	el	el	DET	_	_	31	det	_	_
+31	PP	PP	PROPN	_	_	28	obl	_	_
+32	o	o	CCONJ	_	_	34	cc	_	_
+33	,	,	PUNCT	_	_	31	punct	_	_
+34	en	en	ADV	_	_	35	advmod	_	_
+35	cas	cas	NOUN	_	_	37	nsubj	_	_
+36	contrari	contrari	ADJ	_	_	35	amod	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	els	el	DET	_	_	40	det	_	_
+39	presidents	president	NOUN	_	_	40	nsubj	_	_
+40	del	de	ADP	_	_	42	case	_	_
+41	el	el	DET	_	_	42	det	_	_
+42	partit	partit	NOUN	_	_	39	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	la	el	DET	_	_	45	det	_	_
+45	comunitat	comunitat	NOUN	_	_	42	nmod	_	_
+46	.	.	PUNCT	_	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	cas	cas	NOUN	_	_	5	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Catalunya	Catalunya	PROPN	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	delegació	delegació	NOUN	_	_	11	nsubj	_	_
+9	està	estar	VERB	_	_	8	cop	_	_
+10	encapçalada	encapçalat	VERB	_	_	8	acl	_	_
+11	per	per	ADP	_	_	15	case	_	_
+12	Alberto	Alberto	PROPN	_	_	15	nmod	_	_
+13	Fernández	Fernández	PROPN	_	_	12	flat	_	_
+14	Díaz	Díaz	PROPN	_	_	12	flat	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_ 
+```
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	cicle	cicle	NOUN	_	_	8	nsubj	_	_
+3	Medicina	Medicina	PROPN	_	_	2	compound	_	_
+4-5	al	_	_	_	_	2	case	_	_
+4	a	a	ADP	_	_	5	mark	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	Segle	Segle	PROPN	_	_	7	compound	_	_
+7	XXI	XXI	NUM	_	_	2	nmod	_	_
+8	presenta	presentar	VERB	_	_	0	root	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	la	el	DET	_	_	12	det	_	_
+12	Sala	Sala	PROPN	_	_	18	nmod	_	_
+13	d'	de	ADP	_	_	14	case	_	_
+14	Actes	Actes	PROPN	_	_	12	compound	_	_
+15-16	del	_	_	_	_	12	case	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	el	el	DET	_	_	17	det	_	_
+17	Pavelló	Pavelló	PROPN	_	_	18	compound	_	_
+18	Docent	Docent	PROPN	_	_	20	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	l'	el	DET	_	_	21	det	_	_
+21	Hospital	Hospital	PROPN	_	_	23	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	la	la	DET	_	_	24	det	_	_
+24	Vall	Vall	PROPN	_	_	26	nmod	_	_
+25	d'	de	ADP	_	_	26	case	_	_
+26	Hebron	Hebron	PROPN	_	_	27	compound	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	la	el	DET	_	_	29	det	_	_
+29	conferència	conferència	NOUN	_	_	37	nsubj	_	_
+30	'	'	PUNCT	_	_	31	punct	_	_
+31	Efectes	Efectes	NOUN	_	_	32	compound	_	_
+32	adversos	adversos	ADJ	_	_	33	nmod	_	_
+33-34	del	_	_	_	_	32	case	_	_
+33	de	de	ADP	_	_	34	mark	_	_
+34	el	el	DET	_	_	35	det	_	_
+35	sol	sol	NOUN	_	_	36	compound	_	_
+36	'	'	PUNCT	_	_	37	punct	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	que	que	PRON	_	_	39	nsubj	_	_
+39	pronunciarà	pronunciar	VERB	_	_	29	acl	_	_
+40	el	el	DET	_	_	41	det	_	_
+41	Cap	Cap	PROPN	_	_	43	nmod	_	_
+42-43	del	_	_	_	_	41	case	_	_
+42	de	de	ADP	_	_	43	mark	_	_
+43	el	el	DET	_	_	44	det	_	_
+44	Servei	Servei	PROPN	_	_	46	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	Dermatologia	Dermatologia	PROPN	_	_	39	obj	_	_
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	Antoni	Antoni	PROPN	_	_	49	compound	_	_
+49	Castells	Castells	PROPN	_	_	39	obl	_	_
+50	,	,	PUNCT	_	_	51	punct	_	_
+51	dimarts	dimarts	NOUN	_	_	53	nmod	_	_
+52	a	a	ADP	_	_	53	case	_	_
+53	la	el	DET	_	_	54	det	_	_
+54	tarda	tarda	NOUN	_	_	55	obl	_	_
+55	.	.	PUNCT	_	_	8	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquest	aquest	DET	_	_	2	det	_	_
+2	cicle	cicle	NOUN	_	_	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	conferències	conferència	NOUN	_	_	2	nmod	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	organitzat	organitzat	VERB	_	_	2	acl	_	_
+7	per	per	ADP	_	_	8	case	_	_
+8	la	el	DET	_	_	9	det	_	_
+9	Regidoria	Regidoria	PROPN	_	_	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Ciutat	Ciutat	PROPN	_	_	9	nmod	_	_
+12-13	del	_	_	_	_	14	case	_	_
+12	de	de	ADP	_	_	13	det	_	_
+13	el	el	DET	_	_	14	det	_	_
+14	Coneixement	Coneixement	PROPN	_	_	9	nmod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	amb	amb	ADP	_	_	18	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	patrocini	patrocini	NOUN	_	_	6	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	l'	el	DET	_	_	21	det	_	_
+21	Instituto	Instituto	PROPN	_	_	18	nmod	_	_
+22	Novartis	Novartis	PROPN	_	_	21	flat	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Comunicación	Comunicación	PROPN	_	_	21	nmod	_	_
+25	en	en	ADP	_	_	26	case	_	_
+26	Biomedicina	Biomedicina	PROPN	_	_	24	nmod	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	posa	posar	VERB	_	_	0	root	_	_
+29	a	a	ADP	_	_	30	case	_	_
+30	l'	el	DET	_	_	31	det	_	_
+31	abast	abast	NOUN	_	_	28	obl	_	_
+32-33	dels	_	_	_	_	34	case	_	_
+32	de	de	ADP	_	_	33	det	_	_
+33	els	el	DET	_	_	34	det	_	_
+34	ciutadans	ciutadà	NOUN	_	_	28	obl	_	_
+35	una	un	DET	_	_	36	det	_	_
+36	nova	nou	ADJ	_	_	37	amod	_	_
+37	proposta	proposta	NOUN	_	_	28	obj	_	_
+38	per	per	ADP	_	_	39	case	_	_
+39	conèixer	conèixer	VERB	_	_	37	acl	_	_
+40	i	i	CCONJ	_	_	41	cc	_	_
+41	debatre	debatre	VERB	_	_	39	conj	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	activitat	activitat	NOUN	_	_	41	obj	_	_
+44	científica	científic	ADJ	_	_	43	amod	_	_
+45	i	i	CCONJ	_	_	46	cc	_	_
+46	acadèmica	acadèmic	ADJ	_	_	44	conj	_	_
+47	que	que	PRON	_	_	49	nsubj	_	_
+48	es	ell	PRON	_	_	49	aux	_	_
+49	porta	portar	VERB	_	_	43	acl	_	_
+50	a	a	ADP	_	_	51	case	_	_
+51	terme	terme	NOUN	_	_	49	obl	_	_
+52-53	als	_	_	_	_	54	case	_	_
+52	a	a	ADP	_	_	53	det	_	_
+53	els	el	DET	_	_	54	det	_	_
+54	quatre	quatre	NUM	_	_	51	nmod	_	_
+55	hospitals	hospital	NOUN	_	_	51	nmod	_	_
+56	universitaris	universitari	ADJ	_	_	55	amod	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	la	el	DET	_	_	59	det	_	_
+59	ciutat	ciutat	NOUN	_	_	55	nmod	_	_
+60	,	,	PUNCT	_	_	61	punct	_	_
+61	Clínic	Clínic	PROPN	_	_	59	appos	_	_
+62	,	,	PUNCT	_	_	63	punct	_	_
+63	Mar	Mar	PROPN	_	_	61	conj	_	_
+64	,	,	PUNCT	_	_	65	punct	_	_
+65	Sant	Sant	PROPN	_	_	63	conj	_	_
+66	Pau	Pau	PROPN	_	_	65	flat	_	_
+67	i	i	CCONJ	_	_	68	cc	_	_
+68	Vall	Vall	PROPN	_	_	65	conj	_	_
+69	d'	de	ADP	_	_	70	case	_	_
+70	Hebron	Hebron	PROPN	_	_	68	nmod	_	_
+71	.	.	PUNCT	_	_	28	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Les	el	DET	_	_	3	det	_	_
+2	conferències	conferència	NOUN	_	_	3	nsubj	_	_
+3	que	que	PRON	_	_	4	nsubj	_	_
+4	composen	composar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	cicle	cicle	NOUN	_	_	4	obj	_	_
+7	Medicina	Medicina	PROPN	_	_	6	compound	_	_
+8-9	al	_	_	_	_	10	case	_	_
+8	a	a	ADP	_	_	9	mark	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	Segle	Segle	PROPN	_	_	7	nmod	_	_
+11	XXI	XXI	NUM	_	_	10	nummod	_	_
+12	es	ell	PRON	_	_	13	nsubj	_	_
+13	pronuncien	pronunciar	VERB	_	_	4	conj	_	_
+14	rotativament	rotativament	ADV	_	_	13	advmod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	els	el	DET	_	_	17	det	_	_
+17	dimarts	dimarts	NOUN	_	_	13	obl	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	les	el	DET	_	_	21	det	_	_
+21	19'30	19'30	NUM	_	_	17	nmod	_	_
+22	hores	hora	NOUN	_	_	21	compound	_	_
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	cada	cada	DET	_	_	26	det	_	_
+26	un	un	NUM	_	_	27	nummod	_	_
+27-28	dels	_	_	_	_	29	det	_	_
+27	de	de	ADP	_	_	28	mark	_	_
+28	els	el	DET	_	_	29	det	_	_
+29	hospitals	hospital	NOUN	_	_	26	nmod	_	_
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	amb	amb	ADP	_	_	32	case	_	_
+32	entrada	entrada	NOUN	_	_	31	obl	_	_
+33	lliure	lliure	ADJ	_	_	32	amod	_	_
+34	per	per	ADP	_	_	35	case	_	_
+35	a	a	ADP	_	_	36	case	_	_
+36	tothom	tothom	PRON	_	_	32	nmod	_	_
+37	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+
+ **Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender, Tense)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation stack (not always used)
+* **MISC:** Any other miscellaneous information.
+
+
+
+I've tried to provide a grammatically accurate dependency parsing, considering the context and structure of the sentence. Keep in mind that some choices can be subjective, especially for certain words like prepositions and conjunctions.
+Raw model output for sentence :
+```conll
+1	Cada	cada	DET	_	_	3	det	_	_
+2	quatre	quatre	NUM	_	_	3	nummod	_	_
+3	conferències	conferència	NOUN	_	_	5	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	se	ell	PRON	_	_	6	nsubj	_	_
+6	celebrarà	celebrar	VERB	_	_	0	root	_	_
+7	una	un	DET	_	_	8	det	_	_
+8	sessió	sessió	NOUN	_	_	6	obj	_	_
+9	on	on	ADV	_	_	8	mark	_	_
+10	es	ell	PRON	_	_	11	nsubj	_	_
+11	debatran	debatre	VERB	_	_	8	acl	_	_
+12	temes	tema	NOUN	_	_	11	obj	_	_
+13	d'	de	ADP	_	_	14	case	_	_
+14	actualitat	actualitat	NOUN	_	_	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	l'	el	DET	_	_	17	det	_	_
+17	àrea	àrea	NOUN	_	_	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	la	el	DET	_	_	20	det	_	_
+20	salut	salut	NOUN	_	_	17	nmod	_	_
+21	.	.	PUNCT	_	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	És	és	VERB	_	_	0	root	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	dir	dir	VERB	_	_	1	xcomp	_	_
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	cicle	cicle	NOUN	_	_	8	nsubj	_	_
+7	es	ell	PRON	_	_	6	appos	_	_
+8	compon	compondre	VERB	_	_	1	predicative	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	sèries	sèrie	NOUN	_	_	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	cinc	cinc	NUM	_	_	10	nmod	_	_
+13	conferències	conferència	NOUN	_	_	12	appos	_	_
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	les	el	DET	_	_	16	det	_	_
+16	quals	qual	PRON	_	_	17	nsubj	_	_
+17	s'	ell	PRON	_	_	19	nsubj	_	_
+18	aniran	anar	VERB	_	_	17	aux	_	_
+19	celebrant	celebrar	VERB	_	_	17	xcomp	_	_
+20	durant	durant	ADP	_	_	21	case	_	_
+21	el	el	DET	_	_	23	det	_	_
+22	proper	proper	ADJ	_	_	23	amod	_	_
+23	any	any	NOUN	_	_	19	obl	_	_
+24	i	i	CCONJ	_	_	25	cc	_	_
+25	mig	mig	NUM	_	_	23	conj	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	i	i	CCONJ	_	_	28	cc	_	_
+28	s'	ell	PRON	_	_	30	nsubj	_	_
+29	hi	hi	PRON	_	_	30	obj	_	_
+30	tractaran	tractar	VERB	_	_	19	conj	_	_
+31	temes	tema	NOUN	_	_	30	obj	_	_
+32	com	com	SCONJ	_	_	33	mark	_	_
+33	ara	ara	ADV	_	_	31	advmod	_	_
+34	els	el	DET	_	_	35	det	_	_
+35	accidents	accident	NOUN	_	_	31	appos	_	_
+36	infantils	infantil	ADJ	_	_	35	amod	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	les	el	DET	_	_	39	det	_	_
+39	malalties	malaltia	NOUN	_	_	35	appos	_	_
+40	importades	importat	VERB	_	_	39	acl	_	_
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	el	el	DET	_	_	43	det	_	_
+43	bioterrorisme	bioterrorisme	NOUN	_	_	39	appos	_	_
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	l'	el	DET	_	_	46	det	_	_
+46	Alzheimer	Alzheimer	PROPN	_	_	39	appos	_	_
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	o	o	CCONJ	_	_	49	cc	_	_
+49	la	el	DET	_	_	50	det	_	_
+50	recerca	recerca	NOUN	_	_	39	appos	_	_
+51	amb	amb	ADP	_	_	52	case	_	_
+52	embrions	embrió	NOUN	_	_	50	nmod	_	_
+53	humans	humà	ADJ	_	_	52	amod	_	_
+54	,	,	PUNCT	_	_	55	punct	_	_
+55	entre	entre	ADP	_	_	57	case	_	_
+56	d'	de	ADP	_	_	57	case	_	_
+57	altres	altre	PRON	_	_	31	conj	_	_
+58	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Antoni	Antoni	PROPN	_	_	0	root	_	_
+2	Castells	Castells	PROPN	_	_	1	flat	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	Doctor	Doctor	NOUN	_	_	1	appos	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	Medicina	Medicina	NOUN	_	_	4	nmod	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	Cirurgia	Cirurgia	NOUN	_	_	6	conj	_	_
+9	per	per	ADP	_	_	10	case	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	Universitat	Universitat	PROPN	_	_	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Barcelona	Barcelona	PROPN	_	_	11	nmod	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	és	ser	AUX	_	_	1	aux	_	_
+16	Catedràtic	Catedràtic	NOUN	_	_	1	appos	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Dermatologia	Dermatologia	NOUN	_	_	16	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	la	el	DET	_	_	21	det	_	_
+21	Facultat	Facultat	NOUN	_	_	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Medicina	Medicina	NOUN	_	_	21	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	Universitat	Universitat	PROPN	_	_	24	nmod	_	_
+27	Autònoma	Autònoma	PROPN	_	_	26	flat	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Barcelona	Barcelona	PROPN	_	_	27	nmod	_	_
+30	.	.	PUNCT	_	_	1	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Entre	entre	ADP	_	_	5	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	seva	seu	ADJ	_	_	4	amod	_	_
+4	activitat	activitat	NOUN	_	_	5	nsubj	_	_
+5	investigadora	investigador	NOUN	_	_	0	root	_	_
+6	destaca	destacar	VERB	_	_	5	acl	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	creació	creació	NOUN	_	_	6	obj	_	_
+9	i	i	CCONJ	_	_	10	cc	_	_
+10	direcció	direcció	NOUN	_	_	8	conj	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	el	el	DET	_	_	13	det	_	_
+13	1983	1983	NUM	_	_	14	nummod	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	del	de	ADP	_	_	17	case	_	_
+16	Laboratori	Laboratori	NOUN	_	_	17	compound	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	Inmunohistoquimia	Inmunohistoquimia	NOUN	_	_	19	compound	_	_
+19	en	en	ADP	_	_	21	case	_	_
+20	la	el	DET	_	_	21	det	_	_
+21	Càtedra	Càtedra	NOUN	_	_	23	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Dermatologia	Dermatologia	NOUN	_	_	25	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	27	nmod	_	_
+26	Facultat	Facultat	NOUN	_	_	27	compound	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	Medicina	Medicina	NOUN	_	_	29	compound	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	la	el	DET	_	_	31	det	_	_
+31	Universitat	Universitat	NOUN	_	_	33	nmod	_	_
+32	Literària	Literària	ADJ	_	_	31	amod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	València	València	PROPN	_	_	35	compound	_	_
+35	,	,	PUNCT	_	_	5	punct	_	_
+36	i	i	CCONJ	_	_	38	cc	_	_
+37	el	el	DET	_	_	38	det	_	_
+38	1985	1985	NUM	_	_	40	nummod	_	_
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	del	de	ADP	_	_	42	case	_	_
+41	Laboratori	Laboratori	NOUN	_	_	42	compound	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	Cultius	Cultius	NOUN	_	_	44	compound	_	_
+44	de	de	ADP	_	_	47	case	_	_
+45	queratinocits	queratinocits	NOUN	_	_	47	nmod	_	_
+46	normals	normals	ADJ	_	_	45	amod	_	_
+47	i	i	CCONJ	_	_	49	cc	_	_
+48	Melanocits	Melanocits	NOUN	_	_	49	compound	_	_
+49	normals	normals	ADJ	_	_	52	nmod	_	_
+50	transformats	transformats	VERB	_	_	49	acl	_	_
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	en	en	ADP	_	_	55	case	_	_
+53	dita	dit	ADJ	_	_	55	amod	_	_
+54	facultat	facultat	NOUN	_	_	55	compound	_	_
+55	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Així	així	ADV	_	_	5	advmod	_	_
+2	mateix	mateix	ADJ	_	_	3	nsubj	_	_
+3	ha	haver	AUX	_	_	5	aux	_	_
+4	creat	crear	VERB	_	_	5	xcomp	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	laboratori	laboratori	NOUN	_	_	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cultius	cultiu	NOUN	_	_	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	cèl·lules	cèl·lula	NOUN	_	_	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	l'	el	DET	_	_	13	det	_	_
+13	epidermis	epidermis	NOUN	_	_	10	nmod	_	_
+14	humana	humà	ADJ	_	_	13	amod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	integrat	integrat	VERB	_	_	6	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	el	el	DET	_	_	19	det	_	_
+19	Servei	Servei	PROPN	_	_	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Dermatologia	Dermatologia	PROPN	_	_	19	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	l'	el	DET	_	_	24	det	_	_
+24	Hospital	Hospital	PROPN	_	_	21	nmod	_	_
+25	General	General	PROPN	_	_	24	flat	_	_
+26	Universitari	Universitari	PROPN	_	_	25	flat	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	la	la	DET	_	_	29	det	_	_
+29	Vall	Vall	PROPN	_	_	27	obj	_	_
+30	d'	de	ADP	_	_	31	case	_	_
+31	Hebron	Hebron	PROPN	_	_	29	nmod	_	_
+32	.	.	PUNCT	_	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Els	el	DET	_	_	5	det	_	_
+2	productors	productor	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	fruita	fruita	NOUN	_	_	0	root	_	_
+6	seca	sec	ADJ	_	_	5	amod	_	_
+7	s'	ell	PRON	_	_	8	nsubj	_	_
+8	han	haver	AUX	_	_	9	aux	_	_
+9	entrevistat	entrevistar	VERB	_	_	5	parataxis	_	_
+10	avui	avui	ADV	_	_	9	advmod	_	_
+11	amb	amb	ADP	_	_	12	case	_	_
+12	l'	el	DET	_	_	13	det	_	_
+13	abat	abat	NOUN	_	_	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Montserrat	Montserrat	PROPN	_	_	13	nmod	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Josep	Josep	PROPN	_	_	19	nsubj	_	_
+18	Maria	Maria	PROPN	_	_	17	flat	_	_
+19	Soler	Soler	PROPN	_	_	9	vocative	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	per	per	ADP	_	_	22	case	_	_
+22-23	explicar-li	_	_	_	_	_	_	_	_
+22	explicar	explicar	VERB	_	_	23	xcomp	_	_
+23	li	ell	PRON	_	_	9	parataxis	_	_
+24	la	el	DET	_	_	25	det	_	_
+25	crisi	crisi	NOUN	_	_	23	obj	_	_
+26	que	que	PRON	_	_	27	nsubj	_	_
+27	viu	viure	VERB	_	_	25	acl	_	_
+28	el	el	DET	_	_	29	det	_	_
+29	sector	sector	NOUN	_	_	27	obl	_	_
+30	.	.	PUNCT	_	_	5	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Uns	un	DET	_	_	3	det	_	_
+2	900	900	NUM	_	_	3	nummod	_	_
+3	productors	productor	NOUN	_	_	5	nsubj	_	_
+4	s'	ell	PRON	_	_	3	appos	_	_
+5	han	haver	AUX	_	_	0	root	_	_
+6	concentrat	concentrar	VERB	_	_	5	xcomp	_	_
+7	davant	davant	ADP	_	_	8	case	_	_
+8	la	el	DET	_	_	9	det	_	_
+9	basílica	basílica	NOUN	_	_	6	obl	_	_
+10	i	i	CCONJ	_	_	11	cc	_	_
+11	han	haver	AUX	_	_	5	conj	_	_
+12	exposat	exposar	VERB	_	_	11	xcomp	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	l'	el	DET	_	_	15	det	_	_
+15	abat	abat	NOUN	_	_	12	obl	_	_
+16	que	que	PRON	_	_	17	nsubj	_	_
+17	són	ser	AUX	_	_	18	cop	_	_
+18	necessaris	necessari	ADJ	_	_	15	acl	_	_
+19	ajuts	ajut	NOUN	_	_	18	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	300	300	NUM	_	_	23	nummod	_	_
+22	euros	euro	NOUN	_	_	21	unit	_	_
+23	per	per	ADP	_	_	24	case	_	_
+24	hectàrea	hectàrea	NOUN	_	_	19	nmod	_	_
+25	per	per	ADP	_	_	26	case	_	_
+26	al	a	ADP	_	_	28	case	_	_
+27	el	el	DET	_	_	28	det	_	_
+28	sector	sector	NOUN	_	_	24	nmod	_	_
+29	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., DET for determiner, NOUN for noun).
+* **XPOS:** Language-specific part-of-speech tag (not applicable in this case as Catalan tags are quite similar to universal ones).
+* **FEATS:** Morphological features (e.g., Gender, Number, Tense).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used).
+* **MISC:** Miscellaneous information (e.g., punctuation marks).
+
+
+
+**Notes:**
+
+*  The sentence is primarily composed of a complex verb phrase ("han concentrat" and "han exposat") and a nominal phrase ("Uns 900 productors").
+*  "Uns 900 productors" is the subject of both verbs.
+*  "Davant la basílica" functions as a prepositional phrase modifying "han concentrat."
+*  "A l'abat" is another prepositional phrase, this time modifying "han exposat."
+*  The final part of the sentence details the type of aid needed ("ajuts de 300 euros per hectàrea") and its relevance to the sector.

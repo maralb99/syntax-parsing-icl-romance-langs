@@ -1,0 +1,8 @@
+# sent_id = example1
+# text = Ambos son de origen Hebreo.
+1	Ambos	ambos	PRON	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	2	nsubj	_	_
+2	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	origen	origen	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	Hebreo	hebreo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_

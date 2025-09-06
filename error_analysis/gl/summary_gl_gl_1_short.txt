@@ -1,0 +1,487 @@
+SUMMARY ERROR ANALYSIS: gl_gl_1_short.conllu vs. gold_file_gl.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1959
+UPOS errors: 157 (8.01%)
+HEAD errors: 996 (50.84%)
+DEPREL errors: 660 (33.69%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'que': 23 errors (1.27%)
+'a': 9 errors (0.50%)
+'como': 4 errors (0.22%)
+'é': 4 errors (0.22%)
+'ás': 3 errors (0.17%)
+'outra': 3 errors (0.17%)
+'pode': 3 errors (0.17%)
+'non': 3 errors (0.17%)
+'podemos': 2 errors (0.11%)
+'_': 2 errors (0.11%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+PRON → SCONJ: 23 occurrences (14.65%)
+Most common error-causing words:
+  'que': 21 times (91.3% of this error)
+  'como': 1 times (4.3% of this error)
+  'cando': 1 times (4.3% of this error)
+
+Examples:
+  1. Line 262: 'que' in sentence 7
+     Context: normas que podemos
+     Sentence: Unha vez valorada a situación do de o accidente e informado o 061 , hai algunhas normas que podemos realizar con respecto ós a os accidentados .
+  2. Line 287: 'que' in sentence 8
+     Context: de que se
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+  3. Line 364: 'que' in sentence 10
+     Context: conferencias que pronuncien
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+  4. Line 375: 'que' in sentence 10
+     Context: actividades que se
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+  5. Line 460: 'que' in sentence 12
+     Context: , que sufrimos
+     Sentence: Avellentar con éxito Temos que ser capaces de educar e sensibilizar ás sociedades no en o respecto dos de os dereitos humanos das de as persoas maiores e en especial das de as mulleres , que sufrimos maior discriminación porque se nos une a pobreza e a incapacidade económica e funcional .
+     ... and 18 more occurrences
+
+AUX → VERB: 20 occurrences (12.74%)
+Most common error-causing words:
+  'pode': 3 times (15.0% of this error)
+  'podemos': 2 times (10.0% of this error)
+  'ser': 2 times (10.0% of this error)
+  'poderían': 2 times (10.0% of this error)
+  'é': 2 times (10.0% of this error)
+
+Examples:
+  1. Line 102: 'podemos' in sentence 3
+     Context: e podemos consideralos
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  2. Line 214: 'están' in sentence 6
+     Context: ou están apartadas
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  3. Line 263: 'podemos' in sentence 7
+     Context: que podemos realizar
+     Sentence: Unha vez valorada a situación do de o accidente e informado o 061 , hai algunhas normas que podemos realizar con respecto ós a os accidentados .
+  4. Line 329: 'segue' in sentence 9
+     Context: mínima segue a
+     Sentence: A mínima segue a dala dar a a provincia de Pontevedra , coa porcentaxe máis baixa de Galicia e tamén sensiblemente inferior á a a media española .
+  5. Line 428: 'Temos' in sentence 12
+     Context: éxito Temos que
+     Sentence: Avellentar con éxito Temos que ser capaces de educar e sensibilizar ás sociedades no en o respecto dos de os dereitos humanos das de as persoas maiores e en especial das de as mulleres , que sufrimos maior discriminación porque se nos une a pobreza e a incapacidade económica e funcional .
+     ... and 15 more occurrences
+
+ADJ → NOUN: 13 occurrences (8.28%)
+Most common error-causing words:
+  'dispositivos': 1 times (7.7% of this error)
+  'accidentados': 1 times (7.7% of this error)
+  'correntes': 1 times (7.7% of this error)
+  'acosadora': 1 times (7.7% of this error)
+  'salmonícola': 1 times (7.7% of this error)
+
+Examples:
+  1. Line 83: 'dispositivos' in sentence 2
+     Context: utilicen dispositivos homologados
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  2. Line 270: 'accidentados' in sentence 7
+     Context: os accidentados .
+     Sentence: Unha vez valorada a situación do de o accidente e informado o 061 , hai algunhas normas que podemos realizar con respecto ós a os accidentados .
+  3. Line 395: 'correntes' in sentence 11
+     Context: as correntes do
+     Sentence: Por outra banda , o peche tamén redirixiría as correntes do de o Océano Atlántico , potenciando a corrente do de o Golfo e o transporte de augas cálidas superficias cara ó a o norte .
+  4. Line 770: 'acosadora' in sentence 19
+     Context: ou acosadora :
+     Sentence: A expresión destas de estas situacións de acoso psicolóxico pode manifestarse manifestar se a través de distintas actitudes e comportamentos por parte do de o acosador ou acosadora :
+  5. Line 1115: 'salmonícola' in sentence 28
+     Context: a salmonícola presenta
+     Sentence: Das De as dúas , a salmonícola presenta unha calidade máis elevada , ao a o necesitar as especies que viven ou poderían vivir neste en este tipo de auga , maior osíxeno para o seu desenvolvemento , indicador dunha de unha maior calidade da de a auga .
+     ... and 8 more occurrences
+
+DET → ADJ: 10 occurrences (6.37%)
+Most common error-causing words:
+  'outra': 3 times (30.0% of this error)
+  'certo': 1 times (10.0% of this error)
+  'mesmas': 1 times (10.0% of this error)
+  'súa': 1 times (10.0% of this error)
+  'outro': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 387: 'outra' in sentence 11
+     Context: Por outra banda
+     Sentence: Por outra banda , o peche tamén redirixiría as correntes do de o Océano Atlántico , potenciando a corrente do de o Golfo e o transporte de augas cálidas superficias cara ó a o norte .
+  2. Line 730: 'certo' in sentence 18
+     Context: ata certo grao
+     Sentence: A falta de perspectivas laborais , a flexibilidade das de as normas de convivencia no en o fogar e os custos da de a vida postergáronnos postergaron nos a vivir unha situación de xuventude forzosa e perpetua , condicionando ata certo grao a nosa relación coas con as drogas .
+  3. Line 790: 'mesmas' in sentence 20
+     Context: as mesmas que
+     Sentence: As propostas da de a loita contra as causas dos de os incendios son as mesmas que han de ter en conta a tan necesaria ordenación dos de os montes .
+  4. Line 897: 'outra' in sentence 23
+     Context: Por outra parte
+     Sentence: Por outra parte , para avaliar o volume do de o desemprego , e sobre todo a súa incidencia na en a xeneración da de a pobreza , é necesario afinar suficientemente no en o manexo dos de os datos .
+  5. Line 913: 'súa' in sentence 23
+     Context: a súa incidencia
+     Sentence: Por outra parte , para avaliar o volume do de o desemprego , e sobre todo a súa incidencia na en a xeneración da de a pobreza , é necesario afinar suficientemente no en o manexo dos de os datos .
+     ... and 5 more occurrences
+
+NOUN → ADP: 8 occurrences (5.10%)
+Most common error-causing words:
+  'ás': 3 times (37.5% of this error)
+  'fronte': 2 times (25.0% of this error)
+  'p': 1 times (12.5% of this error)
+  'cara': 1 times (12.5% of this error)
+  'través': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 317: 'p' in sentence 8
+     Context: , p .
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+  2. Line 362: 'ás' in sentence 10
+     Context: asistir ás conferencias
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+  3. Line 416: 'cara' in sentence 11
+     Context: superficias cara ó
+     Sentence: Por outra banda , o peche tamén redirixiría as correntes do de o Océano Atlántico , potenciando a corrente do de o Golfo e o transporte de augas cálidas superficias cara ó a o norte .
+  4. Line 436: 'ás' in sentence 12
+     Context: sensibilizar ás sociedades
+     Sentence: Avellentar con éxito Temos que ser capaces de educar e sensibilizar ás sociedades no en o respecto dos de os dereitos humanos das de as persoas maiores e en especial das de as mulleres , que sufrimos maior discriminación porque se nos une a pobreza e a incapacidade económica e funcional .
+  5. Line 757: 'través' in sentence 19
+     Context: a través de
+     Sentence: A expresión destas de estas situacións de acoso psicolóxico pode manifestarse manifestar se a través de distintas actitudes e comportamentos por parte do de o acosador ou acosadora :
+     ... and 3 more occurrences
+
+PRON → DET: 6 occurrences (3.82%)
+Most common error-causing words:
+  'a': 2 times (33.3% of this error)
+  'os': 1 times (16.7% of this error)
+  'o': 1 times (16.7% of this error)
+  'as': 1 times (16.7% of this error)
+  'el': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 105: 'os' in sentence 3
+     Context: considerar os como
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  2. Line 333: 'a' in sentence 9
+     Context: dar a a
+     Sentence: A mínima segue a dala dar a a provincia de Pontevedra , coa porcentaxe máis baixa de Galicia e tamén sensiblemente inferior á a a media española .
+  3. Line 492: 'o' in sentence 13
+     Context: facer o ,
+     Sentence: Pero Touriño agradeceu o convite e negouse negou se a facelo facer o , polo por o que Zitarrosa tivo que tomar unhas clases de galego co con o seu amigo antes de incluí-la incluír a composición no en o seu disco , converténdoa convertendo a así nun en un clásico do de o canto popular oriental .
+  4. Line 525: 'a' in sentence 13
+     Context: convertendo a así
+     Sentence: Pero Touriño agradeceu o convite e negouse negou se a facelo facer o , polo por o que Zitarrosa tivo que tomar unhas clases de galego co con o seu amigo antes de incluí-la incluír a composición no en o seu disco , converténdoa convertendo a así nun en un clásico do de o canto popular oriental .
+  5. Line 658: 'as' in sentence 17
+     Context: que as bagoas
+     Sentence: Ante o diagnostico dun de un cancro de mama e normal que a paciente chore e non se considera prexudicial , posto que as bagoas axudaran a alivia-lo aliviar o estres que esta padecendo , o pranto forma parte deste de este proceso de aceptacion e adaptacion da de a enfermidade .
+     ... and 1 more occurrences
+
+NOUN → PROPN: 6 occurrences (3.82%)
+Most common error-causing words:
+  'consello': 1 times (16.7% of this error)
+  'dirección': 1 times (16.7% of this error)
+  'océano': 1 times (16.7% of this error)
+  'golfo': 1 times (16.7% of this error)
+  'touriño': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 146: 'Consello' in sentence 4
+     Context: o Consello de
+     Sentence: Unha vez avaliados , a proposta de resolución será elevada ao a o presidente do de o Igape , quen resolverá por delegación do de o Consello de Dirección .
+  2. Line 148: 'Dirección' in sentence 4
+     Context: de Dirección .
+     Sentence: Unha vez avaliados , a proposta de resolución será elevada ao a o presidente do de o Igape , quen resolverá por delegación do de o Consello de Dirección .
+  3. Line 399: 'Océano' in sentence 11
+     Context: o Océano Atlántico
+     Sentence: Por outra banda , o peche tamén redirixiría as correntes do de o Océano Atlántico , potenciando a corrente do de o Golfo e o transporte de augas cálidas superficias cara ó a o norte .
+  4. Line 408: 'Golfo' in sentence 11
+     Context: o Golfo e
+     Sentence: Por outra banda , o peche tamén redirixiría as correntes do de o Océano Atlántico , potenciando a corrente do de o Golfo e o transporte de augas cálidas superficias cara ó a o norte .
+  5. Line 481: 'Touriño' in sentence 13
+     Context: Pero Touriño agradeceu
+     Sentence: Pero Touriño agradeceu o convite e negouse negou se a facelo facer o , polo por o que Zitarrosa tivo que tomar unhas clases de galego co con o seu amigo antes de incluí-la incluír a composición no en o seu disco , converténdoa convertendo a así nun en un clásico do de o canto popular oriental .
+     ... and 1 more occurrences
+
+PROPN → NOUN: 6 occurrences (3.82%)
+Most common error-causing words:
+  'aceptacion': 1 times (16.7% of this error)
+  'adaptacion': 1 times (16.7% of this error)
+  'press': 1 times (16.7% of this error)
+  'drogodependenciad': 1 times (16.7% of this error)
+  'gaps': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 679: 'aceptacion' in sentence 17
+     Context: de aceptacion e
+     Sentence: Ante o diagnostico dun de un cancro de mama e normal que a paciente chore e non se considera prexudicial , posto que as bagoas axudaran a alivia-lo aliviar o estres que esta padecendo , o pranto forma parte deste de este proceso de aceptacion e adaptacion da de a enfermidade .
+  2. Line 681: 'adaptacion' in sentence 17
+     Context: e adaptacion da
+     Sentence: Ante o diagnostico dun de un cancro de mama e normal que a paciente chore e non se considera prexudicial , posto que as bagoas axudaran a alivia-lo aliviar o estres que esta padecendo , o pranto forma parte deste de este proceso de aceptacion e adaptacion da de a enfermidade .
+  3. Line 979: 'press' in sentence 24
+     Context: os press realease
+     Sentence: A transcendencia deste de este medio pode quedar ben de manifesto nun en un estudo sobre un conxunto de 140 artigos científicos publicados nestes en estes xornais , dos de os que o 84 % tiñan como orixe os press realease ( Semir , V.
+  4. Line 1170: 'Drogodependenciad' in sentence 29
+     Context: de Drogodependenciad do
+     Sentence: Poden achegarse achegar se o Servizo de Prevención de Drogodependenciad do de o Concello de Lugo , no en o cal poderán solicitar assoramento e información , coma as seguintes fichas de axuda :
+  5. Line 1212: 'gaps' in sentence 30
+     Context: catro gaps asociados
+     Sentence: Depende do de o tamaño e da de a dirección dos de os catro gaps asociados coa con a prestación de calidade de servizo do de o lado do de o seu provedor .
+     ... and 1 more occurrences
+
+DET → PRON: 6 occurrences (3.82%)
+Most common error-causing words:
+  'o': 1 times (16.7% of this error)
+  'seu': 1 times (16.7% of this error)
+  'qué': 1 times (16.7% of this error)
+  'esta': 1 times (16.7% of this error)
+  'mesmos': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 972: 'o' in sentence 24
+     Context: que o 84
+     Sentence: A transcendencia deste de este medio pode quedar ben de manifesto nun en un estudo sobre un conxunto de 140 artigos científicos publicados nestes en estes xornais , dos de os que o 84 % tiñan como orixe os press realease ( Semir , V.
+  2. Line 1144: 'seu' in sentence 28
+     Context: o seu desenvolvemento
+     Sentence: Das De as dúas , a salmonícola presenta unha calidade máis elevada , ao a o necesitar as especies que viven ou poderían vivir neste en este tipo de auga , maior osíxeno para o seu desenvolvemento , indicador dunha de unha maior calidade da de a auga .
+  3. Line 1377: 'qué' in sentence 33
+     Context: ata qué punto
+     Sentence: Outro instrumento que axuda a avalia-la avaliar a bondade do de o axustamento da de a AF é a comunalidade de cada variable , é dicir , a porcentaxe de variación total dunha de unha variable explicada polos por os factores que , polo por o tanto , indica ata qué punto os factores axudan a explica-la explicar a variable .
+  4. Line 1893: 'esta' in sentence 45
+     Context: que esta actividade
+     Sentence: Recoméndase Recomenda se especialmente unha atención prioritaria ao a o sector de servizos e , dentro del de el , ao a o turismo , polo por o impacto que esta actividade ten en determinadas zonas do de o mundo .
+  5. Line 2024: 'mesmos' in sentence 48
+     Context: os mesmos .
+     Sentence: Acompañando á a a difusión do de o proxecto , organizaranse organizarán se xornadas de formación do de o profesorado , nas en as que se presentarán os materiais elaborados e se explicitarán as intencións educativas dos de os mesmos .
+     ... and 1 more occurrences
+
+NOUN → VERB: 4 occurrences (2.55%)
+Most common error-causing words:
+  'mellora': 1 times (25.0% of this error)
+  'forma': 1 times (25.0% of this error)
+  'toma': 1 times (25.0% of this error)
+  'demanda': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 37: 'mellora' in sentence 1
+     Context: e mellora os
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  2. Line 672: 'forma' in sentence 17
+     Context: pranto forma parte
+     Sentence: Ante o diagnostico dun de un cancro de mama e normal que a paciente chore e non se considera prexudicial , posto que as bagoas axudaran a alivia-lo aliviar o estres que esta padecendo , o pranto forma parte deste de este proceso de aceptacion e adaptacion da de a enfermidade .
+  3. Line 1472: 'toma' in sentence 35
+     Context: a toma de
+     Sentence: Para iso , requirirase requirirá se unha mellora significativa da de a calidade da de a información económica e ambiental , e das de as avaliacións xerais e de políticas concretas , nas en as que se basea na en a actualidade a toma de decisións .
+  4. Line 1480: 'demanda' in sentence 36
+     Context: Gabicia demanda ás
+     Sentence: Gabicia demanda ás administracións locais e autonómica proxectos ambiciosos para o fomento do de o uso da de a bicicleta como medio de transporte san e ecolóxico no en o medio urbano e interurbano .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+nmod → obl: 80 occurrences (12.12%)
+Most common error-causing words:
+  'calidade': 3 times (3.8% of this error)
+  'auga': 3 times (3.8% of this error)
+  'lingua': 2 times (2.5% of this error)
+  'parte': 2 times (2.5% of this error)
+  'desenvolvemento': 2 times (2.5% of this error)
+
+Examples:
+  1. Line 17: 'quimioterapia' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  2. Line 26: 'soporte' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  3. Line 32: 'supervivencia' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  4. Line 35: 'meses' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  5. Line 42: 'calidade' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+     ... and 75 more occurrences
+
+case → mark: 71 occurrences (10.76%)
+Most common error-causing words:
+  'de': 26 times (36.6% of this error)
+  'en': 13 times (18.3% of this error)
+  'para': 9 times (12.7% of this error)
+  'a': 9 times (12.7% of this error)
+  'por': 4 times (5.6% of this error)
+
+Examples:
+  1. Line 25: 'de' (UPOS: ADP) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  2. Line 31: 'de' (UPOS: ADP) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  3. Line 33: 'en' (UPOS: ADP) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  4. Line 76: 'de' (UPOS: ADP) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  5. Line 85: 'para' (UPOS: ADP) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+     ... and 66 more occurrences
+
+ccomp → acl: 28 occurrences (4.24%)
+Most common error-causing words:
+  'ten': 2 times (7.1% of this error)
+  'situados': 1 times (3.6% of this error)
+  'utilicen': 1 times (3.6% of this error)
+  'apartadas': 1 times (3.6% of this error)
+  'dando': 1 times (3.6% of this error)
+
+Examples:
+  1. Line 69: 'situados' (UPOS: VERB) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  2. Line 82: 'utilicen' (UPOS: VERB) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  3. Line 215: 'apartadas' (UPOS: VERB) in sentence 6
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  4. Line 233: 'dando' (UPOS: VERB) in sentence 6
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  5. Line 290: 'dea' (UPOS: VERB) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+     ... and 23 more occurrences
+
+obj → obl: 22 occurrences (3.33%)
+Most common error-causing words:
+  'orixe': 2 times (9.1% of this error)
+  'mediana': 1 times (4.5% of this error)
+  'síntomas': 1 times (4.5% of this error)
+  'atenuación': 1 times (4.5% of this error)
+  'sentido': 1 times (4.5% of this error)
+
+Examples:
+  1. Line 30: 'mediana' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  2. Line 39: 'síntomas' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  3. Line 109: 'atenuación' (UPOS: NOUN) in sentence 3
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  4. Line 234: 'orixe' (UPOS: NOUN) in sentence 6
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  5. Line 296: 'sentido' (UPOS: NOUN) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+     ... and 17 more occurrences
+
+case → advmod: 22 occurrences (3.33%)
+Most common error-causing words:
+  'tamén': 4 times (18.2% of this error)
+  'ademais': 2 times (9.1% of this error)
+  'salvo': 1 times (4.5% of this error)
+  'completamente': 1 times (4.5% of this error)
+  'aí': 1 times (4.5% of this error)
+
+Examples:
+  1. Line 80: 'salvo' (UPOS: ADP) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  2. Line 216: 'completamente' (UPOS: ADV) in sentence 6
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  3. Line 282: 'aí' (UPOS: ADV) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+  4. Line 304: 'burocraticamente' (UPOS: ADV) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+  5. Line 378: 'especificamente' (UPOS: ADV) in sentence 10
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+     ... and 17 more occurrences
+
+ccomp → xcomp: 22 occurrences (3.33%)
+Most common error-causing words:
+  'reducir': 2 times (9.1% of this error)
+  'considerar': 1 times (4.5% of this error)
+  'realizar': 1 times (4.5% of this error)
+  'capaces': 1 times (4.5% of this error)
+  'facer': 1 times (4.5% of this error)
+
+Examples:
+  1. Line 104: 'considerar' (UPOS: VERB) in sentence 3
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  2. Line 264: 'realizar' (UPOS: VERB) in sentence 7
+     Sentence: Unha vez valorada a situación do de o accidente e informado o 061 , hai algunhas normas que podemos realizar con respecto ós a os accidentados .
+  3. Line 431: 'capaces' (UPOS: ADJ) in sentence 12
+     Sentence: Avellentar con éxito Temos que ser capaces de educar e sensibilizar ás sociedades no en o respecto dos de os dereitos humanos das de as persoas maiores e en especial das de as mulleres , que sufrimos maior discriminación porque se nos une a pobreza e a incapacidade económica e funcional .
+  4. Line 491: 'facer' (UPOS: VERB) in sentence 13
+     Sentence: Pero Touriño agradeceu o convite e negouse negou se a facelo facer o , polo por o que Zitarrosa tivo que tomar unhas clases de galego co con o seu amigo antes de incluí-la incluír a composición no en o seu disco , converténdoa convertendo a así nun en un clásico do de o canto popular oriental .
+  5. Line 501: 'tomar' (UPOS: VERB) in sentence 13
+     Sentence: Pero Touriño agradeceu o convite e negouse negou se a facelo facer o , polo por o que Zitarrosa tivo que tomar unhas clases de galego co con o seu amigo antes de incluí-la incluír a composición no en o seu disco , converténdoa convertendo a así nun en un clásico do de o canto popular oriental .
+     ... and 17 more occurrences
+
+punct → dep: 20 occurrences (3.03%)
+Most common error-causing words:
+  '.': 17 times (85.0% of this error)
+  '_': 2 times (10.0% of this error)
+  ':': 1 times (5.0% of this error)
+
+Examples:
+  1. Line 108: '_' (UPOS: PUNCT) in sentence 3
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  2. Line 110: '_' (UPOS: PUNCT) in sentence 3
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  3. Line 241: '.' (UPOS: PUNCT) in sentence 6
+     Sentence: As situacións de pobreza severa -n _ en as que as persoas viven á a a marxe da de a sociedade ou están apartadas completamente das de as normas sociais convencionaisacumúlanse frecuentemente sobre os grupos e persoas de maior risco , dando orixe a situacións de auténtica polipatoloxía social .
+  4. Line 271: '.' (UPOS: PUNCT) in sentence 7
+     Sentence: Unha vez valorada a situación do de o accidente e informado o 061 , hai algunhas normas que podemos realizar con respecto ós a os accidentados .
+  5. Line 323: '.' (UPOS: PUNCT) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+     ... and 15 more occurrences
+
+obl → nmod: 17 occurrences (2.58%)
+Most common error-causing words:
+  'factores': 2 times (11.8% of this error)
+  'estadio': 1 times (5.9% of this error)
+  'asentos': 1 times (5.9% of this error)
+  'efecto': 1 times (5.9% of this error)
+  'dereitos': 1 times (5.9% of this error)
+
+Examples:
+  1. Line 7: 'estadio' (UPOS: NOUN) in sentence 1
+     Sentence: No En o estadio IV do de o CPNCP , o tratamento con quimioterapia é superior ao a o mellor tratamento de soporte , incrementa a mediana de supervivencia en 1.5-2 meses e mellora os síntomas e a calidade de vida na en a metade dos de os pacientes .
+  2. Line 73: 'asentos' (UPOS: NOUN) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  3. Line 87: 'efecto' (UPOS: NOUN) in sentence 2
+     Sentence: En todo caso , queda prohibido circular con menores de 12 anos situados nos en os asentos dianteiros do de o vehículo , salvo que utilicen dispositivos homologados para o efecto .
+  4. Line 98: 'dereitos' (UPOS: NOUN) in sentence 3
+     Sentence: Os impostos supoñen límites para os dereitos de propiedade e podemos consideralos considerar os como unha _ atenuación _ dos de os dereitos exclusivos .
+  5. Line 142: 'delegación' (UPOS: NOUN) in sentence 4
+     Sentence: Unha vez avaliados , a proposta de resolución será elevada ao a o presidente do de o Igape , quen resolverá por delegación do de o Consello de Dirección .
+     ... and 12 more occurrences
+
+nsubj → mark: 14 occurrences (2.12%)
+Most common error-causing words:
+  'que': 13 times (92.9% of this error)
+  'cando': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 364: 'que' (UPOS: PRON) in sentence 10
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+  2. Line 375: 'que' (UPOS: PRON) in sentence 10
+     Sentence: A acreditación permitirá asistir ás conferencias que pronuncien os expertos e a participar nas en as actividades que se organicen especificamente para os asistentes .
+  3. Line 460: 'que' (UPOS: PRON) in sentence 12
+     Sentence: Avellentar con éxito Temos que ser capaces de educar e sensibilizar ás sociedades no en o respecto dos de os dereitos humanos das de as persoas maiores e en especial das de as mulleres , que sufrimos maior discriminación porque se nos une a pobreza e a incapacidade económica e funcional .
+  4. Line 583: 'que' (UPOS: PRON) in sentence 15
+     Sentence: Nas En as análises iniciais introducíronse introduciron se todas aquelas variables que , intuitivamente , poderían axudar a clasificar os falantes dunha de unha e doutra de outra lingua .
+  5. Line 657: 'que' (UPOS: PRON) in sentence 17
+     Sentence: Ante o diagnostico dun de un cancro de mama e normal que a paciente chore e non se considera prexudicial , posto que as bagoas axudaran a alivia-lo aliviar o estres que esta padecendo , o pranto forma parte deste de este proceso de aceptacion e adaptacion da de a enfermidade .
+     ... and 9 more occurrences
+
+nmod → appos: 11 occurrences (1.67%)
+Most common error-causing words:
+  'crioulo': 1 times (9.1% of this error)
+  'granhein': 1 times (9.1% of this error)
+  'media': 1 times (9.1% of this error)
+  'acoso': 1 times (9.1% of this error)
+  'fichas': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 165: 'crioulo' (UPOS: NOUN) in sentence 5
+     Sentence: Este proceso denomínase denomina se crioulización , e o resultado , o crioulo , será unha variedade estructuralmente máis complexa có ca o pidgin orixinal , comparable á a a complexidade de calquera lingua natural .
+  2. Line 311: 'Granhein' (UPOS: PROPN) in sentence 8
+     Sentence: Para eses autores , preséntase presenta se aí un gran risco de que se " dea á a a avaliación un sentido tecnocrático e que se pase a esixir burocraticamente o cumprimento de obrigas " ( Granhein & Lundgren , 1992 , p . 18 e 19 ) .
+  3. Line 352: 'media' (UPOS: NOUN) in sentence 9
+     Sentence: A mínima segue a dala dar a a provincia de Pontevedra , coa porcentaxe máis baixa de Galicia e tamén sensiblemente inferior á a a media española .
+  4. Line 750: 'acoso' (UPOS: NOUN) in sentence 19
+     Sentence: A expresión destas de estas situacións de acoso psicolóxico pode manifestarse manifestar se a través de distintas actitudes e comportamentos por parte do de o acosador ou acosadora :
+  5. Line 1191: 'fichas' (UPOS: NOUN) in sentence 29
+     Sentence: Poden achegarse achegar se o Servizo de Prevención de Drogodependenciad do de o Concello de Lugo , no en o cal poderán solicitar assoramento e información , coma as seguintes fichas de axuda :
+     ... and 6 more occurrences
+

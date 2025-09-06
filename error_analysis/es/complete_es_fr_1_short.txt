@@ -1,0 +1,3786 @@
+COMPLETE ERROR ANALYSIS: es_fr_1_short.conllu vs. gold_file_es.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1139
+UPOS errors: 77 (6.76%)
+HEAD errors: 632 (55.49%)
+DEPREL errors: 409 (35.91%)
+
+================================================================================
+
+COMPLETE WORD ERROR STATISTICS:
+==================================================
+
+ALL ERROR-CAUSING WORDS (sorted by frequency):
+'que': 7 total errors (0.63%)
+'es': 7 total errors (0.63%)
+'como': 3 total errors (0.27%)
+'varios': 2 total errors (0.18%)
+'noviembre': 2 total errors (0.18%)
+'puede': 2 total errors (0.18%)
+'este': 2 total errors (0.18%)
+'todo': 1 total errors (0.09%)
+'los': 1 total errors (0.09%)
+'pedidos': 1 total errors (0.09%)
+'acta': 1 total errors (0.09%)
+'independencia': 1 total errors (0.09%)
+'está': 1 total errors (0.09%)
+'d.iii': 1 total errors (0.09%)
+'3er': 1 total errors (0.09%)
+'dan': 1 total errors (0.09%)
+'relacionado': 1 total errors (0.09%)
+'lite': 1 total errors (0.09%)
+'-': 1 total errors (0.09%)
+'brite': 1 total errors (0.09%)
+'la': 1 total errors (0.09%)
+'otros': 1 total errors (0.09%)
+'blanco': 1 total errors (0.09%)
+'copa': 1 total errors (0.09%)
+'mundo': 1 total errors (0.09%)
+'ambos': 1 total errors (0.09%)
+'sur': 1 total errors (0.09%)
+'estadio': 1 total errors (0.09%)
+'no': 1 total errors (0.09%)
+'sushi': 1 total errors (0.09%)
+'médanos': 1 total errors (0.09%)
+'grandes': 1 total errors (0.09%)
+'serbio': 1 total errors (0.09%)
+'ser': 1 total errors (0.09%)
+'debía': 1 total errors (0.09%)
+'profeta': 1 total errors (0.09%)
+'misericordioso': 1 total errors (0.09%)
+'paraíso': 1 total errors (0.09%)
+'coyote': 1 total errors (0.09%)
+'ediciones': 1 total errors (0.09%)
+'estoy': 1 total errors (0.09%)
+'pues': 1 total errors (0.09%)
+'febrero': 1 total errors (0.09%)
+'mayo': 1 total errors (0.09%)
+'frente': 1 total errors (0.09%)
+'tanto': 1 total errors (0.09%)
+'normando': 1 total errors (0.09%)
+'esto': 1 total errors (0.09%)
+'ya': 1 total errors (0.09%)
+'real': 1 total errors (0.09%)
+'academia': 1 total errors (0.09%)
+'historia': 1 total errors (0.09%)
+'mencionada': 1 total errors (0.09%)
+'teología': 1 total errors (0.09%)
+'estaba': 1 total errors (0.09%)
+'cuales': 1 total errors (0.09%)
+'agosto': 1 total errors (0.09%)
+'lonchophora': 1 total errors (0.09%)
+'brassicaceae': 1 total errors (0.09%)
+
+--------------------------------------------------
+
+ALL UPOS ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: PROPN → NOUN
+Occurrences: 20 (25.97%)
+All error-causing words for this error:
+  'noviembre': 2 times (10.0%)
+  'acta': 1 times (5.0%)
+  'independencia': 1 times (5.0%)
+  'dan': 1 times (5.0%)
+  'copa': 1 times (5.0%)
+  'mundo': 1 times (5.0%)
+  'médanos': 1 times (5.0%)
+  'profeta': 1 times (5.0%)
+  'paraíso': 1 times (5.0%)
+  'coyote': 1 times (5.0%)
+  'ediciones': 1 times (5.0%)
+  'febrero': 1 times (5.0%)
+  'mayo': 1 times (5.0%)
+  'academia': 1 times (5.0%)
+  'historia': 1 times (5.0%)
+  'teología': 1 times (5.0%)
+  'agosto': 1 times (5.0%)
+  'lonchophora': 1 times (5.0%)
+  'brassicaceae': 1 times (5.0%)
+
+All lines: 70, 73, 231, 290, 455, 459, 755, 863, 872, 880, 898, 906, 977, 983, 1114, 1117, 1125, 1265, 1277, 1288
+All occurrences:
+  1. Line 70: 'Acta' in sentence 3
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: El Acta de
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 73: 'Independencia' in sentence 3
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: la Independencia de
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  3. Line 231: 'noviembre' in sentence 8
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de noviembre de
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  4. Line 290: 'Dan' in sentence 10
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: 3er Dan en
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  5. Line 455: 'Copa' in sentence 17
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: la Copa del
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  6. Line 459: 'Mundo' in sentence 17
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: el Mundo en
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  7. Line 755: 'Médanos' in sentence 30
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: ( Médanos Grandes
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  8. Line 863: 'Profeta' in sentence 34
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: el Profeta ,
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  9. Line 872: 'Paraíso' in sentence 34
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: el Paraíso .
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  10. Line 880: 'noviembre' in sentence 35
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de noviembre ,
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  11. Line 898: 'Coyote' in sentence 36
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: El Coyote fue
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  12. Line 906: 'Ediciones' in sentence 36
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: por Ediciones Cliper
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  13. Line 977: 'febrero' in sentence 38
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de febrero de
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  14. Line 983: 'mayo' in sentence 38
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de mayo de
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  15. Line 1114: 'Academia' in sentence 42
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: Real Academia de
+     Full sentence: Real Academia de la Historia
+
+  16. Line 1117: 'Historia' in sentence 42
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: la Historia END
+     Full sentence: Real Academia de la Historia
+
+  17. Line 1125: 'Teología' in sentence 43
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: la Teología de
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  18. Line 1265: 'agosto' in sentence 49
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: de agosto de
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+  19. Line 1277: 'Lonchophora' in sentence 50
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: START Lonchophora es
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+  20. Line 1288: 'Brassicaceae' in sentence 50
+     Gold UPOS: PROPN → System UPOS: NOUN
+     Context: familia Brassicaceae .
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+--------------------------------------------------
+
+ERROR: AUX → VERB
+Occurrences: 12 (15.58%)
+All error-causing words for this error:
+  'es': 5 times (41.7%)
+  'puede': 2 times (16.7%)
+  'está': 1 times (8.3%)
+  'ser': 1 times (8.3%)
+  'debía': 1 times (8.3%)
+  'estoy': 1 times (8.3%)
+  'estaba': 1 times (8.3%)
+
+All lines: 77, 371, 411, 419, 851, 858, 935, 1082, 1121, 1208, 1241, 1278
+All occurrences:
+  1. Line 77: 'está' in sentence 3
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: , está escrita
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 371: 'puede' in sentence 13
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Lemke puede retirar
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  3. Line 411: 'es' in sentence 15
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: trasera es la
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  4. Line 419: 'puede' in sentence 15
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: jugador puede ver
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  5. Line 851: 'ser' in sentence 34
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: pretendió ser una
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  6. Line 858: 'debía' in sentence 34
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: que debía reemplazar
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  7. Line 935: 'Estoy' in sentence 37
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: START Estoy más
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  8. Line 1082: 'es' in sentence 41
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: duda es un
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  9. Line 1121: 'Es' in sentence 43
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: START Es mencionada
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  10. Line 1208: 'estaba' in sentence 46
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: ella estaba ganando
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  11. Line 1241: 'es' in sentence 47
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: km2 es agua
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+  12. Line 1278: 'es' in sentence 50
+     Gold UPOS: AUX → System UPOS: VERB
+     Context: Lonchophora es un
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+--------------------------------------------------
+
+ERROR: PRON → DET
+Occurrences: 4 (5.19%)
+All error-causing words for this error:
+  'los': 1 times (25.0%)
+  'la': 1 times (25.0%)
+  'ambos': 1 times (25.0%)
+  'esto': 1 times (25.0%)
+
+All lines: 61, 387, 503, 1079
+All occurrences:
+  1. Line 61: 'Los' in sentence 2
+     Gold UPOS: PRON → System UPOS: DET
+     Context: de Los 10
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 387: 'la' in sentence 13
+     Gold UPOS: PRON → System UPOS: DET
+     Context: que la retire
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  3. Line 503: 'Ambos' in sentence 20
+     Gold UPOS: PRON → System UPOS: DET
+     Context: START Ambos son
+     Full sentence: Ambos son químicamente idénticos .
+
+  4. Line 1079: 'Esto' in sentence 41
+     Gold UPOS: PRON → System UPOS: DET
+     Context: START Esto sin
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: PROPN → ADJ
+Occurrences: 4 (5.19%)
+All error-causing words for this error:
+  'blanco': 1 times (25.0%)
+  'grandes': 1 times (25.0%)
+  'misericordioso': 1 times (25.0%)
+  'real': 1 times (25.0%)
+
+All lines: 439, 756, 868, 1113
+All occurrences:
+  1. Line 439: 'Blanco' in sentence 16
+     Gold UPOS: PROPN → System UPOS: ADJ
+     Context: Ejército Blanco .
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+  2. Line 756: 'Grandes' in sentence 30
+     Gold UPOS: PROPN → System UPOS: ADJ
+     Context: Médanos Grandes )
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  3. Line 868: 'Misericordioso' in sentence 34
+     Gold UPOS: PROPN → System UPOS: ADJ
+     Context: El Misericordioso tenga
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  4. Line 1113: 'Real' in sentence 42
+     Gold UPOS: PROPN → System UPOS: ADJ
+     Context: START Real Academia
+     Full sentence: Real Academia de la Historia
+
+--------------------------------------------------
+
+ERROR: PRON → SCONJ
+Occurrences: 3 (3.90%)
+All error-causing words for this error:
+  'que': 3 times (100.0%)
+
+All lines: 416, 642, 1206
+All occurrences:
+  1. Line 416: 'que' in sentence 15
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: la que el
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  2. Line 642: 'que' in sentence 25
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: en que se
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  3. Line 1206: 'que' in sentence 46
+     Gold UPOS: PRON → System UPOS: SCONJ
+     Context: , que ella
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: CCONJ → SCONJ
+Occurrences: 3 (3.90%)
+All error-causing words for this error:
+  'que': 2 times (66.7%)
+  'como': 1 times (33.3%)
+
+All lines: 849, 937, 1130
+All occurrences:
+  1. Line 849: 'que' in sentence 34
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: fatuo que pretendió
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  2. Line 937: 'que' in sentence 37
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: más que tranquila
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  3. Line 1130: 'como' in sentence 43
+     Gold UPOS: CCONJ → System UPOS: SCONJ
+     Context: así como por
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: PRON → ADV
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'todo': 1 times (50.0%)
+  'tanto': 1 times (50.0%)
+
+All lines: 14, 1040
+All occurrences:
+  1. Line 14: 'todo' in sentence 1
+     Gold UPOS: PRON → System UPOS: ADV
+     Context: sobre todo haciendo
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+  2. Line 1040: 'tanto' in sentence 39
+     Gold UPOS: PRON → System UPOS: ADV
+     Context: , tanto por
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: PRON → ADJ
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'varios': 1 times (50.0%)
+  'otros': 1 times (50.0%)
+
+All lines: 153, 434
+All occurrences:
+  1. Line 153: 'varios' in sentence 5
+     Gold UPOS: PRON → System UPOS: ADJ
+     Context: nacieron varios de
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 434: 'otros' in sentence 16
+     Gold UPOS: PRON → System UPOS: ADJ
+     Context: hay otros reclutados
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+--------------------------------------------------
+
+ERROR: SCONJ → PRON
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'que': 2 times (100.0%)
+
+All lines: 296, 1025
+All occurrences:
+  1. Line 296: 'que' in sentence 10
+     Gold UPOS: SCONJ → System UPOS: PRON
+     Context: a que maneje
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  2. Line 1025: 'que' in sentence 39
+     Gold UPOS: SCONJ → System UPOS: PRON
+     Context: , que ofrece
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: NOUN → VERB
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'relacionado': 1 times (50.0%)
+  'mencionada': 1 times (50.0%)
+
+All lines: 303, 1122
+All occurrences:
+  1. Line 303: 'relacionado' in sentence 10
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: lo relacionado a
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  2. Line 1122: 'mencionada' in sentence 43
+     Gold UPOS: NOUN → System UPOS: VERB
+     Context: Es mencionada en
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: PROPN → X
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'lite': 1 times (50.0%)
+  'brite': 1 times (50.0%)
+
+All lines: 311, 313
+All occurrences:
+  1. Line 311: 'Lite' in sentence 11
+     Gold UPOS: PROPN → System UPOS: X
+     Context: START Lite -
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  2. Line 313: 'Brite' in sentence 11
+     Gold UPOS: PROPN → System UPOS: X
+     Context: - Brite permite
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+--------------------------------------------------
+
+ERROR: VERB → AUX
+Occurrences: 2 (2.60%)
+All error-causing words for this error:
+  'es': 2 times (100.0%)
+
+All lines: 337, 716
+All occurrences:
+  1. Line 337: 'es' in sentence 12
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: , es la
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  2. Line 716: 'es' in sentence 28
+     Gold UPOS: VERB → System UPOS: AUX
+     Context: sushi es de
+     Full sentence: El sushi es de mala calidad .
+
+--------------------------------------------------
+
+ERROR: VERB → NOUN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'pedidos': 1 times (100.0%)
+
+All lines: 64
+All occurrences:
+  1. Line 64: 'pedidos' in sentence 2
+     Gold UPOS: VERB → System UPOS: NOUN
+     Context: + pedidos ;
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+--------------------------------------------------
+
+ERROR: X → PROPN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'd.iii': 1 times (100.0%)
+
+All lines: 185
+All occurrences:
+  1. Line 185: 'D.III' in sentence 7
+     Gold UPOS: X → System UPOS: PROPN
+     Context: El D.III volvió
+     Full sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+
+--------------------------------------------------
+
+ERROR: ADJ → NUM
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  '3er': 1 times (100.0%)
+
+All lines: 289
+All occurrences:
+  1. Line 289: '3er' in sentence 10
+     Gold UPOS: ADJ → System UPOS: NUM
+     Context: de 3er Dan
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+--------------------------------------------------
+
+ERROR: PUNCT → SYM
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  '-': 1 times (100.0%)
+
+All lines: 312
+All occurrences:
+  1. Line 312: '-' in sentence 11
+     Gold UPOS: PUNCT → System UPOS: SYM
+     Context: Lite - Brite
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+--------------------------------------------------
+
+ERROR: PRON → PROPN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'este': 1 times (100.0%)
+
+All lines: 523
+All occurrences:
+  1. Line 523: 'Este' in sentence 21
+     Gold UPOS: PRON → System UPOS: PROPN
+     Context: el Este con
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+--------------------------------------------------
+
+ERROR: PROPN → ADP
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'sur': 1 times (100.0%)
+
+All lines: 533
+All occurrences:
+  1. Line 533: 'sur' in sentence 22
+     Gold UPOS: PROPN → System UPOS: ADP
+     Context: - sur -
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+--------------------------------------------------
+
+ERROR: PRON → NOUN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'este': 1 times (100.0%)
+
+All lines: 576
+All occurrences:
+  1. Line 576: 'este' in sentence 23
+     Gold UPOS: PRON → System UPOS: NOUN
+     Context: el este con
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+--------------------------------------------------
+
+ERROR: NOUN → PROPN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'estadio': 1 times (100.0%)
+
+All lines: 636
+All occurrences:
+  1. Line 636: 'Estadio' in sentence 25
+     Gold UPOS: NOUN → System UPOS: PROPN
+     Context: el Estadio Santiago
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: DET → ADJ
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'varios': 1 times (100.0%)
+
+All lines: 668
+All occurrences:
+  1. Line 668: 'Varios' in sentence 27
+     Gold UPOS: DET → System UPOS: ADJ
+     Context: START Varios años
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+--------------------------------------------------
+
+ERROR: ADV → PART
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'no': 1 times (100.0%)
+
+All lines: 675
+All occurrences:
+  1. Line 675: 'no' in sentence 27
+     Gold UPOS: ADV → System UPOS: PART
+     Context: la no ejecución
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+--------------------------------------------------
+
+ERROR: X → NOUN
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'sushi': 1 times (100.0%)
+
+All lines: 715
+All occurrences:
+  1. Line 715: 'sushi' in sentence 28
+     Gold UPOS: X → System UPOS: NOUN
+     Context: El sushi es
+     Full sentence: El sushi es de mala calidad .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADJ
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'serbio': 1 times (100.0%)
+
+All lines: 801
+All occurrences:
+  1. Line 801: 'serbio' in sentence 32
+     Gold UPOS: NOUN → System UPOS: ADJ
+     Context: el serbio pueda
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: SCONJ → CCONJ
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'pues': 1 times (100.0%)
+
+All lines: 944
+All occurrences:
+  1. Line 944: 'pues' in sentence 37
+     Gold UPOS: SCONJ → System UPOS: CCONJ
+     Context: allí pues veo
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+--------------------------------------------------
+
+ERROR: NOUN → ADP
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'frente': 1 times (100.0%)
+
+All lines: 1029
+All occurrences:
+  1. Line 1029: 'frente' in sentence 39
+     Gold UPOS: NOUN → System UPOS: ADP
+     Context: añadidos frente a
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: CCONJ → ADP
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'como': 1 times (100.0%)
+
+All lines: 1046
+All occurrences:
+  1. Line 1046: 'como' in sentence 39
+     Gold UPOS: CCONJ → System UPOS: ADP
+     Context: , como por
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: ADJ → VERB
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'normando': 1 times (100.0%)
+
+All lines: 1074
+All occurrences:
+  1. Line 1074: 'normando' in sentence 40
+     Gold UPOS: ADJ → System UPOS: VERB
+     Context: control normando .
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+--------------------------------------------------
+
+ERROR: X → ADV
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'ya': 1 times (100.0%)
+
+All lines: 1092
+All occurrences:
+  1. Line 1092: 'ya' in sentence 41
+     Gold UPOS: X → System UPOS: ADV
+     Context: , ya la
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: ADP → SCONJ
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'como': 1 times (100.0%)
+
+All lines: 1158
+All occurrences:
+  1. Line 1158: 'como' in sentence 44
+     Gold UPOS: ADP → System UPOS: SCONJ
+     Context: conocida como una
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: NOUN → PRON
+Occurrences: 1 (1.30%)
+All error-causing words for this error:
+  'cuales': 1 times (100.0%)
+
+All lines: 1238
+All occurrences:
+  1. Line 1238: 'cuales' in sentence 47
+     Gold UPOS: NOUN → System UPOS: PRON
+     Context: los cuales 28,87
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ALL DEPREL ERRORS WITH ALL OCCURRENCES AND WORD STATISTICS:
+==================================================
+
+ERROR: case → mark
+Occurrences: 38 (9.29%)
+All error-causing words for this error:
+  'de': 14 times (36.8%)
+  'a': 5 times (13.2%)
+  'en': 4 times (10.5%)
+  'con': 3 times (7.9%)
+  'que': 3 times (7.9%)
+  'por': 2 times (5.3%)
+  'para': 2 times (5.3%)
+  'según': 1 times (2.6%)
+  'bajo': 1 times (2.6%)
+  'sin': 1 times (2.6%)
+  'como': 1 times (2.6%)
+  'hasta': 1 times (2.6%)
+
+All lines: 51, 82, 113, 135, 154, 298, 349, 382, 385, 414, 436, 470, 491, 580, 587, 656, 705, 724, 727, 734, 833, 849, 886, 937, 978, 984, 1003, 1020, 1062, 1069, 1072, 1080, 1096, 1158, 1195, 1210, 1218, 1268
+All occurrences:
+  1. Line 51: 'con' (UPOS: ADP) in sentence 2
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 82: 'de' (UPOS: ADP) in sentence 3
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  3. Line 113: 'a' (UPOS: ADP) in sentence 4
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  4. Line 135: 'en' (UPOS: ADP) in sentence 5
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  5. Line 154: 'de' (UPOS: ADP) in sentence 5
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  6. Line 298: 'de' (UPOS: ADP) in sentence 10
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  7. Line 349: 'que' (UPOS: SCONJ) in sentence 12
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  8. Line 382: 'a' (UPOS: ADP) in sentence 13
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  9. Line 385: 'de' (UPOS: ADP) in sentence 13
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  10. Line 414: 'en' (UPOS: ADP) in sentence 15
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  11. Line 436: 'por' (UPOS: ADP) in sentence 16
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+  12. Line 470: 'a' (UPOS: ADP) in sentence 18
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  13. Line 491: 'para' (UPOS: ADP) in sentence 19
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+
+  14. Line 580: 'de' (UPOS: ADP) in sentence 23
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  15. Line 587: 'con' (UPOS: ADP) in sentence 23
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  16. Line 656: 'Para' (UPOS: ADP) in sentence 26
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Para la mamá de Coraline , es alcohólico .
+
+  17. Line 705: 'por' (UPOS: ADP) in sentence 27
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  18. Line 724: 'Según' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  19. Line 727: 'de' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  20. Line 734: 'en' (UPOS: ADP) in sentence 29
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  21. Line 833: 'de' (UPOS: ADP) in sentence 33
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  22. Line 849: 'que' (UPOS: CCONJ) in sentence 34
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  23. Line 886: 'de' (UPOS: ADP) in sentence 35
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  24. Line 937: 'que' (UPOS: CCONJ) in sentence 37
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  25. Line 978: 'de' (UPOS: ADP) in sentence 38
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  26. Line 984: 'de' (UPOS: ADP) in sentence 38
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  27. Line 1003: 'de' (UPOS: ADP) in sentence 39
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  28. Line 1020: 'de' (UPOS: ADP) in sentence 39
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  29. Line 1062: 'de' (UPOS: ADP) in sentence 40
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+  30. Line 1069: 'a' (UPOS: ADP) in sentence 40
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+  31. Line 1072: 'bajo' (UPOS: ADP) in sentence 40
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+  32. Line 1080: 'sin' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  33. Line 1096: 'a' (UPOS: ADP) in sentence 41
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  34. Line 1158: 'como' (UPOS: ADP) in sentence 44
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+  35. Line 1195: 'con' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  36. Line 1210: 'hasta' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  37. Line 1218: 'de' (UPOS: ADP) in sentence 46
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  38. Line 1268: 'en' (UPOS: ADP) in sentence 49
+     Gold DEPREL: case → System DEPREL: mark
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+--------------------------------------------------
+
+ERROR: nmod → obl
+Occurrences: 27 (6.60%)
+All error-causing words for this error:
+  'año': 1 times (3.7%)
+  'día': 1 times (3.7%)
+  'diseño': 1 times (3.7%)
+  'miembros': 1 times (3.7%)
+  'tema': 1 times (3.7%)
+  'plástico': 1 times (3.7%)
+  'linux': 1 times (3.7%)
+  'custom': 1 times (3.7%)
+  'sudáfrica': 1 times (3.7%)
+  'grono': 1 times (3.7%)
+  'verdabbio': 1 times (3.7%)
+  'noviembre': 1 times (3.7%)
+  'fpa': 1 times (3.7%)
+  'éxito': 1 times (3.7%)
+  'novelas': 1 times (3.7%)
+  'febrero': 1 times (3.7%)
+  'bolivia': 1 times (3.7%)
+  'destino': 1 times (3.7%)
+  'maldivas': 1 times (3.7%)
+  'productos': 1 times (3.7%)
+  'teología': 1 times (3.7%)
+  'apolodoro': 1 times (3.7%)
+  'ilíada': 1 times (3.7%)
+  'beneficios': 1 times (3.7%)
+  'basura': 1 times (3.7%)
+  'agosto': 1 times (3.7%)
+  'familia': 1 times (3.7%)
+
+All lines: 50, 55, 120, 157, 306, 325, 351, 426, 461, 588, 596, 880, 892, 917, 923, 977, 995, 1022, 1033, 1052, 1125, 1132, 1139, 1197, 1219, 1265, 1287
+All occurrences:
+  1. Line 50: 'año' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 55: 'día' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  3. Line 120: 'diseño' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  4. Line 157: 'miembros' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  5. Line 306: 'tema' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  6. Line 325: 'plástico' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  7. Line 351: 'Linux' (UPOS: PROPN) in sentence 12
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  8. Line 426: 'Custom' (UPOS: PROPN) in sentence 15
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  9. Line 461: 'Sudáfrica' (UPOS: PROPN) in sentence 17
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  10. Line 588: 'Grono' (UPOS: PROPN) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  11. Line 596: 'Verdabbio' (UPOS: PROPN) in sentence 23
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  12. Line 880: 'noviembre' (UPOS: PROPN) in sentence 35
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  13. Line 892: 'FPA' (UPOS: PROPN) in sentence 35
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  14. Line 917: 'éxito' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  15. Line 923: 'novelas' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  16. Line 977: 'febrero' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  17. Line 995: 'Bolivia' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  18. Line 1022: 'destino' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  19. Line 1033: 'Maldivas' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  20. Line 1052: 'productos' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  21. Line 1125: 'Teología' (UPOS: PROPN) in sentence 43
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  22. Line 1132: 'Apolodoro' (UPOS: PROPN) in sentence 43
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  23. Line 1139: 'Ilíada' (UPOS: PROPN) in sentence 43
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  24. Line 1197: 'beneficios' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  25. Line 1219: 'basura' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  26. Line 1265: 'agosto' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+  27. Line 1287: 'familia' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: nmod → System DEPREL: obl
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+--------------------------------------------------
+
+ERROR: obj → obl
+Occurrences: 14 (3.42%)
+All error-causing words for this error:
+  'hincapié': 1 times (7.1%)
+  'etapas': 1 times (7.1%)
+  'problema': 1 times (7.1%)
+  'estanquillas': 1 times (7.1%)
+  'interfaz': 1 times (7.1%)
+  'parte': 1 times (7.1%)
+  'puntos': 1 times (7.1%)
+  'profeta': 1 times (7.1%)
+  'animales': 1 times (7.1%)
+  'lo': 1 times (7.1%)
+  'comercialización': 1 times (7.1%)
+  'valores': 1 times (7.1%)
+  'servicio': 1 times (7.1%)
+  'tarifas': 1 times (7.1%)
+
+All lines: 16, 118, 205, 322, 357, 422, 781, 863, 953, 959, 1018, 1027, 1103, 1108
+All occurrences:
+  1. Line 16: 'hincapié' (UPOS: NOUN) in sentence 1
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+  2. Line 118: 'etapas' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  3. Line 205: 'problema' (UPOS: NOUN) in sentence 7
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+
+  4. Line 322: 'estanquillas' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  5. Line 357: 'interfaz' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  6. Line 422: 'parte' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  7. Line 781: 'puntos' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Durante la temporada promedió 5 puntos y 2.4 rebotes .
+
+  8. Line 863: 'Profeta' (UPOS: PROPN) in sentence 34
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  9. Line 953: 'animales' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  10. Line 959: 'lo' (UPOS: PRON) in sentence 37
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  11. Line 1018: 'comercialización' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  12. Line 1027: 'valores' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  13. Line 1103: 'servicio' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  14. Line 1108: 'tarifas' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obj → System DEPREL: obl
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: conj → obl
+Occurrences: 13 (3.18%)
+All error-causing words for this error:
+  'multiplicación': 1 times (7.7%)
+  'distribución': 1 times (7.7%)
+  'nivel': 1 times (7.7%)
+  'sur': 1 times (7.7%)
+  'occidente': 1 times (7.7%)
+  'josé': 1 times (7.7%)
+  'ejecución': 1 times (7.7%)
+  'rebotes': 1 times (7.7%)
+  'cariño': 1 times (7.7%)
+  'seychelles': 1 times (7.7%)
+  'isla': 1 times (7.7%)
+  'higino': 1 times (7.7%)
+  'homero': 1 times (7.7%)
+
+All lines: 124, 126, 363, 586, 594, 625, 676, 784, 956, 1035, 1037, 1134, 1136
+All occurrences:
+  1. Line 124: 'multiplicación' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  2. Line 126: 'distribución' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  3. Line 363: 'nivel' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  4. Line 586: 'sur' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  5. Line 594: 'occidente' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  6. Line 625: 'José' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  7. Line 676: 'ejecución' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  8. Line 784: 'rebotes' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Durante la temporada promedió 5 puntos y 2.4 rebotes .
+
+  9. Line 956: 'cariño' (UPOS: NOUN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  10. Line 1035: 'Seychelles' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  11. Line 1037: 'Isla' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  12. Line 1134: 'Higino' (UPOS: PROPN) in sentence 43
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  13. Line 1136: 'Homero' (UPOS: PROPN) in sentence 43
+     Gold DEPREL: conj → System DEPREL: obl
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: punct → dep
+Occurrences: 13 (3.18%)
+All error-causing words for this error:
+  '.': 12 times (92.3%)
+  '-': 1 times (7.7%)
+
+All lines: 180, 307, 312, 527, 563, 652, 710, 811, 841, 893, 1053, 1109, 1220
+All occurrences:
+  1. Line 180: '.' (UPOS: PUNCT) in sentence 6
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+  2. Line 307: '.' (UPOS: PUNCT) in sentence 10
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  3. Line 312: '-' (UPOS: PUNCT) in sentence 11
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  4. Line 527: '.' (UPOS: PUNCT) in sentence 21
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  5. Line 563: '.' (UPOS: PUNCT) in sentence 22
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  6. Line 652: '.' (UPOS: PUNCT) in sentence 25
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  7. Line 710: '.' (UPOS: PUNCT) in sentence 27
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  8. Line 811: '.' (UPOS: PUNCT) in sentence 32
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+  9. Line 841: '.' (UPOS: PUNCT) in sentence 33
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  10. Line 893: '.' (UPOS: PUNCT) in sentence 35
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  11. Line 1053: '.' (UPOS: PUNCT) in sentence 39
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  12. Line 1109: '.' (UPOS: PUNCT) in sentence 41
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  13. Line 1220: '.' (UPOS: PUNCT) in sentence 46
+     Gold DEPREL: punct → System DEPREL: dep
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: obl → nmod
+Occurrences: 12 (2.93%)
+All error-causing words for this error:
+  'fuste': 1 times (8.3%)
+  'años': 1 times (8.3%)
+  'colegio': 1 times (8.3%)
+  'barra': 1 times (8.3%)
+  'región': 1 times (8.3%)
+  'comuna': 1 times (8.3%)
+  'huesca': 1 times (8.3%)
+  'depósitos': 1 times (8.3%)
+  'temporada': 1 times (8.3%)
+  'condado': 1 times (8.3%)
+  'estado': 1 times (8.3%)
+  'historia': 1 times (8.3%)
+
+All lines: 81, 273, 489, 526, 545, 579, 696, 762, 806, 832, 837, 1044
+All occurrences:
+  1. Line 81: 'fuste' (UPOS: NOUN) in sentence 3
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 273: 'años' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  3. Line 489: 'colegio' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+
+  4. Line 526: 'Barra' (UPOS: PROPN) in sentence 21
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  5. Line 545: 'región' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  6. Line 579: 'comuna' (UPOS: NOUN) in sentence 23
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  7. Line 696: 'Huesca' (UPOS: PROPN) in sentence 27
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  8. Line 762: 'depósitos' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  9. Line 806: 'temporada' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+  10. Line 832: 'condado' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  11. Line 837: 'estado' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  12. Line 1044: 'historia' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: obl → System DEPREL: nmod
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: advcl → xcomp
+Occurrences: 11 (2.69%)
+All error-causing words for this error:
+  'transmitiendo': 1 times (9.1%)
+  'dicho': 1 times (9.1%)
+  'resolver': 1 times (9.1%)
+  'maneje': 1 times (9.1%)
+  'persuadir': 1 times (9.1%)
+  'inaugurar': 1 times (9.1%)
+  'educar': 1 times (9.1%)
+  'nadar': 1 times (9.1%)
+  'lograr': 1 times (9.1%)
+  'rebajar': 1 times (9.1%)
+  'comer': 1 times (9.1%)
+
+All lines: 41, 134, 203, 297, 380, 453, 474, 481, 1016, 1106, 1173
+All occurrences:
+  1. Line 41: 'transmitiendo' (UPOS: VERB) in sentence 2
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 134: 'dicho' (UPOS: VERB) in sentence 5
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  3. Line 203: 'resolver' (UPOS: VERB) in sentence 7
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+
+  4. Line 297: 'maneje' (UPOS: VERB) in sentence 10
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  5. Line 380: 'persuadir' (UPOS: VERB) in sentence 13
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  6. Line 453: 'inaugurar' (UPOS: VERB) in sentence 17
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  7. Line 474: 'educar' (UPOS: VERB) in sentence 18
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  8. Line 481: 'nadar' (UPOS: VERB) in sentence 18
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  9. Line 1016: 'lograr' (UPOS: VERB) in sentence 39
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  10. Line 1106: 'rebajar' (UPOS: VERB) in sentence 41
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  11. Line 1173: 'comer' (UPOS: VERB) in sentence 45
+     Gold DEPREL: advcl → System DEPREL: xcomp
+     Full sentence: El sitio tiene terraza en verano para comer o cenar fuera .
+
+--------------------------------------------------
+
+ERROR: conj → appos
+Occurrences: 9 (2.20%)
+All error-causing words for this error:
+  'cejudo': 1 times (11.1%)
+  'gramático': 1 times (11.1%)
+  'paremiógrafo': 1 times (11.1%)
+  'comuna': 1 times (11.1%)
+  'este': 1 times (11.1%)
+  'granado': 1 times (11.1%)
+  'hijo': 1 times (11.1%)
+  'hielo': 1 times (11.1%)
+  'trueno': 1 times (11.1%)
+
+All lines: 220, 240, 242, 540, 576, 973, 992, 1251, 1253
+All occurrences:
+  1. Line 220: 'Cejudo' (UPOS: PROPN) in sentence 8
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  2. Line 240: 'gramático' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  3. Line 242: 'paremiógrafo' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  4. Line 540: 'comuna' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  5. Line 576: 'este' (UPOS: PRON) in sentence 23
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+
+  6. Line 973: 'Granado' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  7. Line 992: 'hijo' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  8. Line 1251: 'hielo' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Vulnerable a dragón , hielo y trueno .
+
+  9. Line 1253: 'trueno' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: conj → System DEPREL: appos
+     Full sentence: Vulnerable a dragón , hielo y trueno .
+
+--------------------------------------------------
+
+ERROR: cop → root
+Occurrences: 9 (2.20%)
+All error-causing words for this error:
+  'es': 6 times (66.7%)
+  'son': 1 times (11.1%)
+  'estoy': 1 times (11.1%)
+  'fue': 1 times (11.1%)
+
+All lines: 249, 411, 504, 662, 935, 988, 1082, 1121, 1278
+All occurrences:
+  1. Line 249: 'es' (UPOS: AUX) in sentence 9
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  2. Line 411: 'es' (UPOS: AUX) in sentence 15
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  3. Line 504: 'son' (UPOS: AUX) in sentence 20
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Ambos son químicamente idénticos .
+
+  4. Line 662: 'es' (UPOS: AUX) in sentence 26
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Para la mamá de Coraline , es alcohólico .
+
+  5. Line 935: 'Estoy' (UPOS: AUX) in sentence 37
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  6. Line 988: 'fue' (UPOS: AUX) in sentence 38
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  7. Line 1082: 'es' (UPOS: AUX) in sentence 41
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  8. Line 1121: 'Es' (UPOS: AUX) in sentence 43
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+  9. Line 1278: 'es' (UPOS: AUX) in sentence 50
+     Gold DEPREL: cop → System DEPREL: root
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+--------------------------------------------------
+
+ERROR: flat → obl
+Occurrences: 9 (2.20%)
+All error-causing words for this error:
+  'robo': 1 times (11.1%)
+  'maría': 1 times (11.1%)
+  'cano': 1 times (11.1%)
+  'bernabéu': 1 times (11.1%)
+  'center': 1 times (11.1%)
+  'cliper': 1 times (11.1%)
+  'mallorquí': 1 times (11.1%)
+  'mauricio': 1 times (11.1%)
+  'louis': 1 times (11.1%)
+
+All lines: 427, 626, 627, 638, 736, 907, 928, 1038, 1270
+All occurrences:
+  1. Line 427: 'Robo' (UPOS: PROPN) in sentence 15
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  2. Line 626: 'María' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  3. Line 627: 'Cano' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  4. Line 638: 'Bernabéu' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  5. Line 736: 'Center' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  6. Line 907: 'Cliper' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  7. Line 928: 'Mallorquí' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  8. Line 1038: 'Mauricio' (UPOS: PROPN) in sentence 39
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  9. Line 1270: 'Louis' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: flat → System DEPREL: obl
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nsubj
+Occurrences: 8 (1.96%)
+All error-causing words for this error:
+  'se': 8 times (100.0%)
+
+All lines: 32, 42, 468, 513, 680, 742, 845, 884
+All occurrences:
+  1. Line 32: 'se' (UPOS: PRON) in sentence 2
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 42: 'se' (UPOS: PRON) in sentence 2
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  3. Line 468: 'se' (UPOS: PRON) in sentence 18
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  4. Line 513: 'se' (UPOS: PRON) in sentence 21
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  5. Line 680: 'se' (UPOS: PRON) in sentence 27
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  6. Line 742: 'se' (UPOS: PRON) in sentence 30
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  7. Line 845: 'Se' (UPOS: PRON) in sentence 34
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  8. Line 884: 'se' (UPOS: PRON) in sentence 35
+     Gold DEPREL: expl:pv → System DEPREL: nsubj
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+--------------------------------------------------
+
+ERROR: flat → appos
+Occurrences: 8 (1.96%)
+All error-causing words for this error:
+  'martín': 1 times (12.5%)
+  'caro': 1 times (12.5%)
+  'real': 1 times (12.5%)
+  'moncayo': 1 times (12.5%)
+  'domingo': 1 times (12.5%)
+  'francisco': 1 times (12.5%)
+  'javier': 1 times (12.5%)
+  'diouf': 1 times (12.5%)
+
+All lines: 217, 218, 227, 285, 619, 966, 967, 1259
+All occurrences:
+  1. Line 217: 'Martín' (UPOS: PROPN) in sentence 8
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  2. Line 218: 'Caro' (UPOS: PROPN) in sentence 8
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  3. Line 227: 'Real' (UPOS: PROPN) in sentence 8
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  4. Line 285: 'Moncayo' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  5. Line 619: 'Domingo' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  6. Line 966: 'Francisco' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  7. Line 967: 'Javier' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  8. Line 1259: 'Diouf' (UPOS: PROPN) in sentence 49
+     Gold DEPREL: flat → System DEPREL: appos
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → acl
+Occurrences: 8 (1.96%)
+All error-causing words for this error:
+  'ver': 1 times (12.5%)
+  'une': 1 times (12.5%)
+  'busca': 1 times (12.5%)
+  'adoran': 1 times (12.5%)
+  'tratan': 1 times (12.5%)
+  'ofrece': 1 times (12.5%)
+  'ofrecen': 1 times (12.5%)
+  'ganando': 1 times (12.5%)
+
+All lines: 420, 518, 689, 951, 960, 1026, 1101, 1209
+All occurrences:
+  1. Line 420: 'ver' (UPOS: VERB) in sentence 15
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  2. Line 518: 'une' (UPOS: VERB) in sentence 21
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  3. Line 689: 'busca' (UPOS: VERB) in sentence 27
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  4. Line 951: 'adoran' (UPOS: VERB) in sentence 37
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  5. Line 960: 'tratan' (UPOS: VERB) in sentence 37
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  6. Line 1026: 'ofrece' (UPOS: VERB) in sentence 39
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  7. Line 1101: 'ofrecen' (UPOS: VERB) in sentence 41
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  8. Line 1209: 'ganando' (UPOS: VERB) in sentence 46
+     Gold DEPREL: acl:relcl → System DEPREL: acl
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: obl → nsubj
+Occurrences: 7 (1.71%)
+All error-causing words for this error:
+  'creación': 1 times (14.3%)
+  'realidad': 1 times (14.3%)
+  'momento': 1 times (14.3%)
+  'niña': 1 times (14.3%)
+  'censo': 1 times (14.3%)
+  'temporada': 1 times (14.3%)
+  'áreas': 1 times (14.3%)
+
+All lines: 91, 335, 395, 467, 726, 778, 1071
+All occurrences:
+  1. Line 91: 'creación' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  2. Line 335: 'realidad' (UPOS: NOUN) in sentence 12
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  3. Line 395: 'momento' (UPOS: NOUN) in sentence 14
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: En ese momento , existían ocho facultades con aproximadamente 10000 estudiantes .
+
+  4. Line 467: 'niña' (UPOS: NOUN) in sentence 18
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  5. Line 726: 'censo' (UPOS: NOUN) in sentence 29
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  6. Line 778: 'temporada' (UPOS: NOUN) in sentence 31
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Durante la temporada promedió 5 puntos y 2.4 rebotes .
+
+  7. Line 1071: 'áreas' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: obl → System DEPREL: nsubj
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+--------------------------------------------------
+
+ERROR: root → obj
+Occurrences: 7 (1.71%)
+All error-causing words for this error:
+  'solar': 1 times (14.3%)
+  'estación': 1 times (14.3%)
+  'vista': 1 times (14.3%)
+  'experiencia': 1 times (14.3%)
+  'beneficio': 1 times (14.3%)
+  'especie': 1 times (14.3%)
+  'género': 1 times (14.3%)
+
+All lines: 145, 251, 413, 495, 1085, 1148, 1280
+All occurrences:
+  1. Line 145: 'solar' (UPOS: NOUN) in sentence 5
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 251: 'estación' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  3. Line 413: 'vista' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  4. Line 495: 'experiencia' (UPOS: NOUN) in sentence 19
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+
+  5. Line 1085: 'beneficio' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  6. Line 1148: 'especie' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+  7. Line 1280: 'género' (UPOS: NOUN) in sentence 50
+     Gold DEPREL: root → System DEPREL: obj
+     Full sentence: Lonchophora es un género de fanerógamas perteneciente a la la familia Brassicaceae .
+
+--------------------------------------------------
+
+ERROR: nmod → nummod
+Occurrences: 7 (1.71%)
+All error-causing words for this error:
+  '6': 1 times (14.3%)
+  '1630': 1 times (14.3%)
+  '2010': 1 times (14.3%)
+  '27': 1 times (14.3%)
+  '1913': 1 times (14.3%)
+  '1996': 1 times (14.3%)
+  '1938': 1 times (14.3%)
+
+All lines: 229, 233, 728, 975, 979, 985, 1267
+All occurrences:
+  1. Line 229: '6' (UPOS: NUM) in sentence 8
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  2. Line 233: '1630' (UPOS: NUM) in sentence 8
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  3. Line 728: '2010' (UPOS: NUM) in sentence 29
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+  4. Line 975: '27' (UPOS: NUM) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  5. Line 979: '1913' (UPOS: NUM) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  6. Line 985: '1996' (UPOS: NUM) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  7. Line 1267: '1938' (UPOS: NUM) in sentence 49
+     Gold DEPREL: nmod → System DEPREL: nummod
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+--------------------------------------------------
+
+ERROR: nsubj → obj
+Occurrences: 6 (1.47%)
+All error-causing words for this error:
+  'dinámica': 1 times (16.7%)
+  'plataforma': 1 times (16.7%)
+  'artista': 1 times (16.7%)
+  'puente': 1 times (16.7%)
+  'años': 1 times (16.7%)
+  'depresiones': 1 times (16.7%)
+
+All lines: 35, 98, 317, 516, 647, 745
+All occurrences:
+  1. Line 35: 'dinámica' (UPOS: NOUN) in sentence 2
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+  2. Line 98: 'plataforma' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  3. Line 317: 'artista' (UPOS: NOUN) in sentence 11
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  4. Line 516: 'puente' (UPOS: NOUN) in sentence 21
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  5. Line 647: 'años' (UPOS: NOUN) in sentence 25
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  6. Line 745: 'depresiones' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: nsubj → System DEPREL: obj
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+--------------------------------------------------
+
+ERROR: nsubj → obl
+Occurrences: 6 (1.47%)
+All error-causing words for this error:
+  'acta': 1 times (16.7%)
+  'jugador': 1 times (16.7%)
+  'nelson': 1 times (16.7%)
+  'mesnil': 1 times (16.7%)
+  'acto': 1 times (16.7%)
+  'don': 1 times (16.7%)
+
+All lines: 70, 418, 448, 531, 685, 965
+All occurrences:
+  1. Line 70: 'Acta' (UPOS: PROPN) in sentence 3
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 418: 'jugador' (UPOS: NOUN) in sentence 15
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  3. Line 448: 'Nelson' (UPOS: PROPN) in sentence 17
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  4. Line 531: 'Mesnil' (UPOS: PROPN) in sentence 22
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  5. Line 685: 'acto' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  6. Line 965: 'Don' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nsubj → System DEPREL: obl
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+--------------------------------------------------
+
+ERROR: obl:agent → obl
+Occurrences: 6 (1.47%)
+All error-causing words for this error:
+  'juez': 1 times (16.7%)
+  'ejército': 1 times (16.7%)
+  'plácido': 1 times (16.7%)
+  'ediciones': 1 times (16.7%)
+  'serie': 1 times (16.7%)
+  'josé': 1 times (16.7%)
+
+All lines: 172, 438, 618, 906, 921, 927
+All occurrences:
+  1. Line 172: 'juez' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+  2. Line 438: 'Ejército' (UPOS: NOUN) in sentence 16
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+  3. Line 618: 'Plácido' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  4. Line 906: 'Ediciones' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  5. Line 921: 'serie' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  6. Line 927: 'José' (UPOS: PROPN) in sentence 36
+     Gold DEPREL: obl:agent → System DEPREL: obl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+--------------------------------------------------
+
+ERROR: root → nsubj
+Occurrences: 6 (1.47%)
+All error-causing words for this error:
+  'localidad': 1 times (16.7%)
+  'defensa': 1 times (16.7%)
+  'municipio': 1 times (16.7%)
+  'tebeo': 1 times (16.7%)
+  'poeta': 1 times (16.7%)
+  'objetivo': 1 times (16.7%)
+
+All lines: 538, 792, 828, 901, 989, 1001
+All occurrences:
+  1. Line 538: 'localidad' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  2. Line 792: 'defensa' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+  3. Line 828: 'municipio' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  4. Line 901: 'tebeo' (UPOS: NOUN) in sentence 36
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  5. Line 989: 'poeta' (UPOS: NOUN) in sentence 38
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  6. Line 1001: 'objetivo' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: root → System DEPREL: nsubj
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: nmod → appos
+Occurrences: 6 (1.47%)
+All error-causing words for this error:
+  'pennsylvania': 1 times (16.7%)
+  'inglés': 1 times (16.7%)
+  'granado': 1 times (16.7%)
+  'mayo': 1 times (16.7%)
+  'duda': 1 times (16.7%)
+  'cyphostemma': 1 times (16.7%)
+
+All lines: 818, 821, 971, 983, 1081, 1154
+All occurrences:
+  1. Line 818: 'Pennsylvania' (UPOS: PROPN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  2. Line 821: 'inglés' (UPOS: NOUN) in sentence 33
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  3. Line 971: 'Granado' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  4. Line 983: 'mayo' (UPOS: PROPN) in sentence 38
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+  5. Line 1081: 'duda' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  6. Line 1154: 'Cyphostemma' (UPOS: PROPN) in sentence 44
+     Gold DEPREL: nmod → System DEPREL: appos
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → xcomp
+Occurrences: 5 (1.22%)
+All error-causing words for this error:
+  'permitirá': 1 times (20.0%)
+  'aprendió': 1 times (20.0%)
+  'transiten': 1 times (20.0%)
+  'dan': 1 times (20.0%)
+  'tenga': 1 times (20.0%)
+
+All lines: 101, 479, 704, 747, 869
+All occurrences:
+  1. Line 101: 'permitirá' (UPOS: VERB) in sentence 4
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  2. Line 479: 'aprendió' (UPOS: VERB) in sentence 18
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  3. Line 704: 'transiten' (UPOS: VERB) in sentence 27
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  4. Line 747: 'dan' (UPOS: VERB) in sentence 30
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  5. Line 869: 'tenga' (UPOS: VERB) in sentence 34
+     Gold DEPREL: acl:relcl → System DEPREL: xcomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: obl → nummod
+Occurrences: 5 (1.22%)
+All error-causing words for this error:
+  '1965': 1 times (20.0%)
+  '12': 1 times (20.0%)
+  '1947': 1 times (20.0%)
+  '1943': 1 times (20.0%)
+  '1': 1 times (20.0%)
+
+All lines: 512, 878, 909, 930, 1262
+All occurrences:
+  1. Line 512: '1965' (UPOS: NUM) in sentence 21
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  2. Line 878: '12' (UPOS: NUM) in sentence 35
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+  3. Line 909: '1947' (UPOS: NUM) in sentence 36
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  4. Line 930: '1943' (UPOS: NUM) in sentence 36
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  5. Line 1262: '1' (UPOS: NUM) in sentence 49
+     Gold DEPREL: obl → System DEPREL: nummod
+     Full sentence: Jacques Diouf nació el 1 º de agosto de 1938 en Saint Louis , Senegal .
+
+--------------------------------------------------
+
+ERROR: obj → nsubj
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'lo': 1 times (25.0%)
+  'punta': 1 times (25.0%)
+  'vera': 1 times (25.0%)
+  'la': 1 times (25.0%)
+
+All lines: 4, 519, 1184, 1213
+All occurrences:
+  1. Line 4: 'Lo' (UPOS: PRON) in sentence 1
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+  2. Line 519: 'Punta' (UPOS: PROPN) in sentence 21
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+  3. Line 1184: 'Vera' (UPOS: PROPN) in sentence 46
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+  4. Line 1213: 'la' (UPOS: PRON) in sentence 46
+     Gold DEPREL: obj → System DEPREL: nsubj
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: root → xcomp
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'escrita': 1 times (25.0%)
+  'retirar': 1 times (25.0%)
+  'tranquila': 1 times (25.0%)
+  'mencionada': 1 times (25.0%)
+
+All lines: 78, 372, 938, 1122
+All occurrences:
+  1. Line 78: 'escrita' (UPOS: VERB) in sentence 3
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 372: 'retirar' (UPOS: VERB) in sentence 13
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  3. Line 938: 'tranquila' (UPOS: ADJ) in sentence 37
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  4. Line 1122: 'mencionada' (UPOS: NOUN) in sentence 43
+     Gold DEPREL: root → System DEPREL: xcomp
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: case → dep
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'de': 2 times (50.0%)
+  'en': 1 times (25.0%)
+  'por': 1 times (25.0%)
+
+All lines: 121, 150, 919, 976
+All occurrences:
+  1. Line 121: 'de' (UPOS: ADP) in sentence 4
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  2. Line 150: 'en' (UPOS: ADP) in sentence 5
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  3. Line 919: 'por' (UPOS: ADP) in sentence 36
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  4. Line 976: 'de' (UPOS: ADP) in sentence 38
+     Gold DEPREL: case → System DEPREL: dep
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+--------------------------------------------------
+
+ERROR: appos → nmod
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'partido': 1 times (25.0%)
+  'provincia': 1 times (25.0%)
+  'argentina': 1 times (25.0%)
+  'departamento': 1 times (25.0%)
+
+All lines: 259, 262, 267, 550
+All occurrences:
+  1. Line 259: 'partido' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  2. Line 262: 'provincia' (UPOS: NOUN) in sentence 9
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  3. Line 267: 'Argentina' (UPOS: PROPN) in sentence 9
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  4. Line 550: 'departamento' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: appos → System DEPREL: nmod
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+--------------------------------------------------
+
+ERROR: acl → root
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'situada': 1 times (25.0%)
+  'ubicado': 1 times (25.0%)
+  'publicado': 1 times (25.0%)
+  'conocida': 1 times (25.0%)
+
+All lines: 542, 829, 902, 1157
+All occurrences:
+  1. Line 542: 'situada' (UPOS: VERB) in sentence 22
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  2. Line 829: 'ubicado' (UPOS: VERB) in sentence 33
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  3. Line 902: 'publicado' (UPOS: VERB) in sentence 36
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+  4. Line 1157: 'conocida' (UPOS: VERB) in sentence 44
+     Gold DEPREL: acl → System DEPREL: root
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: conj → nmod
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'cantón': 1 times (25.0%)
+  'personas': 1 times (25.0%)
+  'cuencas': 1 times (25.0%)
+  'chicas': 1 times (25.0%)
+
+All lines: 560, 702, 759, 1188
+All occurrences:
+  1. Line 560: 'cantón' (UPOS: NOUN) in sentence 22
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  2. Line 702: 'personas' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  3. Line 759: 'cuencas' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  4. Line 1188: 'chicas' (UPOS: NOUN) in sentence 46
+     Gold DEPREL: conj → System DEPREL: nmod
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: advcl → ccomp
+Occurrences: 4 (0.98%)
+All error-causing words for this error:
+  'pretendió': 1 times (25.0%)
+  'veo': 1 times (25.0%)
+  'restringida': 1 times (25.0%)
+  'golpeó': 1 times (25.0%)
+
+All lines: 850, 945, 1068, 1214
+All occurrences:
+  1. Line 850: 'pretendió' (UPOS: VERB) in sentence 34
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+  2. Line 945: 'veo' (UPOS: VERB) in sentence 37
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  3. Line 1068: 'restringida' (UPOS: VERB) in sentence 40
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+  4. Line 1214: 'golpeó' (UPOS: VERB) in sentence 46
+     Gold DEPREL: advcl → System DEPREL: ccomp
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: advcl → acl
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'siguiendo': 1 times (33.3%)
+  'conocer': 1 times (33.3%)
+  'retire': 1 times (33.3%)
+
+All lines: 6, 110, 388
+All occurrences:
+  1. Line 6: 'siguiendo' (UPOS: VERB) in sentence 1
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+  2. Line 110: 'conocer' (UPOS: VERB) in sentence 4
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  3. Line 388: 'retire' (UPOS: VERB) in sentence 13
+     Gold DEPREL: advcl → System DEPREL: acl
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+--------------------------------------------------
+
+ERROR: conj → ccomp
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'nacieron': 1 times (33.3%)
+  'fallaron': 1 times (33.3%)
+  'obliga': 1 times (33.3%)
+
+All lines: 152, 201, 1095
+All occurrences:
+  1. Line 152: 'nacieron' (UPOS: VERB) in sentence 5
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 201: 'fallaron' (UPOS: VERB) in sentence 7
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+
+  3. Line 1095: 'obliga' (UPOS: VERB) in sentence 41
+     Gold DEPREL: conj → System DEPREL: ccomp
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: appos → obl
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'provincia': 1 times (33.3%)
+  'santiago': 1 times (33.3%)
+  'viento': 1 times (33.3%)
+
+All lines: 224, 637, 770
+All occurrences:
+  1. Line 224: 'provincia' (UPOS: NOUN) in sentence 8
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  2. Line 637: 'Santiago' (UPOS: PROPN) in sentence 25
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+  3. Line 770: 'viento' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: appos → System DEPREL: obl
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+--------------------------------------------------
+
+ERROR: amod → nmod
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'buenos': 1 times (33.3%)
+  'posix': 1 times (33.3%)
+  'alta': 1 times (33.3%)
+
+All lines: 264, 346, 547
+All occurrences:
+  1. Line 264: 'Buenos' (UPOS: PROPN) in sentence 9
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+
+  2. Line 346: 'POSIX' (UPOS: PROPN) in sentence 12
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  3. Line 547: 'Alta' (UPOS: PROPN) in sentence 22
+     Gold DEPREL: amod → System DEPREL: nmod
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+--------------------------------------------------
+
+ERROR: flat → compound
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'trujillo': 1 times (33.3%)
+  'mandela': 1 times (33.3%)
+  'township': 1 times (33.3%)
+
+All lines: 278, 449, 824
+All occurrences:
+  1. Line 278: 'Trujillo' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: flat → System DEPREL: compound
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  2. Line 449: 'Mandela' (UPOS: PROPN) in sentence 17
+     Gold DEPREL: flat → System DEPREL: compound
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  3. Line 824: 'Township' (UPOS: PROPN) in sentence 33
+     Gold DEPREL: flat → System DEPREL: compound
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+--------------------------------------------------
+
+ERROR: ccomp → acl
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'cree': 1 times (33.3%)
+  'vea': 1 times (33.3%)
+  'recalar': 1 times (33.3%)
+
+All lines: 318, 692, 803
+All occurrences:
+  1. Line 318: 'cree' (UPOS: VERB) in sentence 11
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+  2. Line 692: 'vea' (UPOS: VERB) in sentence 27
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  3. Line 803: 'recalar' (UPOS: VERB) in sentence 32
+     Gold DEPREL: ccomp → System DEPREL: acl
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: obj → nmod
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'anciano': 1 times (33.3%)
+  'médanos': 1 times (33.3%)
+  'empresas': 1 times (33.3%)
+
+All lines: 384, 750, 1099
+All occurrences:
+  1. Line 384: 'anciano' (UPOS: NOUN) in sentence 13
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+  2. Line 750: 'médanos' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+  3. Line 1099: 'empresas' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: obj → System DEPREL: nmod
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: root → amod
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'idénticos': 1 times (33.3%)
+  'alcohólico': 1 times (33.3%)
+  'vulnerable': 1 times (33.3%)
+
+All lines: 506, 663, 1247
+All occurrences:
+  1. Line 506: 'idénticos' (UPOS: ADJ) in sentence 20
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Ambos son químicamente idénticos .
+
+  2. Line 663: 'alcohólico' (UPOS: ADJ) in sentence 26
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Para la mamá de Coraline , es alcohólico .
+
+  3. Line 1247: 'Vulnerable' (UPOS: ADJ) in sentence 48
+     Gold DEPREL: root → System DEPREL: amod
+     Full sentence: Vulnerable a dragón , hielo y trueno .
+
+--------------------------------------------------
+
+ERROR: cop → csubj
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'es': 3 times (100.0%)
+
+All lines: 536, 790, 1146
+All occurrences:
+  1. Line 536: 'es' (UPOS: AUX) in sentence 22
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+  2. Line 790: 'es' (UPOS: AUX) in sentence 32
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+  3. Line 1146: 'es' (UPOS: AUX) in sentence 44
+     Gold DEPREL: cop → System DEPREL: csubj
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: fixed → mark
+Occurrences: 3 (0.73%)
+All error-causing words for this error:
+  'a': 2 times (66.7%)
+  'como': 1 times (33.3%)
+
+All lines: 682, 1030, 1130
+All occurrences:
+  1. Line 682: 'a' (UPOS: ADP) in sentence 27
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  2. Line 1030: 'a' (UPOS: ADP) in sentence 39
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+  3. Line 1130: 'como' (UPOS: CCONJ) in sentence 43
+     Gold DEPREL: fixed → System DEPREL: mark
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: aux → root
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'está': 1 times (50.0%)
+  'puede': 1 times (50.0%)
+
+All lines: 77, 371
+All occurrences:
+  1. Line 77: 'está' (UPOS: AUX) in sentence 3
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+
+  2. Line 371: 'puede' (UPOS: AUX) in sentence 13
+     Gold DEPREL: aux → System DEPREL: root
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nmod:poss
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'se': 2 times (100.0%)
+
+All lines: 108, 691
+All occurrences:
+  1. Line 108: 'se' (UPOS: PRON) in sentence 4
+     Gold DEPREL: expl:pv → System DEPREL: nmod:poss
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+  2. Line 691: 'se' (UPOS: PRON) in sentence 27
+     Gold DEPREL: expl:pv → System DEPREL: nmod:poss
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+--------------------------------------------------
+
+ERROR: advcl → root
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'quedado': 1 times (50.0%)
+  'interpretado': 1 times (50.0%)
+
+All lines: 133, 616
+All occurrences:
+  1. Line 133: 'quedado' (UPOS: VERB) in sentence 5
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 616: 'Interpretado' (UPOS: VERB) in sentence 25
+     Gold DEPREL: advcl → System DEPREL: root
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: cop → ccomp
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'fue': 1 times (50.0%)
+  'esté': 1 times (50.0%)
+
+All lines: 144, 450
+All occurrences:
+  1. Line 144: 'fue' (UPOS: AUX) in sentence 5
+     Gold DEPREL: cop → System DEPREL: ccomp
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 450: 'esté' (UPOS: AUX) in sentence 17
+     Gold DEPREL: cop → System DEPREL: ccomp
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+--------------------------------------------------
+
+ERROR: nsubj → amod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'varios': 1 times (50.0%)
+  'serbio': 1 times (50.0%)
+
+All lines: 153, 801
+All occurrences:
+  1. Line 153: 'varios' (UPOS: PRON) in sentence 5
+     Gold DEPREL: nsubj → System DEPREL: amod
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+  2. Line 801: 'serbio' (UPOS: NOUN) in sentence 32
+     Gold DEPREL: nsubj → System DEPREL: amod
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: flat → nmod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'grande': 1 times (50.0%)
+  'marlaska': 1 times (50.0%)
+
+All lines: 178, 179
+All occurrences:
+  1. Line 178: 'Grande' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+  2. Line 179: 'Marlaska' (UPOS: PROPN) in sentence 6
+     Gold DEPREL: flat → System DEPREL: nmod
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+--------------------------------------------------
+
+ERROR: conj → nummod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  '1712': 1 times (50.0%)
+  '1955': 1 times (50.0%)
+
+All lines: 235, 911
+All occurrences:
+  1. Line 235: '1712' (UPOS: NUM) in sentence 8
+     Gold DEPREL: conj → System DEPREL: nummod
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+  2. Line 911: '1955' (UPOS: NUM) in sentence 36
+     Gold DEPREL: conj → System DEPREL: nummod
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+--------------------------------------------------
+
+ERROR: mark → nmod:poss
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'que': 2 times (100.0%)
+
+All lines: 296, 1025
+All occurrences:
+  1. Line 296: 'que' (UPOS: SCONJ) in sentence 10
+     Gold DEPREL: mark → System DEPREL: nmod:poss
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+  2. Line 1025: 'que' (UPOS: SCONJ) in sentence 39
+     Gold DEPREL: mark → System DEPREL: nmod:poss
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → root
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'implementa': 1 times (50.0%)
+  'gusta': 1 times (50.0%)
+
+All lines: 343, 795
+All occurrences:
+  1. Line 343: 'implementa' (UPOS: VERB) in sentence 12
+     Gold DEPREL: acl:relcl → System DEPREL: root
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+  2. Line 795: 'gusta' (UPOS: VERB) in sentence 32
+     Gold DEPREL: acl:relcl → System DEPREL: root
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: obl → mark
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'que': 2 times (100.0%)
+
+All lines: 416, 642
+All occurrences:
+  1. Line 416: 'que' (UPOS: PRON) in sentence 15
+     Gold DEPREL: obl → System DEPREL: mark
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  2. Line 642: 'que' (UPOS: PRON) in sentence 25
+     Gold DEPREL: obl → System DEPREL: mark
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: aux → xcomp
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'puede': 1 times (50.0%)
+  'pueda': 1 times (50.0%)
+
+All lines: 419, 802
+All occurrences:
+  1. Line 419: 'puede' (UPOS: AUX) in sentence 15
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+
+  2. Line 802: 'pueda' (UPOS: AUX) in sentence 32
+     Gold DEPREL: aux → System DEPREL: xcomp
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: acl → xcomp
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'reclutados': 1 times (50.0%)
+  'rellenadas': 1 times (50.0%)
+
+All lines: 435, 760
+All occurrences:
+  1. Line 435: 'reclutados' (UPOS: VERB) in sentence 16
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+  2. Line 760: 'rellenadas' (UPOS: VERB) in sentence 30
+     Gold DEPREL: acl → System DEPREL: xcomp
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+--------------------------------------------------
+
+ERROR: flat → nsubj
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'blatter': 1 times (50.0%)
+  'l'estrée': 1 times (50.0%)
+
+All lines: 445, 535
+All occurrences:
+  1. Line 445: 'Blatter' (UPOS: PROPN) in sentence 17
+     Gold DEPREL: flat → System DEPREL: nsubj
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+  2. Line 535: 'l'Estrée' (UPOS: PROPN) in sentence 22
+     Gold DEPREL: flat → System DEPREL: nsubj
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+--------------------------------------------------
+
+ERROR: expl:pv → obj
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'se': 2 times (100.0%)
+
+All lines: 475, 1193
+All occurrences:
+  1. Line 475: 'se' (UPOS: PRON) in sentence 18
+     Gold DEPREL: expl:pv → System DEPREL: obj
+     Full sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+
+  2. Line 1193: 'se' (UPOS: PRON) in sentence 46
+     Gold DEPREL: expl:pv → System DEPREL: obj
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: csubj → root
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'ir': 1 times (50.0%)
+  'promover': 1 times (50.0%)
+
+All lines: 486, 1007
+All occurrences:
+  1. Line 486: 'Ir' (UPOS: VERB) in sentence 19
+     Gold DEPREL: csubj → System DEPREL: root
+     Full sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+
+  2. Line 1007: 'promover' (UPOS: VERB) in sentence 39
+     Gold DEPREL: csubj → System DEPREL: root
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: nmod → nmod:poss
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'mí': 1 times (50.0%)
+  'cuales': 1 times (50.0%)
+
+All lines: 492, 1238
+All occurrences:
+  1. Line 492: 'mí' (UPOS: PRON) in sentence 19
+     Gold DEPREL: nmod → System DEPREL: nmod:poss
+     Full sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+
+  2. Line 1238: 'cuales' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nmod → System DEPREL: nmod:poss
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ERROR: nsubj → det
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'ambos': 1 times (50.0%)
+  'esto': 1 times (50.0%)
+
+All lines: 503, 1079
+All occurrences:
+  1. Line 503: 'Ambos' (UPOS: PRON) in sentence 20
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Ambos son químicamente idénticos .
+
+  2. Line 1079: 'Esto' (UPOS: PRON) in sentence 41
+     Gold DEPREL: nsubj → System DEPREL: det
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: obl → obj
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'muerte': 1 times (50.0%)
+  'comités': 1 times (50.0%)
+
+All lines: 611, 888
+All occurrences:
+  1. Line 611: 'muerte' (UPOS: NOUN) in sentence 24
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: No tiene cura conocida , y frecuentemente desemboca en la muerte .
+
+  2. Line 888: 'comités' (UPOS: NOUN) in sentence 35
+     Gold DEPREL: obl → System DEPREL: obj
+     Full sentence: El 12 de noviembre , la CNT se retira de los comités del de el FPA .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'castillo': 1 times (50.0%)
+  'km2': 1 times (50.0%)
+
+All lines: 694, 1240
+All occurrences:
+  1. Line 694: 'castillo' (UPOS: NOUN) in sentence 27
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  2. Line 1240: 'km2' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: nsubj → System DEPREL: nmod
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ERROR: dep → nummod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  '240': 1 times (50.0%)
+  '15': 1 times (50.0%)
+
+All lines: 709, 981
+All occurrences:
+  1. Line 709: '240' (UPOS: NUM) in sentence 27
+     Gold DEPREL: dep → System DEPREL: nummod
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+  2. Line 981: '15' (UPOS: NUM) in sentence 38
+     Gold DEPREL: dep → System DEPREL: nummod
+     Full sentence: Don Francisco Javier del de el Granado y Granado ( 27 de febrero de 1913 -- 15 de mayo de 1996 ) , fue poeta laureado e hijo predilecto de Bolivia .
+
+--------------------------------------------------
+
+ERROR: cop → conj
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'es': 1 times (50.0%)
+  'fue': 1 times (50.0%)
+
+All lines: 826, 1006
+All occurrences:
+  1. Line 826: 'es' (UPOS: AUX) in sentence 33
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+  2. Line 1006: 'fue' (UPOS: AUX) in sentence 39
+     Gold DEPREL: cop → System DEPREL: conj
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: conj → obj
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'rosa': 1 times (50.0%)
+  'reflexión': 1 times (50.0%)
+
+All lines: 949, 1013
+All occurrences:
+  1. Line 949: 'Rosa' (UPOS: PROPN) in sentence 37
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+  2. Line 1013: 'reflexión' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: conj → System DEPREL: obj
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: amod → xcomp
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'normando': 1 times (50.0%)
+  'quedar': 1 times (50.0%)
+
+All lines: 1074, 1192
+All occurrences:
+  1. Line 1074: 'normando' (UPOS: ADJ) in sentence 40
+     Gold DEPREL: amod → System DEPREL: xcomp
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+  2. Line 1192: 'quedar' (UPOS: VERB) in sentence 46
+     Gold DEPREL: amod → System DEPREL: xcomp
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: cc → advmod
+Occurrences: 2 (0.49%)
+All error-causing words for this error:
+  'ya': 1 times (50.0%)
+  'así': 1 times (50.0%)
+
+All lines: 1092, 1129
+All occurrences:
+  1. Line 1092: 'ya' (UPOS: X) in sentence 41
+     Gold DEPREL: cc → System DEPREL: advmod
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+  2. Line 1129: 'así' (UPOS: ADV) in sentence 43
+     Gold DEPREL: cc → System DEPREL: advmod
+     Full sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+--------------------------------------------------
+
+ERROR: obl → advmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'todo': 1 times (100.0%)
+
+All lines: 14
+All occurrences:
+  1. Line 14: 'todo' (UPOS: PRON) in sentence 1
+     Gold DEPREL: obl → System DEPREL: advmod
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+--------------------------------------------------
+
+ERROR: appos → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'haciendo': 1 times (100.0%)
+
+All lines: 15
+All occurrences:
+  1. Line 15: 'haciendo' (UPOS: VERB) in sentence 1
+     Gold DEPREL: appos → System DEPREL: acl
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+--------------------------------------------------
+
+ERROR: nmod → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'hércules': 1 times (100.0%)
+
+All lines: 24
+All occurrences:
+  1. Line 24: 'Hércules' (UPOS: PROPN) in sentence 1
+     Gold DEPREL: nmod → System DEPREL: obj
+     Full sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+
+--------------------------------------------------
+
+ERROR: nmod → det
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'los': 1 times (100.0%)
+
+All lines: 61
+All occurrences:
+  1. Line 61: 'Los' (UPOS: PRON) in sentence 2
+     Gold DEPREL: nmod → System DEPREL: det
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+--------------------------------------------------
+
+ERROR: acl → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'pedidos': 1 times (100.0%)
+
+All lines: 64
+All occurrences:
+  1. Line 64: 'pedidos' (UPOS: VERB) in sentence 2
+     Gold DEPREL: acl → System DEPREL: obl
+     Full sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+
+--------------------------------------------------
+
+ERROR: obl:arg → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'le': 1 times (100.0%)
+
+All lines: 100
+All occurrences:
+  1. Line 100: 'le' (UPOS: PRON) in sentence 4
+     Gold DEPREL: obl:arg → System DEPREL: nmod:poss
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+--------------------------------------------------
+
+ERROR: obl:arg → nmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'grupo': 1 times (100.0%)
+
+All lines: 105
+All occurrences:
+  1. Line 105: 'grupo' (UPOS: NOUN) in sentence 4
+     Gold DEPREL: obl:arg → System DEPREL: nmod
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+--------------------------------------------------
+
+ERROR: xcomp → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dar': 1 times (100.0%)
+
+All lines: 107
+All occurrences:
+  1. Line 107: 'dar' (UPOS: VERB) in sentence 4
+     Gold DEPREL: xcomp → System DEPREL: acl
+     Full sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+
+--------------------------------------------------
+
+ERROR: aux → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'ha': 1 times (100.0%)
+
+All lines: 132
+All occurrences:
+  1. Line 132: 'ha' (UPOS: AUX) in sentence 5
+     Gold DEPREL: aux → System DEPREL: advcl
+     Full sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+
+--------------------------------------------------
+
+ERROR: nsubj:pass → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'arrestos': 1 times (100.0%)
+
+All lines: 163
+All occurrences:
+  1. Line 163: 'arrestos' (UPOS: NOUN) in sentence 6
+     Gold DEPREL: nsubj:pass → System DEPREL: obl
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+--------------------------------------------------
+
+ERROR: aux:pass → csubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'fueron': 1 times (100.0%)
+
+All lines: 168
+All occurrences:
+  1. Line 168: 'fueron' (UPOS: AUX) in sentence 6
+     Gold DEPREL: aux:pass → System DEPREL: csubj
+     Full sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+
+--------------------------------------------------
+
+ERROR: nsubj → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'éstas': 1 times (100.0%)
+
+All lines: 200
+All occurrences:
+  1. Line 200: 'éstas' (UPOS: PRON) in sentence 7
+     Gold DEPREL: nsubj → System DEPREL: nmod:poss
+     Full sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+
+--------------------------------------------------
+
+ERROR: cc → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'y': 1 times (100.0%)
+
+All lines: 219
+All occurrences:
+  1. Line 219: 'y' (UPOS: CCONJ) in sentence 8
+     Gold DEPREL: cc → System DEPREL: dep
+     Full sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+
+--------------------------------------------------
+
+ERROR: appos → compound
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'jorge': 1 times (100.0%)
+
+All lines: 284
+All occurrences:
+  1. Line 284: 'Jorge' (UPOS: PROPN) in sentence 10
+     Gold DEPREL: appos → System DEPREL: compound
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+--------------------------------------------------
+
+ERROR: amod → nummod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  '3er': 1 times (100.0%)
+
+All lines: 289
+All occurrences:
+  1. Line 289: '3er' (UPOS: ADJ) in sentence 10
+     Gold DEPREL: amod → System DEPREL: nummod
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+--------------------------------------------------
+
+ERROR: det → nmod:poss
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'lo': 1 times (100.0%)
+
+All lines: 302
+All occurrences:
+  1. Line 302: 'lo' (UPOS: PRON) in sentence 10
+     Gold DEPREL: det → System DEPREL: nmod:poss
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+--------------------------------------------------
+
+ERROR: obj → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'relacionado': 1 times (100.0%)
+
+All lines: 303
+All occurrences:
+  1. Line 303: 'relacionado' (UPOS: NOUN) in sentence 10
+     Gold DEPREL: obj → System DEPREL: acl
+     Full sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+
+--------------------------------------------------
+
+ERROR: nsubj → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'lite': 1 times (100.0%)
+
+All lines: 311
+All occurrences:
+  1. Line 311: 'Lite' (UPOS: PROPN) in sentence 11
+     Gold DEPREL: nsubj → System DEPREL: dep
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+--------------------------------------------------
+
+ERROR: flat → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'brite': 1 times (100.0%)
+
+All lines: 313
+All occurrences:
+  1. Line 313: 'Brite' (UPOS: PROPN) in sentence 11
+     Gold DEPREL: flat → System DEPREL: dep
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+--------------------------------------------------
+
+ERROR: xcomp → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'usando': 1 times (100.0%)
+
+All lines: 321
+All occurrences:
+  1. Line 321: 'usando' (UPOS: VERB) in sentence 11
+     Gold DEPREL: xcomp → System DEPREL: advcl
+     Full sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+
+--------------------------------------------------
+
+ERROR: root → csubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'es': 1 times (100.0%)
+
+All lines: 337
+All occurrences:
+  1. Line 337: 'es' (UPOS: VERB) in sentence 12
+     Gold DEPREL: root → System DEPREL: csubj
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+--------------------------------------------------
+
+ERROR: appos → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'igual': 1 times (100.0%)
+
+All lines: 348
+All occurrences:
+  1. Line 348: 'igual' (UPOS: ADJ) in sentence 12
+     Gold DEPREL: appos → System DEPREL: amod
+     Full sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+
+--------------------------------------------------
+
+ERROR: conj → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'trata': 1 times (100.0%)
+
+All lines: 378
+All occurrences:
+  1. Line 378: 'trata' (UPOS: VERB) in sentence 13
+     Gold DEPREL: conj → System DEPREL: parataxis
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+--------------------------------------------------
+
+ERROR: obj → det
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'la': 1 times (100.0%)
+
+All lines: 387
+All occurrences:
+  1. Line 387: 'la' (UPOS: PRON) in sentence 13
+     Gold DEPREL: obj → System DEPREL: det
+     Full sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+
+--------------------------------------------------
+
+ERROR: obj → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'otros': 1 times (100.0%)
+
+All lines: 434
+All occurrences:
+  1. Line 434: 'otros' (UPOS: PRON) in sentence 16
+     Gold DEPREL: obj → System DEPREL: amod
+     Full sentence: Aun hay otros reclutados por el Ejército Blanco .
+
+--------------------------------------------------
+
+ERROR: ccomp → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'saludable': 1 times (100.0%)
+
+All lines: 451
+All occurrences:
+  1. Line 451: 'saludable' (UPOS: ADJ) in sentence 17
+     Gold DEPREL: ccomp → System DEPREL: amod
+     Full sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+
+--------------------------------------------------
+
+ERROR: flat → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'sur': 1 times (100.0%)
+
+All lines: 533
+All occurrences:
+  1. Line 533: 'sur' (UPOS: PROPN) in sentence 22
+     Gold DEPREL: flat → System DEPREL: case
+     Full sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+--------------------------------------------------
+
+ERROR: aux:pass → conj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'es': 1 times (100.0%)
+
+All lines: 632
+All occurrences:
+  1. Line 632: 'es' (UPOS: AUX) in sentence 25
+     Gold DEPREL: aux:pass → System DEPREL: conj
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: root → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'interpretado': 1 times (100.0%)
+
+All lines: 633
+All occurrences:
+  1. Line 633: 'interpretado' (UPOS: VERB) in sentence 25
+     Gold DEPREL: root → System DEPREL: parataxis
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: expl:pv → nmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'se': 1 times (100.0%)
+
+All lines: 643
+All occurrences:
+  1. Line 643: 'se' (UPOS: PRON) in sentence 25
+     Gold DEPREL: expl:pv → System DEPREL: nmod
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → ccomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'celebran': 1 times (100.0%)
+
+All lines: 644
+All occurrences:
+  1. Line 644: 'celebran' (UPOS: VERB) in sentence 25
+     Gold DEPREL: acl:relcl → System DEPREL: ccomp
+     Full sentence: Interpretado por Plácido Domingo , y con el propio José María Cano dirigiendo una banda , es interpretado en el Estadio Santiago Bernabéu el día en que se celebran los cien años del de el club .
+
+--------------------------------------------------
+
+ERROR: det → dep
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'la': 1 times (100.0%)
+
+All lines: 657
+All occurrences:
+  1. Line 657: 'la' (UPOS: DET) in sentence 26
+     Gold DEPREL: det → System DEPREL: dep
+     Full sentence: Para la mamá de Coraline , es alcohólico .
+
+--------------------------------------------------
+
+ERROR: det → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'varios': 1 times (100.0%)
+
+All lines: 668
+All occurrences:
+  1. Line 668: 'Varios' (UPOS: DET) in sentence 27
+     Gold DEPREL: det → System DEPREL: amod
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+--------------------------------------------------
+
+ERROR: advmod → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'no': 1 times (100.0%)
+
+All lines: 675
+All occurrences:
+  1. Line 675: 'no' (UPOS: ADV) in sentence 27
+     Gold DEPREL: advmod → System DEPREL: mark
+     Full sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+
+--------------------------------------------------
+
+ERROR: obl → compound
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'brooklyn': 1 times (100.0%)
+
+All lines: 735
+All occurrences:
+  1. Line 735: 'Brooklyn' (UPOS: PROPN) in sentence 29
+     Gold DEPREL: obl → System DEPREL: compound
+     Full sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+
+--------------------------------------------------
+
+ERROR: appos → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'agua': 1 times (100.0%)
+
+All lines: 765
+All occurrences:
+  1. Line 765: 'agua' (UPOS: NOUN) in sentence 30
+     Gold DEPREL: appos → System DEPREL: obj
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+--------------------------------------------------
+
+ERROR: conj → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'eólicos': 1 times (100.0%)
+
+All lines: 768
+All occurrences:
+  1. Line 768: 'eólicos' (UPOS: ADJ) in sentence 30
+     Gold DEPREL: conj → System DEPREL: amod
+     Full sentence: También se visualizan numerosas depresiones que dan origen a médanos de gran superficie ( Médanos Grandes ) , cuencas rellenadas con depósitos fluviales ( agua ) y eólicos ( viento ) .
+
+--------------------------------------------------
+
+ERROR: parataxis → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'ver': 1 times (100.0%)
+
+All lines: 808
+All occurrences:
+  1. Line 808: 'ver' (UPOS: VERB) in sentence 32
+     Gold DEPREL: parataxis → System DEPREL: acl
+     Full sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+
+--------------------------------------------------
+
+ERROR: appos → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'pennsylvania': 1 times (100.0%)
+
+All lines: 823
+All occurrences:
+  1. Line 823: 'Pennsylvania' (UPOS: PROPN) in sentence 33
+     Gold DEPREL: appos → System DEPREL: nsubj
+     Full sentence: El municipio de Pennsylvania ( en inglés : Pennsylvania Township ) es un municipio ubicado en el condado de Mason en el estado estadounidense de Illinois .
+
+--------------------------------------------------
+
+ERROR: cop → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'ser': 1 times (100.0%)
+
+All lines: 851
+All occurrences:
+  1. Line 851: 'ser' (UPOS: AUX) in sentence 34
+     Gold DEPREL: cop → System DEPREL: xcomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: xcomp → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'emanación': 1 times (100.0%)
+
+All lines: 853
+All occurrences:
+  1. Line 853: 'emanación' (UPOS: NOUN) in sentence 34
+     Gold DEPREL: xcomp → System DEPREL: obj
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: aux → ccomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'debía': 1 times (100.0%)
+
+All lines: 858
+All occurrences:
+  1. Line 858: 'debía' (UPOS: AUX) in sentence 34
+     Gold DEPREL: aux → System DEPREL: ccomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: ccomp → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'reemplazar': 1 times (100.0%)
+
+All lines: 859
+All occurrences:
+  1. Line 859: 'reemplazar' (UPOS: VERB) in sentence 34
+     Gold DEPREL: ccomp → System DEPREL: xcomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: nsubj → xcomp
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'misericordioso': 1 times (100.0%)
+
+All lines: 868
+All occurrences:
+  1. Line 868: 'Misericordioso' (UPOS: PROPN) in sentence 34
+     Gold DEPREL: nsubj → System DEPREL: xcomp
+     Full sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+
+--------------------------------------------------
+
+ERROR: cop → advcl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'fue': 1 times (100.0%)
+
+All lines: 899
+All occurrences:
+  1. Line 899: 'fue' (UPOS: AUX) in sentence 36
+     Gold DEPREL: cop → System DEPREL: advcl
+     Full sentence: El Coyote fue un tebeo publicado en España por Ediciones Cliper entre 1947 y 1955 a raíz del de el éxito obtenido por la serie de novelas homónima creada por José Mallorquí en 1943 .
+
+--------------------------------------------------
+
+ERROR: advcl → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dejo': 1 times (100.0%)
+
+All lines: 940
+All occurrences:
+  1. Line 940: 'dejo' (UPOS: VERB) in sentence 37
+     Gold DEPREL: advcl → System DEPREL: parataxis
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+--------------------------------------------------
+
+ERROR: mark → cc
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'pues': 1 times (100.0%)
+
+All lines: 944
+All occurrences:
+  1. Line 944: 'pues' (UPOS: SCONJ) in sentence 37
+     Gold DEPREL: mark → System DEPREL: cc
+     Full sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+
+--------------------------------------------------
+
+ERROR: nmod → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'viaje': 1 times (100.0%)
+
+All lines: 1005
+All occurrences:
+  1. Line 1005: 'viaje' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: nsubj
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: nmod → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'frente': 1 times (100.0%)
+
+All lines: 1029
+All occurrences:
+  1. Line 1029: 'frente' (UPOS: NOUN) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: mark
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: nmod → advmod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'tanto': 1 times (100.0%)
+
+All lines: 1040
+All occurrences:
+  1. Line 1040: 'tanto' (UPOS: PRON) in sentence 39
+     Gold DEPREL: nmod → System DEPREL: advmod
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: dep → case
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'como': 1 times (100.0%)
+
+All lines: 1046
+All occurrences:
+  1. Line 1046: 'como' (UPOS: CCONJ) in sentence 39
+     Gold DEPREL: dep → System DEPREL: case
+     Full sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+--------------------------------------------------
+
+ERROR: cc → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'sin': 1 times (100.0%)
+
+All lines: 1057
+All occurrences:
+  1. Line 1057: 'Sin' (UPOS: ADP) in sentence 40
+     Gold DEPREL: cc → System DEPREL: mark
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+--------------------------------------------------
+
+ERROR: fixed → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'embargo': 1 times (100.0%)
+
+All lines: 1058
+All occurrences:
+  1. Line 1058: 'embargo' (UPOS: NOUN) in sentence 40
+     Gold DEPREL: fixed → System DEPREL: nsubj
+     Full sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+--------------------------------------------------
+
+ERROR: dep → obl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'vez': 1 times (100.0%)
+
+All lines: 1094
+All occurrences:
+  1. Line 1094: 'vez' (UPOS: NOUN) in sentence 41
+     Gold DEPREL: dep → System DEPREL: obl
+     Full sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+--------------------------------------------------
+
+ERROR: amod → appos
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'juttae': 1 times (100.0%)
+
+All lines: 1145
+All occurrences:
+  1. Line 1145: 'juttae' (UPOS: PROPN) in sentence 44
+     Gold DEPREL: amod → System DEPREL: appos
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: obl → appos
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'planta': 1 times (100.0%)
+
+All lines: 1160
+All occurrences:
+  1. Line 1160: 'planta' (UPOS: NOUN) in sentence 44
+     Gold DEPREL: obl → System DEPREL: appos
+     Full sentence: Cyphostemma juttae es una especie suculenta de lento crecimiento de Cyphostemma , bien conocida como una planta ornamental .
+
+--------------------------------------------------
+
+ERROR: xcomp → amod
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'corto': 1 times (100.0%)
+
+All lines: 1194
+All occurrences:
+  1. Line 1194: 'corto' (UPOS: ADJ) in sentence 46
+     Gold DEPREL: xcomp → System DEPREL: amod
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: obj → mark
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'que': 1 times (100.0%)
+
+All lines: 1206
+All occurrences:
+  1. Line 1206: 'que' (UPOS: PRON) in sentence 46
+     Gold DEPREL: obj → System DEPREL: mark
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: aux → acl
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'estaba': 1 times (100.0%)
+
+All lines: 1208
+All occurrences:
+  1. Line 1208: 'estaba' (UPOS: AUX) in sentence 46
+     Gold DEPREL: aux → System DEPREL: acl
+     Full sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+--------------------------------------------------
+
+ERROR: conj → nsubj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'área': 1 times (100.0%)
+
+All lines: 1230
+All occurrences:
+  1. Line 1230: 'área' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: conj → System DEPREL: nsubj
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ERROR: cop → parataxis
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'es': 1 times (100.0%)
+
+All lines: 1241
+All occurrences:
+  1. Line 1241: 'es' (UPOS: AUX) in sentence 47
+     Gold DEPREL: cop → System DEPREL: parataxis
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ERROR: acl:relcl → obj
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'agua': 1 times (100.0%)
+
+All lines: 1242
+All occurrences:
+  1. Line 1242: 'agua' (UPOS: NOUN) in sentence 47
+     Gold DEPREL: acl:relcl → System DEPREL: obj
+     Full sentence: Tiene 16 382 habitantes y un área de 814,21 km ² , de los cuales 28,87 km2 es agua .
+
+--------------------------------------------------
+
+ERROR: nmod → root
+Occurrences: 1 (0.24%)
+All error-causing words for this error:
+  'dragón': 1 times (100.0%)
+
+All lines: 1249
+All occurrences:
+  1. Line 1249: 'dragón' (UPOS: NOUN) in sentence 48
+     Gold DEPREL: nmod → System DEPREL: root
+     Full sentence: Vulnerable a dragón , hielo y trueno .
+
+--------------------------------------------------
+

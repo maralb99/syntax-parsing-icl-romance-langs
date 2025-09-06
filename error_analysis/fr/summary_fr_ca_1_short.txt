@@ -1,0 +1,415 @@
+SUMMARY ERROR ANALYSIS: fr_ca_1_short.conllu vs. gold_file_fr.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1227
+UPOS errors: 54 (4.40%)
+HEAD errors: 625 (50.94%)
+DEPREL errors: 464 (37.82%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'ne': 3 errors (0.26%)
+'pas': 3 errors (0.26%)
+'est': 2 errors (0.17%)
+'y': 2 errors (0.17%)
+'n'': 2 errors (0.17%)
+'xixe': 2 errors (0.17%)
+'los': 2 errors (0.17%)
+'son': 2 errors (0.17%)
+'que': 2 errors (0.17%)
+'/': 2 errors (0.17%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+ADV → PART: 8 occurrences (14.81%)
+Most common error-causing words:
+  'ne': 3 times (37.5% of this error)
+  'pas': 3 times (37.5% of this error)
+  'n'': 2 times (25.0% of this error)
+
+Examples:
+  1. Line 180: 'ne' in sentence 8
+     Context: coût ne connaissent
+     Sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+  2. Line 182: 'pas' in sentence 8
+     Context: connaissent pas la
+     Sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+  3. Line 254: 'n'' in sentence 11
+     Context: SMIC n' est
+     Sentence: Mais , le SMIC n' est pas un outil de référence .
+  4. Line 256: 'pas' in sentence 11
+     Context: est pas un
+     Sentence: Mais , le SMIC n' est pas un outil de référence .
+  5. Line 483: 'n'' in sentence 18
+     Context: matière n' existait
+     Sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+     ... and 3 more occurrences
+
+X → PROPN: 6 occurrences (11.11%)
+Most common error-causing words:
+  'los': 2 times (33.3% of this error)
+  'abuelos': 1 times (16.7% of this error)
+  'nada': 1 times (16.7% of this error)
+  'rodríguez': 1 times (16.7% of this error)
+  'ibn': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 590: 'Los' in sentence 22
+     Context: comme Los Abuelos
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  2. Line 591: 'Abuelos' in sentence 22
+     Context: Los Abuelos de
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  3. Line 594: 'Nada' in sentence 22
+     Context: la Nada et
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  4. Line 596: 'Los' in sentence 22
+     Context: et Los Rodríguez
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  5. Line 597: 'Rodríguez' in sentence 22
+     Context: Los Rodríguez .
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+     ... and 1 more occurrences
+
+DET → PRON: 4 occurrences (7.41%)
+Most common error-causing words:
+  'son': 2 times (50.0% of this error)
+  'leur': 1 times (25.0% of this error)
+  'ce': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 23: 'leur' in sentence 2
+     Context: mais leur contenu
+     Sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+  2. Line 236: 'ce' in sentence 10
+     Context: oppose ce dernier
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+  3. Line 683: 'son' in sentence 25
+     Context: et son corps
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+  4. Line 1212: 'son' in sentence 44
+     Context: porter son nom
+     Sentence: Il verra le puits le plus profond de France porter son nom : .
+
+NOUN → ADJ: 4 occurrences (7.41%)
+Most common error-causing words:
+  'artisan': 1 times (25.0% of this error)
+  'israéliens': 1 times (25.0% of this error)
+  'britanniques': 1 times (25.0% of this error)
+  'paresseux': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 110: 'artisan' in sentence 5
+     Context: imprimeur artisan passionné
+     Sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+  2. Line 793: 'israéliens' in sentence 29
+     Context: les israéliens Galit
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  3. Line 801: 'britanniques' in sentence 29
+     Context: les britanniques Sinead
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  4. Line 1068: 'paresseux' in sentence 39
+     Context: de paresseux »
+     Sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+PRON → ADV: 3 occurrences (5.56%)
+Most common error-causing words:
+  'y': 2 times (66.7% of this error)
+  'où': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 56: 'où' in sentence 4
+     Context: milieu où règne
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 74: 'y' in sentence 4
+     Context: chercheurs y découvrent
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  3. Line 308: 'y' in sentence 13
+     Context: livre y ajoute
+     Sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+
+AUX → VERB: 3 occurrences (5.56%)
+Most common error-causing words:
+  'est': 2 times (66.7% of this error)
+  'faisant': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 67: 'est' in sentence 4
+     Context: , est riche
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 443: 'est' in sentence 17
+     Context: c' est une
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+  3. Line 1042: 'faisant' in sentence 38
+     Context: en faisant jeter
+     Sentence: Une autre fois , il va organiser une farce au à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+
+ADJ → NOUN: 3 occurrences (5.56%)
+Most common error-causing words:
+  'futur': 1 times (33.3% of this error)
+  'premier': 1 times (33.3% of this error)
+  'partenaires': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 194: 'futur' in sentence 9
+     Context: le futur baptisé
+     Sentence: C' est véritablement pour le futur baptisé un changement de cap .
+  2. Line 546: 'Premier' in sentence 20
+     Context: ancien Premier ministre
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  3. Line 612: 'partenaires' in sentence 23
+     Context: françaises partenaires garantissent
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+
+ADJ → NUM: 2 occurrences (3.70%)
+Most common error-causing words:
+  'xxe': 1 times (50.0% of this error)
+  'xixe': 1 times (50.0% of this error)
+
+Examples:
+  1. Line 349: 'XXe' in sentence 14
+     Context: le XXe siècle
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  2. Line 503: 'XIXe' in sentence 19
+     Context: le XIXe siècle
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+
+NOUN → PROPN: 2 occurrences (3.70%)
+Most common error-causing words:
+  'union': 1 times (50.0% of this error)
+  'pays': 1 times (50.0% of this error)
+
+Examples:
+  1. Line 624: 'Union' in sentence 23
+     Context: l' Union européenne
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+  2. Line 1338: 'Pays' in sentence 49
+     Context: région Pays de
+     Sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+SYM → PUNCT: 2 occurrences (3.70%)
+Most common error-causing words:
+  '/': 2 times (100.0% of this error)
+
+Examples:
+  1. Line 796: '/' in sentence 29
+     Context: Chait / Sergei
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  2. Line 804: '/' in sentence 29
+     Context: Kerr / John
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+case → mark: 48 occurrences (10.34%)
+Most common error-causing words:
+  'de': 11 times (22.9% of this error)
+  'en': 9 times (18.8% of this error)
+  'à': 8 times (16.7% of this error)
+  'par': 5 times (10.4% of this error)
+  'avec': 5 times (10.4% of this error)
+
+Examples:
+  1. Line 37: 'dans' (UPOS: ADP) in sentence 3
+     Sentence: Mais comment faire dans un contexte structurellement raciste ?
+  2. Line 164: 'à' (UPOS: ADP) in sentence 7
+     Sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+  3. Line 167: 'à' (UPOS: ADP) in sentence 7
+     Sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+  4. Line 192: 'pour' (UPOS: ADP) in sentence 9
+     Sentence: C' est véritablement pour le futur baptisé un changement de cap .
+  5. Line 243: 'depuis' (UPOS: ADP) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+     ... and 43 more occurrences
+
+nmod → obl: 29 occurrences (6.25%)
+Most common error-causing words:
+  'dont': 2 times (6.9% of this error)
+  'bivalves': 1 times (3.4% of this error)
+  'qualité': 1 times (3.4% of this error)
+  'livre': 1 times (3.4% of this error)
+  'début': 1 times (3.4% of this error)
+
+Examples:
+  1. Line 80: 'bivalves' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 105: 'qualité' (UPOS: NOUN) in sentence 5
+     Sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+  3. Line 307: 'livre' (UPOS: NOUN) in sentence 13
+     Sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+  4. Line 345: 'début' (UPOS: NOUN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  5. Line 350: 'siècle' (UPOS: NOUN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+     ... and 24 more occurrences
+
+obl:mod → obl: 23 occurrences (4.96%)
+Most common error-causing words:
+  'facultés': 1 times (4.3% of this error)
+  'contexte': 1 times (4.3% of this error)
+  'zones': 1 times (4.3% of this error)
+  'trousses': 1 times (4.3% of this error)
+  'fois': 1 times (4.3% of this error)
+
+Examples:
+  1. Line 29: 'Facultés' (UPOS: NOUN) in sentence 2
+     Sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+  2. Line 39: 'contexte' (UPOS: NOUN) in sentence 3
+     Sentence: Mais comment faire dans un contexte structurellement raciste ?
+  3. Line 92: 'zones' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  4. Line 169: 'trousses' (UPOS: NOUN) in sentence 7
+     Sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+  5. Line 211: 'fois' (UPOS: NOUN) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+     ... and 18 more occurrences
+
+punct → dep: 17 occurrences (3.66%)
+Most common error-causing words:
+  '.': 15 times (88.2% of this error)
+  '?': 1 times (5.9% of this error)
+  '-': 1 times (5.9% of this error)
+
+Examples:
+  1. Line 13: '.' (UPOS: PUNCT) in sentence 1
+     Sentence: Aviator , un film sur la vie de Hughes .
+  2. Line 42: '?' (UPOS: PUNCT) in sentence 3
+     Sentence: Mais comment faire dans un contexte structurellement raciste ?
+  3. Line 155: '.' (UPOS: PUNCT) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  4. Line 170: '.' (UPOS: PUNCT) in sentence 7
+     Sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+  5. Line 246: '.' (UPOS: PUNCT) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+     ... and 12 more occurrences
+
+conj → obl: 13 occurrences (2.80%)
+Most common error-causing words:
+  'pression': 1 times (7.7% of this error)
+  'poissons': 1 times (7.7% of this error)
+  'crustacés': 1 times (7.7% of this error)
+  'poulpes': 1 times (7.7% of this error)
+  'renouveau': 1 times (7.7% of this error)
+
+Examples:
+  1. Line 63: 'pression' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 83: 'poissons' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  3. Line 86: 'crustacés' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  4. Line 89: 'poulpes' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  5. Line 142: 'renouveau' (UPOS: NOUN) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+     ... and 8 more occurrences
+
+obl:arg → obl: 13 occurrences (2.80%)
+Most common error-causing words:
+  'paris': 1 times (7.7% of this error)
+  'châteauroux': 1 times (7.7% of this error)
+  'soutien': 1 times (7.7% of this error)
+  'mètres': 1 times (7.7% of this error)
+  'siècle': 1 times (7.7% of this error)
+
+Examples:
+  1. Line 325: 'Paris' (UPOS: PROPN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  2. Line 333: 'Châteauroux' (UPOS: PROPN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  3. Line 384: 'soutien' (UPOS: NOUN) in sentence 15
+     Sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+  4. Line 435: 'mètres' (UPOS: NOUN) in sentence 17
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+  5. Line 504: 'siècle' (UPOS: NOUN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+     ... and 8 more occurrences
+
+flat:name → appos: 12 occurrences (2.59%)
+Most common error-causing words:
+  'kerr': 2 times (16.7% of this error)
+  'holan': 1 times (8.3% of this error)
+  'berkeley': 1 times (8.3% of this error)
+  'bertrand': 1 times (8.3% of this error)
+  'nada': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 272: 'Holan' (UPOS: PROPN) in sentence 12
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  2. Line 473: 'Berkeley' (UPOS: PROPN) in sentence 18
+     Sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+  3. Line 516: 'Bertrand' (UPOS: PROPN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+  4. Line 594: 'Nada' (UPOS: X) in sentence 22
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  5. Line 597: 'Rodríguez' (UPOS: X) in sentence 22
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+     ... and 7 more occurrences
+
+acl → root: 10 occurrences (2.16%)
+Most common error-causing words:
+  'né': 2 times (20.0% of this error)
+  'exécuté': 1 times (10.0% of this error)
+  'signées': 1 times (10.0% of this error)
+  'exposé': 1 times (10.0% of this error)
+  'placée': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 106: 'exécuté' (UPOS: VERB) in sentence 5
+     Sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+  2. Line 319: 'né' (UPOS: VERB) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  3. Line 604: 'signées' (UPOS: VERB) in sentence 23
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+  4. Line 660: 'exposé' (UPOS: VERB) in sentence 25
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+  5. Line 747: 'placée' (UPOS: VERB) in sentence 28
+     Sentence: Une série placée sur une orbite du de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et des de les glaces .
+     ... and 5 more occurrences
+
+nmod → appos: 10 occurrences (2.16%)
+Most common error-causing words:
+  'abime': 1 times (10.0% of this error)
+  'vladimir': 1 times (10.0% of this error)
+  'maison': 1 times (10.0% of this error)
+  'nuit': 1 times (10.0% of this error)
+  'aloysius': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 269: 'abime' (UPOS: NOUN) in sentence 12
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  2. Line 271: 'Vladimir' (UPOS: PROPN) in sentence 12
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  3. Line 275: 'Maison' (UPOS: NOUN) in sentence 12
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  4. Line 513: 'nuit' (UPOS: NOUN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+  5. Line 515: 'Aloysius' (UPOS: PROPN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+     ... and 5 more occurrences
+
+nmod → nsubj: 9 occurrences (1.94%)
+Most common error-causing words:
+  'vie': 1 times (11.1% of this error)
+  'ewan': 1 times (11.1% of this error)
+  'nègre': 1 times (11.1% of this error)
+  'photos': 1 times (11.1% of this error)
+  'police': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 50: 'vie' (UPOS: NOUN) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 526: 'Ewan' (UPOS: PROPN) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  3. Line 537: 'nègre' (UPOS: NOUN) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  4. Line 657: 'photos' (UPOS: NOUN) in sentence 25
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+  5. Line 659: 'police' (UPOS: NOUN) in sentence 25
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+     ... and 4 more occurrences
+

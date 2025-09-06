@@ -1,0 +1,2488 @@
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Fundació	Fundació	PROPN	_	_	3	compound	_	_
+2	Privada	Privada	ADJ	_	_	1	flat	_	_
+3	Fira	Fira	PROPN	_	_	5	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Manresa	Manresa	PROPN	_	_	0	root	_	_
+6	ha	haver	AUX	_	_	7	aux	_	_
+7	fet	fer	VERB	_	_	8	acl	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	balanç	balanç	NOUN	_	_	10	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	l'	el	DET	_	_	12	det	_	_
+12	activitat	activitat	NOUN	_	_	7	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	el	el	DET	_	_	15	det	_	_
+15	Palau	Palau	PROPN	_	_	12	nmod	_	_
+16	Firal	Firal	ADJ	_	_	15	flat	_	_
+17	durant	durant	ADP	_	_	18	case	_	_
+18	els	el	DET	_	_	19	det	_	_
+19	primers	primer	ADJ	_	_	20	amod	_	_
+20	cinc	cinc	NUM	_	_	21	nummod	_	_
+21	mesos	mes	NOUN	_	_	22	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	l'	el	DET	_	_	24	det	_	_
+24	any	any	NOUN	_	_	17	obl	_	_
+25	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Fundació` and `Privada` are compound words forming the proper noun `Fundació Privada`.
+- `Fira de Manresa` is a proper noun acting as the subject (`nsubj`) of the sentence.
+- `ha fet` is an auxiliary verb (`aux`) and verb (`verb`) constructing the present perfect tense.
+- `un balanç` is the direct object (`obj`) of `fet`.
+- `de l'activitat` is a prepositional phrase (`case`) modifying `balanç`, with `l'activitat` being the object of the preposition.
+- `del de el Palau Firal` is a noun phrase modifying `activitat`, with `Palau Firal` being a compound proper noun.
+- `durant els primers cinc mesos` is an adverbial phrase modifying the verb, indicating the time period (`obl`).
+- `de l'any` is another prepositional phrase indicating the time reference (`obl`).
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	aquest	aquest	DET	_	_	3	det	_	_
+3	temps	temps	NOUN	_	_	8	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	Palau	Palau	PROPN	_	_	8	nsubj	_	_
+7	ha	haver	VERB	_	_	8	aux	_	_
+8	acollit	acollir	VERB	_	_	0	root	_	_
+9	13	13	NUM	_	_	10	nummod	_	_
+10	activitats	activitat	NOUN	_	_	8	obj	_	_
+11	diverses	divers	ADJ	_	_	10	amod	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	banda	banda	NOUN	_	_	18	obl	_	_
+15-16	dels	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	els	el	DET	_	_	17	det	_	_
+17	certàmens	certamen	NOUN	_	_	18	nsubj	_	_
+18	firals	firal	NOUN	_	_	14	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	gran	gran	ADJ	_	_	21	amod	_	_
+21	format	format	NOUN	_	_	18	nmod	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	algunes	algun	DET	_	_	25	det	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	les	el	DET	_	_	26	nsubj	_	_
+26	quals	qual	PRON	_	_	29	nsubj	_	_
+27	no	no	PART	_	_	28	neg	_	_
+28	s'	ell	PRON	_	_	29	aux	_	_
+29	han	haver	VERB	_	_	33	ccomp	_	_
+30	obert	obrir	VERB	_	_	29	xcomp	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	32	case	_	_
+32	el	el	DET	_	_	33	det	_	_
+33	públic	públic	NOUN	_	_	29	obj	_	_
+34	.	.	PUNCT	_	_	8	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Això	això	PRON	_	_	2	nsubj	_	_
+2	suposa	suposar	VERB	_	_	0	root	_	_
+3	una	un	DET	_	_	4	det	_	_
+4	utilització	utilització	NOUN	_	_	2	obj	_	_
+5	d'	de	ADP	_	_	6	case	_	_
+6	aquest	aquest	DET	_	_	7	det	_	_
+7	recinte	recinte	NOUN	_	_	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	40	40	NUM	_	_	11	nummod	_	_
+11	per	per	ADP	_	_	12	case	_	_
+12	cent	cent	NUM	_	_	13	nummod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	dies	dia	NOUN	_	_	11	nmod	_	_
+15	d'	de	ADP	_	_	16	case	_	_
+16	aquest	aquest	DET	_	_	17	det	_	_
+17	any	any	NOUN	_	_	14	nmod	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the dependencies:
+- `Això` (This) is the subject (`nsubj`) of the verb `suposa` (supposes).
+- `una` (a/an) is a determinant (`det`) of `utilització` (use).
+- `utilització` (use) is the object (`obj`) of the verb `suposa`.
+- `aquest` (this) is a determinant (`det`) of `recinte` (premises).
+- `recinte` (premises) is a nominal modifier (`nmod`) of `utilització`.
+- The percentage and days phrases are nominal modifiers (`nummod`) and adnominal modifiers (`nmod`) respectively, modifying the percentage of days.
+- The prepositions `de` (of) and `per` (per) establish various relationships between the nominal phrases.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Segons	segons	ADP	_	_	3	case	_	_
+2	Fira	Fira	PROPN	_	_	3	compound	_	_
+3	de	de	ADP	_	_	4	flat	_	_
+4	Manresa	Manresa	PROPN	_	_	8	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	les	el	DET	_	_	7	det	_	_
+7	estadístiques	estadística	NOUN	_	_	8	obj	_	_
+8	constaten	constatar	VERB	_	_	0	root	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	el	el	DET	_	_	11	det	_	_
+11	Palau	Palau	PROPN	_	_	16	nsubj	_	_
+12	és	ser	AUX	_	_	16	cop	_	_
+13	un	un	DET	_	_	14	det	_	_
+14	equipament	equipament	NOUN	_	_	16	nsubj	_	_
+15	'	'	PUNCT	_	_	16	punct	_	_
+16	viu	viu	ADJ	_	_	8	ccomp	_	_
+17	'	'	PUNCT	_	_	16	punct	_	_
+18	.	.	PUNCT	_	_	8	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Segons` (According to) is an adverbial preposition, so it's labeled as `ADP` and relates to `de Manresa` (of Manresa) via `case`.
+- `Fira de Manresa` (Fira of Manresa) is a compound noun phrase, where `Fira` is a proper noun and `de` is a preposition.
+- `les estadístiques` (the statistics) is the direct object (`obj`) of the verb `constaten` (constate).
+- `que` (that) introduces a subordinate clause, functioning as a subordinating conjunction (`SCONJ`).
+- `el Palau` (the Palau) is the subject (`nsubj`) of the copular verb `és` (is).
+- `un equipament` (a facility) is the subject (`nsubj`) of the adjective `viu` (alive) in the copular construction.
+- The quotes `'` are punctuation marks (`PUNCT`) that enclose the phrase "viu".
+- The final period `.` is also punctuation (`PUNCT`) marking the end of the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Els	el	DET	_	_	3	det	_	_
+2	responsables	responsable	NOUN	_	_	3	nsubj	_	_
+3	de	de	ADP	_	_	8	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	gestió	gestió	NOUN	_	_	3	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	recinte	recinte	NOUN	_	_	0	root	_	_
+9	afirmen	afirmar	VERB	_	_	8	conj	_	_
+10	que	que	SCONJ	_	_	13	mark	_	_
+11	aquestes	aquest	DET	_	_	12	det	_	_
+12	dades	dada	NOUN	_	_	13	nsubj	_	_
+13	contrasten	contrastar	VERB	_	_	9	ccomp	_	_
+14	amb	amb	ADP	_	_	16	case	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	percepció	percepció	NOUN	_	_	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	molts	molt	DET	_	_	19	det	_	_
+19	ciutadans	ciutadà	NOUN	_	_	16	nmod	_	_
+20	que	que	PRON	_	_	21	nsubj	_	_
+21	aquest	aquest	DET	_	_	22	det	_	_
+22	edifici	edifici	NOUN	_	_	20	ccomp	_	_
+23	roman	romandre	VERB	_	_	22	acl	_	_
+24	inactiu	inactiu	ADJ	_	_	22	amod	_	_
+25	durant	durant	ADP	_	_	27	case	_	_
+26	bona	bo	DET	_	_	27	det	_	_
+27	part	part	NOUN	_	_	25	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	l'	el	DET	_	_	30	det	_	_
+30	any	any	NOUN	_	_	27	nmod	_	_
+31	.	.	PUNCT	_	_	8	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `els` (1) is a determinant of `responsables` (2).
+- `responsables` (2) is the subject of the clause rooted at `recinte` (8).
+- `de` (3) is a subordinating conjunction introducing a noun phrase (`la gestió` (5)).
+- `la` (4) is a determinant of `gestió` (5).
+- `gestió` (5) is the noun modified by the prepositional phrase `del recinte` (6-7).
+- `del` (6) and `el` (7) are prepositions and determinants, respectively, modifying `recinte` (8).
+- `recinte` (8) is the root of the sentence.
+- `afirmen` (9) is a verb in a coordinating clause, conjugated in the 3rd person plural.
+- `que` (10) introduces a subordinate clause.
+- `aquestes` (11) is a determinant of `dades` (12).
+- `dades` (12) is the subject of the verb `contrasten` (13).
+- `contrasten` (13) is a verb in a subordinate clause, indicating a contrast.
+- `amb` (14) introduces a prepositional phrase modifying `contrasten`.
+- `la` (15) is a determinant of `percepció` (16).
+- `percepció` (16) is the noun modified by the prepositional phrase `de molts ciutadans` (17-19).
+- `de` (17) is a preposition introducing a noun phrase.
+- `molts` (18) is a determinant of `ciutadans` (19).
+- `ciutadans` (19) is the noun modifying `percepció`.
+- `que` (20) introduces a relative clause.
+- `aquest` (21) is a determinant of `edifici` (22).
+- `edifici` (22) is the noun modified by the relative clause.
+- `roman` (23) is an adjective describing `edifici`.
+- `inactiu` (24) is an adjective describing `edifici`.
+- `durant` (25) introduces a temporal prepositional phrase.
+- `bona` (26) is a determinant of `part` (27).
+- `part` (27) is the noun modified by the prepositional phrase `de l'any` (28-30).
+- `de` (28) is a preposition.
+- `l'` (29) is a determinant of `any` (30).
+- `any` (30) is the noun modifying `part`.
+- `.` (31) is a sentence-final punctuation mark.
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	aquests	aquest	DET	_	_	3	det	_	_
+3	primers	primer	ADJ	_	_	4	amod	_	_
+4	cinc	cinc	NUM	_	_	5	nummod	_	_
+5	mesos	mes	NOUN	_	_	6	nmod	_	_
+6	d'	de	ADP	_	_	7	case	_	_
+7	any	any	NOUN	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	Palau	Palau	PROPN	_	_	11	nsubj	_	_
+11	Firal	Firal	PROPN	_	_	13	obj	_	_
+12	ha	haver	AUX	_	_	13	aux	_	_
+13	acollit	acollir	VERB	_	_	7	parataxis	_	_
+14	13	13	NUM	_	_	15	nummod	_	_
+15	activitats	activitat	NOUN	_	_	13	obj	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	més	més	ADV	_	_	21	advmod	_	_
+19	dels	el	DET	_	_	20	det	_	_
+20	certàmens	certamen	NOUN	_	_	21	nmod	_	_
+21	firals	firal	ADJ	_	_	15	appos	_	_
+22	.	.	PUNCT	_	_	7	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	D'	de	ADP	_	_	3	case	_	_
+2	aquestes	aquest	DET	_	_	3	det	_	_
+3	activitats	activitat	NOUN	_	_	8	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	algunes	algun	DET	_	_	6	det	_	_
+6	no	no	PART	_	_	8	advmod	_	_
+7	s'	ell	PRON	_	_	8	nsubj	_	_
+8	han	haver	VERB	_	_	0	root	_	_
+9	obert	obrir	VERB	_	_	8	xcomp	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	públic	públic	NOUN	_	_	9	obl	_	_
+13	.	.	PUNCT	_	_	8	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `D'` (1) is a preposition that modifies `activitats` (3), hence the relation `case`.
+- `aquestes` (2) is a determiner modifying `activitats` (3).
+- `algunes` (5) is a determiner modifying `no` (6).
+- `no` (6) is an adverb modifying the verb `han` (8).
+- `s'` (7) is a reflexive pronoun acting as the subject of the verb `han` (8).
+- `han` (8) is the root verb of the sentence.
+- `obert` (9) is a verb form that functions as a complement of `han`, hence `xcomp`.
+- `a` (10) and `el` (11) together form a prepositional phrase modifying `obert` (9), with `case` and `det` relations, respectively.
+- `públic` (12) is a noun that is the object of the preposition `al` (10), hence the relation `obl`.
+- `,` (4) and `.` (13) are punctuation marks.
+Raw model output for sentence :
+```conllu
+1	Per	per	ADP	_	_	3	case	_	_
+2	exemple	exemple	NOUN	_	_	8	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	empreses	empresa	NOUN	_	_	2	appos	_	_
+5	i	i	CCONJ	_	_	6	coord	_	_
+6	entitats	entitat	NOUN	_	_	4	conj	_	_
+7	han	haver	AUX	_	_	8	aux	_	_
+8	utilitzat	utilitzar	VERB	_	_	0	root	_	_
+9	l'	el	DET	_	_	10	det	_	_
+10	edifici	edifici	NOUN	_	_	8	obj	_	_
+11	per	per	ADP	_	_	13	case	_	_
+12	a	a	ADP	_	_	11	fixed	_	_
+13	fer-hi	fer	VERB	_	_	8	xcomp	_	_
+14	proves	prova	NOUN	_	_	13	obj	_	_
+15	i	i	CCONJ	_	_	16	coord	_	_
+16	assajos	assaig	NOUN	_	_	14	conj	_	_
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+ **Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, ADP).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., Number, Gender).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used).
+* **MISC:** Miscellaneous information (e.g., named entities).
+
+
+
+I've filled in the remaining columns based on the grammatical structure of the sentence. Some highlights:
+
+* "Per" (1) is a preposition, so its dependency relation is "case" and it governs "exemple" (2).
+* "exemple" (2) is the subject ("nsubj") of the verb "utilitzat" (8).
+* "empreses" (4) and "entitats" (6) are in apposition, both modifying each other. 
+* "han" (7) is an auxiliary verb to "utilitzat" (8).
+* "l'edifici" (9-10) is the direct object ("obj") of "utilitzat".
+* The phrase "per a fer-hi proves i assajos" (11-16) is a complex prepositional phrase acting as the purpose of the action "utilitzat".  
+* "fer-hi" (13) is a verb phrase acting as an object of the preposition "per" (11) and meaning "to do things in it".
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Un	un	DET	_	_	4	det	_	_
+2	d'	de	ADP	_	_	3	case	_	_
+3	aquests	aquest	ADJ	_	_	4	amod	_	_
+4	casos	cas	NOUN	_	_	5	nsubj	_	_
+5	ha	haver	VERB	_	_	0	root	_	_
+6	estat	ser	VERB	_	_	5	xcomp	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	dels	_	ADP	_	_	9	case	_	_
+9	Armats	Armats	PROPN	_	_	10	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	Manresa	Manresa	PROPN	_	_	12	nmod	_	_
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	_	14	nsubj	_	_
+14	van	anar	VERB	_	_	6	acl	_	_
+15	utilitzar	utilitzar	VERB	_	_	14	xcomp	_	_
+16	el	el	DET	_	_	18	det	_	_
+17	Palau	Palau	PROPN	_	_	18	nmod	_	_
+18	Firal	Firal	PROPN	_	_	15	obj	_	_
+19	durant	durant	ADP	_	_	21	case	_	_
+20	11	11	NUM	_	_	21	nummod	_	_
+21	dies	dia	NOUN	_	_	15	obl	_	_
+22	per	per	ADP	_	_	24	case	_	_
+23	als	_	ADP	_	_	25	case	_	_
+24	a	a	DET	_	_	25	det	_	_
+25	els	el	DET	_	_	26	nmod	_	_
+26	assajos	assaig	NOUN	_	_	21	obl	_	_
+27	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Un` (1) is a determinant of `casos` (4).
+- `aquests` (3) is an adjective modifying `casos` (4).
+- `ha` (5) is the main verb of the sentence.
+- `estat` (6) is a copula verb linking the subject to its description.
+- `el` (7) is a determinant of `Armats` (9).
+- `Armats` (9) is a noun modified by `de Manresa` (11), which is a prepositional phrase.
+- `que` (13) introduces a relative clause modifying `casos` (4).
+- `van` (14) is the auxiliary verb in the relative clause.
+- `utilitzar` (15) is the main verb in the relative clause.
+- `el Palau Firal` (18) is the direct object of `utilitzar`.
+- `durant 11 dies` (19-21) is a temporal adjunct modifying `utilitzar`.
+- `per als assajos` (22-26) is another prepositional phrase modifying `utilitzar`, indicating purpose.
+Raw model output for sentence :
+```conll
+1	La	el	DET	_	_	2	det	_	_
+2	Casa	Casa	PROPN	_	_	3	nsubj	_	_
+3	d'	de	ADP	_	_	4	case	_	_
+4	Andalusia	Andalusia	PROPN	_	_	8	obl	_	_
+5	també	també	ADV	_	_	7	advmod	_	_
+6	va	anar	AUX	_	_	7	aux	_	_
+7	utilitzar	utilitzar	VERB	_	_	0	root	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	recinte	recinte	NOUN	_	_	7	obj	_	_
+10	durant	durant	ADP	_	_	11	case	_	_
+11	17	17	NUM	_	_	12	nummod	_	_
+12	dies	dia	NOUN	_	_	7	obl	_	_
+13	per	per	ADP	_	_	14	case	_	_
+14	assajar	assajar	VERB	_	_	12	acl	_	_
+15	els	el	DET	_	_	16	det	_	_
+16	passos	pas	NOUN	_	_	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	la	el	DET	_	_	19	det	_	_
+19	verge	verge	NOUN	_	_	21	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	la	el	DET	_	_	22	det	_	_
+22	Macarena	Macarena	PROPN	_	_	26	obl	_	_
+23	per	per	ADP	_	_	24	case	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	processó	processó	NOUN	_	_	14	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Setmana	Setmana	PROPN	_	_	30	nmod	_	_
+29	Santa	Santa	PROPN	_	_	28	flat	_	_
+30	i	i	CCONJ	_	_	32	cc	_	_
+31	una	un	DET	_	_	32	det	_	_
+32	empresa	empresa	NOUN	_	_	37	nsubj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	logística	logística	NOUN	_	_	32	nmod	_	_
+35	va	anar	AUX	_	_	36	aux	_	_
+36	fer	fer	VERB	_	_	37	aux	_	_
+37	servir	servir	VERB	_	_	7	conj	_	_
+38	el	el	DET	_	_	39	det	_	_
+39	Palau	Palau	PROPN	_	_	41	obl	_	_
+40	Firal	Firal	PROPN	_	_	39	flat	_	_
+41	per	per	ADP	_	_	42	case	_	_
+42	a	a	ADP	_	_	43	case	_	_
+43	posar	posar	VERB	_	_	47	xcomp	_	_
+44	a	a	ADP	_	_	45	case	_	_
+45	prova	prova	NOUN	_	_	43	obj	_	_
+46	l'	el	DET	_	_	47	det	_	_
+47	escenari	escenari	NOUN	_	_	43	obj	_	_
+48	que	que	PRON	_	_	49	nsubj	_	_
+49	fa	fer	VERB	_	_	47	acl	_	_
+50	servir	servir	VERB	_	_	49	xcomp	_	_
+51	Alejandro	Alejandro	PROPN	_	_	53	nsubj	_	_
+52	Sanz	Sanz	PROPN	_	_	51	flat	_	_
+53	en	en	ADP	_	_	55	case	_	_
+54	la	el	DET	_	_	55	det	_	_
+55	seva	seu	NOUN	_	_	50	obl	_	_
+56	gira	gira	NOUN	_	_	55	flat	_	_
+57	.	.	PUNCT	_	_	7	punct	_	_
+
+```
+ **Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., gender, number, tense)
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used).
+* **MISC:** Any other miscellaneous information.
+
+I've filled in these columns based on the context and grammatical structure of the sentence. 
+Note that some relations might be open to interpretation, but this annotation follows common Universal Dependencies guidelines.
+Raw model output for sentence :
+```conll
+1	Alhora	alhora	ADV	_	_	6	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	el	el	DET	_	_	4	det	_	_
+4	recinte	recinte	NOUN	_	_	6	nsubj	_	_
+5	ha	haver	AUX	_	_	6	aux	_	_
+6	servit	servir	VERB	_	_	0	root	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	espai	espai	NOUN	_	_	6	obl	_	_
+10	per	per	ADP	_	_	11	case	_	_
+11	als	el	DET	_	_	13	det	_	_
+12	a	a	ADP	_	_	11	fixed	_	_
+13	assajos	assaig	NOUN	_	_	9	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	Fira	Fira	PROPN	_	_	13	nmod	_	_
+17	Medieval	Medieval	ADJ	_	_	16	amod	_	_
+18	i	i	CCONJ	_	_	19	cc	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	espectacles	espectacle	NOUN	_	_	16	appos	_	_
+21	que	que	PRON	_	_	23	nsubj	_	_
+22	es	ell	PRON	_	_	23	aux	_	_
+23	presentaran	presentar	VERB	_	_	20	ccomp	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	Fira	Fira	PROPN	_	_	23	obl	_	_
+27	d'	de	ADP	_	_	28	case	_	_
+28	Espectacles	Espectacles	PROPN	_	_	26	appos	_	_
+29	d'	de	ADP	_	_	30	case	_	_
+30	Arrel	Arrel	PROPN	_	_	28	appos	_	_
+31	Tradicional	Tradicional	ADJ	_	_	30	amod	_	_
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	L'	el	DET	_	_	2	det	_	_
+2	àrea	àrea	NOUN	_	_	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	serveis	servei	NOUN	_	_	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	Palau	Palau	PROPN	_	_	4	nmod	_	_
+8	Firal	Firal	PROPN	_	_	0	root	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	que	que	PRON	_	_	11	nsubj	_	_
+11	inclou	incloure	VERB	_	_	8	acl	_	_
+12	la	el	DET	_	_	13	det	_	_
+13	sala	sala	NOUN	_	_	11	obj	_	_
+14	d'	de	ADP	_	_	15	case	_	_
+15	actes	acte	NOUN	_	_	13	nmod	_	_
+16	i	i	CCONJ	_	_	17	cc	_	_
+17	les	el	DET	_	_	18	det	_	_
+18	aules	aula	NOUN	_	_	15	conj	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	ha	haver	VERB	_	_	23	aux	_	_
+21	estat	ser	AUX	_	_	23	auxpass	_	_
+22	també	també	ADV	_	_	23	advmod	_	_
+23	utilitzada	utilitzar	VERB	_	_	0	root	_	_
+24	amb	amb	ADP	_	_	26	case	_	_
+25	diverses	divers	ADJ	_	_	26	amod	_	_
+26	finalitats	finalitat	NOUN	_	_	23	obl	_	_
+27	.	.	PUNCT	_	_	23	punct	_	_
+```
+
+**Explanation of dependencies:**
+
+* **8 (Firal)**: Root of the sentence.
+* **23 (utilitzada)**:  Root of the second independent clause. 
+* **11 (inclou) **: Verb governing the object "sala d'actes" and the subject "que" (relativ pronoun introducing a relative clause).
+* **20 (ha) **: Auxiliary verb of the verb "utilitzada" in the second clause.
+* **21 (estat) **: Auxiliary verb of the passive voice construction in the second clause.
+* **26 (finalitats) **: Object of the preposition "amb" in the second clause.
+
+The rest of the dependencies are standard nominal and verbal relations within each clause.
+Raw model output for sentence :
+```conllu
+1	Així	així	ADV	_	_	5	advmod	_	_
+2	s'	ell	PRON	_	_	3	nsubj	_	_
+3	hi	hi	PRON	_	_	4	nsubj	_	_
+4	ha	haver	VERB	_	_	0	root	_	_
+5	fet	fer	VERB	_	_	4	xcomp	_	_
+6	actes	acte	NOUN	_	_	5	obj	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	reunions	reunió	NOUN	_	_	6	conj	_	_
+9	d'	de	ADP	_	_	10	case	_	_
+10	institucions	institució	NOUN	_	_	8	nmod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	Jove	Jove	PROPN	_	_	10	nmod	_	_
+13	Cambra	Cambra	PROPN	_	_	12	flat	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Comissions	Comissions	PROPN	_	_	10	appos	_	_
+16	Obreres	Obreres	PROPN	_	_	15	flat	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	el	el	DET	_	_	19	det	_	_
+19	Col·legi	Col·legi	PROPN	_	_	10	appos	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	Interventors	Interventors	PROPN	_	_	19	nmod	_	_
+22	i	i	CCONJ	_	_	23	cc	_	_
+23	Secretaris	Secretaris	PROPN	_	_	19	conj	_	_
+24	o	o	CCONJ	_	_	25	cc	_	_
+25	el	el	DET	_	_	26	det	_	_
+26	Centre	Centre	PROPN	_	_	10	appos	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Formació	Formació	PROPN	_	_	26	nmod	_	_
+29	Pràctica	Pràctica	PROPN	_	_	28	flat	_	_
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **4 (ha) ** is the root of the sentence.
+
+* **5 (fet) ** is a verbal complement (xcomp) of the main verb 4 (ha).
+
+* **6 (actes) ** and **8 (reunions) ** are the direct objects (obj) of the verb 5 (fet).
+
+* **9 (d') ** and **20 (d') ** are prepositions (case) introducing the nominal phrases 10 (institucions) and 21 (Interventors), respectively.
+
+* **10 (institucions) ** , **15 (Comissions) **, **19 (Col·legi) **, and **26 (Centre) ** are noun phrases functioning as the objects of the prepositions 9, 11, 20, and 27 respectively. They are labeled as nmod (nominal modifier).
+
+* **11 (com) ** is a preposition introducing a comparison (like "like" or "as") and is labeled as case.
+* **12 (Jove) ** and **13 (Cambra) ** are proper nouns and part of the compound 12 (Jove Cambra), labeled as PROPN and flat (part of a multi-word proper noun).
+
+* **18 (el) ** and **25 (el) ** are determiners (det) modifying the proper nouns 19 (Col·legi) and 26 (Centre).
+* **22 (i) ** and **24 (o) ** are coordinating conjunctions (cc) connecting the proper nouns 19 (Col·legi) and 23 (Secretaris), and 23 (Secretaris) and 26 (Centre) respectively.
+* **27 (de) ** and **28 (Formació) ** function similarly to 9 (d') and 10 (institucions), with 27 (de) being a preposition and 28 (Formació) its object (nmod).
+* **29 (Pràctica) ** is another part of the compound proper noun 28 (Formació Pràctica), labeled as flat.
+* **30 (.) ** marks the end of the sentence and is labeled as punct (punctuation).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	El	el	DET	_	_	2	det	_	_
+2	port	port	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Tarragona	Tarragona	PROPN	_	_	2	nmod	_	_
+5	rebrà	rebre	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	durant	durant	ADP	_	_	8	case	_	_
+8	tot	tot	NOUN	_	_	5	obl	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	mes	mes	NOUN	_	_	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	juny	juny	PROPN	_	_	10	nmod	_	_
+13	,	,	PUNCT	_	_	5	punct	_	_
+14	fins	fins	ADP	_	_	15	case	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	cinc	cinc	NUM	_	_	17	nummod	_	_
+17	creuers	creuer	NOUN	_	_	5	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	luxe	luxe	NOUN	_	_	17	nmod	_	_
+20	i	i	CCONJ	_	_	21	cc	_	_
+21	vora	vora	NUM	_	_	17	nummod	_	_
+22	mil	mil	NUM	_	_	21	nummod	_	_
+23	passatgers	passatger	NOUN	_	_	5	obj	_	_
+24	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Explanation of the dependencies:
+- The sentence root is the verb "rebrà" (will receive).
+- "El port de Tarragona" is the subject (nsubj) of the sentence.
+- "Tot el mes de juny" is an obligatorily adverbial phrase (obl) modifying the verb.
+- "Fins a cinc creuers de luxe i vora mil passatgers" is another obligatorily adverbial phrase (obj) modifying the verb, representing what will be received.
+Raw model output for sentence :
+```conllu
+1	Tot	tot	DET	_	_	3	det	_	_
+2	i	i	CCONJ	_	_	3	cc	_	_
+3	que	que	PRON	_	_	8	nsubj	_	_
+4	aquest	aquest	DET	_	_	5	det	_	_
+5	port	port	NOUN	_	_	3	nom	_	_
+6	no	no	PART	_	_	7	neg	_	_
+7	és	ser	VERB	_	_	5	cop	_	_
+8	escala	escala	NOUN	_	_	0	root	_	_
+9	habitual	habitual	ADJ	_	_	8	amod	_	_
+10	d'	de	ADP	_	_	11	case	_	_
+11	aquesta	aquest	DET	_	_	12	det	_	_
+12	mena	mena	NOUN	_	_	10	nom	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	creuers	creuer	NOUN	_	_	12	nom	_	_
+15	comercials	comercial	ADJ	_	_	14	amod	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	es	ell	PRON	_	_	18	nsubj	_	_
+18	tracta	tractar	VERB	_	_	8	parataxis	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	una	un	DET	_	_	21	det	_	_
+21	acció	acció	NOUN	_	_	18	obj	_	_
+22	puntual	puntual	ADJ	_	_	21	amod	_	_
+23	endegada	endegat	ADV	_	_	22	advmod	_	_
+24-25	pel	_	_	_	_	26	det	_	_
+24	per	per	ADP	_	_	26	case	_	_
+25	el	el	DET	_	_	26	det	_	_
+26	departament	departament	NOUN	_	_	21	nmod	_	_
+27	comercial	comercial	ADJ	_	_	26	amod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	l'	el	DET	_	_	30	det	_	_
+30	Autoritat	Autoritat	NOUN	_	_	26	nmod	_	_
+31	Portuària	Portuària	PROPN	_	_	30	compound	_	_
+32	amb	amb	ADP	_	_	33	case	_	_
+33	companyies	companyia	NOUN	_	_	31	nmod	_	_
+34	navilieres	navilier	ADJ	_	_	33	amod	_	_
+35	d'	de	ADP	_	_	36	case	_	_
+36	arreu	arreu	ADV	_	_	34	nmod	_	_
+37-38	del	_	_	_	_	39	det	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	el	el	DET	_	_	39	det	_	_
+39	món	món	NOUN	_	_	36	nom	_	_
+40	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **root (8):** The sentence's root verb, "escala."
+* **nsubj (3, 17):** Nominal subject of the verbs "és" and "tracta."
+* **det (1, 4, 11, 20, 25, 29, 38):** Determiner modifying a noun.
+* **amod (9, 15, 22, 27, 34):** Adjectival modifier of a noun.
+* **case (10, 13, 19, 24, 28, 35, 37):** Case marking preposition.
+* **nom (5, 12, 39):** Noun phrase acting as a nominal complement.
+* **obj (21):** Direct object of the verb "tracta."
+* **parataxis (18):**  A clause joined coordinately (side by side) with the main clause.
+* **nmod (26, 30, 36):** Nominal modifier, providing additional information about another noun.
+* **compound (31):**  A compound noun, where "Autoritat" and "Portuària" combine to form a single noun.
+* **advmod (23):** Adverbial modifier.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	El	el	DET	_	_	3	det	_	_
+2	proper	proper	ADJ	_	_	3	amod	_	_
+3	divendres	divendres	NOUN	_	_	4	nsubj	_	_
+4	arribarà	arribar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	primer	primer	ADJ	_	_	7	amod	_	_
+7	vaixell	vaixell	NOUN	_	_	4	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	el	el	DET	_	_	10	det	_	_
+10	'	'	PUNCT	_	_	11	title	_	_
+11	Lili	Lili	PROPN	_	_	14	nsubj	_	_
+12	Marleen	Marleen	PROPN	_	_	11	flat	_	_
+13	'	'	PUNCT	_	_	11	title	_	_
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	companyia	companyia	NOUN	_	_	4	obl	_	_
+18	Peter	Peter	PROPN	_	_	17	flat	_	_
+19	Deilmann	Deilmann	PROPN	_	_	18	flat	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `divendres` (Friday) is the temporal node of the sentence, hence its head is the main verb `arribarà` (will arrive).
+- `primer vaixell` (first ship) is the subject of the verb `arribarà`.
+- `Lili Marleen` is a named entity acting as a nominal subject in a reported speech structure, hence it's linked to the verb `arribarà` as well.
+- `companyia Peter Deilmann` (Peter Deilmann company) is an oblique argument, providing additional information about the ship's company.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	El	el	DET	_	_	2	det	_	_
+2	creuer	creuer	NOUN	_	_	12	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	_	5	nsubj	_	_
+5	atracarà	atracar	VERB	_	_	0	root	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	Moll	Moll	PROPN	_	_	6	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Costa	Costa	PROPN	_	_	8	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	arribarà	arribar	VERB	_	_	5	conj	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	les	el	DET	_	_	15	det	_	_
+15	8	8	NUM	_	_	16	nummod	_	_
+16	del	de	ADP	_	_	17	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	matí	matí	NOUN	_	_	12	obl	_	_
+19	i	i	CCONJ	_	_	20	cc	_	_
+20	salparà	salpar	VERB	_	_	12	conj	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	les	el	DET	_	_	23	det	_	_
+23	22	22	NUM	_	_	24	nummod	_	_
+24	hores	hora	NOUN	_	_	20	obl	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	té	tenir	VERB	_	_	2	acl	_	_
+27	una	un	DET	_	_	28	det	_	_
+28	eslora	eslora	NOUN	_	_	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	76	76	NUM	_	_	31	nummod	_	_
+31	metres	metre	NOUN	_	_	28	nmod	_	_
+32	i	i	CCONJ	_	_	33	cc	_	_
+33	duu	dur	VERB	_	_	28	acl	_	_
+34	a	a	ADP	_	_	35	case	_	_
+35	bord	bord	NOUN	_	_	33	obl	_	_
+36	un	un	DET	_	_	37	det	_	_
+37	total	total	NOUN	_	_	35	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	22	22	NUM	_	_	40	nummod	_	_
+40	passatgers	passatger	NOUN	_	_	37	nmod	_	_
+41	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Note:
+- The UPOS column contains the universal part-of-speech tags.
+- The XPOS column is left blank as it is not always used in UD annotations.
+- The FEATS column is also left blank as there are no relevant morphological features for these tokens.
+- The HEAD column indicates the index of the syntactic head of each word.
+- The DEPREL column specifies the dependency relation between the word and its head.
+- The DEPS column is optional and can be used for enhanced dependencies.
+- The MISC column is left blank as there are no miscellaneous annotations in this example.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Aquest	aquest	DET	_	_	3	det	_	_
+2	mateix	mateix	ADJ	_	_	3	amod	_	_
+3	vaixell	vaixell	NOUN	_	_	4	nsubj	_	_
+4	tornarà	tornar	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	atracar	atracar	VERB	_	_	4	xcomp	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	port	port	NOUN	_	_	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Tarragona	Tarragona	PROPN	_	_	9	nmod	_	_
+12	els	el	DET	_	_	13	det	_	_
+13	propers	proper	ADJ	_	_	14	amod	_	_
+14	dies	dies	NOUN	_	_	4	obl	_	_
+15	11	11	NUM	_	_	14	nummod	_	_
+16	i	i	CCONJ	_	_	17	cc	_	_
+17	18	18	NUM	_	_	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	juny	juny	NOUN	_	_	17	nmod	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Aquest` (1) is a determiner modifying `vaixell` (3).
+- `mateix` (2) is an adjective modifying `vaixell` (3).
+- `vaixell` (3) is the subject of the verb `tornarà` (4).
+- `tornarà` (4) is the root of the sentence.
+- `a` (5) is a preposition introducing the object of `tornarà`.
+- `atracar` (6) is a verb complement of `tornarà`, indicating the action of returning.
+- `al` (7) and `el` (8) are prepositions and determinants introducing the object of `atracar`.
+- `port` (9) is the object of `atracar`, with `de Tarragona` (10-11) modifying it.
+- `els prosers dies` (12-14) is an adverbial phrase indicating when the action will occur.
+- `11 i 18 de juny` (15-19) provides the specific dates.
+- The period (20) marks the end of the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	També	també	ADV	_	_	2	advmod	_	_
+2	està	estar	VERB	_	_	0	root	_	_
+3	prevista	previst	ADJ	_	_	2	xcomp	_	_
+4	l'	el	DET	_	_	5	det	_	_
+5	arribada	arribada	NOUN	_	_	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	el	el	DET	_	_	8	det	_	_
+8	creuer	creuer	NOUN	_	_	5	nmod	_	_
+9	'	'	PUNCT	_	_	10	punct	_	_
+10	Silver	Silver	PROPN	_	_	8	appos	_	_
+11	Shadow	Shadow	PROPN	_	_	10	flat	_	_
+12	'	'	PUNCT	_	_	10	punct	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	la	el	DET	_	_	16	det	_	_
+16	companyia	companyia	NOUN	_	_	14	obl	_	_
+17	Silversea	Silversea	PROPN	_	_	16	appos	_	_
+18	Cruises	Cruises	PROPN	_	_	17	flat	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	amb	amb	ADP	_	_	21	case	_	_
+21	una	un	DET	_	_	22	det	_	_
+22	eslora	eslora	NOUN	_	_	20	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	182	182	NUM	_	_	22	nummod	_	_
+25	metres	metre	NOUN	_	_	24	nmod	_	_
+26	i	i	CCONJ	_	_	27	cc	_	_
+27	388	388	NUM	_	_	24	conj	_	_
+28	passatgers	passatger	NOUN	_	_	27	nmod	_	_
+29	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `També` (1) is an adverb modifying the verb `està` (2).
+- `està` (2) is the root verb of the sentence.
+- `prevista` (3) is an adjective serving as a predicative complement of `està`.
+- `l'` (4) is a determinant of `arribada` (5).
+- `arribada` (5) is the object of the verb `prevista`.
+- `del` (6) and `el` (7) are part of a prepositional phrase modifying `creuer` (8).
+- `creuer` (8) is a noun modified by the appositive `Silver Shadow` (10-11).
+- The rest of the sentence provides additional information about the ship, with various dependencies such as `de` (14) introducing a prepositional phrase, `amb` (20) introducing another prepositional phrase, and numerical quantities modifying `eslora` (22) and `passatgers` (28).
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	dia	dia	NOUN	_	_	10	obl	_	_
+3	18	18	NUM	_	_	2	nummod	_	_
+4	atracarà	atracar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	vaixell	vaixell	NOUN	_	_	4	obj	_	_
+7	'	'	PUNCT	_	_	8	punct	_	_
+8	Assedo	Assedo	PROPN	_	_	6	appos	_	_
+9	'	'	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	19	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	el	DET	_	_	13	det	_	_
+13	companyia	companyia	NOUN	_	_	19	nmod	_	_
+14	Transtours	Transtours	PROPN	_	_	13	appos	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	amb	amb	ADP	_	_	19	case	_	_
+17	175	175	NUM	_	_	18	nummod	_	_
+18	metres	metre	NOUN	_	_	19	nmod	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	eslora	eslora	NOUN	_	_	4	obl	_	_
+21	i	i	CCONJ	_	_	23	cc	_	_
+22	un	un	DET	_	_	23	det	_	_
+23	passatge	passatge	NOUN	_	_	20	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	500	500	NUM	_	_	23	nummod	_	_
+26	persones	persona	NOUN	_	_	25	nmod	_	_
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **El (1), dia (2), 18 (3):**  These form a noun phrase ("the day 18") where 'el' is a determinant, 'dia' is the noun, and '18' is a numeral modifier.
+* **atracarà (4):**  This is the verb ("will dock") and the root of the sentence.
+* **el (5), vaixell (6):** Another noun phrase ("the ship"), similar to the previous one.
+* **'Assedo' (8), ' (9):**  The proper noun "Assedo" with surrounding punctuation.
+* **de (11), la (12), companyia (13), Transtours (14):**  This phrase ("of the company Transtours") is a nominal modifier of the ship name.
+* **amb (16), 175 (17), metres (18), d' (19), eslora (20):**  These words modify the ship, specifying its length.
+* **i (21), un (22), passatge (23), de (24), 500 (25), persones (26):**  This entire phrase describes the ship's passenger capacity.
+* **. (27):**  Sentence-final punctuation.
+Raw model output for sentence :
+```conllu
+1	L'	el	DET	_	_	2	det	_	_
+2	advocat	advocat	NOUN	_	_	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	el	el	DET	_	_	5	det	_	_
+5	professor	professor	NOUN	_	_	2	appos	_	_
+6	d'	de	ADP	_	_	7	case	_	_
+7	una	un	DET	_	_	8	det	_	_
+8	escola	escola	NOUN	_	_	14	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Sant	Sant	PROPN	_	_	14	obl	_	_
+11	Quirze	Quirze	PROPN	_	_	10	flat	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	el	el	DET	_	_	14	det	_	_
+14	Vallès	Vallès	PROPN	_	_	0	root	_	_
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	Vallès	Vallès	PROPN	_	_	14	appos	_	_
+17	Occidental	Occidental	PROPN	_	_	16	flat	_	_
+18	)	)	PUNCT	_	_	16	punct	_	_
+19	que	que	PRON	_	_	23	nsubj	_	_
+20	ha	haver	AUX	_	_	23	aux	_	_
+21	estat	ser	AUX	_	_	23	auxpass	_	_
+22	detingut	detenir	VERB	_	_	23	ccomp	_	_
+23	per	per	ADP	_	_	27	obl	_	_
+24	presumptes	presumpte	ADJ	_	_	25	amod	_	_
+25	abusos	abús	NOUN	_	_	22	obj	_	_
+26	sexuals	sexual	ADJ	_	_	25	amod	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	una	un	DET	_	_	29	det	_	_
+29	alumna	alumna	NOUN	_	_	25	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	el	el	DET	_	_	32	det	_	_
+32	centre	centre	NOUN	_	_	29	appos	_	_
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	8	8	NUM	_	_	37	nummod	_	_
+36	anys	any	NOUN	_	_	35	nmod	_	_
+37	,	,	PUNCT	_	_	39	punct	_	_
+38	ha	haver	AUX	_	_	39	aux	_	_
+39	anunciat	anunciar	VERB	_	_	22	conj	_	_
+40	que	que	PRON	_	_	42	nsubj	_	_
+41	no	no	PART	_	_	42	neg	_	_
+42	recorrerà	recórrer	VERB	_	_	39	ccomp	_	_
+43	l'	el	DET	_	_	44	det	_	_
+44	ordre	ordre	NOUN	_	_	42	obj	_	_
+45	judicial	judicial	ADJ	_	_	44	amod	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	presó	presó	NOUN	_	_	44	nmod	_	_
+48	preventiva	preventiu	ADJ	_	_	47	amod	_	_
+49	per	per	ADP	_	_	50	case	_	_
+50	considerar	considerar	VERB	_	_	42	xcomp	_	_
+51	que	que	PRON	_	_	53	nsubj	_	_
+52	l'	el	DET	_	_	53	det	_	_
+53	alarma	alarma	NOUN	_	_	50	obj	_	_
+54	social	social	ADJ	_	_	53	amod	_	_
+55	pot	poder	AUX	_	_	56	aux	_	_
+56	perjudicar	perjudicar	VERB	_	_	53	ccomp	_	_
+57	més	més	ADV	_	_	56	advmod	_	_
+58	el	el	DET	_	_	59	det	_	_
+59	mestre	mestre	NOUN	_	_	56	obj	_	_
+60	si	si	CCONJ	_	_	62	mark	_	_
+61	està	estar	AUX	_	_	62	aux	_	_
+62-63	al	_	_	_	_	_	_	_	_
+62	a	a	ADP	_	_	63	case	_	_
+63	el	el	DET	_	_	64	det	_	_
+64	carrer	carrer	NOUN	_	_	61	obl	_	_
+65	.	.	PUNCT	_	_	14	punct	_	_
+
+```
+
+ **Explanation of key dependencies:**
+
+* **root (0):** The main clause is anchored by the verb "ha anunciat" (has announced) which is the root of the sentence.
+* **nsubj (2, 40):**  "L'advocat" (the lawyer) and "que" (that) are the nominal subjects of the main clause and the subordinate clause, respectively.
+* **obj (22, 44, 59):**  "per presumptes abusos sexuals" (for alleged sexual abuse),  "l'ordre judicial de presó preventiva" (the judicial order of preventative imprisonment), and "el mestre" (the teacher) are the direct objects of their respective verbs.
+* **obl (9, 27, 30, 46, 62):** These represent various oblique dependencies, such as prepositional phrases ("de Sant Quirze del Vallès"),  and temporal expressions ("de 8 anys").
+* **appos (5, 16):**  "professor d'una escola" (teacher of a school) and  "Vallès Occidental"  are appositional phrases, renaming "professor" (teacher) and "Vallès" (Vallès).
+* **ccomp (22, 42, 50):**  "detingut per presumptes abusos sexuals" (detained for alleged sexual abuse),  "no recorrerà l'ordre judicial..." (will not appeal the judicial order...),  and "considerar que l'alarma social pot perjudicar més el mestre" (considering that the social alarm can harm the teacher more) are complement clauses.
+* **xcomp (50):**  "perjudicar més el mestre" (harming the teacher more) is an  "open" complement clause,  acting as a predicate adjective modifying "considerar" (consider).
+* **conj (39):**  "ha anunciat que no recorrerà..." (has announced that he will not appeal...) connects the main clause with a conjugated clause.
+Raw model output for sentence :
+```conll-u
+1	Damián	Damián	PROPN	_	_	6	nsubj	_	_
+2	Téllez	Téllez	PROPN	_	_	6	flat:name	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	advocat	advocat	NOUN	_	_	6	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	M.C.B.	M.C.B.	PROPN	_	_	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	mestre	mestre	NOUN	_	_	11	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Sant	Sant	PROPN	_	_	13	nmod	_	_
+12	Quirze	Quirze	PROPN	_	_	13	flat:name	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	el	el	DET	_	_	15	det	_	_
+15	Vallès	Vallès	PROPN	_	_	17	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	33	33	NUM	_	_	19	nummod	_	_
+18	anys	any	NOUN	_	_	19	unit	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	edat	edat	NOUN	_	_	23	obl	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	qui	qui	PRON	_	_	23	nsubj	_	_
+23	el	el	PRON	_	_	24	obj	_	_
+24	jutjat	jutjar	VERB	_	_	26	acl	_	_
+25	número	número	NOUN	_	_	26	nsubj	_	_
+26	3	3	NUM	_	_	28	nummod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Sabadell	Sabadell	PROPN	_	_	30	nmod	_	_
+29	(	(	PUNCT	_	_	28	punct	_	_
+30	Vallès	Vallès	PROPN	_	_	32	nmod	_	_
+31	Occidental	Occidental	PROPN	_	_	30	flat:name	_	_
+32	)	)	PUNCT	_	_	28	punct	_	_
+33	investiga	investigar	VERB	_	_	6	parataxis	_	_
+34	per	per	ADP	_	_	35	case	_	_
+35	uns	un	DET	_	_	36	det	_	_
+36	presumptes	presumpte	ADJ	_	_	37	amod	_	_
+37	abusos	abús	NOUN	_	_	33	obj	_	_
+38	sexuals	sexual	ADJ	_	_	37	amod	_	_
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	ha	haver	AUX	_	_	41	aux	_	_
+41	anunciat	anunciar	VERB	_	_	33	ccomp	_	_
+42	en	en	ADP	_	_	43	case	_	_
+43	declaracions	declaració	NOUN	_	_	41	obl	_	_
+44	a	a	ADP	_	_	45	case	_	_
+45	Intra-ACN	Intra-ACN	PROPN	_	_	43	obl	_	_
+46	que	que	SCONJ	_	_	48	mark	_	_
+47	no	no	PART	_	_	48	neg	_	_
+48	té	tenir	VERB	_	_	41	xcomp	_	_
+49	intenció	intenció	NOUN	_	_	48	obj	_	_
+50	de	de	ADP	_	_	51	case	_	_
+51	recórrer	recórrer	VERB	_	_	49	obl	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	moment	moment	NOUN	_	_	51	obl	_	_
+54	l'	el	DET	_	_	55	det	_	_
+55	ordre	ordre	NOUN	_	_	51	obl	_	_
+56	de	de	ADP	_	_	57	case	_	_
+57	presó	presó	NOUN	_	_	55	obl	_	_
+58	acordada	acordat	ADJ	_	_	57	amod	_	_
+59-60	pel	_	_	_	_	_	_	_	_
+59	per	per	ADP	_	_	61	case	_	_
+60	el	el	DET	_	_	61	det	_	_
+61	jutge	jutge	NOUN	_	_	58	obl	_	_
+62	,	,	PUNCT	_	_	63	punct	_	_
+63	a	a	ADP	_	_	64	case	_	_
+64	l'	el	DET	_	_	65	det	_	_
+65	espera	espera	NOUN	_	_	67	obl	_	_
+66	que	que	SCONJ	_	_	67	mark	_	_
+67	avanci	avançar	VERB	_	_	61	acl	_	_
+68	la	el	DET	_	_	69	det	_	_
+69	investigació	investigació	NOUN	_	_	67	obj	_	_
+70	i	i	CCONJ	_	_	71	cc	_	_
+71	s'	ell	PRON	_	_	72	nsubj	_	_
+72	esclareixin	esclarir	VERB	_	_	67	conj	_	_
+73	els	el	DET	_	_	74	det	_	_
+74	fets	fet	NOUN	_	_	72	obj	_	_
+75	.	.	PUNCT	_	_	6	punct	_	_
+
+```
+
+ **Explanation of key dependencies:**
+
+* **root (0)** : The sentence's main verb "investiga" (line 33) is the root of the sentence.
+* **nsubj (1, 22, 71)**:  "Damián Téllez" (line 1) is the subject of "investiga,"  "qui" (line 22) is the subject of "el jutjat," and  "s'" (line 71) is the subject of "esclareixin."
+* **appos (4, 11, 12)** : "advocat de M.C.B." (line 4), "Sant Quirze" (line 11), and  "del Vallès" (line 12) are all appositional modifiers, providing additional information about the preceding nouns.
+* **obl (20, 33, 37, 43, 51, 57, 65, 69, 74)** : These words are all obligations (indirect objects) of various verbs in the sentence.
+* **acl (24, 67)** :  "jutjat número 3" (line 24) and "espera que avancí la investigació" (line 65) are adjunct clauses that modify nouns ("el jutjat" and "la investigació," respectively).
+* **xcomp (41)** : "anunciat" (line 41) is a clause that acts as a direct object of the verb "ha" (line 40),  functioning as an open clausal complement.
+* **ccomp (48)** : "no té intenció de recórrer" (line 48) is a clause that complements the verb "anunciat," functioning as a sentential complement.
+* **conj (47, 72)** :  "no" (line 47) and "i s'esclareixin" (line 72) are conjuncts, connecting phrases within the sentence.
+Raw model output for sentence :
+```conllu
+1	Segons	segons	ADP	_	_	3	case	_	_
+2	l'	el	DET	_	_	3	det	_	_
+3	advocat	advocat	NOUN	_	_	8	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	primera	primer	ADJ	_	_	7	amod	_	_
+7	mesura	mesura	NOUN	_	_	8	obj	_	_
+8	instarà	instar	VERB	_	_	0	root	_	_
+9	al	a	ADP	_	_	11	case	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	jutge	jutge	NOUN	_	_	8	obl	_	_
+13	és	ser	VERB	_	_	8	aux	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	petició	petició	NOUN	_	_	16	nsubj	_	_
+16	d'	de	ADP	_	_	18	case	_	_
+17	una	un	DET	_	_	18	det	_	_
+18	prova	prova	NOUN	_	_	15	obl	_	_
+19	pericial	pericial	ADJ	_	_	18	amod	_	_
+20	forense	forense	ADJ	_	_	18	amod	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	relació	relació	NOUN	_	_	18	obl	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	l'	el	DET	_	_	25	det	_	_
+25	estat	estat	NOUN	_	_	27	obj	_	_
+26	físic	físic	ADJ	_	_	25	amod	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	la	el	DET	_	_	29	det	_	_
+29	nena	nena	NOUN	_	_	27	obl	_	_
+30	que	que	PRON	_	_	31	nsubj	_	_
+31	ha	haver	VERB	_	_	29	acl	_	_
+32	estat	ser	VERB	_	_	31	aux	_	_
+33	presumptament	presumptament	ADV	_	_	34	advmod	_	_
+34	víctima	víctima	NOUN	_	_	31	xcomp	_	_
+35	dels	de	ADP	_	_	37	case	_	_
+36	els	el	DET	_	_	37	det	_	_
+37	abusos	abús	NOUN	_	_	34	obl	_	_
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	i	i	CCONJ	_	_	42	cc	_	_
+40	si	si	SCONJ	_	_	42	mark	_	_
+41	es	ell	PRON	_	_	42	nsubj	_	_
+42	demostra	demostrar	VERB	_	_	34	advcl	_	_
+43	la	el	DET	_	_	44	det	_	_
+44	veracitat	veracitat	NOUN	_	_	42	obj	_	_
+45	dels	de	ADP	_	_	47	case	_	_
+46	els	el	DET	_	_	47	det	_	_
+47	abusos	abús	NOUN	_	_	44	obl	_	_
+48	denunciats	denunciat	VERB	_	_	47	xcomp	_	_
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	demanarà	demanar	VERB	_	_	42	conj	_	_
+51	que	que	PRON	_	_	52	obj	_	_
+52	un	un	DET	_	_	53	det	_	_
+53	metge	metge	NOUN	_	_	55	nsubj	_	_
+54	explori	explorar	VERB	_	_	55	xcomp	_	_
+55	el	el	DET	_	_	56	det	_	_
+56	professor	professor	NOUN	_	_	54	obl	_	_
+57	per	per	ADP	_	_	58	case	_	_
+58	mirar	mirar	VERB	_	_	54	obl	_	_
+59	de	de	ADP	_	_	60	case	_	_
+60	descobrir	descobrir	VERB	_	_	58	obl	_	_
+61	si	si	SCONJ	_	_	62	mark	_	_
+62	pateix	patir	VERB	_	_	60	advcl	_	_
+63	algun	algun	DET	_	_	64	det	_	_
+64	tipus	tipus	NOUN	_	_	62	obj	_	_
+65	de	de	ADP	_	_	66	case	_	_
+66	trastorn	trastorn	NOUN	_	_	64	obl	_	_
+67	mental	mental	ADJ	_	_	66	amod	_	_
+68	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+Please note that the Universal Dependencies (UD) scheme might require further refinement for specific linguistic nuances, and the provided annotation assumes a standard Catalan language context. The `HEAD` column is implicitly determined by the dependency relations in the `DEPREL` column.
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	cas	cas	NOUN	_	_	7	nsubj	_	_
+3	és	ser	VERB	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	professor	professor	NOUN	_	_	2	appos	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	segons	segons	ADP	_	_	10	case	_	_
+9	l'	el	DET	_	_	10	det	_	_
+10	advocat	advocat	NOUN	_	_	3	obl	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	ha	haver	VERB	_	_	3	aux	_	_
+13	desmentit	desmentir	VERB	_	_	12	xcomp	_	_
+14	les	el	DET	_	_	15	det	_	_
+15	informacions	informació	NOUN	_	_	13	obj	_	_
+16	segons	segons	ADP	_	_	17	case	_	_
+17	les	el	DET	_	_	18	det	_	_
+18	quals	qual	PRON	_	_	13	obl	_	_
+19	s'	ell	PRON	_	_	20	nsubj	_	_
+20	havia	haver	VERB	_	_	18	acl	_	_
+21	autoinculpat	autoinculpar	VERB	_	_	20	xcomp	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	i	i	CCONJ	_	_	24	cc	_	_
+24	espera	esperar	VERB	_	_	3	conj	_	_
+25	igualment	igualment	ADV	_	_	24	advmod	_	_
+26	que	que	SCONJ	_	_	27	mark	_	_
+27	s'	ell	PRON	_	_	28	nsubj	_	_
+28	esclareixin	esclarir	VERB	_	_	24	xcomp	_	_
+29	els	el	DET	_	_	30	det	_	_
+30	rumors	rumor	NOUN	_	_	28	obj	_	_
+31	sobre	sobre	ADP	_	_	32	case	_	_
+32	una	un	DET	_	_	33	det	_	_
+33	altra	altre	ADJ	_	_	34	amod	_	_
+34	presumpta	presumpte	NOUN	_	_	30	nmod	_	_
+35	víctima	víctima	NOUN	_	_	34	appos	_	_
+36	dels	de	ADP	_	_	37	case	_	_
+37	mateixos	mateix	ADJ	_	_	35	nmod	_	_
+38	fets	fet	NOUN	_	_	37	appos	_	_
+39	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+Please note that the Universal Dependencies (UD) scheme might not perfectly capture all the nuances of the Catalan language, and annotation can sometimes be subjective, especially for complex sentences. The provided annotation is a best effort interpretation according to the UD guidelines.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	La	el	DET	_	_	2	det	_	_
+2	detenció	detenció	NOUN	_	_	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	el	el	DET	_	_	5	det	_	_
+5	professor	professor	NOUN	_	_	2	nmod	_	_
+6	es	ell	PRON	_	_	7	nsubj	_	_
+7	va	anar	AUX	_	_	8	aux	_	_
+8	produir	produir	VERB	_	_	0	root	_	_
+9	dissabte	dissabte	NOUN	_	_	8	obl	_	_
+10	passat	passat	ADJ	_	_	9	amod	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	les	el	DET	_	_	13	det	_	_
+13	quatre	quatre	NUM	_	_	15	nummod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	la	la	DET	_	_	16	det	_	_
+16	tarda	tarda	NOUN	_	_	8	obl	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	després	després	ADP	_	_	19	case	_	_
+19	d'	de	ADP	_	_	20	case	_	_
+20	un	un	DET	_	_	21	det	_	_
+21	seguit	seguit	NOUN	_	_	18	obl	_	_
+22	d'	de	ADP	_	_	23	case	_	_
+23	investigacions	investigació	NOUN	_	_	21	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	Guardia	Guardia	PROPN	_	_	24	nmod	_	_
+27	Civil	Civil	PROPN	_	_	26	flat	_	_
+28	.	.	PUNCT	_	_	8	punct	_	_
+```
+
+Explanation:
+- **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET)
+- **XPOS:** Language-specific part-of-speech tag (not applicable for Catalan, so left blank)
+- **FEATS:** Morphological features (not applicable for Catalan, so left blank)
+- **HEAD:** The index of the head of the current word (e.g., 2 for "detenció" as it's the head of "del" and "el")
+- **DEPREL:** Dependency relation (e.g., nmod, obl, det)
+- **DEPS:** Dependency edge (not applicable, so left blank)
+- **MISC:** Any miscellaneous information (not applicable, so left blank)
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Els	el	DET	_	_	2	det	_	_
+2	pares	pare	NOUN	_	_	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	nena	nena	NOUN	_	_	6	obj	_	_
+6	van	anar	VERB	_	_	0	root	_	_
+7	portar-la	portar	VERB	_	_	6	xcomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	l'	el	DET	_	_	11	det	_	_
+10	hospital	hospital	NOUN	_	_	11	compound	_	_
+11	Taulí	Taulí	PROPN	_	_	9	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Sabadell	Sabadell	PROPN	_	_	11	nmod	_	_
+14	perquè	perquè	SCONJ	_	_	17	mark	_	_
+15	es	ell	PRON	_	_	17	nsubj	_	_
+16	queixava	queixar-se	VERB	_	_	17	ccomp	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	dolors	dolor	NOUN	_	_	19	compound	_	_
+19	abdominals	abdominal	ADJ	_	_	16	obl	_	_
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+Explanation of the dependencies:
+
+- The sentence has a main verb "van" (go) with an object "la nena" (the girl).
+- "Els pares" (the parents) is the subject of the sentence.
+- "portar-la" (take her) is a verbal complex modifying the main verb "van".
+- The prepositional phrase "a l'hospital Taulí de Sabadell" (to Taulí hospital in Sabadell) is attached to "portar-la" as its obligatorily dependent.
+- The clause "perquè es queixava de dolors abdominals" (because she complained of abdominal pains) is a subordinate clause introduced by the subordinating conjunction "perquè" (because).
+Raw model output for sentence :
+```conllu
+1	Un	un	DET	_	_	2	det	_	_
+2	cop	cop	NOUN	_	_	10	nsubj	_	_
+3	allí	allí	ADV	_	_	2	advmod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	metge	metge	NOUN	_	_	10	obj	_	_
+7	que	que	PRON	_	_	8	nsubj	_	_
+8	la	ell	PRON	_	_	9	obj	_	_
+9	va	anar	VERB	_	_	10	aux	_	_
+10	reconèixer	reconèixer	VERB	_	_	0	root	_	_
+11	va	anar	VERB	_	_	12	aux	_	_
+12	sol·licitar	sol·licitar	VERB	_	_	10	conj	_	_
+13	la	el	DET	_	_	14	det	_	_
+14	presència	presència	NOUN	_	_	12	obj	_	_
+15	d'	de	ADP	_	_	16	case	_	_
+16	un	un	DET	_	_	18	det	_	_
+17	forense	forense	NOUN	_	_	18	compound	_	_
+18	perquè	perquè	SCONJ	_	_	20	mark	_	_
+19	va	anar	VERB	_	_	20	aux	_	_
+20	veure	veure	VERB	_	_	12	ccomp	_	_
+21	indicis	indici	NOUN	_	_	20	obj	_	_
+22	que	que	PRON	_	_	23	nsubj	_	_
+23	feien	fer	VERB	_	_	21	acl	_	_
+24	pensar	pensar	VERB	_	_	23	xcomp	_	_
+25	que	que	SCONJ	_	_	26	mark	_	_
+26	la	el	PRON	_	_	29	nsubj	_	_
+27	nena	nena	NOUN	_	_	26	compound	_	_
+28	podia	poder	AUX	_	_	29	aux	_	_
+29	haver	haver	VERB	_	_	24	ccomp	_	_
+30	estat	ser	AUX	_	_	31	auxpass	_	_
+31	víctima	víctima	NOUN	_	_	29	xcomp	_	_
+32	d'	de	ADP	_	_	33	case	_	_
+33	abusos	abús	NOUN	_	_	31	obl	_	_
+34	sexuals	sexual	ADJ	_	_	33	amod	_	_
+35	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+Please note that the annotation assumes a typical Catalan sentence structure and word forms. The Universal Dependencies (UD) scheme is used for the `UPOS` column, and the `DEPREL` column captures the grammatical relations between words.
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	forense	forense	NOUN	_	_	4	nsubj	_	_
+3	va	anar	AUX	_	_	4	aux	_	_
+4	confirmar	confirmar	VERB	_	_	0	root	_	_
+5	les	el	DET	_	_	6	det	_	_
+6	sospites	sospita	NOUN	_	_	4	obj	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	ho	ell	PRON	_	_	4	obj	_	_
+9	va	anar	AUX	_	_	10	aux	_	_
+10	comunicar	comunicar	VERB	_	_	4	conj	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	la	el	DET	_	_	13	det	_	_
+13	Guardia	Guardia	PROPN	_	_	10	obl	_	_
+14	Civil	Civil	PROPN	_	_	13	flat	_	_
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	qual	qual	PRON	_	_	26	nsubj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	després	després	ADP	_	_	20	case	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	un	un	DET	_	_	22	det	_	_
+22	seguit	seguit	NOUN	_	_	26	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	investigacions	investigació	NOUN	_	_	22	nmod	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	va	anar	AUX	_	_	17	aux	_	_
+27	identificar	identificar	VERB	_	_	26	xcomp	_	_
+28	com	com	ADP	_	_	29	case	_	_
+29	a	a	DET	_	_	30	det	_	_
+30	sospitós	sospitós	ADJ	_	_	27	obl	_	_
+31	un	un	DET	_	_	32	det	_	_
+32	mestre	mestre	NOUN	_	_	27	obl	_	_
+33	del	de	ADP	_	_	34	case	_	_
+33-34	_	_	_	_	_	32	nmod	_	_
+34	el	el	DET	_	_	35	det	_	_
+35	col·legi	col·legi	NOUN	_	_	32	nmod	_	_
+36	on	on	ADP	_	_	37	case	_	_
+37	va	anar	AUX	_	_	38	aux	_	_
+38	la	el	DET	_	_	39	nsubj	_	_
+39	nena	nena	NOUN	_	_	37	xcomp	_	_
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+Please note that the annotation assumes a context where "sospites" (suspicions) and "sospitós" (suspects) are being used in a legal or investigative context. The relationship between certain words, such as the use of "com" (as) to introduce the suspects, is reflected in the dependency relations.
+Raw model output for sentence :
+```conllu
+1	El	el	DET	_	_	2	det	_	_
+2	PP	PP	PROPN	_	_	3	nsubj	_	_
+3	ha	haver	VERB	_	_	0	root	_	_
+4	presentat	presentar	VERB	_	_	3	xcomp	_	_
+5	avui	avui	ADV	_	_	4	advmod	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	seu	seu	ADJ	_	_	8	amod	_	_
+8	document	document	NOUN	_	_	4	dobj	_	_
+9	base	base	NOUN	_	_	8	appos	_	_
+10	que	que	PRON	_	_	11	nsubj	_	_
+11	utilitzarà	utilitzar	VERB	_	_	8	acl	_	_
+12	per	per	ADP	_	_	13	case	_	_
+13	negociar	negociar	VERB	_	_	11	mark	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	revisió	revisió	NOUN	_	_	13	dobj	_	_
+16	del	de	ADP	_	_	17	case	_	_
+17	finançament	finançament	NOUN	_	_	15	nmod	_	_
+18	autonòmic	autonòmic	ADJ	_	_	17	amod	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	_	21	nsubj	_	_
+21	s'	ell	PRON	_	_	23	dep	_	_
+22	els	ell	PRON	_	_	23	dep	_	_
+23	haurà	haver	VERB	_	_	15	acl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	tancar	tancar	VERB	_	_	23	xcomp	_	_
+26	abans	abans	ADV	_	_	25	advmod	_	_
+27	d'	de	ADP	_	_	28	case	_	_
+28	acabar	acabar	VERB	_	_	26	appos	_	_
+29	aquest	aquest	DET	_	_	30	det	_	_
+30	any	any	NOUN	_	_	28	dobj	_	_
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	i	i	CCONJ	_	_	33	cc	_	_
+33	en	en	ADP	_	_	36	case	_	_
+34	el	el	DET	_	_	36	det	_	_
+35	qual	qual	PRON	_	_	36	nsubj	_	_
+36	es	ell	VERB	_	_	33	xcomp	_	_
+37	contempla	contemplar	VERB	_	_	36	ccomp	_	_
+38	,	,	PUNCT	_	_	40	punct	_	_
+39	entre	entre	ADP	_	_	40	case	_	_
+40	altres	altre	NOUN	_	_	37	nmod	_	_
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	la	el	DET	_	_	43	det	_	_
+43	inclusió	inclusió	NOUN	_	_	40	appos	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	la	el	DET	_	_	46	det	_	_
+46	Sanitat	Sanitat	NOUN	_	_	43	nmod	_	_
+47	,	,	PUNCT	_	_	49	punct	_	_
+48	en	en	ADP	_	_	49	case	_	_
+49	la	el	DET	_	_	50	det	_	_
+50	línia	línia	NOUN	_	_	52	appos	_	_
+51	proposada	proposat	ADJ	_	_	52	amod	_	_
+52	per	per	ADP	_	_	54	case	_	_
+53	la	el	DET	_	_	54	det	_	_
+54	Generalitat	Generalitat	PROPN	_	_	50	nmod	_	_
+55	,	,	PUNCT	_	_	57	punct	_	_
+56	i	i	CCONJ	_	_	57	cc	_	_
+57	l'	el	DET	_	_	58	det	_	_
+58	Imserso	Imserso	PROPN	_	_	50	conj	_	_
+59	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	En	en	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	cas	cas	NOUN	_	_	10	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	Sanitat	Sanitat	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	el	el	DET	_	_	9	det	_	_
+9	PP	PP	PROPN	_	_	10	nsubj	_	_
+10	estableix	establir	VERB	_	_	0	root	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	el	el	DET	_	_	13	det	_	_
+13	sistema	sistema	NOUN	_	_	10	xcomp	_	_
+14	tindrà	tenir	VERB	_	_	13	aux	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	compte	compte	NOUN	_	_	14	obl	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	més	més	ADV	_	_	20	advmod	_	_
+20	del	de	ADP	_	_	22	case	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	el	el	DET	_	_	24	det	_	_
+23	nombre	nombre	NOUN	_	_	24	compound	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	població	població	NOUN	_	_	26	nmod	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	cobertura	cobertura	NOUN	_	_	28	nmod	_	_
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	una	un	DET	_	_	30	det	_	_
+30	variable	variable	NOUN	_	_	10	obj	_	_
+31	en	en	ADP	_	_	32	case	_	_
+32	funció	funció	NOUN	_	_	30	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	la	el	DET	_	_	35	det	_	_
+35	piràmide	piràmide	NOUN	_	_	32	nmod	_	_
+36	d'	de	ADP	_	_	37	case	_	_
+37	edat	edat	NOUN	_	_	35	nmod	_	_
+38	o	o	CCONJ	_	_	39	cc	_	_
+39	dels	el	DET	_	_	40	det	_	_
+40	aturats	aturat	NOUN	_	_	35	conj	_	_
+41	amb	amb	ADP	_	_	42	case	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	objectiu	objectiu	NOUN	_	_	40	nmod	_	_
+44	d'	de	ADP	_	_	45	case	_	_
+45	ajustar	ajustar	VERB	_	_	43	xcomp	_	_
+46	els	el	DET	_	_	47	det	_	_
+47	costos	cost	NOUN	_	_	45	obj	_	_
+48	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	La	el	DET	_	_	2	det	_	_
+2	proposta	proposta	NOUN	_	_	4	nsubj	_	_
+3	també	també	ADV	_	_	4	advmod	_	_
+4	inclou	incloure	VERB	_	_	0	root	_	_
+5	la	el	DET	_	_	6	det	_	_
+6	participació	participació	NOUN	_	_	4	obj	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	els	el	DET	_	_	9	det	_	_
+9	impostos	impost	NOUN	_	_	11	nsubj	_	_
+10	indirectes	indirecte	ADJ	_	_	9	amod	_	_
+11	entre	entre	ADP	_	_	13	case	_	_
+12	els	el	DET	_	_	13	det	_	_
+13	quals	qual	PRON	_	_	11	obl	_	_
+14	hi	hi	ADV	_	_	15	advmod	_	_
+15	ha	haver	VERB	_	_	13	acl	_	_
+16	l'	el	DET	_	_	17	det	_	_
+17	IVA	IVA	PROPN	_	_	15	obj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	els	el	DET	_	_	20	det	_	_
+20	impostos	impost	NOUN	_	_	23	nsubj	_	_
+21	especials	especial	ADJ	_	_	20	amod	_	_
+22	i	i	CCONJ	_	_	23	cc	_	_
+23	els	el	DET	_	_	15	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	matriculació	matriculació	NOUN	_	_	23	obl	_	_
+26	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `La` (1) is a determinant of `proposta` (2).
+- `també` (3) modifies the verb `inclou` (4).
+- `inclou` (4) is the root verb of the sentence.
+- `la` (5) is a determinant of `participació` (6).
+- `en` (7) introduces the prepositional phrase modifying `inclou`.
+- `els` (8) is a determinant of `impostos` (9).
+- `indirectes` (10) modifies `impostos` (9).
+- `entre` (11) introduces a clause modifying `impostos`.
+- `els` (12) is a determinant of `quals` (13).
+- `quals` (13) is the object of the preposition `entre`.
+- `hi` (14) modifies the verb `ha` (15).
+- `ha` (15) is a verb indicating existence, modifying `IVA` (17).
+- `l'IVA` (16-17) is the object of `ha`.
+- `els impostos especials` (20-21) and `els de matriculació` (23-25) are conjoined as additional elements that are also included.
+Raw model output for sentence :
+```conllu
+1-2	Al	al	ADP	_	_	3	case	_	_
+1	A	a	X	_	_	0	_	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	costat	costat	NOUN	_	_	8	obl	_	_
+4	d'	de	ADP	_	_	5	case	_	_
+5	això	això	PRON	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	es	ell	PRON	_	_	8	nsubj	_	_
+8	vol	voler	VERB	_	_	0	root	_	_
+9	reforçar	reforçar	VERB	_	_	8	xcomp	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	capacitat	capacitat	NOUN	_	_	9	obj	_	_
+12	d'	de	ADP	_	_	13	case	_	_
+13	obtenció	obtenció	NOUN	_	_	11	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	recursos	recurs	NOUN	_	_	13	nmod	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	través	través	ADP	_	_	19	case	_	_
+18	d'	de	ADP	_	_	19	case	_	_
+19	atorgar	atorgar	VERB	_	_	15	acl	_	_
+20	més	més	ADV	_	_	19	advmod	_	_
+21	competències	competència	NOUN	_	_	19	obj	_	_
+22	normatives	normatiu	ADJ	_	_	21	amod	_	_
+23	sobre	sobre	ADP	_	_	24	case	_	_
+24	els	el	DET	_	_	26	det	_	_
+25	que	que	PRON	_	_	26	nsubj	_	_
+26	actualment	actualment	ADV	_	_	21	acl	_	_
+27	ja	ja	ADV	_	_	28	advmod	_	_
+28	estan	estar	VERB	_	_	26	aux	_	_
+29	transferits	transferit	VERB	_	_	28	xcomp	_	_
+30	com	com	SCONJ	_	_	31	mark	_	_
+31	és	ser	VERB	_	_	29	advcl	_	_
+32	el	el	DET	_	_	33	det	_	_
+33	cas	cas	NOUN	_	_	31	obj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	patrimoni	patrimoni	NOUN	_	_	33	nmod	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	successions	successió	NOUN	_	_	35	conj	_	_
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	transmissions	transmissió	NOUN	_	_	37	conj	_	_
+40	patrimonials	patrimonial	ADJ	_	_	39	amod	_	_
+41	i	i	CCONJ	_	_	42	cc	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	IRPF	IRPF	PROPN	_	_	39	conj	_	_
+44	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **al (1-2)**:  Preposition "al" (to the) is dependent on "costat" (side) as a case marker.
+* **es (7)**:  Pronoun "es" (it) is the subject of the verb "vol" (wants).
+* **vol (8)**:  Verb "vol" (wants) is the root of the sentence.
+* **reforçar (9)**: Verb "reforçar" (strengthen) is a direct object of "vol" (wants).
+* **la capacitat (10-11)**:  "La" (the) and "capacitat" (capacity) form a compound noun phrase modifying "reforçar" (strengthen).
+* **d'obtenció (12-13)**:  Preposition "de" (of) and noun "obtenció" (obtaining) form a noun phrase modifying "capacitat" (capacity).
+* **a través d'atorgar (16-19)**:  This phrase modifies "obtenció" (obtaining) and explains how the capacity will be strengthened.
+* **més competències (20-21)**:  "Més" (more) and "competències" (competences) modify the verb "atorgar" (grant).
+* **sobre els que (23-25)**:  Preposition "sobre" (over), determiner "els" (the), and pronoun "que" (which) introduce a relative clause modifying "competències" (competences).
+* **actualment estan transferits (26-29)**:  This relative clause describes the current state of the competences.
+* **com és el cas de (30-34)**:  Another relative clause explaining an example of transferred competences.
+* **IRPF (43)**:  Acronym "IRPF" (Personal Income Tax) is the last noun in a series of examples.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	A	a	ADP	_	_	5	mark	_	_
+2	més	més	ADV	_	_	5	advmod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	per	per	ADP	_	_	5	mark	_	_
+5	reforçar	reforçar	VERB	_	_	0	root	_	_
+6	la	el	DET	_	_	8	det	_	_
+7	'	'	PUNCT	_	_	8	punct	_	_
+8	corresponsabilitat	corresponsabilitat	NOUN	_	_	5	obj	_	_
+9	'	'	PUNCT	_	_	8	punct	_	_
+10	es	ell	PRON	_	_	11	nsubj	_	_
+11	planteja	plantejar	VERB	_	_	5	conj	_	_
+12	impulsar	impulsar	VERB	_	_	11	xcomp	_	_
+13	la	el	DET	_	_	15	det	_	_
+14	'	'	PUNCT	_	_	15	punct	_	_
+15	coordinació	coordinació	NOUN	_	_	12	obj	_	_
+16	'	'	PUNCT	_	_	15	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	les	el	DET	_	_	19	det	_	_
+19	comunitats	comunitat	NOUN	_	_	15	nmod	_	_
+20	autònomes	autònom	ADJ	_	_	19	amod	_	_
+21	amb	amb	ADP	_	_	22	case	_	_
+22	l'	el	DET	_	_	23	det	_	_
+23	Agència	Agència	PROPN	_	_	19	nmod	_	_
+24	Tributària	Tributària	PROPN	_	_	23	flat	_	_
+25	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `A` and `per` are subordinating conjunctions marking the beginning of clauses.
+- `reforçar` and `impulsar` are the main verbs in their respective clauses.
+- `corresponsabilitat` and `coordinació` are the objects of the verbs.
+- The pronouns and determiners (`la`, `el`, `les`, etc.) are used to modify nouns.
+- `de` is a dependent preposition marking a noun phrase as the object of a verb or preposition.
+- `amb` introduces the prepositional phrase modifying `coordinació`.
+- The proper nouns (`Agència Tributària`) are flattened, meaning they are considered a single unit.
+Raw model output for sentence :
+```conllu
+1	La	el	DET	_	_	2	det	_	_
+2	proposta	proposta	NOUN	_	_	7	nsubj	_	_
+3-4	dels	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	els	el	DET	_	_	5	det	_	_
+5	populars	popular	ADJ	_	_	2	amod	_	_
+6	també	també	ADV	_	_	7	advmod	_	_
+7	preveu	preveure	VERB	_	_	0	root	_	_
+8	la	el	DET	_	_	9	det	_	_
+9	creació	creació	NOUN	_	_	7	obj	_	_
+10	d'	de	ADP	_	_	11	case	_	_
+11	un	un	DET	_	_	12	det	_	_
+12	Fons	Fons	NOUN	_	_	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Solidaritat	Solidaritat	NOUN	_	_	12	nmod	_	_
+15	que	que	PRON	_	_	16	nsubj	_	_
+16	permeti	permetre	VERB	_	_	9	acl	_	_
+17	disposar	disposar	VERB	_	_	16	xcomp	_	_
+18	d'	de	ADP	_	_	19	case	_	_
+19	un	un	DET	_	_	20	det	_	_
+20	nivell	nivell	NOUN	_	_	17	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	serveis	servei	NOUN	_	_	20	nmod	_	_
+23	equilibrat	equilibrat	ADJ	_	_	22	amod	_	_
+24	entre	entre	ADP	_	_	25	case	_	_
+25	les	el	DET	_	_	26	det	_	_
+26	diferents	diferent	ADJ	_	_	27	amod	_	_
+27	comunitats	comunitat	NOUN	_	_	24	obl	_	_
+28	autònomes	autònom	ADJ	_	_	27	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	el	el	DET	_	_	31	det	_	_
+31	conjunt	conjunt	NOUN	_	_	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	l'	el	DET	_	_	34	det	_	_
+34	Estat	Estat	NOUN	_	_	31	nmod	_	_
+35	.	.	PUNCT	_	_	7	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Aquest	aquest	DET	_	_	2	det	_	_
+2	fons	fons	NOUN	_	_	5	nsubj	_	_
+3	ha	haver	VERB	_	_	0	root	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	garantir	garantir	VERB	_	_	3	xcomp	_	_
+6	recursos	recurs	NOUN	_	_	5	dobj	_	_
+7	extraordinaris	extraordinari	ADJ	_	_	6	amod	_	_
+8	per	per	ADP	_	_	9	mark	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	les	el	DET	_	_	11	det	_	_
+11	comunitats	comunitat	NOUN	_	_	9	pobj	_	_
+12	amb	amb	ADP	_	_	13	mark	_	_
+13	menys	menys	ADV	_	_	14	advmod	_	_
+14	recursos	recurs	NOUN	_	_	12	pobj	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	funció	funció	NOUN	_	_	15	pobj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	criteris	criteri	NOUN	_	_	17	pobj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	població	població	NOUN	_	_	19	pobj	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	extensió	extensió	NOUN	_	_	0	parataxis	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	el	el	DET	_	_	25	det	_	_
+25	territori	territori	NOUN	_	_	22	nmod	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	dispersió	dispersió	NOUN	_	_	22	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	la	el	DET	_	_	30	det	_	_
+30	població	població	NOUN	_	_	28	pobj	_	_
+31	en	en	ADP	_	_	32	case	_	_
+32	aquest	aquest	DET	_	_	33	det	_	_
+33	territori	territori	NOUN	_	_	31	pobj	_	_
+34	o	o	CCONJ	_	_	35	cc	_	_
+35	el	el	DET	_	_	36	det	_	_
+36	fet	fet	NOUN	_	_	34	conj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	ser	ser	VERB	_	_	36	xcomp	_	_
+39	una	un	DET	_	_	40	det	_	_
+40	illa	illa	NOUN	_	_	38	dobj	_	_
+41	.	.	PUNCT	_	_	3	punct	_	_
+```
+
+Note:
+- The `UPOS` column contains the universal part-of-speech tags.
+- The `XPOS` column is left blank as it is not always relevant for all languages.
+- The `FEATS` column is also left blank as it is not necessary for this example.
+- The `HEAD` column indicates the index of the head word for each token.
+- The `DEPREL` column specifies the dependency relation between the token and its head.
+- The `DEPS` and `MISC` columns are left blank in this example as they are not typically used in basic annotations.
+Raw model output for sentence :
+```conll
+1	Tot	tot	DET	_	_	2	det	_	_
+2	i	i	CCONJ	_	_	4	conj	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	des	des	ADP	_	_	6	case	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	el	el	DET	_	_	7	det	_	_
+7	PP	PP	NOUN	_	_	8	nsubj	_	_
+8	es	ser	VERB	_	_	0	root	_	_
+9	considera	considerar	VERB	_	_	8	xcomp	_	_
+10	que	que	SCONJ	_	_	11	mark	_	_
+11	aquest	aquest	DET	_	_	12	det	_	_
+12	document	document	NOUN	_	_	9	obj	_	_
+13	sobre	sobre	ADP	_	_	14	case	_	_
+14	finançament	finançament	NOUN	_	_	12	nmod	_	_
+15	serà	ser	AUX	_	_	16	aux	_	_
+16	la	el	DET	_	_	17	det	_	_
+17	base	base	NOUN	_	_	9	xcomp	_	_
+18	per	per	ADP	_	_	19	case	_	_
+19	negociar	negociar	VERB	_	_	17	nmod	_	_
+20	amb	amb	ADP	_	_	21	case	_	_
+21	la	el	DET	_	_	22	det	_	_
+22	resta	resta	NOUN	_	_	19	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	forces	força	NOUN	_	_	22	nmod	_	_
+25	polítiques	polític	ADJ	_	_	24	amod	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	els	el	DET	_	_	28	det	_	_
+28	populars	popular	ADJ	_	_	29	nsubj	_	_
+29	asseguren	assegurar	VERB	_	_	8	parataxis	_	_
+30	que	que	SCONJ	_	_	31	mark	_	_
+31	el	el	DET	_	_	32	det	_	_
+32	diàleg	diàleg	NOUN	_	_	29	obj	_	_
+33	entre	entre	ADP	_	_	34	case	_	_
+34	les	el	DET	_	_	35	det	_	_
+35	comunitats	comunitat	NOUN	_	_	32	nmod	_	_
+36	autònomes	autònom	ADJ	_	_	35	amod	_	_
+37	es	ser	AUX	_	_	38	aux	_	_
+38	farà	fer	VERB	_	_	32	xcomp	_	_
+39	a	a	ADP	_	_	40	case	_	_
+40	través	través	ADP	_	_	42	case	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	el	el	DET	_	_	43	det	_	_
+43	Consell	Consell	NOUN	_	_	38	obl	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	Política	Política	NOUN	_	_	43	nmod	_	_
+46	Fiscal	Fiscal	ADJ	_	_	45	amod	_	_
+47	i	i	CCONJ	_	_	48	conj	_	_
+48	Financera	Financera	NOUN	_	_	45	conj	_	_
+49	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+Please note that the Universal Dependencies scheme might not perfectly capture all the nuances of the Catalan language, especially in complex sentences. The provided dependencies are the most appropriate ones given the limitations of the scheme.
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	aquest	aquest	DET	_	_	3	det	_	_
+3	sentit	sentit	NOUN	_	_	8	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	s'	ell	PRON	_	_	6	nsubj	_	_
+6	espera	esperar	VERB	_	_	0	root	_	_
+7	arribar	arribar	VERB	_	_	6	xcomp	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	acord	acord	NOUN	_	_	7	obj	_	_
+11	abans	abans	ADV	_	_	12	advmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	final	final	NOUN	_	_	15	nmod	_	_
+14	d'	de	ADP	_	_	15	case	_	_
+15	any	any	NOUN	_	_	12	obl	_	_
+16	amb	amb	ADP	_	_	17	case	_	_
+17	el	el	DET	_	_	20	det	_	_
+18	màxim	màxim	ADJ	_	_	20	amod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	consens	consens	NOUN	_	_	15	nmod	_	_
+21	possible	possible	ADJ	_	_	20	amod	_	_
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	El	el	DET	_	_	2	det	_	_
+2	document	document	NOUN	_	_	8	nsubj	_	_
+3	base	base	NOUN	_	_	2	compound	_	_
+4-5	dels	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	els	el	DET	_	_	6	det	_	_
+6	populars	popular	ADJ	_	_	2	amod	_	_
+7	s'	ell	PRON	_	_	8	aux	_	_
+8	ha	haver	VERB	_	_	0	root	_	_
+9	presentat	presentar	VERB	_	_	8	xcomp	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	el	el	DET	_	_	12	det	_	_
+12	decurs	decurs	NOUN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	la	el	DET	_	_	15	det	_	_
+15	V	V	NUM	_	_	16	nummod	_	_
+16	Unió	Unió	NOUN	_	_	18	compound	_	_
+17	Interparlamentària	Interparlamentària	ADJ	_	_	16	amod	_	_
+18	Popular	Popular	NOUN	_	_	9	obl	_	_
+19	que	que	SCONJ	_	_	21	mark	_	_
+20	se	ell	PRON	_	_	21	aux	_	_
+21	celebra	celebrar	VERB	_	_	18	acl	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	Santiago	Santiago	PROPN	_	_	21	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Compostel·la	Compostel·la	PROPN	_	_	23	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	_
+27	Galícia	Galícia	PROPN	_	_	25	appos	_	_
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	i	i	CCONJ	_	_	31	cc	_	_
+30	on	on	ADV	_	_	31	mark	_	_
+31	el	el	DET	_	_	32	det	_	_
+32	text	text	NOUN	_	_	35	nsubj	_	_
+33	ha	haver	VERB	_	_	35	aux	_	_
+34	estat	ser	AUX	_	_	35	auxpass	_	_
+35	debatut	debatre	VERB	_	_	21	ccomp	_	_
+36	.	.	PUNCT	_	_	8	punct	_	_
+```
+
+Explanation:
+- **UPOS:** Universal Part-of-Speech tag.
+- **XPOS:** Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS:** Morphological features (not applicable in this context).
+- **HEAD:** The ID of the head word.
+- **DEPREL:** Dependency relation to the head.
+- **DEPS:** Dependency relation stack (not commonly used).
+- **MISC:** Miscellaneous information, often used for multi-word expressions.
+
+I've filled in the remaining columns based on the grammatical structure of the sentence.
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	Interparlamentària	Interparlamentària	NOUN	_	_	8	obl	_	_
+4	hi	hi	PRON	_	_	5	nsubj	_	_
+5	participen	participar	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	durant	durant	ADP	_	_	8	case	_	_
+8	dos	dos	NUM	_	_	9	nummod	_	_
+9	dies	dia	NOUN	_	_	5	obl	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	diputats	diputat	NOUN	_	_	5	obj	_	_
+12	autonòmics	autonòmic	ADJ	_	_	11	amod	_	_
+13	i	i	CCONJ	_	_	14	cc	_	_
+14	del	de	ADP	_	_	16	case	_	_
+15	el	el	DET	_	_	16	det	_	_
+16	Congrés	Congrés	NOUN	_	_	11	appos	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	senadors	senador	NOUN	_	_	11	conj	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	eurodiputats	eurodiputat	NOUN	_	_	11	conj	_	_
+21	i	i	CCONJ	_	_	22	cc	_	_
+22	els	el	PRON	_	_	23	nsubj	_	_
+23	presidents	president	NOUN	_	_	5	conj	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	les	el	DET	_	_	26	det	_	_
+26	Comunitats	Comunitats	NOUN	_	_	23	nmod	_	_
+27	Autònomes	Autònomes	ADJ	_	_	26	amod	_	_
+28	governades	governat	VERB	_	_	26	acl	_	_
+29	pel	per	ADP	_	_	31	case	_	_
+30	el	el	DET	_	_	31	det	_	_
+31	PP	PP	PROPN	_	_	28	obl	_	_
+32	o	o	CCONJ	_	_	34	cc	_	_
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	en	en	ADP	_	_	35	case	_	_
+35	cas	cas	NOUN	_	_	36	nsubj	_	_
+36	contrari	contrari	ADJ	_	_	28	conj	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	els	el	PRON	_	_	39	nsubj	_	_
+39	presidents	president	NOUN	_	_	35	conj	_	_
+40	del	de	ADP	_	_	42	case	_	_
+41	el	el	DET	_	_	42	det	_	_
+42	partit	partit	NOUN	_	_	39	nmod	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	la	el	DET	_	_	46	det	_	_
+45	comunitat	comunitat	NOUN	_	_	46	nmod	_	_
+46	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+Please note that the Universal Dependencies (UD) scheme might not perfectly capture all nuances of the Catalan language, and annotation can sometimes be subjective, especially for complex sentences or less common constructions. The provided annotation is based on the standard UD guidelines.
+Raw model output for sentence :
+```conllu
+1	En	en	ADP	_	_	3	case	_	_
+2	el	el	DET	_	_	3	det	_	_
+3	cas	cas	NOUN	_	_	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Catalunya	Catalunya	PROPN	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	delegació	delegació	NOUN	_	_	0	root	_	_
+9	està	estar	VERB	_	_	8	aux	_	_
+10	encapçalada	encapçalat	VERB	_	_	8	xcomp	_	_
+11	per	per	ADP	_	_	12	case	_	_
+12	Alberto	Alberto	PROPN	_	_	10	obl	_	_
+13	Fernández	Fernández	PROPN	_	_	12	flat	_	_
+14	Díaz	Díaz	PROPN	_	_	12	flat	_	_
+15	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+ **Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always applicable)
+* **FEATS:** Morphological features (e.g., gender, number)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used)
+* **MISC:**  Miscellaneous information (e.g., named entity types)
+
+ **Notes:**
+
+*  The sentence is primarily composed of a noun phrase ("la delegació de Catalunya") and a verb phrase ("està encapçalada per Alberto Fernández Díaz").
+* "En" and "el" are both determiners modifying "cas".  
+* "de" is a preposition linking "Catalunya" to "cas".
+* "està" is an auxiliary verb indicating the present tense of "encapçalada".
+* "per" introduces the agent of the passive verb "encapçalada".
+Raw model output for sentence :
+```conll-u
+1	El	el	DET	_	_	2	det	_	_
+2	cicle	cicle	NOUN	_	_	8	nsubj	_	_
+3	Medicina	Medicina	PROPN	_	_	2	nmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	Segle	Segle	PROPN	_	_	3	nmod	_	_
+7	XXI	XXI	NUM	_	_	6	nummod	_	_
+8	presenta	presentar	VERB	_	_	0	root	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	la	el	DET	_	_	12	det	_	_
+12	Sala	Sala	PROPN	_	_	10	obl	_	_
+13	d'	de	ADP	_	_	14	case	_	_
+14	Actes	Actes	PROPN	_	_	12	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	el	el	DET	_	_	17	det	_	_
+17	Pavelló	Pavelló	PROPN	_	_	14	nmod	_	_
+18	Docent	Docent	PROPN	_	_	17	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	l'	el	DET	_	_	21	det	_	_
+21	Hospital	Hospital	PROPN	_	_	19	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	la	la	DET	_	_	24	det	_	_
+24	Vall	Vall	PROPN	_	_	22	obl	_	_
+25	d'	de	ADP	_	_	26	case	_	_
+26	Hebron	Hebron	PROPN	_	_	24	nmod	_	_
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	la	el	DET	_	_	29	det	_	_
+29	conferència	conferència	NOUN	_	_	8	obj	_	_
+30	'	'	PUNCT	_	_	31	punct	_	_
+31	Efectes	Efectes	PROPN	_	_	29	appos	_	_
+32	adversos	adversos	ADJ	_	_	31	amod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	el	el	DET	_	_	35	det	_	_
+35	sol	sol	NOUN	_	_	32	nmod	_	_
+36	'	'	PUNCT	_	_	37	punct	_	_
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	que	que	PRON	_	_	39	nsubj	_	_
+39	pronunciarà	pronunciar	VERB	_	_	29	ccomp	_	_
+40	el	el	DET	_	_	41	det	_	_
+41	Cap	Cap	PROPN	_	_	39	obj	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	el	el	DET	_	_	44	det	_	_
+44	Servei	Servei	PROPN	_	_	41	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	Dermatologia	Dermatologia	PROPN	_	_	44	nmod	_	_
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	Antoni	Antoni	PROPN	_	_	46	appos	_	_
+49	Castells	Castells	PROPN	_	_	48	flat	_	_
+50	,	,	PUNCT	_	_	51	punct	_	_
+51	dimarts	dimarts	NOUN	_	_	39	obl	_	_
+52	a	a	ADP	_	_	53	case	_	_
+53	la	el	DET	_	_	54	det	_	_
+54	tarda	tarda	NOUN	_	_	51	nmod	_	_
+55	.	.	PUNCT	_	_	8	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquest	aquest	DET	_	_	2	det	_	_
+2	cicle	cicle	NOUN	_	_	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	conferències	conferència	NOUN	_	_	2	nmod	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	organitzat	organitzar	VERB	_	_	2	acl	_	_
+7	per	per	ADP	_	_	8	case	_	_
+8	la	el	DET	_	_	9	det	_	_
+9	Regidoria	Regidoria	NOUN	_	_	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Ciutat	Ciutat	NOUN	_	_	9	nmod	_	_
+12-13	del	_	_	_	_	12	case	_	_
+12	de	de	ADP	_	_	13	det	_	_
+13	el	el	DET	_	_	14	det	_	_
+14	Coneixement	Coneixement	NOUN	_	_	11	nmod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	amb	amb	ADP	_	_	17	case	_	_
+17	el	el	DET	_	_	18	det	_	_
+18	patrocini	patrocini	NOUN	_	_	6	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	l'	el	DET	_	_	21	det	_	_
+21	Instituto	Instituto	NOUN	_	_	18	nmod	_	_
+22	Novartis	Novartis	PROPN	_	_	21	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Comunicación	Comunicación	NOUN	_	_	21	nmod	_	_
+25	en	en	ADP	_	_	26	case	_	_
+26	Biomedicina	Biomedicina	NOUN	_	_	24	nmod	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	posa	posar	VERB	_	_	0	root	_	_
+29	a	a	ADP	_	_	30	case	_	_
+30	l'	el	DET	_	_	31	det	_	_
+31	abast	abast	NOUN	_	_	28	obl	_	_
+32-33	dels	_	_	_	_	32	case	_	_
+32	de	de	ADP	_	_	33	det	_	_
+33	els	el	DET	_	_	34	det	_	_
+34	ciutadans	ciutadà	NOUN	_	_	31	nmod	_	_
+35	una	un	DET	_	_	37	det	_	_
+36	nova	nou	ADJ	_	_	37	amod	_	_
+37	proposta	proposta	NOUN	_	_	28	obj	_	_
+38	per	per	ADP	_	_	39	case	_	_
+39	conèixer	conèixer	VERB	_	_	37	acl	_	_
+40	i	i	CCONJ	_	_	41	cc	_	_
+41	debatre	debatre	VERB	_	_	39	conj	_	_
+42	l'	el	DET	_	_	43	det	_	_
+43	activitat	activitat	NOUN	_	_	41	obj	_	_
+44	científica	científic	ADJ	_	_	43	amod	_	_
+45	i	i	CCONJ	_	_	46	cc	_	_
+46	acadèmica	acadèmic	ADJ	_	_	44	conj	_	_
+47	que	que	PRON	_	_	48	nsubj	_	_
+48	es	ser	VERB	_	_	46	acl	_	_
+49	porta	portar	VERB	_	_	48	xcomp	_	_
+50	a	a	ADP	_	_	51	case	_	_
+51	terme	terme	NOUN	_	_	49	obl	_	_
+52-53	als	_	_	_	_	52	case	_	_
+52	a	a	ADP	_	_	53	det	_	_
+53	els	el	DET	_	_	54	det	_	_
+54	quatre	quatre	NUM	_	_	51	nmod	_	_
+55	hospitals	hospital	NOUN	_	_	54	nmod	_	_
+56	universitaris	universitari	ADJ	_	_	55	amod	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	la	el	DET	_	_	59	det	_	_
+59	ciutat	ciutat	NOUN	_	_	55	nmod	_	_
+60	,	,	PUNCT	_	_	61	punct	_	_
+61	Clínic	Clínic	PROPN	_	_	59	appos	_	_
+62	,	,	PUNCT	_	_	63	punct	_	_
+63	Mar	Mar	PROPN	_	_	61	conj	_	_
+64	,	,	PUNCT	_	_	65	punct	_	_
+65	Sant	Sant	PROPN	_	_	63	conj	_	_
+66	Pau	Pau	PROPN	_	_	65	flat	_	_
+67	i	i	CCONJ	_	_	68	cc	_	_
+68	Vall	Vall	PROPN	_	_	65	conj	_	_
+69	d'	de	ADP	_	_	70	case	_	_
+70	Hebron	Hebron	PROPN	_	_	68	nmod	_	_
+71	.	.	PUNCT	_	_	28	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Les	el	DET	_	_	3	det	_	_
+2	conferències	conferència	NOUN	_	_	3	nsubj	_	_
+3	que	que	PRON	_	_	4	nsubj	_	_
+4	composen	composar	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	cicle	cicle	NOUN	_	_	4	obj	_	_
+7	Medicina	Medicina	PROPN	_	_	6	nmod	_	_
+8	al	_	ADP	_	_	9	case	_	_
+9	Segle	Segle	PROPN	_	_	7	nmod	_	_
+10	XXI	XXI	PROPN	_	_	9	nmod	_	_
+11	es	ell	PRON	_	_	13	nsubj	_	_
+12	pronuncien	pronunciar	VERB	_	_	11	aux	_	_
+13	rotativament	rotativament	ADV	_	_	4	advmod	_	_
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	els	el	DET	_	_	16	det	_	_
+16	dimarts	dimarts	NOUN	_	_	13	obl	_	_
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	les	el	DET	_	_	21	det	_	_
+20	19'30	19'30	NUM	_	_	21	nummod	_	_
+21	hores	hora	NOUN	_	_	18	obl	_	_
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	cada	cada	ADV	_	_	26	advmod	_	_
+25	un	un	DET	_	_	26	det	_	_
+26	dels	el	DET	_	_	28	det	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	els	el	DET	_	_	30	nsubj	_	_
+29	hospitals	hospital	NOUN	_	_	28	nmod	_	_
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	amb	amb	ADP	_	_	32	mark	_	_
+32	entrada	entrada	NOUN	_	_	28	acl	_	_
+33	lliure	lliure	ADJ	_	_	32	amod	_	_
+34	per	per	ADP	_	_	35	case	_	_
+35	a	a	DET	_	_	36	det	_	_
+36	tothom	tothom	PRON	_	_	32	obl	_	_
+37	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **det:** Determiner (e.g., "Les" conferències)
+* **nsubj:** Nominal subject (e.g., "Les conferències" que composen)
+* **obj:** Direct object (e.g., "el cicle" Medicina al Segle XXI)
+* **aux:** Auxiliary verb (e.g., "es" pronuncien)
+* **advmod:** Adverbial modifier (e.g., "rotativament")
+* **obl:** Obligatory argument (e.g., "els dimarts" a les 19'30 hores)
+* **nmod:** Noun modifier (e.g., "Medicina" al Segle XXI)
+* **acl:** Clausal modifier (e.g., "amb entrada lliure")
+* **mark:** Marker (e.g., "amb")
+* **punct:** Punctuation (e.g., ".")
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Cada	cada	DET	_	_	3	det	_	_
+2	quatre	quatre	NUM	_	_	3	nummod	_	_
+3	conferències	conferència	NOUN	_	_	8	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	se	ell	PRON	_	_	6	nsubj	_	_
+6	celebrarà	celebrar	VERB	_	_	0	root	_	_
+7	una	un	DET	_	_	8	det	_	_
+8	sessió	sessió	NOUN	_	_	6	obj	_	_
+9	on	on	ADV	_	_	10	mark	_	_
+10	es	ell	PRON	_	_	11	nsubj	_	_
+11	debatran	debatre	VERB	_	_	8	acl	_	_
+12	temes	tema	NOUN	_	_	11	obj	_	_
+13	d'	de	ADP	_	_	14	case	_	_
+14	actualitat	actualitat	NOUN	_	_	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	l'	el	DET	_	_	17	det	_	_
+17	àrea	àrea	NOUN	_	_	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	la	el	DET	_	_	20	det	_	_
+20	salut	salut	NOUN	_	_	17	nmod	_	_
+21	.	.	PUNCT	_	_	6	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Cada` (1) is a determiner modifying `quatre conferències` (2-3).
+- `quatre` (2) is a numeral quantifying `conferències` (3).
+- `conferències` (3) is the subject of the clause `se celebrarà una sessió`.
+- `se` (5) is a reflexive pronoun acting as the subject of `celebrarà` (6).
+- `celebrarà` (6) is the root verb of the sentence.
+- `una sessió` (7-8) is the direct object of `celebrarà`.
+- `on` (9) is an adverbial subordinator introducing the clause where `es debatran` (10-11) is located.
+- `es` (10) is a reflexive pronoun, the subject of `debatran` (11).
+- `debatran` (11) is a verb describing the action of debating `temes` (12).
+- `temes` (12) is the direct object of `debatran`.
+- `d'actualitat` (13-14) is a nominal phrase modifying `temes` (12), specifying the type of themes.
+- `de l'àrea de la salut` (15-20) further modifies `d'actualitat` (13-14), providing context about the area of interest.
+Raw model output for sentence :
+```conllu
+1	És	és	VERB	_	_	0	root	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	dir	dir	VERB	_	_	1	xcomp	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	cicle	cicle	NOUN	_	_	3	obj	_	_
+7	es	ell	PRON	_	_	8	nsubj	_	_
+8	compon	compondre	VERB	_	_	6	acl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	sèries	sèrie	NOUN	_	_	8	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	cinc	cinc	NUM	_	_	10	nummod	_	_
+13	conferències	conferència	NOUN	_	_	10	appos	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	les	el	DET	_	_	16	det	_	_
+16	quals	qual	PRON	_	_	13	acl:relcl	_	_
+17	s'	ell	PRON	_	_	18	nsubj	_	_
+18	aniran	anar	VERB	_	_	16	acl	_	_
+19	celebrant	celebrar	VERB	_	_	18	xcomp	_	_
+20	durant	durant	ADP	_	_	21	case	_	_
+21	el	el	DET	_	_	22	det	_	_
+22	proper	proper	ADJ	_	_	23	nmod	_	_
+23	any	any	NOUN	_	_	19	obl	_	_
+24	i	i	CCONJ	_	_	25	cc	_	_
+25	mig	mig	NUM	_	_	23	nummod	_	_
+26	,	,	PUNCT	_	_	23	punct	_	_
+27	i	i	CCONJ	_	_	28	cc	_	_
+28	s'	ell	PRON	_	_	29	nsubj	_	_
+29	hi	hi	PRON	_	_	30	obj	_	_
+30	tractaran	tractar	VERB	_	_	18	conj	_	_
+31	temes	tema	NOUN	_	_	30	obj	_	_
+32	com	com	SCONJ	_	_	33	mark	_	_
+33	ara	ara	ADV	_	_	31	advmod	_	_
+34	els	el	DET	_	_	35	det	_	_
+35	accidents	accident	NOUN	_	_	31	appos	_	_
+36	infantils	infantil	ADJ	_	_	35	amod	_	_
+37	,	,	PUNCT	_	_	35	punct	_	_
+38	les	el	DET	_	_	39	det	_	_
+39	malalties	malaltia	NOUN	_	_	35	appos	_	_
+40	importades	importat	ADJ	_	_	39	amod	_	_
+41	,	,	PUNCT	_	_	39	punct	_	_
+42	el	el	DET	_	_	43	det	_	_
+43	bioterrorisme	bioterrorisme	NOUN	_	_	35	appos	_	_
+44	,	,	PUNCT	_	_	35	punct	_	_
+45	l'	el	DET	_	_	46	det	_	_
+46	Alzheimer	Alzheimer	PROPN	_	_	35	appos	_	_
+47	,	,	PUNCT	_	_	35	punct	_	_
+48	o	o	CCONJ	_	_	49	cc	_	_
+49	la	el	DET	_	_	50	det	_	_
+50	recerca	recerca	NOUN	_	_	35	appos	_	_
+51	amb	amb	ADP	_	_	52	case	_	_
+52	embrions	embrió	NOUN	_	_	50	nmod	_	_
+53	humans	humà	ADJ	_	_	52	amod	_	_
+54	,	,	PUNCT	_	_	50	punct	_	_
+55	entre	entre	ADP	_	_	56	case	_	_
+56	d'	de	DET	_	_	57	det	_	_
+57	altres	altre	NOUN	_	_	50	appos	_	_
+58	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Antoni	Antoni	PROPN	_	_	0	root	_	_
+2	Castells	Castells	PROPN	_	_	1	flat	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	Doctor	Doctor	NOUN	_	_	5	compound	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	Medicina	Medicina	NOUN	_	_	8	nmod	_	_
+7	i	i	CCONJ	_	_	8	cc	_	_
+8	Cirurgia	Cirurgia	NOUN	_	_	4	conj	_	_
+9	per	per	ADP	_	_	10	case	_	_
+10	la	el	DET	_	_	11	det	_	_
+11	Universitat	Universitat	NOUN	_	_	9	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Barcelona	Barcelona	PROPN	_	_	11	nmod	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	és	ser	AUX	_	_	16	aux	_	_
+16	Catedràtic	Catedràtic	NOUN	_	_	18	nsubj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Dermatologia	Dermatologia	NOUN	_	_	20	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	la	el	DET	_	_	21	det	_	_
+21	Facultat	Facultat	NOUN	_	_	23	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Medicina	Medicina	NOUN	_	_	25	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	la	el	DET	_	_	26	det	_	_
+26	Universitat	Universitat	NOUN	_	_	27	nmod	_	_
+27	Autònoma	Autònoma	ADJ	_	_	29	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Barcelona	Barcelona	PROPN	_	_	30	obl	_	_
+30	.	.	PUNCT	_	_	16	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Antoni` and `Castells` are connected as a flat relationship since they are both proper nouns forming a name.
+- `Doctor` and `en Medicina i Cirurgia` are compounded to form a single noun phrase.
+- `la Universitat de Barcelona` is a noun phrase modifying `per` (in the sense of "from").
+- `Catedràtic de Dermatologia` is a noun phrase where `Catedràtic` is the head and `de Dermatologia` is a modifier.
+- `la Facultat de Medicina` is similar to the previous structure, modifying `de Dermatologia`.
+- `la Universitat Autònoma de Barcelona` is another noun phrase modifying the previous one.
+
+The rest of the dependencies are standard punctuation and auxiliary verb relationships.
+Raw model output for sentence :
+```conllu
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	la	el	DET	_	_	3	det	_	_
+3	seva	seu	NOUN	_	_	8	obl	_	_
+4	activitat	activitat	NOUN	_	_	3	compound	_	_
+5	investigadora	investigador	ADJ	_	_	4	amod	_	_
+6	destaca	destacar	VERB	_	_	0	root	_	_
+7	la	el	DET	_	_	8	det	_	_
+8	creació	creació	NOUN	_	_	6	obj	_	_
+9	i	i	CCONJ	_	_	10	cc	_	_
+10	direcció	direcció	NOUN	_	_	8	conj	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	el	el	DET	_	_	13	det	_	_
+13	1983	1983	NUM	_	_	18	nummod	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15-16	del	_	_	_	_	17	case	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	el	el	DET	_	_	17	det	_	_
+17	Laboratori	Laboratori	NOUN	_	_	18	nmod	_	_
+18	de	de	ADP	_	_	21	compound	_	_
+19	Inmunohistoquimia	Inmunohistoquimia	NOUN	_	_	18	compound	_	_
+20	en	en	ADP	_	_	21	case	_	_
+21	la	el	DET	_	_	24	nmod	_	_
+22	Càtedra	Càtedra	NOUN	_	_	24	compound	_	_
+23	de	de	ADP	_	_	24	compound	_	_
+24	Dermatologia	Dermatologia	NOUN	_	_	27	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	la	el	DET	_	_	27	det	_	_
+27	Facultat	Facultat	NOUN	_	_	30	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	Medicina	Medicina	NOUN	_	_	27	compound	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	la	el	DET	_	_	34	nmod	_	_
+32	Universitat	Universitat	NOUN	_	_	34	compound	_	_
+33	Literària	Literària	ADJ	_	_	32	amod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	València	València	PROPN	_	_	37	obj	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	i	i	CCONJ	_	_	38	cc	_	_
+38	el	el	DET	_	_	39	det	_	_
+39	1985	1985	NUM	_	_	44	nummod	_	_
+40	,	,	PUNCT	_	_	41	punct	_	_
+41-42	del	_	_	_	_	43	case	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	el	el	DET	_	_	43	det	_	_
+43	Laboratori	Laboratori	NOUN	_	_	44	nmod	_	_
+44	de	de	ADP	_	_	47	compound	_	_
+45	Cultius	Cultius	NOUN	_	_	44	compound	_	_
+46	de	de	ADP	_	_	47	compound	_	_
+47	queratinocits	queratinocits	NOUN	_	_	50	obj	_	_
+48	normals	normals	ADJ	_	_	47	amod	_	_
+49	i	i	CCONJ	_	_	50	cc	_	_
+50	Melanocits	Melanocits	NOUN	_	_	44	conj	_	_
+51	normals	normals	ADJ	_	_	50	amod	_	_
+52	transformats	transformar	VERB	_	_	50	amod	_	_
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	en	en	ADP	_	_	55	case	_	_
+55	dita	dit	NOUN	_	_	56	obj	_	_
+56	facultat	facultat	NOUN	_	_	61	xcomp	_	_
+57	.	.	PUNCT	_	_	61	punct	_	_
+58	El	el	DET	_	_	59	det	_	_
+59	Laboratori	Laboratori	NOUN	_	_	61	nsubj	_	_
+60	de	de	ADP	_	_	61	case	_	_
+61	Cultius	Cultius	NOUN	_	_	0	root	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **seva** and **seu** are tagged as a single unit, where `seva` is the main form and `seu` acts as a possessive adjective.
+
+* **1983** and **1985** are linked to the respective noun phrases they modify (`Laboratori de Inmunohistoquimia` and `Laboratori de Cultius`) through `nummod` (numeric modifier) relations.
+
+* **de** is used multiple times to indicate possession (e.g., `Càtedra de Dermatologia`) or to link compound nouns (e.g., `Laboratori de Inmunohistoquimia`).
+
+* **en** indicates location (`en dita facultat`).
+* **El Laboratori de Cultius** acts as the subject (`nsubj`) of the verb `transformats` in the second part of the sentence.
+
+
+
+This annotation follows the Universal Dependencies standard and adheres to the CoNLL-U format.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Així	així	ADV	_	_	4	advmod	_	_
+2	mateix	mateix	ADJ	_	_	4	nsubj	_	_
+3	ha	haver	AUX	_	_	4	aux	_	_
+4	creat	crear	VERB	_	_	0	root	_	_
+5	el	el	DET	_	_	6	det	_	_
+6	laboratori	laboratori	NOUN	_	_	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cultius	cultiu	NOUN	_	_	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	cèl·lules	cèl·lula	NOUN	_	_	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	l'	el	DET	_	_	13	det	_	_
+13	epidermis	epidermis	NOUN	_	_	10	nmod	_	_
+14	humana	humà	ADJ	_	_	13	amod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	integrat	integrat	VERB	_	_	4	conj	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	el	el	DET	_	_	19	det	_	_
+19	Servei	Servei	NOUN	_	_	16	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Dermatologia	Dermatologia	NOUN	_	_	19	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	l'	el	DET	_	_	24	det	_	_
+24	Hospital	Hospital	NOUN	_	_	21	nmod	_	_
+25	General	General	ADJ	_	_	24	amod	_	_
+26	Universitari	Universitari	ADJ	_	_	24	amod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	la	la	DET	_	_	29	det	_	_
+29	Vall	Vall	NOUN	_	_	26	nmod	_	_
+30	d'	de	ADP	_	_	31	case	_	_
+31	Hebron	Hebron	PROPN	_	_	29	nmod	_	_
+32	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Així` (1) is an adverb modifying the verb `ha creat` (4).
+- `mateix` (2) is an adjective acting as the subject of the sentence.
+- `ha` (3) is the auxiliary verb.
+- `creat` (4) is the main verb, rooted in the sentence.
+- The phrase `el laboratori de cultius de cèl·lules de l'epidermis humana` (5-14) is the direct object of the verb.
+- `integrat` (16) is a verb conjugated with `ha`, indicating a coordinated clause.
+- The rest of the sentence (17-31) provides additional information about the location where the laboratory is integrated.
+Raw model output for sentence :
+```conllu
+1	Els	el	DET	_	_	2	det	_	_
+2	productors	productor	NOUN	_	_	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	la	el	DET	_	_	5	det	_	_
+5	fruita	fruita	NOUN	_	_	2	nmod	_	_
+6	seca	sec	ADJ	_	_	5	amod	_	_
+7	s'	ell	PRON	_	_	8	aux	_	_
+8	han	haver	VERB	_	_	0	root	_	_
+9	entrevistat	entrevistar	VERB	_	_	8	xcomp	_	_
+10	avui	avui	ADV	_	_	9	advmod	_	_
+11	amb	amb	ADP	_	_	12	case	_	_
+12	l'	el	DET	_	_	13	det	_	_
+13	abat	abat	NOUN	_	_	11	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Montserrat	Montserrat	PROPN	_	_	13	nmod	_	_
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	Josep	Josep	PROPN	_	_	19	nsubj	_	_
+18	Maria	Maria	PROPN	_	_	17	flat	_	_
+19	Soler	Soler	PROPN	_	_	9	obj	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	per	per	ADP	_	_	22	case	_	_
+22	explicar-li	explicar	VERB	_	_	9	obl	_	_
+23	li	ell	PRON	_	_	22	obj	_	_
+24	la	el	DET	_	_	25	det	_	_
+25	crisi	crisi	NOUN	_	_	22	obj	_	_
+26	que	que	SCONJ	_	_	27	mark	_	_
+27	viu	viure	VERB	_	_	25	acl	_	_
+28	el	el	DET	_	_	29	det	_	_
+29	sector	sector	NOUN	_	_	27	nsubj	_	_
+30	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+
+**Explanation of dependencies:**
+
+* **1-2:**  `det` - "Els" is a determinant of "productors".
+* **3-5:** `case` & `nmod` - "de la fruita seca" is a nominal phrase modifying "productors", with "de" as the case marking preposition.
+* **7-8:** `aux` - "s'" is an auxiliary verb form of "haver" indicating subject agreement.
+* **9-8:** `xcomp` - "entrevistat" is the main verb's complement, indicating the action of "han".
+* **10-9:** `advmod` - "avui" modifies the verb "entrevistat".
+* **11-13:** `case` & `obl` - "amb l'abat de Montserrat" is an oblique phrase indicating with whom the interview was conducted.
+* **14-15:** `case` & `nmod` - Further specifies "abat" by indicating "de Montserrat".
+* **16-19:** `punct` - Punctuation marks.
+* **17-19:** `flat` & `nsubj` - "Josep Maria Soler" are all part of a single proper noun phrase acting as the subject of the verb "explicar-li".
+* **21-22:** `case` & `obl` - "per explicar-li" is an oblique phrase indicating the purpose of the interview.
+* **22-23:** `obj` - "li" is the direct object of "explicar-li".
+* **24-25:** `det` - "la" is a determinant of "crisi".
+* **26-27:** `mark` & `acl` - "que viu" is a relative clause modifying "crisi", with "que" as the relative pronoun.
+* **28-29:** `det` & `nsubj` - "el sector" is the subject of the verb "viu" within the relative clause.
+* **30-8:** `punct` - Final punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Uns	un	DET	_	_	3	det	_	_
+2	900	900	NUM	_	_	3	nummod	_	_
+3	productors	productor	NOUN	_	_	8	nsubj	_	_
+4	s'	ell	PRON	_	_	5	nsubj	_	_
+5	han	haver	VERB	_	_	0	root	_	_
+6	concentrat	concentrar	VERB	_	_	5	xcomp	_	_
+7	davant	davant	ADP	_	_	8	case	_	_
+8	la	el	DET	_	_	7	fixed	_	_
+9	basílica	basílica	NOUN	_	_	7	fixed	_	_
+10	i	i	CCONJ	_	_	12	cc	_	_
+11	han	haver	VERB	_	_	5	conj	_	_
+12	exposat	exposar	VERB	_	_	11	xcomp	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	l'	el	DET	_	_	15	det	_	_
+15	abat	abat	NOUN	_	_	12	obj	_	_
+16	que	que	SCONJ	_	_	18	mark	_	_
+17	són	ser	AUX	_	_	18	aux	_	_
+18	necessaris	necessari	ADJ	_	_	15	acl	_	_
+19	ajuts	ajut	NOUN	_	_	18	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	300	300	NUM	_	_	23	nummod	_	_
+22	euros	euro	NOUN	_	_	21	nmod	_	_
+23	per	per	ADP	_	_	26	case	_	_
+24	hectàrea	hectàrea	NOUN	_	_	23	fixed	_	_
+25	per	per	ADP	_	_	26	case	_	_
+26	al	al	ADP	_	_	28	case	_	_
+27	el	el	DET	_	_	28	det	_	_
+28	sector	sector	NOUN	_	_	5	obl	_	_
+29	.	.	PUNCT	_	_	5	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- The sentence has two main clauses joined by "i" (and). The first clause is "Uns 900 productors s'han concentrat davant la basílica" and the second is "han exposat a l'abat que són necessaris ajuts de 300 euros per hectàrea per al sector".
+- "Uns" is a determinant of "productors".
+- "900" is a numeral modifier of "productors".
+- "s'han concentrat" is the main verb of the first clause, with "han" as an auxiliary verb.
+- "davant la basílica" is an adverbial phrase modifying the verb "concentrat".
+- In the second clause, "han exposat" is the main verb.
+- "a l'abat" is an prepositional phrase modifying the verb "exposat".
+- "que són necessaris ajuts" is a relative clause modifying "ajuts".
+- "de 300 euros per hectàrea" is a prepositional phrase modifying "ajuts".
+- "per al sector" is another prepositional phrase modifying "ajuts", indicating the beneficiary of the aids.

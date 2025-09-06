@@ -1,0 +1,6 @@
+# sent_id = example1
+# text = Zulatu zapata kaxa.
+1	Zulatu	zulatu	VERB	_	VerbForm=Part	0	root	_	_
+2	zapata	zapata	NOUN	_	_	3	nmod	_	_
+3	kaxa	kaxa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_

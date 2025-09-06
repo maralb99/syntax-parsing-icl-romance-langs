@@ -1,0 +1,455 @@
+SUMMARY ERROR ANALYSIS: oc_ca_3.conllu vs. gold_file_oc.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 904
+UPOS errors: 108 (11.95%)
+HEAD errors: 482 (53.32%)
+DEPREL errors: 341 (37.72%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'que': 12 errors (1.29%)
+'èra': 6 errors (0.64%)
+'es': 6 errors (0.64%)
+'i': 3 errors (0.32%)
+'coma': 2 errors (0.21%)
+'pas': 2 errors (0.21%)
+'n'': 2 errors (0.21%)
+'tot': 2 errors (0.21%)
+'dieu': 2 errors (0.21%)
+'èsser': 2 errors (0.21%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+VERB → AUX: 19 occurrences (17.59%)
+Most common error-causing words:
+  'èra': 6 times (31.6% of this error)
+  'es': 6 times (31.6% of this error)
+  'èsser': 2 times (10.5% of this error)
+  'siáu': 1 times (5.3% of this error)
+  'a': 1 times (5.3% of this error)
+
+Examples:
+  1. Line 197: 'èra' in sentence 7
+     Context: , èra pas
+     Sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+  2. Line 225: 'èra' in sentence 8
+     Context: , èra genta
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  3. Line 364: 'es' in sentence 14
+     Context: gost es pas
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  4. Line 368: 'siáu' in sentence 14
+     Context: , siáu segur
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  5. Line 386: 'es' in sentence 14
+     Context: : es la
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+     ... and 14 more occurrences
+
+PRON → DET: 10 occurrences (9.26%)
+Most common error-causing words:
+  'n'': 2 times (20.0% of this error)
+  'degun': 1 times (10.0% of this error)
+  'lo': 1 times (10.0% of this error)
+  'tot': 1 times (10.0% of this error)
+  'el': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 22: 'degun' in sentence 1
+     Context: pus degun defòra
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 335: 'lo' in sentence 12
+     Context: en lo fintant
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  3. Line 371: 'n'' in sentence 14
+     Context: que n' ai
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  4. Line 377: 'tot' in sentence 14
+     Context: puei tot me
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  5. Line 397: 'el' in sentence 15
+     Context: es el que
+     Sentence: Doncas es el que prenèm .
+     ... and 5 more occurrences
+
+NOUN → ADJ: 10 occurrences (9.26%)
+Most common error-causing words:
+  'arabe': 1 times (10.0% of this error)
+  'berbère': 1 times (10.0% of this error)
+  'elegits': 1 times (10.0% of this error)
+  'gascon': 1 times (10.0% of this error)
+  'alegressa': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 39: 'arabe' in sentence 1
+     Context: , arabe o
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 41: 'berbère' in sentence 1
+     Context: o berbère ,
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  3. Line 104: 'elegits' in sentence 3
+     Context: los elegits occitans
+     Sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+  4. Line 182: 'gascon' in sentence 6
+     Context: en gascon de
+     Sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+  5. Line 265: 'alegressa' in sentence 9
+     Context: aquela alegressa que
+     Sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+     ... and 5 more occurrences
+
+ADV → PRON: 8 occurrences (7.41%)
+Most common error-causing words:
+  'que': 4 times (50.0% of this error)
+  'qu’': 2 times (25.0% of this error)
+  'b'': 1 times (12.5% of this error)
+  'qu'': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 517: 'Que' in sentence 23
+     Context: START Que seràs
+     Sentence: Que seràs lèu grasset !
+  2. Line 568: 'Que' in sentence 27
+     Context: START Que s'
+     Sentence: Que s' i viu a la cosina .
+  3. Line 681: 'Qu’' in sentence 31
+     Context: START Qu’ ei
+     Sentence: Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+  4. Line 791: 'qu’' in sentence 37
+     Context: Nadal qu’ èra
+     Sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+  5. Line 828: 'Que' in sentence 38
+     Context: START Que 'u
+     Sentence: Que 'u n' èi parlat ath a eth curè adès .
+     ... and 3 more occurrences
+
+NOUN → PROPN: 7 occurrences (6.48%)
+Most common error-causing words:
+  'dieu': 2 times (28.6% of this error)
+  'acadèmia': 2 times (28.6% of this error)
+  'sèmbla-dieu': 1 times (14.3% of this error)
+  'companhia': 1 times (14.3% of this error)
+  'associacion': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 424: 'Dieu' in sentence 17
+     Context: un Dieu ò
+     Sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+  2. Line 426: 'sèmbla-Dieu' in sentence 17
+     Context: ò sèmbla-Dieu a
+     Sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+  3. Line 799: 'Companhia' in sentence 37
+     Context: la Companhia deus
+     Sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+  4. Line 810: 'Associacion' in sentence 37
+     Context: l’ Associacion Miguel
+     Sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+  5. Line 816: 'Acadèmia' in sentence 37
+     Context: l’ Acadèmia de
+     Sentence: Nadal qu’ èra aderent a nombrosas associacions , la Companhia deus de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+     ... and 2 more occurrences
+
+PRON → SCONJ: 6 occurrences (5.56%)
+Most common error-causing words:
+  'que': 6 times (100.0% of this error)
+
+Examples:
+  1. Line 192: 'que' in sentence 7
+     Context: quela que prenguèt
+     Sentence: Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+  2. Line 417: 'que' in sentence 17
+     Context: çò que s’es
+     Sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+  3. Line 499: 'que' in sentence 21
+     Context: trabalh que fasiá
+     Sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+  4. Line 554: 'que' in sentence 26
+     Context: besonha que me
+     Sentence: La sola besonha que me pòde encara recordar , es mas una scèna .
+  5. Line 602: 'que' in sentence 28
+     Context: maire que me
+     Sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+     ... and 1 more occurrences
+
+PRON → CCONJ: 3 occurrences (2.78%)
+Most common error-causing words:
+  'i': 3 times (100.0% of this error)
+
+Examples:
+  1. Line 19: 'i' in sentence 1
+     Context: que i a
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 457: 'i' in sentence 18
+     Context: s’ i esperar
+     Sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+  3. Line 570: 'i' in sentence 27
+     Context: s' i viu
+     Sentence: Que s' i viu a la cosina .
+
+ADV → INTJ: 3 occurrences (2.78%)
+Most common error-causing words:
+  'puèi': 1 times (33.3% of this error)
+  'òc': 1 times (33.3% of this error)
+  'atau': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 168: 'Puèi' in sentence 6
+     Context: START Puèi ,
+     Sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+  2. Line 381: 'òc' in sentence 14
+     Context: : òc ,
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  3. Line 1024: 'Atau' in sentence 50
+     Context: START Atau apèran
+     Sentence: Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+
+ADV → NOUN: 3 occurrences (2.78%)
+Most common error-causing words:
+  'gis': 1 times (33.3% of this error)
+  'doçament': 1 times (33.3% of this error)
+  'ora': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 234: 'gis' in sentence 8
+     Context: trobará gis d'
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  2. Line 341: 'doçament' in sentence 12
+     Context: plan doçament .
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  3. Line 619: 'ora' in sentence 28
+     Context: d' ora per
+     Sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+
+ADJ → DET: 3 occurrences (2.78%)
+Most common error-causing words:
+  'autra': 1 times (33.3% of this error)
+  'tota': 1 times (33.3% of this error)
+  'soa': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 236: 'autra' in sentence 8
+     Context: d' autra pèira
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  2. Line 250: 'tota' in sentence 8
+     Context: furgariá tota la
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  3. Line 980: 'soa' in sentence 47
+     Context: la soa lenga
+     Sentence: Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat deus de lo ainats .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+case → mark: 18 occurrences (5.28%)
+Most common error-causing words:
+  'de': 5 times (27.8% of this error)
+  'en': 3 times (16.7% of this error)
+  'a': 3 times (16.7% of this error)
+  'per': 3 times (16.7% of this error)
+  'amb': 2 times (11.1% of this error)
+
+Examples:
+  1. Line 101: 'amb' (UPOS: ADP) in sentence 3
+     Sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+  2. Line 242: 'd'' (UPOS: ADP) in sentence 8
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  3. Line 258: 'de' (UPOS: ADP) in sentence 9
+     Sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+  4. Line 305: 'de' (UPOS: ADP) in sentence 11
+     Sentence: Los dets ne’n venián neirs de tant que los pichava .
+  5. Line 334: 'en' (UPOS: ADP) in sentence 12
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+     ... and 13 more occurrences
+
+nmod → obl: 16 occurrences (4.69%)
+Most common error-causing words:
+  'maugrabens': 1 times (6.2% of this error)
+  'enigma': 1 times (6.2% of this error)
+  'paire': 1 times (6.2% of this error)
+  'farineta': 1 times (6.2% of this error)
+  'se': 1 times (6.2% of this error)
+
+Examples:
+  1. Line 28: 'maugrabens' (UPOS: NOUN) in sentence 1
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 277: 'enigma' (UPOS: NOUN) in sentence 9
+     Sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+  3. Line 322: 'paire' (UPOS: NOUN) in sentence 12
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  4. Line 390: 'farineta' (UPOS: NOUN) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  5. Line 469: 'se' (UPOS: PRON) in sentence 18
+     Sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+     ... and 11 more occurrences
+
+obj → obl: 12 occurrences (3.52%)
+Most common error-causing words:
+  'oras': 1 times (8.3% of this error)
+  'afars': 1 times (8.3% of this error)
+  'mans': 1 times (8.3% of this error)
+  'quauquaren': 1 times (8.3% of this error)
+  'definicion': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 12: 'oras' (UPOS: NOUN) in sentence 1
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 108: 'afars' (UPOS: NOUN) in sentence 3
+     Sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+  3. Line 328: 'mans' (UPOS: NOUN) in sentence 12
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  4. Line 467: 'quauquaren' (UPOS: PRON) in sentence 18
+     Sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+  5. Line 732: 'definicion' (UPOS: NOUN) in sentence 33
+     Sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+     ... and 7 more occurrences
+
+obj → nsubj: 12 occurrences (3.52%)
+Most common error-causing words:
+  'que': 3 times (25.0% of this error)
+  's'': 1 times (8.3% of this error)
+  'me': 1 times (8.3% of this error)
+  'lo': 1 times (8.3% of this error)
+  'se': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 266: 'que' (UPOS: PRON) in sentence 9
+     Sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+  2. Line 316: 's'' (UPOS: PRON) in sentence 12
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  3. Line 378: 'me' (UPOS: PRON) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  4. Line 398: 'que' (UPOS: PRON) in sentence 15
+     Sentence: Doncas es el que prenèm .
+  5. Line 526: 'lo' (UPOS: PRON) in sentence 24
+     Sentence: Que lo se voleràn préner a Sent Per , en convent ...
+     ... and 7 more occurrences
+
+obl → nmod: 11 occurrences (3.23%)
+Most common error-causing words:
+  'represa': 1 times (9.1% of this error)
+  'biais': 1 times (9.1% of this error)
+  'convent': 1 times (9.1% of this error)
+  'grand': 1 times (9.1% of this error)
+  'curbecèu': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 180: 'represa' (UPOS: NOUN) in sentence 6
+     Sentence: Puèi , estoc lo torn deus de lo liceans gascons dab la represa en gascon de Bob Marley .
+  2. Line 244: 'biais' (UPOS: NOUN) in sentence 8
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  3. Line 535: 'convent' (UPOS: NOUN) in sentence 24
+     Sentence: Que lo se voleràn préner a Sent Per , en convent ...
+  4. Line 610: 'grand' (UPOS: NOUN) in sentence 28
+     Sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+  5. Line 652: 'curbecèu' (UPOS: NOUN) in sentence 29
+     Sentence: Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+     ... and 6 more occurrences
+
+obl → nsubj: 9 occurrences (2.64%)
+Most common error-causing words:
+  'ora': 1 times (11.1% of this error)
+  'qui': 1 times (11.1% of this error)
+  'qué': 1 times (11.1% of this error)
+  'bombas': 1 times (11.1% of this error)
+  'maire': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 6: 'ora' (UPOS: NOUN) in sentence 1
+     Sentence: A l' ora d' ara , passat uech oras dau de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+  2. Line 102: 'qui' (UPOS: PRON) in sentence 3
+     Sentence: Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+  3. Line 259: 'qué' (UPOS: PRON) in sentence 9
+     Sentence: En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+  4. Line 541: 'bombas' (UPOS: NOUN) in sentence 25
+     Sentence: De bombas atomicas , ne larga dotze .
+  5. Line 601: 'maire' (UPOS: NOUN) in sentence 28
+     Sentence: La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh dei de lo trams , m' avisavi de ren .
+     ... and 4 more occurrences
+
+acl → root: 7 occurrences (2.05%)
+Most common error-causing words:
+  'espieren': 1 times (14.3% of this error)
+  'gardava': 1 times (14.3% of this error)
+  'pres': 1 times (14.3% of this error)
+  'fasiá': 1 times (14.3% of this error)
+  'concebut': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 130: 'espieren' (UPOS: VERB) in sentence 4
+     Sentence: Daus de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+  2. Line 218: 'gardava' (UPOS: VERB) in sentence 8
+     Sentence: La bòrna dau de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+  3. Line 348: 'pres' (UPOS: VERB) in sentence 13
+     Sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+  4. Line 500: 'fasiá' (UPOS: VERB) in sentence 21
+     Sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+  5. Line 736: 'concebut' (UPOS: VERB) in sentence 33
+     Sentence: Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+     ... and 2 more occurrences
+
+xcomp → amod: 7 occurrences (2.05%)
+Most common error-causing words:
+  'neirs': 1 times (14.3% of this error)
+  'marrit': 1 times (14.3% of this error)
+  'segur': 1 times (14.3% of this error)
+  'joial': 1 times (14.3% of this error)
+  'blanc': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 304: 'neirs' (UPOS: ADJ) in sentence 11
+     Sentence: Los dets ne’n venián neirs de tant que los pichava .
+  2. Line 366: 'marrit' (UPOS: ADJ) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  3. Line 369: 'segur' (UPOS: ADJ) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  4. Line 409: 'joial' (UPOS: ADJ) in sentence 16
+     Sentence: Aquel jorn , èra gaireben joial .
+  5. Line 488: 'blanc' (UPOS: NOUN) in sentence 20
+     Sentence: Lo cran arrasat a blanc sonque la halha .
+     ... and 2 more occurrences
+
+aux → conj: 7 occurrences (2.05%)
+Most common error-causing words:
+  'èra': 1 times (14.3% of this error)
+  'ai': 1 times (14.3% of this error)
+  'agut': 1 times (14.3% of this error)
+  'es': 1 times (14.3% of this error)
+  'a': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 317: 'èra' (UPOS: AUX) in sentence 12
+     Sentence: Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+  2. Line 372: 'ai' (UPOS: AUX) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  3. Line 373: 'agut' (UPOS: AUX) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  4. Line 420: 'es' (UPOS: AUX) in sentence 17
+     Sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+  5. Line 454: 'a' (UPOS: AUX) in sentence 18
+     Sentence: Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh daus de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+     ... and 2 more occurrences
+
+root → conj: 7 occurrences (2.05%)
+Most common error-causing words:
+  'es': 4 times (57.1% of this error)
+  'requinquilhèt': 1 times (14.3% of this error)
+  'a': 1 times (14.3% of this error)
+  'gelar': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 354: 'requinquilhèt' (UPOS: VERB) in sentence 13
+     Sentence: Aquel repais pres sul sus lo sirveton nos requinquilhèt un brave bocin .
+  2. Line 364: 'es' (UPOS: VERB) in sentence 14
+     Sentence: Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+  3. Line 396: 'es' (UPOS: VERB) in sentence 15
+     Sentence: Doncas es el que prenèm .
+  4. Line 427: 'a' (UPOS: VERB) in sentence 17
+     Sentence: Pèr comprene çò que s’es s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+  5. Line 496: 'Es' (UPOS: VERB) in sentence 21
+     Sentence: Es un trabalh que fasiá dins sa precedenta asinariá .
+     ... and 2 more occurrences
+

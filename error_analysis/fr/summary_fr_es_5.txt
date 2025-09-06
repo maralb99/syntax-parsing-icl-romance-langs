@@ -1,0 +1,446 @@
+SUMMARY ERROR ANALYSIS: fr_es_5.conllu vs. gold_file_fr.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1227
+UPOS errors: 64 (5.22%)
+HEAD errors: 626 (51.02%)
+DEPREL errors: 429 (34.96%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'est': 9 errors (0.80%)
+'ne': 3 errors (0.27%)
+'responsable': 2 errors (0.18%)
+'pas': 2 errors (0.18%)
+'ce': 2 errors (0.18%)
+'n'': 2 errors (0.18%)
+'xixe': 2 errors (0.18%)
+'los': 2 errors (0.18%)
+'son': 2 errors (0.18%)
+'que': 2 errors (0.18%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+AUX → VERB: 11 occurrences (17.19%)
+Most common error-causing words:
+  'est': 9 times (81.8% of this error)
+  'a': 1 times (9.1% of this error)
+  'faisant': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 443: 'est' in sentence 17
+     Context: c' est une
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+  2. Line 498: 'est' in sentence 19
+     Context: prose est né
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+  3. Line 631: 'est' in sentence 24
+     Context: Adam est le
+     Sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+  4. Line 642: 'est' in sentence 24
+     Context: dont est issu
+     Sentence: Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+  5. Line 786: 'a' in sentence 29
+     Context: Il a eu
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+     ... and 6 more occurrences
+
+ADJ → NOUN: 8 occurrences (12.50%)
+Most common error-causing words:
+  'responsable': 2 times (25.0% of this error)
+  'futur': 1 times (12.5% of this error)
+  'cycliste': 1 times (12.5% of this error)
+  'xixe': 1 times (12.5% of this error)
+  'premier': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 121: 'responsable' in sentence 6
+     Context: général responsable de
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  2. Line 132: 'responsable' in sentence 6
+     Context: général responsable des
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  3. Line 194: 'futur' in sentence 9
+     Context: le futur baptisé
+     Sentence: C' est véritablement pour le futur baptisé un changement de cap .
+  4. Line 338: 'cycliste' in sentence 14
+     Context: coureur cycliste et
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  5. Line 503: 'XIXe' in sentence 19
+     Context: le XIXe siècle
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+     ... and 3 more occurrences
+
+ADV → PART: 7 occurrences (10.94%)
+Most common error-causing words:
+  'ne': 3 times (42.9% of this error)
+  'pas': 2 times (28.6% of this error)
+  'n'': 2 times (28.6% of this error)
+
+Examples:
+  1. Line 180: 'ne' in sentence 8
+     Context: coût ne connaissent
+     Sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+  2. Line 182: 'pas' in sentence 8
+     Context: connaissent pas la
+     Sentence: Les compagnies aériennes à bas coût ne connaissent pas la crise .
+  3. Line 254: 'n'' in sentence 11
+     Context: SMIC n' est
+     Sentence: Mais , le SMIC n' est pas un outil de référence .
+  4. Line 483: 'n'' in sentence 18
+     Context: matière n' existait
+     Sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+  5. Line 485: 'pas' in sentence 18
+     Context: existait pas mais
+     Sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+     ... and 2 more occurrences
+
+X → PROPN: 6 occurrences (9.38%)
+Most common error-causing words:
+  'los': 2 times (33.3% of this error)
+  'abuelos': 1 times (16.7% of this error)
+  'nada': 1 times (16.7% of this error)
+  'rodríguez': 1 times (16.7% of this error)
+  'ibn': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 590: 'Los' in sentence 22
+     Context: comme Los Abuelos
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  2. Line 591: 'Abuelos' in sentence 22
+     Context: Los Abuelos de
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  3. Line 594: 'Nada' in sentence 22
+     Context: la Nada et
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  4. Line 596: 'Los' in sentence 22
+     Context: et Los Rodríguez
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+  5. Line 597: 'Rodríguez' in sentence 22
+     Context: Los Rodríguez .
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+     ... and 1 more occurrences
+
+DET → PRON: 5 occurrences (7.81%)
+Most common error-causing words:
+  'ce': 2 times (40.0% of this error)
+  'son': 2 times (40.0% of this error)
+  'leur': 1 times (20.0% of this error)
+
+Examples:
+  1. Line 23: 'leur' in sentence 2
+     Context: mais leur contenu
+     Sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+  2. Line 236: 'ce' in sentence 10
+     Context: oppose ce dernier
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+  3. Line 683: 'son' in sentence 25
+     Context: et son corps
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+  4. Line 1212: 'son' in sentence 44
+     Context: porter son nom
+     Sentence: Il verra le puits le plus profond de France porter son nom : .
+  5. Line 1255: 'ce' in sentence 46
+     Context: de ce nouveau
+     Sentence: Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+
+NOUN → PROPN: 5 occurrences (7.81%)
+Most common error-causing words:
+  'maison': 1 times (20.0% of this error)
+  'arrêt': 1 times (20.0% of this error)
+  'union': 1 times (20.0% of this error)
+  'îles': 1 times (20.0% of this error)
+  'pays': 1 times (20.0% of this error)
+
+Examples:
+  1. Line 275: 'Maison' in sentence 12
+     Context: la Maison d'
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  2. Line 277: 'Arrêt' in sentence 12
+     Context: d' Arrêt d'
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  3. Line 624: 'Union' in sentence 23
+     Context: l' Union européenne
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+  4. Line 1088: 'Îles' in sentence 39
+     Context: les Îles britanniques
+     Sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+  5. Line 1338: 'Pays' in sentence 49
+     Context: région Pays de
+     Sentence: Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+
+NOUN → ADJ: 4 occurrences (6.25%)
+Most common error-causing words:
+  'artisan': 1 times (25.0% of this error)
+  'israéliens': 1 times (25.0% of this error)
+  'britanniques': 1 times (25.0% of this error)
+  'paresseux': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 110: 'artisan' in sentence 5
+     Context: imprimeur artisan passionné
+     Sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+  2. Line 793: 'israéliens' in sentence 29
+     Context: les israéliens Galit
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  3. Line 801: 'britanniques' in sentence 29
+     Context: les britanniques Sinead
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  4. Line 1068: 'paresseux' in sentence 39
+     Context: de paresseux »
+     Sentence: Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail du de le sol autrefois pratiquée dans certaines régions des de les Îles britanniques .
+
+PRON → SCONJ: 2 occurrences (3.12%)
+Most common error-causing words:
+  'où': 1 times (50.0% of this error)
+  'que': 1 times (50.0% of this error)
+
+Examples:
+  1. Line 56: 'où' in sentence 4
+     Context: milieu où règne
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 720: 'que' in sentence 26
+     Context: fleurs que guettent
+     Sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+
+PRON → ADP: 2 occurrences (3.12%)
+Most common error-causing words:
+  'y': 1 times (50.0% of this error)
+  'dont': 1 times (50.0% of this error)
+
+Examples:
+  1. Line 74: 'y' in sentence 4
+     Context: chercheurs y découvrent
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 429: 'dont' in sentence 17
+     Context: sommets dont un
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+
+SYM → PUNCT: 2 occurrences (3.12%)
+Most common error-causing words:
+  '/': 2 times (100.0% of this error)
+
+Examples:
+  1. Line 796: '/' in sentence 29
+     Context: Chait / Sergei
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+  2. Line 804: '/' in sentence 29
+     Context: Kerr / John
+     Sentence: Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+case → mark: 36 occurrences (8.39%)
+Most common error-causing words:
+  'en': 7 times (19.4% of this error)
+  'de': 7 times (19.4% of this error)
+  'à': 6 times (16.7% of this error)
+  'par': 4 times (11.1% of this error)
+  'avec': 2 times (5.6% of this error)
+
+Examples:
+  1. Line 94: 'jusqu'' (UPOS: ADP) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 192: 'pour' (UPOS: ADP) in sentence 9
+     Sentence: C' est véritablement pour le futur baptisé un changement de cap .
+  3. Line 243: 'depuis' (UPOS: ADP) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+  4. Line 373: 'en' (UPOS: ADP) in sentence 15
+     Sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+  5. Line 376: 'en' (UPOS: ADP) in sentence 15
+     Sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+     ... and 31 more occurrences
+
+flat:name → appos: 23 occurrences (5.36%)
+Most common error-causing words:
+  'said': 2 times (8.7% of this error)
+  'kerr': 2 times (8.7% of this error)
+  'bhagwan': 1 times (4.3% of this error)
+  'obeegadoo': 1 times (4.3% of this error)
+  'holan': 1 times (4.3% of this error)
+
+Examples:
+  1. Line 117: 'Bhagwan' (UPOS: PROPN) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  2. Line 128: 'Obeegadoo' (UPOS: PROPN) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  3. Line 272: 'Holan' (UPOS: PROPN) in sentence 12
+     Sentence: L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+  4. Line 317: 'Bastien' (UPOS: PROPN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  5. Line 473: 'Berkeley' (UPOS: PROPN) in sentence 18
+     Sentence: Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+     ... and 18 more occurrences
+
+obl:mod → obl: 21 occurrences (4.90%)
+Most common error-causing words:
+  'facultés': 1 times (4.8% of this error)
+  'contexte': 1 times (4.8% of this error)
+  'ans': 1 times (4.8% of this error)
+  'point': 1 times (4.8% of this error)
+  'recueil': 1 times (4.8% of this error)
+
+Examples:
+  1. Line 29: 'Facultés' (UPOS: NOUN) in sentence 2
+     Sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+  2. Line 39: 'contexte' (UPOS: NOUN) in sentence 3
+     Sentence: Mais comment faire dans un contexte structurellement raciste ?
+  3. Line 245: 'ans' (UPOS: NOUN) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+  4. Line 416: 'point' (UPOS: NOUN) in sentence 16
+     Sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+  5. Line 507: 'recueil' (UPOS: NOUN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+     ... and 16 more occurrences
+
+nmod → obl: 21 occurrences (4.90%)
+Most common error-causing words:
+  'livre': 1 times (4.8% of this error)
+  'altitude': 1 times (4.8% of this error)
+  'poèmes': 1 times (4.8% of this error)
+  'ewan': 1 times (4.8% of this error)
+  'dont': 1 times (4.8% of this error)
+
+Examples:
+  1. Line 307: 'livre' (UPOS: NOUN) in sentence 13
+     Sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+  2. Line 440: 'altitude' (UPOS: NOUN) in sentence 17
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+  3. Line 509: 'poèmes' (UPOS: NOUN) in sentence 19
+     Sentence: Le poème en prose est né au à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+  4. Line 526: 'Ewan' (UPOS: PROPN) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  5. Line 550: 'dont' (UPOS: PRON) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+     ... and 16 more occurrences
+
+obl:arg → obl: 14 occurrences (3.26%)
+Most common error-causing words:
+  'tueurs': 1 times (7.1% of this error)
+  'front': 1 times (7.1% of this error)
+  'paris': 1 times (7.1% of this error)
+  'mètres': 1 times (7.1% of this error)
+  'musée': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 166: 'tueurs' (UPOS: NOUN) in sentence 7
+     Sentence: Elle lutte pour échapper aux à les tueurs à ses trousses .
+  2. Line 241: 'Front' (UPOS: PROPN) in sentence 10
+     Sentence: Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel au à le Maroc dans le dossier du de le Sahara occidental qui oppose ce dernier au à le Front Polisario depuis 35 ans .
+  3. Line 325: 'Paris' (UPOS: PROPN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  4. Line 435: 'mètres' (UPOS: NOUN) in sentence 17
+     Sentence: Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+  5. Line 664: 'musée' (UPOS: NOUN) in sentence 25
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+     ... and 9 more occurrences
+
+conj → appos: 11 occurrences (2.56%)
+Most common error-causing words:
+  'steve': 1 times (9.1% of this error)
+  'formation': 1 times (9.1% of this error)
+  'escrimeur': 1 times (9.1% of this error)
+  'pierce': 1 times (9.1% of this error)
+  'los': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 127: 'Steve' (UPOS: PROPN) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  2. Line 147: 'formation' (UPOS: NOUN) in sentence 6
+     Sentence: Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable des de les projets politiques , du de le renouveau intellectuel , de la formation et des de les relations internationales ) .
+  3. Line 340: 'escrimeur' (UPOS: NOUN) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  4. Line 529: 'Pierce' (UPOS: PROPN) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  5. Line 596: 'Los' (UPOS: X) in sentence 22
+     Sentence: Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+     ... and 6 more occurrences
+
+det → dep: 9 occurrences (2.10%)
+Most common error-causing words:
+  'le': 5 times (55.6% of this error)
+  'l'': 1 times (11.1% of this error)
+  'la': 1 times (11.1% of this error)
+  'les': 1 times (11.1% of this error)
+  'une': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 46: 'L'' (UPOS: DET) in sentence 4
+     Sentence: L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+  2. Line 320: 'le' (UPOS: DET) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  3. Line 383: 'le' (UPOS: DET) in sentence 15
+     Sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+  4. Line 560: 'La' (UPOS: DET) in sentence 21
+     Sentence: La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+  5. Line 609: 'les' (UPOS: DET) in sentence 23
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+     ... and 4 more occurrences
+
+acl → root: 9 occurrences (2.10%)
+Most common error-causing words:
+  'né': 2 times (22.2% of this error)
+  'exécuté': 1 times (11.1% of this error)
+  'signées': 1 times (11.1% of this error)
+  'exposé': 1 times (11.1% of this error)
+  'appréciés': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 106: 'exécuté' (UPOS: VERB) in sentence 5
+     Sentence: Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+  2. Line 319: 'né' (UPOS: VERB) in sentence 14
+     Sentence: Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français du de le début du de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+  3. Line 604: 'signées' (UPOS: VERB) in sentence 23
+     Sentence: Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+  4. Line 660: 'exposé' (UPOS: VERB) in sentence 25
+     Sentence: L' album de photos de police exposé au à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+  5. Line 711: 'appréciés' (UPOS: VERB) in sentence 26
+     Sentence: Les moments les plus appréciés sont l' apparition des de les premières fleurs que guettent les photographes et la période de pic de floraison .
+     ... and 4 more occurrences
+
+obj → obl: 8 occurrences (1.86%)
+Most common error-causing words:
+  'ans': 1 times (12.5% of this error)
+  'thématique': 1 times (12.5% of this error)
+  'sens': 1 times (12.5% of this error)
+  'mémoires': 1 times (12.5% of this error)
+  'paris': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 21: 'ans' (UPOS: NOUN) in sentence 2
+     Sentence: Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+  2. Line 303: 'thématique' (UPOS: NOUN) in sentence 13
+     Sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+  3. Line 311: 'sens' (UPOS: NOUN) in sentence 13
+     Sentence: On retrouve ici une touche très melvillienne et qui au à le lieu de souligner la thématique du de le livre y ajoute du sens .
+  4. Line 542: 'mémoires' (UPOS: NOUN) in sentence 20
+     Sentence: Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+  5. Line 931: 'Paris' (UPOS: PROPN) in sentence 34
+     Sentence: Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+     ... and 3 more occurrences
+
+obl:mod → nummod: 8 occurrences (1.86%)
+Most common error-causing words:
+  '2005': 1 times (12.5% of this error)
+  '1872': 1 times (12.5% of this error)
+  '22': 1 times (12.5% of this error)
+  '1793': 1 times (12.5% of this error)
+  '1973': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 374: '2005' (UPOS: NUM) in sentence 15
+     Sentence: C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également du de le soutien du de le Hezbollah .
+  2. Line 394: '1872' (UPOS: NUM) in sentence 16
+     Sentence: En 1872 , quand les Georgiens ont repris les commandes du de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+  3. Line 739: '22' (UPOS: NUM) in sentence 27
+     Sentence: Il est fêté le 22 mai .
+  4. Line 1013: '1793' (UPOS: NUM) in sentence 37
+     Sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+  5. Line 1021: '1973' (UPOS: NUM) in sentence 37
+     Sentence: Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+     ... and 3 more occurrences
+

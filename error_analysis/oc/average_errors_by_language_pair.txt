@@ -1,0 +1,170 @@
+AVERAGE ERROR RATES AND MOST COMMON ERRORS BY LANGUAGE PAIRING:
+================================================================================
+
+AVERAGE ERROR RATES BY LANGUAGE PAIRING:
+
+LANGUAGE PAIR: oc_0
+----------------------------------------
+Average UPOS error rate: 14.27%
+Average DEPREL error rate: 39.93%
+Average HEAD error rate: 54.54%
+Most common error-causing words:
+  'que': 15 errors
+  'es': 6 errors
+  'èra': 5 errors
+  'a': 4 errors
+  'lo': 3 errors
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: oc_ca
+----------------------------------------
+Average UPOS error rate: 11.89%
+Average DEPREL error rate: 36.95%
+Average HEAD error rate: 53.50%
+Most common error-causing words:
+  'que': 76 errors
+  'es': 40 errors
+  'èra': 36 errors
+  'lo': 17 errors
+  'i': 16 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: oc_fr
+----------------------------------------
+Average UPOS error rate: 11.65%
+Average DEPREL error rate: 37.00%
+Average HEAD error rate: 52.36%
+Most common error-causing words:
+  'que': 83 errors
+  'èra': 33 errors
+  'es': 32 errors
+  'a': 19 errors
+  'lo': 16 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: oc_mixed
+----------------------------------------
+Average UPOS error rate: 12.28%
+Average DEPREL error rate: 37.02%
+Average HEAD error rate: 52.62%
+Most common error-causing words:
+  'que': 48 errors
+  'èra': 18 errors
+  'es': 16 errors
+  'lo': 12 errors
+  'coma': 9 errors
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: oc_oc
+----------------------------------------
+Average UPOS error rate: 10.88%
+Average DEPREL error rate: 35.31%
+Average HEAD error rate: 53.10%
+Most common error-causing words:
+  'que': 82 errors
+  'es': 36 errors
+  'èra': 34 errors
+  'a': 15 errors
+  'las': 13 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+
+================================================================================
+
+TOP 2 MOST COMMON ERRORS BY LANGUAGE PAIRING (with ALL line numbers):
+
+LANGUAGE PAIR: oc_0
+----------------------------------------
+Top 2 UPOS errors:
+  1. VERB → AUX (17 occurrences)
+     All lines: 197, 364, 368, 386, 396, 407, 427, 496, 518, 682, 725, 729, 792, 904, 965, 976, 1017
+  2. PRON → SCONJ (9 occurrences)
+     All lines: 33, 192, 266, 417, 499, 554, 602, 890, 1028
+Top 2 DEPREL errors:
+  1. case → mark (18 occurrences)
+     All lines: 110, 178, 257, 258, 272, 275, 334, 337, 448, 530, 614, 618, 620, 662, 673, 846, 924, 978
+  2. nmod → obl (15 occurrences)
+     All lines: 16, 28, 277, 390, 469, 574, 735, 740, 914, 917, 987, 991, 1014, 1047, 1053
+Top 2 HEAD errors:
+  1. 21 (dengús) → 2 (bòrna) (3 occurrences)
+     All lines: 237, 239, 249
+  2. 5 (malandrós) → 3 (beu) (3 occurrences)
+     All lines: 435, 436, 442
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: oc_ca
+----------------------------------------
+Top 2 UPOS errors:
+  1. VERB → AUX (119 occurrences)
+     All lines: 197, 225, 364, 368, 386, 396, 407, 427, 438, 444, 496, 518, 560, 682, 725, 729, 792, 893, 904, 965, 976, 1017
+  2. PRON → DET (58 occurrences)
+     All lines: 22, 232, 335, 371, 377, 397, 453, 544, 657, 830, 958
+Top 2 DEPREL errors:
+  1. case → mark (94 occurrences)
+     All lines: 7, 101, 110, 126, 178, 242, 258, 287, 293, 305, 320, 334, 337, 436, 448, 487, 510, 530, 614, 618, 639, 650, 656, 662, 673, 689, 692, 739, 760, 768, 794, 846, 864, 896, 924, 927, 1009, 1045
+  2. nmod → obl (83 occurrences)
+     All lines: 16, 28, 277, 322, 390, 469, 574, 626, 654, 735, 740, 851, 886, 914, 917, 987, 991, 1014, 1047, 1053
+Top 2 HEAD errors:
+  1. 13 (Luís) → 11 (vicesindic) (18 occurrences)
+     All lines: 61, 63, 64
+  2. 2 (es) → 5 (prenèm) (18 occurrences)
+     All lines: 395, 397, 400
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: oc_fr
+----------------------------------------
+Top 2 UPOS errors:
+  1. VERB → AUX (93 occurrences)
+     All lines: 197, 225, 364, 368, 386, 396, 407, 427, 496, 518, 560, 682, 725, 729, 792, 893, 904, 965, 976, 1017
+  2. PRON → SCONJ (47 occurrences)
+     All lines: 192, 266, 398, 417, 499, 554, 602, 655, 890, 1028
+Top 2 DEPREL errors:
+  1. case → mark (113 occurrences)
+     All lines: 4, 7, 110, 123, 126, 127, 178, 215, 235, 242, 257, 258, 272, 305, 320, 334, 337, 448, 487, 510, 530, 608, 614, 618, 639, 650, 656, 662, 673, 689, 692, 699, 739, 760, 768, 771, 794, 846, 864, 896, 898, 924, 1034, 1042, 1052
+  2. nmod → obl (105 occurrences)
+     All lines: 16, 28, 53, 75, 184, 277, 322, 390, 457, 469, 504, 574, 626, 654, 735, 740, 743, 805, 818, 823, 851, 914, 917, 987, 991, 1011, 1014, 1047, 1053
+Top 2 HEAD errors:
+  1. 12 (cal) → 10 (limpa) (19 occurrences)
+     All lines: 882, 886, 892, 894
+  2. 13 (an) → 1 (Adès) (18 occurrences)
+     All lines: 843, 844, 853
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: oc_mixed
+----------------------------------------
+Top 2 UPOS errors:
+  1. VERB → AUX (48 occurrences)
+     All lines: 197, 225, 364, 368, 386, 396, 407, 427, 438, 444, 496, 560, 682, 725, 729, 792, 965, 1017
+  2. PRON → SCONJ (33 occurrences)
+     All lines: 33, 151, 192, 266, 398, 417, 499, 554, 602, 655, 890, 1028
+Top 2 DEPREL errors:
+  1. nmod → obl (54 occurrences)
+     All lines: 8, 16, 28, 277, 322, 390, 457, 469, 504, 574, 626, 654, 735, 740, 823, 851, 914, 917, 987, 991, 1011, 1014, 1047, 1053
+  2. case → mark (47 occurrences)
+     All lines: 110, 178, 242, 257, 293, 305, 334, 337, 487, 510, 614, 618, 630, 639, 650, 662, 760, 771, 846, 864, 896, 898, 924, 927
+Top 2 HEAD errors:
+  1. 2 (es) → 5 (prenèm) (9 occurrences)
+     All lines: 395, 397, 400
+  2. 12 (cal) → 10 (limpa) (9 occurrences)
+     All lines: 882, 886, 892
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: oc_oc
+----------------------------------------
+Top 2 UPOS errors:
+  1. VERB → AUX (100 occurrences)
+     All lines: 197, 225, 364, 368, 386, 396, 407, 427, 438, 444, 496, 518, 560, 682, 725, 729, 792, 893, 904, 939, 942, 965, 1017
+  2. PRON → DET (49 occurrences)
+     All lines: 22, 302, 335, 371, 377, 397, 453, 526, 583, 657, 830, 958
+Top 2 DEPREL errors:
+  1. nmod → obl (87 occurrences)
+     All lines: 16, 28, 75, 277, 322, 390, 457, 469, 504, 574, 626, 735, 740, 803, 805, 818, 823, 851, 886, 914, 917, 987, 991, 1011, 1014, 1047, 1053
+  2. case → mark (69 occurrences)
+     All lines: 110, 126, 178, 242, 287, 305, 320, 334, 337, 448, 487, 510, 606, 608, 614, 618, 650, 656, 662, 673, 739, 760, 771, 846, 896, 898, 924, 927, 1039, 1052
+Top 2 HEAD errors:
+  1. 5 (malandrós) → 3 (beu) (22 occurrences)
+     All lines: 435, 436, 438, 442
+  2. 13 (an) → 1 (Adès) (18 occurrences)
+     All lines: 843, 844, 853, 856
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+

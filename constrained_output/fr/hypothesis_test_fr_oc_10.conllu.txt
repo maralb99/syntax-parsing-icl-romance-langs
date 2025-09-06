@@ -1,0 +1,29 @@
+=== CLEAR HYPOTHESIS ASSESSMENT ===
+
+Valid tests: 50
+
+UPOS (Part-of-Speech/Dependency Parsing):
+  Correlation: 0.329
+  P-value: 0.020
+  Effect size: 0.296
+  Assessment: SUPPORTED
+  → Syntactic similarity HELPS upos performance
+
+LAS (Part-of-Speech/Dependency Parsing):
+  Correlation: 0.458
+  P-value: 0.001
+  Effect size: 0.610
+  Assessment: SUPPORTED
+  → Syntactic similarity HELPS las performance
+
+UAS (Part-of-Speech/Dependency Parsing):
+  Correlation: 0.321
+  P-value: 0.023
+  Effect size: 0.479
+  Assessment: SUPPORTED
+  → Syntactic similarity HELPS uas performance
+
+OVERALL SUMMARY:
+  Metrics supported: 3/3
+  Metrics refuted: 0/3
+  CONCLUSION: Hypothesis has MORE SUPPORT than refutation

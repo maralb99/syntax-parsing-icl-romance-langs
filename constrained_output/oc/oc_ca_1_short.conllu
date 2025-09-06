@@ -1,0 +1,1055 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = A l' ora d' ara , passat uech oras de lo vespre , que i a pus degun defòra , a levat lei maugrabens , la lenga guturala que li entendem es semitica , arabe o berbère , sabi pas tròp .
+1	A	a	ADP	_	_	7	case	_	_
+2	l'	lo	DET	_	_	3	det	_	_
+3	ora	ora	NOUN	_	_	7	nsubj	_	_
+4	d'	de	ADP	_	_	16	case	_	_
+5	ara	ara	ADV	_	_	7	advmod	_	_
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	passat	passar	VERB	_	_	0	root	_	_
+8	uech	uech	NUM	_	_	7	nummod	_	_
+9	oras	ora	NOUN	_	_	7	obj	_	_
+10-11	dau	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	lo	lo	DET	_	_	12	det	_	_
+12	vespre	vespre	NOUN	_	_	7	obl	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	que	que	SCONJ	_	_	1	mark	_	_
+15	i	i	PRON	_	_	12	nmod:poss	_	_
+16	a	aver	AUX	_	_	7	advcl	_	_
+17	pus	pus	ADV	_	_	16	advmod	_	_
+18	degun	degun	DET	_	_	12	det	_	_
+19	defòra	defòra	ADV	_	_	16	advmod	_	_
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	a	a	ADP	_	_	22	case	_	_
+22	levat	levat	VERB	_	_	1	ccomp	_	_
+23	lei	lo	PRON	_	_	2	nsubj	_	_
+24	maugrabens	maugraben	NOUN	_	_	2	obl	_	_
+25	,	,	PUNCT	_	_	21	punct	_	_
+26	la	lo	DET	_	_	27	det	_	_
+27	lenga	lenga	NOUN	_	_	21	obl	_	_
+28	guturala	gutural	ADJ	_	_	27	amod	_	_
+29	que	que	PRON	_	_	3	nmod:poss	_	_
+30	li	i	PRON	_	_	3	nmod:poss	_	_
+31	entendem	entendre	VERB	_	_	3	acl	_	_
+32	es	èsser	AUX	_	_	39	csubj	_	_
+33	semitica	semitic	ADJ	_	_	3	amod	_	_
+34	,	,	PUNCT	_	_	30	punct	_	_
+35	arabe	arabe	X	_	_	3	dep	_	_
+36	o	o	CCONJ	_	_	3	cc	_	_
+37	berbère	berbère	X	_	_	3	dep	_	_
+38	,	,	PUNCT	_	_	33	punct	_	_
+39	sabi	sabar	VERB	_	_	3	acl	_	_
+40	pas	pas	ADV	_	_	31	advmod	_	_
+41	tròp	tròp	ADV	_	_	40	advmod	_	_
+42	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 2
+# text = Lo sindic d' Aran , Carlos Barrera , e lo vicesindic , Luís Carlos Medina , rescontrèron diluns passat lo president de la Generalitat de Catalonha , Carles Puigdemont .
+1	Lo	lo	DET	_	_	2	det	_	_
+2	sindic	sindic	NOUN	_	_	17	obl	_	_
+3	d'	de	ADP	_	_	4	case	_	_
+4	Aran	Aran	PROPN	_	_	23	nmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Carlos	Carlos	PROPN	_	_	28	appos	_	_
+7	Barrera	Barrera	PROPN	_	_	6	appos	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	e	e	CCONJ	_	_	2	cc	_	_
+10	lo	lo	DET	_	_	11	det	_	_
+11	vicesindic	vicesindic	NOUN	_	_	23	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Luís	Luís	PROPN	_	_	11	appos	_	_
+14	Carlos	Carlos	PROPN	_	_	11	appos	_	_
+15	Medina	Medina	PROPN	_	_	11	appos	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	rescontrèron	rescontrar	VERB	_	_	0	root	_	_
+18	diluns	diluns	NOUN	_	_	17	obl	_	_
+19	passat	passar	VERB	_	_	11	acl	_	_
+20	lo	lo	DET	_	_	21	det	_	_
+21	president	president	NOUN	_	_	17	obl	_	_
+22	de	de	ADP	_	_	26	case	_	_
+23	la	lo	DET	_	_	24	det	_	_
+24	Generalitat	Generalitat	PROPN	_	_	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Catalonha	Catalonha	PROPN	_	_	21	nmod	_	_
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	Carles	Carles	PROPN	_	_	2	appos	_	_
+29	Puigdemont	Puigdemont	PROPN	_	_	2	appos	_	_
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3
+# text = Se trobava tanben a la reünion la conselhièra de l' administracion publica e de las relacions institucionalas , amb qui los elegits occitans tractèron diferents afars restacats a las administracions d' Aran e de Catalonha .
+1	Se	se	PRON	_	_	2	nsubj	_	_
+2	trobava	trobar	VERB	_	_	0	root	_	_
+3	tanben	tanben	ADV	_	_	2	advmod	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	la	lo	DET	_	_	6	det	_	_
+6	reünion	reünion	NOUN	_	_	2	obl	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	conselhièra	conselhièra	NOUN	_	_	6	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	l'	lo	DET	_	_	11	det	_	_
+11	administracion	administracion	NOUN	_	_	8	nmod	_	_
+12	publica	public	ADJ	_	_	11	amod	_	_
+13	e	e	CCONJ	_	_	1	cc	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	las	lo	DET	_	_	16	det	_	_
+16	relacions	relacion	NOUN	_	_	8	nmod	_	_
+17	institucionalas	institucional	ADJ	_	_	16	amod	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	amb	amb	ADP	_	_	20	case	_	_
+20	qui	qui	PRON	_	_	22	nmod:poss	_	_
+21	los	lo	DET	_	_	22	det	_	_
+22	elegits	elegit	NOUN	_	_	2	obl	_	_
+23	occitans	occitan	ADJ	_	_	22	amod	_	_
+24	tractèron	tractar	VERB	_	_	2	conj	_	_
+25	diferents	diferent	ADJ	_	_	22	amod	_	_
+26	afars	afar	NOUN	_	_	20	obl	_	_
+27	restacats	restacar	VERB	_	_	22	acl	_	_
+28	a	a	ADP	_	_	27	mark	_	_
+29	las	lo	DET	_	_	30	det	_	_
+30	administracions	administracion	NOUN	_	_	2	obl	_	_
+31	d'	de	ADP	_	_	35	case	_	_
+32	Aran	Aran	PROPN	_	_	30	nmod	_	_
+33	e	e	CCONJ	_	_	3	cc	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Catalonha	Catalonha	PROPN	_	_	3	obl	_	_
+36	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 4
+# text = de los uelhs coma de las bolas espieren lo comissari sens lo mendre regret , e doàs aurelhas s' esflacasseren coma per dire bravò .
+1-2	Daus	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	los	lo	DET	_	_	3	det	_	_
+3	uelhs	uelh	NOUN	_	_	8	nsubj	_	_
+4	coma	coma	SCONJ	_	_	8	mark	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	las	lo	DET	_	_	7	det	_	_
+7	bolas	bola	NOUN	_	_	3	nmod	_	_
+8	espieren	espiar	VERB	_	_	0	root	_	_
+9	lo	lo	PRON	_	_	8	obj	_	_
+10	comissari	comissari	NOUN	_	_	8	obj	_	_
+11	sens	sens	NOUN	_	_	10	nmod	_	_
+12	lo	lo	PRON	_	_	10	nmod:poss	_	_
+13	mendre	mendre	ADJ	_	_	10	amod	_	_
+14	regret	regret	NOUN	_	_	8	obl	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	e	e	CCONJ	_	_	1	cc	_	_
+17	doàs	dos	VERB	_	_	10	acl	_	_
+18	aurelhas	aurelha	NOUN	_	_	17	obj	_	_
+19	s'	se	PRON	_	_	2	nsubj	_	_
+20	esflacasseren	esflacassar	VERB	_	_	10	acl	_	_
+21	coma	coma	SCONJ	_	_	2	mark	_	_
+22	per	per	ADP	_	_	20	case	_	_
+23	dire	dire	VERB	_	_	2	xcomp	_	_
+24	bravò	bravò	INTJ	_	_	2	discourse	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5
+# text = Se trobariá doncas totjorn un retardatari evident ( o puslèu de retardataris ) .
+1	Se	se	PRON	_	_	2	nsubj	_	_
+2	trobariá	trobar	VERB	_	_	0	root	_	_
+3	doncas	doncas	ADV	_	_	2	advmod	_	_
+4	totjorn	totjorn	ADV	_	_	2	advmod	_	_
+5	un	un	DET	_	_	6	det	_	_
+6	retardatari	retardatari	NOUN	_	_	2	obj	_	_
+7	evident	evident	ADJ	_	_	6	amod	_	_
+8	(	(	PUNCT	_	_	7	punct	_	_
+9	o	o	CCONJ	_	_	1	cc	_	_
+10	puslèu	puslèu	ADV	_	_	7	advmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	retardataris	retardatari	NOUN	_	_	7	obl	_	_
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	.	.	PUNCT	_	_	2	dep	_	_
+
+# sent_id = 6
+# text = Puèi , estoc lo torn de lo liceans gascons dab la represa en gascon de Bob Marley .
+1	Puèi	puèi	ADV	_	_	3	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	estoc	estar	VERB	_	_	0	root	_	_
+4	lo	lo	DET	_	_	5	det	_	_
+5	torn	torn	NOUN	_	_	3	obj	_	_
+6-7	deus	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	lo	lo	DET	_	_	8	det	_	_
+8	liceans	licean	NOUN	_	_	5	nmod	_	_
+9	gascons	gascon	ADJ	_	_	8	amod	_	_
+10	dab	dab	ADP	_	_	3	mark	_	_
+11	la	lo	DET	_	_	12	det	_	_
+12	represa	represa	NOUN	_	_	3	obj	_	_
+13	en	en	ADP	_	_	17	case	_	_
+14	gascon	gascon	ADJ	_	_	12	amod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	Bob	Bob	PROPN	_	_	15	nmod	_	_
+17	Marley	Marley	PROPN	_	_	11	nmod	_	_
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 7
+# text = Mas quela que prenguèt sa plaça , èra pas de mesma aiga , o ben de mesma vin .
+1	Mas	mas	CCONJ	_	_	4	cc	_	_
+2	quela	queu	PRON	_	_	4	nsubj	_	_
+3	que	que	SCONJ	_	_	2	mark	_	_
+4	prenguèt	prendre	VERB	_	_	0	root	_	_
+5	sa	son	DET	_	_	6	det	_	_
+6	plaça	plaça	NOUN	_	_	4	obj	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	èra	èsser	AUX	_	_	4	advcl	_	_
+9	pas	pas	PART	_	_	8	advmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	mesma	mesme	ADJ	_	_	12	amod	_	_
+12	aiga	aiga	NOUN	_	_	8	obj	_	_
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	o	o	CCONJ	_	_	1	cc	_	_
+15	ben	ben	ADV	_	_	11	advmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	mesma	mesme	ADJ	_	_	18	amod	_	_
+18	vin	vin	NOUN	_	_	8	obl	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 8
+# text = La bòrna de lo mur gardava forma de la pèira mancanta , èra genta : un nis , jamai dengús trobará gis d' autra pèira per comblar quau pertús d' un biais tan perfait , quand furgariá tota la tèrra .
+1	La	lo	DET	_	_	2	det	_	_
+2	bòrna	bòrna	NOUN	_	_	6	nsubj	_	_
+3-4	dau	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	21	case	_	_
+4	lo	lo	DET	_	_	5	det	_	_
+5	mur	mur	NOUN	_	_	21	nsubj	_	_
+6	gardava	gardar	VERB	_	_	0	root	_	_
+7	forma	forma	NOUN	_	_	6	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	pèira	pèira	NOUN	_	_	7	nmod	_	_
+11	mancanta	mancant	ADJ	_	_	10	amod	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	èra	èsser	AUX	_	_	6	ccomp	_	_
+14	genta	gent	NOUN	_	_	1	nsubj	_	_
+15	:	:	PUNCT	_	_	10	punct	_	_
+16	un	un	DET	_	_	6	dep	_	_
+17	nis	nis	NOUN	_	_	16	nsubj	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	jamai	jamai	ADV	_	_	20	advmod	_	_
+20	dengús	dengús	ADV	_	_	21	advmod	_	_
+21	trobará	trobar	VERB	_	_	10	acl	_	_
+22	gis	gis	NOUN	_	_	21	obj	_	_
+23	d'	de	ADP	_	_	25	case	_	_
+24	autra	autra	DET	_	_	25	det	_	_
+25	pèira	pèira	NOUN	_	_	22	nmod	_	_
+26	per	per	ADP	_	_	21	mark	_	_
+27	comblar	comblar	VERB	_	_	2	acl	_	_
+28	quau	quau	PRON	_	_	2	nmod:poss	_	_
+29	pertús	pertús	NOUN	_	_	2	nmod	_	_
+30	d'	de	ADP	_	_	27	mark	_	_
+31	un	un	DET	_	_	32	det	_	_
+32	biais	biais	NOUN	_	_	2	nmod	_	_
+33	tan	tan	ADV	_	_	34	advmod	_	_
+34	perfait	perfait	ADJ	_	_	32	amod	_	_
+35	,	,	PUNCT	_	_	30	punct	_	_
+36	quand	quand	SCONJ	_	_	3	mark	_	_
+37	furgariá	furgar	VERB	_	_	32	acl	_	_
+38	tota	tot	DET	_	_	40	det	_	_
+39	la	lo	DET	_	_	40	det	_	_
+40	tèrra	tèrra	NOUN	_	_	32	nmod	_	_
+41	.	.	PUNCT	_	_	6	dep	_	_
+
+# sent_id = 9
+# text = En de qué semblava aquela vòlha , aquela alegressa que m' aviá agantat per anar a l' endavant d' una enigma ?
+1	En	en	ADP	_	_	4	case	_	_
+2	de	de	ADP	_	_	13	case	_	_
+3	qué	qué	PRON	_	_	4	nsubj	_	_
+4	semblava	semblar	VERB	_	_	0	root	_	_
+5	aquela	aquel	DET	_	_	6	det	_	_
+6	vòlha	vòlha	NOUN	_	_	4	obj	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	aquela	aquel	DET	_	_	6	det	_	_
+9	alegressa	alegressa	ADJ	_	_	6	amod	_	_
+10	que	que	SCONJ	_	_	1	mark	_	_
+11	m'	me	PRON	_	_	12	nsubj	_	_
+12	aviá	aver	AUX	_	_	13	csubj	_	_
+13	agantat	agantar	VERB	_	_	4	xcomp	_	_
+14	per	per	ADP	_	_	13	mark	_	_
+15	anar	anar	VERB	_	_	1	xcomp	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	l'	lo	DET	_	_	18	det	_	_
+18	endavant	endavant	NOUN	_	_	1	obl	_	_
+19	d'	de	ADP	_	_	21	case	_	_
+20	una	un	DET	_	_	21	det	_	_
+21	enigma	enigma	NOUN	_	_	1	obl	_	_
+22	?	?	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 10
+# text = Mandam puei lei mans dedins sensa culhier e portam la bolhida a la boca .
+1	Mandam	mandar	VERB	_	_	0	root	_	_
+2	puei	puei	ADV	_	_	1	advmod	_	_
+3	lei	lo	PRON	_	_	1	obj	_	_
+4	mans	man	NOUN	_	_	3	obl	_	_
+5	dedins	dedins	ADP	_	_	1	case	_	_
+6	sensa	sensa	ADP	_	_	1	case	_	_
+7	culhier	culher	NOUN	_	_	10	obl	_	_
+8	e	e	CCONJ	_	_	1	cc	_	_
+9	portam	portar	VERB	_	_	1	conj	_	_
+10	la	lo	DET	_	_	11	det	_	_
+11	bolhida	bolhida	NOUN	_	_	9	obj	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	la	lo	DET	_	_	14	det	_	_
+14	boca	boca	NOUN	_	_	9	obl	_	_
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 11
+# text = Los dets ne’n venián neirs de tant que los pichava .
+1	Los	lo	DET	_	_	2	det	_	_
+2	dets	det	NOUN	_	_	4	nsubj	_	_
+3	ne’n	ne	PRON	_	_	4	nsubj	_	_
+4	venián	venir	VERB	_	_	0	root	_	_
+5	neirs	neir	NOUN	_	_	4	obl	_	_
+6	de	de	ADP	_	_	4	case	_	_
+7	tant	tant	ADV	_	_	4	advmod	_	_
+8	que	que	SCONJ	_	_	1	mark	_	_
+9	los	lo	DET	_	_	10	det	_	_
+10	pichava	pichar	VERB	_	_	4	ccomp	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 12
+# text = Lo Francés s' èra tornat aprochar de son paire e , li prenguent sas mans dins las seunas , assajava en lo fintant de li parlar plan doçament .
+1	Lo	lo	DET	_	_	2	det	_	_
+2	Francés	Francés	PROPN	_	_	5	nsubj	_	_
+3	s'	se	PRON	_	_	4	nsubj	_	_
+4	èra	èsser	AUX	_	_	5	conj	_	_
+5	tornat	tornar	VERB	_	_	0	root	_	_
+6	aprochar	aprochar	VERB	_	_	5	xcomp	_	_
+7	de	de	ADP	_	_	6	mark	_	_
+8	son	son	DET	_	_	9	det	_	_
+9	paire	paire	NOUN	_	_	20	nsubj	_	_
+10	e	e	CCONJ	_	_	9	cc	_	_
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	li	li	PRON	_	_	13	nsubj	_	_
+13	prenguent	prene	VERB	_	_	2	acl	_	_
+14	sas	son	DET	_	_	15	det	_	_
+15	mans	man	NOUN	_	_	1	obl	_	_
+16	dins	dins	ADP	_	_	18	case	_	_
+17	las	lo	DET	_	_	18	det	_	_
+18	seunas	sieu	NOUN	_	_	1	obl	_	_
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	assajava	assajar	VERB	_	_	5	conj	_	_
+21	en	en	ADP	_	_	20	mark	_	_
+22	lo	lo	DET	_	_	2	det	_	_
+23	fintant	fintar	VERB	_	_	2	acl	_	_
+24	de	de	ADP	_	_	20	mark	_	_
+25	li	li	PRON	_	_	20	obj	_	_
+26	parlar	parlar	VERB	_	_	2	acl	_	_
+27	plan	plan	ADV	_	_	20	advmod	_	_
+28	doçament	doçament	NOUN	_	_	21	obl	_	_
+29	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 13
+# text = Aquel repais pres sus lo sirveton nos requinquilhèt un brave bocin .
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	repais	repais	NOUN	_	_	3	nsubj	_	_
+3	pres	prene	VERB	_	_	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	sus	sus	ADP	_	_	6	case	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	sirveton	sirveton	NOUN	_	_	3	obj	_	_
+7	nos	nos	PRON	_	_	8	nsubj	_	_
+8	requinquilhèt	requinquilhar	VERB	_	_	3	conj	_	_
+9	un	un	DET	_	_	11	det	_	_
+10	brave	brave	ADJ	_	_	11	amod	_	_
+11	bocin	bocin	NOUN	_	_	8	obj	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 14
+# text = Lo gost es pas marrit , siáu segur que n' ai agut manjat e puei tot me reven : òc , es aquò : es la sopa de farineta .
+1	Lo	lo	DET	_	_	13	dep	_	_
+2	gost	gost	NOUN	_	_	1	nsubj	_	_
+3	es	èsser	AUX	_	_	18	conj	_	_
+4	pas	pas	ADV	_	_	3	advmod	_	_
+5	marrit	marrit	ADJ	_	_	2	amod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	siáu	èsser	AUX	_	_	18	conj	_	_
+8	segur	segur	ADJ	_	_	18	amod	_	_
+9	que	que	SCONJ	_	_	1	mark	_	_
+10	n'	ne	DET	_	_	13	det	_	_
+11	ai	aver	AUX	_	_	18	conj	_	_
+12	agut	aver	AUX	_	_	18	conj	_	_
+13	manjat	manjar	VERB	_	_	0	root	_	_
+14	e	e	CCONJ	_	_	1	cc	_	_
+15	puei	puei	ADV	_	_	11	advmod	_	_
+16	tot	tot	DET	_	_	13	det	_	_
+17	me	me	PRON	_	_	18	nsubj	_	_
+18	reven	revenir	VERB	_	_	9	ccomp	_	_
+19	:	:	PUNCT	_	_	14	punct	_	_
+20	òc	òc	INTJ	_	_	1	discourse	_	_
+21	,	,	PUNCT	_	_	17	punct	_	_
+22	es	èsser	AUX	_	_	18	conj	_	_
+23	aquò	aquò	PRON	_	_	2	nmod:poss	_	_
+24	:	:	PUNCT	_	_	20	punct	_	_
+25	es	èsser	AUX	_	_	18	conj	_	_
+26	la	lo	DET	_	_	27	det	_	_
+27	sopa	sopa	NOUN	_	_	22	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	farineta	farineta	NOUN	_	_	23	nmod	_	_
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 15
+# text = Doncas es el que prenèm .
+1	Doncas	doncas	ADV	_	_	5	advmod	_	_
+2	es	èsser	AUX	_	_	5	csubj	_	_
+3	el	el	DET	_	_	5	det	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	prenèm	prendre	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 16
+# text = Aquel jorn , èra gaireben joial .
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	jorn	jorn	NOUN	_	_	4	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	èra	èsser	AUX	_	_	0	root	_	_
+5	gaireben	gaireben	ADV	_	_	4	advmod	_	_
+6	joial	joial	ADJ	_	_	2	amod	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = Pèr comprene çò que s’ es passat , un Dieu ò sèmbla-Dieu a una ressorça especiala .
+1	Pèr	pèr	ADP	_	_	3	case	_	_
+2	comprene	comprene	VERB	_	_	0	root	_	_
+3	çò	çò	PRON	_	_	2	obj	_	_
+4	que	que	SCONJ	_	_	2	mark	_	_
+5-6	s’es	_	_	_	_	_	_	_	_
+5	s’	se	PRON	_	_	6	nsubj	_	_
+6	es	èsser	AUX	_	_	7	conj	_	_
+7	passat	passar	VERB	_	_	2	conj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	Dieu	dieu	NOUN	_	_	13	nsubj	_	_
+11	ò	ò	CCONJ	_	_	1	cc	_	_
+12	sèmbla-Dieu	sèmbla-dieu	NOUN	_	_	10	appos	_	_
+13	a	aver	AUX	_	_	2	conj	_	_
+14	una	un	DET	_	_	15	det	_	_
+15	ressorça	ressorça	NOUN	_	_	13	obj	_	_
+16	especiala	especial	ADJ	_	_	15	amod	_	_
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 18
+# text = Un a beu èsser malandrós dempuei sieis mes , èsser pas lonh de lo quatre-vint quinze , un a beu s’ i esperar un pauc , quò fai totjorn un petit quauquaren de se veire mòrt .
+1	Un	un	DET	_	_	3	det	_	_
+2	a	a	ADP	_	_	3	mark	_	_
+3	beu	beure	VERB	_	_	0	root	_	_
+4	èsser	èsser	AUX	_	_	3	xcomp	_	_
+5	malandrós	malandrós	ADJ	_	_	8	amod	_	_
+6	dempuei	dempuei	ADP	_	_	8	case	_	_
+7	sieis	sieis	NUM	_	_	6	nummod	_	_
+8	mes	mes	NOUN	_	_	3	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	èsser	èsser	AUX	_	_	3	xcomp	_	_
+11	pas	pas	ADV	_	_	10	advmod	_	_
+12	lonh	lonh	ADV	_	_	10	advmod	_	_
+13-14	daus	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	19	mark	_	_
+14	lo	lo	DET	_	_	5	det	_	_
+15	quatre-vint	quatre-vint	NUM	_	_	1	nummod	_	_
+16	quinze	quinze	NUM	_	_	1	nummod	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	un	un	DET	_	_	20	det	_	_
+19	a	aver	AUX	_	_	28	csubj	_	_
+20	beu	beu	VERB	_	_	17	ccomp	_	_
+21	s’	se	PRON	_	_	20	obj	_	_
+22	i	i	ADP	_	_	20	mark	_	_
+23	esperar	esperar	VERB	_	_	20	xcomp	_	_
+24	un	un	DET	_	_	25	det	_	_
+25	pauc	pauc	NOUN	_	_	2	obl	_	_
+26	,	,	PUNCT	_	_	21	punct	_	_
+27	quò	quò	PRON	_	_	2	nsubj	_	_
+28	fai	far~faire	VERB	_	_	32	acl	_	_
+29	totjorn	totjorn	ADV	_	_	20	advmod	_	_
+30	un	un	DET	_	_	32	det	_	_
+31	petit	petit	ADJ	_	_	32	amod	_	_
+32	quauquaren	quauquaren	NOUN	_	_	2	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	se	se	PRON	_	_	30	obl	_	_
+35	veire	veire	VERB	_	_	3	xcomp	_	_
+36	mòrt	mòrt	ADJ	_	_	3	xcomp	_	_
+37	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 19
+# text = Amont d’ en naut .
+1	Amont	amont	ADV	_	_	4	advmod	_	_
+2	d’	de	ADP	_	_	4	case	_	_
+3	en	en	DET	_	_	4	det	_	_
+4	naut	naut	NOUN	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 20
+# text = Lo cran arrasat a blanc sonque la halha .
+1	Lo	lo	DET	_	_	2	det	_	_
+2	cran	cran	NOUN	_	_	3	nsubj	_	_
+3	arrasat	arrasar	VERB	_	_	0	root	_	_
+4	a	a	ADP	_	_	3	mark	_	_
+5	blanc	blanc	NOUN	_	_	3	obj	_	_
+6	sonque	sonque	SCONJ	_	_	3	mark	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	halha	halha	NOUN	_	_	3	obl	_	_
+9	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 21
+# text = Es un trabalh que fasiá dins sa precedenta asinariá .
+1	Es	èsser	AUX	_	_	5	advcl	_	_
+2	un	un	DET	_	_	3	det	_	_
+3	trabalh	trabalh	NOUN	_	_	5	nsubj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	fasiá	far~faire	VERB	_	_	0	root	_	_
+6	dins	dins	ADP	_	_	5	case	_	_
+7	sa	son	DET	_	_	8	det	_	_
+8	precedenta	precedent	ADJ	_	_	9	amod	_	_
+9	asinariá	asinariá	VERB	_	_	5	ccomp	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 22
+# text = E de minjar hormatge ?
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	de	de	ADP	_	_	3	mark	_	_
+3	minjar	minjar	VERB	_	_	0	root	_	_
+4	hormatge	hormatge	NOUN	_	_	3	obj	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 23
+# text = Que seràs lèu grasset !
+1	Que	que	SCONJ	_	_	2	mark	_	_
+2	seràs	èsser	AUX	_	_	0	root	_	_
+3	lèu	lèu	ADV	_	_	2	advmod	_	_
+4	grasset	grasset	ADJ	_	_	2	amod	_	_
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 24
+# text = Que lo se voleràn préner a Sent Per , en convent ...
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	lo	lo	PRON	_	_	4	nsubj	_	_
+3	se	se	PRON	_	_	4	nsubj	_	_
+4	voleràn	voler	VERB	_	_	0	root	_	_
+5	préner	préner	VERB	_	_	4	xcomp	_	_
+6	a	a	ADP	_	_	5	mark	_	_
+7	Sent	Sent	PROPN	_	_	5	obj	_	_
+8	Per	Per	PROPN	_	_	7	compound	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	convent	convent	NOUN	_	_	5	obl	_	_
+12	...	...	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 25
+# text = De bombas atomicas , ne larga dotze .
+1	De	de	ADP	_	_	2	case	_	_
+2	bombas	bomba	NOUN	_	_	6	nsubj	_	_
+3	atomicas	atomic	ADJ	_	_	2	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	ne	ne	PART	_	_	6	mark	_	_
+6	larga	largar	VERB	_	_	0	root	_	_
+7	dotze	12	NUM	_	_	6	nummod	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 26
+# text = La sola besonha que me pòde encara recordar , es mas una scèna .
+1	La	lo	DET	_	_	3	det	_	_
+2	sola	sol	ADJ	_	_	3	amod	_	_
+3	besonha	besonha	NOUN	_	_	6	nsubj	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	me	me	PRON	_	_	6	nsubj	_	_
+6	pòde	poder	VERB	_	_	0	root	_	_
+7	encara	encara	ADV	_	_	6	advmod	_	_
+8	recordar	recordar	VERB	_	_	6	xcomp	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	es	èsser	AUX	_	_	6	ccomp	_	_
+11	mas	mas	ADV	_	_	10	advmod	_	_
+12	una	un	DET	_	_	13	det	_	_
+13	scèna	scèna	NOUN	_	_	10	obj	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 27
+# text = Que s' i viu a la cosina .
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	s'	se	PRON	_	_	4	nsubj	_	_
+3	i	i	CCONJ	_	_	1	cc	_	_
+4	viu	viure	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	4	case	_	_
+6	la	lo	DET	_	_	7	det	_	_
+7	cosina	cosina	NOUN	_	_	4	obl	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 28
+# text = La guèrra , se n'en parlava gaire que ren se passava , e alevat que mon paire èra mobilisat , que ma maire que me veniá veire en cò de ma grand , rintrava sovent de tard o partiá d' ora per son trabalh de lo trams , m' avisavi de ren .
+1	La	lo	DET	_	_	2	det	_	_
+2	guèrra	guèrra	NOUN	_	_	6	nsubj	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	se	se	PRON	_	_	41	nmod:poss	_	_
+5	n'en	ne	PRON	_	_	6	nsubj	_	_
+6	parlava	parlar	VERB	_	_	0	root	_	_
+7	gaire	gaire	ADV	_	_	6	advmod	_	_
+8	que	que	SCONJ	_	_	1	mark	_	_
+9	ren	ren	PRON	_	_	10	nsubj	_	_
+10	se	se	PRON	_	_	11	nsubj	_	_
+11	passava	passar	VERB	_	_	6	ccomp	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	e	e	CCONJ	_	_	1	cc	_	_
+14	alevat	alevat	ADJ	_	_	6	amod	_	_
+15	que	que	SCONJ	_	_	1	mark	_	_
+16	mon	mon	DET	_	_	17	det	_	_
+17	paire	paire	NOUN	_	_	14	nsubj	_	_
+18	èra	èsser	AUX	_	_	19	conj	_	_
+19	mobilisat	mobilisar	VERB	_	_	1	ccomp	_	_
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	que	que	SCONJ	_	_	1	mark	_	_
+22	ma	mon	DET	_	_	23	det	_	_
+23	maire	maire	NOUN	_	_	20	nsubj	_	_
+24	que	que	SCONJ	_	_	1	mark	_	_
+25	me	me	PRON	_	_	2	nmod:poss	_	_
+26	veniá	venir	VERB	_	_	2	acl	_	_
+27	veire	veire	VERB	_	_	2	acl	_	_
+28	en	en	ADP	_	_	29	case	_	_
+29	cò	cò	NOUN	_	_	2	nmod	_	_
+30	de	de	ADP	_	_	26	case	_	_
+31	ma	mon	DET	_	_	32	det	_	_
+32	grand	grand	NOUN	_	_	2	nmod	_	_
+33	,	,	PUNCT	_	_	30	punct	_	_
+34	rintrava	rintrar	VERB	_	_	11	conj	_	_
+35	sovent	sovent	ADV	_	_	34	advmod	_	_
+36	de	de	ADP	_	_	34	mark	_	_
+37	tard	tard	ADV	_	_	34	advmod	_	_
+38	o	o	CCONJ	_	_	3	cc	_	_
+39	partiá	partir	VERB	_	_	32	acl	_	_
+40	d'	de	ADP	_	_	34	mark	_	_
+41	ora	ora	NOUN	_	_	30	nmod	_	_
+42	per	per	ADP	_	_	44	case	_	_
+43	son	son	DET	_	_	44	det	_	_
+44	trabalh	trabalh	NOUN	_	_	30	nmod	_	_
+45-46	dei	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	lo	lo	DET	_	_	47	det	_	_
+47	trams	tram	NOUN	_	_	44	nmod	_	_
+48	,	,	PUNCT	_	_	44	punct	_	_
+49	m'	me	PRON	_	_	50	nsubj	_	_
+50	avisavi	avisar	VERB	_	_	1	ccomp	_	_
+51	de	de	ADP	_	_	6	dep	_	_
+52	ren	ren	PRON	_	_	51	obl	_	_
+53	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 29
+# text = Dins lo recanton de la sala an cavat dins la ròca un silò tapat amb un curbecèu de pèira que per l’ auborar se li meton a tres .
+1	Dins	dins	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	_	3	det	_	_
+3	recanton	recanton	NOUN	_	_	8	nsubj	_	_
+4	de	de	ADP	_	_	14	mark	_	_
+5	la	lo	DET	_	_	6	det	_	_
+6	sala	sala	NOUN	_	_	8	nsubj	_	_
+7	an	aver	AUX	_	_	8	advcl	_	_
+8	cavat	cavar	VERB	_	_	0	root	_	_
+9	dins	dins	ADP	_	_	11	case	_	_
+10	la	lo	DET	_	_	11	det	_	_
+11	ròca	ròca	NOUN	_	_	8	obl	_	_
+12	un	un	DET	_	_	13	det	_	_
+13	silò	silò	NOUN	_	_	8	obj	_	_
+14	tapat	tapar	VERB	_	_	11	acl	_	_
+15	amb	amb	ADP	_	_	17	case	_	_
+16	un	un	DET	_	_	17	det	_	_
+17	curbecèu	curbecèu	NOUN	_	_	11	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	pèira	pèira	NOUN	_	_	11	nmod	_	_
+20	que	que	PRON	_	_	23	nsubj	_	_
+21	per	per	ADP	_	_	8	dep	_	_
+22	l’	lo	PRON	_	_	21	obl	_	_
+23	auborar	auborar	VERB	_	_	11	acl	_	_
+24	se	se	PRON	_	_	25	nsubj	_	_
+25	li	i	PRON	_	_	20	obl	_	_
+26	meton	metre	VERB	_	_	21	xcomp	_	_
+27	a	a	ADP	_	_	23	mark	_	_
+28	tres	tres	NUM	_	_	2	nummod	_	_
+29	.	.	PUNCT	_	_	8	dep	_	_
+
+# sent_id = 30
+# text = S’ ensagèron totei leis insecticids pèr un chaple definitiu .
+1	S’	se	PRON	_	_	2	nsubj	_	_
+2	ensagèron	ensajar	VERB	_	_	0	root	_	_
+3	totei	tot	DET	_	_	5	det	_	_
+4	leis	lo	DET	_	_	5	det	_	_
+5	insecticids	insecticid	NOUN	_	_	2	obj	_	_
+6	pèr	pèr	ADP	_	_	2	mark	_	_
+7	un	un	DET	_	_	8	det	_	_
+8	chaple	chaple	NOUN	_	_	2	obl	_	_
+9	definitiu	definitiu	ADJ	_	_	8	amod	_	_
+10	.	.	PUNCT	_	_	2	dep	_	_
+
+# sent_id = 31
+# text = Qu’ ei disponible en DVD , dab sostitolatge en occitan o en francés .
+1	Qu’	que	SCONJ	_	_	2	mark	_	_
+2	ei	èsser	AUX	_	_	0	root	_	_
+3	disponible	disponible	ADJ	_	_	5	amod	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	DVD	DVD	NOUN	_	_	2	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	dab	dab	ADP	_	_	8	case	_	_
+8	sostitolatge	sostitolatge	NOUN	_	_	2	obl	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	occitan	occitan	NOUN	_	_	8	nmod	_	_
+11	o	o	CCONJ	_	_	1	cc	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	francés	francés	NOUN	_	_	1	obl	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 32
+# text = a lo bon moment , lo hilh de lo rei se botèc la pluma dens la boca .
+1-2	Au	_	_	_	_	_	_	_	_
+1	a	a	ADP	_	_	12	dep	_	_
+2	lo	lo	DET	_	_	4	det	_	_
+3	bon	bon	ADJ	_	_	4	amod	_	_
+4	moment	moment	NOUN	_	_	1	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	lo	lo	DET	_	_	7	det	_	_
+7	hilh	hilh	NOUN	_	_	12	nsubj	_	_
+8-9	deu	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	lo	lo	DET	_	_	10	det	_	_
+10	rei	rei	NOUN	_	_	7	nmod	_	_
+11	se	se	PRON	_	_	10	nmod:poss	_	_
+12	botèc	botar	VERB	_	_	0	root	_	_
+13	la	lo	DET	_	_	14	det	_	_
+14	pluma	pluma	NOUN	_	_	1	obl	_	_
+15	dens	dens	ADP	_	_	17	case	_	_
+16	la	lo	DET	_	_	17	det	_	_
+17	boca	boca	NOUN	_	_	1	obl	_	_
+18	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 33
+# text = Autra causa estranha , èra qu’ aquel nom èra la quita definicion de l' espaci concebut coma luòc de residéncia de mon monde .
+1	Autra	autre	ADJ	_	_	16	amod	_	_
+2	causa	causa	NOUN	_	_	1	nsubj	_	_
+3	estranha	estranh	ADJ	_	_	2	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	èra	èsser	AUX	_	_	16	csubj	_	_
+6	qu’	que	SCONJ	_	_	5	mark	_	_
+7	aquel	aquel	DET	_	_	8	det	_	_
+8	nom	nom	NOUN	_	_	24	nsubj	_	_
+9	èra	èsser	AUX	_	_	16	csubj	_	_
+10	la	lo	DET	_	_	12	det	_	_
+11	quita	quite	ADJ	_	_	12	amod	_	_
+12	definicion	definicion	NOUN	_	_	19	obl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	l'	lo	DET	_	_	15	det	_	_
+15	espaci	espaci	NOUN	_	_	1	obl	_	_
+16	concebut	concebre	VERB	_	_	0	root	_	_
+17	coma	coma	SCONJ	_	_	1	mark	_	_
+18	luòc	luòc	NOUN	_	_	1	obl	_	_
+19	de	de	ADP	_	_	16	mark	_	_
+20	residéncia	residéncia	NOUN	_	_	1	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	mon	mon	DET	_	_	23	det	_	_
+23	monde	monde	NOUN	_	_	20	nmod	_	_
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 34
+# text = Que 'm torni estonar e encolerar .
+1	Que	que	SCONJ	_	_	3	mark	_	_
+2	'm	me	PRON	_	_	3	nsubj	_	_
+3	torni	tornar	VERB	_	_	0	root	_	_
+4	estonar	estonar	VERB	_	_	3	conj	_	_
+5	e	e	CCONJ	_	_	4	cc	_	_
+6	encolerar	encolerar	VERB	_	_	4	conj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 35
+# text = Consí far per se 'n tirar ?
+1	Consí	consí	VERB	_	_	0	root	_	_
+2	far	far	VERB	_	_	1	xcomp	_	_
+3	per	per	ADP	_	_	1	mark	_	_
+4	se	se	PRON	_	_	6	nsubj	_	_
+5	'n	ne	ADP	_	_	6	mark	_	_
+6	tirar	tirar	VERB	_	_	2	ccomp	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 36
+# text = Dins l' afar d' un beleg trapèri totas las rasons de lo monde per justificar sa vetustat .
+1	Dins	dins	ADP	_	_	15	mark	_	_
+2	l'	lo	DET	_	_	10	det	_	_
+3	afar	afar	ADV	_	_	15	advmod	_	_
+4	d'	de	ADP	_	_	7	case	_	_
+5	un	un	DET	_	_	7	det	_	_
+6	beleg	beleg	ADJ	_	_	7	amod	_	_
+7	trapèri	trapar	NOUN	_	_	10	nmod	_	_
+8	totas	tot	DET	_	_	10	det	_	_
+9	las	lo	NOUN	_	_	15	nsubj	_	_
+10	rasons	rason	NOUN	_	_	15	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	lo	lo	DET	_	_	13	det	_	_
+13	monde	monde	NOUN	_	_	10	nmod	_	_
+14	per	per	ADP	_	_	15	dep	_	_
+15	justificar	justificar	VERB	_	_	0	root	_	_
+16	sa	son	PRON	_	_	10	nmod:poss	_	_
+17	vetustat	vetustat	NOUN	_	_	14	obl	_	_
+18	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 37
+# text = Nadal qu’ èra aderent a nombrosas associacions , la Companhia de lo escrivans de Tarn e Garona , l’ Associacion Miguel de Cervantes , l’ Acadèmia de Montauban , l’ Acadèmia de Lengadòc ...
+1	Nadal	Nadal	PROPN	_	_	3	nsubj	_	_
+2	qu’	que	SCONJ	_	_	3	mark	_	_
+3	èra	èsser	AUX	_	_	0	root	_	_
+4	aderent	aderent	ADJ	_	_	1	amod	_	_
+5	a	a	ADP	_	_	3	mark	_	_
+6	nombrosas	nombrós	ADJ	_	_	7	amod	_	_
+7	associacions	associacion	NOUN	_	_	33	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	Companhia	companhia	PROPN	_	_	7	appos	_	_
+11-12	deus	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	lo	lo	DET	_	_	13	det	_	_
+13	escrivans	escrivan	NOUN	_	_	10	nmod	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	Tarn	Tarn	PROPN	_	_	11	nmod	_	_
+16	e	e	CCONJ	_	_	1	cc	_	_
+17	Garona	Garona	PROPN	_	_	10	nmod	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	l’	lo	DET	_	_	20	det	_	_
+20	Associacion	associacion	PROPN	_	_	7	appos	_	_
+21	Miguel	Miguel	PROPN	_	_	27	nmod	_	_
+22	de	de	ADP	_	_	26	case	_	_
+23	Cervantes	Cervantes	PROPN	_	_	2	nmod	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	l’	lo	DET	_	_	26	det	_	_
+26	Acadèmia	acadèmia	PROPN	_	_	2	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Montauban	Montauban	PROPN	_	_	2	nmod	_	_
+29	,	,	PUNCT	_	_	26	punct	_	_
+30	l’	lo	DET	_	_	31	det	_	_
+31	Acadèmia	acadèmia	PROPN	_	_	2	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Lengadòc	Lengadòc	PROPN	_	_	30	nmod	_	_
+34	...	...	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 38
+# text = Que 'u n' èi parlat a eth curè adès .
+1	Que	que	SCONJ	_	_	5	mark	_	_
+2	'u	'u	PRON	_	_	5	nsubj	_	_
+3	n'	ne	DET	_	_	5	det	_	_
+4	èi	aver	AUX	_	_	5	conj	_	_
+5	parlat	parlar	VERB	_	_	0	root	_	_
+6-7	ath	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	5	case	_	_
+7	eth	eth	DET	_	_	8	det	_	_
+8	curè	curè	NOUN	_	_	5	obj	_	_
+9	adès	adès	ADV	_	_	5	advmod	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 39
+# text = Adès encòra , a lo darrèr de la hormigueta , b' an shisclat soviers e malícia .
+1	Adès	adès	ADV	_	_	12	advmod	_	_
+2	encòra	encòra	ADV	_	_	1	advmod	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4-5	au	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	13	mark	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	darrèr	darrèr	ADJ	_	_	9	amod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	lo	DET	_	_	9	det	_	_
+9	hormigueta	hormigueta	NOUN	_	_	12	nsubj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	b'	que	PRON	_	_	1	nsubj	_	_
+12	an	aver	AUX	_	_	13	conj	_	_
+13	shisclat	shisclar	VERB	_	_	0	root	_	_
+14	soviers	sovier	NOUN	_	_	12	obj	_	_
+15	e	e	CCONJ	_	_	1	cc	_	_
+16	malícia	malícia	NOUN	_	_	1	obl	_	_
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 40
+# text = Tot en un còp , me sentiguèri las , fatigat que non se pòt mai .
+1	Tot	tot	DET	_	_	4	det	_	_
+2	en	en	ADP	_	_	4	case	_	_
+3	un	un	DET	_	_	4	det	_	_
+4	còp	còp	NOUN	_	_	7	nsubj	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	me	me	PRON	_	_	7	nsubj	_	_
+7	sentiguèri	sentir	VERB	_	_	0	root	_	_
+8	las	las	PRON	_	_	7	obj	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	fatigat	fatigat	ADJ	_	_	7	xcomp	_	_
+11	que	que	SCONJ	_	_	1	mark	_	_
+12	non	non	PART	_	_	1	mark	_	_
+13	se	se	PRON	_	_	1	nsubj	_	_
+14	pòt	poder	VERB	_	_	1	ccomp	_	_
+15	mai	mai	ADV	_	_	10	advmod	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 41
+# text = Atanben , entre los traucasses e la ròca que limpa , cal far atencion en davalant en bicicleta .
+1	Atanben	atanben	ADV	_	_	10	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	entre	entre	ADP	_	_	5	case	_	_
+4	los	lo	DET	_	_	5	det	_	_
+5	traucasses	traucàs	NOUN	_	_	10	nsubj	_	_
+6	e	e	CCONJ	_	_	5	cc	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	ròca	ròca	NOUN	_	_	5	appos	_	_
+9	que	que	SCONJ	_	_	1	mark	_	_
+10	limpa	limpar	VERB	_	_	0	root	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	cal	caler	AUX	_	_	13	conj	_	_
+13	far	far	VERB	_	_	11	ccomp	_	_
+14	atencion	atencion	NOUN	_	_	10	obj	_	_
+15	en	en	ADP	_	_	18	case	_	_
+16	davalant	davalar	VERB	_	_	14	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	bicicleta	bicicleta	NOUN	_	_	10	obl	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 42
+# text = Es aquí que passère las dotze promèiras annadas de ma vida ambe mon fraire Franc .
+1	Es	èsser	AUX	_	_	4	advcl	_	_
+2	aquí	aquí	ADV	_	_	4	advmod	_	_
+3	que	que	SCONJ	_	_	1	mark	_	_
+4	passère	passar	VERB	_	_	0	root	_	_
+5	las	lo	DET	_	_	8	det	_	_
+6	dotze	dotze	NUM	_	_	8	nummod	_	_
+7	promèiras	promèir	ADJ	_	_	8	amod	_	_
+8	annadas	annada	NOUN	_	_	4	obj	_	_
+9	de	de	ADP	_	_	1	case	_	_
+10	ma	mon	DET	_	_	11	det	_	_
+11	vida	vida	NOUN	_	_	9	nmod	_	_
+12	ambe	ambe	ADP	_	_	1	case	_	_
+13	mon	mon	DET	_	_	14	det	_	_
+14	fraire	fraire	NOUN	_	_	1	obl	_	_
+15	Franc	Franc	PROPN	_	_	1	obl	_	_
+16	.	.	PUNCT	_	_	4	dep	_	_
+
+# sent_id = 43
+# text = Començava de ganivelar , de se cherchinhar dobe son mur e mèstre .
+1	Començava	començar	VERB	_	_	0	root	_	_
+2	de	de	ADP	_	_	1	mark	_	_
+3	ganivelar	ganivelar	VERB	_	_	10	acl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	de	de	ADP	_	_	7	mark	_	_
+6	se	se	PRON	_	_	7	nsubj	_	_
+7	cherchinhar	cherchinhar	VERB	_	_	1	conj	_	_
+8	dobe	dobe	ADV	_	_	7	advmod	_	_
+9	son	son	AUX	_	_	1	xcomp	_	_
+10	mur	mur	NOUN	_	_	9	obj	_	_
+11	e	e	CCONJ	_	_	1	cc	_	_
+12	mèstre	mèstre	NOUN	_	_	13	nsubj	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 44
+# text = Deu gelar e gelarà solide tota la jornada , pasmens gela gaire .
+1	Deu	deure	VERB	_	_	0	root	_	_
+2	gelar	gelar	VERB	_	_	1	conj	_	_
+3	e	e	CCONJ	_	_	1	cc	_	_
+4	gelarà	gelar	VERB	_	_	1	conj	_	_
+5	solide	solide	ADJ	_	_	8	amod	_	_
+6	tota	tot	DET	_	_	8	det	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	jornada	jornada	NOUN	_	_	1	obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	pasmens	pasmens	ADV	_	_	1	advmod	_	_
+11	gela	gelar	VERB	_	_	1	conj	_	_
+12	gaire	gaire	ADV	_	_	1	advmod	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 45
+# text = L' enfant polit las velhèt .
+1	L'	lo	DET	_	_	2	det	_	_
+2	enfant	enfant	NOUN	_	_	3	nsubj	_	_
+3	polit	polit	VERB	_	_	0	root	_	_
+4	las	lo	DET	_	_	5	det	_	_
+5	velhèt	velhar	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 46
+# text = Qu' es luènh , mon Dieu !
+1	Qu'	que	SCONJ	_	_	2	mark	_	_
+2	es	èsser	AUX	_	_	0	root	_	_
+3	luènh	luènh	ADJ	_	_	6	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	mon	mon	DET	_	_	6	det	_	_
+6	Dieu	Dieu	PROPN	_	_	2	obj	_	_
+7	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 47
+# text = Que ’s harà cantorau de la soa lenga mairau e promotor de la vitalitat de lo ainats .
+1	Que	que	PRON	_	_	4	nsubj	_	_
+2	’s	se	PRON	_	_	3	nsubj	_	_
+3	harà	har	AUX	_	_	4	conj	_	_
+4	cantorau	cantorau	VERB	_	_	0	root	_	_
+5	de	de	ADP	_	_	4	case	_	_
+6	la	lo	DET	_	_	8	det	_	_
+7	soa	son	ADJ	_	_	8	amod	_	_
+8	lenga	lenga	NOUN	_	_	4	obl	_	_
+9	mairau	mairau	ADJ	_	_	8	amod	_	_
+10	e	e	CCONJ	_	_	4	cc	_	_
+11	promotor	promotor	NOUN	_	_	4	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	la	la	DET	_	_	14	det	_	_
+14	vitalitat	vitalitat	NOUN	_	_	1	obl	_	_
+15-16	deus	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	lo	lo	DET	_	_	17	det	_	_
+17	ainats	ainat	NOUN	_	_	1	obl	_	_
+18	.	.	PUNCT	_	_	4	dep	_	_
+
+# sent_id = 48
+# text = Paire , t' ajudarem !
+1	Paire	paire	NOUN	_	_	4	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	t'	te	PRON	_	_	4	nsubj	_	_
+4	ajudarem	ajudar	VERB	_	_	0	root	_	_
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 49
+# text = Chau reconéisser que , per lo mens a la debuta , ne’n fuguèrem fòrça benaises .
+1	Chau	chaler	VERB	_	_	0	root	_	_
+2	reconéisser	reconéisser	VERB	_	_	1	xcomp	_	_
+3	que	que	SCONJ	_	_	2	mark	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	_	_	13	mark	_	_
+6	lo	lo	DET	_	_	7	det	_	_
+7	mens	mens	NOUN	_	_	13	nsubj	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	debuta	debuta	NOUN	_	_	7	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ne’n	ne'n	PRON	_	_	10	nmod:poss	_	_
+13	fuguèrem	èsser	AUX	_	_	1	ccomp	_	_
+14	fòrça	fòrça	ADV	_	_	1	advmod	_	_
+15	benaises	benaise	ADJ	_	_	1	xcomp	_	_
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 50
+# text = Atau apèran los marchands que corron las heras , vestits d' un gran manto semiat de coscolhas , dambe lo bordon a la man , entà véner objècts de pietat .
+1	Atau	atau	CCONJ	_	_	2	cc	_	_
+2	apèran	apèrar	VERB	_	_	0	root	_	_
+3	los	lo	DET	_	_	4	det	_	_
+4	marchands	marchand	NOUN	_	_	2	obj	_	_
+5	que	que	SCONJ	_	_	2	mark	_	_
+6	corron	còrrer	VERB	_	_	21	acl	_	_
+7	las	lo	DET	_	_	8	det	_	_
+8	heras	hera	NOUN	_	_	6	obj	_	_
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	vestits	vestir	VERB	_	_	2	xcomp	_	_
+11	d'	de	ADP	_	_	14	case	_	_
+12	un	un	DET	_	_	14	det	_	_
+13	gran	gran	ADJ	_	_	14	amod	_	_
+14	manto	manto	NOUN	_	_	1	obl	_	_
+15	semiat	semiatr	ADJ	_	_	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	coscolhas	coscolha	NOUN	_	_	1	obl	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	dambe	dambe	ADP	_	_	21	case	_	_
+20	lo	lo	DET	_	_	21	det	_	_
+21	bordon	bordon	NOUN	_	_	1	obl	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	la	lo	DET	_	_	24	det	_	_
+24	man	man	NOUN	_	_	2	obl	_	_
+25	,	,	PUNCT	_	_	21	punct	_	_
+26	entà	entà	ADP	_	_	2	mark	_	_
+27	véner	véner	VERB	_	_	2	xcomp	_	_
+28	objècts	objèct	NOUN	_	_	2	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	pietat	pietat	NOUN	_	_	2	obl	_	_
+31	.	.	PUNCT	_	_	26	punct	_	_
+

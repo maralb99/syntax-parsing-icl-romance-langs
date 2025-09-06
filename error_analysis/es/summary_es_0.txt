@@ -1,0 +1,423 @@
+SUMMARY ERROR ANALYSIS: es_0.conllu vs. gold_file_es.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1139
+UPOS errors: 83 (7.29%)
+HEAD errors: 628 (55.14%)
+DEPREL errors: 438 (38.45%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'que': 9 errors (0.78%)
+'como': 4 errors (0.35%)
+'-': 3 errors (0.26%)
+'varios': 2 errors (0.17%)
+'noviembre': 2 errors (0.17%)
+'en': 2 errors (0.17%)
+'es': 2 errors (0.17%)
+'su': 2 errors (0.17%)
+'este': 2 errors (0.17%)
+'no': 2 errors (0.17%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+PROPN → NOUN: 14 occurrences (16.87%)
+Most common error-causing words:
+  'noviembre': 2 times (14.3% of this error)
+  'acta': 1 times (7.1% of this error)
+  'independencia': 1 times (7.1% of this error)
+  'dan': 1 times (7.1% of this error)
+  'copa': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 70: 'Acta' in sentence 3
+     Context: El Acta de
+     Sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+  2. Line 73: 'Independencia' in sentence 3
+     Context: la Independencia de
+     Sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+  3. Line 231: 'noviembre' in sentence 8
+     Context: de noviembre de
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+  4. Line 290: 'Dan' in sentence 10
+     Context: 3er Dan en
+     Sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+  5. Line 455: 'Copa' in sentence 17
+     Context: la Copa del
+     Sentence: Joseph Blatter espera que Nelson Mandela esté saludable para inaugurar la Copa del de el Mundo en Sudáfrica .
+     ... and 9 more occurrences
+
+SCONJ → PRON: 5 occurrences (6.02%)
+Most common error-causing words:
+  'que': 5 times (100.0% of this error)
+
+Examples:
+  1. Line 296: 'que' in sentence 10
+     Context: a que maneje
+     Sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+  2. Line 342: 'que' in sentence 12
+     Context: la que implementa
+     Sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+  3. Line 793: 'que' in sentence 32
+     Context: defensa que más
+     Sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+  4. Line 799: 'que' in sentence 32
+     Context: confian que el
+     Sentence: Vidic es el defensa que más gusta , aunque confian que el serbio pueda recalar la próxima temporada ( ver artículo ) .
+  5. Line 1025: 'que' in sentence 39
+     Context: , que ofrece
+     Sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+VERB → AUX: 5 occurrences (6.02%)
+Most common error-causing words:
+  'es': 2 times (40.0% of this error)
+  'hay': 1 times (20.0% of this error)
+  'había': 1 times (20.0% of this error)
+  'solía': 1 times (20.0% of this error)
+
+Examples:
+  1. Line 337: 'es' in sentence 12
+     Context: , es la
+     Sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+  2. Line 433: 'hay' in sentence 16
+     Context: Aun hay otros
+     Sentence: Aun hay otros reclutados por el Ejército Blanco .
+  3. Line 716: 'es' in sentence 28
+     Context: sushi es de
+     Sentence: El sushi es de mala calidad .
+  4. Line 730: 'había' in sentence 29
+     Context: , había 30104
+     Sentence: Según el censo de 2010 , había 30104 personas residiendo en Brooklyn Center .
+  5. Line 1066: 'solía' in sentence 40
+     Context: canónica solía quedar
+     Sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+DET → PRON: 4 occurrences (4.82%)
+Most common error-causing words:
+  'su': 2 times (50.0% of this error)
+  'mi': 1 times (25.0% of this error)
+  'sus': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 425: 'su' in sentence 15
+     Context: de su Custom
+     Sentence: La vista trasera es la vista en la que el jugador puede ver la parte trasera de su Custom Robo .
+  2. Line 497: 'mi' in sentence 19
+     Context: de mi vida
+     Sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+  3. Line 1042: 'su' in sentence 39
+     Context: por su propia
+     Sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+  4. Line 1051: 'sus' in sentence 39
+     Context: de sus productos
+     Sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+
+AUX → VERB: 4 occurrences (4.82%)
+Most common error-causing words:
+  'ser': 1 times (25.0% of this error)
+  'debía': 1 times (25.0% of this error)
+  'estoy': 1 times (25.0% of this error)
+  'estaba': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 851: 'ser' in sentence 34
+     Context: pretendió ser una
+     Sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+  2. Line 858: 'debía' in sentence 34
+     Context: que debía reemplazar
+     Sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+  3. Line 935: 'Estoy' in sentence 37
+     Context: START Estoy más
+     Sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+  4. Line 1208: 'estaba' in sentence 46
+     Context: ella estaba ganando
+     Sentence: Después acusó a Vera y sus " chicas " de quedarse quedar se corto con los beneficios , Vera desafió a una pelea rápida , que ella estaba ganando hasta que él la golpeó con un cubo de basura .
+
+PRON → DET: 3 occurrences (3.61%)
+Most common error-causing words:
+  'todo': 1 times (33.3% of this error)
+  'ambos': 1 times (33.3% of this error)
+  'esto': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 14: 'todo' in sentence 1
+     Context: sobre todo haciendo
+     Sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+  2. Line 503: 'Ambos' in sentence 20
+     Context: START Ambos son
+     Sentence: Ambos son químicamente idénticos .
+  3. Line 1079: 'Esto' in sentence 41
+     Context: START Esto sin
+     Sentence: Esto sin duda es un gran beneficio para los clientes de Telmex , ya la vez obliga a las demás empresas que ofrecen el servicio telefónico a rebajar sus tarifas .
+
+ADP → ADV: 3 occurrences (3.61%)
+Most common error-causing words:
+  'con': 1 times (33.3% of this error)
+  'en': 1 times (33.3% of this error)
+  'sin': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 89: 'Con' in sentence 4
+     Context: START Con la
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  2. Line 334: 'En' in sentence 12
+     Context: START En realidad
+     Sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+  3. Line 1057: 'Sin' in sentence 40
+     Context: START Sin embargo
+     Sentence: Sin embargo , la aplicación de la ley canónica solía quedar restringida a las áreas bajo control normando .
+
+PUNCT → SYM: 3 occurrences (3.61%)
+Most common error-causing words:
+  '-': 3 times (100.0% of this error)
+
+Examples:
+  1. Line 312: '-' in sentence 11
+     Context: Lite - Brite
+     Sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+  2. Line 532: '-' in sentence 22
+     Context: Mesnil - sur
+     Sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+  3. Line 534: '-' in sentence 22
+     Context: sur - l'Estrée
+     Sentence: Mesnil - sur - l'Estrée es una localidad y comuna francesa situada en la región de Alta Normandía , departamento de Eure , en el distrito de Évreux y cantón de Nonancourt .
+
+CCONJ → SCONJ: 3 occurrences (3.61%)
+Most common error-causing words:
+  'que': 2 times (66.7% of this error)
+  'como': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 849: 'que' in sentence 34
+     Context: fatuo que pretendió
+     Sentence: Se hizo tan fatuo que pretendió ser una emanación de Alá y que debía reemplazar al a el Profeta , a quien El Misericordioso tenga en el Paraíso .
+  2. Line 937: 'que' in sentence 37
+     Context: más que tranquila
+     Sentence: Estoy más que tranquila cuando dejo a Bruc allí pues veo a Eli y Rosa que adoran los animales y el cariño con que lo tratan .
+  3. Line 1130: 'como' in sentence 43
+     Context: así como por
+     Sentence: Es mencionada en la Teología de Hesiodo , así como por Apolodoro , Higino y Homero en su Ilíada .
+
+PRON → PROPN: 2 occurrences (2.41%)
+Most common error-causing words:
+  'los': 1 times (50.0% of this error)
+  'este': 1 times (50.0% of this error)
+
+Examples:
+  1. Line 61: 'Los' in sentence 2
+     Context: de Los 10
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  2. Line 523: 'Este' in sentence 21
+     Context: el Este con
+     Sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+nmod → obl: 35 occurrences (7.99%)
+Most common error-causing words:
+  'hércules': 1 times (2.9% of this error)
+  'año': 1 times (2.9% of this error)
+  'día': 1 times (2.9% of this error)
+  'los': 1 times (2.9% of this error)
+  'columna': 1 times (2.9% of this error)
+
+Examples:
+  1. Line 24: 'Hércules' (UPOS: PROPN) in sentence 1
+     Sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+  2. Line 50: 'año' (UPOS: NOUN) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  3. Line 55: 'día' (UPOS: NOUN) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  4. Line 61: 'Los' (UPOS: PRON) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  5. Line 84: 'columna' (UPOS: NOUN) in sentence 3
+     Sentence: El Acta de la Independencia de Guayaquil , está escrita en el fuste de la columna .
+     ... and 30 more occurrences
+
+case → mark: 25 occurrences (5.71%)
+Most common error-causing words:
+  'de': 7 times (28.0% of this error)
+  'a': 6 times (24.0% of this error)
+  'con': 3 times (12.0% of this error)
+  'que': 3 times (12.0% of this error)
+  'en': 2 times (8.0% of this error)
+
+Examples:
+  1. Line 51: 'con' (UPOS: ADP) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  2. Line 103: 'a' (UPOS: ADP) in sentence 4
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  3. Line 113: 'a' (UPOS: ADP) in sentence 4
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  4. Line 135: 'en' (UPOS: ADP) in sentence 5
+     Sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+  5. Line 150: 'en' (UPOS: ADP) in sentence 5
+     Sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+     ... and 20 more occurrences
+
+punct → dep: 23 occurrences (5.25%)
+Most common error-causing words:
+  '.': 19 times (82.6% of this error)
+  '-': 3 times (13.0% of this error)
+  ';': 1 times (4.3% of this error)
+
+Examples:
+  1. Line 65: ';' (UPOS: PUNCT) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  2. Line 212: '.' (UPOS: PUNCT) in sentence 7
+     Sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+  3. Line 268: '.' (UPOS: PUNCT) in sentence 9
+     Sentence: Suipacha es la estación ferroviaria de la ciudad de Suipacha , partido homónimo , provincia de Buenos Aires , Argentina .
+  4. Line 307: '.' (UPOS: PUNCT) in sentence 10
+     Sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+  5. Line 312: '-' (UPOS: PUNCT) in sentence 11
+     Sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+     ... and 18 more occurrences
+
+obj → obl: 12 occurrences (2.74%)
+Most common error-causing words:
+  'hincapié': 1 times (8.3% of this error)
+  'etapas': 1 times (8.3% of this error)
+  'problema': 1 times (8.3% of this error)
+  'estanquillas': 1 times (8.3% of this error)
+  'interfaz': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 16: 'hincapié' (UPOS: NOUN) in sentence 1
+     Sentence: Lo hizo siguiendo las nuevas corrientes aprendidas en Apulia sobre todo haciendo hincapié en la forma clásica del de el Hércules desnudo .
+  2. Line 118: 'etapas' (UPOS: NOUN) in sentence 4
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  3. Line 205: 'problema' (UPOS: NOUN) in sentence 7
+     Sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+  4. Line 322: 'estanquillas' (UPOS: NOUN) in sentence 11
+     Sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+  5. Line 357: 'interfaz' (UPOS: NOUN) in sentence 12
+     Sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+     ... and 7 more occurrences
+
+obl → nmod: 12 occurrences (2.74%)
+Most common error-causing words:
+  'años': 2 times (16.7% of this error)
+  'abril': 1 times (8.3% of this error)
+  'tablero': 1 times (8.3% of this error)
+  'colegio': 1 times (8.3% of this error)
+  'barra': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 197: 'abril' (UPOS: PROPN) in sentence 7
+     Sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+  2. Line 273: 'años' (UPOS: NOUN) in sentence 10
+     Sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+  3. Line 328: 'tablero' (UPOS: NOUN) in sentence 11
+     Sentence: Lite - Brite permite que el artista cree dibujos iluminados usando estanquillas multicolores de plástico en un tablero negro .
+  4. Line 489: 'colegio' (UPOS: NOUN) in sentence 19
+     Sentence: Ir a este colegio , para mí la peor experiencia de mi vida .
+  5. Line 526: 'Barra' (UPOS: PROPN) in sentence 21
+     Sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+     ... and 7 more occurrences
+
+conj → appos: 11 occurrences (2.51%)
+Most common error-causing words:
+  'multiplicación': 1 times (9.1% of this error)
+  'distribución': 1 times (9.1% of this error)
+  'cejudo': 1 times (9.1% of this error)
+  'gramático': 1 times (9.1% of this error)
+  'paremiógrafo': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 124: 'multiplicación' (UPOS: NOUN) in sentence 4
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  2. Line 126: 'distribución' (UPOS: NOUN) in sentence 4
+     Sentence: Con la creación de este disco , existirá una plataforma que le permitirá al a el grupo darse dar se a conocer , programando a corto plazo las posteriores etapas de diseño de carátula , multiplicación y distribución .
+  3. Line 220: 'Cejudo' (UPOS: PROPN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+  4. Line 240: 'gramático' (UPOS: NOUN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+  5. Line 242: 'paremiógrafo' (UPOS: NOUN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+     ... and 6 more occurrences
+
+flat → appos: 11 occurrences (2.51%)
+Most common error-causing words:
+  'grande': 1 times (9.1% of this error)
+  'marlaska': 1 times (9.1% of this error)
+  'martín': 1 times (9.1% of this error)
+  'caro': 1 times (9.1% of this error)
+  'real': 1 times (9.1% of this error)
+
+Examples:
+  1. Line 178: 'Grande' (UPOS: PROPN) in sentence 6
+     Sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+  2. Line 179: 'Marlaska' (UPOS: PROPN) in sentence 6
+     Sentence: Los arrestos de estas diez personas fueron coordinados por el juez de la Audiencia Nacional Fernando Grande Marlaska .
+  3. Line 217: 'Martín' (UPOS: PROPN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+  4. Line 218: 'Caro' (UPOS: PROPN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+  5. Line 227: 'Real' (UPOS: PROPN) in sentence 8
+     Sentence: Jerónimo Martín Caro y Cejudo ( Valdepeñas , provincia de Ciudad Real , 6 de noviembre de 1630 -- 1712 ) , humanista , gramático y paremiógrafo español .
+     ... and 6 more occurrences
+
+expl:pv → nsubj: 9 occurrences (2.05%)
+Most common error-causing words:
+  'se': 9 times (100.0% of this error)
+
+Examples:
+  1. Line 32: 'se' (UPOS: PRON) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  2. Line 42: 'se' (UPOS: PRON) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  3. Line 468: 'se' (UPOS: PRON) in sentence 18
+     Sentence: De niña se trasladó a Inglaterra para educarse educar se en Hertfortshire donde aprendió a nadar .
+  4. Line 513: 'se' (UPOS: PRON) in sentence 21
+     Sentence: En 1965 se inauguró el puente que une Punta del de el Este con La Barra .
+  5. Line 680: 'se' (UPOS: PRON) in sentence 27
+     Sentence: Varios años más tarde y ante la no ejecución de ese proyecto se vuelve a organizar este acto reivindicativo , que busca que se vea el castillo desde Huesca y también para todas las personas que transiten por la N - 240 .
+     ... and 4 more occurrences
+
+advcl → xcomp: 9 occurrences (2.05%)
+Most common error-causing words:
+  'transmitiendo': 1 times (11.1% of this error)
+  'dicho': 1 times (11.1% of this error)
+  'resolver': 1 times (11.1% of this error)
+  'maneje': 1 times (11.1% of this error)
+  'persuadir': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 41: 'transmitiendo' (UPOS: VERB) in sentence 2
+     Sentence: Más tarde se cambió la dinámica de su presentación , transmitiéndose transmitiendo se las dos últimas semanas del de el año con 10 videos por día en el mismo horario de Los 10 + pedidos ;
+  2. Line 134: 'dicho' (UPOS: VERB) in sentence 5
+     Sentence: Como ha quedado dicho en la reseña histórica , el castillo - palacio fue solar de los Padilla y en él nacieron varios de sus destacados miembros .
+  3. Line 203: 'resolver' (UPOS: VERB) in sentence 7
+     Sentence: El D.III volvió al a el servicio con modificaciones en el ala en abril , pero éstas fallaron en resolver el problema estructural del de el ala inferior .
+  4. Line 297: 'maneje' (UPOS: VERB) in sentence 10
+     Sentence: Dos años atrás el maestro Alberto Trujillo promueve al a el sensei Jorge Moncayo , actualmente de 3er Dan en este estilo , a que maneje de manera profesional todo lo relacionado a este tema .
+  5. Line 380: 'persuadir' (UPOS: VERB) in sentence 13
+     Sentence: Tan solo Lemke puede retirar la maldición , y Billy trata de persuadir al a el anciano de que la retire .
+     ... and 4 more occurrences
+
+conj → obl: 9 occurrences (2.05%)
+Most common error-causing words:
+  'nivel': 1 times (11.1% of this error)
+  'sur': 1 times (11.1% of this error)
+  'occidente': 1 times (11.1% of this error)
+  'rebotes': 1 times (11.1% of this error)
+  'reflexión': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 363: 'nivel' (UPOS: NOUN) in sentence 12
+     Sentence: En realidad , es la biblioteca libc la que implementa la API POSIX , igual que en Linux , y Hurd da una interfaz cercana pero de más bajo nivel .
+  2. Line 586: 'sur' (UPOS: NOUN) in sentence 23
+     Sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+  3. Line 594: 'occidente' (UPOS: NOUN) in sentence 23
+     Sentence: Limita al a el norte y al a el este con la comuna de Cama , al a el sur con Grono , y al a el occidente con Verdabbio .
+  4. Line 784: 'rebotes' (UPOS: NOUN) in sentence 31
+     Sentence: Durante la temporada promedió 5 puntos y 2.4 rebotes .
+  5. Line 1013: 'reflexión' (UPOS: NOUN) in sentence 39
+     Sentence: El objetivo del de el viaje fue promover el conocimiento personal y una reflexión sobre cómo lograr una comercialización específica de un destino legendario , que ofrece valores añadidos frente a competidores como Maldivas , Seychelles o Isla Mauricio , tanto por su propia historia , como por la diversificación de sus productos .
+     ... and 4 more occurrences
+

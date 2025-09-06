@@ -1,0 +1,462 @@
+SUMMARY ERROR ANALYSIS: pt_fr_3.conllu vs. gold_file_pt.conllu
+================================================================================
+
+GENERAL STATISTICS:
+Analyzed tokens: 1342
+UPOS errors: 96 (7.15%)
+HEAD errors: 631 (47.02%)
+DEPREL errors: 406 (30.25%)
+
+================================================================================
+
+MOST COMMON ERROR-CAUSING WORDS (TOP 10):
+--------------------------------------------------
+'que': 17 errors (1.50%)
+'não': 6 errors (0.53%)
+'a': 5 errors (0.44%)
+'está': 3 errors (0.26%)
+'o': 3 errors (0.26%)
+'domingo': 3 errors (0.26%)
+'até': 2 errors (0.18%)
+'um': 2 errors (0.18%)
+'esta': 2 errors (0.18%)
+'uma': 2 errors (0.18%)
+
+TOP 10 UPOS ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+CCONJ → SCONJ: 14 occurrences (14.58%)
+Most common error-causing words:
+  'que': 13 times (92.9% of this error)
+  'porque': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 99: 'que' in sentence 5
+     Context: ainda que a
+     Sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+  2. Line 159: 'que' in sentence 7
+     Context: para que esta
+     Sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+  3. Line 302: 'que' in sentence 12
+     Context: esclarecendo que a
+     Sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+  4. Line 483: 'que' in sentence 19
+     Context: coisa que sair
+     Sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+  5. Line 501: 'que' in sentence 20
+     Context: diz que simplesmente
+     Sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+     ... and 9 more occurrences
+
+PROPN → NOUN: 12 occurrences (12.50%)
+Most common error-causing words:
+  'domingo': 3 times (25.0% of this error)
+  'secretaria': 1 times (8.3% of this error)
+  'serviços': 1 times (8.3% of this error)
+  'congresso': 1 times (8.3% of this error)
+  'tv': 1 times (8.3% of this error)
+
+Examples:
+  1. Line 101: 'Secretaria' in sentence 5
+     Context: a Secretaria de
+     Sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+  2. Line 103: 'Serviços' in sentence 5
+     Context: de Serviços Urbanos
+     Sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+  3. Line 271: 'Congresso' in sentence 12
+     Context: O Congresso procura
+     Sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+  4. Line 454: 'TV' in sentence 18
+     Context: A TV Globo
+     Sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+  5. Line 557: 'Planejamento' in sentence 22
+     Context: o Planejamento ,
+     Sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+     ... and 7 more occurrences
+
+AUX → VERB: 7 occurrences (7.29%)
+Most common error-causing words:
+  'está': 1 times (14.3% of this error)
+  'poderia': 1 times (14.3% of this error)
+  'ter': 1 times (14.3% of this error)
+  'poderão': 1 times (14.3% of this error)
+  'podem': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 228: 'está' in sentence 10
+     Context: , está apenas
+     Sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+  2. Line 398: 'poderia' in sentence 16
+     Context: quem poderia ter
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  3. Line 399: 'ter' in sentence 16
+     Context: poderia ter feito
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  4. Line 424: 'poderão' in sentence 16
+     Context: que poderão ajudar
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  5. Line 441: 'podem' in sentence 17
+     Context: não podem ser
+     Sentence: " Eles não podem ser considerados marginais " , disse ele .
+     ... and 2 more occurrences
+
+VERB → AUX: 6 occurrences (6.25%)
+Most common error-causing words:
+  'está': 2 times (33.3% of this error)
+  'ser': 1 times (16.7% of this error)
+  'seja': 1 times (16.7% of this error)
+  'era': 1 times (16.7% of this error)
+  'tem': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 76: 'ser' in sentence 3
+     Context: ele ser feliz
+     Sentence: A Nina é a chance dele de ele ser feliz .
+  2. Line 164: 'seja' in sentence 7
+     Context: rotina seja benéfica
+     Sentence: Mas então , como fazer para que esta atualização de rotina seja benéfica para sua vida profissional ?
+  3. Line 539: 'está' in sentence 21
+     Context: normalmente está vinculada
+     Sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+  4. Line 899: 'era' in sentence 32
+     Context: que era melhor
+     Sentence: Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim .
+  5. Line 1020: 'está' in sentence 36
+     Context: que está animado
+     Sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+     ... and 1 more occurrences
+
+PRON → DET: 6 occurrences (6.25%)
+Most common error-causing words:
+  'o': 3 times (50.0% of this error)
+  'esta': 1 times (16.7% of this error)
+  'uma': 1 times (16.7% of this error)
+  'todos': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 189: 'Esta' in sentence 9
+     Context: START Esta é
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  2. Line 306: 'uma' in sentence 12
+     Context: é uma das
+     Sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+  3. Line 624: 'o' in sentence 24
+     Context: vez o que
+     Sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+  4. Line 1186: 'o' in sentence 40
+     Context: de o que
+     Sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+  5. Line 1188: 'o' in sentence 40
+     Context: que o planejado
+     Sentence: A Troica discorda dalguns de alguns pontos do de o plano de austeridade e quer que o país faça mais cortes de gastos no em o próximo ano do de o que o planejado pelo por o governo grego .
+     ... and 1 more occurrences
+
+ADV → PART: 6 occurrences (6.25%)
+Most common error-causing words:
+  'não': 6 times (100.0% of this error)
+
+Examples:
+  1. Line 393: 'não' in sentence 16
+     Context: ainda não tem
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  2. Line 440: 'não' in sentence 17
+     Context: Eles não podem
+     Sentence: " Eles não podem ser considerados marginais " , disse ele .
+  3. Line 478: 'Não' in sentence 19
+     Context: " Não podemos
+     Sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+  4. Line 494: 'não' in sentence 20
+     Context: Se não votar
+     Sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+  5. Line 503: 'não' in sentence 20
+     Context: simplesmente não comparecerá
+     Sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+     ... and 1 more occurrences
+
+ADP → DET: 6 occurrences (6.25%)
+Most common error-causing words:
+  'a': 3 times (50.0% of this error)
+  'naquela': 1 times (16.7% of this error)
+  'neste': 1 times (16.7% of this error)
+  'em': 1 times (16.7% of this error)
+
+Examples:
+  1. Line 486: 'a' in sentence 19
+     Context: às a as
+     Sentence: " Não podemos fazer outra coisa que sair às a as ruas .
+  2. Line 635: 'naquela' in sentence 24
+     Context: atendidos naquela tarde
+     Sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+  3. Line 716: 'A' in sentence 27
+     Context: Às A as
+     Sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+  4. Line 790: 'a' in sentence 29
+     Context: 2 a 0
+     Sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+  5. Line 860: 'neste' in sentence 30
+     Context: realizada neste domingo
+     Sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+     ... and 1 more occurrences
+
+PRON → SCONJ: 4 occurrences (4.17%)
+Most common error-causing words:
+  'que': 4 times (100.0% of this error)
+
+Examples:
+  1. Line 197: 'que' in sentence 9
+     Context: acusações que a
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  2. Line 340: 'que' in sentence 13
+     Context: enzima que faça
+     Sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+  3. Line 625: 'que' in sentence 24
+     Context: o que pagou
+     Sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+  4. Line 1323: 'que' in sentence 46
+     Context: mas que passa
+     Sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+ADV → ADP: 4 occurrences (4.17%)
+Most common error-causing words:
+  'atrás': 1 times (25.0% of this error)
+  'até': 1 times (25.0% of this error)
+  'junto': 1 times (25.0% of this error)
+  'dentro': 1 times (25.0% of this error)
+
+Examples:
+  1. Line 232: 'atrás' in sentence 10
+     Context: ponto atrás do
+     Sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+  2. Line 383: 'até' in sentence 15
+     Context: de até 5,7
+     Sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+  3. Line 1047: 'junto' in sentence 36
+     Context: recentemente junto ao
+     Sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+  4. Line 1327: 'dentro' in sentence 46
+     Context: dias dentro dum
+     Sentence: A situação criaria uma figura estranha do de o deputado com mandato , mas que passa os dias dentro dum de um presídio .
+
+PRON → NUM: 3 occurrences (3.12%)
+Most common error-causing words:
+  'um': 2 times (66.7% of this error)
+  'uma': 1 times (33.3% of this error)
+
+Examples:
+  1. Line 83: 'um' in sentence 4
+     Context: É um dos
+     Sentence: É um dos de os três ácidos ftálicos isoméricos .
+  2. Line 191: 'uma' in sentence 9
+     Context: é uma das
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  3. Line 628: 'um' in sentence 24
+     Context: cada um dos
+     Sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+
+
+--------------------------------------------------------------------------------
+
+TOP 10 DEPREL ERRORS WITH EXAMPLES AND MOST COMMON ERROR-CAUSING WORDS:
+nmod → obl: 52 occurrences (12.81%)
+Most common error-causing words:
+  'mim': 2 times (3.8% of this error)
+  'boxe': 1 times (1.9% of this error)
+  'vôlei': 1 times (1.9% of this error)
+  'futebol': 1 times (1.9% of this error)
+  'praça': 1 times (1.9% of this error)
+
+Examples:
+  1. Line 32: 'boxe' (UPOS: NOUN) in sentence 1
+     Sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+  2. Line 38: 'vôlei' (UPOS: NOUN) in sentence 1
+     Sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+  3. Line 47: 'futebol' (UPOS: NOUN) in sentence 1
+     Sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+  4. Line 117: 'praça' (UPOS: NOUN) in sentence 5
+     Sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+  5. Line 132: 'cidade' (UPOS: NOUN) in sentence 6
+     Sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+     ... and 47 more occurrences
+
+case → mark: 25 occurrences (6.16%)
+Most common error-causing words:
+  'de': 8 times (32.0% of this error)
+  'a': 6 times (24.0% of this error)
+  'em': 4 times (16.0% of this error)
+  'para': 2 times (8.0% of this error)
+  'por': 2 times (8.0% of this error)
+
+Examples:
+  1. Line 382: 'de' (UPOS: ADP) in sentence 15
+     Sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+  2. Line 415: 'de' (UPOS: ADP) in sentence 16
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  3. Line 420: 'em' (UPOS: ADP) in sentence 16
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  4. Line 427: 'em' (UPOS: ADP) in sentence 16
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  5. Line 431: 'de' (UPOS: ADP) in sentence 16
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+     ... and 20 more occurrences
+
+obj → obl: 14 occurrences (3.45%)
+Most common error-causing words:
+  'contrato': 1 times (7.1% of this error)
+  'recursos': 1 times (7.1% of this error)
+  'reposição': 1 times (7.1% of this error)
+  'candidatos': 1 times (7.1% of this error)
+  'desempenho': 1 times (7.1% of this error)
+
+Examples:
+  1. Line 107: 'contrato' (UPOS: NOUN) in sentence 5
+     Sentence: A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da de a praça conforme cronograma em andamento .
+  2. Line 314: 'recursos' (UPOS: NOUN) in sentence 12
+     Sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+  3. Line 343: 'reposição' (UPOS: NOUN) in sentence 13
+     Sentence: O relaxamento do de o músculo está dependente da de a actuação duma de uma enzima que faça a reposição da de a concentração de cálcio .
+  4. Line 513: 'candidatos' (UPOS: NOUN) in sentence 20
+     Sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+  5. Line 689: 'desempenho' (UPOS: NOUN) in sentence 25
+     Sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+     ... and 9 more occurrences
+
+nmod → nsubj: 10 occurrences (2.46%)
+Most common error-causing words:
+  'acusações': 1 times (10.0% of this error)
+  'máxima': 1 times (10.0% of this error)
+  'entanto': 1 times (10.0% of this error)
+  'planejamento': 1 times (10.0% of this error)
+  'consultório': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 196: 'acusações' (UPOS: NOUN) in sentence 9
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  2. Line 371: 'máxima' (UPOS: NOUN) in sentence 15
+     Sentence: Na Em a máxima do de o dia , o papel alcançou uma valorização de até 5,7 % .
+  3. Line 529: 'entanto' (UPOS: ADV) in sentence 21
+     Sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+  4. Line 557: 'Planejamento' (UPOS: PROPN) in sentence 22
+     Sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+  5. Line 613: 'consultório' (UPOS: NOUN) in sentence 24
+     Sentence: Em seu consultório , a consulta custa R $ 450 , sete vez o que pagou cada um dos de os dez pacientes atendidos naquela tarde .
+     ... and 5 more occurrences
+
+conj → obl: 10 occurrences (2.46%)
+Most common error-causing words:
+  'debate': 1 times (10.0% of this error)
+  'vereador': 1 times (10.0% of this error)
+  'segurança': 1 times (10.0% of this error)
+  'características': 1 times (10.0% of this error)
+  'meia': 1 times (10.0% of this error)
+
+Examples:
+  1. Line 217: 'debate' (UPOS: NOUN) in sentence 9
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  2. Line 518: 'vereador' (UPOS: NOUN) in sentence 20
+     Sentence: Se não votar em branco , Sueli diz que simplesmente não comparecerá à a a zona eleitoral para escolher seus candidatos a prefeito e a vereador .
+  3. Line 567: 'segurança' (UPOS: NOUN) in sentence 22
+     Sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+  4. Line 936: 'características' (UPOS: NOUN) in sentence 33
+     Sentence: Alternativamente , um sintetizador pode incorporar um modelo do de o trato vocal ( caminho percorrido pela por a voz ) e outras características da de a voz humana , para criar como saída uma voz completamente " sintética " .
+  5. Line 1057: 'meia' (UPOS: NOUN) in sentence 36
+     Sentence: Substituído aos a os 37 minutos do de o segundo tempo do de o amistoso da de a Seleção com os suecos , Neymar mostrou que está animado com a possibilidade de jogar contra os catarinenses , tanto que enviou uma mensagem , via twitter , para o centroavante André -- contratado recentemente junto ao a o Atlético - MG -- e o meia Paulo Henrique Ganso .
+     ... and 5 more occurrences
+
+flat → appos: 9 occurrences (2.22%)
+Most common error-causing words:
+  'globo': 1 times (11.1% of this error)
+  'silva': 1 times (11.1% of this error)
+  'bonnar': 1 times (11.1% of this error)
+  'a730': 1 times (11.1% of this error)
+  'c540': 1 times (11.1% of this error)
+
+Examples:
+  1. Line 455: 'Globo' (UPOS: PROPN) in sentence 18
+     Sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+  2. Line 463: 'Silva' (UPOS: PROPN) in sentence 18
+     Sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+  3. Line 468: 'Bonnar' (UPOS: PROPN) in sentence 18
+     Sentence: A TV Globo transmite a luta principal , entre Anderson Silva e o americano Stephan Bonnar ao a o vivo .
+  4. Line 670: 'A730' (UPOS: PROPN) in sentence 25
+     Sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+  5. Line 674: 'C540' (UPOS: PROPN) in sentence 25
+     Sentence: A Lenovo ainda investe no em o mercado de desktops e apresentou três lançamentos em comunicado enviado à a a imprensa na em a CES 2013 : o IdeaCentre A730 , o IdeaCentre C540 e o Erazer X700 , desenvolvido para garantir aos a os usuários um alto desempenho em jogos .
+     ... and 4 more occurrences
+
+punct → dep: 8 occurrences (1.97%)
+Most common error-causing words:
+  '.': 5 times (62.5% of this error)
+  '-': 2 times (25.0% of this error)
+  '"': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 91: '.' (UPOS: PUNCT) in sentence 4
+     Sentence: É um dos de os três ácidos ftálicos isoméricos .
+  2. Line 149: '.' (UPOS: PUNCT) in sentence 6
+     Sentence: O incidente ocorreu na em a cidade de Burgas , 400 quilômetros ao a o leste da de a capital búlgara , Sofia .
+  3. Line 714: '"' (UPOS: PUNCT) in sentence 27
+     Sentence: " Às A as 17 horas , aproximadamente , os juízes foram informados de que o motim terminara " , diz o documento .
+  4. Line 862: '.' (UPOS: PUNCT) in sentence 30
+     Sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+  5. Line 1111: '-' (UPOS: PUNCT) in sentence 38
+     Sentence: Foucart é uma comuna francesa na em a região administrativa da de a Alta - Normandia , no em o departamento Seine - Maritime .
+     ... and 3 more occurrences
+
+aux → conj: 8 occurrences (1.97%)
+Most common error-causing words:
+  'ter': 3 times (37.5% of this error)
+  'tem': 2 times (25.0% of this error)
+  'pode': 2 times (25.0% of this error)
+  'estão': 1 times (12.5% of this error)
+
+Examples:
+  1. Line 201: 'tem' (UPOS: AUX) in sentence 9
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  2. Line 208: 'tem' (UPOS: AUX) in sentence 9
+     Sentence: Esta é uma das de as principais acusações que a campanha tucana tem dirigido contra o petista , e tem sido repetida em eventos e no em o debate da de a Band .
+  3. Line 259: 'estão' (UPOS: AUX) in sentence 11
+     Sentence: Os cuidados de sempre estão sendo tomados pelo por o consumidor .
+  4. Line 531: 'pode' (UPOS: AUX) in sentence 21
+     Sentence: A tendência , no em o entanto , pode ser muito perigosa , já que normalmente está vinculada à a a restrição de nutrientes na em a dieta .
+  5. Line 805: 'pode' (UPOS: AUX) in sentence 29
+     Sentence: Autor do de o primeiro gol do de o Bahia na em a vitória sobre o Botafogo por 2 a 0 , no em o último domingo , em Pituaçu , o volante Fahel pode ficar de fora da de a próxima partida , por conta duma de uma torção no em o tornozelo direito .
+     ... and 3 more occurrences
+
+obj → nmod: 7 occurrences (1.72%)
+Most common error-causing words:
+  'pódios': 1 times (14.3% of this error)
+  'país': 1 times (14.3% of this error)
+  'disparos': 1 times (14.3% of this error)
+  'recursos': 1 times (14.3% of this error)
+  'choque': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 25: 'pódios' (UPOS: NOUN) in sentence 1
+     Sentence: Até agora o Brasil conquistou 8 medalhas ( 2 ouros , 1 prata e 5 bronzes ) e tem mais quatro pódios garantidos : dois no em o boxe , um no em o vôlei de praia masculino e um no em o futebol masculino .
+  2. Line 296: 'país' (UPOS: NOUN) in sentence 12
+     Sentence: O Congresso procura sempre fazer o máximo de bondades à a a sociedade , mas , por outro lado , já aprovou medidas que ajudaram o país -- disse Mantega , esclarecendo que a educação é uma das de as áreas que mais recebe recursos do de o governo federal .
+  3. Line 402: 'disparos' (UPOS: NOUN) in sentence 16
+     Sentence: A polícia ainda não tem pistas de quem poderia ter feito os disparos , mas , no em o local conseguiram encontrar 8 cápsulas da de a pistola usada no em o crime que poderão ajudar na em a investigação dos de os assassinatos .
+  4. Line 598: 'recursos' (UPOS: NOUN) in sentence 23
+     Sentence: O conceito é também muito útil na em a elaboração e planificação de políticas e programas de saúde , uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes .
+  5. Line 844: 'choque' (UPOS: NOUN) in sentence 30
+     Sentence: O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na em a cabeça na em a partida entre Real Madrid e Valencia , realizada neste domingo .
+     ... and 2 more occurrences
+
+cop → root: 7 occurrences (1.72%)
+Most common error-causing words:
+  'é': 5 times (71.4% of this error)
+  'está': 1 times (14.3% of this error)
+  'serão': 1 times (14.3% of this error)
+
+Examples:
+  1. Line 70: 'é' (UPOS: AUX) in sentence 3
+     Sentence: A Nina é a chance dele de ele ser feliz .
+  2. Line 82: 'É' (UPOS: AUX) in sentence 4
+     Sentence: É um dos de os três ácidos ftálicos isoméricos .
+  3. Line 228: 'está' (UPOS: AUX) in sentence 10
+     Sentence: Assim , está apenas um ponto atrás do de o Grêmio , o quarto colocado , e a três do de o Fluminense , terceiro .
+  4. Line 562: 'serão' (UPOS: AUX) in sentence 22
+     Sentence: Para o Planejamento , as áreas prioritárias serão educação , saúde e segurança pública .
+  5. Line 963: 'é' (UPOS: AUX) in sentence 34
+     Sentence: 1998 XO53 ( asteroide 29686 ) é um asteroide da de a cintura principal .
+     ... and 2 more occurrences
+
