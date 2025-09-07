@@ -1,0 +1,384 @@
+LANGUAGE SIMILARITY AND MODEL PERFORMANCE ANALYSIS
+
+ALL COLUMNS IN CSV FILE:
+----------------------------------------
+ 1. Unnamed: 0
+ 2. Target_language
+ 3. Source_language
+ 4. Similarity_score(avg)
+ 5. Shot-Szenario
+ 6. UPOS
+ 7. UAS
+ 8. LAS
+
+FIRST 5 ROWS OF DATA:
+----------------------------------------
+   Unnamed: 0 Target_language Source_language Similarity_score(avg)   Shot-Szenario   UPOS    UAS    LAS
+0         NaN          French          French                 1,000          0-Shot  95.73  48.91  43.13
+1         NaN          French          French                 1,000  1-Shot (short)  94.22  47.07  41.46
+2         NaN          French          French                 1,000          1-Shot  93.80  46.57  41.79
+3         NaN          French          French                 1,000   1-Shot (long)  95.90  48.32  43.80
+4         NaN          French          French                 1,000          3-Shot  95.31  48.16  42.96
+
+COLUMN IDENTIFICATION:
+----------------------------------------
+- Target Language column: Target_language
+- Source Language column: Source_language
+- Similarity column: Similarity_score(avg)
+- UPOS column: UPOS
+- UAS column: UAS
+- LAS column: LAS
+
+VALUES IN LANGUAGE COLUMNS:
+--------------------------------------------------
+SOURCE languages: ['Basque', 'Catalan', 'French', 'Galician', 'Occitan', 'Portuguese', 'Spanish']
+TARGET languages: ['Basque', 'Catalan', 'French', 'Galician', 'Occitan', 'Portuguese', 'Spanish']
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Basque
+(best SOURCE language for Basque)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Basque, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.6849 (p-value: 0.0001)
+  Spearman correlation: 0.4910 (p-value: 0.0080)
+
+UAS:
+  Pearson correlation: 0.5026 (p-value: 0.0064)
+  Spearman correlation: 0.3612 (p-value: 0.0590)
+
+LAS:
+  Pearson correlation: 0.4566 (p-value: 0.0146)
+  Spearman correlation: 0.4441 (p-value: 0.0179)
+
+PERFORMANCE RANKING:
+Which source language works best for Basque?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Basque       7   1.000        81.271       39.936       19.343      
+French       7   0.525        75.699       36.769       16.960      
+Occitan      7   0.582        76.021       36.991       17.990      
+Spanish      7   0.550        76.607       37.480       17.623      
+
+Best to worst source language for Basque:
+------------------------------------------------------------
+By UPOS performance:
+  1. Basque       → UPOS: 81.271 (similarity: 1.000)
+  2. Spanish      → UPOS: 76.607 (similarity: 0.550)
+  3. Occitan      → UPOS: 76.021 (similarity: 0.582)
+  4. French       → UPOS: 75.699 (similarity: 0.525)
+
+By UAS performance:
+  1. Basque       → UAS: 39.936 (similarity: 1.000)
+  2. Spanish      → UAS: 37.480 (similarity: 0.550)
+  3. Occitan      → UAS: 36.991 (similarity: 0.582)
+  4. French       → UAS: 36.769 (similarity: 0.525)
+
+By LAS performance:
+  1. Basque       → LAS: 19.343 (similarity: 1.000)
+  2. Occitan      → LAS: 17.990 (similarity: 0.582)
+  3. Spanish      → LAS: 17.623 (similarity: 0.550)
+  4. French       → LAS: 16.960 (similarity: 0.525)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Catalan
+(best SOURCE language for Catalan)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Catalan, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.7144 (p-value: 0.0003)
+  Spearman correlation: 0.6273 (p-value: 0.0023)
+
+UAS:
+  Pearson correlation: 0.2236 (p-value: 0.3298)
+  Spearman correlation: 0.0869 (p-value: 0.7080)
+
+LAS:
+  Pearson correlation: 0.0490 (p-value: 0.8330)
+  Spearman correlation: 0.0531 (p-value: 0.8190)
+
+PERFORMANCE RANKING:
+Which source language works best for Catalan?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Catalan      7   1.000        93.889       45.127       38.077      
+Occitan      7   0.936        92.271       45.040       38.031      
+Spanish      7   0.948        92.294       44.196       37.846      
+
+Best to worst source language for Catalan:
+------------------------------------------------------------
+By UPOS performance:
+  1. Catalan      → UPOS: 93.889 (similarity: 1.000)
+  2. Spanish      → UPOS: 92.294 (similarity: 0.948)
+  3. Occitan      → UPOS: 92.271 (similarity: 0.936)
+
+By UAS performance:
+  1. Catalan      → UAS: 45.127 (similarity: 1.000)
+  2. Occitan      → UAS: 45.040 (similarity: 0.936)
+  3. Spanish      → UAS: 44.196 (similarity: 0.948)
+
+By LAS performance:
+  1. Catalan      → LAS: 38.077 (similarity: 1.000)
+  2. Occitan      → LAS: 38.031 (similarity: 0.936)
+  3. Spanish      → LAS: 37.846 (similarity: 0.948)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: French
+(best SOURCE language for French)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For French, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.1928 (p-value: 0.3256)
+  Spearman correlation: 0.2855 (p-value: 0.1409)
+
+UAS:
+  Pearson correlation: -0.0416 (p-value: 0.8337)
+  Spearman correlation: 0.0614 (p-value: 0.7563)
+
+LAS:
+  Pearson correlation: -0.1182 (p-value: 0.5492)
+  Spearman correlation: 0.0238 (p-value: 0.9044)
+
+PERFORMANCE RANKING:
+Which source language works best for French?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Catalan      7   0.868        95.333       49.077       43.610      
+French       7   1.000        95.190       48.219       42.867      
+Occitan      7   0.901        94.877       48.371       43.479      
+Spanish      7   0.856        94.484       47.763       42.784      
+
+Best to worst source language for French:
+------------------------------------------------------------
+By UPOS performance:
+  1. Catalan      → UPOS: 95.333 (similarity: 0.868)
+  2. French       → UPOS: 95.190 (similarity: 1.000)
+  3. Occitan      → UPOS: 94.877 (similarity: 0.901)
+  4. Spanish      → UPOS: 94.484 (similarity: 0.856)
+
+By UAS performance:
+  1. Catalan      → UAS: 49.077 (similarity: 0.868)
+  2. Occitan      → UAS: 48.371 (similarity: 0.901)
+  3. French       → UAS: 48.219 (similarity: 1.000)
+  4. Spanish      → UAS: 47.763 (similarity: 0.856)
+
+By LAS performance:
+  1. Catalan      → LAS: 43.610 (similarity: 0.868)
+  2. Occitan      → LAS: 43.479 (similarity: 0.901)
+  3. French       → LAS: 42.867 (similarity: 1.000)
+  4. Spanish      → LAS: 42.784 (similarity: 0.856)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Galician
+(best SOURCE language for Galician)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Galician, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.4998 (p-value: 0.0210)
+  Spearman correlation: 0.6661 (p-value: 0.0010)
+
+UAS:
+  Pearson correlation: -0.1277 (p-value: 0.5812)
+  Spearman correlation: 0.1448 (p-value: 0.5313)
+
+LAS:
+  Pearson correlation: 0.1317 (p-value: 0.5694)
+  Spearman correlation: 0.2605 (p-value: 0.2541)
+
+PERFORMANCE RANKING:
+Which source language works best for Galician?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Galician     7   1.000        92.121       45.099       40.093      
+Portuguese   7   0.950        91.807       45.920       40.230      
+Spanish      7   0.948        90.834       44.786       39.369      
+
+Best to worst source language for Galician:
+------------------------------------------------------------
+By UPOS performance:
+  1. Galician     → UPOS: 92.121 (similarity: 1.000)
+  2. Portuguese   → UPOS: 91.807 (similarity: 0.950)
+  3. Spanish      → UPOS: 90.834 (similarity: 0.948)
+
+By UAS performance:
+  1. Portuguese   → UAS: 45.920 (similarity: 0.950)
+  2. Galician     → UAS: 45.099 (similarity: 1.000)
+  3. Spanish      → UAS: 44.786 (similarity: 0.948)
+
+By LAS performance:
+  1. Portuguese   → LAS: 40.230 (similarity: 0.950)
+  2. Galician     → LAS: 40.093 (similarity: 1.000)
+  3. Spanish      → LAS: 39.369 (similarity: 0.948)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Occitan
+(best SOURCE language for Occitan)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Occitan, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.2462 (p-value: 0.2819)
+  Spearman correlation: 0.3438 (p-value: 0.1270)
+
+UAS:
+  Pearson correlation: -0.1877 (p-value: 0.4151)
+  Spearman correlation: -0.2368 (p-value: 0.3013)
+
+LAS:
+  Pearson correlation: 0.1109 (p-value: 0.6321)
+  Spearman correlation: 0.0483 (p-value: 0.8355)
+
+PERFORMANCE RANKING:
+Which source language works best for Occitan?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Catalan      7   0.936        87.549       45.381       35.117      
+French       7   0.901        87.820       46.267       36.053      
+Occitan      7   1.000        88.434       45.736       36.214      
+
+Best to worst source language for Occitan:
+------------------------------------------------------------
+By UPOS performance:
+  1. Occitan      → UPOS: 88.434 (similarity: 1.000)
+  2. French       → UPOS: 87.820 (similarity: 0.901)
+  3. Catalan      → UPOS: 87.549 (similarity: 0.936)
+
+By UAS performance:
+  1. French       → UAS: 46.267 (similarity: 0.901)
+  2. Occitan      → UAS: 45.736 (similarity: 1.000)
+  3. Catalan      → UAS: 45.381 (similarity: 0.936)
+
+By LAS performance:
+  1. Occitan      → LAS: 36.214 (similarity: 1.000)
+  2. French       → LAS: 36.053 (similarity: 0.901)
+  3. Catalan      → LAS: 35.117 (similarity: 0.936)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Portuguese
+(best SOURCE language for Portuguese)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Portuguese, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.2350 (p-value: 0.2288)
+  Spearman correlation: 0.0974 (p-value: 0.6221)
+
+UAS:
+  Pearson correlation: 0.0829 (p-value: 0.6749)
+  Spearman correlation: 0.1349 (p-value: 0.4936)
+
+LAS:
+  Pearson correlation: 0.2613 (p-value: 0.1792)
+  Spearman correlation: 0.2358 (p-value: 0.2271)
+
+PERFORMANCE RANKING:
+Which source language works best for Portuguese?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+French       7   0.873        91.899       47.623       41.890      
+Galician     7   0.950        92.050       47.819       42.430      
+Portuguese   7   1.000        92.533       48.316       42.823      
+Spanish      7   0.969        91.519       46.767       41.807      
+
+Best to worst source language for Portuguese:
+------------------------------------------------------------
+By UPOS performance:
+  1. Portuguese   → UPOS: 92.533 (similarity: 1.000)
+  2. Galician     → UPOS: 92.050 (similarity: 0.950)
+  3. French       → UPOS: 91.899 (similarity: 0.873)
+  4. Spanish      → UPOS: 91.519 (similarity: 0.969)
+
+By UAS performance:
+  1. Portuguese   → UAS: 48.316 (similarity: 1.000)
+  2. Galician     → UAS: 47.819 (similarity: 0.950)
+  3. French       → UAS: 47.623 (similarity: 0.873)
+  4. Spanish      → UAS: 46.767 (similarity: 0.969)
+
+By LAS performance:
+  1. Portuguese   → LAS: 42.823 (similarity: 1.000)
+  2. Galician     → LAS: 42.430 (similarity: 0.950)
+  3. French       → LAS: 41.890 (similarity: 0.873)
+  4. Spanish      → LAS: 41.807 (similarity: 0.969)
+
+
+================================================================================
+ANALYSIS FOR TARGET LANGUAGE: Spanish
+(best SOURCE language for Spanish)
+================================================================================
+
+CORRELATION ANALYSIS:
+Question: For Spanish, does similarity predict performance?
+------------------------------------------------------------
+UPOS:
+  Pearson correlation: 0.0076 (p-value: 0.9739)
+  Spearman correlation: 0.1212 (p-value: 0.6008)
+
+UAS:
+  Pearson correlation: 0.1729 (p-value: 0.4536)
+  Spearman correlation: 0.1882 (p-value: 0.4140)
+
+LAS:
+  Pearson correlation: 0.0658 (p-value: 0.7769)
+  Spearman correlation: 0.0241 (p-value: 0.9173)
+
+PERFORMANCE RANKING:
+Which source language works best for Spanish?
+--------------------------------------------------
+SUMMARY TABLE:
+Source Lang  N   Similarity   UPOS         UAS          LAS         
+--------------------------------------------------------------------
+Catalan      7   0.948        93.344       45.149       38.607      
+French       7   0.856        93.229       44.753       38.594      
+Spanish      7   1.000        93.217       45.163       38.826      
+
+Best to worst source language for Spanish:
+------------------------------------------------------------
+By UPOS performance:
+  1. Catalan      → UPOS: 93.344 (similarity: 0.948)
+  2. French       → UPOS: 93.229 (similarity: 0.856)
+  3. Spanish      → UPOS: 93.217 (similarity: 1.000)
+
+By UAS performance:
+  1. Spanish      → UAS: 45.163 (similarity: 1.000)
+  2. Catalan      → UAS: 45.149 (similarity: 0.948)
+  3. French       → UAS: 44.753 (similarity: 0.856)
+
+By LAS performance:
+  1. Spanish      → LAS: 38.826 (similarity: 1.000)
+  2. Catalan      → LAS: 38.607 (similarity: 0.948)
+  3. French       → LAS: 38.594 (similarity: 0.856)
+
+

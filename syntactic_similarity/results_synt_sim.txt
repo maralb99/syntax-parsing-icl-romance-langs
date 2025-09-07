@@ -1,0 +1,488 @@
+
+=== PROCESSING CA ===
+Analyzing: ca_ca_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.932, Similar=0.925, Δ=-0.006, p=0.720, d=-0.102 -> NOT SUPPORTED
+  LAS:  Random=0.388, Similar=0.363, Δ=-0.024, p=0.422, d=-0.229 -> NOT SUPPORTED
+  UAS:  Random=0.459, Similar=0.481, Δ=0.022, p=0.520, d=0.183 -> NOT SUPPORTED
+Analyzing: ca_oc_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.928, Similar=0.931, Δ=0.003, p=0.855, d=0.052 -> NOT SUPPORTED
+  LAS:  Random=0.404, Similar=0.382, Δ=-0.023, p=0.463, d=-0.209 -> NOT SUPPORTED
+  UAS:  Random=0.482, Similar=0.453, Δ=-0.030, p=0.352, d=-0.266 -> NOT SUPPORTED
+Analyzing: ca_oc_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.950, Similar=0.915, Δ=-0.035, p=0.045, d=-0.582 -> NOT SUPPORTED
+  LAS:  Random=0.429, Similar=0.381, Δ=-0.047, p=0.188, d=-0.378 -> NOT SUPPORTED
+  UAS:  Random=0.519, Similar=0.470, Δ=-0.049, p=0.188, d=-0.378 -> NOT SUPPORTED
+Analyzing: ca_oc_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.912, Similar=0.936, Δ=0.024, p=0.163, d=0.401 -> NOT SUPPORTED
+  LAS:  Random=0.354, Similar=0.417, Δ=0.063, p=0.055, d=0.556 -> NOT SUPPORTED
+  UAS:  Random=0.436, Similar=0.511, Δ=0.075, p=0.046, d=0.579 -> SUPPORTED
+Analyzing: ca_ca_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.947, Similar=0.928, Δ=-0.019, p=0.258, d=-0.324 -> NOT SUPPORTED
+  LAS:  Random=0.415, Similar=0.374, Δ=-0.041, p=0.247, d=-0.332 -> NOT SUPPORTED
+  UAS:  Random=0.501, Similar=0.453, Δ=-0.048, p=0.192, d=-0.374 -> NOT SUPPORTED
+Analyzing: ca_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.924, Similar=0.921, Δ=-0.004, p=0.831, d=-0.061 -> NOT SUPPORTED
+  LAS:  Random=0.355, Similar=0.414, Δ=0.059, p=0.085, d=0.497 -> NOT SUPPORTED
+  UAS:  Random=0.438, Similar=0.485, Δ=0.047, p=0.200, d=0.368 -> NOT SUPPORTED
+Analyzing: ca_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.925, Similar=0.935, Δ=0.010, p=0.584, d=0.156 -> NOT SUPPORTED
+  LAS:  Random=0.395, Similar=0.395, Δ=-0.000, p=0.992, d=-0.003 -> NOT SUPPORTED
+  UAS:  Random=0.481, Similar=0.456, Δ=-0.026, p=0.434, d=-0.223 -> NOT SUPPORTED
+Analyzing: ca_ca_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.925, Similar=0.952, Δ=0.027, p=0.120, d=0.448 -> NOT SUPPORTED
+  LAS:  Random=0.411, Similar=0.406, Δ=-0.005, p=0.878, d=-0.044 -> NOT SUPPORTED
+  UAS:  Random=0.497, Similar=0.477, Δ=-0.020, p=0.560, d=-0.166 -> NOT SUPPORTED
+Analyzing: ca_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.933, Similar=0.894, Δ=-0.039, p=0.045, d=-0.583 -> NOT SUPPORTED
+  LAS:  Random=0.407, Similar=0.378, Δ=-0.029, p=0.371, d=-0.255 -> NOT SUPPORTED
+  UAS:  Random=0.483, Similar=0.429, Δ=-0.054, p=0.117, d=-0.451 -> NOT SUPPORTED
+
+SUMMARY for ca:
+Files tested: 9
+UPOS supported: 0/9 (0.0%)
+LAS supported: 0/9 (0.0%)
+UAS supported: 1/9 (11.1%)
+
+=== PROCESSING ES ===
+Analyzing: es_ca_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.908, Similar=0.929, Δ=0.021, p=0.471, d=0.205 -> NOT SUPPORTED
+  LAS:  Random=0.424, Similar=0.429, Δ=0.004, p=0.935, d=0.023 -> NOT SUPPORTED
+  UAS:  Random=0.501, Similar=0.508, Δ=0.007, p=0.885, d=0.041 -> NOT SUPPORTED
+Analyzing: es_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.895, Similar=0.948, Δ=0.053, p=0.064, d=0.535 -> NOT SUPPORTED
+  LAS:  Random=0.446, Similar=0.413, Δ=-0.032, p=0.542, d=-0.174 -> NOT SUPPORTED
+  UAS:  Random=0.524, Similar=0.481, Δ=-0.043, p=0.417, d=-0.232 -> NOT SUPPORTED
+Analyzing: es_ca_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.902, Similar=0.956, Δ=0.055, p=0.065, d=0.534 -> NOT SUPPORTED
+  LAS:  Random=0.451, Similar=0.411, Δ=-0.039, p=0.459, d=-0.211 -> NOT SUPPORTED
+  UAS:  Random=0.539, Similar=0.453, Δ=-0.086, p=0.106, d=-0.465 -> NOT SUPPORTED
+Analyzing: es_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.904, Similar=0.939, Δ=0.035, p=0.245, d=0.333 -> NOT SUPPORTED
+  LAS:  Random=0.401, Similar=0.416, Δ=0.015, p=0.785, d=0.078 -> NOT SUPPORTED
+  UAS:  Random=0.459, Similar=0.495, Δ=0.035, p=0.524, d=0.182 -> NOT SUPPORTED
+Analyzing: es_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.885, Similar=0.923, Δ=0.039, p=0.169, d=0.395 -> NOT SUPPORTED
+  LAS:  Random=0.365, Similar=0.448, Δ=0.083, p=0.126, d=0.441 -> NOT SUPPORTED
+  UAS:  Random=0.425, Similar=0.516, Δ=0.091, p=0.109, d=0.462 -> NOT SUPPORTED
+Analyzing: es_fr_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.901, Similar=0.940, Δ=0.039, p=0.232, d=0.342 -> NOT SUPPORTED
+  LAS:  Random=0.425, Similar=0.427, Δ=0.002, p=0.972, d=0.010 -> NOT SUPPORTED
+  UAS:  Random=0.494, Similar=0.510, Δ=0.016, p=0.781, d=0.079 -> NOT SUPPORTED
+Analyzing: es_fr_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.893, Similar=0.945, Δ=0.051, p=0.082, d=0.502 -> NOT SUPPORTED
+  LAS:  Random=0.410, Similar=0.430, Δ=0.019, p=0.722, d=0.101 -> NOT SUPPORTED
+  UAS:  Random=0.499, Similar=0.469, Δ=-0.030, p=0.571, d=-0.161 -> NOT SUPPORTED
+Analyzing: es_fr_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.905, Similar=0.930, Δ=0.025, p=0.400, d=0.240 -> NOT SUPPORTED
+  LAS:  Random=0.362, Similar=0.426, Δ=0.064, p=0.229, d=0.345 -> NOT SUPPORTED
+  UAS:  Random=0.413, Similar=0.523, Δ=0.110, p=0.046, d=0.580 -> SUPPORTED
+Analyzing: es_ca_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.927, Similar=0.923, Δ=-0.005, p=0.874, d=-0.045 -> NOT SUPPORTED
+  LAS:  Random=0.368, Similar=0.408, Δ=0.040, p=0.447, d=0.217 -> NOT SUPPORTED
+  UAS:  Random=0.450, Similar=0.493, Δ=0.043, p=0.444, d=0.218 -> NOT SUPPORTED
+
+SUMMARY for es:
+Files tested: 9
+UPOS supported: 0/9 (0.0%)
+LAS supported: 0/9 (0.0%)
+UAS supported: 1/9 (11.1%)
+
+=== PROCESSING EU ===
+Analyzing: eu_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.739, Similar=0.733, Δ=-0.006, p=0.877, d=-0.044 -> NOT SUPPORTED
+  LAS:  Random=0.162, Similar=0.245, Δ=0.082, p=0.073, d=0.519 -> NOT SUPPORTED
+  UAS:  Random=0.379, Similar=0.485, Δ=0.107, p=0.120, d=0.448 -> NOT SUPPORTED
+Analyzing: eu_eu_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.759, Similar=0.801, Δ=0.042, p=0.273, d=0.314 -> NOT SUPPORTED
+  LAS:  Random=0.200, Similar=0.211, Δ=0.011, p=0.839, d=0.058 -> NOT SUPPORTED
+  UAS:  Random=0.416, Similar=0.455, Δ=0.038, p=0.594, d=0.152 -> NOT SUPPORTED
+Analyzing: eu_oc_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.747, Similar=0.761, Δ=0.013, p=0.732, d=0.098 -> NOT SUPPORTED
+  LAS:  Random=0.207, Similar=0.162, Δ=-0.045, p=0.353, d=-0.265 -> NOT SUPPORTED
+  UAS:  Random=0.439, Similar=0.359, Δ=-0.080, p=0.274, d=-0.313 -> NOT SUPPORTED
+Analyzing: eu_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.715, Similar=0.727, Δ=0.012, p=0.788, d=0.077 -> NOT SUPPORTED
+  LAS:  Random=0.141, Similar=0.206, Δ=0.064, p=0.147, d=0.417 -> NOT SUPPORTED
+  UAS:  Random=0.322, Similar=0.429, Δ=0.107, p=0.102, d=0.471 -> NOT SUPPORTED
+Analyzing: eu_fr_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.801, Similar=0.736, Δ=-0.065, p=0.088, d=-0.493 -> NOT SUPPORTED
+  LAS:  Random=0.222, Similar=0.174, Δ=-0.048, p=0.329, d=-0.279 -> NOT SUPPORTED
+  UAS:  Random=0.481, Similar=0.389, Δ=-0.092, p=0.203, d=-0.365 -> NOT SUPPORTED
+Analyzing: eu_eu_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.765, Similar=0.773, Δ=0.008, p=0.836, d=0.059 -> NOT SUPPORTED
+  LAS:  Random=0.206, Similar=0.190, Δ=-0.017, p=0.735, d=-0.096 -> NOT SUPPORTED
+  UAS:  Random=0.465, Similar=0.406, Δ=-0.059, p=0.416, d=-0.232 -> NOT SUPPORTED
+Analyzing: eu_eu_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.760, Similar=0.803, Δ=0.042, p=0.248, d=0.330 -> NOT SUPPORTED
+  LAS:  Random=0.145, Similar=0.295, Δ=0.150, p=0.008, d=0.789 -> SUPPORTED
+  UAS:  Random=0.348, Similar=0.510, Δ=0.163, p=0.020, d=0.681 -> SUPPORTED
+Analyzing: eu_oc_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.779, Similar=0.745, Δ=-0.034, p=0.443, d=-0.219 -> NOT SUPPORTED
+  LAS:  Random=0.174, Similar=0.207, Δ=0.033, p=0.461, d=0.210 -> NOT SUPPORTED
+  UAS:  Random=0.360, Similar=0.432, Δ=0.072, p=0.252, d=0.328 -> NOT SUPPORTED
+Analyzing: eu_oc_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.770, Similar=0.778, Δ=0.009, p=0.814, d=0.067 -> NOT SUPPORTED
+  LAS:  Random=0.172, Similar=0.258, Δ=0.086, p=0.087, d=0.495 -> NOT SUPPORTED
+  UAS:  Random=0.409, Similar=0.493, Δ=0.084, p=0.253, d=0.327 -> NOT SUPPORTED
+Analyzing: eu_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.750, Similar=0.750, Δ=0.001, p=0.983, d=0.006 -> NOT SUPPORTED
+  LAS:  Random=0.247, Similar=0.199, Δ=-0.048, p=0.389, d=-0.246 -> NOT SUPPORTED
+  UAS:  Random=0.491, Similar=0.413, Δ=-0.077, p=0.349, d=-0.268 -> NOT SUPPORTED
+Analyzing: eu_fr_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.769, Similar=0.737, Δ=-0.031, p=0.491, d=-0.196 -> NOT SUPPORTED
+  LAS:  Random=0.182, Similar=0.202, Δ=0.020, p=0.664, d=0.124 -> NOT SUPPORTED
+  UAS:  Random=0.364, Similar=0.420, Δ=0.055, p=0.372, d=0.255 -> NOT SUPPORTED
+Analyzing: eu_fr_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.727, Similar=0.734, Δ=0.007, p=0.869, d=0.047 -> NOT SUPPORTED
+  LAS:  Random=0.147, Similar=0.197, Δ=0.050, p=0.254, d=0.326 -> NOT SUPPORTED
+  UAS:  Random=0.342, Similar=0.402, Δ=0.059, p=0.383, d=0.249 -> NOT SUPPORTED
+
+SUMMARY for eu:
+Files tested: 12
+UPOS supported: 0/12 (0.0%)
+LAS supported: 1/12 (8.3%)
+UAS supported: 1/12 (8.3%)
+
+=== PROCESSING FR ===
+Analyzing: fr_oc_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.923, Similar=0.952, Δ=0.029, p=0.184, d=0.381 -> NOT SUPPORTED
+  LAS:  Random=0.371, Similar=0.464, Δ=0.093, p=0.044, d=0.586 -> SUPPORTED
+  UAS:  Random=0.442, Similar=0.529, Δ=0.086, p=0.090, d=0.489 -> NOT SUPPORTED
+Analyzing: fr_ca_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.931, Similar=0.966, Δ=0.035, p=0.103, d=0.471 -> NOT SUPPORTED
+  LAS:  Random=0.454, Similar=0.442, Δ=-0.012, p=0.787, d=-0.077 -> NOT SUPPORTED
+  UAS:  Random=0.568, Similar=0.496, Δ=-0.072, p=0.139, d=-0.425 -> NOT SUPPORTED
+Analyzing: fr_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.914, Similar=0.957, Δ=0.043, p=0.044, d=0.586 -> SUPPORTED
+  LAS:  Random=0.447, Similar=0.415, Δ=-0.032, p=0.489, d=-0.197 -> NOT SUPPORTED
+  UAS:  Random=0.547, Similar=0.494, Δ=-0.052, p=0.302, d=-0.295 -> NOT SUPPORTED
+Analyzing: fr_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.904, Similar=0.947, Δ=0.043, p=0.058, d=0.549 -> NOT SUPPORTED
+  LAS:  Random=0.384, Similar=0.471, Δ=0.087, p=0.076, d=0.513 -> NOT SUPPORTED
+  UAS:  Random=0.478, Similar=0.532, Δ=0.054, p=0.337, d=0.274 -> NOT SUPPORTED
+Analyzing: fr_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.930, Similar=0.922, Δ=-0.008, p=0.719, d=-0.103 -> NOT SUPPORTED
+  LAS:  Random=0.390, Similar=0.434, Δ=0.044, p=0.353, d=0.265 -> NOT SUPPORTED
+  UAS:  Random=0.445, Similar=0.524, Δ=0.079, p=0.136, d=0.429 -> NOT SUPPORTED
+Analyzing: fr_ca_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.927, Similar=0.957, Δ=0.031, p=0.155, d=0.408 -> NOT SUPPORTED
+  LAS:  Random=0.414, Similar=0.478, Δ=0.063, p=0.163, d=0.401 -> NOT SUPPORTED
+  UAS:  Random=0.513, Similar=0.556, Δ=0.042, p=0.404, d=0.238 -> NOT SUPPORTED
+Analyzing: fr_oc_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.904, Similar=0.952, Δ=0.048, p=0.037, d=0.608 -> SUPPORTED
+  LAS:  Random=0.452, Similar=0.411, Δ=-0.041, p=0.432, d=-0.224 -> NOT SUPPORTED
+  UAS:  Random=0.549, Similar=0.465, Δ=-0.084, p=0.143, d=-0.421 -> NOT SUPPORTED
+Analyzing: fr_fr_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.931, Similar=0.973, Δ=0.042, p=0.049, d=0.572 -> SUPPORTED
+  LAS:  Random=0.428, Similar=0.448, Δ=0.020, p=0.666, d=0.123 -> NOT SUPPORTED
+  UAS:  Random=0.521, Similar=0.517, Δ=-0.004, p=0.932, d=-0.024 -> NOT SUPPORTED
+Analyzing: fr_oc_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.929, Similar=0.964, Δ=0.035, p=0.109, d=0.462 -> NOT SUPPORTED
+  LAS:  Random=0.401, Similar=0.473, Δ=0.072, p=0.078, d=0.509 -> NOT SUPPORTED
+  UAS:  Random=0.497, Similar=0.556, Δ=0.058, p=0.200, d=0.368 -> NOT SUPPORTED
+Analyzing: fr_ca_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.976, Similar=0.918, Δ=-0.058, p=0.004, d=-0.855 -> NOT SUPPORTED
+  LAS:  Random=0.400, Similar=0.408, Δ=0.009, p=0.835, d=0.059 -> NOT SUPPORTED
+  UAS:  Random=0.489, Similar=0.519, Δ=0.030, p=0.509, d=0.188 -> NOT SUPPORTED
+Analyzing: fr_fr_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.947, Similar=0.923, Δ=-0.023, p=0.301, d=-0.296 -> NOT SUPPORTED
+  LAS:  Random=0.393, Similar=0.423, Δ=0.031, p=0.506, d=0.190 -> NOT SUPPORTED
+  UAS:  Random=0.453, Similar=0.539, Δ=0.086, p=0.092, d=0.486 -> NOT SUPPORTED
+Analyzing: fr_fr_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.914, Similar=0.946, Δ=0.032, p=0.155, d=0.409 -> NOT SUPPORTED
+  LAS:  Random=0.391, Similar=0.450, Δ=0.059, p=0.246, d=0.332 -> NOT SUPPORTED
+  UAS:  Random=0.477, Similar=0.522, Δ=0.045, p=0.427, d=0.227 -> NOT SUPPORTED
+
+SUMMARY for fr:
+Files tested: 12
+UPOS supported: 3/12 (25.0%)
+LAS supported: 1/12 (8.3%)
+UAS supported: 0/12 (0.0%)
+
+=== PROCESSING GL ===
+Analyzing: gl_gl_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.912, Similar=0.928, Δ=0.017, p=0.271, d=0.315 -> NOT SUPPORTED
+  LAS:  Random=0.401, Similar=0.405, Δ=0.004, p=0.898, d=0.036 -> NOT SUPPORTED
+  UAS:  Random=0.441, Similar=0.468, Δ=0.027, p=0.394, d=0.243 -> NOT SUPPORTED
+Analyzing: gl_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.903, Similar=0.923, Δ=0.020, p=0.185, d=0.380 -> NOT SUPPORTED
+  LAS:  Random=0.395, Similar=0.423, Δ=0.028, p=0.367, d=0.258 -> NOT SUPPORTED
+  UAS:  Random=0.446, Similar=0.486, Δ=0.040, p=0.224, d=0.349 -> NOT SUPPORTED
+Analyzing: gl_gl_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.907, Similar=0.934, Δ=0.027, p=0.076, d=0.514 -> NOT SUPPORTED
+  LAS:  Random=0.401, Similar=0.440, Δ=0.039, p=0.227, d=0.346 -> NOT SUPPORTED
+  UAS:  Random=0.451, Similar=0.495, Δ=0.044, p=0.186, d=0.379 -> NOT SUPPORTED
+Analyzing: gl_pt_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.936, Similar=0.903, Δ=-0.033, p=0.031, d=-0.628 -> NOT SUPPORTED
+  LAS:  Random=0.413, Similar=0.400, Δ=-0.013, p=0.646, d=-0.131 -> NOT SUPPORTED
+  UAS:  Random=0.491, Similar=0.451, Δ=-0.040, p=0.174, d=-0.391 -> NOT SUPPORTED
+Analyzing: gl_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.902, Similar=0.914, Δ=0.011, p=0.431, d=0.224 -> NOT SUPPORTED
+  LAS:  Random=0.391, Similar=0.405, Δ=0.014, p=0.642, d=0.132 -> NOT SUPPORTED
+  UAS:  Random=0.445, Similar=0.469, Δ=0.024, p=0.441, d=0.220 -> NOT SUPPORTED
+Analyzing: gl_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.905, Similar=0.910, Δ=0.005, p=0.756, d=0.088 -> NOT SUPPORTED
+  LAS:  Random=0.360, Similar=0.433, Δ=0.073, p=0.013, d=0.726 -> SUPPORTED
+  UAS:  Random=0.406, Similar=0.497, Δ=0.090, p=0.003, d=0.880 -> SUPPORTED
+Analyzing: gl_pt_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.923, Similar=0.896, Δ=-0.027, p=0.080, d=-0.505 -> NOT SUPPORTED
+  LAS:  Random=0.392, Similar=0.399, Δ=0.007, p=0.813, d=0.067 -> NOT SUPPORTED
+  UAS:  Random=0.458, Similar=0.472, Δ=0.014, p=0.654, d=0.128 -> NOT SUPPORTED
+Analyzing: gl_pt_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.911, Similar=0.928, Δ=0.017, p=0.247, d=0.331 -> NOT SUPPORTED
+  LAS:  Random=0.406, Similar=0.418, Δ=0.011, p=0.690, d=0.113 -> NOT SUPPORTED
+  UAS:  Random=0.462, Similar=0.477, Δ=0.015, p=0.591, d=0.153 -> NOT SUPPORTED
+Analyzing: gl_gl_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.912, Similar=0.912, Δ=0.000, p=0.992, d=0.003 -> NOT SUPPORTED
+  LAS:  Random=0.420, Similar=0.357, Δ=-0.063, p=0.033, d=-0.619 -> NOT SUPPORTED
+  UAS:  Random=0.484, Similar=0.420, Δ=-0.064, p=0.045, d=-0.582 -> NOT SUPPORTED
+
+SUMMARY for gl:
+Files tested: 9
+UPOS supported: 0/9 (0.0%)
+LAS supported: 1/9 (11.1%)
+UAS supported: 1/9 (11.1%)
+
+=== PROCESSING OC ===
+Analyzing: oc_ca_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.819, Similar=0.898, Δ=0.080, p=0.015, d=0.717 -> SUPPORTED
+  LAS:  Random=0.388, Similar=0.400, Δ=0.012, p=0.841, d=0.057 -> NOT SUPPORTED
+  UAS:  Random=0.552, Similar=0.497, Δ=-0.055, p=0.444, d=-0.218 -> NOT SUPPORTED
+Analyzing: oc_oc_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.849, Similar=0.915, Δ=0.066, p=0.032, d=0.625 -> SUPPORTED
+  LAS:  Random=0.420, Similar=0.385, Δ=-0.034, p=0.531, d=-0.178 -> NOT SUPPORTED
+  UAS:  Random=0.583, Similar=0.462, Δ=-0.121, p=0.073, d=-0.519 -> NOT SUPPORTED
+Analyzing: oc_oc_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.861, Similar=0.884, Δ=0.023, p=0.497, d=0.194 -> NOT SUPPORTED
+  LAS:  Random=0.358, Similar=0.460, Δ=0.102, p=0.076, d=0.512 -> NOT SUPPORTED
+  UAS:  Random=0.485, Similar=0.567, Δ=0.082, p=0.193, d=0.373 -> NOT SUPPORTED
+Analyzing: oc_fr_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.849, Similar=0.915, Δ=0.067, p=0.029, d=0.636 -> SUPPORTED
+  LAS:  Random=0.393, Similar=0.411, Δ=0.018, p=0.740, d=0.094 -> NOT SUPPORTED
+  UAS:  Random=0.554, Similar=0.491, Δ=-0.063, p=0.360, d=-0.262 -> NOT SUPPORTED
+Analyzing: oc_ca_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.819, Similar=0.904, Δ=0.086, p=0.018, d=0.694 -> SUPPORTED
+  LAS:  Random=0.412, Similar=0.378, Δ=-0.034, p=0.555, d=-0.168 -> NOT SUPPORTED
+  UAS:  Random=0.587, Similar=0.466, Δ=-0.121, p=0.077, d=-0.512 -> NOT SUPPORTED
+Analyzing: oc_fr_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.809, Similar=0.884, Δ=0.075, p=0.045, d=0.583 -> SUPPORTED
+  LAS:  Random=0.447, Similar=0.387, Δ=-0.060, p=0.300, d=-0.296 -> NOT SUPPORTED
+  UAS:  Random=0.627, Similar=0.476, Δ=-0.152, p=0.025, d=-0.656 -> NOT SUPPORTED
+Analyzing: oc_oc_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.829, Similar=0.909, Δ=0.079, p=0.026, d=0.650 -> SUPPORTED
+  LAS:  Random=0.409, Similar=0.388, Δ=-0.021, p=0.703, d=-0.109 -> NOT SUPPORTED
+  UAS:  Random=0.565, Similar=0.476, Δ=-0.089, p=0.165, d=-0.399 -> NOT SUPPORTED
+Analyzing: oc_ca_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.895, Similar=0.807, Δ=-0.088, p=0.017, d=-0.698 -> NOT SUPPORTED
+  LAS:  Random=0.391, Similar=0.353, Δ=-0.038, p=0.480, d=-0.201 -> NOT SUPPORTED
+  UAS:  Random=0.483, Similar=0.551, Δ=0.069, p=0.295, d=0.299 -> NOT SUPPORTED
+Analyzing: oc_fr_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.895, Similar=0.803, Δ=-0.092, p=0.005, d=-0.823 -> NOT SUPPORTED
+  LAS:  Random=0.359, Similar=0.430, Δ=0.071, p=0.181, d=0.384 -> NOT SUPPORTED
+  UAS:  Random=0.461, Similar=0.606, Δ=0.146, p=0.028, d=0.641 -> SUPPORTED
+
+SUMMARY for oc:
+Files tested: 9
+UPOS supported: 6/9 (66.7%)
+LAS supported: 0/9 (0.0%)
+UAS supported: 1/9 (11.1%)
+
+=== PROCESSING PT ===
+Analyzing: pt_fr_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.890, Similar=0.936, Δ=0.046, p=0.026, d=0.651 -> SUPPORTED
+  LAS:  Random=0.406, Similar=0.437, Δ=0.032, p=0.425, d=0.228 -> NOT SUPPORTED
+  UAS:  Random=0.515, Similar=0.495, Δ=-0.020, p=0.636, d=-0.135 -> NOT SUPPORTED
+Analyzing: pt_fr_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.908, Similar=0.906, Δ=-0.002, p=0.913, d=-0.031 -> NOT SUPPORTED
+  LAS:  Random=0.412, Similar=0.437, Δ=0.024, p=0.569, d=0.162 -> NOT SUPPORTED
+  UAS:  Random=0.465, Similar=0.519, Δ=0.054, p=0.247, d=0.331 -> NOT SUPPORTED
+Analyzing: pt_gl_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.884, Similar=0.935, Δ=0.051, p=0.014, d=0.719 -> SUPPORTED
+  LAS:  Random=0.413, Similar=0.441, Δ=0.029, p=0.471, d=0.205 -> NOT SUPPORTED
+  UAS:  Random=0.492, Similar=0.498, Δ=0.006, p=0.883, d=0.042 -> NOT SUPPORTED
+Analyzing: pt_es_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.892, Similar=0.936, Δ=0.043, p=0.024, d=0.660 -> SUPPORTED
+  LAS:  Random=0.393, Similar=0.472, Δ=0.079, p=0.048, d=0.575 -> SUPPORTED
+  UAS:  Random=0.459, Similar=0.519, Δ=0.059, p=0.158, d=0.405 -> NOT SUPPORTED
+Analyzing: pt_gl_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.893, Similar=0.935, Δ=0.042, p=0.049, d=0.570 -> SUPPORTED
+  LAS:  Random=0.415, Similar=0.469, Δ=0.054, p=0.191, d=0.375 -> NOT SUPPORTED
+  UAS:  Random=0.511, Similar=0.517, Δ=0.007, p=0.871, d=0.046 -> NOT SUPPORTED
+Analyzing: pt_pt_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.896, Similar=0.953, Δ=0.058, p=0.006, d=0.818 -> SUPPORTED
+  LAS:  Random=0.441, Similar=0.437, Δ=-0.004, p=0.922, d=-0.028 -> NOT SUPPORTED
+  UAS:  Random=0.528, Similar=0.489, Δ=-0.038, p=0.408, d=-0.236 -> NOT SUPPORTED
+Analyzing: pt_gl_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.921, Similar=0.906, Δ=-0.016, p=0.439, d=-0.221 -> NOT SUPPORTED
+  LAS:  Random=0.419, Similar=0.434, Δ=0.015, p=0.731, d=0.098 -> NOT SUPPORTED
+  UAS:  Random=0.491, Similar=0.514, Δ=0.024, p=0.590, d=0.153 -> NOT SUPPORTED
+Analyzing: pt_pt_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.890, Similar=0.938, Δ=0.048, p=0.025, d=0.656 -> SUPPORTED
+  LAS:  Random=0.421, Similar=0.466, Δ=0.044, p=0.271, d=0.315 -> NOT SUPPORTED
+  UAS:  Random=0.502, Similar=0.527, Δ=0.026, p=0.560, d=0.166 -> NOT SUPPORTED
+Analyzing: pt_fr_1_long.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.907, Similar=0.919, Δ=0.012, p=0.593, d=0.152 -> NOT SUPPORTED
+  LAS:  Random=0.375, Similar=0.467, Δ=0.093, p=0.017, d=0.697 -> SUPPORTED
+  UAS:  Random=0.453, Similar=0.541, Δ=0.088, p=0.029, d=0.635 -> SUPPORTED
+Analyzing: pt_pt_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.930, Similar=0.901, Δ=-0.029, p=0.171, d=-0.393 -> NOT SUPPORTED
+  LAS:  Random=0.417, Similar=0.417, Δ=-0.000, p=0.999, d=-0.000 -> NOT SUPPORTED
+  UAS:  Random=0.485, Similar=0.502, Δ=0.017, p=0.702, d=0.109 -> NOT SUPPORTED
+Analyzing: pt_es_1_short.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.897, Similar=0.901, Δ=0.004, p=0.864, d=0.049 -> NOT SUPPORTED
+  LAS:  Random=0.368, Similar=0.456, Δ=0.089, p=0.030, d=0.634 -> SUPPORTED
+  UAS:  Random=0.424, Similar=0.519, Δ=0.095, p=0.025, d=0.654 -> SUPPORTED
+Analyzing: pt_es_1.conllu
+  Sentences analyzed: 50
+  Random group: 25, Similar group: 25
+  UPOS: Random=0.878, Similar=0.927, Δ=0.049, p=0.022, d=0.669 -> SUPPORTED
+  LAS:  Random=0.409, Similar=0.435, Δ=0.026, p=0.541, d=0.174 -> NOT SUPPORTED
+  UAS:  Random=0.473, Similar=0.487, Δ=0.014, p=0.750, d=0.091 -> NOT SUPPORTED
+
+SUMMARY for pt:
+Files tested: 12
+UPOS supported: 7/12 (58.3%)
+LAS supported: 3/12 (25.0%)
+UAS supported: 2/12 (16.7%)

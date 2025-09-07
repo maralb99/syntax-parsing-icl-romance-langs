@@ -1,0 +1,1378 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = Aviator , un film sur la vie de Hughes .
+1	Aviator	Aviator	PROPN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	un	un	DET	_	_	4	det	_	_
+4	film	film	NOUN	_	_	10	nsubj	_	_
+5	sur	sur	ADP	_	_	7	case	_	_
+6	la	le	DET	_	_	7	det	_	_
+7	vie	vie	NOUN	_	_	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Hughes	Hughes	PROPN	_	_	7	nmod	_	_
+10	.	.	PUNCT	_	_	1	dep	_	_
+
+# sent_id = 2
+# text = Les études durent six ans mais leur contenu diffère donc selon les Facultés .
+1	Les	le	DET	_	_	2	det	_	_
+2	études	étude	NOUN	_	_	3	nsubj	_	_
+3	durent	durer	VERB	_	_	0	root	_	_
+4	six	six	NUM	_	_	5	nummod	_	_
+5	ans	an	NOUN	_	_	3	obl	_	_
+6	mais	mais	CCONJ	_	_	5	cc	_	_
+7	leur	son	PRON	_	_	8	nmod:poss	_	_
+8	contenu	contenu	NOUN	_	_	9	nsubj	_	_
+9	diffère	différer	VERB	_	_	3	conj	_	_
+10	donc	donc	ADV	_	_	9	advmod	_	_
+11	selon	selon	ADP	_	_	13	case	_	_
+12	les	le	DET	_	_	13	det	_	_
+13	Facultés	faculté	NOUN	_	_	9	obl	_	_
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3
+# text = Mais comment faire dans un contexte structurellement raciste ?
+1	Mais	mais	CCONJ	_	_	3	cc	_	_
+2	comment	comment	ADV	_	_	3	advmod	_	_
+3	faire	faire	VERB	_	_	0	root	_	_
+4	dans	dans	ADP	_	_	6	case	_	_
+5	un	un	DET	_	_	6	det	_	_
+6	contexte	contexte	NOUN	_	_	3	obl	_	_
+7	structurellement	structurellement	ADV	_	_	8	advmod	_	_
+8	raciste	raciste	ADJ	_	_	6	amod	_	_
+9	?	?	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 4
+# text = L' « oasis de vie » , dans un milieu où règne l' obscurité totale et une pression hydrostatique importante , est riche et varié : les chercheurs y découvrent de nouvelles espèces de bivalves , de poissons , de crustacés , de poulpes dans des zones pensées jusqu' alors désertiques .
+1	L'	le	DET	_	_	3	det	_	_
+2	«	«	PUNCT	_	_	3	punct	_	_
+3	oasis	oasis	NOUN	_	_	11	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	vie	vie	NOUN	_	_	30	nsubj	_	_
+6	»	»	PUNCT	_	_	3	punct	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	dans	dans	ADP	_	_	10	case	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	milieu	milieu	NOUN	_	_	12	nsubj	_	_
+11	où	où	ADV	_	_	12	advmod	_	_
+12	règne	régner	VERB	_	_	0	root	_	_
+13	l'	le	DET	_	_	14	det	_	_
+14	obscurité	obscurité	NOUN	_	_	10	nmod	_	_
+15	totale	total	ADJ	_	_	14	amod	_	_
+16	et	et	CCONJ	_	_	1	cc	_	_
+17	une	un	DET	_	_	18	det	_	_
+18	pression	pression	NOUN	_	_	10	nmod	_	_
+19	hydrostatique	hydrostatique	ADJ	_	_	18	amod	_	_
+20	importante	important	ADJ	_	_	18	amod	_	_
+21	,	,	PUNCT	_	_	16	punct	_	_
+22	est	être	VERB	_	_	28	acl	_	_
+23	riche	riche	ADJ	_	_	22	xcomp	_	_
+24	et	et	CCONJ	_	_	2	cc	_	_
+25	varié	varié	ADJ	_	_	28	amod	_	_
+26	:	:	PUNCT	_	_	22	punct	_	_
+27	les	le	DET	_	_	28	det	_	_
+28	chercheurs	chercheur	NOUN	_	_	21	nsubj	_	_
+29	y	y	ADV	_	_	30	advmod	_	_
+30	découvrent	découvrir	VERB	_	_	20	ccomp	_	_
+31	de	un	DET	_	_	33	det	_	_
+32	nouvelles	nouveau	ADJ	_	_	33	amod	_	_
+33	espèces	espèce	NOUN	_	_	30	obj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	bivalves	bivalve	NOUN	_	_	33	nmod	_	_
+36	,	,	PUNCT	_	_	32	punct	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	poissons	poisson	NOUN	_	_	30	obj	_	_
+39	,	,	PUNCT	_	_	34	punct	_	_
+40	de	de	ADP	_	_	30	mark	_	_
+41	crustacés	crustacé	NOUN	_	_	30	obj	_	_
+42	,	,	PUNCT	_	_	40	punct	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	poulpes	poulpe	NOUN	_	_	30	obj	_	_
+45	dans	dans	ADP	_	_	47	case	_	_
+46	des	un	DET	_	_	47	det	_	_
+47	zones	zone	NOUN	_	_	40	obl	_	_
+48	pensées	penser	VERB	_	_	41	acl	_	_
+49	jusqu'	jusque	ADP	_	_	48	mark	_	_
+50	alors	alors	ADV	_	_	48	advmod	_	_
+51	désertiques	désertique	ADJ	_	_	41	amod	_	_
+52	.	.	PUNCT	_	_	12	dep	_	_
+
+# sent_id = 5
+# text = Travail de très grande qualité exécuté par un imprimeur artisan passionné .
+1	Travail	travail	NOUN	_	_	6	nsubj	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	très	très	ADV	_	_	4	advmod	_	_
+4	grande	grand	ADJ	_	_	5	amod	_	_
+5	qualité	qualité	NOUN	_	_	1	nmod	_	_
+6	exécuté	exécuter	VERB	_	_	0	root	_	_
+7	par	par	ADP	_	_	9	case	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	imprimeur	imprimeur	NOUN	_	_	6	obl	_	_
+10	artisan	artisan	ADJ	_	_	9	amod	_	_
+11	passionné	passionné	ADJ	_	_	9	amod	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 6
+# text = Rajesh Bhagwan ( secrétaire général responsable de l' organisation ) et Steve Obeegadoo ( secrétaire général responsable de les projets politiques , de le renouveau intellectuel , de la formation et de les relations internationales ) .
+1	Rajesh	Rajesh	PROPN	_	_	0	root	_	_
+2	Bhagwan	Bhagwan	PROPN	_	_	1	appos	_	_
+3	(	(	PUNCT	_	_	1	punct	_	_
+4	secrétaire	secrétaire	NOUN	_	_	12	appos	_	_
+5	général	général	ADJ	_	_	4	amod	_	_
+6	responsable	responsable	ADJ	_	_	4	amod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	l'	le	DET	_	_	9	det	_	_
+9	organisation	organisation	NOUN	_	_	6	obl	_	_
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	et	et	CCONJ	_	_	1	cc	_	_
+12	Steve	Steve	PROPN	_	_	1	appos	_	_
+13	Obeegadoo	Obeegadoo	PROPN	_	_	1	appos	_	_
+14	(	(	PUNCT	_	_	11	punct	_	_
+15	secrétaire	secrétaire	NOUN	_	_	1	appos	_	_
+16	général	général	ADJ	_	_	13	amod	_	_
+17	responsable	responsable	ADJ	_	_	15	amod	_	_
+18-19	des	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	les	le	DET	_	_	20	det	_	_
+20	projets	projet	NOUN	_	_	10	obl	_	_
+21	politiques	politique	ADJ	_	_	20	amod	_	_
+22	,	,	PUNCT	_	_	20	punct	_	_
+23-24	du	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	le	le	DET	_	_	25	det	_	_
+25	renouveau	renouveau	NOUN	_	_	21	obl	_	_
+26	intellectuel	intellectuel	ADJ	_	_	25	amod	_	_
+27	,	,	PUNCT	_	_	23	punct	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	la	le	DET	_	_	30	det	_	_
+30	formation	formation	NOUN	_	_	2	appos	_	_
+31	et	et	CCONJ	_	_	3	cc	_	_
+32-33	des	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	les	le	DET	_	_	34	det	_	_
+34	relations	relation	NOUN	_	_	3	obl	_	_
+35	internationales	international	ADJ	_	_	34	amod	_	_
+36	)	)	PUNCT	_	_	31	punct	_	_
+37	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 7
+# text = Elle lutte pour échapper à les tueurs à ses trousses .
+1	Elle	lui	PRON	_	_	2	nsubj	_	_
+2	lutte	lutter	VERB	_	_	0	root	_	_
+3	pour	pour	ADP	_	_	4	mark	_	_
+4	échapper	échapper	VERB	_	_	2	xcomp	_	_
+5-6	aux	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	les	le	DET	_	_	7	det	_	_
+7	tueurs	tueur	NOUN	_	_	4	obl	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	ses	son	DET	_	_	10	det	_	_
+10	trousses	trousses	NOUN	_	_	7	nmod	_	_
+11	.	.	PUNCT	_	_	2	dep	_	_
+
+# sent_id = 8
+# text = Les compagnies aériennes à bas coût ne connaissent pas la crise .
+1	Les	le	DET	_	_	2	det	_	_
+2	compagnies	compagnie	NOUN	_	_	8	nsubj	_	_
+3	aériennes	aérien	ADJ	_	_	2	amod	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	bas	bas	ADJ	_	_	6	amod	_	_
+6	coût	coût	NOUN	_	_	8	obl	_	_
+7	ne	ne	PART	_	_	8	mark	_	_
+8	connaissent	connaître	VERB	_	_	0	root	_	_
+9	pas	pas	PART	_	_	8	advmod	_	_
+10	la	le	DET	_	_	11	det	_	_
+11	crise	crise	NOUN	_	_	8	obj	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 9
+# text = C' est véritablement pour le futur baptisé un changement de cap .
+1	C'	ce	PRON	_	_	7	nsubj	_	_
+2	est	être	AUX	_	_	7	advcl	_	_
+3	véritablement	véritablement	ADV	_	_	2	advmod	_	_
+4	pour	pour	ADP	_	_	7	mark	_	_
+5	le	le	DET	_	_	6	det	_	_
+6	futur	futur	NOUN	_	_	7	nsubj	_	_
+7	baptisé	baptiser	VERB	_	_	0	root	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	changement	changement	NOUN	_	_	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	cap	cap	NOUN	_	_	9	nmod	_	_
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 10
+# text = Le gouvernement français a fait encore une fois l' objet de sévères reproches quant à son soutien inconditionnel à le Maroc dans le dossier de le Sahara occidental qui oppose ce dernier à le Front Polisario depuis 35 ans .
+1	Le	le	DET	_	_	2	det	_	_
+2	gouvernement	gouvernement	NOUN	_	_	5	nsubj	_	_
+3	français	français	ADJ	_	_	2	amod	_	_
+4	a	avoir	AUX	_	_	5	advcl	_	_
+5	fait	faire	VERB	_	_	0	root	_	_
+6	encore	encore	ADV	_	_	5	advmod	_	_
+7	une	un	DET	_	_	8	det	_	_
+8	fois	fois	NOUN	_	_	5	obl	_	_
+9	l'	le	DET	_	_	10	det	_	_
+10	objet	objet	NOUN	_	_	5	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	sévères	sévère	ADJ	_	_	10	amod	_	_
+13	reproches	reproche	NOUN	_	_	10	nmod	_	_
+14	quant	quant	ADP	_	_	17	case	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	son	son	DET	_	_	17	det	_	_
+17	soutien	soutien	NOUN	_	_	10	nmod	_	_
+18	inconditionnel	inconditionnel	ADJ	_	_	17	amod	_	_
+19-20	au	_	_	_	_	_	_	_	_
+19	à	à	ADP	_	_	21	case	_	_
+20	le	le	DET	_	_	21	det	_	_
+21	Maroc	Maroc	PROPN	_	_	10	nmod	_	_
+22	dans	dans	ADP	_	_	24	case	_	_
+23	le	le	DET	_	_	24	det	_	_
+24	dossier	dossier	NOUN	_	_	10	nmod	_	_
+25-26	du	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	le	le	DET	_	_	27	det	_	_
+27	Sahara	Sahara	PROPN	_	_	20	nmod	_	_
+28	occidental	occidental	ADJ	_	_	27	amod	_	_
+29	qui	qui	PRON	_	_	30	nsubj	_	_
+30	oppose	opposer	VERB	_	_	2	acl	_	_
+31	ce	ce	DET	_	_	3	det	_	_
+32	dernier	dernier	ADJ	_	_	35	amod	_	_
+33-34	au	_	_	_	_	_	_	_	_
+33	à	à	ADP	_	_	35	case	_	_
+34	le	le	DET	_	_	35	det	_	_
+35	Front	Front	PROPN	_	_	31	obl	_	_
+36	Polisario	Polisario	PROPN	_	_	31	obl	_	_
+37	depuis	depuis	ADP	_	_	30	mark	_	_
+38	35	35	NUM	_	_	3	nummod	_	_
+39	ans	an	NOUN	_	_	3	obl	_	_
+40	.	.	PUNCT	_	_	5	dep	_	_
+
+# sent_id = 11
+# text = Mais , le SMIC n' est pas un outil de référence .
+1	Mais	mais	CCONJ	_	_	6	cc	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	le	le	DET	_	_	4	det	_	_
+4	SMIC	SMIC	PROPN	_	_	6	nsubj	_	_
+5	n'	ne	DET	_	_	4	det	_	_
+6	est	être	AUX	_	_	0	root	_	_
+7	pas	pas	PART	_	_	6	advmod	_	_
+8	un	un	DET	_	_	9	det	_	_
+9	outil	outil	NOUN	_	_	6	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	référence	référence	NOUN	_	_	9	nmod	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 12
+# text = L' Abime de l' abime de Vladimir Holan à la Maison d' Arrêt d' Avignon ( 2001 ) .
+1	L'	le	DET	_	_	2	det	_	_
+2	Abime	abîme	NOUN	_	_	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	_	5	det	_	_
+5	abime	abîme	NOUN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Vladimir	Vladimir	PROPN	_	_	5	nmod	_	_
+8	Holan	Holan	PROPN	_	_	7	appos	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	la	le	DET	_	_	11	det	_	_
+11	Maison	maison	PROPN	_	_	8	nmod	_	_
+12	d'	de	ADP	_	_	13	case	_	_
+13	Arrêt	arrêt	PROPN	_	_	1	nmod	_	_
+14	d'	de	ADP	_	_	15	case	_	_
+15	Avignon	Avignon	PROPN	_	_	1	nmod	_	_
+16	(	(	PUNCT	_	_	11	punct	_	_
+17	2001	2001	NUM	_	_	10	nummod	_	_
+18	)	)	PUNCT	_	_	13	punct	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 13
+# text = On retrouve ici une touche très melvillienne et qui à le lieu de souligner la thématique de le livre y ajoute du sens .
+1	On	on	PRON	_	_	2	nsubj	_	_
+2	retrouve	retrouver	VERB	_	_	0	root	_	_
+3	ici	ici	ADV	_	_	2	advmod	_	_
+4	une	un	DET	_	_	5	det	_	_
+5	touche	touche	NOUN	_	_	2	obj	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
+7	melvillienne	melvillien	ADJ	_	_	5	amod	_	_
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	qui	qui	PRON	_	_	2	dep	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	_	12	det	_	_
+12	lieu	lieu	NOUN	_	_	9	obl	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	souligner	souligner	VERB	_	_	11	xcomp	_	_
+15	la	le	DET	_	_	16	det	_	_
+16	thématique	thématique	NOUN	_	_	1	obl	_	_
+17-18	du	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	le	le	DET	_	_	19	det	_	_
+19	livre	livre	NOUN	_	_	10	obl	_	_
+20	y	y	PRON	_	_	2	obl	_	_
+21	ajoute	ajouter	VERB	_	_	20	xcomp	_	_
+22	du	du	DET	_	_	23	det	_	_
+23	sens	sens	NOUN	_	_	20	obl	_	_
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 14
+# text = Louis Bastien ( né le 26 octobre 1881 à Paris et mort le 13 août 1963 à Châteauroux ) est un coureur cycliste et escrimeur français de le début de le XXe siècle , dont la spécialité était le cyclisme sur piste .
+1	Louis	Louis	PROPN	_	_	4	nsubj	_	_
+2	Bastien	Bastien	PROPN	_	_	10	appos	_	_
+3	(	(	PUNCT	_	_	4	punct	_	_
+4	né	naître	VERB	_	_	0	root	_	_
+5	le	le	DET	_	_	7	det	_	_
+6	26	26	NUM	_	_	7	nummod	_	_
+7	octobre	octobre	NOUN	_	_	4	obl	_	_
+8	1881	1881	NUM	_	_	7	nummod	_	_
+9	à	à	ADP	_	_	10	case	_	_
+10	Paris	Paris	PROPN	_	_	4	obl	_	_
+11	et	et	CCONJ	_	_	1	cc	_	_
+12	mort	mourir	VERB	_	_	4	conj	_	_
+13	le	le	DET	_	_	15	det	_	_
+14	13	13	NUM	_	_	1	nummod	_	_
+15	août	août	NOUN	_	_	11	obl	_	_
+16	1963	1963	NUM	_	_	1	nummod	_	_
+17	à	à	ADP	_	_	12	case	_	_
+18	Châteauroux	Châteauroux	PROPN	_	_	11	obl	_	_
+19	)	)	PUNCT	_	_	14	punct	_	_
+20	est	être	VERB	_	_	1	acl	_	_
+21	un	un	DET	_	_	22	det	_	_
+22	coureur	coureur	NOUN	_	_	20	obj	_	_
+23	cycliste	cycliste	ADJ	_	_	22	amod	_	_
+24	et	et	CCONJ	_	_	2	cc	_	_
+25	escrimeur	escrimeur	NOUN	_	_	22	appos	_	_
+26	français	français	ADJ	_	_	25	amod	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	le	le	DET	_	_	29	det	_	_
+29	début	début	NOUN	_	_	2	nmod	_	_
+30-31	du	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	33	case	_	_
+31	le	le	DET	_	_	33	det	_	_
+32	XXe	XXe	NUM	_	_	3	nummod	_	_
+33	siècle	siècle	NOUN	_	_	2	nmod	_	_
+34	,	,	PUNCT	_	_	29	punct	_	_
+35	dont	dont	PRON	_	_	33	nmod:poss	_	_
+36	la	le	DET	_	_	37	det	_	_
+37	spécialité	spécialité	NOUN	_	_	38	nsubj	_	_
+38	était	être	VERB	_	_	33	acl	_	_
+39	le	le	DET	_	_	40	det	_	_
+40	cyclisme	cyclisme	NOUN	_	_	34	obl	_	_
+41	sur	sur	ADP	_	_	4	case	_	_
+42	piste	piste	NOUN	_	_	41	obl	_	_
+43	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 15
+# text = C' est sur sa liste qu' il sera réélu en 2005 et en 2009 , bénéficiant également de le soutien de le Hezbollah .
+1	C'	ce	PRON	_	_	9	nsubj	_	_
+2	est	être	AUX	_	_	9	advcl	_	_
+3	sur	sur	ADP	_	_	5	case	_	_
+4	sa	son	DET	_	_	5	det	_	_
+5	liste	liste	NOUN	_	_	9	nsubj	_	_
+6	qu'	que	SCONJ	_	_	9	mark	_	_
+7	il	lui	PRON	_	_	9	nsubj	_	_
+8	sera	être	AUX	_	_	9	advcl	_	_
+9	réélu	réélire	VERB	_	_	0	root	_	_
+10	en	en	ADP	_	_	9	case	_	_
+11	2005	2005	NUM	_	_	10	nummod	_	_
+12	et	et	CCONJ	_	_	9	cc	_	_
+13	en	en	ADP	_	_	16	mark	_	_
+14	2009	2009	NUM	_	_	13	nummod	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	bénéficiant	bénéficier	VERB	_	_	9	advcl	_	_
+17	également	également	ADV	_	_	16	advmod	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	_	20	det	_	_
+20	soutien	soutien	NOUN	_	_	12	obl	_	_
+21-22	du	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	2	case	_	_
+22	le	le	DET	_	_	23	det	_	_
+23	Hezbollah	Hezbollah	PROPN	_	_	20	nmod	_	_
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 16
+# text = En 1872 , quand les Georgiens ont repris les commandes de le gouvernement , Barnett ( qui avait été réélu par ce point ) a rapporté le sceau .
+1	En	en	ADP	_	_	25	mark	_	_
+2	1872	1872	NUM	_	_	8	nummod	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	quand	quand	SCONJ	_	_	8	mark	_	_
+5	les	le	DET	_	_	6	det	_	_
+6	Georgiens	géorgien	NOUN	_	_	8	nsubj	_	_
+7	ont	avoir	AUX	_	_	8	csubj	_	_
+8	repris	reprendre	VERB	_	_	0	root	_	_
+9	les	le	DET	_	_	10	det	_	_
+10	commandes	commande	NOUN	_	_	8	obj	_	_
+11-12	du	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	le	le	DET	_	_	13	det	_	_
+13	gouvernement	gouvernement	NOUN	_	_	10	nmod	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	Barnett	Barnett	PROPN	_	_	2	nsubj	_	_
+16	(	(	PUNCT	_	_	11	punct	_	_
+17	qui	qui	PRON	_	_	10	nmod:poss	_	_
+18	avait	avoir	AUX	_	_	20	csubj	_	_
+19	été	être	AUX	_	_	20	csubj	_	_
+20	réélu	réélire	VERB	_	_	10	acl	_	_
+21	par	par	ADP	_	_	20	mark	_	_
+22	ce	ce	DET	_	_	23	det	_	_
+23	point	point	NOUN	_	_	21	obl	_	_
+24	)	)	PUNCT	_	_	19	punct	_	_
+25	a	avoir	AUX	_	_	26	csubj	_	_
+26	rapporté	rapporter	VERB	_	_	8	parataxis	_	_
+27	le	le	DET	_	_	28	det	_	_
+28	sceau	sceau	NOUN	_	_	20	obj	_	_
+29	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 17
+# text = Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude , c' est une étape typique de montagne .
+1	Comprenant	comprendre	VERB	_	_	0	root	_	_
+2	six	six	NUM	_	_	3	nummod	_	_
+3	sommets	sommet	NOUN	_	_	1	obl	_	_
+4	dont	dont	ADP	_	_	1	mark	_	_
+5	un	un	DET	_	_	6	det	_	_
+6	point	point	NOUN	_	_	3	appos	_	_
+7	culminant	culminer	VERB	_	_	6	acl	_	_
+8	à	à	ADP	_	_	7	case	_	_
+9	2 001	2 001	NUM	_	_	7	nummod	_	_
+10	mètres	mètre	NOUN	_	_	7	obj	_	_
+11	et	et	CCONJ	_	_	1	cc	_	_
+12	une	un	DET	_	_	13	det	_	_
+13	arrivée	arrivée	NOUN	_	_	18	nsubj	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	altitude	altitude	NOUN	_	_	1	obl	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	c'	ce	PRON	_	_	10	nmod:poss	_	_
+18	est	être	VERB	_	_	10	acl	_	_
+19	une	un	DET	_	_	20	det	_	_
+20	étape	étape	NOUN	_	_	17	nsubj	_	_
+21	typique	typique	ADJ	_	_	20	amod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	montagne	montagne	NOUN	_	_	20	nmod	_	_
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 18
+# text = Johnson s' appuyait sur une unique forme de rhétorique , et sa « réfutation » de l' immatérialisme de George Berkeley est restée célèbre : Berkeley affirmait que la matière n' existait pas mais semblait seulement exister ;
+1	Johnson	Johnson	PROPN	_	_	3	nsubj	_	_
+2	s'	soi	PRON	_	_	30	nmod:poss	_	_
+3	appuyait	appuyer	VERB	_	_	0	root	_	_
+4	sur	sur	ADP	_	_	7	case	_	_
+5	une	un	DET	_	_	7	det	_	_
+6	unique	unique	ADJ	_	_	7	amod	_	_
+7	forme	forme	NOUN	_	_	32	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	rhétorique	rhétorique	NOUN	_	_	7	nmod	_	_
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	et	et	CCONJ	_	_	1	cc	_	_
+12	sa	son	DET	_	_	14	det	_	_
+13	«	«	PUNCT	_	_	11	punct	_	_
+14	réfutation	réfutation	NOUN	_	_	7	appos	_	_
+15	»	»	PUNCT	_	_	11	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	l'	le	DET	_	_	18	det	_	_
+18	immatérialisme	immatérialisme	NOUN	_	_	22	nsubj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	George	George	PROPN	_	_	1	appos	_	_
+21	Berkeley	Berkeley	PROPN	_	_	22	nsubj	_	_
+22	est	être	AUX	_	_	27	csubj	_	_
+23	restée	rester	VERB	_	_	20	acl	_	_
+24	célèbre	célèbre	ADJ	_	_	21	amod	_	_
+25	:	:	PUNCT	_	_	20	punct	_	_
+26	Berkeley	Berkeley	PROPN	_	_	21	appos	_	_
+27	affirmait	affirmer	VERB	_	_	20	acl	_	_
+28	que	que	SCONJ	_	_	2	mark	_	_
+29	la	le	DET	_	_	30	det	_	_
+30	matière	matière	NOUN	_	_	22	obj	_	_
+31	n'	ne	PART	_	_	30	mark	_	_
+32	existait	exister	VERB	_	_	30	acl	_	_
+33	pas	pas	PART	_	_	30	mark	_	_
+34	mais	mais	CCONJ	_	_	3	cc	_	_
+35	semblait	sembler	VERB	_	_	3	conj	_	_
+36	seulement	seulement	ADV	_	_	3	advmod	_	_
+37	exister	exister	VERB	_	_	30	acl	_	_
+38	;	;	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 19
+# text = Le poème en prose est né à le XIXe siècle avec le recueil de poèmes Gaspard de la nuit d' Aloysius Bertrand .
+1	Le	le	DET	_	_	2	det	_	_
+2	poème	poème	NOUN	_	_	5	nsubj	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	prose	prose	NOUN	_	_	2	nmod	_	_
+5	est	être	VERB	_	_	0	root	_	_
+6	né	naître	VERB	_	_	5	xcomp	_	_
+7-8	au	_	_	_	_	_	_	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	le	le	DET	_	_	9	det	_	_
+9	XIXe	XIXe	NOUN	_	_	6	obl	_	_
+10	siècle	siècle	NOUN	_	_	9	nmod	_	_
+11	avec	avec	ADP	_	_	13	case	_	_
+12	le	le	DET	_	_	13	det	_	_
+13	recueil	recueil	NOUN	_	_	6	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	poèmes	poème	NOUN	_	_	11	obl	_	_
+16	Gaspard	Gaspard	PROPN	_	_	10	appos	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	le	DET	_	_	19	det	_	_
+19	nuit	nuit	NOUN	_	_	1	nmod	_	_
+20	d'	de	ADP	_	_	21	case	_	_
+21	Aloysius	Aloysius	PROPN	_	_	2	appos	_	_
+22	Bertrand	Bertrand	PROPN	_	_	2	appos	_	_
+23	.	.	PUNCT	_	_	5	dep	_	_
+
+# sent_id = 20
+# text = Son dernier film , avec Ewan McGregor et Pierce Brosnan , narre l' histoire d' un nègre engagé pour terminer les mémoires d' un ancien Premier ministre britannique mais dont la mission se révèle périlleuse .
+1	Son	son	DET	_	_	3	det	_	_
+2	dernier	dernier	ADJ	_	_	3	amod	_	_
+3	film	film	NOUN	_	_	12	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	avec	avec	ADP	_	_	34	case	_	_
+6	Ewan	Ewan	PROPN	_	_	5	obl	_	_
+7	McGregor	McGregor	PROPN	_	_	6	appos	_	_
+8	et	et	CCONJ	_	_	7	cc	_	_
+9	Pierce	Pierce	PROPN	_	_	7	appos	_	_
+10	Brosnan	Brosnan	PROPN	_	_	9	appos	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	narre	narrer	VERB	_	_	0	root	_	_
+13	l'	le	DET	_	_	14	det	_	_
+14	histoire	histoire	NOUN	_	_	12	obj	_	_
+15	d'	de	ADP	_	_	17	case	_	_
+16	un	un	DET	_	_	17	det	_	_
+17	nègre	nègre	NOUN	_	_	14	nmod	_	_
+18	engagé	engager	VERB	_	_	10	acl	_	_
+19	pour	pour	ADP	_	_	12	mark	_	_
+20	terminer	terminer	VERB	_	_	10	acl	_	_
+21	les	le	DET	_	_	22	det	_	_
+22	mémoires	mémoire	NOUN	_	_	20	obj	_	_
+23	d'	de	ADP	_	_	26	case	_	_
+24	un	un	DET	_	_	26	det	_	_
+25	ancien	ancien	ADJ	_	_	22	amod	_	_
+26	Premier	premier	NOUN	_	_	21	nmod	_	_
+27	ministre	ministre	NOUN	_	_	21	nmod	_	_
+28	britannique	britannique	ADJ	_	_	26	amod	_	_
+29	mais	mais	CCONJ	_	_	3	cc	_	_
+30	dont	dont	PRON	_	_	2	obl	_	_
+31	la	le	DET	_	_	32	det	_	_
+32	mission	mission	NOUN	_	_	34	nsubj	_	_
+33	se	soi	PRON	_	_	3	nmod:poss	_	_
+34	révèle	révéler	VERB	_	_	3	acl	_	_
+35	périlleuse	périlleux	ADJ	_	_	32	amod	_	_
+36	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 21
+# text = La jeune Marian ( contraction de Mary Anne ) , se révèle d' un caractère obstiné et ombrageux .
+1	La	le	DET	_	_	12	dep	_	_
+2	jeune	jeune	ADJ	_	_	3	amod	_	_
+3	Marian	Marian	PROPN	_	_	1	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	_
+5	contraction	contraction	NOUN	_	_	3	appos	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Mary	Mary	PROPN	_	_	5	nmod	_	_
+8	Anne	Anne	PROPN	_	_	7	compound	_	_
+9	)	)	PUNCT	_	_	5	punct	_	_
+10	,	,	PUNCT	_	_	12	dep	_	_
+11	se	soi	PRON	_	_	10	nsubj	_	_
+12	révèle	révéler	VERB	_	_	0	root	_	_
+13	d'	de	ADP	_	_	15	case	_	_
+14	un	un	DET	_	_	15	det	_	_
+15	caractère	caractère	NOUN	_	_	11	obl	_	_
+16	obstiné	obstiné	ADJ	_	_	15	amod	_	_
+17	et	et	CCONJ	_	_	1	cc	_	_
+18	ombrageux	ombrageux	ADJ	_	_	15	amod	_	_
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 22
+# text = Il a fait partie de groupes musicaux comme Los Abuelos de la Nada et Los Rodríguez .
+1	Il	lui	PRON	_	_	3	nsubj	_	_
+2	a	avoir	AUX	_	_	3	advcl	_	_
+3	fait	faire	VERB	_	_	0	root	_	_
+4	partie	partie	NOUN	_	_	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	groupes	groupe	NOUN	_	_	4	nmod	_	_
+7	musicaux	musical	ADJ	_	_	6	amod	_	_
+8	comme	comme	ADP	_	_	9	case	_	_
+9	Los	Los	PROPN	_	_	6	appos	_	_
+10	Abuelos	Abuelos	PROPN	_	_	9	nmod	_	_
+11	de	de	ADP	_	_	3	dep	_	_
+12	la	la	DET	_	_	13	det	_	_
+13	Nada	Nada	PROPN	_	_	11	nmod	_	_
+14	et	et	CCONJ	_	_	1	cc	_	_
+15	Los	Los	PROPN	_	_	11	nmod	_	_
+16	Rodríguez	Rodríguez	PROPN	_	_	11	nmod	_	_
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 23
+# text = Les conventions signées entre l' UFE et les universités françaises partenaires garantissent que l' université est qualifiée selon les critères de l' Union européenne .
+1	Les	le	DET	_	_	2	det	_	_
+2	conventions	convention	NOUN	_	_	3	nsubj	_	_
+3	signées	signer	VERB	_	_	0	root	_	_
+4	entre	entre	ADP	_	_	3	mark	_	_
+5	l'	le	DET	_	_	6	det	_	_
+6	UFE	UFE	PROPN	_	_	4	obl	_	_
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	les	le	DET	_	_	9	det	_	_
+9	universités	université	NOUN	_	_	3	obl	_	_
+10	françaises	français	ADJ	_	_	9	amod	_	_
+11	partenaires	partenaire	NOUN	_	_	9	nmod	_	_
+12	garantissent	garantir	VERB	_	_	3	xcomp	_	_
+13	que	que	SCONJ	_	_	1	mark	_	_
+14	l'	le	DET	_	_	15	det	_	_
+15	université	université	NOUN	_	_	13	nsubj	_	_
+16	est	être	AUX	_	_	17	conj	_	_
+17	qualifiée	qualifier	VERB	_	_	11	acl	_	_
+18	selon	selon	ADP	_	_	17	mark	_	_
+19	les	le	DET	_	_	20	det	_	_
+20	critères	critère	NOUN	_	_	1	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	l'	le	DET	_	_	23	det	_	_
+23	Union	union	PROPN	_	_	20	nmod	_	_
+24	européenne	européen	ADJ	_	_	23	amod	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 24
+# text = Adam est le berceau de la tribu Al Bu Said , dont est issu l' actuel sultan Qabus ibn Said .
+1	Adam	Adam	PROPN	_	_	2	nsubj	_	_
+2	est	être	VERB	_	_	0	root	_	_
+3	le	le	DET	_	_	4	det	_	_
+4	berceau	berceau	NOUN	_	_	2	obj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	_	7	det	_	_
+7	tribu	tribu	NOUN	_	_	4	nmod	_	_
+8	Al	Al	PROPN	_	_	7	appos	_	_
+9	Bu	Bu	PROPN	_	_	8	compound	_	_
+10	Said	Said	PROPN	_	_	9	compound	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	dont	dont	PRON	_	_	1	nmod	_	_
+13	est	être	VERB	_	_	1	acl	_	_
+14	issu	issu	VERB	_	_	1	acl	_	_
+15	l'	le	DET	_	_	17	det	_	_
+16	actuel	actuel	ADJ	_	_	17	amod	_	_
+17	sultan	sultan	NOUN	_	_	10	appos	_	_
+18	Qabus	Qabus	PROPN	_	_	1	appos	_	_
+19	ibn	ibn	PROPN	_	_	1	appos	_	_
+20	Said	Said	PROPN	_	_	1	appos	_	_
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 25
+# text = L' album de photos de police exposé à le musée d' Histoire politique de la Russie de Saint-Pétersbourg révèle le visage de Raspoutine défoncé par des coups et son corps avec quatre points d' impacts de balles qui ont traversé le cœur , le cou et le cerveau .
+1	L'	le	DET	_	_	2	det	_	_
+2	album	album	NOUN	_	_	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	photos	photo	NOUN	_	_	6	nmod	_	_
+5	de	de	ADP	_	_	40	mark	_	_
+6	police	police	NOUN	_	_	40	nsubj	_	_
+7	exposé	exposer	VERB	_	_	0	root	_	_
+8-9	au	_	_	_	_	_	_	_	_
+8	à	à	ADP	_	_	10	case	_	_
+9	le	le	DET	_	_	10	det	_	_
+10	musée	musée	NOUN	_	_	7	obl	_	_
+11	d'	de	ADP	_	_	12	case	_	_
+12	Histoire	histoire	NOUN	_	_	1	nmod	_	_
+13	politique	politique	ADJ	_	_	10	amod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	la	le	DET	_	_	16	det	_	_
+16	Russie	Russie	PROPN	_	_	1	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Saint-Pétersbourg	Saint-Pétersbourg	PROPN	_	_	1	nmod	_	_
+19	révèle	révéler	VERB	_	_	7	xcomp	_	_
+20	le	le	DET	_	_	21	det	_	_
+21	visage	visage	NOUN	_	_	16	appos	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Raspoutine	Raspoutine	PROPN	_	_	2	appos	_	_
+24	défoncé	défoncer	VERB	_	_	2	acl	_	_
+25	par	par	ADP	_	_	24	mark	_	_
+26	des	un	DET	_	_	27	det	_	_
+27	coups	coup	NOUN	_	_	20	obl	_	_
+28	et	et	CCONJ	_	_	3	cc	_	_
+29	son	son	DET	_	_	30	det	_	_
+30	corps	corps	NOUN	_	_	20	obl	_	_
+31	avec	avec	ADP	_	_	33	case	_	_
+32	quatre	quatre	NUM	_	_	3	nummod	_	_
+33	points	point	NOUN	_	_	30	nmod	_	_
+34	d'	de	ADP	_	_	35	case	_	_
+35	impacts	impact	NOUN	_	_	30	nmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	balles	balle	NOUN	_	_	3	obl	_	_
+38	qui	qui	PRON	_	_	30	nmod:poss	_	_
+39	ont	avoir	AUX	_	_	40	conj	_	_
+40	traversé	traverser	VERB	_	_	30	acl	_	_
+41	le	le	DET	_	_	42	det	_	_
+42	cœur	cœur	NOUN	_	_	40	obj	_	_
+43	,	,	PUNCT	_	_	40	punct	_	_
+44	le	le	DET	_	_	45	det	_	_
+45	cou	cou	NOUN	_	_	43	obl	_	_
+46	et	et	CCONJ	_	_	4	cc	_	_
+47	le	le	DET	_	_	48	det	_	_
+48	cerveau	cerveau	NOUN	_	_	4	appos	_	_
+49	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 26
+# text = Les moments les plus appréciés sont l' apparition de les premières fleurs que guettent les photographes et la période de pic de floraison .
+1	Les	le	DET	_	_	2	det	_	_
+2	moments	moment	NOUN	_	_	5	nsubj	_	_
+3	les	le	DET	_	_	2	det	_	_
+4	plus	plus	ADV	_	_	5	advmod	_	_
+5	appréciés	apprécier	VERB	_	_	0	root	_	_
+6	sont	être	AUX	_	_	5	advcl	_	_
+7	l'	le	DET	_	_	8	det	_	_
+8	apparition	apparition	NOUN	_	_	5	obl	_	_
+9-10	des	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	les	le	DET	_	_	12	det	_	_
+11	premières	premier	ADJ	_	_	12	amod	_	_
+12	fleurs	fleur	NOUN	_	_	8	nmod	_	_
+13	que	que	PRON	_	_	1	obl	_	_
+14	guettent	guetter	VERB	_	_	11	ccomp	_	_
+15	les	le	DET	_	_	16	det	_	_
+16	photographes	photographe	NOUN	_	_	1	obl	_	_
+17	et	et	CCONJ	_	_	1	cc	_	_
+18	la	le	DET	_	_	19	det	_	_
+19	période	période	NOUN	_	_	5	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	pic	pic	NOUN	_	_	10	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	floraison	floraison	NOUN	_	_	20	nmod	_	_
+24	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 27
+# text = Il est fêté le 22 mai .
+1	Il	lui	PRON	_	_	3	nsubj	_	_
+2	est	être	AUX	_	_	3	advcl	_	_
+3	fêté	fêter	VERB	_	_	0	root	_	_
+4	le	le	DET	_	_	6	det	_	_
+5	22	22	NUM	_	_	6	nummod	_	_
+6	mai	mai	NOUN	_	_	3	obl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 28
+# text = Une série placée sur une orbite de le matin ( Morning Orbit ou M ) dédiée à l' étude de la météorologie , de l' atmosphère , de l' océan et de les glaces .
+1	Une	un	DET	_	_	2	det	_	_
+2	série	série	NOUN	_	_	3	nsubj	_	_
+3	placée	placer	VERB	_	_	0	root	_	_
+4	sur	sur	ADP	_	_	6	case	_	_
+5	une	un	DET	_	_	6	det	_	_
+6	orbite	orbite	NOUN	_	_	3	obl	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	le	le	DET	_	_	9	det	_	_
+9	matin	matin	NOUN	_	_	6	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	_
+11	Morning	Morning	PROPN	_	_	9	appos	_	_
+12	Orbit	Orbit	PROPN	_	_	17	obl	_	_
+13	ou	ou	CCONJ	_	_	1	cc	_	_
+14	M	M	PROPN	_	_	1	obl	_	_
+15	)	)	PUNCT	_	_	11	punct	_	_
+16	dédiée	dédier	VERB	_	_	3	xcomp	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	_	19	det	_	_
+19	étude	étude	NOUN	_	_	1	obl	_	_
+20	de	de	ADP	_	_	16	mark	_	_
+21	la	le	DET	_	_	22	det	_	_
+22	météorologie	météorologie	NOUN	_	_	1	obl	_	_
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	l'	le	DET	_	_	26	det	_	_
+26	atmosphère	atmosphère	NOUN	_	_	23	obl	_	_
+27	,	,	PUNCT	_	_	22	punct	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	l'	le	DET	_	_	30	det	_	_
+30	océan	océan	NOUN	_	_	1	obl	_	_
+31	et	et	CCONJ	_	_	3	cc	_	_
+32-33	des	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	les	le	DET	_	_	34	det	_	_
+34	glaces	glace	NOUN	_	_	3	obl	_	_
+35	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 29
+# text = Il a eu alors comme élèves : les israéliens Galit Chait / Sergei Sakhnovski , les britanniques Sinead Kerr / John Kerr ...
+1	Il	lui	PRON	_	_	2	nsubj	_	_
+2	a	avoir	AUX	_	_	0	root	_	_
+3	eu	avoir	AUX	_	_	21	acl	_	_
+4	alors	alors	ADV	_	_	2	advmod	_	_
+5	comme	comme	ADP	_	_	6	case	_	_
+6	élèves	élève	NOUN	_	_	2	obl	_	_
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	les	le	DET	_	_	10	det	_	_
+9	israéliens	israélien	ADJ	_	_	10	amod	_	_
+10	Galit	Galit	PROPN	_	_	6	appos	_	_
+11	Chait	Chait	PROPN	_	_	18	appos	_	_
+12	/	/	PUNCT	_	_	10	punct	_	_
+13	Sergei	Sergei	PROPN	_	_	18	appos	_	_
+14	Sakhnovski	Sakhnovski	PROPN	_	_	18	appos	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	les	le	DET	_	_	18	det	_	_
+17	britanniques	britannique	ADJ	_	_	14	amod	_	_
+18	Sinead	Sinead	PROPN	_	_	6	appos	_	_
+19	Kerr	Kerr	PROPN	_	_	10	appos	_	_
+20	/	/	PUNCT	_	_	17	punct	_	_
+21	John	John	PROPN	_	_	10	appos	_	_
+22	Kerr	Kerr	PROPN	_	_	10	appos	_	_
+23	...	...	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 30
+# text = Alain Souchon , né Alain Kienast le 27 mai 1944 à Casablanca , à le Maroc , est un auteur-compositeur-interprète et acteur français ( avec une double nationalité suisse ) .
+1	Alain	Alain	PROPN	_	_	4	nsubj	_	_
+2	Souchon	Souchon	PROPN	_	_	1	appos	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	né	naître	VERB	_	_	0	root	_	_
+5	Alain	Alain	PROPN	_	_	4	obj	_	_
+6	Kienast	Kienast	PROPN	_	_	5	appos	_	_
+7	le	le	DET	_	_	9	det	_	_
+8	27	27	NUM	_	_	9	nummod	_	_
+9	mai	mai	NOUN	_	_	4	obl	_	_
+10	1944	1944	NUM	_	_	9	nummod	_	_
+11	à	à	ADP	_	_	12	case	_	_
+12	Casablanca	Casablanca	PROPN	_	_	4	obl	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14-15	au	_	_	_	_	_	_	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	le	le	DET	_	_	16	det	_	_
+16	Maroc	Maroc	PROPN	_	_	10	obl	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	est	être	AUX	_	_	4	xcomp	_	_
+19	un	un	DET	_	_	20	det	_	_
+20	auteur-compositeur-interprète	auteur-compositeur-interprète	NOUN	_	_	1	appos	_	_
+21	et	et	CCONJ	_	_	2	cc	_	_
+22	acteur	acteur	NOUN	_	_	2	appos	_	_
+23	français	français	ADJ	_	_	20	amod	_	_
+24	(	(	PUNCT	_	_	20	punct	_	_
+25	avec	avec	ADP	_	_	28	case	_	_
+26	une	un	DET	_	_	28	det	_	_
+27	double	double	ADJ	_	_	28	amod	_	_
+28	nationalité	nationalité	NOUN	_	_	21	obl	_	_
+29	suisse	suisse	ADJ	_	_	28	amod	_	_
+30	)	)	PUNCT	_	_	25	punct	_	_
+31	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 31
+# text = Dans l' étape de jeudi ( Tourmalet ) , qui est très dure , il faut s' attendre à de très gros écarts , supérieurs à ceux de le contre-la-montre .
+1	Dans	dans	ADP	_	_	18	dep	_	_
+2	l'	le	DET	_	_	3	det	_	_
+3	étape	étape	NOUN	_	_	1	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	jeudi	jeudi	NOUN	_	_	3	appos	_	_
+6	(	(	PUNCT	_	_	7	punct	_	_
+7	Tourmalet	Tourmalet	PROPN	_	_	5	appos	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	qui	qui	PRON	_	_	1	nsubj	_	_
+11	est	être	AUX	_	_	18	csubj	_	_
+12	très	très	ADV	_	_	11	advmod	_	_
+13	dure	dur	ADJ	_	_	18	advcl	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	il	lui	PRON	_	_	10	nsubj	_	_
+16	faut	falloir	AUX	_	_	18	advcl	_	_
+17	s'	soi	PRON	_	_	11	obj	_	_
+18	attendre	attendre	VERB	_	_	0	root	_	_
+19	à	à	ADP	_	_	18	mark	_	_
+20	de	un	DET	_	_	23	det	_	_
+21	très	très	ADV	_	_	22	advmod	_	_
+22	gros	gros	ADJ	_	_	23	amod	_	_
+23	écarts	écart	NOUN	_	_	1	obl	_	_
+24	,	,	PUNCT	_	_	21	punct	_	_
+25	supérieurs	supérieur	ADJ	_	_	23	amod	_	_
+26	à	à	ADP	_	_	27	case	_	_
+27	ceux	celui	PRON	_	_	2	obl	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	le	le	DET	_	_	30	det	_	_
+30	contre-la-montre	contre-la-montre	NOUN	_	_	21	obl	_	_
+31	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 32
+# text = Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés .
+1	Les	le	DET	_	_	2	det	_	_
+2	cuisinières	cuisinière	NOUN	_	_	3	nsubj	_	_
+3	apparaissent	apparaître	VERB	_	_	0	root	_	_
+4	début	début	NOUN	_	_	3	obl	_	_
+5	XIXe	XIXe	PROPN	_	_	6	appos	_	_
+6	siècle	siècle	NOUN	_	_	4	nmod	_	_
+7	avec	avec	ADP	_	_	9	case	_	_
+8	les	le	DET	_	_	9	det	_	_
+9	gaz	gaz	NOUN	_	_	3	obl	_	_
+10	manufacturés	manufacturé	ADJ	_	_	9	amod	_	_
+11	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 33
+# text = Vraiment très bon resto avec un accueil aussi chaleureux qu' enthousiaste ... Les plats sont copieux et cuisinés avec de bons produits .
+1	Vraiment	vraiment	ADV	_	_	3	advmod	_	_
+2	très	très	ADV	_	_	3	advmod	_	_
+3	bon	bon	ADJ	_	_	18	amod	_	_
+4	resto	resto	NOUN	_	_	3	nsubj	_	_
+5	avec	avec	ADP	_	_	7	case	_	_
+6	un	un	DET	_	_	7	det	_	_
+7	accueil	accueil	NOUN	_	_	4	nmod	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	_
+9	chaleureux	chaleureux	ADJ	_	_	7	amod	_	_
+10	qu'	que	SCONJ	_	_	9	mark	_	_
+11	enthousiaste	enthousiaste	ADJ	_	_	18	amod	_	_
+12	...	...	PUNCT	_	_	7	punct	_	_
+13	Les	le	DET	_	_	14	det	_	_
+14	plats	plat	NOUN	_	_	11	nsubj	_	_
+15	sont	être	AUX	_	_	18	conj	_	_
+16	copieux	copieux	ADJ	_	_	14	amod	_	_
+17	et	et	CCONJ	_	_	1	cc	_	_
+18	cuisinés	cuisiner	VERB	_	_	0	root	_	_
+19	avec	avec	ADP	_	_	22	case	_	_
+20	de	un	DET	_	_	22	det	_	_
+21	bons	bon	ADJ	_	_	22	amod	_	_
+22	produits	produit	NOUN	_	_	1	obl	_	_
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 34
+# text = Il autorisa l' installation de pompes à feu pour approvisionner Paris en eau de manière régulière .
+1	Il	lui	PRON	_	_	2	nsubj	_	_
+2	autorisa	autoriser	VERB	_	_	0	root	_	_
+3	l'	le	DET	_	_	4	det	_	_
+4	installation	installation	NOUN	_	_	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	pompes	pompe	NOUN	_	_	4	nmod	_	_
+7	à	à	ADP	_	_	8	case	_	_
+8	feu	feu	NOUN	_	_	6	nmod	_	_
+9	pour	pour	ADP	_	_	11	case	_	_
+10	approvisionner	approvisionner	VERB	_	_	2	xcomp	_	_
+11	Paris	Paris	PROPN	_	_	1	obl	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	eau	eau	NOUN	_	_	1	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	manière	manière	NOUN	_	_	1	obl	_	_
+16	régulière	régulier	ADJ	_	_	13	amod	_	_
+17	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 35
+# text = Cette force résulte de la faible poussée exercée par la restitution sous forme de rayonnement infrarouge de l' énergie solaire absorbée .
+1	Cette	ce	DET	_	_	2	det	_	_
+2	force	force	NOUN	_	_	3	nsubj	_	_
+3	résulte	résulter	VERB	_	_	0	root	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	la	le	DET	_	_	7	det	_	_
+6	faible	faible	ADJ	_	_	7	amod	_	_
+7	poussée	poussée	NOUN	_	_	3	obl	_	_
+8	exercée	exercer	VERB	_	_	7	acl	_	_
+9	par	par	ADP	_	_	8	mark	_	_
+10	la	le	DET	_	_	11	det	_	_
+11	restitution	restitution	NOUN	_	_	8	obl	_	_
+12	sous	sous	ADP	_	_	13	case	_	_
+13	forme	forme	NOUN	_	_	11	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	rayonnement	rayonnement	NOUN	_	_	11	nmod	_	_
+16	infrarouge	infrarouge	ADJ	_	_	13	amod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	_	19	det	_	_
+19	énergie	énergie	NOUN	_	_	11	nmod	_	_
+20	solaire	solaire	ADJ	_	_	19	amod	_	_
+21	absorbée	absorber	VERB	_	_	11	acl	_	_
+22	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 36
+# text = Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist à le nord-ouest , et la zone de Teisseyre-Tornquist à le sud-est , la jonction s' effectuant à le niveau de Bornholm .
+1	Elle	lui	PRON	_	_	4	nsubj	_	_
+2	est	être	AUX	_	_	4	advcl	_	_
+3	traditionnellement	traditionnellement	ADV	_	_	2	advmod	_	_
+4	divisée	diviser	VERB	_	_	0	root	_	_
+5	en	en	ADP	_	_	7	case	_	_
+6	deux	deux	NUM	_	_	7	nummod	_	_
+7	parties	partie	NOUN	_	_	4	obj	_	_
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	la	le	DET	_	_	10	det	_	_
+10	zone	zone	NOUN	_	_	4	obj	_	_
+11	de	de	ADP	_	_	4	dep	_	_
+12	Sorgenfrei-Tornquist	Sorgenfrei-Tornquist	PROPN	_	_	19	appos	_	_
+13-14	au	_	_	_	_	_	_	_	_
+13	à	à	ADP	_	_	15	case	_	_
+14	le	le	DET	_	_	15	det	_	_
+15	nord-ouest	nord-ouest	NOUN	_	_	10	nmod	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	et	et	CCONJ	_	_	1	cc	_	_
+18	la	le	DET	_	_	19	det	_	_
+19	zone	zone	NOUN	_	_	11	nmod	_	_
+20	de	de	ADP	_	_	2	case	_	_
+21	Teisseyre-Tornquist	Teisseyre-Tornquist	PROPN	_	_	10	appos	_	_
+22-23	au	_	_	_	_	_	_	_	_
+22	à	à	ADP	_	_	29	mark	_	_
+23	le	le	DET	_	_	24	det	_	_
+24	sud-est	sud-est	NOUN	_	_	10	nmod	_	_
+25	,	,	PUNCT	_	_	20	punct	_	_
+26	la	le	DET	_	_	4	dep	_	_
+27	jonction	jonction	NOUN	_	_	26	nsubj	_	_
+28	s'	soi	PRON	_	_	22	nsubj	_	_
+29	effectuant	effectuer	VERB	_	_	2	advcl	_	_
+30-31	au	_	_	_	_	_	_	_	_
+30	à	à	ADP	_	_	34	case	_	_
+31	le	le	DET	_	_	32	det	_	_
+32	niveau	niveau	NOUN	_	_	21	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	Bornholm	Bornholm	PROPN	_	_	21	nmod	_	_
+35	.	.	PUNCT	_	_	4	dep	_	_
+
+# sent_id = 37
+# text = Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973 .
+1	Thionville	Thionville	PROPN	_	_	5	nsubj	_	_
+2	et	et	CCONJ	_	_	1	cc	_	_
+3	Congerville	Congerville	PROPN	_	_	1	appos	_	_
+4	furent	être	AUX	_	_	5	advcl	_	_
+5	créée	créer	VERB	_	_	0	root	_	_
+6	en	en	ADP	_	_	5	mark	_	_
+7	1793	1793	NUM	_	_	6	nummod	_	_
+8	avec	avec	ADP	_	_	5	mark	_	_
+9	leur	son	DET	_	_	10	det	_	_
+10	nom	nom	NOUN	_	_	5	obj	_	_
+11	actuel	actuel	ADJ	_	_	10	amod	_	_
+12	et	et	CCONJ	_	_	1	cc	_	_
+13	fusionnèrent	fusionner	VERB	_	_	1	acl	_	_
+14	en	en	ADP	_	_	13	mark	_	_
+15	1973	1973	NUM	_	_	1	nummod	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 38
+# text = Une autre fois , il va organiser une farce à le capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie .
+1	Une	un	DET	_	_	3	det	_	_
+2	autre	autre	ADJ	_	_	3	amod	_	_
+3	fois	fois	NOUN	_	_	7	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	il	lui	PRON	_	_	7	nsubj	_	_
+6	va	aller	AUX	_	_	7	advcl	_	_
+7	organiser	organiser	VERB	_	_	0	root	_	_
+8	une	un	DET	_	_	9	det	_	_
+9	farce	farce	NOUN	_	_	7	obj	_	_
+10-11	au	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	_	12	det	_	_
+12	capitaine	capitaine	NOUN	_	_	9	nmod	_	_
+13	Sig	Sig	PROPN	_	_	12	appos	_	_
+14	Hansen	Hansen	PROPN	_	_	16	nsubj	_	_
+15	en	en	ADP	_	_	16	mark	_	_
+16	faisant	faire	VERB	_	_	7	advcl	_	_
+17	jeter	jeter	VERB	_	_	1	xcomp	_	_
+18	un	un	DET	_	_	19	det	_	_
+19	mannequin	mannequin	NOUN	_	_	1	obl	_	_
+20	déguisé	déguiser	VERB	_	_	1	xcomp	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	matelot	matelot	NOUN	_	_	2	obl	_	_
+23	depuis	depuis	ADP	_	_	25	case	_	_
+24	le	le	DET	_	_	25	det	_	_
+25	toit	toit	NOUN	_	_	2	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	la	le	DET	_	_	28	det	_	_
+28	timonerie	timonerie	NOUN	_	_	2	obl	_	_
+29	.	.	PUNCT	_	_	7	dep	_	_
+
+# sent_id = 39
+# text = Le lazy bed ( littéralement : « plate-bande de paresseux » ) est une technique de travail de le sol autrefois pratiquée dans certaines régions de les Îles britanniques .
+1	Le	le	DET	_	_	3	det	_	_
+2	lazy	lazy	ADJ	_	_	3	amod	_	_
+3	bed	bed	NOUN	_	_	10	nsubj	_	_
+4	(	(	PUNCT	_	_	3	punct	_	_
+5	littéralement	littéralement	ADV	_	_	10	advmod	_	_
+6	:	:	PUNCT	_	_	10	punct	_	_
+7	«	«	PUNCT	_	_	10	punct	_	_
+8	plate-bande	plate-bande	NOUN	_	_	11	nsubj	_	_
+9	de	de	ADP	_	_	13	case	_	_
+10	paresseux	paresseux	ADJ	_	_	13	amod	_	_
+11	»	»	PUNCT	_	_	10	punct	_	_
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	est	être	VERB	_	_	0	root	_	_
+14	une	un	DET	_	_	15	det	_	_
+15	technique	technique	NOUN	_	_	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	travail	travail	NOUN	_	_	10	obl	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	13	case	_	_
+19	le	le	DET	_	_	20	det	_	_
+20	sol	sol	NOUN	_	_	10	obl	_	_
+21	autrefois	autrefois	ADV	_	_	2	advmod	_	_
+22	pratiquée	pratiquer	VERB	_	_	20	acl	_	_
+23	dans	dans	ADP	_	_	25	case	_	_
+24	certaines	certain	DET	_	_	25	det	_	_
+25	régions	région	NOUN	_	_	2	obl	_	_
+26-27	des	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	les	le	DET	_	_	28	det	_	_
+28	Îles	île	NOUN	_	_	2	obl	_	_
+29	britanniques	britannique	ADJ	_	_	28	amod	_	_
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 40
+# text = Tarzan , l' homme singe , règne en maître sur son domaine , la jungle .
+1	Tarzan	Tarzan	PROPN	_	_	7	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	l'	le	DET	_	_	4	det	_	_
+4	homme	homme	NOUN	_	_	1	appos	_	_
+5	singe	singe	NOUN	_	_	4	appos	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	règne	régner	VERB	_	_	0	root	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	maître	maître	NOUN	_	_	7	obl	_	_
+10	sur	sur	ADP	_	_	12	case	_	_
+11	son	son	DET	_	_	12	det	_	_
+12	domaine	domaine	NOUN	_	_	9	nmod	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	la	le	DET	_	_	15	det	_	_
+15	jungle	jungle	NOUN	_	_	1	appos	_	_
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 41
+# text = Le solde naturel annuel , qui est la différence entre le nombre de naissances et le nombre de décès enregistrés à le cours d' une même année , connaît une forte augmentation , puisque la variation annuelle due à le solde naturel passe de -1 à -0,8 .
+1	Le	le	DET	_	_	2	det	_	_
+2	solde	solde	NOUN	_	_	7	nsubj	_	_
+3	naturel	naturel	ADJ	_	_	2	amod	_	_
+4	annuel	annuel	ADJ	_	_	2	amod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	qui	qui	PRON	_	_	7	nsubj	_	_
+7	est	être	VERB	_	_	0	root	_	_
+8	la	le	DET	_	_	9	det	_	_
+9	différence	différence	NOUN	_	_	7	obj	_	_
+10	entre	entre	ADP	_	_	12	case	_	_
+11	le	le	DET	_	_	12	det	_	_
+12	nombre	nombre	NOUN	_	_	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	naissances	naissance	NOUN	_	_	10	obl	_	_
+15	et	et	CCONJ	_	_	1	cc	_	_
+16	le	le	DET	_	_	17	det	_	_
+17	nombre	nombre	NOUN	_	_	10	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	décès	décès	NOUN	_	_	10	obl	_	_
+20	enregistrés	enregistrer	VERB	_	_	12	acl	_	_
+21-22	au	_	_	_	_	_	_	_	_
+21	à	à	ADP	_	_	20	mark	_	_
+22	le	le	DET	_	_	23	det	_	_
+23	cours	cours	NOUN	_	_	2	nmod	_	_
+24	d'	de	ADP	_	_	27	case	_	_
+25	une	un	DET	_	_	27	det	_	_
+26	même	même	ADJ	_	_	23	amod	_	_
+27	année	année	NOUN	_	_	2	nmod	_	_
+28	,	,	PUNCT	_	_	23	punct	_	_
+29	connaît	connaître	VERB	_	_	7	parataxis	_	_
+30	une	un	DET	_	_	32	det	_	_
+31	forte	fort	ADJ	_	_	32	amod	_	_
+32	augmentation	augmentation	NOUN	_	_	29	obj	_	_
+33	,	,	PUNCT	_	_	29	punct	_	_
+34	puisque	puisque	SCONJ	_	_	2	mark	_	_
+35	la	le	DET	_	_	36	det	_	_
+36	variation	variation	NOUN	_	_	29	obj	_	_
+37	annuelle	annuel	ADJ	_	_	36	amod	_	_
+38	due	devoir	VERB	_	_	32	acl	_	_
+39-40	au	_	_	_	_	_	_	_	_
+39	à	à	ADP	_	_	41	case	_	_
+40	le	le	DET	_	_	41	det	_	_
+41	solde	solde	NOUN	_	_	32	nmod	_	_
+42	naturel	naturel	ADJ	_	_	41	amod	_	_
+43	passe	passer	VERB	_	_	32	acl	_	_
+44	de	de	ADP	_	_	43	mark	_	_
+45	-1	-1	NUM	_	_	4	nummod	_	_
+46	à	à	ADP	_	_	43	mark	_	_
+47	-0,8	-0,8	NUM	_	_	4	nummod	_	_
+48	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 42
+# text = Il ne sera présent que durant les 10 premières parties .
+1	Il	lui	PRON	_	_	3	nsubj	_	_
+2	ne	ne	PART	_	_	3	advmod	_	_
+3	sera	être	AUX	_	_	0	root	_	_
+4	présent	présent	ADJ	_	_	10	amod	_	_
+5	que	que	SCONJ	_	_	3	mark	_	_
+6	durant	durant	ADP	_	_	10	case	_	_
+7	les	le	DET	_	_	10	det	_	_
+8	10	10	NUM	_	_	1	nummod	_	_
+9	premières	premier	ADJ	_	_	10	amod	_	_
+10	parties	partie	NOUN	_	_	3	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 43
+# text = Les capteurs solaires sous vide de Viessmann offrent un rendement optique maximal ( de près 80 % ) .
+1	Les	le	DET	_	_	2	det	_	_
+2	capteurs	capteur	NOUN	_	_	8	nsubj	_	_
+3	solaires	solaire	ADJ	_	_	2	amod	_	_
+4	sous	sous	ADP	_	_	5	case	_	_
+5	vide	vide	NOUN	_	_	2	nmod	_	_
+6	de	de	ADP	_	_	10	case	_	_
+7	Viessmann	Viessmann	PROPN	_	_	2	nmod	_	_
+8	offrent	offrir	VERB	_	_	0	root	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	rendement	rendement	NOUN	_	_	8	obj	_	_
+11	optique	optique	ADJ	_	_	10	amod	_	_
+12	maximal	maximal	ADJ	_	_	10	amod	_	_
+13	(	(	PUNCT	_	_	10	punct	_	_
+14	de	de	ADP	_	_	8	mark	_	_
+15	près	près	ADV	_	_	11	advmod	_	_
+16	80	80	NUM	_	_	1	nummod	_	_
+17	%	%	SYM	_	_	1	dep	_	_
+18	)	)	PUNCT	_	_	14	punct	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 44
+# text = Il verra le puits le plus profond de France porter son nom : .
+1	Il	lui	PRON	_	_	2	nsubj	_	_
+2	verra	voir	VERB	_	_	0	root	_	_
+3	le	le	DET	_	_	4	det	_	_
+4	puits	puits	NOUN	_	_	2	obj	_	_
+5	le	le	DET	_	_	4	det	_	_
+6	plus	plus	ADV	_	_	7	advmod	_	_
+7	profond	profond	ADJ	_	_	4	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	France	France	PROPN	_	_	4	nmod	_	_
+10	porter	porter	VERB	_	_	4	acl	_	_
+11	son	son	DET	_	_	12	det	_	_
+12	nom	nom	NOUN	_	_	10	obj	_	_
+13	:	:	PUNCT	_	_	10	punct	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 45
+# text = Historiquement rattachée à le diocèse de Saint-Omer , on trouve trace écrite de " Sanctus Georgius " en 1178 .
+1	Historiquement	historiquement	ADV	_	_	2	advmod	_	_
+2	rattachée	rattacher	VERB	_	_	0	root	_	_
+3-4	au	_	_	_	_	_	_	_	_
+3	à	à	ADP	_	_	5	case	_	_
+4	le	le	DET	_	_	5	det	_	_
+5	diocèse	diocèse	NOUN	_	_	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Saint-Omer	Saint-Omer	PROPN	_	_	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	on	on	PRON	_	_	1	nsubj	_	_
+10	trouve	trouver	VERB	_	_	9	xcomp	_	_
+11	trace	trace	NOUN	_	_	1	obl	_	_
+12	écrite	écrire	VERB	_	_	11	acl	_	_
+13	de	de	ADP	_	_	10	mark	_	_
+14	"	"	PUNCT	_	_	10	punct	_	_
+15	Sanctus	Sanctus	PROPN	_	_	1	obl	_	_
+16	Georgius	Georgius	PROPN	_	_	1	obl	_	_
+17	"	"	PUNCT	_	_	12	punct	_	_
+18	en	en	ADP	_	_	10	mark	_	_
+19	1178	1178	NUM	_	_	10	nummod	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 46
+# text = Le premier recensement exhaustif de la commune entrant dans le cadre de ce nouveau dispositif a eu lieu en 2004 .
+1	Le	le	DET	_	_	3	det	_	_
+2	premier	premier	ADJ	_	_	3	amod	_	_
+3	recensement	recensement	NOUN	_	_	8	nsubj	_	_
+4	exhaustif	exhaustif	ADJ	_	_	3	amod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	_	7	det	_	_
+7	commune	commune	NOUN	_	_	3	nmod	_	_
+8	entrant	entrer	VERB	_	_	0	root	_	_
+9	dans	dans	ADP	_	_	8	mark	_	_
+10	le	le	DET	_	_	11	det	_	_
+11	cadre	cadre	NOUN	_	_	8	obl	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	ce	ce	DET	_	_	15	det	_	_
+14	nouveau	nouveau	ADJ	_	_	11	amod	_	_
+15	dispositif	dispositif	NOUN	_	_	11	nmod	_	_
+16	a	avoir	AUX	_	_	17	advcl	_	_
+17	eu	avoir	VERB	_	_	8	ccomp	_	_
+18	lieu	lieu	NOUN	_	_	11	nmod	_	_
+19	en	en	ADP	_	_	17	mark	_	_
+20	2004	2004	NUM	_	_	10	nummod	_	_
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 47
+# text = Pour sa saison de rookie , il entre à le cours de deux matchs mais ne réussi qu' une seule passe sur six tentées .
+1	Pour	pour	ADP	_	_	3	case	_	_
+2	sa	son	DET	_	_	3	det	_	_
+3	saison	saison	NOUN	_	_	8	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	rookie	rookie	NOUN	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	il	lui	PRON	_	_	8	nsubj	_	_
+8	entre	entrer	VERB	_	_	0	root	_	_
+9-10	au	_	_	_	_	_	_	_	_
+9	à	à	ADP	_	_	17	mark	_	_
+10	le	le	DET	_	_	11	det	_	_
+11	cours	cours	NOUN	_	_	8	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	deux	deux	NUM	_	_	1	nummod	_	_
+14	matchs	match	NOUN	_	_	11	nmod	_	_
+15	mais	mais	CCONJ	_	_	1	cc	_	_
+16	ne	ne	PART	_	_	1	mark	_	_
+17	réussi	réussir	VERB	_	_	8	xcomp	_	_
+18	qu'	que	SCONJ	_	_	1	mark	_	_
+19	une	un	NUM	_	_	2	nummod	_	_
+20	seule	seul	ADJ	_	_	21	amod	_	_
+21	passe	passe	NOUN	_	_	1	obl	_	_
+22	sur	sur	ADP	_	_	24	mark	_	_
+23	six	six	NUM	_	_	2	nummod	_	_
+24	tentées	tenter	VERB	_	_	2	xcomp	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 48
+# text = Le culte de le roi est un élément essentiel dans la mobilisation de les masses marocaines .
+1	Le	le	DET	_	_	2	det	_	_
+2	culte	culte	NOUN	_	_	6	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	_	5	det	_	_
+5	roi	roi	NOUN	_	_	2	nmod	_	_
+6	est	être	AUX	_	_	0	root	_	_
+7	un	un	DET	_	_	8	det	_	_
+8	élément	élément	NOUN	_	_	6	obj	_	_
+9	essentiel	essentiel	ADJ	_	_	8	amod	_	_
+10	dans	dans	ADP	_	_	12	case	_	_
+11	la	le	DET	_	_	12	det	_	_
+12	mobilisation	mobilisation	NOUN	_	_	6	obl	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	les	le	DET	_	_	15	det	_	_
+15	masses	masse	NOUN	_	_	10	obl	_	_
+16	marocaines	marocain	ADJ	_	_	15	amod	_	_
+17	.	.	PUNCT	_	_	6	dep	_	_
+
+# sent_id = 49
+# text = Le canton de Mortagne-sur-Sèvre est une division administrative française , située dans le département de la Vendée et la région Pays de la Loire .
+1	Le	le	DET	_	_	11	dep	_	_
+2	canton	canton	NOUN	_	_	1	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Mortagne-sur-Sèvre	Mortagne-sur-Sèvre	PROPN	_	_	23	nmod	_	_
+5	est	être	AUX	_	_	11	advcl	_	_
+6	une	un	DET	_	_	7	det	_	_
+7	division	division	NOUN	_	_	24	appos	_	_
+8	administrative	administratif	ADJ	_	_	7	amod	_	_
+9	française	français	ADJ	_	_	7	amod	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	située	situer	VERB	_	_	0	root	_	_
+12	dans	dans	ADP	_	_	11	mark	_	_
+13	le	le	DET	_	_	14	det	_	_
+14	département	département	NOUN	_	_	10	obl	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	la	le	DET	_	_	17	det	_	_
+17	Vendée	Vendée	PROPN	_	_	10	obl	_	_
+18	et	et	CCONJ	_	_	2	cc	_	_
+19	la	le	DET	_	_	20	det	_	_
+20	région	région	NOUN	_	_	10	obl	_	_
+21	Pays	pays	PROPN	_	_	2	appos	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	la	le	DET	_	_	24	det	_	_
+24	Loire	Loire	PROPN	_	_	10	obl	_	_
+25	.	.	PUNCT	_	_	11	dep	_	_
+
+# sent_id = 50
+# text = Le détroit est traversé par deux ponts routiers : le Carquinez Bridge , sur lequel passe l' Interstate 80 , et le Benicia - Martinez Bridge emprunté par l' Interstate 680 .
+1	Le	le	DET	_	_	2	det	_	_
+2	détroit	détroit	NOUN	_	_	4	nsubj	_	_
+3	est	être	AUX	_	_	27	csubj	_	_
+4	traversé	traverser	VERB	_	_	0	root	_	_
+5	par	par	ADP	_	_	4	mark	_	_
+6	deux	deux	NUM	_	_	7	nummod	_	_
+7	ponts	pont	NOUN	_	_	4	obj	_	_
+8	routiers	routier	ADJ	_	_	7	amod	_	_
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	le	le	DET	_	_	11	det	_	_
+11	Carquinez	Carquinez	PROPN	_	_	7	appos	_	_
+12	Bridge	Bridge	PROPN	_	_	14	obl	_	_
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	sur	sur	ADP	_	_	15	case	_	_
+15	lequel	lequel	PRON	_	_	11	nmod	_	_
+16	passe	passer	VERB	_	_	11	acl	_	_
+17	l'	le	DET	_	_	18	det	_	_
+18	Interstate	Interstate	PROPN	_	_	16	obj	_	_
+19	80	80	NUM	_	_	10	nummod	_	_
+20	,	,	PUNCT	_	_	15	punct	_	_
+21	et	et	CCONJ	_	_	2	cc	_	_
+22	le	le	DET	_	_	23	det	_	_
+23	Benicia	Benicia	PROPN	_	_	2	appos	_	_
+24	-	-	PUNCT	_	_	21	punct	_	_
+25	Martinez	Martinez	PROPN	_	_	27	nsubj	_	_
+26	Bridge	Bridge	PROPN	_	_	21	obl	_	_
+27	emprunté	emprunter	VERB	_	_	4	conj	_	_
+28	par	par	ADP	_	_	27	mark	_	_
+29	l'	le	DET	_	_	30	det	_	_
+30	Interstate	Interstate	PROPN	_	_	2	appos	_	_
+31	680	680	NUM	_	_	3	nummod	_	_
+32	.	.	PUNCT	_	_	27	punct	_	_
+

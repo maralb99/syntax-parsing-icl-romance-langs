@@ -1,0 +1,8 @@
+# sent_id = example1
+# text = A coluna não a encontrou.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coluna	coluna	NOUN	NOUN	_	5	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+4	a	_	PRON	PRON	_	5	obj	_	_
+5	encontrou	encontrar	VERB	VERB	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_

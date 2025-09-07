@@ -1,0 +1,202 @@
+AVERAGE ERROR RATES AND MOST COMMON ERRORS BY LANGUAGE PAIRING:
+================================================================================
+
+AVERAGE ERROR RATES BY LANGUAGE PAIRING:
+
+LANGUAGE PAIR: pt_0
+----------------------------------------
+Average UPOS error rate: 7.82%
+Average DEPREL error rate: 33.31%
+Average HEAD error rate: 47.02%
+Most common error-causing words:
+  'que': 17 errors
+  'a': 7 errors
+  'o': 6 errors
+  'em': 5 errors
+  'não': 5 errors
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: pt_es
+----------------------------------------
+Average UPOS error rate: 7.82%
+Average DEPREL error rate: 29.83%
+Average HEAD error rate: 49.45%
+Most common error-causing words:
+  'que': 126 errors
+  'não': 30 errors
+  'a': 25 errors
+  'o': 18 errors
+  'domingo': 18 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_fr
+----------------------------------------
+Average UPOS error rate: 7.41%
+Average DEPREL error rate: 31.14%
+Average HEAD error rate: 48.53%
+Most common error-causing words:
+  'que': 111 errors
+  'não': 35 errors
+  'a': 32 errors
+  'o': 18 errors
+  'domingo': 18 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_gl
+----------------------------------------
+Average UPOS error rate: 7.25%
+Average DEPREL error rate: 29.14%
+Average HEAD error rate: 48.32%
+Most common error-causing words:
+  'que': 95 errors
+  'não': 36 errors
+  'a': 26 errors
+  'o': 18 errors
+  'domingo': 18 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_mixed
+----------------------------------------
+Average UPOS error rate: 7.13%
+Average DEPREL error rate: 30.33%
+Average HEAD error rate: 48.19%
+Most common error-causing words:
+  'que': 54 errors
+  'não': 18 errors
+  'a': 12 errors
+  'o': 9 errors
+  'domingo': 9 errors
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: pt_pt
+----------------------------------------
+Average UPOS error rate: 6.73%
+Average DEPREL error rate: 28.70%
+Average HEAD error rate: 47.79%
+Most common error-causing words:
+  'que': 85 errors
+  'a': 33 errors
+  'não': 32 errors
+  'está': 24 errors
+  'o': 18 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+
+================================================================================
+
+TOP 2 MOST COMMON ERRORS BY LANGUAGE PAIRING (with ALL line numbers):
+
+LANGUAGE PAIR: pt_0
+----------------------------------------
+Top 2 UPOS errors:
+  1. CCONJ → SCONJ (14 occurrences)
+     All lines: 99, 159, 302, 483, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+  2. VERB → AUX (10 occurrences)
+     All lines: 76, 164, 330, 532, 539, 575, 899, 1020, 1082, 1147
+Top 2 DEPREL errors:
+  1. nmod → obl (60 occurrences)
+     All lines: 32, 38, 40, 47, 117, 119, 132, 212, 221, 265, 288, 310, 318, 409, 422, 429, 433, 462, 508, 515, 633, 636, 661, 665, 691, 759, 766, 837, 848, 852, 873, 878, 882, 887, 908, 932, 940, 946, 977, 981, 999, 1004, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1112, 1178, 1212, 1318, 1331, 1406, 1414, 1426, 1436
+  2. punct → dep (26 occurrences)
+     All lines: 49, 78, 91, 122, 149, 222, 251, 350, 434, 473, 519, 551, 637, 714, 737, 767, 826, 862, 953, 971, 1061, 1093, 1152, 1305, 1437, 1466
+Top 2 HEAD errors:
+  1. 14 (quarto) → 10 (o) (4 occurrences)
+     All lines: 237, 238, 239, 241
+  2. 11 (na) → 1 (Autor) (4 occurrences)
+     All lines: 787, 789, 797, 800
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: pt_es
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (97 occurrences)
+     All lines: 60, 70, 82, 209, 228, 259, 260, 305, 398, 399, 424, 441, 442, 479, 531, 562, 701, 725, 805, 833, 902, 917, 963, 1098, 1231, 1257, 1482
+  2. CCONJ → SCONJ (84 occurrences)
+     All lines: 99, 159, 302, 483, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+Top 2 DEPREL errors:
+  1. nmod → obl (272 occurrences)
+     All lines: 32, 38, 40, 47, 88, 117, 119, 132, 141, 145, 168, 205, 212, 221, 236, 248, 265, 310, 318, 335, 347, 371, 409, 429, 433, 462, 488, 508, 515, 544, 582, 586, 590, 648, 661, 665, 691, 719, 759, 766, 784, 813, 816, 820, 824, 837, 873, 878, 882, 887, 895, 908, 940, 946, 977, 981, 999, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1079, 1105, 1178, 1207, 1212, 1276, 1300, 1331, 1346, 1406, 1414, 1426, 1436, 1457, 1491
+  2. case → mark (144 occurrences)
+     All lines: 102, 166, 263, 345, 361, 382, 415, 420, 427, 431, 461, 470, 527, 600, 603, 655, 659, 684, 690, 773, 778, 788, 815, 877, 894, 930, 945, 976, 996, 1001, 1006, 1010, 1013, 1022, 1027, 1037, 1040, 1070, 1177, 1185, 1211, 1301, 1303, 1344, 1424, 1434, 1459
+Top 2 HEAD errors:
+  1. 6 (considerados) → 4 (podem) (25 occurrences)
+     All lines: 438, 439, 440, 442, 447
+  2. 14 (quarto) → 10 (o) (24 occurrences)
+     All lines: 237, 238, 239, 241
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_fr
+----------------------------------------
+Top 2 UPOS errors:
+  1. CCONJ → SCONJ (85 occurrences)
+     All lines: 99, 159, 302, 483, 493, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+  2. PROPN → NOUN (66 occurrences)
+     All lines: 101, 103, 271, 454, 557, 754, 797, 861, 1012, 1097, 1414, 1419, 1431
+Top 2 DEPREL errors:
+  1. nmod → obl (310 occurrences)
+     All lines: 32, 38, 40, 47, 117, 119, 132, 141, 145, 168, 205, 212, 221, 236, 248, 265, 288, 310, 318, 335, 347, 363, 409, 429, 433, 462, 488, 508, 515, 544, 557, 582, 586, 602, 623, 633, 636, 648, 661, 665, 691, 719, 759, 766, 784, 820, 824, 837, 861, 873, 878, 882, 887, 895, 908, 932, 940, 946, 977, 981, 999, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1079, 1135, 1168, 1178, 1207, 1212, 1276, 1300, 1331, 1393, 1406, 1414, 1426, 1436, 1457
+  2. case → mark (170 occurrences)
+     All lines: 102, 166, 211, 215, 219, 263, 345, 361, 382, 415, 420, 427, 431, 470, 527, 542, 600, 603, 655, 659, 684, 773, 778, 788, 815, 877, 894, 930, 996, 1001, 1006, 1010, 1013, 1022, 1027, 1037, 1040, 1065, 1070, 1108, 1177, 1203, 1211, 1301, 1303, 1319, 1344, 1424, 1434
+Top 2 HEAD errors:
+  1. 14 (quarto) → 10 (o) (24 occurrences)
+     All lines: 237, 238, 239, 241
+  2. 11 (na) → 1 (Autor) (20 occurrences)
+     All lines: 787, 789, 797, 800
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_gl
+----------------------------------------
+Top 2 UPOS errors:
+  1. CCONJ → SCONJ (82 occurrences)
+     All lines: 99, 159, 302, 483, 493, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+  2. AUX → VERB (72 occurrences)
+     All lines: 60, 70, 82, 201, 208, 228, 259, 260, 398, 399, 424, 441, 442, 479, 531, 562, 701, 725, 805, 833, 902, 917, 1231, 1257, 1482
+Top 2 DEPREL errors:
+  1. nmod → obl (267 occurrences)
+     All lines: 32, 38, 40, 47, 88, 117, 119, 132, 141, 145, 168, 196, 205, 212, 221, 236, 248, 265, 288, 310, 318, 335, 347, 422, 429, 433, 462, 488, 508, 515, 544, 582, 590, 623, 633, 636, 661, 665, 691, 697, 719, 759, 766, 837, 839, 848, 852, 861, 873, 878, 882, 887, 895, 908, 932, 940, 946, 977, 981, 999, 1004, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1087, 1112, 1135, 1178, 1212, 1272, 1281, 1300, 1318, 1331, 1337, 1406, 1426, 1436, 1457
+  2. case → mark (75 occurrences)
+     All lines: 369, 382, 420, 427, 470, 527, 542, 655, 659, 788, 877, 894, 996, 1027, 1037, 1040, 1070, 1203, 1206, 1211, 1301, 1303, 1319, 1424, 1434, 1459
+Top 2 HEAD errors:
+  1. 14 (quarto) → 10 (o) (24 occurrences)
+     All lines: 237, 238, 239, 241
+  2. 11 (na) → 1 (Autor) (24 occurrences)
+     All lines: 787, 789, 797, 800
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: pt_mixed
+----------------------------------------
+Top 2 UPOS errors:
+  1. CCONJ → SCONJ (43 occurrences)
+     All lines: 99, 159, 302, 483, 493, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+  2. PROPN → NOUN (36 occurrences)
+     All lines: 101, 103, 271, 454, 557, 754, 797, 861, 1012, 1357, 1414, 1419, 1431
+Top 2 DEPREL errors:
+  1. nmod → obl (177 occurrences)
+     All lines: 32, 38, 47, 117, 119, 132, 141, 145, 168, 205, 212, 221, 248, 265, 310, 318, 335, 339, 347, 422, 429, 433, 462, 488, 508, 515, 544, 582, 586, 590, 623, 633, 636, 648, 661, 665, 691, 719, 759, 766, 784, 787, 797, 800, 813, 816, 820, 824, 837, 852, 873, 878, 882, 887, 895, 908, 932, 940, 946, 977, 999, 1004, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1073, 1079, 1087, 1178, 1212, 1272, 1276, 1331, 1406, 1426, 1436, 1457
+  2. case → mark (63 occurrences)
+     All lines: 85, 166, 361, 382, 415, 420, 427, 431, 461, 470, 527, 600, 603, 655, 659, 684, 788, 877, 894, 996, 1001, 1006, 1010, 1013, 1027, 1037, 1040, 1070, 1177, 1185, 1211, 1301, 1303, 1424, 1434
+Top 2 HEAD errors:
+  1. 6 (considerados) → 4 (podem) (13 occurrences)
+     All lines: 438, 439, 440, 442, 447
+  2. 14 (quarto) → 10 (o) (12 occurrences)
+     All lines: 237, 238, 239, 241
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: pt_pt
+----------------------------------------
+Top 2 UPOS errors:
+  1. CCONJ → SCONJ (84 occurrences)
+     All lines: 99, 159, 302, 483, 493, 501, 537, 594, 728, 898, 904, 1019, 1032, 1259, 1473
+  2. PROPN → NOUN (60 occurrences)
+     All lines: 101, 103, 104, 271, 454, 754, 797, 861, 1012, 1357, 1414, 1419, 1431
+Top 2 DEPREL errors:
+  1. nmod → obl (200 occurrences)
+     All lines: 32, 38, 47, 117, 119, 132, 141, 145, 168, 205, 212, 221, 248, 265, 288, 310, 318, 335, 347, 363, 422, 429, 433, 462, 488, 508, 544, 582, 586, 590, 623, 648, 661, 665, 691, 719, 754, 759, 766, 820, 824, 837, 839, 848, 852, 861, 873, 878, 882, 887, 895, 908, 940, 946, 977, 1008, 1012, 1015, 1024, 1029, 1038, 1042, 1051, 1068, 1079, 1105, 1133, 1178, 1212, 1272, 1276, 1331, 1337, 1406, 1426, 1436, 1457
+  2. case → mark (125 occurrences)
+     All lines: 203, 345, 361, 382, 415, 420, 427, 431, 461, 470, 527, 542, 600, 603, 655, 659, 684, 690, 788, 815, 877, 894, 976, 996, 1001, 1006, 1010, 1027, 1037, 1040, 1070, 1203, 1206, 1211, 1301, 1303, 1319, 1424, 1434, 1459
+Top 2 HEAD errors:
+  1. 14 (quarto) → 10 (o) (24 occurrences)
+     All lines: 237, 238, 239, 241
+  2. 6 (considerados) → 4 (podem) (21 occurrences)
+     All lines: 438, 439, 440, 442, 447
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+

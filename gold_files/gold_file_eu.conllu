@@ -1,0 +1,733 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = Atenasen ordea, beste bost jarduera gehiago izan daitezke.
+1	Atenasen	Atenas	PROPN	_	Case=Ine|Definite=Def|Number=Sing	8	obl	_	_
+2	ordea	ordea	CCONJ	_	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	beste	beste	DET	_	_	6	det	_	_
+5	bost	bost	NUM	_	NumType=Card	6	nummod	_	_
+6	jarduera	jarduera	NOUN	_	Case=Abs|Definite=Ind	8	nsubj	_	_
+7	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	6	det	_	_
+8	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+9	daitezke	edin	AUX	_	Mood=Pot|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	8	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2
+# text = O.G.M. adin txikikoa aske irten da Langraiztik.
+1	O.G.M.	O.G.M.	PROPN	_	_	2	nmod	_	_
+2	adin	adin	NOUN	_	_	5	nsubj	_	_
+3	txikikoa	txiki	NOUN	_	Case=Abs|Definite=Def|Number=Sing	2	nmod	_	_
+4	aske	aske	ADV	_	_	5	advmod	_	_
+5	irten	irten	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+6	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	5	aux	_	_
+7	Langraiztik	Langraiz	PROPN	_	Case=Abl|Definite=Def|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3
+# text = Gure etxea, egun batean, ordu batzuetan, zeharo aldatu zen.
+1	Gure	gu	PRON	_	PronType=Prs	2	nmod	_	_
+2	etxea	etxe	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	egun	egun	NOUN	_	_	11	obl	_	_
+5	batean	bat	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ordu	ordu	NOUN	_	_	4	appos	_	_
+8	batzuetan	batzuk	DET	_	Case=Ine|Definite=Def|Number=Plur	7	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	zeharo	zeharo	ADV	_	_	11	advmod	_	_
+11	aldatu	aldatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+12	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4
+# text = Bigarren marrazkian agertzen den muntaia egizu.
+1	Bigarren	bigarren	ADJ	_	NumType=Ord	2	amod	_	_
+2	marrazkian	marrazki	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	obl	_	_
+3	agertzen	agertu	VERB	_	Aspect=Imp|VerbForm=Inf	5	acl	_	_
+4	den	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	3	aux	_	_
+5	muntaia	muntaia	NOUN	_	Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
+6	egizu	egin	VERB	_	Aspect=Prog|Mood=Imp|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5
+# text = Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut.
+1	Aurten	aurten	ADV	_	_	2	advmod	_	_
+2	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	4	acl	_	_
+3	ditudan	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|VerbForm=Fin	2	aux	_	ReconstructedLemma=Yes
+4	aukera	aukera	NOUN	_	_	7	obj	_	_
+5	apurrak	apur	ADJ	_	Case=Abs|Definite=Def|Number=Plur	4	amod	_	_
+6	ondo	ondo	ADV	_	_	7	advmod	_	_
+7	baliatu	baliatu	VERB	_	Aspect=Perf|VerbForm=Part	10	ccomp	_	_
+8	ditudala	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|VerbForm=Fin	7	aux	_	ReconstructedLemma=Yes
+9	uste	uste	NOUN	_	Case=Abs|Definite=Ind	10	compound	_	_
+10	dut	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 6
+# text = Athleticek presio itzela pairatu beharko du.
+1	Athleticek	Athletic	PROPN	_	Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
+2	presio	presio	NOUN	_	_	4	obj	_	_
+3	itzela	itzel	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
+4	pairatu	pairatu	VERB	_	VerbForm=Part	5	xcomp	_	_
+5	beharko	behar_izan	VERB	_	VerbForm=Fin	0	root	_	_
+6	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	5	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 7
+# text = Hurrengo orrialdeko mapa baliagarria izan dakizuke.
+1	Hurrengo	hurrengo	ADJ	_	_	2	amod	_	_
+2	orrialdeko	orrialde	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+3	mapa	mapa	NOUN	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
+4	baliagarria	baliagarri	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
+5	izan	izan	AUX	_	VerbForm=Inf	4	cop	_	_
+6	dakizuke	edin	AUX	_	Mood=Pot|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=2|VerbForm=Fin	4	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 8
+# text = Beraz, idazten ere lehenago hasi nintzela esan liteke.
+1	Beraz	beraz	CCONJ	_	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	idazten	idatzi	VERB	_	Case=Ine|VerbForm=Fin	6	advcl	_	_
+4	ere	ere	CCONJ	_	_	3	advmod	_	_
+5	lehenago	lehenago	ADV	_	_	6	advmod	_	_
+6	hasi	hasi	VERB	_	Aspect=Perf|VerbForm=Part	8	ccomp	_	_
+7	nintzela	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1|VerbForm=Fin	6	aux	_	_
+8	esan	esan	VERB	_	VerbForm=Inf	0	root	_	_
+9	liteke	edin	AUX	_	Mood=Pot|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	8	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 9
+# text = Egun berean, EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten, baina gero iritzia aldatu du EAJk.
+1	Egun	egun	NOUN	_	_	10	obl	_	_
+2	berean	bera	DET	_	Case=Ine|Number=Sing	1	det	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	EAJk	EAJ	PROPN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	8	nsubj	_	_
+5	eta	eta	CCONJ	_	_	6	cc	_	_
+6	EAk	EA	PROPN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	4	conj	_	_
+7	hitzarmena	hitzarmen	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	_
+8	sinatuko	sinatu	VERB	_	Aspect=Prosp|VerbForm=Part	10	ccomp	_	_
+9	zutela	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	8	aux	_	ReconstructedLemma=Yes
+10	iragarri	iragarri	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+11	zuten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	10	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	baina	baina	CCONJ	_	_	16	cc	_	_
+14	gero	gero	ADV	_	_	16	advmod	_	_
+15	iritzia	iritzi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	16	obj	_	_
+16	aldatu	aldatu	VERB	_	Aspect=Perf|VerbForm=Part	10	conj	_	_
+17	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	16	aux	_	ReconstructedLemma=Yes
+18	EAJk	EAJ	PROPN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 10
+# text = Aurkariari dagokionez, Feyenoord ez dago bere garairik onenean.
+1	Aurkariari	aurkari	NOUN	_	Case=Dat|Definite=Def|Number=Sing	2	iobj	_	_
+2	dagokionez	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Feyenoord	Feyenoord	PROPN	_	_	6	nsubj	_	_
+5	ez	ez	PART	_	Polarity=Neg	6	advmod	_	_
+6	dago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	0	root	_	_
+7	bere	bera	DET	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	garairik	garai	ADJ	_	Case=Par|Definite=Ind	6	obl	_	_
+9	onenean	on	ADJ	_	Case=Ine|Definite=Def|Degree=Sup|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 11
+# text = Azkenik, Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane.
+1	Azkenik	azkenik	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Alavesek	Alaves	PROPN	_	Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
+4	atzo	atzo	ADV	_	_	5	advmod	_	_
+5	emandako	eman	VERB	_	Case=Loc|VerbForm=Part	7	advcl	_	_
+6	UEFAko	UEFA	PROPN	_	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
+7	zerrandaz	zerrenda	NOUN	_	Animacy=Inan|Case=Ins|Definite=Def|Number=Sing	9	obl	_	_
+8	ere	ere	CCONJ	_	_	9	advmod	_	_
+9	aritu	aritu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+10	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	9	aux	_	_
+11	Mane	Mane	PROPN	_	Case=Abs|Definite=Def|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 12
+# text = Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean.
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
+2	elkarte	elkarte	NOUN	_	_	11	iobj	_	_
+3	horiei	horiek	DET	_	Case=Dat|Definite=Def|Number=Plur	2	det	_	_
+4	Guayana	Guayana	PROPN	_	_	7	nmod	_	_
+5	eta	eta	CCONJ	_	_	6	cc	_	_
+6	Surinam	Surinam	PROPN	_	_	4	conj	_	_
+7	estatu	estatu	NOUN	_	_	11	nsubj	_	_
+8	txiki	txiki	ADJ	_	_	7	amod	_	_
+9	eta	eta	CCONJ	_	_	10	cc	_	_
+10	behartsuak	behartsu	ADJ	_	Case=Abs|Definite=Def|Number=Plur	8	conj	_	_
+11	batuko	batu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
+12	zaizkie	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Number[dat]=Plur|Person[abs]=3|Person[dat]=3|VerbForm=Fin	11	aux	_	_
+13	batasunerako	batasun	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	14	nmod	_	_
+14	bidean	bide	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 13
+# text = Guk etorkizuneko taldea dugu, eta haiek dira irabazteko hautagaiak, baina xantza txiki bat baldin badugu, ahaleginak egingo ditugu baliatzeko.
+1	Guk	gu	PRON	_	PronType=Prs	4	nsubj	_	_
+2	etorkizuneko	etorkizun	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+3	taldea	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	_
+4	dugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	eta	eta	CCONJ	_	_	10	cc	_	_
+7	haiek	haiek	DET	_	Case=Abs|Definite=Def|Number=Plur	10	nsubj	_	_
+8	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	10	cop	_	_
+9	irabazteko	irabazi	VERB	_	Case=Loc|VerbForm=Fin	10	advcl	_	_
+10	hautagaiak	hautagai	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	20	punct	_	_
+12	baina	baina	CCONJ	_	_	20	cc	_	_
+13	xantza	xantxa	NOUN	_	_	16	obj	_	_
+14	txiki	txiki	ADJ	_	_	13	amod	_	_
+15	bat	bat	NUM	_	NumType=Card	13	nummod	_	_
+16	baldin	baldin	CCONJ	_	_	20	advcl	_	_
+17	badugu	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	ahaleginak	ahalegin	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	20	obj	_	_
+20	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	4	conj	_	_
+21	ditugu	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	20	aux	_	ReconstructedLemma=Yes
+22	baliatzeko	baliatu	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 14
+# text = Askok, ordea, errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik.
+1	Askok	asko	DET	_	Case=Erg|Definite=Ind	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ordea	ordea	CCONJ	_	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	errezeloz	errezelo	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	6	obl	_	_
+6	hartu	hartu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+7	dute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	6	aux	_	ReconstructedLemma=Yes
+8	egitasmoa	egitasmo	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
+9	EEBBek	EEBB	PROPN	_	Case=Erg|Definite=Def|Number=Plur	11	nsubj	_	_
+10	Kolonbian	Kolonbia	PROPN	_	Case=Ine|Definite=Def|Number=Sing	11	obl	_	_
+11	hartuko	hartu	VERB	_	Aspect=Prosp|VerbForm=Part	13	acl	_	_
+12	duten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	11	aux	_	ReconstructedLemma=Yes
+13	pisu	pisu	NOUN	_	_	6	obl	_	_
+14	militarragatik	militar	ADJ	_	Case=Cau|Definite=Def|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 15
+# text = Halere, badute antza:
+1	Halere	halere	CCONJ	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	badute	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|Polarity=Pos|VerbForm=Fin	0	root	_	_
+4	antza	antz	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	3	obj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 16
+# text = Lehenago ez ziren egoten itsasontzietan.
+1	Lehenago	lehenago	ADV	_	_	4	advmod	_	_
+2	ez	ez	PART	_	Polarity=Neg	4	advmod	_	_
+3	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	4	aux	_	_
+4	egoten	egon	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
+5	itsasontzietan	itsasontzi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = Aurrelari langilea, azkarra eta indartsua dela erakutsi du denboraldi-aurrean.
+1	Aurrelari	aurrelari	NOUN	_	_	7	obj	_	_
+2	langilea	langile	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	azkarra	azkar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	conj	_	_
+5	eta	eta	CCONJ	_	_	6	cc	_	_
+6	indartsua	indartsu	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	conj	_	_
+7	dela	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	8	ccomp	_	_
+8	erakutsi	erakutsi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+9	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	8	aux	_	ReconstructedLemma=Yes
+10	denboraldi-aurrean	denboraldi-aurre	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 18
+# text = Gero hileta elizkizunera joan zen Barne ministroa.
+1	Gero	gero	ADV	_	_	4	advmod	_	_
+2	hileta	hileta	NOUN	_	_	3	nmod	_	_
+3	elizkizunera	elizkizun	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	4	obl	_	_
+4	joan	joan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	4	aux	_	_
+6	Barne	barne	NOUN	_	_	7	nmod	_	_
+7	ministroa	ministro	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 19
+# text = Diskoa egitean dezente zabaldu da taldea.
+1	Diskoa	disko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	obj	_	_
+2	egitean	egin	VERB	_	Case=Ine|VerbForm=Fin	4	advcl	_	_
+3	dezente	dezente	ADV	_	_	4	advmod	_	_
+4	zabaldu	zabaldu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	4	aux	_	_
+6	taldea	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 20
+# text = 1991n, ordea, Rettig komisioa eratu zen, Pinocheten diktadurapean, Txilen izandako giza eskubideen urratzeak aztertzeko.
+1	1991n	1991	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ordea	ordea	CCONJ	_	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Rettig	Rettig	PROPN	_	_	6	nmod	_	_
+6	komisioa	komisio	NOUN	_	Case=Abs|Definite=Def|Number=Sing	7	nsubj	_	_
+7	eratu	eratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+8	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	Pinocheten	Pinochet	PROPN	_	Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
+11	diktadurapean	diktadurape	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	18	punct	_	_
+13	Txilen	Txile	PROPN	_	Case=Ine|Definite=Def|Number=Sing	14	obl	_	_
+14	izandako	izan	VERB	_	Case=Loc|VerbForm=Part	17	advcl	_	_
+15	giza	giza	NOUN	_	_	16	compound	_	_
+16	eskubideen	eskubide	NOUN	_	Case=Gen|Definite=Def|Number=Plur	17	nmod	_	_
+17	urratzeak	urratze	NOUN	_	Case=Abs|Definite=Def|Number=Plur	18	obj	_	_
+18	aztertzeko	aztertu	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 21
+# text = Halaber, onartu egin dute beraiek erabakitako datak "nabarmen estuegiak" zirela.
+1	Halaber	halaber	CCONJ	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	onartu	onartu	VERB	_	VerbForm=Part	0	root	_	_
+4	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	3	compound	_	_
+5	dute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	3	aux	_	ReconstructedLemma=Yes
+6	beraiek	beraiek	PRON	_	PronType=Prs	7	nsubj	_	_
+7	erabakitako	erabaki	VERB	_	Case=Loc|VerbForm=Part	8	advcl	_	_
+8	datak	data	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	11	nsubj	_	_
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	nabarmen	nabarmen	ADV	_	_	11	advmod	_	_
+11	estuegiak	estu	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Plur	3	ccomp	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	zirela	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	11	cop	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 22
+# text = Ondorioz, forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea, lehen zegoena ezagutzeko.
+1	Ondorioz	ondorio	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	8	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	forma	forma	NOUN	_	_	5	nmod	_	_
+4	musikalen	musikal	ADJ	_	Case=Gen|Definite=Def|Number=Plur	3	nmod	_	_
+5	aniztasuna	aniztasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	_
+6	egunetik	egun	NOUN	_	Case=Abl|Definite=Def|Number=Sing	7	compound	_	_
+7	egunera	egun	NOUN	_	Case=All|Definite=Def|Number=Sing	8	obl	_	_
+8	txikiagoa	txiki	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	0	root	_	_
+9	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	8	cop	_	_
+10	eta	eta	CCONJ	_	_	11	cc	_	_
+11	komenigarria	komenigarri	ADJ	_	Case=Abs|Definite=Def|Number=Sing	9	conj	_	_
+12	izango	izan	AUX	_	Aspect=Prosp|VerbForm=Part	11	cop	_	_
+13	litzateke	izan	AUX	_	Mood=Cnd|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	11	aux	_	_
+14	atzera	atzera	ADV	_	_	15	advmod	_	_
+15	begiratzea	begiratu	VERB	_	Case=Abs|VerbForm=Fin	11	csubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	lehen	lehen	ADV	_	_	18	advmod	_	_
+18	zegoena	egon	VERB	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	19	obj	_	_
+19	ezagutzeko	ezagutu	VERB	_	Case=Loc|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 23
+# text = Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen.
+1	Urrak	Urra	PROPN	_	Case=Erg|Definite=Def|Number=Sing	4	nsubj	_	_
+2	bere	bera	DET	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	abokatuari	abokatu	NOUN	_	Case=Dat|Definite=Def|Number=Sing	4	iobj	_	_
+4	eginiko	egin	VERB	_	Case=Loc|VerbForm=Part	5	advcl	_	_
+5	deian	dei	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	_
+6	funtzionarioengatik	funtzionario	NOUN	_	Animacy=Inan|Case=Cau|Definite=Def|Number=Plur	7	obl	_	_
+7	jasotzen	jaso	VERB	_	Aspect=Imp|VerbForm=Inf	9	acl	_	_
+8	zuen	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	7	aux	_	ReconstructedLemma=Yes
+9	tratu	tratu	NOUN	_	_	11	obj	_	_
+10	txarra	txar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	9	amod	_	_
+11	salatu	salatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+12	zuen	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	11	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 24
+# text = Hauek CD-ROMetan saltzen dira.
+1	Hauek	hauek	DET	_	Case=Abs|Definite=Def|Number=Plur	3	nsubj	_	_
+2	CD-ROMetan	CD-ROM	NOUN	_	Case=Ine|Definite=Def|Number=Plur	3	obl	_	_
+3	saltzen	saldu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
+4	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 25
+# text = Jokalari gaztea da, eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du.
+1	Jokalari	jokalari	NOUN	_	_	0	root	_	_
+2	gaztea	gazte	ADJ	_	Case=Abs|Definite=Def|Number=Sing	1	amod	_	_
+3	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	1	cop	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	16	punct	_	_
+5	eta	eta	CCONJ	_	_	16	cc	_	_
+6	partiduen	partidu	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	7	nmod	_	_
+7	%70	%70	NUM	_	NumType=Card	8	obj	_	_
+8	irabazi	irabazi	VERB	_	VerbForm=Part	9	xcomp	_	_
+9	nahi	nahi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	11	acl	_	_
+10	dituen	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	9	aux	_	ReconstructedLemma=Yes
+11	talde	talde	NOUN	_	_	13	obl	_	_
+12	batean	bat	NUM	_	NumType=Card	11	nummod	_	_
+13	jokatzera	jokatu	VERB	_	Case=All|VerbForm=Fin	14	advcl	_	_
+14	ohitu	ohitu	VERB	_	VerbForm=Part	16	xcomp	_	_
+15	behar	behar	NOUN	_	Case=Abs|Definite=Ind	16	compound	_	_
+16	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 26
+# text = Batzuk han bertan erre zituzten, beste batzuk galeretara bidali eta gainontzekoak, ni barne nintzelarik, libre utzi gintuzten.
+1	Batzuk	batzuk	DET	_	Case=Abs|Definite=Def|Number=Plur	4	obj	_	_
+2	han	han	ADV	_	_	4	advmod	_	_
+3	bertan	bertan	ADV	_	_	4	advmod	_	_
+4	erre	erre	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	zituzten	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	4	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	beste	beste	DET	_	_	8	det	_	_
+8	batzuk	batzuk	DET	_	Case=Abs|Definite=Def|Number=Plur	10	obj	_	_
+9	galeretara	galera	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Plur	10	obl	_	_
+10	bidali	bidali	VERB	_	VerbForm=Part	4	conj	_	_
+11	eta	eta	CCONJ	_	_	19	cc	_	_
+12	gainontzekoak	gainontzeko	ADJ	_	Case=Abs|Definite=Def|Number=Plur	19	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ni	ni	PRON	_	PronType=Prs	16	nsubj	_	_
+15	barne	barne	NOUN	_	Case=Abs|Definite=Ind	16	obl	_	_
+16	nintzelarik	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	libre	libre	ADV	_	_	19	xcomp	_	_
+19	utzi	utzi	VERB	_	Aspect=Perf|VerbForm=Part	4	conj	_	_
+20	gintuzten	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=1|Person[erg]=3|VerbForm=Fin	19	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 27
+# text = ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten.
+1	ATZOKOAN	atzo	NOUN	_	Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
+2	estrainekoz	estreinako	ADJ	_	Case=Ins|Definite=Ind	7	obl	_	_
+3	Gamesa	Gamesa	PROPN	_	_	5	nmod	_	_
+4	euskal	euskal	NOUN	_	_	5	nmod	_	_
+5	enpresaren	enpresa	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+6	akzioak	akzio	NOUN	_	Case=Abs|Definite=Def|Number=Plur	7	nsubj	_	_
+7	kotizatu	kotizatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+8	zuten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	7	aux	_	ReconstructedLemma=Yes
+9	burtsan	burtsa	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
+10	eta	eta	CCONJ	_	_	13	cc	_	_
+11	estreinaldi	estreinaldi	NOUN	_	_	13	obj	_	_
+12	ona	on	ADJ	_	Case=Abs|Definite=Def|Number=Sing	11	amod	_	_
+13	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	7	conj	_	_
+14	zuten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	13	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 28
+# text = Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari.
+1	Baraken	Barak	PROPN	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
+2	esanak	esan	NOUN	_	Case=Abs|Definite=Def|Number=Plur	3	obj	_	_
+3	jakinarazi	jakiN+araz	VERB	_	VerbForm=Fin|Voice=Cau	5	xcomp	_	_
+4	behar	behar	NOUN	_	Case=Abs|Definite=Ind	5	compound	_	_
+5	zizkion	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3|VerbForm=Fin	0	root	_	_
+6	Israelgo	Israel	PROPN	_	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
+7	ordezkariak	ordezkari	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Sing	3	nsubj	_	_
+8	PANeko	PAN	PROPN	_	Case=Loc|Definite=Def|Number=Sing	9	nmod	_	_
+9	lehendakariari	lehendakari	NOUN	_	Case=Dat|Definite=Def|Number=Sing	3	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 29
+# text = Peiremans, De Paula, Corino, Alvarez eta Aldeondo ere min hartuta daude oraindik.
+1	Peiremans	Peiremans	PROPN	_	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	De	de	X	_	_	1	conj	_	_
+4	Paula	Paula	PROPN	_	_	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Corino	Corino	PROPN	_	_	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Alvarez	Alvarez	PROPN	_	_	1	conj	_	_
+9	eta	eta	CCONJ	_	_	10	cc	_	_
+10	Aldeondo	Aldeondo	PROPN	_	Case=Abs|Definite=Def|Number=Sing	1	conj	_	_
+11	ere	ere	CCONJ	_	_	10	advmod	_	_
+12	min	min	NOUN	_	Case=Abs|Definite=Ind	13	compound	_	_
+13	hartuta	hartu	VERB	_	VerbForm=Part	0	root	_	_
+14	daude	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	13	cop	_	_
+15	oraindik	oraindik	ADV	_	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 30
+# text = Ez duzula asmatu esango dizute, baina badaezpada galdetu egiten du aurretik.
+1	Ez	ez	PART	_	Polarity=Neg	3	advmod	_	_
+2	duzula	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2|VerbForm=Fin	3	aux	_	ReconstructedLemma=Yes
+3	asmatu	asmatu	VERB	_	Aspect=Perf|VerbForm=Part	4	ccomp	_	_
+4	esango	esan	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
+5	dizute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=2|Person[erg]=3|VerbForm=Fin	4	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	baina	baina	CCONJ	_	_	9	cc	_	_
+8	badaezpada	badaezpada	ADV	_	_	9	advmod	_	_
+9	galdetu	galdetu	VERB	_	VerbForm=Part	4	conj	_	_
+10	egiten	egin	VERB	_	Aspect=Imp|VerbForm=Inf	9	compound	_	_
+11	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	9	aux	_	ReconstructedLemma=Yes
+12	aurretik	aurre	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 31
+# text = - Euskal Herrian jaio dira eta guraso euskaldunak dituzte.
+1	-	-	PUNCT	_	_	3	punct	_	_
+2	Euskal	euskal	NOUN	_	_	3	compound	_	_
+3	Herrian	herri	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
+4	jaio	jaio	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	4	aux	_	_
+6	eta	eta	CCONJ	_	_	9	cc	_	_
+7	guraso	guraso	NOUN	_	_	9	obj	_	_
+8	euskaldunak	euskaldun	ADJ	_	Case=Abs|Definite=Def|Number=Plur	7	amod	_	_
+9	dituzte	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 32
+# text = hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da.
+1	hasieran	hasiera	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
+2	bere	bera	DET	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	kolorea	kolore	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
+4	horixka	horixka	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
+5	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	4	cop	_	_
+6	baina	baina	CCONJ	_	_	10	cc	_	_
+7	zahartu	zahartu	VERB	_	VerbForm=Part	10	advcl	_	_
+8	ahala	ahala	ADV	_	_	7	advcl	_	_
+9	marroi-zikin	marroi-zikin	ADJ	_	Case=Abs|Definite=Ind	10	xcomp	_	_
+10	bihurtzen	bihurtu	VERB	_	Aspect=Imp|VerbForm=Inf	5	conj	_	_
+11	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 33
+# text = Susanari ere ez zirudien asko axola zitzaionik:
+1	Susanari	Susana	PROPN	_	Case=Dat|Definite=Def|Number=Sing	7	iobj	_	_
+2	ere	ere	CCONJ	_	_	4	advmod	_	_
+3	ez	ez	PART	_	Polarity=Neg	4	advmod	_	_
+4	zirudien	iruditu	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	0	root	_	_
+5	asko	asko	ADV	_	_	7	advmod	_	_
+6	axola	axola	NOUN	_	Case=Abs|Definite=Ind	7	compound	_	_
+7	zitzaionik	izan	VERB	_	VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 34
+# text = Gaixotu zenean argaldu zen.
+1	Gaixotu	gaixotu	VERB	_	Aspect=Perf|VerbForm=Part	3	advcl	_	_
+2	zenean	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	1	aux	_	_
+3	argaldu	argaldu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 35
+# text = Golarekin asmatu edo ez, lan baliagarria egingo du.
+1	Golarekin	gola	NOUN	_	Case=Com|Definite=Ind	2	obl	_	_
+2	asmatu	asmatu	VERB	_	VerbForm=Part	8	advcl	_	_
+3	edo	edo	CCONJ	_	_	2	cc	_	_
+4	ez	ez	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	lan	lan	NOUN	_	_	8	obj	_	_
+7	baliagarria	baliagarri	ADJ	_	Case=Abs|Definite=Def|Number=Sing	6	amod	_	_
+8	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
+9	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	8	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 36
+# text = Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere.
+1	Zirkuitu	zirkuitu	NOUN	_	_	3	obl	_	_
+2	digitalekin	digital	ADJ	_	Case=Com|Definite=Def|Number=Plur	1	amod	_	_
+3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	daitezke	edin	AUX	_	Mood=Pot|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	3	aux	_	ReconstructedLemma=Yes
+5	eragiketa	eragiketa	NOUN	_	_	3	nsubj	_	_
+6	matematikoak	matematiko	ADJ	_	Case=Abs|Definite=Def|Number=Plur	5	amod	_	_
+7	ere	ere	CCONJ	_	_	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 37
+# text = Azkenean, Koxtape eta Hondarribia sailkatu ziren.
+1	Azkenean	azkenean	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Koxtape	Koxtape	PROPN	_	_	6	nsubj	_	_
+4	eta	eta	CCONJ	_	_	5	cc	_	_
+5	Hondarribia	Hondarribia	PROPN	_	Case=Abs|Definite=Def|Number=Sing	3	conj	_	_
+6	sailkatu	sailkatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+7	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 38
+# text = Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak, "gure istoria ez errepikatzeko".
+1	Rijkaard-ek	Rijkaard	PROPN	_	Case=Erg|Definite=Def|Number=Sing	3	nsubj	_	_
+2	esana	esan	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	3	advcl	_	_
+3	zuen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	0	root	_	_
+4	arreta	arreta	NOUN	_	_	6	obl	_	_
+5	bereziz	berezi	ADJ	_	Case=Ins|Definite=Ind	4	amod	_	_
+6	prestatu	prestatu	VERB	_	Aspect=Perf|VerbForm=Part	3	ccomp	_	_
+7	zituztela	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	6	aux	_	ReconstructedLemma=Yes
+8	penaltiak	penalti	NOUN	_	Case=Abs|Definite=Def|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+11	gure	gu	PRON	_	PronType=Prs	12	nmod	_	_
+12	istoria	historia	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	obj	_	_
+13	ez	ez	PART	_	Polarity=Neg	14	advmod	_	_
+14	errepikatzeko	errepikatu	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 39
+# text = Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian.
+1	Gutxienez	gutxienez	ADV	_	_	5	advmod	_	_
+2	bost	bost	NUM	_	NumType=Card	3	nummod	_	_
+3	gazte	gazte	NOUN	_	_	5	nsubj	_	_
+4	palestinarrak	palestinar	ADJ	_	Case=Abs|Definite=Def|Number=Plur	3	amod	_	_
+5	galdu	galdu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+6	zuten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	5	aux	_	ReconstructedLemma=Yes
+7	bizia	bizi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
+8	Gaza	Gaza	PROPN	_	_	5	obl	_	_
+9	eta	eta	CCONJ	_	_	10	cc	_	_
+10	Zisjordanian	Zisjordania	PROPN	_	Case=Ine|Definite=Def|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 40
+# text = - Eszena patetikoa da oso.
+1	-	-	PUNCT	_	_	3	punct	_	_
+2	Eszena	eszena	NOUN	_	_	3	nsubj	_	_
+3	patetikoa	patetiko	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
+4	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	3	cop	_	_
+5	oso	oso	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 41
+# text = "Egun horretan jokatu nahi genuen.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Egun	egun	NOUN	_	_	4	obl	_	_
+3	horretan	hori	DET	_	Case=Ine|Definite=Def|Number=Sing	2	det	_	_
+4	jokatu	jokatu	VERB	_	VerbForm=Part	6	xcomp	_	_
+5	nahi	nahi	NOUN	_	Case=Abs|Definite=Ind	6	compound	_	_
+6	genuen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 42
+# text = Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen; usteldu gabe, bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan.
+1	Honela	honela	ADV	_	_	2	advmod	_	_
+2	momifikatu	momifikatu	VERB	_	VerbForm=Part	9	nsubj	_	_
+3	eta	eta	CCONJ	_	_	6	cc	_	_
+4	hilobian	hilobi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	5	obl	_	_
+5	sartutako	sartu	VERB	_	Case=Loc|VerbForm=Part	6	advcl	_	_
+6	gorpua	gorpu	NOUN	_	Case=Abs|Definite=Def|Number=Sing	2	conj	_	_
+7	ez	ez	PART	_	Polarity=Neg	9	advmod	_	_
+8	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	9	aux	_	_
+9	hondatzen	hondatu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	11	punct	_	_
+11	usteldu	usteldu	VERB	_	VerbForm=Part	16	advcl	_	_
+12	gabe	gabe	ADV	_	_	11	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	bere	bera	DET	_	Case=Gen|Number=Sing	15	nmod	_	_
+15	horretantxe	hori	DET	_	Case=Ine|Definite=Def|Number=Sing	16	obl	_	_
+16	irauten	iraun	VERB	_	Aspect=Imp|VerbForm=Inf	9	conj	_	_
+17	du	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	16	aux	_	ReconstructedLemma=Yes
+18	milaka	milaka	DET	_	_	19	det	_	_
+19	urtez	urte	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	16	obl	_	_
+20	Egiptoko	Egipto	PROPN	_	Case=Loc|Definite=Def|Number=Sing	21	nmod	_	_
+21	hondar	hondar	NOUN	_	_	16	obl	_	_
+22	bero	bero	ADJ	_	_	21	amod	_	_
+23	eta	eta	CCONJ	_	_	24	cc	_	_
+24	lehorretan	lehor	ADJ	_	Case=Ine|Definite=Def|Number=Plur	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 43
+# text = Denbora asko iragan zen, ez nuela nire aurpegia ikusten.
+1	Denbora	denbora	NOUN	_	_	3	nsubj	_	_
+2	asko	asko	DET	_	Case=Abs|Definite=Ind	1	det	_	_
+3	iragan	iragan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	ez	ez	PART	_	Polarity=Neg	10	advmod	_	_
+7	nuela	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|VerbForm=Fin	10	aux	_	ReconstructedLemma=Yes
+8	nire	ni	PRON	_	PronType=Prs	9	nmod	_	_
+9	aurpegia	aurpegi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	10	obj	_	_
+10	ikusten	ikusi	VERB	_	Aspect=Imp|VerbForm=Inf	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 44
+# text = Marka onena egin zuten ziabogan zein helmugan.
+1	Marka	marka	NOUN	_	_	3	obj	_	_
+2	onena	on	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	1	amod	_	_
+3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	zuten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	3	aux	_	ReconstructedLemma=Yes
+5	ziabogan	ziaboga	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	obl	_	_
+6	zein	zein	CCONJ	_	_	7	cc	_	_
+7	helmugan	helmuga	NOUN	_	Case=Ine|Definite=Def|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 45
+# text = Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen.
+1	Suitzako	Suitza	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
+2	itzulian	itzuli	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
+3	nekatuta	nekatu	VERB	_	VerbForm=Part	4	xcomp	_	_
+4	nenbilen	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1|VerbForm=Fin	0	root	_	_
+5	eta	eta	CCONJ	_	_	9	cc	_	_
+6	erretiratu	erretiratu	VERB	_	VerbForm=Part	9	xcomp	_	_
+7	egin	egin	VERB	_	VerbForm=Part	6	compound	_	_
+8	behar	behar	NOUN	_	Case=Abs|Definite=Ind	9	compound	_	_
+9	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	4	conj	_	_
+10	nuen	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|VerbForm=Fin	9	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 46
+# text = Bestalde, kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela, Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango.
+1	Bestalde	bestalde	CCONJ	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kontuan	kontu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	compound	_	_
+4	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	6	xcomp	_	_
+5	behar	behar	NOUN	_	Case=Abs|Definite=Ind	6	compound	_	_
+6	dugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	0	root	_	_
+7	erasoan	eraso	NOUN	_	Case=Ine|Definite=Def|Number=Sing	11	obl	_	_
+8	Athleticek	Athletic	PROPN	_	Case=Erg|Definite=Def|Number=Sing	11	nsubj	_	_
+9	bere	bera	DET	_	Case=Gen|Number=Sing	10	nmod	_	_
+10	jokoa	joko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	obj	_	_
+11	aldatuko	aldatu	VERB	_	Aspect=Prosp|VerbForm=Part	4	ccomp	_	_
+12	duela	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	11	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+13	,	,	PUNCT	_	_	22	punct	_	_
+14	Urzaizen	Urzaiz	PROPN	_	Case=Gen|Definite=Def|Number=Sing	15	nmod	_	_
+15	ordezkoak	ordezko	NOUN	_	Case=Erg|Definite=Def|Number=Sing	22	nsubj	_	_
+16	ez	ez	PART	_	Polarity=Neg	22	advmod	_	_
+17	baititu	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	22	aux	_	ReconstructedLemma=Yes
+18	bere	bera	DET	_	Case=Gen|Number=Sing	20	nmod	_	_
+19	jokatzeko	jokatu	VERB	_	Case=Loc|VerbForm=Fin	20	advcl	_	_
+20	ezaugarri	ezaugarri	NOUN	_	_	22	obj	_	_
+21	berak	berak	DET	_	Case=Abs|Definite=Def|Number=Plur	20	det	_	_
+22	izango	izan	VERB	_	Aspect=Prosp|VerbForm=Part	11	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 47
+# text = Itsasoan egoera ikusi beharko da.
+1	Itsasoan	itsaso	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	obl	_	_
+2	egoera	egoera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	3	obj	_	_
+3	ikusi	ikusi	VERB	_	VerbForm=Part	4	xcomp	_	_
+4	beharko	behar_izan	VERB	_	VerbForm=Fin	0	root	_	_
+5	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 48
+# text = DENBORALDI-AURREKO prestakuntzarekin jarraituz, adiskidantzazko partidua du gaur Casillan (19:00) Bilbo Basket taldeak.
+1	DENBORALDI-AURREKO	denboraldi-aurre	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
+2	prestakuntzarekin	prestakuntza	NOUN	_	Animacy=Inan|Case=Com|Definite=Def|Number=Sing	3	obl	_	_
+3	jarraituz	jarraitu	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	adiskidantzazko	adiskidantza	NOUN	_	Animacy=Inan|Case=Loc|Definite=Ind	6	nmod	_	_
+6	partidua	partidu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
+7	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	0	root	_	_
+8	gaur	gaur	ADV	_	_	7	advmod	_	_
+9	Casillan	Casilla	PROPN	_	Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	19:00	19:00	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	Bilbo	Bilbo	PROPN	_	_	15	nmod	_	_
+14	Basket	Basket	PROPN	_	_	13	flat	_	_
+15	taldeak	talde	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 49
+# text = "Ruandan hil egingo gaituzte, abereak bagina bezala".
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Ruandan	Ruanda	PROPN	_	Case=Ine|Definite=Def|Number=Sing	3	obl	_	_
+3	hil	hil	VERB	_	VerbForm=Part	0	root	_	_
+4	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	3	compound	_	_
+5	gaituzte	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=1|Person[erg]=3|VerbForm=Fin	3	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	abereak	abere	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	8	nsubj	_	_
+8	bagina	izan	VERB	_	Aspect=Prog|Mood=Cnd|Number[abs]=Plur|Person[abs]=1|VerbForm=Fin	3	advcl	_	_
+9	bezala	bezala	ADV	_	_	8	mark	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 50
+# text = Udalekuetara goaz!
+1	Udalekuetara	udaleku	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Plur	2	obl	_	_
+2	goaz	joan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,29 @@
+=== CLEAR HYPOTHESIS ASSESSMENT ===
+
+Valid tests: 50
+
+UPOS (Part-of-Speech/Dependency Parsing):
+  Correlation: -0.042
+  P-value: 0.770
+  Effect size: 0.064
+  Assessment: NO_EVIDENCE
+  → No clear evidence for upos
+
+LAS (Part-of-Speech/Dependency Parsing):
+  Correlation: -0.010
+  P-value: 0.947
+  Effect size: 0.001
+  Assessment: NO_EVIDENCE
+  → No clear evidence for las
+
+UAS (Part-of-Speech/Dependency Parsing):
+  Correlation: 0.048
+  P-value: 0.742
+  Effect size: -0.131
+  Assessment: NO_EVIDENCE
+  → No clear evidence for uas
+
+OVERALL SUMMARY:
+  Metrics supported: 0/3
+  Metrics refuted: 0/3
+  CONCLUSION: Mixed or inconclusive evidence

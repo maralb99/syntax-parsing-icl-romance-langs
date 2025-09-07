@@ -1,0 +1,1668 @@
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Dau	dau	ADV	_	_	2	advmod	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	terme	terme	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	onte	onte	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	io	jo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	aviá	aver	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+8	pres	prendre	VERB	_	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
+9	posicion	posicion	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	vesiá	véser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	baissa	baissa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	enquera	enquera	ADV	_	_	11	advmod	_	_
+15	dins	dins	ADP	_	_	16	case	_	_
+16	las	las	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	brumas	bruma	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+18	leugieras	leugier	ADJ	_	Degree=Comp|Gender=Fem|Number=Plur	17	amod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	queu	aqueu	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	matin	matin	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	setembre	setembre	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tags.
+- The XPOS column is left empty as it is not always relevant for all languages.
+- The FEATS column contains morphological features that are relevant for the word.
+- The HEAD column indicates the index of the syntactic head of the word.
+- The DEPREL column contains the dependency relation between the word and its head.
+- The DEPS column is left empty as it is used for enhanced dependencies and is not necessary for the basic annotation.
+- The MISC column is also left empty as it is used for miscellaneous information and is not needed here.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Entau	entau	ADV	_	_	2	advmod	_	_
+2	,	,	PUNCT	_	_	0	punct	_	_
+3	auriá	aver	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	pogut	poder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	trobar	trobar	VERB	_	Conj=Yes	4	xcomp	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	copabla	copabla	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	tres	3	NUM	_	Number=Plur	9	nummod	_	_
+9	o	o	CCONJ	_	_	10	cc	_	_
+10	quatre	4	NUM	_	Number=Plur	8	nummod	_	_
+11	mes	mes	NOUN	_	Gender=Masc|Number=Plur	8	compound	_	_
+12	mai	mai	ADV	_	_	8	advmod	_	_
+13	dabora	dabora	ADV	_	_	8	advmod	_	_
+14	sens	sens	ADP	_	_	15	case	_	_
+15	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+16	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	15	compound	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	autre	autre	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	trasfòu	trasfòu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tag.
+- The XPOS column contains the language-specific part-of-speech tag (not applicable in this case).
+- The FEATS column contains morphological features.
+- The HEAD column indicates the index of the head token.
+- The DEPREL column contains the dependency relation.
+- The DEPS column contains the formal representation of the dependency relation (not applicable in this case).
+- The MISC column contains miscellaneous information (not applicable in this case).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	La	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Vila	Vila	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	Diu	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	deu	donar	VERB	_	Aspect=Imp|Form=Contr|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	xcomp	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+6	Temple	Temple	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	vad	anar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	brèç	brèç	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	d’	de	ADP	_	_	12	case	_	_
+12	ua	una	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	idèa	idèa	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	creada	crear	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	1974	1974	NUM	_	Number=Sing	14	obl	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	qui	qui	PRON	_	Number=Sing|PronType=Rel	19	nsubj	_	_
+19	mercés	mercés	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	la	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	dinamica	dinamica	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Nadal	Nadal	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	_
+25	Rey	Rey	PROPN	_	Gender=Masc|Number=Sing	24	flat	_	_
+26	,	,	PUNCT	_	_	3	punct	_	_
+27	hasó	har	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+28	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	torn	tornar	VERB	_	Aspect=Imp|Form=Contr|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	xcomp	_	_
+30-31	deu	donar	VERB	_	Aspect=Imp|Form=Contr|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	xcomp	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+32	monde	monde	NOUN	_	Gender=Fem|Number=Plur	29	obj	_	_
+33	.	.	PUNCT	_	_	3	punct	_	_
+
+Note:
+- The `UPOS` column contains the universal part-of-speech tag.
+- The `XPOS` column contains the language-specific part-of-speech tag (not applicable in this case as it's already in Catalan).
+- The `FEATS` column contains morphological features.
+- The `HEAD` column indicates the index of the head of the word (0 for root).
+- The `DEPREL` column contains the dependency relation to the head.
+- The `DEPS` column is not used in the standard and is left empty.
+- The `MISC` column is also left empty as it's not relevant for this annotation.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Ren	ren	VERB	_	VerbForm=Inf	0	root	_	_
+2	’niriá	anar	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	plus	plus	ADV	_	_	1	advmod	_	_
+4	entre	entre	ADP	_	_	5	case	_	_
+5	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dos	dos	NUM	_	Gender=Masc|Number=Plur	1	obl	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (its "lemma").
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's language-dependent).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph information (not used here).
+- **MISC**: Miscellaneous information (not used here).
+
+In this annotation:
+
+- "Ren" is the main verb, inflected for infinitive.
+- "’niriá" is an auxiliary verb indicating aspect, mood, tense, and number/person.
+- "plus" is an adverb modifying the verb.
+- "entre" is a preposition governing the noun phrase "los dos".
+- "los" is a definite article, masculine plural, modifying "dos".
+- "dos" is a numeral, acting as a noun in this context.
+- The period "." is a punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Durant	durant	ADP	_	_	2	case	_	_
+2	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	reünion	reünion	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	elegits	elegit	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	araneses	aranés	ADJ	_	Gender=Masc|Number=Plur	8	xcomp	_	_
+8	remembrèron	remembrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	al	a	ADP	_	_	10	case	_	_
+10	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	president	president	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12	catalan	catalan	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	besonh	besonh	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	metre	metre	VERB	_	VerbForm=Inf	14	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	marcha	marcha	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	totalitat	totalitat	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Lei	lei	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+24	del	de	ADP	_	_	26	case	_	_
+25	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	regim	regim	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	_
+27	especial	especial	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	d'	de	ADP	_	_	29	case	_	_
+29	Aran	Aran	PROPN	_	Gender=Masc|Number=Sing	27	obl	_	_
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	aprovada	aprovar	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+32	pel	per	ADP	_	_	34	case	_	_
+33	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Parlament	parlament	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Catalonha	Catalonha	PROPN	_	Gender=Fem|Number=Sing	34	obl	_	_
+37	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	21	21	NUM	_	Number=Sing	39	nummod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	genièr	genièr	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	2015	2015	NUM	_	Number=Sing	43	nummod	_	_
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	qu'	que	PRON	_	PronType=Rel	46	nsubj	_	_
+46	intrèt	intrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	ccomp	_	_
+47	en	en	ADP	_	_	48	case	_	_
+48	vigor	vigor	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+49	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	14	14	NUM	_	Number=Sing	51	nummod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	febrièr	febrièr	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	2015	2015	NUM	_	Number=Sing	55	nummod	_	_
+55	.	.	PUNCT	_	_	8	punct	_	_
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	òste	òste	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	majestuós	majestuós	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	nòstras	nòstre	NOUN	_	Gender=Fem|Number=Plur|Poss=Yes	2	nmod	_	_
+6	selvas	selva	NOUN	_	Gender=Fem|Number=Plur	5	compound	_	_
+7	montanegrinas	montanegrin	ADJ	_	Gender=Fem|Number=Plur	6	compound	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+```
+
+Explanation:
+- `Aquel` is a demonstrative determinant (DET) agreeing in gender and number with the noun `òste`.
+- `òste` is the main noun (NOUN) of the phrase, with masculine singular gender.
+- `majestuós` is an adjective (ADJ) describing `òste`, agreeing in gender and number.
+- `de` is a preposition (ADP) introducing the possessive phrase.
+- `nòstras` is a possessive noun (NOUN) indicating ownership, agreeing in gender and number with `selvas`.
+- `selvas` is a noun (NOUN) in the plural feminine form.
+- `montanegrinas` is an adjective (ADJ) modifying `selvas`, indicating a specific type of selva.
+- The period `.` is a punctuation mark (PUNCT) signaling the end of the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Avèm	aver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	decidit	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	xcomp	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	començar	començar	VERB	_	Infinitive=Yes	2	obl	_	_
+5	per	per	ADP	_	_	6	case	_	_
+6	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pus	pus	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	malaisit	malaisit	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's specific to certain languages).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the syntactic head of this token.
+- **DEPREL**: The dependency relation between the token and its head.
+- **DEPS**: Enhanced dependency graph information (not used here).
+- **MISC**: Miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	L'	l'	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	polit	polit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	donava	donar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	det	det	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (lemma).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag. (Not always used in UD, can be the same as UPOS)
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the syntactic head of this token.
+- **DEPREL**: The syntactic relation between the current token and its head.
+- **DEPS**: Dependency relation graph in the form of a list of head-dependent pairs.
+- **MISC**: Any other miscellaneous information. (Not used in this example)
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Aquò	aquò	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	me	me	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	faguèt	fagès	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+4	grelhar	grelhar	VERB	_	InfForm=Inf	3	xcomp	_	_
+5	dins	dins	ADP	_	_	6	case	_	_
+6	lei	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	cervèlas	cervèla	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+8	doas	dos	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	idèas	idèa	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+10	complementàrias	complementari	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the columns:
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (not always applicable).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not always used).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not always used).
+- **MISC**: Miscellaneous information, often left empty.
+
+I've filled in the columns based on the context and typical usage in Occitan, but some adjustments might be necessary depending on specific linguistic analysis guidelines.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Sens	sens	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
+2	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	3	det	_	_
+3	assentiment	assentiment	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
+6	animal	animal	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
+9	asinièr	asinièr	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	farà	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	pas	pas	ADV	_	_	12	neg_marker	_	_
+12	res	res	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	nmod	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	non	non	ADV	_	_	12	advmod	_	_
+18-19	al	al	ADP	_	_	20	case	_	_
+18	a	a	PART	_	_	19	fixed	_	_
+19	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
+20	prètz	prètz	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing	23	det	_	_
+23	maltractença	maltractença	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+Note:
+- The `UPOS` column indicates the universal part of speech tag.
+- The `XPOS` column is left blank as it is language-specific and not applicable to all languages.
+- The `FEATS` column contains morphological features.
+- The `HEAD` column indicates the index of the syntactic head of the word.
+- The `DEPREL` column specifies the dependency relation between the word and its head.
+- The `DEPS` column is left blank as it is used for enhanced dependencies and not necessary for the basic annotation.
+- The `MISC` column is also left blank as it is typically used for language-specific miscellaneous information.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Los	lo	DET	_	Gender=Masc|Number=Plur|PronType=Art	2	det	_	wordform=los
+2	dets	det	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ne’n	ne	PART	_	_	4	advmod	_	_
+4	venián	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	neirs	neir	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	tant	tant	ADV	_	_	8	mark	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	los	lo	DET	_	Gender=Masc|Number=Plur|PronType=Art	10	det	_	wordform=los
+10	pichava	pichar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+Explanation of the added columns:
+
+- **UPOS**: Universal Part-of-Speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS**: Morphological features (e.g., gender, number, tense).
+- **HEAD**: The ID of the syntactic head of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph, not typically used in basic annotations.
+- **MISC**: Miscellaneous information, such as word forms or other relevant details.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Francés	Francés	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	s'	se	PRON	_	Person=3|Poss=Yes|Reflex=Yes	4	nsubj	_	_
+4	èra	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	tornat	tornar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+6	aprochar	aprochar	VERB	_	Conj=Yes	5	conj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	paire	paire	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	li	li	PRON	_	Person=3|PronType=Prs	13	obj	_	_
+13	prenguent	prene	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	sas	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	_
+15	mans	man	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16	dins	dins	ADP	_	_	17	case	_	_
+17	las	lo	DET	_	Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	seunas	sieu	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	assajava	assajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	obl	_	_
+23	fintant	fintar	VERB	_	Tense=Pres|VerbForm=Inf	20	xcomp	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	li	li	PRON	_	Person=3|PronType=Prs	23	obl	_	_
+26	parlar	parlar	VERB	_	Conj=Yes	23	conj	_	_
+27	plan	plan	ADV	_	_	26	advmod	_	_
+28	doçament	doçament	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+Note: I've made some assumptions about the intended meaning of the sentence, especially with regard to the possessive pronouns and the verb conjugations. The annotation may vary depending on the specific context and dialect of the language.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	repais	repais	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	pres	prene	VERB	_	Tense=Past|VerbForm=Part	2	amod	_	_
+4-5	sul	_	ADP	_	_	5	case	_	_
+4	sus	sus	ADP	_	_	5	fixed	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	_
+6	sirveton	sirveton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	nos	nos	PRON	_	Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	requinquilhèt	requinquilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+9	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	brave	brave	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	bocin	bocin	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+Note:
+- The verb "requinquilhar" (to refresh) is conjugated in the past tense, and "sirveton" (served) is in the past tense as well, indicating a completed action.
+- "nos" is used as the direct object of "sirveton," meaning "us."
+- "un brave bocin" describes the result of the action, translating to "a good/fine refreshment."
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gost	gost	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pas	pas	ADV	_	_	5	advmod	_	_
+5	marrit	marrit	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	siáu	èsser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	segur	segur	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	n'	ne	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+11	ai	aver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	agut	aver	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	manjat	manjar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	puei	puei	ADV	_	_	13	advmod	_	_
+16	tot	tot	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+18	reven	revenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	:	:	PUNCT	_	_	5	punct	_	_
+20	òc	òc	NUM	_	Number=Sing	23	nummod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	aquò	aquò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	_	_
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+26	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sopa	sopa	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	farineta	farineta	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tag.
+- The XPOS column contains the language-specific part-of-speech tag (not applicable in this case as we are using universal tags).
+- The FEATS column contains morphological features.
+- The HEAD column indicates the index of the head word.
+- The DEPREL column specifies the dependency relation.
+- The DEPS column is for enhanced dependencies (not used here).
+- The MISC column is for miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the annotated sentence in the CoNLL-U format:
+
+```
+1	Doncas	doncas	ADV	_	_	2	advmod	_	_
+2	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
+5	prenèm	prendre	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as we are following universal dependencies).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph dependencies (not always used).
+- **MISC**: Miscellaneous information, often used for inter-annotation comparisons.
+
+In this annotation:
+
+- "Doncas" is an adverb modifying the verb "es".
+- "es" is the main verb, indicating existence or identity.
+- "el" is a definite article modifying the relative pronoun "que".
+- "que" is a relative pronoun introducing a subordinate clause.
+- "prenèm" is the verb in the subordinate clause, meaning "we take".
+- The period "." is a punctuation mark ending the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	jorn	jorn	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	èra	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	gaireben	gaireben	ADV	_	_	4	advmod	_	_
+6	joial	joial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The original form of the token.
+- **LEMMA**: The base form or lemma of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as we are following universal dependencies).
+- **FEATS**: Morphological features such as gender, number, tense, etc.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not used here).
+- **MISC**: Miscellaneous information, such as word forms.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Pèr	pèr	ADV	_	_	2	advmod	_	_
+2	comprene	comprene	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	çò	çò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	s’es	se	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	xcomp	_	_
+5-6	s’es	_	_	_	_	_	_	_	_
+5	s’	se	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	nsubj	_	_
+6	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+7	passat	passar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	ò	ò	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	sèmbla-Dieu	sèmbla-dieu	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	a	aver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	una	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ressorça	ressorça	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+16	especiala	especial	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+Note:
+- The sentence has been analyzed as a complex structure with several clauses.
+- The reflexive pronoun `s'` is treated as a separate token (5-6) due to its grammatical function.
+- The verb `ò` in line 11 is used to express similarity or comparison, functioning similarly to "seems" in English.
+- The token `sèmbla-Dieu` is a compound noun, where `sèmbla` means "seems" and `-Dieu` refers to "God".
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	a	a	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beu	beure	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_	_
+4	èsser	èsser	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	3	aux	_	_
+5	malandrós	malandrós	ADJ	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	dempuei	dempuei	ADP	_	_	7	case	_	_
+7	sieis	sieis	NUM	_	Number=Plur	3	obl	_	_
+8	mes	mes	NOUN	_	Gender=Masc|Number=Plur	7	compound	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	èsser	èsser	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	pas	pas	ADV	_	_	10	advmod	_	_
+12	lonh	lonh	ADV	_	_	10	advmod	_	_
+13-14	daus	daus	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	lo	lo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	nmod	_	_
+15	quatre-vint	quatre-vint	NUM	_	Number=Plur	10	obl	_	_
+16	quinze	quinze	NUM	_	Number=Plur	15	nummod	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	a	aver	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	beu	beu	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+21	s’	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
+22	i	i	ADP	_	_	23	case	_	_
+23	esperar	esperar	VERB	_	Aspect=Imp|VerbForm=Inf	20	xcomp	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pauc	pauc	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	quò	quò	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	_
+28	fai	far~faire	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+29	totjorn	totjorn	ADV	_	_	28	advmod	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	petit	petit	ADJ	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	quauquaren	quauquaren	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	nmod	_	_
+35	veire	veire	VERB	_	Aspect=Imp|VerbForm=Inf	32	acl	_	_
+36	mòrt	mòrt	ADJ	_	Gender=Masc|Number=Sing	35	xcomp	_	_
+37	.	.	PUNCT	_	_	2	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tag.
+- The XPOS column contains the language-specific part-of-speech tag (not applicable in this case).
+- The FEATS column contains morphological features.
+- The HEAD column indicates the index of the head word.
+- The DEPREL column contains the dependency relation.
+- The DEPS column contains enhanced dependency relations (not applicable in this case).
+- The MISC column contains miscellaneous information (not applicable in this case).
+Raw model output for sentence :
+Sure, here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Amont	amont	ADP	_	_	2	compound:preposition	_	_
+2	d’	de	ADP	_	_	3	case	_	SpaceAfter=No
+3	en	en	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+4	naut	naut	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	.	.	PUNCT	_	_	0	punct	_	_
+```
+
+Explanation:
+- `1	Amont	amont`: The word "amont" is an adverbial preposition, which is a single part of speech in French. It is part of a compound preposition with "d’".
+- `2	d’	de`: This is the preposition "de" in its elided form, acting as a case marker.
+- `3	en	en`: This is a demonstrative pronoun, translating to "of them" or "of it" in English.
+- `4	naut	naut`: This is a noun, likely a shortened form of "navires" (ships) or "nautiques" (nautical).
+- `5	.	.`: A period, indicating the end of the sentence.
+
+The `HEAD` column is not explicitly shown in the provided example, but in this case, it would be the same as the `DEPREL` for each token, as they are all directly related to the root (the noun "naut"). The `DEPS` and `MISC` columns are typically used for additional dependencies and miscellaneous information, respectively, and are left blank here as they are not necessary for this simple sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Lo	lo	DET	DT	Definit=Yes|Gender=Masc|Number=Sing	2	det	_	_
+2	cran	cran	NOUN	NN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	arrasat	arrasar	VERB	VBD	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	a	a	ADP	IN	_	5	case	_	_
+5	blanc	blanc	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
+6	sonque	sonque	ADV	RB	_	3	advmod	_	_
+7	la	lo	DET	DT	Definit=Yes|Gender=Fem|Number=Sing	8	det	_	_
+8	halha	halha	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or root of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's language-dependent).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the syntactic head of the token.
+- **DEPREL**: The syntactic relation between the token and its head.
+- **DEPS**: Dependency relation dependencies (not used here).
+- **MISC**: Miscellaneous information, such as word forms.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Es	es	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trabalh	trabalh	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	fasiá	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dins	dins	ADP	_	_	7	case	_	_
+7	sa	son	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	precedenta	precedent	ADJ	_	Gender=Fem|Number=Sing	9	nmod	_	_
+9	asinariá	asinariá	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+Raw model output for sentence :
+Sure, here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	de	de	ADP	_	AdpType=Prep	3	case	_	_
+3	minjar	minjar	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+4	hormatge	hormatge	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	?	?	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (not used in this simple example).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS**: Morphological features (not applicable in this context).
+- **HEAD**: The ID of the head token (0 for the root).
+- **DEPREL**: The relation between the token and its head.
+- **DEPS**: Dependency relation dependencies (not used here).
+- **MISC**: Miscellaneous information (not used here).
+
+In this annotation:
+
+- "E" is a coordinating conjunction.
+- "de" is a preposition, dependent on "minjar".
+- "minjar" is a noun, modifying "hormatge".
+- "hormatge" is the root noun of the sentence.
+- "?" is a punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Que	que	SCONJ	_	_	2	mark	_	_
+2	seràs	ser	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	lèu	lèu	ADV	_	_	2	advmod	_	_
+4	grasset	grasset	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	!	!	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (its dictionary form).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS**: Morphological features of the token (e.g., case, number, gender).
+- **HEAD**: The ID of the syntactic head of the token.
+- **DEPREL**: The syntactic relation between the token and its head.
+- **DEPS**: Dependency relation labels (not commonly used; can be left blank).
+- **MISC**: Miscellaneous information (e.g., word sense disambiguation tags).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Que	que	SCONJ	_	_	2	mark	_	_
+2	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	se	se	PRON	_	Person=3|Reflex=Yes	4	obj	_	_
+4	voleràn	voler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	préner	préner	VERB	_	InfForm=Yes	4	xcomp	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	Sent	Sent	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	Per	Per	PROPN	_	Gender=Masc|Number=Sing	7	flat	_	_
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	convent	convent	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+12	...	...	PUNCT	_	_	4	punct	_	_
+
+Explanation of the dependencies:
+- `Que` is a subordinating conjunction that marks the subclause.
+- `lo` is a masculine singular pronoun serving as the subject of the verb `voleràn`.
+- `se` is a reflexive pronoun, indicating that the action reflects back to the subject.
+- `voleràn` is the main verb in the sentence, indicating future tense.
+- `préner` is a verb in infinitive form, functioning as an object of `voleràn`.
+- `a` and `Sent Per` form a prepositional phrase modifying the verb `préner`.
+- `en` and `convent` form another prepositional phrase modifying the verb, indicating location.
+- The commas and ellipsis are punctuation marks.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	De	de	ADP	_	_	2	case	_	_
+2	bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+3	atomicas	atomic	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	ne	ne	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	larga	largar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dotze	12	NUM	_	Number=Plur	8	nummod	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or root of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's language-dependent).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph dependencies (not always used).
+- **MISC**: Miscellaneous information, often used for word sense disambiguation or named entity types.
+Raw model output for sentence :
+Here is the annotated sentence in the CoNLL-U format:
+
+```
+1	La	la	DET	_	Definite=Def|Gender=Fem|Number=Sing	2	det	_	wordform=la
+2	sola	sola	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	besonha	besonha	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	pòde	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	encara	encara	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Part	6	advcl	_	_
+8	recordar	recordar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	mas	mas	CCONJ	_	_	10	cc	_	_
+12	una	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing	13	det	_	_
+13	scèna	scèna	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+14	.	.	PUNCT	_	_	6	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **UPOS**: Part-of-speech tag for each word.
+- **XPOS**: Language-specific part-of-speech tag (not applicable in this case).
+- **FEATS**: Morphological features such as gender, number, tense, etc.
+- **HEAD**: The index of the syntactic head of the current token.
+- **DEPREL**: The syntactic relation between the current token and its head.
+- **DEPS**: Dependency relation graph in the form of head-word:relation.
+- **MISC**: Miscellaneous information, such as word forms.
+
+The `wordform` feature is included in the MISC column to maintain consistency with the example annotation provided.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	s'	se	PRON	_	Person=3|Reflex=Yes	3	nsubj	_	_
+3	i	viure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	root	_	_
+4	viu	viure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosina	cosina	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as we are following universal dependencies).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph dependencies (not used here).
+- **MISC**: Miscellaneous information, such as word forms or other relevant details.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	La	La	DET	_	Definite=Def|Gender=Fem|Number=Sing	2	det	_	_
+2	guèrra	guèrra	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	_
+5	n'en	ne	PRON	_	Person=3|PronType=Prs	6	obj	_	_
+6	parlava	parlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	gaire	gaire	ADV	_	_	6	advmod	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	ren	ren	PRON	_	Person=3|PronType=Neg	6	xcomp	_	_
+10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	nsubj	_	_
+11	passava	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	alevat	alevat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+15	que	que	SCONJ	_	_	16	mark	_	_
+16	mon	mon	DET	_	Number=Sing|Person=1|Poss=Yes	17	det	_	_
+17	paire	paire	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+18	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+19	mobilisat	mobilisar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	que	que	SCONJ	_	_	22	mark	_	_
+22	ma	mon	DET	_	Number=Sing|Person=1|Poss=Yes	23	det	_	_
+23	maire	maire	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+24	que	que	PRON	_	Person=3|PronType=Rel	25	ccomp	_	_
+25	me	me	PRON	_	Person=1|PronType=Prs	26	obj	_	_
+26	veniá	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl	_	_
+27	veire	veire	VERB	_	Infinitive=Yes	26	xcomp	_	_
+28	en	en	ADP	_	_	29	case	_	_
+29	cò	cò	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	ma	mon	DET	_	Number=Sing|Person=1|Poss=Yes	32	det	_	_
+32	grand	grand	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	rintrava	rintrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+35	sovent	sovent	ADV	_	_	34	advmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	tard	tard	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+38	o	o	CCONJ	_	_	39	cc	_	_
+39	partiá	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	conj	_	_
+40	d'	de	ADP	_	_	41	case	_	_
+41	ora	ora	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+42	per	per	ADP	_	_	43	case	_	_
+43	son	son	DET	_	Number=Sing|Person=3|Poss=Yes	44	det	_	_
+44	trabalh	trabalh	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+45-46	dei	_	X	_	_	44	appos	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing	44	appos	_	_
+47	trams	tram	NOUN	_	Gender=Masc|Number=Plur	46	compound	_	_
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	m'	me	PRON	_	Person=1|PronType=Prs	50	obj	_	_
+50	avisavi	avisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	ren	ren	PRON	_	Person=3|PronType=Neg	50	obl	_	_
+53	.	.	PUNCT	_	_	6	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tags.
+- The XPOS column is left blank as it is not applicable to all languages.
+- The FEATS column contains morphological features like gender, number, person, etc.
+- The HEAD column indicates the index of the head word for each word.
+- The DEPREL column contains the syntactic relation between the word and its head.
+- The DEPS column is left blank as it is not commonly used.
+- The MISC column is also left blank as no additional miscellaneous information is provided.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Dins	dins	ADP	_	_	2	case	_	_
+2	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	recanton	recanton	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sala	sala	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+7	an	aver	VERB	_	Tense=Pres|VerbForm=Part	8	aux	_	_
+8	cavat	cavar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	dins	dins	ADP	_	_	10	case	_	_
+10	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ròca	ròca	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	silò	silò	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+14	tapat	tapar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+15	amb	amb	ADP	_	_	16	case	_	_
+16	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	curbecèu	curbecèu	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	pèira	pèira	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	que	que	SCONJ	_	_	23	mark	_	_
+21	per	per	ADP	_	_	22	case	_	_
+22	l’	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	auborar	auborar	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	26	nsubj	_	_
+25	li	li	PRON	_	Person=3|PronType=Prs	26	iobj	_	_
+26	meton	metre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	tres	tres	NUM	_	Number=Plur	26	obl	_	_
+29	.	.	PUNCT	_	_	8	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tag.
+- The XPOS column contains the language-specific part-of-speech tag (not applicable in this case).
+- The FEATS column contains morphological features (e.g., gender, number).
+- The HEAD column indicates the index of the head word.
+- The DEPREL column specifies the dependency relation.
+- The DEPS column provides additional dependency relations (not used here).
+- The MISC column is for miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	S’	se	PRON	_	Emph=No|Person=3|PronType=Prs	2	nsubj	_	wordform=s'
+2	ensagèron	ensajar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	totei	tot	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
+4	leis	lo	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	insecticids	insecticid	NOUN	_	Gender=Masc|Number=Plur	4	compound	_	_
+6	pèr	pèr	ADP	_	_	7	case	_	_
+7	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	chaple	chaple	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
+9	definitiu	definitiu	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+Explanation of the columns:
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or root of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's specific to certain languages).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not used here).
+- **MISC**: Miscellaneous information, such as word forms.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Qu’	que	SCONJ	_	_	2	mark	_	_
+2	ei	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	disponible	disponible	ADJ	_	Gender=Fem|Number=Sing	2	xcomp	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	DVD	DVD	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	dab	dab	ADP	_	_	8	case	_	_
+8	sostitolatge	sostitolatge	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	occitan	occitan	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	o	o	CCONJ	_	_	12	cc	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	francés	francés	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **1 (Qu’)** - Subordinating conjunction, marks the subclause.
+- **2 (ei)** - Verb, main verb in the sentence.
+- **3 (disponible)** - Adjective, describes the noun in the main clause.
+- **4-5 (en DVD)** - Adpositional phrase indicating the format.
+- **6 (,)** - Punctuation marking a pause.
+- **7-8 (dab sostitolatge)** - Adpositional phrase indicating the presence of subtitles.
+- **9-10 (en occitan)** - Adpositional phrase indicating the language.
+- **11-12 (o en)** - Coordinating conjunction and adposition, connecting two languages.
+- **13 (francés)** - Noun indicating the second language.
+- **14 (.)** - Punctuation marking the end of the sentence.
+
+The **UPOS** column contains the universal part-of-speech tags, **XPOS** is left empty as it's not applicable for modern Catalan, **FEATS** contains any relevant morphological features, **HEAD** indicates the syntactic head of the word, **DEPREL** shows the dependency relation, **DEPS** is left empty as it's not commonly used, and **MISC** may contain miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1-2	Au	Au	ADV	_	_	4	advmod	_	_
+1	a	a	ADP	_	_	2	case	_	_
+2	lo	lo	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	bon	bon	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	moment	moment	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	lo	lo	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	hilh	hilh	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	_
+8-9	deu	de	ADP	_	_	10	case	_	_
+8	de	de	ADP	_	_	9	compound	_	_
+9	lo	lo	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	nmod	_	_
+10	rei	rei	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+12	botèc	botar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+13	la	lo	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pluma	pluma	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	dens	dens	ADP	_	_	16	case	_	_
+16	la	lo	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	boca	boca	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+Note:
+- I've assumed "Au" in the first token is an adverbial phrase or an interjection, so I labeled it as ADV.
+- The verb "botèc" seems to be a past tense form of "botar" (to throw), so I labeled it accordingly.
+- I've used the appropriate deterministic words (lo/la) and gender/number agreements for French.
+Raw model output for sentence :
+Here is the annotated sentence following the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Autra	autre	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	causa	causa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	estranha	estranh	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_
+6	qu’	que	SCONJ	_	_	7	mark	_	_
+7	aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+9	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+10	la	lo	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	quita	quite	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
+12	definicion	definicion	NOUN	_	Gender=Fem|Number=Sing	11	compound	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	l'	lo	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	espaci	espaci	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	concebut	concebre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	coma	coma	SCONJ	_	_	18	mark	_	_
+18	luòc	luòc	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	residéncia	residéncia	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	mon	mon	DET	_	Gender=Masc|Number=Sing|PronType=Pos	23	det	_	_
+23	monde	monde	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **1 (Autra)** is an adjective modifying **2 (causa)**.
+- **2 (causa)** is the root noun of the sentence.
+- **3 (estranha)** is another adjective modifying **2 (causa)**.
+- **4 (,)** is a punctuation mark.
+- **5 (èra)** is an auxiliary verb for the past tense.
+- **6 (qu’)** introduces a relative clause.
+- **7 (aquel)** is a determiner modifying **8 (nom)**.
+- **8 (nom)** is the subject of the clause.
+- **9 (èra)** is the auxiliary verb for **8 (nom)**.
+- **10 (la)**, **14 (l')**, and **22 (mon)** are determiners.
+- **11 (quita)**, **12 (definicion)**, **15 (espaci)**, and **18 (luòc)** are nouns in various relationships.
+- **13 (de)**, **19 (de)**, and **21 (de)** are prepositions.
+- **16 (concebut)** is a verb in the past participle form.
+- **17 (coma)** is a subordinating conjunction.
+- **20 (residéncia)** and **23 (monde)** are nouns.
+- **24 (.)** is a punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Que	que	PRON	_	PronType=Int	2	nsubj	_	_
+2	'm	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	torni	tornar	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	estonar	estonar	VERB	_	InfForm=Inf	4	xcomp	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	encolerar	encolerar	VERB	_	InfForm=Inf	5	conj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **1 (Que)**: Interrogative pronoun, serving as the subject of the main clause.
+  - `UPOS`: PRON (Pronoun)
+  - `XPOS`: PRON (Pronoun)
+  - `FEATS`: `PronType=Int` (Interrogative)
+  - `DEPREL`: nsubj (nominal subject)
+  - It modifies the verb `m` (ser) in the main clause.
+
+- **2 ('m)**: Main verb in the present indicative tense.
+  - `UPOS`: VERB (Verb)
+  - `XPOS`: VERB (Verb)
+  - `FEATS`: `Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin` (Indicative mood, singular number, 3rd person, present tense, finite verb)
+  - `DEPREL`: root (root of the sentence)
+
+- **3 (me)**: First-person pronoun, serving as the object of the verb 'm'.
+  - `UPOS`: PRON (Pronoun)
+  - `XPOS`: PRON (Pronoun)
+  - `FEATS`: `Case=Acc|Number=Sing|Person=1|PronType=Prs` (Accusative case, singular number, 1st person, personal pronoun)
+  - `DEPREL`: obj (object)
+
+- **4 (torni)**: Subordinate verb in the present subjunctive tense.
+  - `UPOS`: VERB (Verb)
+  - `XPOS`: VERB (Verb)
+  - `FEATS`: `Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin` (Imperfective aspect, subjunctive mood, singular number, 3rd person, present tense, finite verb)
+  - `DEPREL`: ccomp (clausal complement)
+  - It is a complement of the main verb 'm'.
+
+- **5 (estonar)**: Infinitive verb form, serving as the object of the subordinate verb 'torni'.
+  - `UPOS`: VERB (Verb)
+  - `XPOS`: VERB (Verb)
+  - `FEATS`: `InfForm=Inf` (Infinitive form)
+  - `DEPREL`: xcomp (open clausal complement)
+  - It modifies the subordinate verb 'torni'.
+
+- **6 (e)**: Conjunction introducing the coordinated verb 'encolerar'.
+  - `UPOS`: CCONJ (Coordinating Conjunction)
+  - `XPOS`: CCONJ (Coordinating Conjunction)
+  - `DEPREL`: cc (coordinating conjunction)
+  - It connects the verbs 'estonar' and 'encolerar'.
+
+- **7 (encolerar)**: Coordinated verb with 'estonar'.
+  - `UPOS`: VERB (Verb)
+  - `XPOS`: VERB (Verb)
+  - `FEATS`: `InfForm=Inf` (Infinitive form)
+  - `DEPREL`: conj (conjunction)
+  - It is coordinated with the verb 'estonar' through the conjunction 'e'.
+
+- **8 (.)**: Punctuation mark at the end of the sentence.
+  - `UPOS`: PUNCT (Punctuation)
+  - `XPOS`: PUNCT (Punctuation)
+  - `DEPREL`: punct (punctuation)
+Raw model output for sentence :
+Sure, here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Consí	consí	INTJ	_	_	6	parataxis	_	_
+2	far	far	VERB	_	Tense=Pres|VerbForm=Inf	6	xcomp	_	_
+3	per	per	ADP	_	_	4	case	_	_
+4	se	se	PRON	_	Clitic=Yes|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	_
+5	'n	ne	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tirar	tirar	VERB	_	Connegative=Yes	0	root	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's specific to certain languages).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not used here).
+- **MISC**: Miscellaneous information (not used here).
+
+In this annotation:
+
+- "Consí" is an interjection.
+- "far" is a verb in the present tense.
+- "per" is a preposition.
+- "se" is a reflexive pronoun.
+- "'n" is an article (definite, masculine, singular).
+- "tirar" is a verb in the connegative form.
+- The question mark "?" is a punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Dins	dins	ADP	_	_	2	case	_	_
+2	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	afar	afar	NOUN	_	Gender=Masc|Number=Sing	4	compound	_	_
+4	d'	de	ADP	_	_	6	case	_	_
+5	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	beleg	beleg	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	trapèri	trapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	totas	tot	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	rasons	rason	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+11-12	del	_	X	_	_	12	dep	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	per	per	ADP	_	_	15	case	_	_
+15	justificar	justificar	VERB	_	InfForm=Inf	7	xcomp	_	_
+16	sa	son	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	vetustat	vetustat	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **UPOS**: Universal Part-of-Speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS**: Morphological features (e.g., gender, number, tense).
+- **HEAD**: The index of the head token of the word.
+- **DEPREL**: Syntactic relation between the word and its head.
+- **DEPS**: Dependency relation (this is an older field and not typically used in modern UD).
+- **MISC**: Miscellaneous information, often used for inter-sentence dependencies.
+
+The sentence describes a situation where someone is discussing the reasons ("rasons") for justifying something ("vetustat") within a certain context ("beleg trapèri"). The structure involves various determiners, prepositions, and verbal constructions.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Nadal	Nadal	PROPN	_	_	2	nsubj	_	wordform=Nadal
+2	qu’	que	SCONJ	_	_	3	mark	_	wordform=qu'
+3	èra	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	aderent	aderent	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	wordform=aderent
+5	a	a	ADP	_	_	6	case	_	wordform=a
+6	nombrosas	nombrós	ADJ	_	Gender=Fem|Number=Plur	3	obl	_	wordform=nombrosas
+7	associacions	associacion	NOUN	_	Gender=Fem|Number=Plur	6	compound	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	wordform=la
+10	Companhia	companhia	PROPN	_	_	11	compound	_	wordform=Companhia
+11-12	de	de	ADP	_	_	13	case	_	wordform=de
+11	deus	_	X	_	_	12	compound	_	_
+12	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	wordform=lo
+13	escrivans	escrivan	NOUN	_	Gender=Masc|Number=Plur	12	appos	_	_
+14	de	de	ADP	_	_	15	case	_	wordform=de
+15	Tarn	Tarn	PROPN	_	_	13	obl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	wordform=e
+17	Garona	Garona	PROPN	_	_	15	conj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	l’	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	wordform=l'
+20	Associacion	associacion	PROPN	_	_	21	compound	_	wordform=Associacion
+21	Miguel	Miguel	PROPN	_	_	22	compound	_	wordform=Miguel
+22	de	de	ADP	_	_	23	case	_	wordform=de
+23	Cervantes	Cervantes	PROPN	_	_	21	nmod	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	l’	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	wordform=l'
+26	Acadèmia	acadèmia	PROPN	_	_	27	compound	_	wordform=Acadèmia
+27	de	de	ADP	_	_	28	case	_	wordform=de
+28	Montauban	Montauban	PROPN	_	_	26	nmod	_	_
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	l’	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	wordform=l'
+31	Acadèmia	acadèmia	PROPN	_	_	32	compound	_	wordform=Acadèmia
+32	de	de	ADP	_	_	33	case	_	wordform=de
+33	Lengadòc	Lengadòc	PROPN	_	_	31	nmod	_	_
+34	...	...	PUNCT	_	_	3	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tags.
+- The XPOS column contains language-specific part-of-speech tags (not applicable in this case).
+- The FEATS column contains morphological features.
+- The HEAD column indicates the index of the syntactic head of the word.
+- The DEPREL column contains the dependency relation to the HEAD.
+- The DEPS column contains enhanced dependency graph dependencies (not applicable in this case).
+- The MISC column contains miscellaneous information (not applicable in this case).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Que	que	PRON	_	PronType=Int	4	nsubj	_	_
+2	'u	_	X	_	_	1	compound	_	_
+3	n'	ne	ADV	_	_	1	advmod	_	_
+4	èi	aver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	parlat	parlar	VERB	_	PartForm=Past	4	xcomp	_	_
+6-7	ath	_	X	_	_	5	compound	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	eth	eth	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+8	curè	curè	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+9	adès	adès	ADV	_	_	4	advmod	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **1 (Que)**: Interrogative pronoun, acts as the subject of the sentence.
+- **2 ('u)**: A dialectal form, treated as a compound with "que".
+- **3 (n')**: Negation particle, modifying the verb.
+- **4 (èi)**: Verb "to have" in the present tense, indicating existence.
+- **5 (parlat)**: Past participle of "parlar" (to speak), functioning as a verb in the sentence.
+- **6-7 (ath a eth)**: A compound phrase with "a" as a case marker and "eth" as a plural noun, acting as an oblique object.
+- **8 (curè)**: Appositional to "eth", providing additional information.
+- **9 (adès)**: Adverb modifying the verb, indicating "now".
+- **10 (.)**: Punctuation mark ending the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Adès	adès	ADV	_	_	2	advmod	_	_
+2	encòra	encòra	ADV	_	_	3	advmod	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	au	a	ADP	_	_	5	case	_	_
+5	a	a	DET	_	_	6	det	_	_
+6	lo	lo	PRON	_	_	7	nsubj	_	_
+7	darrèr	darrèr	ADJ	_	_	8	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	la	lo	PRON	_	_	10	det	_	_
+10	hormigueta	hormigueta	NOUN	_	_	11	nsubj	_	_
+11	b'	que	SCONJ	_	_	12	mark	_	_
+12	an	aver	VERB	_	_	13	aux	_	_
+13	shisclat	shisclar	VERB	_	_	0	root	_	_
+14	soviers	sovier	NOUN	_	_	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	malícia	malícia	NOUN	_	_	14	conj	_	_
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+Explanation of the columns:
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal dependencies).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph information (not always used).
+- **MISC**: Miscellaneous information, often used for inter-sentence dependencies (not used here).
+
+Note: The `FEATS` column is left empty as it's not always applicable for all languages and tokens. The `HEAD` and `DEPREL` columns have been filled based on the syntactic structure of the sentence.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Tot	tot	ADV	_	_	4	advmod	_	_
+2	en	en	ADP	_	_	3	case	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	còp	còp	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	sentiguèri	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl	_	_
+8	las	las	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	fatigat	fatigat	ADJ	_	Gender=Masc|Number=Sing	7	xcomp	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
+12	non	non	PART	_	Polarity=Neg	14	advmod	_	_
+13	se	se	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	nsubj	_	_
+14	pòt	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	mai	mai	ADV	_	_	14	advmod	_	_
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+Explanation of the dependencies:
+
+- `Tot` (1) is an adverb modifying `còp` (4).
+- `en` (2) is a preposition indicating the case of `un` (3).
+- `un` (3) is a determinant of `còp` (4).
+- `còp` (4) is the main noun, acting as the subject of the clause.
+- `me` (6) is the subject of the verb `sentir` (7).
+- `sentiguèri` (7) is a verb, with `las` (8) as a determinant and `,` (9) as a punctuation marking a pause.
+- `fatigat` (10) is an adjective describing the state resulting from `sentir`.
+- `que` (11) introduces a subordinate clause.
+- `non` (12) is a negative particle modifying the verb `pòt` (14).
+- `se` (13) is a reflexive pronoun, the subject of `pòt` (14) in the subordinate clause.
+- `pòt` (14) is the main verb, with `mai` (15) indicating a time manner.
+- `.` (16) is a sentence-final punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Atanben	atanben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	entre	entre	ADP	_	_	4	case	_	_
+4	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	traucasses	traucàs	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ròca	ròca	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	limpa	limpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	cal	caler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+13	far	far	VERB	_	InfForm=Inf	12	xcomp	_	_
+14	atencion	atencion	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	davalant	davalar	VERB	_	PartType=Ger|VerbForm=Part	13	obl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+19	.	.	PUNCT	_	_	1	punct	_	_
+```
+
+Explanation of the columns:
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's language-dependent).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph information (not used here).
+- **MISC**: Miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the annotated sentence following the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Es	es	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aquí	aquí	ADV	_	_	1	advmod	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	passère	passar	VERB	_	Tense=Fut	1	ccomp	_	_
+5	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur	6	det	_	_
+6	dotze	dotze	NUM	_	Number=Plur	7	nummod	_	_
+7	promèiras	promèir	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+8	annadas	annada	NOUN	_	Gender=Fem|Number=Plur	7	compound	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ma	meu	DET	_	Poss=Yes|Gender=Fem|Number=Sing	11	det	_	_
+11	vida	vida	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+12	ambe	ambe	ADP	_	_	13	case	_	_
+13	mon	meu	DET	_	Poss=Yes|Gender=Masc|Number=Sing	14	det	_	_
+14	fraire	fraire	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	Franc	Franc	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **UPOS**: Part-of-speech tag according to the Universal POS tagset.
+- **XPOS**: Language-specific POS tag (not used in this example as it's not relevant for Catalan).
+- **FEATS**: Morphological features (e.g., tense, number, gender).
+- **HEAD**: The index of the head word for each word.
+- **DEPREL**: Dependency relation to the head.
+- **DEPS**: Enhanced dependency graph (not used in this example).
+- **MISC**: Miscellaneous information (e.g., word forms).
+
+The `HEAD` and `DEPREL` columns define the dependency structure of the sentence. For instance, "passère" (passar) is the future tense form of the verb "es" (èsser), so it's a complement (`ccomp`) of the root. "Las" (lo) is a determiner (`det`) of "dotze" (dotze), and so on.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Començava	començar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ganivelar	ganivelar	VERB	_	InfInit=Yes	1	xcomp	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	se	se	PRON	_	Clitic=Yes|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+7	cherchinhar	cherchinhar	VERB	_	InfInit=Yes	3	conj	_	_
+8	dobe	dobe	NUM	_	Number=Plur	9	nummod	_	_
+9	son	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	mur	mur	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	mèstre	mèstre	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+Explanation of the dependencies:
+
+- `Començava` (1) is the main verb and the root of the sentence.
+- `de ganivelar` (3) is an infinitive phrase functioning as a complement of `Començava`.
+- `se cherchinhar` (7) is another infinitive phrase in apposition to `ganivelar`.
+- `dobe son` (8-9) describes the number and state of `mur`.
+- `mur` (10) and `mèstre` (12) are linked by the copula `son` (9) and coordinated by `e` (11).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Deu	deure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gelar	gelar	VERB	_	InfForm=Yes	1	xcomp	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	gelarà	gelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+5	solide	solide	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	tota	tot	DET	_	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	la	lo	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+8	jornada	jornada	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pasmens	pasmens	ADV	_	_	1	advmod	_	_
+11	gela	gelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+12	gaire	gaire	ADV	_	_	11	advmod	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+```
+
+Explanation of the dependencies:
+
+- `Deu` (1) is the main verb, rooted at the clause level (`root`).
+- `gelar` (2) is a verbal complement (`xcomp`) of `Deu`.
+- `e` (3) connects two verbs in a coordinating conjunction (`cc`).
+- `gelarà` (4) is a conjugate of `gelar`, joined by a conjunction (`conj`).
+- `solide` (5) modifies `tota la jornada` (6-8) as an adjective (`amod`).
+- `tota` (6) is a determiner (`det`) of `la jornada`.
+- `la` (7) is a noun acting as a modifier of `jornada` (`nmod`).
+- `jornada` (8) is the direct object (`obj`) of `Deu`.
+- `,` (9) is a punctuation mark separating clauses.
+- `pasmens` (10) modifies `Deu` as an adverb (`advmod`).
+- `gela` (11) is a paratactic clause (`parataxis`) related to `Deu`, indicating a simultaneous action.
+- `gaire` (12) modifies `gela` as an adverb (`advmod`).
+- `.` (13) is a sentence-final punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	L'	l'	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=l'
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	polit	polit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	las	lo	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	wordform=las
+5	velhèt	velhar	VERB	_	Tense=Past|VerbForm=Part	3	xcomp	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (its "lemma").
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+- **FEATS**: Morphological features of the token (e.g., case, number, gender).
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not used here).
+- **MISC**: Miscellaneous information (not used here).
+
+In this annotation:
+
+- "L'" is a definite article (det) modifying "enfant".
+- "enfant" is the subject (nsubj) of the verb "polit".
+- "polit" is the root (root) of the sentence.
+- "las" is the direct object (obj) of "polit".
+- "velhèt" is a past participle (xcomp) modifying "polit".
+- "." is a punctuation mark (punct) marking the end of the sentence.
+Raw model output for sentence :
+Sure, here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Qu'	que	SCONJ	_	_	2	mark	_	ID=1|FORM=Qu'|LEMMA=que
+2	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ID=2|FORM=es|LEMMA=èsser
+3	luènh	luènh	ADV	_	_	2	advmod	_	ID=3|FORM=luènh|LEMMA=luènh
+4	,	,	PUNCT	_	_	5	punct	_	ID=4|FORM=,|LEMMA=,
+5	mon	mon	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	ID=5|FORM=mon|LEMMA=mon
+6	Dieu	Dieu	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	ID=6|FORM=Dieu|LEMMA=Dieu
+7	!	!	PUNCT	_	_	2	punct	_	ID=7|FORM=!|LEMMA=!
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form of the token (lemma).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not applicable here as we are using universal tags).
+- **FEATS**: Morphological features (e.g., case, gender, number).
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not always used).
+- **MISC**: Miscellaneous information (e.g., word forms, named entities).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Int	2	nsubj	_	_
+2	s'	se	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	harà	har	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	_
+4	cantorau	cantorau	VERB	_	Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part	2	xcomp	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	la	lo	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	soa	son	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	lenga	lenga	NOUN	_	Gender=Fem|Number=Sing	7	compound	_	_
+9	mairau	mairau	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	promotor	promotor	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	la	la	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	vitalitat	vitalitat	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+15	deus	deus	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	lo	lo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	ainats	ainat	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+19	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Please note that the original sentence had some inconsistencies in tokenization and lemmatization (e.g., "harà" should be "har" and "cantorau" seems to be a verb form rather than a noun), so I've made some assumptions to provide a grammatically coherent annotation. The "deus" word is treated as an appositive to "vitalitat" since it's a unique case and might not fit perfectly within the standard UD framework.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Paire	paire	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	,	,	PUNCT	_	_	0	punct	_	_
+3	t'	te	PRON	_	Person=2|PronType=Prs	4	iobj	_	_
+4	ajudarem	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	!	!	PUNCT	_	_	4	punct	_	_
+```
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for each token.
+- **FORM**: The actual form of the token as it appears in the text.
+- **LEMMA**: The base form or dictionary form of the token.
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag (not used here as it's language-dependent).
+- **FEATS**: Morphological features of the token.
+- **HEAD**: The ID of the head token of the current token.
+- **DEPREL**: The dependency relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph (not used here).
+- **MISC**: Miscellaneous information (not used here).
+
+In this annotation:
+
+- "Paire" is a noun and acts as the subject (nsubj) of the sentence.
+- "," is a punctuation mark.
+- "t'" is a pronoun, acting as an indirect object (iobj) of the verb.
+- "ajudarem" is the main verb, with the future tense and first-person singular form.
+- "!" is a punctuation mark.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```
+1	Chau	chaler	VERB	_	VerbForm=Inf	2	advcl	_	_
+2	reconéisser	reconéisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	pel	per	ADP	_	_	6	case	_	_
+6	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mens	mens	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	debuta	debuta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	ne’n	ne'n	PRON	_	Number=Sing|PronType=Prs	13	obj	_	_
+13	fuguèrem	èsser	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+14	fòrça	fòrça	ADV	_	_	13	advmod	_	_
+15	benaises	benaise	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
+```
+
+Explanation of the annotations:
+
+- **Chau (1)** is an infinitive verb ("to chat") functioning as an adverbial clause modifier.
+- **reconéisser (2)** is the main verb ("to recognize") of the sentence.
+- **que (3)** is a subordinating conjunction introducing the subordinate clause.
+- **pel (5)** and **a (8)** are prepositions.
+- **lo (6)** and **la (9)** are definite articles.
+- **mens (7)** and **debuta (10)** are nouns, with **mens** being singular masculine and **debuta** being singular feminine.
+- **ne’n (12)** is a pronominal adverbial phrase meaning "of it" or "about it."
+- **fuguèrem (13)** is the past perfect tense of the verb "èsser" (to be), indicating the completion of an action in the past.
+- **fòrça (14)** is an adverb meaning "very" or "a lot."
+- **benaises (15)** is an adjective modifying the noun **benaise** (meaning "happy" or "content"), indicating plural feminine agreement.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Atau	atau	CCONJ	_	_	2	cc	_	_
+2	apèran	apèrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	marchands	marchand	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	corron	còrrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	heras	hera	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	vestits	vestir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Part	6	acl	_	_
+11	d'	de	ADP	_	_	12	case	_	_
+12	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	gran	gran	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	manto	manto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+15	semiat	semiatr	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	coscolhas	coscolha	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	dambe	dambe	ADV	_	_	20	advmod	_	_
+20	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bordon	bordon	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	man	man	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	entà	entà	ADP	_	_	27	mark	_	_
+27	véner	véner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	20	acl	_	_
+28	objècts	objèct	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	pietat	pietat	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+31	.	.	PUNCT	_	_	2	punct	_	_
+
+Note:
+- The UPOS column contains the universal part-of-speech tag.
+- The XPOS column contains the language-specific part-of-speech tag (not applicable in this case as it's already in a universal format).
+- The FEATS column contains morphological features (e.g., tense, number, gender).
+- The HEAD column indicates the index of the head word.
+- The DEPREL column contains the dependency relation.
+- The DEPS column contains the dependent word(s) in a flat list (not commonly used).
+- The MISC column is for miscellaneous information (not used here).

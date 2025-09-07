@@ -1,0 +1,1578 @@
+Raw model output for sentence :
+```conllu
+1-2	Dau	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	_	3	det	_	_
+3	terme	terme	NOUN	_	_	10	obl	_	_
+4	onte	onte	PRON	_	_	7	obl	_	_
+5	io	io	PRON	_	_	7	nsubj	_	_
+6	aviá	aver	AUX	_	_	7	aux	_	_
+7	pres	prendre	VERB	_	_	10	acl	_	_
+8	posicion	posicion	NOUN	_	_	7	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	vesiá	véser	VERB	_	_	0	root	_	_
+11	la	lo	DET	_	_	12	det	_	_
+12	baissa	baissa	NOUN	_	_	10	obj	_	_
+13	enquera	enquera	ADV	_	_	10	advmod	_	_
+14	dins	dins	ADP	_	_	16	case	_	_
+15	las	lo	DET	_	_	16	det	_	_
+16	brumas	bruma	NOUN	_	_	12	nmod	_	_
+17	leugieras	leugier	ADJ	_	_	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	queu	aqueu	DET	_	_	20	det	_	_
+20	matin	matin	NOUN	_	_	16	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	setembre	setembre	NOUN	_	_	20	nmod	_	_
+23	.	.	PUNCT	_	_	10	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Entau	entau	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	auriá	aver	AUX	_	_	5	aux	_	_
+4	pogut	poder	VERB	_	_	5	xcomp	_	_
+5	trobar	trobar	VERB	_	_	0	root	_	_
+6	sa	son	DET	_	_	7	det	_	_
+7	copabla	copabla	NOUN	_	_	5	obj	_	_
+8	tres	3	NUM	_	_	11	nummod	_	_
+9	o	o	CCONJ	_	_	10	cc	_	_
+10	quatre	4	NUM	_	_	8	conj	_	_
+11	mes	mes	NOUN	_	_	5	obl	_	_
+12	mai	mai	ADV	_	_	11	advmod	_	_
+13	dabora	dabora	ADV	_	_	12	advmod	_	_
+14	sens	sens	ADP	_	_	5	obl	_	_
+15	l'	lo	DET	_	_	16	det	_	_
+16	ajuda	ajuda	NOUN	_	_	14	obj	_	_
+17	de	de	ADP	_	_	16	case	_	_
+18	l'	lo	DET	_	_	19	det	_	_
+19	autre	autre	ADJ	_	_	20	amod	_	_
+20	trasfòu	trasfòu	NOUN	_	_	16	nmod	_	_
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender)
+* **HEAD:** The ID of the head word of the current word
+* **DEPREL:** The dependency relation between the current word and its head
+* **DEPS:** Dependency relation stack (not always used)
+* **MISC:** Miscellaneous annotations
+
+ **Some key annotations:**
+
+* **Entau (1)** is an adverb modifying the verb **trobar (5)**, so its dependency relation is **advmod**.
+* **auriá (3)** is an auxiliary verb supporting the main verb **trobar (5)**, hence the relation is **aux**.
+* **pogut (4)** is the past participle of the verb **poder**, functioning as an xcomp (open clausal complement) of **auriá (3)**.
+* **sa copabla (7)** is a noun phrase acting as the direct object of **trobar (5)**, so the relation is **obj**.
+* **tres o quatre (8-10)** are numerals functioning as a modifier of **mes (11)**, a noun phrase acting as an adverbial phrase (**obl**) of **trobar (5)**.
+* **mai dabora (12-13)** is an adverbial phrase modifying **mes (11)**, indicating time.
+* **sens l'ajuda (14-16)** is a prepositional phrase acting as another adverbial phrase (**obl**) of **trobar (5)**, indicating cause.
+* **l'autre trasfòu (18-20)** is a noun phrase modifying **ajuda (16)**, indicating the agent.
+Raw model output for sentence :
+```conllu
+1	La	lo	DET	_	_	2	det	_	_
+2	Vila	Vila	PROPN	_	_	27	nsubj	_	_
+3	Diu	Diu	PROPN	_	_	2	flat	_	_
+4-5	deu	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	Temple	Temple	PROPN	_	_	2	nmod	_	_
+7	que	que	ADV	_	_	27	advmod	_	_
+8	vad	vàder	VERB	_	_	7	acl	_	_
+9	lo	lo	DET	_	_	10	det	_	_
+10	brèç	brèç	NOUN	_	_	8	obj	_	_
+11	d’	de	ADP	_	_	13	case	_	_
+12	ua	un	DET	_	_	13	det	_	_
+13	idèa	idèa	NOUN	_	_	10	nmod	_	_
+14	creada	crear	VERB	_	_	13	acl	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	1974	1974	NUM	_	_	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	qui	qui	PRON	_	_	19	nsubj	_	_
+19	mercés	mercés	ADP	_	_	27	advcl	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	la	lo	DET	_	_	22	det	_	_
+22	dinamica	dinamica	NOUN	_	_	19	nmod	_	_
+23	de	de	ADP	_	_	22	case	_	_
+24	Nadal	Nadal	PROPN	_	_	22	nmod	_	_
+25	Rey	Rey	PROPN	_	_	24	flat	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	hasó	har	VERB	_	_	0	root	_	_
+28	lo	lo	DET	_	_	29	det	_	_
+29	torn	torn	NOUN	_	_	27	obj	_	_
+30-31	deu	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	lo	lo	DET	_	_	32	det	_	_
+32	monde	monde	NOUN	_	_	29	nmod	_	_
+33	.	.	PUNCT	_	_	27	punct	_	_
+
+```
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., DET for determiner, PROPN for proper noun, VERB for verb)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., gender, number, tense)
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph in the form of a list of head-dependent pairs.
+* **MISC:** Any other miscellaneous information.
+
+**Key Decisions:**
+
+* **7 que:**  Treated as a subordinating conjunction introducing a relative clause ("que vad lo brèç...").
+* **19 mercés:**  Preposition "a" is dependent on "mercés," indicating the source of the action.
+* **27 hasó:** Root verb of the sentence.
+* **29 torn:** Direct object of "hasó."
+* **32 monde:**  Noun phrase modifying "torn," indicating the origin of the world.
+
+This annotation provides a basic syntactic analysis of the sentence according to the Universal Dependencies framework.
+Raw model output for sentence :
+Sure, here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+1	Ren	ren	PRON	_	_	2	nsubj	_	_
+2	’niriá	anar	VERB	_	_	0	root	_	_
+3	plus	plus	ADV	_	_	2	advmod	_	_
+4	entre	entre	ADP	_	_	2	obl	_	_
+5	los	lo	DET	_	_	6	det	_	_
+6	dos	dos	NUM	_	_	4	obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+Explanation of the columns:
+
+- **ID**: Unique identifier for the token.
+- **FORM**: The actual form of the token.
+- **LEMMA**: The base form of the token (lemma).
+- **UPOS**: Universal part-of-speech tag.
+- **XPOS**: Language-specific part-of-speech tag. (Not applicable here as we are using a simplified tagset)
+- **FEATS**: Morphological features of the token. (Not applicable in this context)
+- **HEAD**: The ID of the head of the current token. (0 for the root)
+- **DEPREL**: The relation between the current token and its head.
+- **DEPS**: Enhanced dependency graph, representing collapsed dependencies. (Not applicable here)
+- **MISC**: Any miscellaneous information. (Not applicable here)
+Raw model output for sentence :
+```conllu
+1	Durant	durant	ADP	_	_	3	case	_	_
+2	la	lo	DET	_	_	3	det	_	_
+3	reünion	reünion	NOUN	_	_	8	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	los	lo	DET	_	_	6	det	_	_
+6	elegits	elegit	NOUN	_	_	8	nsubj	_	_
+7	araneses	aranés	ADJ	_	_	6	amod	_	_
+8	remembrèron	remembrar	VERB	_	_	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	lo	lo	DET	_	_	11	det	_	_
+11	president	president	NOUN	_	_	8	obj	_	_
+12	catalan	catalan	ADJ	_	_	11	amod	_	_
+13	lo	lo	DET	_	_	14	det	_	_
+14	besonh	besonh	NOUN	_	_	8	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	metre	metre	VERB	_	_	14	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	marcha	marcha	NOUN	_	_	16	obl	_	_
+19	la	lo	DET	_	_	20	det	_	_
+20	totalitat	totalitat	NOUN	_	_	23	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	la	lo	DET	_	_	23	det	_	_
+23	Lei	lei	NOUN	_	_	16	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	lo	lo	DET	_	_	26	det	_	_
+26	regim	regim	NOUN	_	_	23	nmod	_	_
+27	especial	especial	ADJ	_	_	26	amod	_	_
+28	d'	de	ADP	_	_	29	case	_	_
+29	Aran	Aran	NOUN	_	_	26	nmod	_	_
+30	,	,	PUNCT	_	_	23	punct	_	_
+31	aprovada	aprovar	VERB	_	_	23	acl	_	_
+32-33	pel	_	_	_	_	_	_	_	_
+32	per	per	ADP	_	_	34	case	_	_
+33	lo	lo	DET	_	_	34	det	_	_
+34	Parlament	parlament	NOUN	_	_	31	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Catalonha	Catalonha	PROPN	_	_	34	nmod	_	_
+37	lo	lo	DET	_	_	38	det	_	_
+38	21	21	NUM	_	_	40	nummod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	genièr	genièr	NOUN	_	_	31	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	2015	2015	NUM	_	_	40	nmod	_	_
+43	,	,	PUNCT	_	_	46	punct	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	qu'	que	PRON	_	_	46	nsubj	_	_
+46	intrèt	intrar	VERB	_	_	31	conj	_	_
+47	en	en	ADP	_	_	48	case	_	_
+48	vigor	vigor	NOUN	_	_	46	obl	_	_
+49	lo	lo	DET	_	_	50	det	_	_
+50	14	14	NUM	_	_	52	nummod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	febrièr	febrièr	NOUN	_	_	46	obl	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	2015	2015	NUM	_	_	52	nmod	_	_
+55	.	.	PUNCT	_	_	8	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	òste	òste	NOUN	_	_	0	root	_	_
+3	majestuós	majestuós	ADJ	_	_	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	nòstras	nòstre	DET	_	_	6	det	_	_
+6	selvas	selva	NOUN	_	_	2	nmod	_	_
+7	montanegrinas	montanegrin	ADJ	_	_	6	amod	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:**  Each line is numbered sequentially starting from 1.
+* **FORM:** The actual form of the word as it appears in the text.
+* **LEMMA:** The base form or dictionary entry form of the word.
+* **UPOS:** The universal part of speech tag for the word (noun, verb, adjective, etc.).
+* **XPOS:**  Language-specific part-of-speech tag (not used here as it's not applicable to Catalan).
+* **FEATS:** Morphological features of the word (not applicable in this simple example).
+* **HEAD:** The ID of the word that this word is syntactically dependent on.  
+* **DEPREL:** The syntactic relationship between this word and its HEAD.
+* **DEPS:**  Enhanced dependency graph information (not used here).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Notes:**
+
+* Since we're only given the tokenized sentence, the **HEAD** and **DEPREL** columns are based on a basic syntactic analysis. A more in-depth analysis might reveal different dependencies.
+* For a more accurate annotation, additional context and a comprehensive understanding of Catalan grammar would be necessary.
+Raw model output for sentence :
+```conllu
+1	Avèm	aver	AUX	_	_	2	aux	_	_
+2	decidit	decidir	VERB	_	_	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	començar	començar	VERB	_	_	2	xcomp	_	_
+5	per	per	ADP	_	_	8	case	_	_
+6	lo	lo	DET	_	_	8	det	_	_
+7	pus	pus	ADV	_	_	8	advmod	_	_
+8	malaisit	malaisit	ADJ	_	_	4	amod	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:**  Each line is identified by a unique ID (1 to 9 in this case).
+* **FORM:** The actual form of the word as it appears in the text.
+* **LEMMA:** The base form or lemma of the word.
+* **UPOS:** The universal part-of-speech tag (auxiliary verb, verb, adjective, etc.).
+* **XPOS:**  Language-specific part-of-speech tag (not used here as it's not applicable to Universal Dependencies).
+* **FEATS:** Morphological features of the word (gender, number, tense, etc.) - empty in this case as none apply.
+* **HEAD:** The ID of the word that this word is syntactically dependent on (its "head").
+* **DEPREL:** The dependency relation between this word and its head.
+* **DEPS:**  Enhanced dependency graph information (not used here).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **aux(iliary):**  The auxiliary verb "Avèm" modifies the main verb "decidit".
+* **xcomp(lement):** "començar" is a verbal complement of "decidit".
+* **case:** "de" and "per" are prepositions indicating the case of their respective nouns.
+* **det(erminers):** "lo" is a determiner modifying "pus malaisit".
+* **amod(ifier):** "pus" and "malaisit" are adjectives modifying the noun "pus malaisit".
+* **root:** The main verb "decidit" is the root of the sentence.
+* **punct(uation):** The period "." marks the end of the sentence.
+Raw model output for sentence :
+```conllu
+1	L'	_	DET	_	_	2	det	_	_
+2	enfant	enfant	NOUN	_	_	4	nsubj	_	_
+3	polit	polit	ADJ	_	_	2	amod	_	_
+4	donava	donar	VERB	_	_	0	root	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	det	det	NOUN	_	_	4	obj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquò	aquò	PRON	_	_	3	nsubj	_	_
+2	me	me	PRON	_	_	3	iobj	_	_
+3	faguèt	far~faire	VERB	_	_	0	root	_	_
+4	grelhar	grelhar	VERB	_	_	3	xcomp	_	_
+5	dins	dins	ADP	_	_	6	case	_	_
+6	lei	lo	DET	_	_	7	det	_	_
+7	cervèlas	cervèla	NOUN	_	_	4	obl	_	_
+8	doas	dos	NUM	_	_	9	nummod	_	_
+9	idèas	idèa	NOUN	_	_	4	obj	_	_
+10	complementàrias	complementari	ADJ	_	_	9	amod	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADJ, PRON)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender, Tense)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Miscellaneous information (e.g., punctuation marks)
+
+
+
+Here's a breakdown of the annotations:
+
+* **1:**  `Aquò` is a pronoun (PRON) and the subject (nsubj) of the sentence. Its head is `3` (the verb `faguèt`).
+* **2:**  `me` is a pronoun (PRON) and the indirect object (iobj) of the sentence. Its head is also `3`.
+* **3:**  `faguèt` is the main verb (VERB) and the root of the sentence. It has no head. 
+* **4:**  `grelhar` is a verb (VERB) and an infinitive complement (xcomp) of `faguèt`. Its head is `3`.
+* **5:**  `dins` is a preposition (ADP) and marks the case of its dependent `lei`. Its head is `4`.
+* **6:**  `lei` is a determiner (DET) modifying `cervèlas`. Its head is `7`.
+* **7:**  `cervèlas` is a noun (NOUN) and the object of `grelhar`. Its head is `4`.
+* **8:**  `doas` is a numeral (NUM) modifying `idèas`. Its head is `9`.
+* **9:**  `idèas` is a noun (NOUN) and the direct object of `grelhar`. Its head is `4`.
+* **10:** `complementàrias` is an adjective (ADJ) modifying `idèas`. Its head is `9`.
+* **11:** `.` is a punctuation mark (PUNCT) and belongs to no syntactic relation. It doesn't have a head.
+Raw model output for sentence :
+```conllu
+1	Sens	sens	ADP	_	_	3	case	_	_
+2	l'	lo	DET	_	_	3	det	_	_
+3	assentiment	assentiment	NOUN	_	_	10	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	l'	lo	DET	_	_	6	det	_	_
+6	animal	animal	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	l'	lo	DET	_	_	9	det	_	_
+9	asinièr	asinièr	NOUN	_	_	10	obl	_	_
+10	farà	far~faire	VERB	_	_	0	root	_	_
+11	pas	pas	ADV	_	_	10	advmod	_	_
+12	res	res	PRON	_	_	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	bon	bon	ADJ	_	_	12	amod	_	_
+15	se	se	SCONJ	_	_	10	mark	_	_
+16	que	que	SCONJ	_	_	10	mark	_	_
+17	non	non	ADV	_	_	10	advcl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	lo	lo	DET	_	_	20	det	_	_
+20	prètz	prètz	NOUN	_	_	17	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	la	lo	DET	_	_	23	det	_	_
+23	maltractença	maltractença	NOUN	_	_	19	obl	_	_
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN for noun, VERB for verb, ADP for adposition).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., Number, Gender).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph in the form of head-relation-dependent triples.
+* **MISC:** Any other miscellaneous information.
+
+
+
+Here are some key points about this annotation:
+
+* **Head Identification:** Each token is assigned a head, which represents its syntactic parent in the sentence. For example, `assentiment` (ID 3) is the head of `Sens` (ID 1) because "without" is a modifier of "consent".
+
+* **Dependency Relations:** The `DEPREL` column specifies the nature of the relationship between each token and its head. Some common relations in this sentence include:
+    * `case`: Indicates a case relationship (e.g., `de` governing `l'animal`).
+    * `det`: Indicates a determiner relationship (e.g., `l'` determining `assentiment`).
+    * `nsubj`: Indicates the subject of a clause (e.g., `assentiment` is the subject of `farà`).
+    * `obj`: Indicates the direct object of a verb (e.g., `res` is the object of `farà`).
+    * `advmod`: Indicates an adverbial modifier (e.g., `pas` modifying `farà`).
+
+* **Punctuation:** Punctuation marks are annotated similarly to words, with their own IDs and dependency relations.
+Raw model output for sentence :
+```conllu
+1	Los	lo	DET	_	_	2	det	_	_
+2	dets	det	NOUN	_	_	5	nsubj	_	_
+3	ne’n	ne	PRON	_	_	4	obj	_	_
+4	venián	venir	VERB	_	_	0	root	_	_
+5	neirs	neir	ADJ	_	_	4	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	tant	tant	ADV	_	_	5	advmod	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	los	lo	DET	_	_	10	nsubj	_	_
+10	pichava	pichar	VERB	_	_	4	advcl	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Lo	lo	DET	_	_	2	det	_	_
+2	Francés	Francés	PROPN	_	_	5	nsubj	_	_
+3	s'	se	PRON	_	_	4	iobj	_	_
+4	èra	èsser	VERB	_	_	0	root	_	_
+5	tornat	tornar	VERB	_	_	4	xcomp	_	_
+6	aprochar	aprochar	VERB	_	_	5	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	son	son	DET	_	_	9	det	_	_
+9	paire	paire	NOUN	_	_	6	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	li	li	PRON	_	_	13	obj	_	_
+13	prenguent	prene	VERB	_	_	4	parataxis	_	_
+14	sas	son	DET	_	_	15	det	_	_
+15	mans	man	NOUN	_	_	13	obj	_	_
+16	dins	dins	ADP	_	_	17	case	_	_
+17	las	lo	DET	_	_	18	det	_	_
+18	seunas	sieu	NOUN	_	_	15	nmod	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	assajava	assajar	VERB	_	_	4	parataxis	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	lo	lo	DET	_	_	23	det	_	_
+23	fintant	fintar	VERB	_	_	20	xcomp	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	li	li	PRON	_	_	26	obj	_	_
+26	parlar	parlar	VERB	_	_	23	xcomp	_	_
+27	plan	plan	ADV	_	_	26	advmod	_	_
+28	doçament	doçament	ADV	_	_	27	compound	_	_
+29	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	repais	repais	NOUN	_	_	7	nsubj	_	_
+3	pres	prene	VERB	_	_	2	acl	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	sus	sus	ADP	_	_	5	case	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	sirveton	sirveton	NOUN	_	_	3	obj	_	_
+7	nos	nos	PRON	_	_	8	iobj	_	_
+8	requinquilhèt	requinquilhar	VERB	_	_	0	root	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	brave	brave	ADJ	_	_	11	amod	_	_
+11	bocin	bocin	NOUN	_	_	8	obj	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each token is assigned a unique identifier. Since the input already provides IDs, we use those.
+* **FORM:** The actual form of the token, as it appears in the text.
+* **LEMMA:** The base form or root of the token.
+* **UPOS:** The universal part-of-speech tag.
+* **XPOS:** Language-specific part-of-speech tag (not used here as we focus on universal dependencies).
+* **FEATS:** Morphological features of the token (like gender, number, tense, etc.).
+* **HEAD:** The ID of the head token of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation stack (not typically used in CoNLL-U format).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **det:** Determiner
+* **acl:** Clause modifier (adjectival clause)
+* **obj:** Object
+* **iobj:** Indirect object
+* **nsubj:** Nominal subject
+* **root:** Root of the sentence
+* **amod:** Adjectival modifier
+* **punct:** Punctuation mark
+Raw model output for sentence :
+```conllu
+1	Lo	lo	DET	_	_	2	det	_	_
+2	gost	gost	NOUN	_	_	5	nsubj	_	_
+3	es	èsser	AUX	_	_	5	aux	_	_
+4	pas	pas	ADV	_	_	5	advmod	_	_
+5	marrit	marrit	ADJ	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	siáu	èsser	AUX	_	_	12	aux	_	_
+8	segur	segur	ADJ	_	_	12	advmod	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	n'	ne	PRON	_	_	11	obj	_	_
+11	ai	aver	VERB	_	_	12	ccomp	_	_
+12	agut	aver	VERB	_	_	5	conj	_	_
+13	manjat	manjar	VERB	_	_	12	xcomp	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	puei	puei	ADV	_	_	18	advmod	_	_
+16	tot	tot	DET	_	_	17	det	_	_
+17	me	me	PRON	_	_	18	nsubj	_	_
+18	reven	revenir	VERB	_	_	12	conj	_	_
+19	:	:	PUNCT	_	_	20	punct	_	_
+20	òc	òc	INTJ	_	_	25	parataxis	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	es	èsser	AUX	_	_	25	aux	_	_
+23	aquò	aquò	PRON	_	_	25	nsubj	_	_
+24	:	:	PUNCT	_	_	25	punct	_	_
+25	es	èsser	AUX	_	_	0	root	_	_
+26	la	lo	DET	_	_	27	det	_	_
+27	sopa	sopa	NOUN	_	_	25	xcomp	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	farineta	farineta	NOUN	_	_	27	nmod	_	_
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Doncas	doncas	ADV	_	_	5	advmod	_	_
+2	es	èsser	AUX	_	_	5	aux	_	_
+3	el	el	DET	_	_	4	det	_	_
+4	que	que	PRON	_	_	5	nsubj	_	_
+5	prenèm	prendre	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each token is assigned a unique identifier (1 to 6).
+* **FORM:** The raw form of the token.
+* **LEMMA:** The base form or lemma of the token.
+* **UPOS:** The universal part-of-speech tag.
+* **XPOS:** Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+* **FEATS:** Morphological features (not applicable in this simple sentence).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation stack (not used here).
+* **MISC:** Any other miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **advmod (5, 1):** "Doncas" (1) is an adverb modifying the verb "prenèm" (5).
+* **aux (5, 2):** "es" (2) is an auxiliary verb of "prenèm" (5).
+* **det (4, 3):** "el" (3) is a determiner of "que" (4).
+* **nsubj (5, 4):** "que" (4) is the nominal subject of "prenèm" (5).
+* **root (5):** "prenèm" (5) is the root of the sentence.
+* **punct (5, 6):** "." (6) is a punctuation mark attached to the root.
+Raw model output for sentence :
+```conllu
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	jorn	jorn	NOUN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	èra	èsser	AUX	_	_	2	cop	_	_
+5	gaireben	gaireben	ADV	_	_	6	advmod	_	_
+6	joial	joial	ADJ	_	_	2	amod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:**  Each line is identified by a unique ID (in this case, simply 1 to 7).
+
+* **FORM:** The actual form of the word as it appears in the text.
+
+* **LEMMA:** The base form or root word (lemma) of the token.
+
+* **UPOS:** The universal part-of-speech tag (noun, verb, adjective, etc.).
+
+* **XPOS:**  Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+
+* **FEATS:** Morphological features of the word (gender, number, tense, etc.) (not applicable for most words in this sentence).
+
+* **HEAD:** The ID of the word that this word is dependent on (head word).
+
+* **DEPREL:** The dependency relation between the word and its head.
+
+* **DEPS:**  Enhanced dependency graph (not used here).
+
+* **MISC:** Any miscellaneous information (not used here).
+
+**Breakdown:**
+
+* **1:**  "Aquel" (DET) - Determines the noun "jorn."  **Head:** 2  **Relation:** det (determiner)
+* **2:**  "jorn" (NOUN) - The main subject of the sentence. **Head:** 0 (root) **Relation:** nsubj (nominal subject)
+* **3:**  "," (PUNCT) -  Punctuation marking a clause boundary. **Head:** 2 **Relation:** punct (punctuation)
+* **4:**  "èra" (AUX) -  Copula verb linking the subject to the adjective. **Head:** 2 **Relation:** cop (copula)
+* **5:**  "gaireben" (ADV) -  Modifies the adjective "joial," indicating nearly. **Head:** 6 **Relation:** advmod (adverbial modifier)
+* **6:**  "joial" (ADJ) - Describes the nature of the day. **Head:** 2 **Relation:** amod (adjectival modifier)
+* **7:**  "." (PUNCT) -  Sentences-final punctuation. **Head:** 2 **Relation:** punct (punctuation)
+Raw model output for sentence :
+```conllu
+1-2	Pèr	_	_	_	_	_	_	_	_
+1	Pèr	pèr	ADP	_	_	3	mark	_	_
+2	comprene	comprene	VERB	_	_	1	fixed	_	_
+3	çò	çò	PRON	_	_	7	nsubj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5-6	s’es	_	_	_	_	_	_	_	_
+5	s’	se	PRON	_	_	6	iobj	_	_
+6	es	èsser	VERB	_	_	4	fixed	_	_
+7	passat	passar	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	un	un	DET	_	_	10	det	_	_
+10	Dieu	dieu	NOUN	_	_	7	obl	_	_
+11	ò	ò	CCONJ	_	_	12	cc	_	_
+12	sèmbla-Dieu	sèmbla-dieu	NOUN	_	_	10	conj	_	_
+13	a	aver	AUX	_	_	14	aux	_	_
+14	una	un	DET	_	_	15	det	_	_
+15	ressorça	ressorça	NOUN	_	_	7	obj	_	_
+16	especiala	especial	ADJ	_	_	15	amod	_	_
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender)
+* **HEAD:** The index of the head word of the current word
+* **DEPREL:** The dependency relation between the current word and its head
+* **DEPS:** Dependency relation stack (not always used)
+* **MISC:** Miscellaneous information (e.g., punctuation, named entities)
+
+
+
+**Notes:**
+
+* The provided sentence is in Occitan, so the POS tags and dependency relations reflect this language.
+
+*  The "fixed" relation is used for multi-word expressions where the words are not grammatically independent (e.g., "s'es es" is a fixed expression meaning "has been").
+
+*  The "iobj" (indirect object) relation is used for objects that are marked with a preposition.
+Raw model output for sentence :
+```conllu
+1	Un	_	DET	_	_	3	det	_	_
+2	a	_	ADP	_	_	3	case	_	_
+3	beu	_	VERB	_	_	0	root	_	_
+4	èsser	_	VERB	_	_	3	xcomp	_	_
+5	malandrós	_	ADJ	_	_	3	xcomp	_	_
+6	dempuei	_	ADP	_	_	7	case	_	_
+7	sieis	_	NUM	_	_	5	obl	_	_
+8	mes	_	NOUN	_	_	7	nmod	_	_
+9	,	_	PUNCT	_	_	10	punct	_	_
+10	èsser	_	VERB	_	_	3	conj	_	_
+11	pas	_	ADV	_	_	10	advmod	_	_
+12	lonh	_	ADV	_	_	10	advmod	_	_
+13-14	daus	_	DET	_	_	15	det	_	_
+13	de	_	ADP	_	_	14	case	_	_
+14	lo	_	DET	_	_	15	det	_	_
+15	quatre-vint	_	NUM	_	_	12	obl	_	_
+16	quinze	_	NUM	_	_	15	nummod	_	_
+17	,	_	PUNCT	_	_	18	punct	_	_
+18	un	_	NUM	_	_	15	conj	_	_
+19	a	_	VERB	_	_	18	cop	_	_
+20	beu	_	VERB	_	_	19	xcomp	_	_
+21	s’	_	PRON	_	_	23	iobj	_	_
+22	i	_	ADP	_	_	23	mark	_	_
+23	esperar	_	VERB	_	_	20	xcomp	_	_
+24	un	_	NUM	_	_	23	obj	_	_
+25	pauc	_	ADV	_	_	24	advmod	_	_
+26	,	_	PUNCT	_	_	27	punct	_	_
+27	quò	_	PRON	_	_	28	nsubj	_	_
+28	fai	_	VERB	_	_	23	parataxis	_	_
+29	totjorn	_	ADV	_	_	28	advmod	_	_
+30	un	_	NUM	_	_	32	nummod	_	_
+31	petit	_	ADJ	_	_	32	amod	_	_
+32	quauquaren	_	NOUN	_	_	28	obj	_	_
+33	de	_	ADP	_	_	34	case	_	_
+34	se	_	PRON	_	_	32	nmod	_	_
+35	veire	_	VERB	_	_	34	xcomp	_	_
+36	mòrt	_	ADJ	_	_	35	xcomp	_	_
+37	.	_	PUNCT	_	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Amont	amont	ADV	_	_	5	advmod	_	_
+2	d’	de	ADP	_	_	3	case	_	_
+3	en	en	PRON	_	_	5	obl	_	_
+4	naut	naut	ADJ	_	_	3	amod	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Lo	lo	DET	_	_	2	det	_	_
+2	cran	cran	NOUN	_	_	3	nsubj	_	_
+3	arrasat	arrasar	VERB	_	_	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	blanc	blanc	ADJ	_	_	3	xcomp	_	_
+6	sonque	sonque	ADV	_	_	3	advmod	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	halha	halha	NOUN	_	_	3	obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Es	es	AUX	_	_	3	aux	_	_
+2	un	un	DET	_	_	3	det	_	_
+3	trabalh	trabalh	NOUN	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	fasiá	far~faire	VERB	_	_	3	ccomp	_	_
+6	dins	dins	ADP	_	_	7	case	_	_
+7	sa	son	PRON	_	_	5	obl	_	_
+8	precedenta	precedent	ADJ	_	_	7	amod	_	_
+9	asinariá	asinariá	VERB	_	_	5	xcomp	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:**  Each line is numbered sequentially.
+* **FORM:** The actual form of the word as it appears in the text.
+* **LEMMA:** The base form or root word (lemma) of the token.
+* **UPOS:** The universal part-of-speech tag (noun, verb, adjective, etc.).
+* **XPOS:**  Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+* **FEATS:** Morphological features of the word (gender, number, tense, etc.) (not applicable in this simple example).
+* **HEAD:** The ID of the word that this word is dependent on (its syntactic head).
+* **DEPREL:** The dependency relation between this word and its head.
+* **DEPS:**  A generated dependency graph in the form of a list of head-dependent pairs (not used here).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **aux:** Auxiliary
+* **det:** Determiner
+* **nsubj:** Nominal subject
+* **ccomp:** Clausal complement
+* **obl:** Oblique nominal
+* **amod:** Adjectival modifier
+* **xcomp:**  Open clausal complement (for verbs requiring an explicit subject)
+* **punct:** Punctuation mark
+Raw model output for sentence :
+```conllu
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	minjar	minjar	VERB	_	_	0	root	_	_
+4	hormatge	hormatge	NOUN	_	_	3	obj	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Que	que	SCONJ	_	_	3	mark	_	_
+2	seràs	èsser	AUX	_	_	3	aux	_	_
+3	lèu	lèu	ADJ	_	_	0	root	_	_
+4	grasset	grasset	ADJ	_	_	3	amod	_	_
+5	!	!	PUNCT	_	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Que	que	PRON	_	_	5	nsubj	_	_
+2	lo	lo	DET	_	_	3	det	_	_
+3	se	se	PRON	_	_	5	obj	_	_
+4	voleràn	voler	VERB	_	_	5	aux	_	_
+5	préner	préner	VERB	_	_	0	root	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	Sent	Sent	PROPN	_	_	5	obl	_	_
+8	Per	Per	PROPN	_	_	7	flat	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	convent	convent	NOUN	_	_	7	nmod	_	_
+12	...	...	PUNCT	_	_	5	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each token is assigned a unique identifier (1-based indexing).
+* **FORM:** The actual form of the token as it appears in the text.
+* **LEMMA:** The base form or lemma of the token. Since all tokens are already lemmatized, this column is the same as FORM.
+* **UPOS:** The universal part-of-speech tag for the token (noun, verb, adjective, etc.).
+* **XPOS:** Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+* **FEATS:** Morphological features of the token (not applicable for this simple sentence).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:**  A generated syntactic graph in the form of head-word/relation pairs (not always used).
+* **MISC:** Any miscellaneous information (not used here).
+
+
+
+**Dependency Relations:**
+
+* **Que (1):**  Subordinating conjunction, introduces a subordinate clause.
+* **lo (2):**  Determined of "se" (3).
+* **se (3):**  Reflexive pronoun, object of the verb "préner".
+* **voleràn (4):** Auxiliary verb indicating future tense.
+* **préner (5):** Main verb, "to take".
+* **a (6):** Preposition introducing the object of the preposition "Sent Per".
+* **Sent (7):**  Proper noun, name of a place.
+* **Per (8):**  Proper noun, part of a name.
+* **, (9):** Punctuation mark.
+* **en (10):** Preposition indicating location.
+* **convent (11):** Noun, "convent".
+* **... (12):**  Ellipsis, indicating incomplete sentence.
+Raw model output for sentence :
+```conllu
+1	De	de	ADP	_	_	3	case	_	_
+2	bombas	bomba	NOUN	_	_	3	nmod	_	_
+3	atomicas	atomic	ADJ	_	_	6	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ne	ne	DET	_	_	6	det	_	_
+6	larga	largar	VERB	_	_	0	root	_	_
+7	dotze	12	NUM	_	_	6	obj	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:**  Each line is numbered sequentially.
+* **FORM:** The original form of the word.
+* **LEMMA:** The base form or lemma of the word.
+* **UPOS:** The universal part-of-speech tag.
+* **XPOS:** Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+* **FEATS:** Morphological features (not applicable in this simple sentence).
+* **HEAD:** The ID of the word that is the head of the current word (i.e., the word the current word modifies or depends on).
+* **DEPREL:** The dependency relation between the current word and its head.
+* **DEPS:**  Dependency edge labels (not used here).
+* **MISC:** Any miscellaneous notes (not used here).
+Raw model output for sentence :
+```conllu
+1	La	_	DET	_	_	2	det	1:det	_
+2	sola	_	ADJ	_	_	3	amod	2:amod	_
+3	besonha	_	NOUN	_	_	4	nsubj	3:nsubj	_
+4	que	_	PRON	_	_	5	ccomp	4:ccomp	_
+5	me	_	PRON	_	_	6	iobj	5:iobj	_
+6	pòde	_	VERB	_	_	0	root	6:root	_
+7	encara	_	ADV	_	_	6	advmod	7:advmod	_
+8	recordar	_	VERB	_	_	6	xcomp	8:xcomp	_
+9	,	_	PUNCT	_	_	10	punct	9:punct	_
+10	es	_	VERB	_	_	6	parataxis	10:parataxis	_
+11	mas	_	CCONJ	_	_	12	cc	11:cc	_
+12	una	_	DET	_	_	13	det	12:det	_
+13	scèna	_	NOUN	_	_	10	nsubj	13:nsubj	_
+14	.	_	PUNCT	_	_	6	punct	14:punct	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Que	que	PRON	_	_	4	nsubj	_	_
+2	s'	se	PRON	_	_	4	iobj	_	_
+3	i	i	ADV	_	_	4	advmod	_	_
+4	viu	viure	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	la	lo	DET	_	_	7	det	_	_
+7	cosina	cosina	NOUN	_	_	4	obl	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	La	_	DET	_	_	2	det	2:det	_
+2	guèrra	guèrra	NOUN	_	_	10	nsubj	10:nsubj	_
+3	,	_	PUNCT	_	_	2	punct	2:punct	_
+4	se	se	PRON	_	_	5	iobj	5:iobj	_
+5	n'en	ne	PRON	_	_	6	obj	6:obj	_
+6	parlava	parlar	VERB	_	_	0	root	0:root	_
+7	gaire	gaire	ADV	_	_	6	advmod	6:advmod	_
+8	que	que	SCONJ	_	_	9	mark	9:mark	_
+9	ren	ren	PRON	_	_	6	obj	6:obj	_
+10	se	se	PRON	_	_	11	nsubj	11:nsubj	_
+11	passava	passar	VERB	_	_	6	advcl	6:advcl	_
+12	,	_	PUNCT	_	_	11	punct	11:punct	_
+13	e	e	CCONJ	_	_	14	cc	14:cc	_
+14	alevat	alevat	ADJ	_	_	16	amod	16:amod	_
+15	que	que	SCONJ	_	_	16	mark	16:mark	_
+16	mon	mon	DET	_	_	17	det	17:det	_
+17	paire	paire	NOUN	_	_	18	nsubj	18:nsubj	_
+18	èra	èsser	VERB	_	_	14	ccomp	14:ccomp	_
+19	mobilisat	mobilisar	VERB	_	_	18	xcomp	18:xcomp	_
+20	,	_	PUNCT	_	_	18	punct	18:punct	_
+21	que	que	SCONJ	_	_	22	mark	22:mark	_
+22	ma	mon	DET	_	_	23	det	23:det	_
+23	maire	maire	NOUN	_	_	24	nsubj	24:nsubj	_
+24	que	que	PRON	_	_	25	obj	25:obj	_
+25	me	me	PRON	_	_	26	obj	26:obj	_
+26	veniá	venir	VERB	_	_	18	advcl	18:advcl	_
+27	veire	veire	VERB	_	_	26	xcomp	26:xcomp	_
+28	en	en	ADP	_	_	29	case	29:case	_
+29	cò	cò	PRON	_	_	30	obj	30:obj	_
+30	de	de	ADP	_	_	31	case	31:case	_
+31	ma	mon	DET	_	_	32	det	32:det	_
+32	grand	grand	NOUN	_	_	29	nmod	29:nmod	_
+33	,	_	PUNCT	_	_	32	punct	32:punct	_
+34	rintrava	rintrar	VERB	_	_	26	advcl	26:advcl	_
+35	sovent	sovent	ADV	_	_	34	advmod	34:advmod	_
+36	de	de	ADP	_	_	37	case	37:case	_
+37	tard	tard	NOUN	_	_	34	obl	34:obl	_
+38	o	o	CCONJ	_	_	39	cc	39:cc	_
+39	partiá	partir	VERB	_	_	34	conj	34:conj	_
+40	d'	de	ADP	_	_	41	case	41:case	_
+41	ora	ora	NOUN	_	_	39	obl	39:obl	_
+42	per	per	ADP	_	_	43	case	43:case	_
+43	son	son	DET	_	_	44	det	44:det	_
+44	trabalh	trabalh	NOUN	_	_	39	obl	39:obl	_
+45	dei	_	_	_	_	46	aux	46:aux	_
+45	de	de	ADP	_	_	46	case	46:case	_
+46	lo	lo	DET	_	_	47	det	47:det	_
+47	trams	tram	NOUN	_	_	44	nmod	44:nmod	_
+48	,	_	PUNCT	_	_	47	punct	47:punct	_
+49	m'	me	PRON	_	_	50	obj	50:obj	_
+50	avisavi	avisar	VERB	_	_	39	advcl	39:advcl	_
+51	de	de	ADP	_	_	52	case	52:case	_
+52	ren	ren	PRON	_	_	50	obj	50:obj	_
+53	.	_	PUNCT	_	_	6	punct	6:punct	_
+```
+Raw model output for sentence :
+```conll
+1	Dins	dins	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	_	3	det	_	_
+3	recanton	recanton	NOUN	_	_	5	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	la	lo	DET	_	_	6	det	_	_
+6	sala	sala	NOUN	_	_	10	nsubj	_	_
+7	an	aver	AUX	_	_	8	aux	_	_
+8	cavat	cavar	VERB	_	_	6	acl	_	_
+9	dins	dins	ADP	_	_	10	case	_	_
+10	la	lo	DET	_	_	11	det	_	_
+11	ròca	ròca	NOUN	_	_	21	obl	_	_
+12	un	un	DET	_	_	13	det	_	_
+13	silò	silò	NOUN	_	_	14	obj	_	_
+14	tapat	tapar	VERB	_	_	8	xcomp	_	_
+15	amb	amb	ADP	_	_	16	case	_	_
+16	un	un	DET	_	_	17	det	_	_
+17	curbecèu	curbecèu	NOUN	_	_	18	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	pèira	pèira	NOUN	_	_	14	obl	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	per	per	ADP	_	_	23	case	_	_
+22	l’	lo	DET	_	_	23	det	_	_
+23	auborar	auborar	VERB	_	_	14	xcomp	_	_
+24	se	se	PRON	_	_	23	iobj	_	_
+25	li	i	PRON	_	_	23	obj	_	_
+26	meton	metre	VERB	_	_	23	aux	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	tres	tres	NUM	_	_	26	obl	_	_
+29	.	.	PUNCT	_	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	S’	se	PRON	_	_	2	iobj	_	_
+2	ensagèron	ensajar	VERB	_	_	0	root	_	_
+3	totei	tot	DET	_	_	4	det	_	_
+4	leis	lo	NOUN	_	_	2	obj	_	_
+5	insecticids	insecticid	NOUN	_	_	4	nmod	_	_
+6	pèr	pèr	ADP	_	_	7	case	_	_
+7	un	un	DET	_	_	8	det	_	_
+8	chaple	chaple	NOUN	_	_	9	nmod	_	_
+9	definitiu	definitiu	ADJ	_	_	2	xcomp	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Qu’	Que	SCONJ	_	_	3	mark	_	_
+2	ei	ser	AUX	_	_	3	aux	_	_
+3	disponible	disponible	ADJ	_	_	0	root	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	DVD	DVD	NOUN	_	_	3	nmod	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	dab	amb	ADP	_	_	8	case	_	_
+8	sostitolatge	sostitolatge	NOUN	_	_	5	nmod	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	occitan	occitan	NOUN	_	_	8	nmod	_	_
+11	o	o	CCONJ	_	_	12	cc	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	francés	francés	NOUN	_	_	10	conj	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1-2  Au   _   _   _   _   _   _   _
+1  a    a   ADP  _   _   3   case _
+2  lo   lo  DET  _   DET  3   det  _
+3  bon  bon  ADJ  _   _   10  nmod  _
+4  moment  moment  NOUN _   _   10  obl  _
+5  ,   ,   PUNCT _   _   10  punct _
+6  lo  lo  DET  _   DET  7   det  _
+7  hilh  hilh  NOUN _   _   10  nsubj _
+8-9  deu _   _   _   _   _   _
+8  de   de   ADP  _   _   10  case _
+9  lo   lo  DET  _   DET  10  det  _
+10 rei  rei  NOUN _   _   0   root _
+11 se   se   PRON _   _   12  iobj _
+12 botèc  botar  VERB _   _   10  xcomp _
+13 la   lo  DET  _   DET  14  det  _
+14 pluma  pluma  NOUN _   _   12  obj  _
+15 dens  dens  ADP  _   _   16  case _
+16 la   lo  DET  _   DET  17  det  _
+17 boca  boca  NOUN _   _   14  nmod _
+18 .   .   PUNCT _   _   10  punct _
+```
+Raw model output for sentence :
+```conllu
+1-2	Autra	_	_	_	_	_	_	_	_
+1	causa	causa	NOUN	_	_	10	nsubj	_	_
+2	estranha	estranh	ADJ	_	_	1	amod	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	èra	èsser	AUX	_	_	5	aux	_	_
+5	qu’	que	SCONJ	_	_	7	mark	_	_
+6	aquel	aquel	DET	_	_	7	det	_	_
+7	nom	nom	NOUN	_	_	1	ccomp	_	_
+8	èra	èsser	AUX	_	_	7	aux	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	quita	quite	NOUN	_	_	0	root	_	_
+11	definicion	definicion	NOUN	_	_	10	appos	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	l'	lo	DET	_	_	14	det	_	_
+14	espaci	espaci	NOUN	_	_	10	nmod	_	_
+15	concebut	concebre	VERB	_	_	14	acl	_	_
+16	coma	coma	SCONJ	_	_	18	mark	_	_
+17	luòc	luòc	NOUN	_	_	18	nsubj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	residéncia	residéncia	NOUN	_	_	17	nmod	_	_
+20	de	de	ADP	_	_	23	case	_	_
+21	mon	mon	DET	_	_	23	det	_	_
+22	monde	monde	NOUN	_	_	23	nmod	_	_
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADJ, etc.)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., gender, number, tense)
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Any other miscellaneous information.
+
+**Key Decisions:**
+
+* **Root:** The sentence's root is "quita" (the main concept being defined).
+* **Subordination:**  "qu' " introduces a subordinate clause modifying "causa". 
+* **Nominalization:** "definicion de l'espaci" acts as a nominalized phrase, functioning as the object of "quita".
+* **Prepositional Phrases:** Several prepositional phrases are identified (e.g., "de l'espaci", "coma luòc de residéncia de mon monde").
+
+**Note:**
+
+This annotation assumes a standard dependency parsing approach. Different parsers might produce slightly different results based on their specific algorithms and training data.
+Raw model output for sentence :
+```conllu
+1	Que	que	SCONJ	_	_	3	mark	_	_
+2	'm	me	PRON	_	_	3	iobj	_	_
+3	torni	tornar	VERB	_	_	0	root	_	_
+4	estonar	estonar	VERB	_	_	3	xcomp	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	encolerar	encolerar	VERB	_	_	3	conj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Consí	consí	VERB	_	_	0	root	_	_
+2	far	far	VERB	_	_	1	xcomp	_	_
+3	per	per	ADP	_	_	4	case	_	_
+4	se	se	PRON	_	_	2	obl	_	_
+5	'n	ne	PART	_	_	4	mark	_	_
+6	tirar	tirar	VERB	_	_	2	xcomp	_	_
+7	?	?	PUNCT	_	_	1	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Dins	dins	ADP	_	_	3	case	_	_
+2	l'	lo	DET	_	_	3	det	_	_
+3	afar	afar	NOUN	_	_	10	obl	_	_
+4	d'	de	ADP	_	_	5	case	_	_
+5	un	un	DET	_	_	6	det	_	_
+6	beleg	beleg	ADJ	_	_	3	amod	_	_
+7	trapèri	trapar	VERB	_	_	6	acl	_	_
+8	totas	tot	DET	_	_	9	det	_	_
+9	las	lo	DET	_	_	10	det	_	_
+10	rasons	rason	NOUN	_	_	0	root	_	_
+11-12	del	_	_	_	_	11	_	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lo	lo	DET	_	_	10	nmod	_	_
+13	monde	monde	NOUN	_	_	12	obl	_	_
+14	per	per	ADP	_	_	15	case	_	_
+15	justificar	justificar	VERB	_	_	10	xcomp	_	_
+16	sa	son	DET	_	_	17	det	_	_
+17	vetustat	vetustat	NOUN	_	_	15	obj	_	_
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag for each word.
+* **XPOS:**  Fine-grained POS tag (not always used).
+* **FEATS:** Morphological features (like tense, number, gender). 
+* **HEAD:** The index of the syntactic head of the current word.
+* **DEPREL:** The dependency relation between the current word and its head.
+* **DEPS:**  Enhanced dependency graph (not always used).
+* **MISC:**  Any miscellaneous information (like named entities).
+
+**Key Dependency Relations:**
+
+* **obl:** Obligatory modifier
+* **det:** Determiner
+* **nmod:** Noun modifier
+* **root:** Root of the sentence
+* **xcomp:** Open clausal complement
+* **acl:** Clause modifier (nominal)
+* **advmod:** Adverbial modifier
+Raw model output for sentence :
+```conllu
+1-2	Nadal	Nadal	PROPN	_	_	3	nsubj	_	_
+1	Nadal	_	_	_	_	0	root	_	_
+2	qu’	que	PRON	_	_	1	det	_	_
+
+3	èra	èsser	VERB	_	_	0	root	_	_
+4	aderent	aderent	ADJ	_	_	3	xcomp	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	nombrosas	nombrós	ADJ	_	_	4	obl	_	_
+7	associacions	associacion	NOUN	_	_	6	obj	_	_
+
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	Companhia	companhia	PROPN	_	_	7	conj	_	_
+
+11-12	deus	_	_	_	_	10	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lo	lo	DET	_	_	11	obj	_	_
+13	escrivans	escrivan	NOUN	_	_	12	obj	_	_
+
+14	de	de	ADP	_	_	15	case	_	_
+15	Tarn	Tarn	PROPN	_	_	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	Garona	Garona	PROPN	_	_	15	conj	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each token is assigned a unique identifier. Since the input already has IDs, we use those. For multi-token entities like "deus de lo", we use a shared ID (11-12).
+
+* **FORM:** The original form of the token (given in the input).
+
+* **LEMMA:** The base form or lemma of the token.
+
+* **UPOS:** The universal part-of-speech tag.
+
+* **XPOS:** Language-specific part-of-speech tag (not used here as we focus on universal dependencies).
+
+* **FEATS:** Morphological features (not applicable for most tokens in this sentence).
+
+* **HEAD:** The ID of the syntactic head of the token.
+
+* **DEPREL:** The dependency relation between the token and its head.
+
+* **DEPS:** Dependency relation stack (not used here).
+
+* **MISC:** Any other miscellaneous information (not used here).
+
+**Key Dependency Relations:**
+
+* **nsubj:** Nominal subject
+* **xcomp:** Open clausal complement
+* **obl:** Oblique nominal
+* **appos:** Apposition
+* **conj:** Conjunct
+* **cc:** Coordinating conjunction
+Raw model output for sentence :
+```conllu
+1	Que	pron	_	_	_	5	nsubj	_	_
+2	'u	pron	_	_	_	3	nsubj	_	_
+3	n'	pron	_	_	_	4	iobj	_	_
+4	èi	aux	_	_	_	5	aux	_	_
+5	parlat	verb	_	_	_	0	root	_	_
+6	a	ADP	_	_	_	7	case	_	_
+7	eth	pron	_	_	_	5	obl	_	_
+8	curè	noun	_	_	_	7	appos	_	_
+9	adès	adv	_	_	_	5	advmod	_	_
+10	.	punct	_	_	_	5	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Sequential numbering for each token.
+* **FORM:** The actual form of the token as it appears in the text.
+* **LEMMA:** The base form or dictionary entry for the token (not always applicable for all languages).
+* **UPOS:** Universal Part-of-Speech tag.
+* **XPOS:** Language-specific part-of-speech tag (not used here as we're focusing on a specific language).
+* **FEATS:** Morphological features of the token (not always applicable for all languages or tokens).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:**  Dependency relation stack (not always used).
+* **MISC:** Miscellaneous annotations (not used here).
+
+**Dependency Relations:**
+
+* **nsubj:** Nominal subject.
+* **iobj:** Indirect object.
+* **aux:** Auxiliary verb.
+* **obl:** Obligatory argument (adnominal modifier).
+* **appos:** Apposition.
+* **advmod:** Adverbial modifier.
+* **root:** The root of the sentence.
+* **punct:** Punctuation mark.
+Raw model output for sentence :
+```conllu
+1-2	Adès	_	_	_	_	_	_	_	_
+1	Adès	adès	ADV	_	_	5	advmod	_	_
+2	encòra	encòra	ADV	_	_	1	conj	_	_
+
+3	,	,	PUNCT	_	_	1	punct	_	_
+
+4-5	au	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+
+6	darrèr	darrèr	ADJ	_	_	8	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	la	lo	DET	_	_	9	det	_	_
+
+9	hormigueta	hormigueta	NOUN	_	_	0	root	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+
+11	b'	que	SCONJ	_	_	12	mark	_	_
+12	an	aver	AUX	_	_	13	aux	_	_
+13	shisclat	shisclar	VERB	_	_	9	ccomp	_	_
+
+14	soviers	sovier	NOUN	_	_	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	malícia	malícia	NOUN	_	_	14	conj	_	_
+
+17	.	.	PUNCT	_	_	9	punct	_	_
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., ADV for adverb, NOUN for noun).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., gender, number).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used).
+* **MISC:** Miscellaneous information (e.g., named entities).
+
+**Key Decisions:**
+
+* **Root:** The sentence root is "hormigueta" (the subject of the clause).
+* **Subordination:**  "b'an shisclat soviers e malícia" functions as a subordinate clause modifying "la hormigueta". The relation between "hormigueta" and "b'an shisclat..." is labeled as **nsubj** (nominal subject).
+* **Conjunctions:** "encòra" is coordinated with "Adès" using the relation **conj**. "e" coordinates "soviers" and "malícia" with the relation **cc** (coordinating conjunction).
+* **Punctuation:** Punctuation marks are labeled as **PUNCT**.
+Raw model output for sentence :
+```conllu
+1	Tot	tot	ADV	_	_	5	advmod	_	_
+2	en	en	ADP	_	_	3	case	_	_
+3	un	un	NUM	_	_	4	nummod	_	_
+4	còp	còp	NOUN	_	_	5	nsubj	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	me	me	PRON	_	_	7	iobj	_	_
+7	sentiguèri	sentir	VERB	_	_	4	acl	_	_
+8	las	las	DET	_	_	9	det	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	fatigat	fatigat	ADJ	_	_	7	xcomp	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	non	non	ADV	_	_	14	advmod	_	_
+13	se	se	PRON	_	_	14	nsubj	_	_
+14	pòt	poder	VERB	_	_	10	ccomp	_	_
+15	mai	mai	ADV	_	_	14	advmod	_	_
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Atanben	atanben	ADV	_	_	10	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	entre	entre	ADP	_	_	4	case	_	_
+4	los	lo	DET	_	_	5	det	_	_
+5	traucasses	traucàs	NOUN	_	_	10	obl	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	ròca	ròca	NOUN	_	_	5	conj	_	_
+9	que	que	PRON	_	_	10	nsubj	_	_
+10	limpa	limpar	VERB	_	_	0	root	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	cal	caler	VERB	_	_	10	parataxis	_	_
+13	far	far	VERB	_	_	12	xcomp	_	_
+14	atencion	atencion	NOUN	_	_	13	obj	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	davalant	davalar	VERB	_	_	14	obl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	bicicleta	bicicleta	NOUN	_	_	16	obl	_	_
+19	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Es	es	AUX	_	_	4	aux	_	_
+2	aquí	aquí	ADV	_	_	4	advmod	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	passère	passar	VERB	_	_	0	root	_	_
+5	las	lo	DET	_	_	6	det	_	_
+6	dotze	dotze	NUM	_	_	7	nummod	_	_
+7	promèiras	promèir	ADJ	_	_	8	amod	_	_
+8	annadas	annada	NOUN	_	_	4	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ma	mon	DET	_	_	11	det	_	_
+11	vida	vida	NOUN	_	_	4	obl	_	_
+12	ambe	ambe	ADP	_	_	13	case	_	_
+13	mon	mon	DET	_	_	14	det	_	_
+14	fraire	fraire	NOUN	_	_	4	obl	_	_
+15	Franc	Franc	PROPN	_	_	14	appos	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Començava	començar	VERB	_	_	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ganivelar	ganivelar	VERB	_	_	1	xcomp	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	se	se	PRON	_	_	7	iobj	_	_
+7	cherchinhar	cherchinhar	VERB	_	_	3	conj	_	_
+8	dobe	dobe	ADV	_	_	7	advmod	_	_
+9	son	son	DET	_	_	10	det	_	_
+10	mur	mur	NOUN	_	_	7	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	mèstre	mèstre	NOUN	_	_	10	conj	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each line is identified by a unique ID (in this case, simply the line number).
+* **FORM:** The actual form of the word as it appears in the text.
+* **LEMMA:** The base form or dictionary entry form of the word.
+* **UPOS:** The universal part of speech tag for the word (e.g., NOUN, VERB, ADP).
+* **XPOS:** Language-specific part-of-speech tag (not used here as it's specific to certain languages).
+* **FEATS:** Morphological features of the word (e.g., tense, gender, number).
+* **HEAD:** The ID of the syntactic head of the current word.
+* **DEPREL:** The dependency relation between the current word and its head.
+* **DEPS:**  A generated syntactic parse using the Stanford Parser (not used here).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **root (0):** The main verb of the sentence.
+* **xcomp (3, 7):** Open clausal complement. Used for verbs that take a complement clause as an argument.
+* **case (2, 5):** Marks a dependent that indicates the grammatical case of another word.
+* **iobj (6):** Indirect object.
+* **obj (10):** Direct object.
+* **conj (12):**  Conjunction, used for words connected by 'e' (and).
+* **punct (4, 13):** Punctuation marks.
+Raw model output for sentence :
+```conllu
+1	Deu	deure	VERB	_	_	0	root	_	_
+1-2	Deu	_	_	_	_	_	_	_	_
+2	gelar	gelar	VERB	_	_	1	conj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	gelarà	gelar	VERB	_	_	1	conj	_	_
+5	solide	solide	ADJ	_	_	4	xcomp	_	_
+6	tota	tot	DET	_	_	7	det	_	_
+7	la	lo	DET	_	_	8	det	_	_
+8	jornada	jornada	NOUN	_	_	1	obl	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pasmens	pasmens	ADV	_	_	1	advmod	_	_
+11	gela	gelar	VERB	_	_	1	parataxis	_	_
+12	gaire	gaire	ADV	_	_	11	advmod	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., VERB, NOUN, ADJ)
+* **XPOS:** Language-specific POS tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender)
+* **HEAD:** The index of the syntactic head of the current token
+* **DEPREL:** The dependency relation between the current token and its head
+* **DEPS:** Enhanced dependency graph (not always used)
+* **MISC:** Miscellaneous information (e.g., names, dates)
+
+
+
+Here's a breakdown of the choices made:
+
+* **1-2	Deu	_	_	_	_	_	_	_	_**:  We keep the provided ID and FORM. Since it's a verb, we leave LEMMA blank as it's the same as the FORM.
+* **1	deure	VERB	_	_	**:  The word "Deu" is conjugated as "deure" in this context, so we tag it as a verb.
+* **2	gelar	gelar	VERB	_	_	**:  "gelar" is a verb, so we tag it accordingly.
+* **3	e	e	CCONJ	_	_	**:  "e" is a coordinating conjunction connecting the verbs "Deu" and "gelarà".
+* **4	gelarà	gelar	VERB	_	_	**:  Future tense of "gelar", so we keep the same lemma.
+* **5	solide	solide	ADJ	_	_	**:  "solide" is an adjective modifying "gelarà".
+* **6-8:**  These words describe the extent and subject of the freezing ("tota la jornada").
+
+* **9	,	,	PUNCT	_	_	**:  Comma used for punctuation.
+* **10	pasmens	pasmens	ADV	_	_	**:  An adverb indicating manner ("gradually").
+* **11	gela	gelar	VERB	_	_	**:  Another form of the verb "gelar".
+
+* **12	gaire	gaire	ADV	_	_	**:  An adverb indicating degree ("quite").
+* **13	.	.	PUNCT	_	_	**:  Period ending the sentence.
+Raw model output for sentence :
+```conllu
+1	L'	lo	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+2	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	polit	polit	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	las	lo	VERB	_	Number=Plur|Person=3	0	root	_	_
+5	velhèt	velhar	VERB	_	Number=Plur|Person=3	4	xcomp	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Qu'	_	_	_	_	2	ccomp	_	_
+2	es	_	AUX	_	_	0	root	_	_
+3	luènh	_	ADJ	_	_	2	xcomp	_	_
+4	,	_	PUNCT	_	_	5	punct	_	_
+5	mon	_	DET	_	_	6	det	_	_
+6	Dieu	_	PROPN	_	_	2	nsubj	_	_
+7	!	_	PUNCT	_	_	2	punct	_	_
+```
+
+**Explanation:**
+
+* **ID:**  Each line is numbered sequentially.
+* **FORM:** The actual form of the word as it appears in the text.
+* **LEMMA:** The base form or dictionary entry for the word.
+* **UPOS:** The universal part of speech tag.
+* **XPOS:**  Language-specific part-of-speech tag (not used here as we're focusing on universal dependencies).
+* **FEATS:** Morphological features of the word (not applicable in this simple sentence).
+* **HEAD:** The ID of the word that is the head of the current word (i.e., the word that the current word modifies or is dependent on).
+* **DEPREL:** The dependency relation between the current word and its head.
+* **DEPS:**  Dependency relation stack (not used here).
+* **MISC:** Any miscellaneous information (not used here).
+
+**Dependency Relations:**
+
+* **2 (es):** root (The auxiliary verb "es" is the root of the sentence)
+* **1 (Qu'):** ccomp (The relative pronoun "Qu'" introduces a complement clause)
+* **3 (luènh):** xcomp (Adjective "luènh" is a complement of the verb "es")
+* **5 (mon):** det (Determiner "mon" modifies noun "Dieu")
+* **6 (Dieu):** nsubj (Noun "Dieu" is the nominal subject of the verb "es")
+Raw model output for sentence :
+```conllu
+1	Que	que	PRON	_	_	5	nsubj	_	_
+2	’s	se	PRON	_	_	3	iobj	_	_
+3	harà	har	VERB	_	_	0	root	_	_
+4	cantorau	cantorau	VERB	_	_	3	xcomp	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	la	lo	DET	_	_	8	det	_	_
+7	soa	son	ADJ	_	_	8	amod	_	_
+8	lenga	lenga	NOUN	_	_	4	obl	_	_
+9	mairau	mairau	ADJ	_	_	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	promotor	promotor	NOUN	_	_	8	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	la	la	DET	_	_	14	det	_	_
+14	vitalitat	vitalitat	NOUN	_	_	11	obl	_	_
+15-16	deus	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	lo	lo	DET	_	_	17	det	_	_
+17	ainats	ainat	NOUN	_	_	14	obl	_	_
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADP)
+* **XPOS:** Language-specific POS tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Miscellaneous information (e.g., punctuation marks)
+
+
+
+Let me know if you'd like me to explain any specific dependency relation or token in more detail.
+Raw model output for sentence :
+```conllu
+1-5	Paire	_	_	_	_	_	_	_	_
+1	Paire	paire	NOUN	_	_	5	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	t'	te	PRON	_	_	5	iobj	_	_
+4	ajudarem	ajudar	VERB	_	_	5	xcomp	_	_
+5	!	!	PUNCT	_	_	0	root	_	_
+
+```
+
+**Explanation:**
+
+* **ID:** Each token is assigned a unique identifier within the sentence (1 to 5). 
+* **FORM:** The actual form of the token as it appears in the text.
+* **LEMMA:** The base form or dictionary entry of the token (not applicable for punctuation).
+* **UPOS:** The universal part-of-speech tag for the token.
+    * **NOUN:** Noun
+    * **PUNCT:** Punctuation
+    * **PRON:** Pronoun
+    * **VERB:** Verb
+* **XPOS:** Language-specific part-of-speech tag (not used here as it's specific to Catalan).
+* **FEATS:** Morphological features of the token (not applicable in this simple example).
+* **HEAD:** The ID of the syntactic head of the current token. In this sentence, the head of "ajudarem" is itself (5), "Paire" has head 1, "te" has head 3, and the punctuation has head 5.
+* **DEPREL:** The dependency relation between the current token and its head.
+    * **nsubj:** Nominal subject
+    * **iobj:** Indirect object
+    * **xcomp:** Open clausal complement
+    * **punct:** Punctuation mark
+* **DEPS:**  Enhanced dependency graph in the form of a list of head-relation pairs (not shown here for simplicity).
+* **MISC:** Any miscellaneous information (not used here).
+Raw model output for sentence :
+```conllu
+1	Chau	chaler	VERB	_	_	0	root	_	_
+2	reconéisser	reconéisser	VERB	_	_	1	xcomp	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	_	_	6	case	_	_
+6	lo	lo	DET	_	_	1	obl	_	_
+7	mens	mens	NOUN	_	_	6	nmod	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	debuta	debuta	NOUN	_	_	7	nmod	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	ne’n	ne'n	PRON	_	_	13	obj	_	_
+13	fuguèrem	èsser	AUX	_	_	1	ccomp	_	_
+14	fòrça	fòrça	ADV	_	_	13	advmod	_	_
+15	benaises	benaise	ADJ	_	_	14	amod	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., VERB, NOUN, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., gender, number)
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph (not always used)
+* **MISC:** Any miscellaneous information (e.g., names, dates)
+
+
+
+I've filled in the remaining columns based on the grammatical structure of the sentence. Here are some key points:
+
+* **chau (1):** Main verb, root of the sentence.
+* **reconéisser (2):** Verb, dependent on 'chau', acting as an xcomp (open clausal complement).
+* **que (3):** Subordinating conjunction, introducing a subordinate clause.
+* **pel / per (5/6):** Preposition, indicating the instrument or means. 'pel' is elided to 'per' due to the article 'lo'
+
+* **lo mens (6/7):**  Noun phrase functioning as the object of the preposition 'per'.
+
+* **a la debuta (8/9/10):** Prepositional phrase modifying 'mens', indicating time.
+* **ne’n (12):** Reflexive pronoun, object of the verb 'fuguèrem'.
+
+* **fuguèrem (13):** Auxiliary verb, part of the past tense construction with 'èsser'.
+* **fòrça benaises (14/15):** Adverbial phrase modifying the verb 'fuguèrem', expressing intensity.
+Raw model output for sentence :
+```conllu
+1	Atau	atau	ADV	_	_	5	advmod	_	_
+2	apèran	apèrar	VERB	_	_	5	aux	_	_
+3	los	lo	DET	_	_	4	det	_	_
+4	marchands	marchand	NOUN	_	_	5	nsubj	_	_
+5	que	que	PRON	_	_	0	root	_	_
+6	corron	còrrer	VERB	_	_	5	xcomp	_	_
+7	las	lo	DET	_	_	8	det	_	_
+8	heras	hera	NOUN	_	_	6	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	vestits	vestir	VERB	_	_	6	conj	_	_
+11	d'	de	ADP	_	_	12	case	_	_
+12	un	un	DET	_	_	13	det	_	_
+13	gran	gran	ADJ	_	_	14	amod	_	_
+14	manto	manto	NOUN	_	_	10	obj	_	_
+15	semiat	semiatr	VERB	_	_	14	acl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	coscolhas	coscolha	NOUN	_	_	15	obj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	dambe	dambe	ADV	_	_	20	advmod	_	_
+20	lo	lo	DET	_	_	21	det	_	_
+21	bordon	bordon	NOUN	_	_	26	obl	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	la	lo	DET	_	_	24	det	_	_
+24	man	man	NOUN	_	_	21	nmod	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	entà	entà	ADP	_	_	28	case	_	_
+27	véner	véner	VERB	_	_	28	xcomp	_	_
+28	objècts	objèct	NOUN	_	_	5	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	pietat	pietat	NOUN	_	_	28	nmod	_	_
+31	.	.	PUNCT	_	_	5	punct	_	_
+
+```

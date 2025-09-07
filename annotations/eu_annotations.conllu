@@ -1,0 +1,177 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = example1
+# text = Gero, lortutako masa molde batean jarri.
+1	Gero	gero	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	4	advcl	_	_
+4	masa	masa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
+5	molde	molde	NOUN	_	_	7	obl	_	_
+6	batean	bat	NUM	_	NumType=Card	5	nummod	_	_
+7	jarri	jarri	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = example2
+# text = Bestalde, "herri palestinarrari laguntza tekniko eta ekonomikoa ematen jarraitzeko eta Estatu baketsu eta demokratiko baten ordezkari diren erakunde palestinarrak indartzeko lanean jarraitzeko konpromisoa" baieztatu zuen EBk.
+1	Bestalde	bestalde	CCONJ	_	_	27	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+4	herri	herri	NOUN	_	_	10	iobj	_	_
+5	palestinarrari	palestinar	ADJ	_	Case=Dat|Definite=Def|Number=Sing	4	amod	_	_
+6	laguntza	laguntza	NOUN	_	_	10	obj	_	_
+7	tekniko	tekniko	ADJ	_	_	6	amod	_	_
+8	eta	eta	CCONJ	_	_	9	cc	_	_
+9	ekonomikoa	ekonomiko	ADJ	_	Case=Abs|Definite=Def|Number=Sing	7	conj	_	_
+10	ematen	eman	VERB	_	Case=Ine|VerbForm=Fin	11	advcl	_	_
+11	jarraitzeko	jarraitu	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	27	advcl	_	_
+12	eta	eta	CCONJ	_	_	22	cc	_	_
+13	Estatu	estatu	NOUN	_	_	18	nmod	_	_
+14	baketsu	baketsu	ADJ	_	_	13	amod	_	_
+15	eta	eta	CCONJ	_	_	16	cc	_	_
+16	demokratiko	demokratiko	ADJ	_	_	14	conj	_	_
+17	baten	bat	NUM	_	NumType=Card	13	nummod	_	_
+18	ordezkari	ordezkari	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	20	acl	_	_
+19	diren	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3|VerbForm=Fin	18	cop	_	_
+20	erakunde	erakunde	NOUN	_	_	22	obj	_	_
+21	palestinarrak	palestinar	ADJ	_	Case=Abs|Definite=Def|Number=Plur	20	amod	_	_
+22	indartzeko	indartu	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	11	conj	_	_
+23	lanean	lan	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	24	obl	_	_
+24	jarraitzeko	jarraitu	VERB	_	Case=Loc|VerbForm=Fin	25	advcl	_	_
+25	konpromisoa	konpromiso	NOUN	_	Case=Abs|Definite=Def|Number=Sing	27	obj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	baieztatu	baieztatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+28	zuen	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	27	aux	_	ReconstructedLemma=Yes
+29	EBk	EB	PROPN	_	Case=Erg|Definite=Def|Number=Sing	27	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = example3
+# text = Tour hartan bistaratu zitzaizkon lehendabiziko aldiz, mendian zituen benetako zailtasunak.
+1	Tour	Tour	PROPN	_	_	3	obl	_	_
+2	hartan	hura	DET	_	Case=Ine|Definite=Def|Number=Sing	1	det	_	_
+3	bistaratu	bistaratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	zitzaizkon	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Number[dat]=Sing|Person[abs]=3|Person[dat]=3|VerbForm=Fin	3	aux	_	_
+5	lehendabiziko	lehendabiziko	ADJ	_	NumType=Ord	6	amod	_	_
+6	aldiz	aldi	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mendian	mendi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	9	obl	_	_
+9	zituen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	11	acl	_	_
+10	benetako	benetako	ADJ	_	_	11	amod	_	_
+11	zailtasunak	zailtasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	3	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = example4
+# text = Nik ere ez eta hasten naiz inketatzen.
+1	Nik	ni	PRON	_	PronType=Prs	5	nsubj	_	_
+2	ere	ere	CCONJ	_	_	5	advmod	_	_
+3	ez	ez	PART	_	Polarity=Neg	5	advmod	_	_
+4	eta	eta	CCONJ	_	_	5	cc	_	_
+5	hasten	hasi	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
+6	naiz	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1|VerbForm=Fin	5	aux	_	_
+7	inketatzen	inketatu	VERB	_	Case=Ine|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = example5
+# text = Zidane, Henry, Barthez, Deschamps, Blanc eta enparauek Eurokopako talde sendoena osatzen dute aditu gehienentzat.
+1	Zidane	Zidane	PROPN	_	_	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Henry	Henry	PROPN	_	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Barthez	Barthez	PROPN	_	_	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Deschamps	Deschamps	PROPN	_	_	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Blanc	Blanc	PROPN	_	_	1	conj	_	_
+10	eta	eta	CCONJ	_	_	11	cc	_	_
+11	enparauek	enparau	ADJ	_	Case=Erg|Definite=Def|Number=Plur	1	conj	_	_
+12	Eurokopako	Eurokopa	PROPN	_	Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
+13	talde	talde	NOUN	_	_	15	obj	_	_
+14	sendoena	sendo	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	13	amod	_	_
+15	osatzen	osatu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
+16	dute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	15	aux	_	ReconstructedLemma=Yes
+17	aditu	aditu	NOUN	_	_	15	obl	_	_
+18	gehienentzat	gehien	DET	_	Case=Ben|Definite=Def|Number=Plur	17	det	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = example6
+# text = Napoliko erregeordea zen Lemosko kondearen idazkari izan zen eta, bere anaia Bartolomek esaten duenez, erre egin zituen bere poemak hiri hartan.
+1	Napoliko	Napoli	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
+2	erregeordea	erregeorde	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	5	acl	_	_
+3	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	2	cop	_	_
+4	Lemosko	Lemos	PROPN	_	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	_
+5	kondearen	konde	NOUN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+6	idazkari	idazkari	NOUN	_	Case=Abs|Definite=Ind	0	root	_	_
+7	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	6	cop	_	_
+8	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	6	aux	_	_
+9	eta	eta	CCONJ	_	_	17	cc	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	bere	bera	DET	_	Case=Gen|Number=Sing	12	nmod	_	_
+12	anaia	anaia	NOUN	_	_	14	nsubj	_	_
+13	Bartolomek	Bartolome	PROPN	_	Case=Erg|Definite=Def|Number=Sing	12	nmod	_	_
+14	esaten	esan	VERB	_	Aspect=Imp|VerbForm=Inf	17	advcl	_	_
+15	duenez	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	14	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	erre	erre	VERB	_	VerbForm=Part	7	conj	_	_
+18	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	17	compound	_	_
+19	zituen	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	17	aux	_	ReconstructedLemma=Yes
+20	bere	bera	DET	_	Case=Gen|Number=Sing	21	nmod	_	_
+21	poemak	poema	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	17	obj	_	_
+22	hiri	hiri	NOUN	_	_	17	obl	_	_
+23	hartan	hura	DET	_	Case=Ine|Definite=Def|Number=Sing	22	det	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = example7
+# text = Guk errespetu handia diogu Alavesi, eta espero dugu partidu ona egitea, hiru puntuak irabazteko.
+1	Guk	gu	PRON	_	PronType=Prs	4	nsubj	_	_
+2	errespetu	errespetu	NOUN	_	_	4	obj	_	_
+3	handia	handi	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
+4	diogu	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1|VerbForm=Fin	0	root	_	ReconstructedLemma=Yes
+5	Alavesi	Alaves	PROPN	_	Case=Dat|Definite=Def|Number=Sing	4	iobj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	eta	eta	CCONJ	_	_	9	cc	_	_
+8	espero	espero	NOUN	_	Case=Abs|Definite=Ind	9	compound	_	_
+9	dugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|VerbForm=Fin	4	conj	_	_
+10	partidu	partidu	NOUN	_	_	12	obj	_	_
+11	ona	on	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	amod	_	_
+12	egitea	egin	VERB	_	Case=Abs|VerbForm=Fin	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	hiru	hiru	NUM	_	NumType=Card	15	nummod	_	_
+15	puntuak	puntu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	16	obj	_	_
+16	irabazteko	irabazi	VERB	_	Case=Abs|Definite=Ind|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = example8
+# text = Beraz, elkarri neurria hartzeko modua ukanen dute.
+1	Beraz	beraz	CCONJ	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	elkarri	elkar	PRON	_	Case=Dat|Definite=Ind	5	iobj	_	_
+4	neurria	neurri	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
+5	hartzeko	hartu	VERB	_	Case=Loc|VerbForm=Fin	6	advcl	_	_
+6	modua	modu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
+7	ukanen	ukan	VERB	_	VerbForm=Fin	0	root	_	_
+8	dute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|VerbForm=Fin	7	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = example9
+# text = Urrea kendu egin zioten, laguntza jaso zuelako, baina nor gogoratzen da irabazlearen izenaz?
+1	Urrea	urre	NOUN	_	Case=Abs|Definite=Def|Number=Sing	2	obj	_	_
+2	kendu	kendu	VERB	_	VerbForm=Part	0	root	_	_
+3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	2	compound	_	_
+4	zioten	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3|VerbForm=Fin	2	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	laguntza	laguntza	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
+7	jaso	jaso	VERB	_	Aspect=Perf|VerbForm=Part	2	advcl	_	_
+8	zuelako	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|VerbForm=Fin	7	aux	_	ReconstructedLemma=Yes|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	baina	baina	CCONJ	_	_	12	cc	_	_
+11	nor	nor	PRON	_	PronType=Int	12	nsubj	_	_
+12	gogoratzen	gogoratu	VERB	_	Aspect=Imp|VerbForm=Inf	2	conj	_	_
+13	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	12	aux	_	_
+14	irabazlearen	irabazle	NOUN	_	Animacy=Anim|Case=Gen|Definite=Def|Number=Sing	15	nmod	_	_
+15	izenaz	izen	NOUN	_	Case=Ins|Definite=Def|Number=Sing	12	obl	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = example10
+# text = Zer egin?
+1	Zer	zer	DET	_	Case=Abs|Definite=Ind	2	obj	_	_
+2	egin	egin	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+

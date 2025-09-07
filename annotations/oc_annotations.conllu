@@ -1,0 +1,235 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = example1
+# text = Dau terme onte io aviá pres posicion , vesiá la baissa enquera dins las brumas leugieras de queu matin de setembre .
+1-2	Dau	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	_	3	det	_	_
+3	terme	terme	NOUN	_	_	10	obl	_	_
+4	onte	onte	PRON	_	_	7	obl	_	_
+5	io	io	PRON	_	_	7	nsubj	_	_
+6	aviá	aver	AUX	_	_	7	aux	_	_
+7	pres	prendre	VERB	_	_	10	acl	_	_
+8	posicion	posicion	NOUN	_	_	7	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	vesiá	véser	VERB	_	_	0	root	_	_
+11	la	lo	DET	_	_	12	det	_	_
+12	baissa	baissa	NOUN	_	_	10	obj	_	_
+13	enquera	enquera	ADV	_	_	10	advmod	_	_
+14	dins	dins	ADP	_	_	16	case	_	_
+15	las	lo	DET	_	_	16	det	_	_
+16	brumas	bruma	NOUN	_	_	12	nmod	_	_
+17	leugieras	leugier	ADJ	_	_	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	queu	aqueu	DET	_	_	20	det	_	_
+20	matin	matin	NOUN	_	_	16	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	setembre	setembre	NOUN	_	_	20	nmod	_	_
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = example2
+# text = Entau , auriá pogut trobar sa copabla tres o quatre mes mai dabora sens l' ajuda de l' autre trasfòu .
+1	Entau	entau	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	auriá	aver	AUX	_	_	5	aux	_	_
+4	pogut	poder	VERB	_	_	5	xcomp	_	_
+5	trobar	trobar	VERB	_	_	0	root	_	_
+6	sa	son	DET	_	_	7	det	_	_
+7	copabla	copabla	NOUN	_	_	5	obj	_	_
+8	tres	3	NUM	_	_	11	nummod	_	_
+9	o	o	CCONJ	_	_	10	cc	_	_
+10	quatre	4	NUM	_	_	8	conj	_	_
+11	mes	mes	NOUN	_	_	5	obl	_	_
+12	mai	mai	ADV	_	_	11	advmod	_	_
+13	dabora	dabora	ADV	_	_	12	advmod	_	_
+14	sens	sens	ADP	_	_	5	obl	_	_
+15	l'	lo	DET	_	_	16	det	_	_
+16	ajuda	ajuda	NOUN	_	_	14	obj	_	_
+17	de	de	ADP	_	_	16	case	_	_
+18	l'	lo	DET	_	_	19	det	_	_
+19	autre	autre	ADJ	_	_	20	amod	_	_
+20	trasfòu	trasfòu	NOUN	_	_	16	nmod	_	_
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = example3
+# text = La Vila Diu deu Temple que vad lo brèç d’ ua idèa creada en 1974 e qui mercés a la dinamica de Nadal Rey , hasó lo torn deu monde .
+1	La	lo	DET	_	_	2	det	_	_
+2	Vila	Vila	PROPN	_	_	27	nsubj	_	_
+3	Diu	Diu	PROPN	_	_	2	flat	_	_
+4-5	deu	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	Temple	Temple	PROPN	_	_	2	nmod	_	_
+7	que	que	ADV	_	_	27	advmod	_	_
+8	vad	vàder	VERB	_	_	7	acl	_	_
+9	lo	lo	DET	_	_	10	det	_	_
+10	brèç	brèç	NOUN	_	_	8	obj	_	_
+11	d’	de	ADP	_	_	13	case	_	_
+12	ua	un	DET	_	_	13	det	_	_
+13	idèa	idèa	NOUN	_	_	10	nmod	_	_
+14	creada	crear	VERB	_	_	13	acl	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	1974	1974	NUM	_	_	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	qui	qui	PRON	_	_	19	nsubj	_	_
+19	mercés	mercés	ADP	_	_	27	advcl	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	la	lo	DET	_	_	22	det	_	_
+22	dinamica	dinamica	NOUN	_	_	19	nmod	_	_
+23	de	de	ADP	_	_	22	case	_	_
+24	Nadal	Nadal	PROPN	_	_	22	nmod	_	_
+25	Rey	Rey	PROPN	_	_	24	flat	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	hasó	har	VERB	_	_	0	root	_	_
+28	lo	lo	DET	_	_	29	det	_	_
+29	torn	torn	NOUN	_	_	27	obj	_	_
+30-31	deu	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	lo	lo	DET	_	_	32	det	_	_
+32	monde	monde	NOUN	_	_	29	nmod	_	_
+33	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = example4
+# text = Ren ’niriá plus entre los dos .
+1	Ren	ren	PRON	_	_	2	nsubj	_	_
+2	’niriá	anar	VERB	_	_	0	root	_	_
+3	plus	plus	ADV	_	_	2	advmod	_	_
+4	entre	entre	ADP	_	_	2	obl	_	_
+5	los	lo	DET	Da	_	6	det	_	_
+6	dos	dos	NUM	_	_	4	obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = example5
+# text = Durant la reünion , los elegits araneses remembrèron al president catalan lo besonh de metre en marcha la totalitat de la Lei del regim especial d' Aran , aprovada pel Parlament de Catalonha lo 21 de genièr de 2015 , e qu' intrèt en vigor lo 14 de febrièr de 2015 .
+1	Durant	durant	ADP	_	_	3	case	_	_
+2	la	lo	DET	_	_	3	det	_	_
+3	reünion	reünion	NOUN	_	_	8	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	los	lo	DET	_	_	6	det	_	_
+6	elegits	elegit	NOUN	_	_	8	nsubj	_	_
+7	araneses	aranés	ADJ	_	_	6	amod	_	_
+8	remembrèron	remembrar	VERB	_	_	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	lo	lo	DET	_	_	11	det	_	_
+11	president	president	NOUN	_	_	8	obj	_	_
+12	catalan	catalan	ADJ	_	_	11	amod	_	_
+13	lo	lo	DET	_	_	14	det	_	_
+14	besonh	besonh	NOUN	_	_	8	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	metre	metre	VERB	_	_	14	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	marcha	marcha	NOUN	_	_	16	obl	_	_
+19	la	lo	DET	_	_	20	det	_	_
+20	totalitat	totalitat	NOUN	_	_	23	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	la	lo	DET	_	_	23	det	_	_
+23	Lei	lei	NOUN	_	_	16	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	lo	lo	DET	_	_	26	det	_	_
+26	regim	regim	NOUN	_	_	23	nmod	_	_
+27	especial	especial	ADJ	_	_	26	amod	_	_
+28	d'	de	ADP	_	_	29	case	_	_
+29	Aran	Aran	NOUN	_	_	26	nmod	_	_
+30	,	,	PUNCT	_	_	23	punct	_	_
+31	aprovada	aprovar	VERB	_	_	23	acl	_	_
+32-33	pel	_	_	_	_	_	_	_	_
+32	per	per	ADP	_	_	34	case	_	_
+33	lo	lo	DET	_	_	34	det	_	_
+34	Parlament	parlament	NOUN	_	_	31	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Catalonha	Catalonha	PROPN	_	_	34	nmod	_	_
+37	lo	lo	DET	_	_	38	det	_	_
+38	21	21	NUM	_	_	40	nummod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	genièr	genièr	NOUN	_	_	31	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	2015	2015	NUM	_	_	40	nmod	_	_
+43	,	,	PUNCT	_	_	46	punct	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	qu'	que	PRON	_	_	46	nsubj	_	_
+46	intrèt	intrar	VERB	_	_	31	conj	_	_
+47	en	en	ADP	_	_	48	case	_	_
+48	vigor	vigor	NOUN	_	_	46	obl	_	_
+49	lo	lo	DET	_	_	50	det	_	_
+50	14	14	NUM	_	_	52	nummod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	febrièr	febrièr	NOUN	_	_	46	obl	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	2015	2015	NUM	_	_	52	nmod	_	_
+55	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = example6
+# text = Aquel òste majestuós de nòstras selvas montanegrinas .
+1	Aquel	aquel	DET	_	_	2	det	_	_
+2	òste	òste	NOUN	_	_	0	root	_	_
+3	majestuós	majestuós	ADJ	_	_	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	nòstras	nòstre	DET	_	_	6	det	_	_
+6	selvas	selva	NOUN	_	_	2	nmod	_	_
+7	montanegrinas	montanegrin	ADJ	_	_	6	amod	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = example7
+# text = Avèm decidit de començar per lo pus malaisit .
+1	Avèm	aver	AUX	_	_	2	aux	_	_
+2	decidit	decidir	VERB	_	_	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	començar	començar	VERB	_	_	2	xcomp	_	_
+5	per	per	ADP	_	_	8	case	_	_
+6	lo	lo	DET	_	_	8	det	_	_
+7	pus	pus	ADV	_	_	8	advmod	_	_
+8	malaisit	malaisit	ADJ	_	_	4	amod	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = example8
+# text = L' enfant polit donava lo det .
+1	L'	lo	DET	_	_	2	det	_	_
+2	enfant	enfant	NOUN	_	_	4	nsubj	_	_
+3	polit	polit	ADJ	_	_	2	amod	_	_
+4	donava	donar	VERB	_	_	0	root	_	_
+5	lo	lo	DET	_	_	6	det	_	_
+6	det	det	NOUN	_	_	4	obj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = example9
+# text = Aquò me faguèt grelhar dins lei cervèlas doas idèas complementàrias .
+1	Aquò	aquò	PRON	_	_	2	nsubj	_	_
+2	me	me	PRON	_	_	3	iobj	_	_
+3	faguèt	far~faire	VERB	_	_	0	root	_	_
+4	grelhar	grelhar	VERB	_	_	3	xcomp	_	_
+5	dins	dins	ADP	_	_	6	case	_	_
+6	lei	lo	DET	_	_	7	det	_	_
+7	cervèlas	cervèla	NOUN	_	_	4	obl	_	_
+8	doas	dos	NUM	_	_	9	nummod	_	_
+9	idèas	idèa	NOUN	_	_	4	obj	_	_
+10	complementàrias	complementari	ADJ	_	_	9	amod	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = example10
+# text = Sens l' assentiment de l' animal , l' asinièr farà pas res de bon se que non al prètz de la maltractença .
+1	Sens	sens	ADP	_	_	3	case	_	_
+2	l'	lo	DET	_	_	3	det	_	_
+3	assentiment	assentiment	NOUN	_	_	10	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	l'	lo	DET	_	_	6	det	_	_
+6	animal	animal	NOUN	_	_	3	nmod	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	l'	lo	DET	_	_	9	det	_	_
+9	asinièr	asinièr	NOUN	_	_	10	obl	_	_
+10	farà	far~faire	VERB	_	_	0	root	_	_
+11	pas	pas	ADV	_	_	10	advmod	_	_
+12	res	res	PRON	_	_	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	bon	bon	ADJ	_	_	12	amod	_	_
+15	se	se	SCONJ	_	_	10	mark	_	_
+16	que	que	SCONJ	_	_	10	mark	_	_
+17	non	non	ADV	_	_	10	advcl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	lo	lo	DET	_	_	20	det	_	_
+20	prètz	prètz	NOUN	_	_	17	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	la	lo	DET	_	_	23	det	_	_
+23	maltractença	maltractença	NOUN	_	_	19	obl	_	_
+24	.	.	PUNCT	_	_	10	punct	_	_

@@ -1,0 +1,2349 @@
+Raw model output for sentence :
+## Universal Dependencies Annotation for the Given Sentence:
+
+```conllu
+1	En	en	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	estadio	estadio	NOUN	NOUN	_	7	nsubj	_	_
+4	IV	iv	NUM	NUM	NumType=Ord	3	amod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	CPNCP	cpncp	PROPN	PNOUN	_	0	root	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tratamento	tratamento	NOUN	NOUN	_	14	obj	_	_
+11	con	con	ADP	ADP	_	12	case	_	_
+12	quimioterapia	quimioterapia	NOUN	NOUN	_	10	nmod	_	_
+13	é	ser	AUX	AUX	_	14	cop	_	_
+14	superior	superior	ADJ	ADJ	_	7	parataxis	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	ADP	_	16	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+17	mellor	mellor	ADJ	ADJ	_	16	amod	_	_
+18	tratamento	tratamento	NOUN	NOUN	_	14	conj	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	soporte	soporte	NOUN	NOUN	_	18	nmod	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
+22	incrementa	incrementar	VERB	VERB	_	14	conj	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mediana	mediana	NOUN	NOUN	_	22	obj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	supervivencia	supervivencia	NOUN	NOUN	_	24	nmod	_	_
+27	en	en	ADP	ADP	_	28	case	_	_
+28	1.5-2	1.5-2	NUM	NUM	NumType=Card	26	nummod	_	_
+29	meses	mes	NOUN	NOUN	_	28	nmod	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
+31	mellora	mellora	VERB	VERB	_	22	conj	_	_
+32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	síntomas	síntoma	NOUN	NOUN	_	31	obj	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	calidade	calidade	NOUN	NOUN	_	31	obj	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	vida	vida	NOUN	NOUN	_	36	nmod	_	_
+39-40	na	_	_	_	_	_	_	_	_
+39	en	en	ADP	ADP	_	40	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+41	metade	metade	NOUN	NOUN	_	38	nmod	_	_
+42-43	dos	_	_	_	_	_	_	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
+43	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+44	pacientes	paciente	NOUN	NOUN	_	43	nmod	_	_
+45	.	.	PUNCT	.	_	7	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN for noun, VERB for verb, ADP for adposition).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., Number=Sing, Gender=Masc).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph information (not always used).
+* **MISC:** Miscellaneous information (e.g., punctuation marks).
+
+
+
+**Notes:**
+
+* The sentence is primarily in Spanish with "CPNCP" appearing to be an abbreviation potentially specific to a medical context.
+
+* The annotation assumes a standard dependency parsing approach.
+
+* The "ao" construction in "superior ao mellor" is treated as a comparison construction, with "ao" functioning similar to "than" in English.
+
+* The "en" before "1.5-2" and "a" before "metade" are analyzed as adpositions indicating location and directionality, respectively.
+
+* The "na" construction in "na metade dos pacientes" is a prepositional phrase indicating location within the larger structure.
+Raw model output for sentence :
+```conllu
+1	En	EN	ADP	ADP	_	2	case	_	_
+2	todo	TODO	ADJ	ADJ	_	4	nmod	_	_
+3	caso	CASO	NOUN	NOUN	_	4	nsubj	_	_
+4	queda	QUEDAR	VERB	VERB	_	0	root	_	_
+5	prohibido	PROHIBIR	VERB	VERB	_	4	xcomp	_	_
+6	circular	CIRCULAR	VERB	VERB	_	5	xcomp	_	_
+7	con	CON	ADP	ADP	_	8	case	_	_
+8	menores	MENOR	NOUN	NOUN	_	6	nmod	_	_
+9	de	DE	ADP	ADP	_	11	case	_	_
+10	12	12	NUM	NUM	_	11	nummod	_	_
+11	anos	ANO	NOUN	NOUN	_	8	nmod	_	_
+12	situados	SITUAR	VERB	VERB	_	11	acl	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	en	EN	ADP	ADP	_	16	case	_	_
+14	os	O	DET	DET	_	16	det	_	_
+15	asentos	ASENTO	NOUN	NOUN	_	16	compound	_	_
+16	dianteiros	DIANTEIRO	ADJ	ADJ	_	12	obj	_	_
+17	do	DE	ADP	ADP	_	19	case	_	_
+18	de	DE	ADP	ADP	_	19	det:poss	_	_
+19	o	O	DET	DET	_	20	det	_	_
+20	vehículo	VEHÍCULO	NOUN	NOUN	_	16	nmod	_	_
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	salvo	SALVO	ADV	ADV	_	4	advmod	_	_
+23	que	QUE	SCONJ	SCONJ	_	24	mark	_	_
+24	utilicen	UTILIZAR	VERB	VERB	_	22	advcl	_	_
+25	dispositivos	DISPOSITIVO	NOUN	NOUN	_	24	obj	_	_
+26	homologados	HOMLOGAR	VERB	VERB	_	25	acl	_	_
+27	para	PARA	ADP	ADP	_	28	case	_	_
+28	o	O	DET	DET	_	29	det	_	_
+29	efecto	EFECTO	NOUN	NOUN	_	26	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+```
+Raw model output for sentence :
+```conll
+1	Os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	impostos	imposto	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	supoñen	supoñer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	límites	límite	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+5	para	para	ADP	ADP	_	6	case	_	_
+6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dereitos	dereito	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	propiedade	propiedade	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	podemos	poder	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	consideralos	considerar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	xcomp	_	_
+13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	como	como	ADP	ADP	_	12	obj	_	_
+15	unha	un	DET	DET	_	17	det	_	_
+16	_	_	X	X	_	17	dep	_	_
+17	atenuación	atenuación	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+18	_	_	X	X	_	19	dep	_	_
+19	dos	de	ADP	ADP	_	20	case	_	_
+20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	dereitos	dereito	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+22	exclusivos	exclusivo	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Unha	un	DET	DET	_	2	det	_	_
+2	vez	vez	NOUN	NOUN	_	6	nsubj	_	_
+3	avaliados	avaliar	VERB	VERB	_	2	acl	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	a	o	DET	DET	_	6	det	_	_
+6	proposta	proposta	NOUN	NOUN	_	0	root	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	resolución	resolución	NOUN	NOUN	_	6	nmod	_	_
+9	será	ser	AUX	AUX	_	10	aux	_	_
+10	elevada	elevado	VERB	VERB	_	6	acl	_	_
+11	ao	_	ADP	ADP	_	13	case	_	_
+11	a	a	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
+13	presidente	presidente	NOUN	NOUN	_	10	obl	_	_
+14	do	_	ADP	ADP	_	15	case	_	_
+14	de	de	DET	DET	_	15	det	_	_
+15	o	o	DET	DET	_	13	nmod	_	_
+16	Igape	igape	PROPN	PNOUN	_	15	appos	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	quen	quen	PRON	PRON	_	19	nsubj	_	_
+19	resolverá	resolver	VERB	VERB	_	6	parataxis	_	_
+20	por	por	ADP	ADP	_	21	case	_	_
+21	delegación	delegación	NOUN	NOUN	_	19	obl	_	_
+22	do	_	ADP	ADP	_	23	case	_	_
+22	de	de	DET	DET	_	23	det	_	_
+23	o	o	DET	DET	_	21	nmod	_	_
+24	Consello	consello	NOUN	NOUN	_	23	appos	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	Dirección	dirección	NOUN	NOUN	_	24	nmod	_	_
+27	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Este	este	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	proceso	proceso	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	denomínase	_	VERB	VERB	_	2	acl	_	_
+3	denomina	denominar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+4	se	se	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	_
+5	crioulización	crioulización	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	resultado	resultado	NOUN	NOUN	Gender=Masc|Number=Sing	2	parataxis	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	crioulo	crioulo	NOUN	NOUN	Gender=Masc|Number=Sing	9	appos	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	será	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	unha	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	variedade	variedade	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+17	estructuralmente	estructuralmente	ADV	ADV	_	18	advmod	_	_
+18	máis	máis	ADJ	ADJ	_	16	amod	_	_
+19	complexa	complexo	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+20-21	có	_	_	_	_	_	_	_	_
+20	ca	ca	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pidgin	pidgin	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+23	orixinal	orixinal	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	comparable	comparable	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+26-27	á	_	_	_	_	_	_	_	_
+26	a	a	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	complexidade	complexidade	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	calquera	calquera	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
+31	lingua	lingua	NOUN	NOUN	Gender=Fem|Number=Sing	30	appos	_	_
+32	natural	natural	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+33	.	.	PUNCT	.	_	14	punct	_	_
+
+```
+
+ **Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET, ADP).
+* **XPOS:** Language-specific part-of-speech tag (not always used).
+* **FEATS:** Morphological features (e.g., Gender, Number, Tense).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used).
+* **MISC:** Miscellaneous information (e.g., punctuation marks).
+
+
+
+**Key Decisions:**
+
+* **3-4:**  Since "denomínase" is a verb with a subject ("proceso"), it's treated as a clause modifying "proceso". Therefore, "denomina" is an auxiliary verb (xcomp) to "se crioulización".
+* **4:**  "se" is an object pronoun, acting as the object of "denomina".
+
+* **20-21:** These are part of a comparative construction ("estructuralmente más compleja có ca o pidgin orixinal"). We treat "có" as a preposition (case) introducing the comparison, and "ca" as a preposition (case) indicating the standard of comparison.
+
+* **26-27:** Similar to the previous case, "á" is a preposition (case) introducing the comparison, and "a" is a determiner (det) modifying the compared noun.
+
+This annotation follows the UD guidelines for Galician, taking into account its specific grammatical features.
+Raw model output for sentence :
+```conllu
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	situacións	situación	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	pobreza	pobreza	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+5	severa	severo	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	-n	_	_	_	_	_	_	_	_
+6	_	_	X	X	_	7	dep	_	_
+7	en	en	ADP	ADP	_	8	case	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	que	que	PRON	PRON	Gender=Fem|Number=Plur|PronType=Rel	2	appos	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	persoas	persoa	NOUN	NOUN	Gender=Fem|Number=Plur	9	relcl	_	_
+12	viven	vivir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
+13-14	á	_	_	_	_	12	dep	_	_
+13	a	a	ADP	ADP	_	14	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	marxe	marxe	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	da	_	_	_	_	15	dep	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sociedade	sociedade	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+19	ou	ou	CCONJ	CONJ	_	20	cc	_	_
+20	están	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	apartadas	apartar	VERB	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	ccomp	_	_
+22	completamente	completamente	ADV	ADV	_	21	advmod	_	_
+23-24	das	_	_	_	_	21	dep	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	normas	norma	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
+26	sociais	social	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	_
+27	convencionaisacumúlanse	convencionaisacumúlanse	VERB	VERB	_	25	acl	_	_
+28	frecuentemente	frecuente	ADV	ADV	_	27	advmod	_	_
+29	sobre	sobre	ADP	ADP	_	30	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	grupos	grupo	NOUN	NOUN	Gender=Masc|Number=Plur	27	obl	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
+33	persoas	persoa	NOUN	NOUN	Gender=Fem|Number=Plur	31	conj	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	maior	maior	ADJ	ADJ	Gender=Masc|Number=Sing|Degree=Comp	36	amod	_	_
+36	risco	risco	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
+38	dando	dar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+39	orixe	orixe	NOUN	NOUN	Gender=Fem|Number=Sing	38	obj	_	_
+40	a	a	ADP	ADP	_	41	case	_	_
+41	situacións	situación	NOUN	NOUN	Gender=Fem|Number=Plur	38	obl	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
+43	auténtica	auténtico	ADJ	ADJ	Gender=Fem|Number=Sing	41	amod	_	_
+44	polipatoloxía	polipatoloxía	NOUN	NOUN	Gender=Fem|Number=Sing	41	amod	_	_
+45	social	social	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
+46	.	.	PUNCT	.	_	2	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Unha	un	DET	DET	_	2	det	_	_
+2	vez	vez	NOUN	NOUN	_	6	nsubj	_	_
+3	valorada	valorar	VERB	VERB	_	2	acl	_	_
+4	a	o	DET	DET	_	5	det	_	_
+5	situación	situación	NOUN	NOUN	_	3	obj	_	_
+6	valorada	valorar	VERB	VERB	_	0	root	_	_
+7	do	de	ADP	ADP	_	8	case	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	_	10	det	_	_
+10	accidente	accidente	NOUN	NOUN	_	6	xcomp	_	_
+11	e	e	CCONJ	CONJ	_	13	cc	_	_
+12	informado	informar	VERB	VERB	_	10	conj	_	_
+13	o	o	DET	DET	_	12	obj	_	_
+14	061	061	NUM	NUM	_	12	obj	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	hai	haber	VERB	VERB	_	6	conj	_	_
+17	algunhas	algún	DET	DET	_	16	nsubj	_	_
+18	normas	norma	NOUN	NOUN	_	16	obj	_	_
+19	que	que	PRON	PRON	_	20	nsubj	_	_
+20	podemos	poder	VERB	VERB	_	18	acl:relcl	_	_
+21	realizar	realizar	VERB	VERB	_	20	xcomp	_	_
+22	con	con	ADP	ADP	_	23	case	_	_
+23	respecto	respecto	NOUN	NOUN	_	21	nmod	_	_
+24	ós	o	DET	DET	_	25	det	_	_
+25	a	a	ADP	ADP	_	27	case	_	_
+26	os	o	DET	DET	_	27	det	_	_
+27	accidentados	accidentado	NOUN	NOUN	_	23	nmod	_	_
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Para	para	ADP	ADP	_	2	case	_	_
+2	eses	ese	DET	DET	_	3	det	_	_
+3	autores	autor	NOUN	NOUN	_	14	nsubj	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
+5-6	preséntase	_	VERB	VERB	_	0	root	_	_
+5	presenta	presentar	VERB	VERB	_	5-6	ROOT	_	_
+6	se	se	PRON	PRON	_	5	nsubj	_	_
+7	aí	aí	ADV	ADV	_	5	advmod	_	_
+8	un	un	DET	DET	_	9	det	_	_
+9	gran	gran	ADJ	ADJ	_	10	amod	_	_
+10	risco	risco	NOUN	NOUN	_	5	obj	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	que	que	PRON	PRON	_	10	nmod	_	_
+13	se	se	PRON	PRON	_	14	nsubj	_	_
+14	"	"	PUNCT	.	_	12	xcomp	_	_
+15	dea	dar	VERB	VERB	_	14	ccomp	_	_
+16-17	á	_	VERB	VERB	_	15	aux	_	_
+16	a	a	DET	DET	_	17	det	_	_
+17	a	o	DET	DET	_	15	obj	_	_
+18	avaliación	avaliación	NOUN	NOUN	_	15	obj	_	_
+19	un	un	DET	DET	_	20	det	_	_
+20	sentido	sentido	NOUN	NOUN	_	15	obj	_	_
+21	tecnocrático	tecnocrático	ADJ	ADJ	_	20	amod	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	que	que	PRON	PRON	_	20	conj	_	_
+24	se	se	PRON	PRON	_	25	nsubj	_	_
+25	pase	pasar	VERB	VERB	_	23	xcomp	_	_
+26	a	a	ADP	ADP	_	27	case	_	_
+27	esixir	esixir	VERB	VERB	_	25	xcomp	_	_
+28	burocraticamente	burocraticamente	ADV	ADV	_	27	advmod	_	_
+29	o	o	DET	DET	_	30	det	_	_
+30	cumprimento	cumprimento	NOUN	NOUN	_	27	obj	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	obrigas	obriga	NOUN	NOUN	_	30	nmod	_	_
+33	"	"	PUNCT	.	_	14	punct	_	_
+34	(	(	PUNCT	.	_	35	punct	_	_
+35	Granhein	granhein	PROPN	PNOUN	_	41	appos	_	_
+36	&	&
+37	Lundgren	lundgren	PROPN	PNOUN	_	35	flat:name	_	_
+38	,	,	PUNCT	.	_	39	punct	_	_
+39	1992	1992	NUM	NUM	_	41	parataxis	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
+41	p	p	NOUN	NOUN	_	43	nmod	_	_
+42	.	.	PUNCT	.	_	41	punct	_	_
+43	18	18	NUM	NUM	_	45	parataxis	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
+45	19	19	NUM	NUM	_	0	parataxis	_	_
+46	)	)	PUNCT	.	_	45	punct	_	_
+47	.	.	PUNCT	.	_	5	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mínima	mínima	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	segue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	ADP	_	5	case	_	_
+5	dala	_	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	dar	dar	VERB	VERB	VerbForm=Inf	5	acl	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	provincia	provincia	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Pontevedra	pontevedra	PROPN	PROPN	Gender=Fem|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	coa	coar	ADP	ADP	_	13	case	_	_
+13	porcentaxe	porcentaxe	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+14	máis	máis	ADV	ADV	_	15	advmod	_	_
+15	baixa	baixo	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	Galicia	galicia	PROPN	PROPN	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	tamén	tamén	ADV	ADV	_	15	conj	_	_
+20	sensiblemente	sensible	ADV	ADV	_	21	advmod	_	_
+21	inferior	inferior	ADJ	ADJ	Gender=Fem|Number=Sing	15	xcomp	_	_
+22	á	_	ADP	ADP	_	23	case	_	_
+22	a	a	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	a	o	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+24	media	media	NOUN	NOUN	Gender=Fem|Number=Sing	23	appos	_	_
+25	española	español	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	acreditación	acreditación	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	permitirá	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	asistir	asistir	VERB	_	InfForm=Inf	3	xcomp	_	_
+5	ás	á	ADP	_	_	6	case	_	_
+6	conferencias	conferencia	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	pronuncien	pronunciar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	expertos	experto	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	participar	participar	VERB	_	InfForm=Inf	4	conj	_	_
+14	nas	_	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+14-15	nas	_	_	_	_	_	_	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	obj	_	_
+17	actividades	actividade	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	_
+18	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
+19	se	se	PRON	_	Reflex=Yes	20	obj	_	_
+20	organicen	organizar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
+21	especificamente	especificamente	ADV	_	_	20	advmod	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	obl	_	_
+24	asistentes	asistente	NOUN	_	Gender=Masc|Number=Plur	23	appos	_	_
+25	.	.	PUNCT	_	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Por	por	ADP	ADP	_	3	case	_	_
+2	outra	outro	DET	DET	_	3	det	_	_
+3	banda	banda	NOUN	NOUN	_	14	obl	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
+6	peche	peche	NOUN	NOUN	_	14	nsubj	_	_
+7	tamén	tamén	ADV	ADV	_	6	advmod	_	_
+8	redirixiría	redirixiría	VERB	VERB	_	6	acl	_	_
+9	as	o	DET	DET	_	10	det	_	_
+10	correntes	corrente	NOUN	NOUN	_	8	obj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	_	13	det	_	_
+13	Océano	océano	NOUN	NOUN	_	10	nmod	_	_
+14	Atlántico	atlántico	ADJ	ADJ	_	0	root	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	potenciando	potenciar	VERB	VERB	_	14	acl	_	_
+17	a	o	DET	DET	_	18	det	_	_
+18	corrente	corrente	NOUN	NOUN	_	16	obj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	_	21	det	_	_
+21	Golfo	golfo	NOUN	NOUN	_	18	nmod	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	o	o	DET	DET	_	24	det	_	_
+24	transporte	transporte	NOUN	NOUN	_	16	conj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	augas	auga	NOUN	NOUN	_	24	obj	_	_
+27	cálidas	cálido	ADJ	ADJ	_	26	amod	_	_
+28	superficias	superficias	ADJ	ADJ	_	26	amod	_	_
+29	cara	cara	ADP	ADP	_	30	case	_	_
+30-31	ó	_	_	_	_	_	_	_	_
+30	a	a	DET	DET	_	31	det	_	_
+31	o	o	DET	DET	_	32	det	_	_
+32	norte	norte	NOUN	NOUN	_	29	obl	_	_
+33	.	.	PUNCT	.	_	14	punct	_	_
+```
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Avellentar	avellentar	VERB	VERB	_	0	root	_	_
+2	con	con	ADP	ADP	_	3	case	_	_
+3	éxito	éxito	NOUN	NOUN	_	1	obj	_	_
+4	Temos	ter	VERB	VERB	_	1	parataxis	_	_
+5	que	que	SCONJ	SCONJ	_	6	mark	_	_
+6	ser	ser	VERB	VERB	_	4	ccomp	_	_
+7	capaces	capaz	ADJ	ADJ	_	6	xcomp	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	educar	educar	VERB	VERB	_	7	obl	_	_
+10	e	e	CCONJ	CCONJ	_	11	cc	_	_
+11	sensibilizar	sensibilizar	VERB	VERB	_	9	conj	_	_
+12	ás	á	ADP	ADP	_	13	case	_	_
+13	sociedades	sociedade	NOUN	NOUN	_	11	obl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	en	en	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	respecto	respecto	NOUN	NOUN	_	13	nmod	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	os	o	DET	DET	_	19	det	_	_
+19	dereitos	dereito	NOUN	NOUN	_	16	nmod	_	_
+20	humanos	humano	ADJ	ADJ	_	19	amod	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	as	o	DET	DET	_	23	det	_	_
+23	persoas	persoa	NOUN	NOUN	_	20	nmod	_	_
+24	maiores	maior	ADJ	ADJ	_	23	amod	_	_
+25	e	e	CCONJ	CCONJ	_	26	cc	_	_
+26	en	en	ADP	ADP	_	27	case	_	_
+27	especial	especial	ADJ	ADJ	_	23	nmod	_	_
+28-29	das	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	as	o	DET	DET	_	30	det	_	_
+30	mulleres	muller	NOUN	NOUN	_	27	nmod	_	_
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	que	que	PRON	PRON	_	33	nsubj	_	_
+33	sufrimos	sufrir	VERB	VERB	_	1	parataxis	_	_
+34	maior	maior	ADJ	ADJ	_	33	xcomp	_	_
+35	discriminación	discriminación	NOUN	NOUN	_	34	obj	_	_
+36	porque	porque	SCONJ	SCONJ	_	37	mark	_	_
+37	se	se	PRON	PRON	_	35	ccomp	_	_
+38	nos	nos	PRON	PRON	_	37	obj	_	_
+39	une	unir	VERB	VERB	_	37	xcomp	_	_
+40	a	o	ADP	ADP	_	41	case	_	_
+41	pobreza	pobreza	NOUN	NOUN	_	39	obl	_	_
+42	e	e	CCONJ	CCONJ	_	43	cc	_	_
+43	a	o	ADP	ADP	_	44	case	_	_
+44	incapacidade	incapacidade	NOUN	NOUN	_	41	conj	_	_
+45	económica	económico	ADJ	ADJ	_	44	amod	_	_
+46	e	e	CCONJ	CCONJ	_	47	cc	_	_
+47	funcional	funcional	ADJ	ADJ	_	45	conj	_	_
+48	.	.	PUNCT	PUNCT	_	1	punct	_	_
+```
+
+Note:
+- The UPOS column contains the universal part-of-speech tags.
+- The XPOS column contains language-specific part-of-speech tags (not filled in here as it's not standard practice).
+- The FEATS column contains morphological features (like Definite, Gender, Number for determiners).
+- The HEAD column indicates the index of the syntactic head of the word.
+- The DEPREL column contains the dependency relation between the word and its head.
+- The DEPS column contains enhanced dependency graph information (not always used).
+- The MISC column is for miscellaneous information (not used here).
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Pero	pero	CCONJ	CC	_	3	cc	_	_
+2	Touriño	touriño	PROPN	NP	_	3	nsubj	_	_
+3	agradeceu	agradecer	VERB	V	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	convite	convite	NOUN	N	_	3	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	negou	negar	VERB	V	_	8	aux	_	_
+8	se	se	PRON	SE	_	3	conj	_	_
+9	a	a	PART	AP	_	10	mark	_	_
+10	facer	facer	VERB	V	_	8	xcomp	_	_
+11	o	o	DET	DET	_	12	det	_	_
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	polo	por	ADP	P	_	14	case	_	_
+14	que	que	SCONJ	CS	_	16	mark	_	_
+15	Zitarrosa	zitarrosa	PROPN	NP	_	16	nsubj	_	_
+16	tivo	ter	VERB	V	_	3	advcl	_	_
+17	que	que	SCONJ	CS	_	19	mark	_	_
+18	tomar	tomar	VERB	V	_	19	aux	_	_
+19	clases	clase	NOUN	N	_	16	xcomp	_	_
+20	de	de	ADP	P	_	21	case	_	_
+21	galego	galego	NOUN	N	_	19	nmod	_	_
+22	co	con	ADP	P	_	24	case	_	_
+23	o	o	DET	DET	_	24	det	_	_
+24	seu	seu	NOUN	N	_	21	nmod	_	_
+25	amigo	amigo	NOUN	N	_	24	appos	_	_
+26	antes	antes	ADV	RG	_	28	advmod	_	_
+27	de	de	ADP	P	_	28	mark	_	_
+28	incluir	incluír	VERB	V	_	24	acl	_	_
+29	a	o	DET	DET	_	30	det	_	_
+30	composición	composición	NOUN	N	_	28	obj	_	_
+31	no	en	ADP	P	_	32	case	_	_
+32	seu	seu	NOUN	N	_	30	nmod	_	_
+33	disco	disco	NOUN	N	_	32	appos	_	_
+34	,	,	PUNCT	,	_	38	punct	_	_
+35	convertendo	converter	VERB	V	_	38	aux	_	_
+36	a	o	DET	DET	_	37	det	_	_
+37	así	así	ADV	RG	_	35	obj	_	_
+38	nun	un	ADJ	JJ	_	30	xcomp	_	_
+39	clásico	clásico	NOUN	N	_	38	obj	_	_
+40	do	de	ADP	P	_	41	case	_	_
+41	canto	canto	NOUN	N	_	38	nmod	_	_
+42	popular	popular	ADJ	JJ	_	41	amod	_	_
+43	oriental	oriental	ADJ	JJ	_	41	amod	_	_
+44	.	.	PUNCT	.	_	3	punct	_	_
+```
+
+Please note that the language of the input sentence is Galician, so the lemmas and forms are in Galician. The Universal Dependencies (UD) scheme is designed to be language-agnostic, so the POS tags and dependency relations should be the same across languages.
+Raw model output for sentence :
+```conllu
+1-2	Ponse	ponse	VERB	_	_	0	root	_	_
+1	Pon	poñer	VERB	_	Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	1	nsubj	_	_
+3	tamén	tamén	ADV	_	_	2	advmod	_	_
+4	especial	especial	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	énfase	énfase	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nmod	_	_
+8	necesidade	necesidade	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	coordinación	coordinación	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+13	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+14	administracións	administración	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nmod	_	_
+17	prevención	prevención	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	combate	combate	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+22	incendios	incendio	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag according to the Universal POS tagset.
+* **XPOS:** Language-specific part-of-speech tag (not used here as we are working with Galician).
+* **FEATS:** Morphological features (like Gender, Number, Tense, etc.).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Dependency relation stack (not typically used in CoNLL-U format).
+* **MISC:** Miscellaneous information (like named entity types, sentiment, etc.).
+
+**Key Decisions:**
+
+* **Root:** The root of the sentence is the verb "Ponse" (1-2), which expresses the main action.
+* **Subject:** "Ponse" is an impersonal verb construction, so there is no explicit subject.
+
+* **Object:** "énfase" (5) is the direct object of "Ponse", receiving the action of the verb.
+* **Prepositional Phrases:** Several prepositional phrases are identified, like "na necessidade de coordinación" (8-10) and "na prevención e combate dos incendios" (17-22).
+* **Conjunctions:** "tamén" (3), "e" (18), and "dos" (20) are coordinating conjunctions.
+
+* **Determiners:**  "a" (7, 16), "as" (12), and "os" (21) are definite articles.
+
+This annotation provides a basic syntactic analysis of the sentence, capturing its grammatical structure and relationships between words.
+Raw model output for sentence :
+```conll
+1	Nas	Nas	ADV	ADV	_	3	advmod	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	análises	análise	NOUN	NOUN	_	14	nsubj	_	_
+4	iniciais	inicial	ADJ	ADJ	_	3	amod	_	_
+5-6	introducíronse	introducir	VERB	VERB	_	3	dep	_	_
+5	introduciron	introducir	VERB	VERB	_	5-6	ROOT	_	_
+6	se	se	PRON	PRON	_	5-6	dep	_	_
+7	todas	todo	DET	DET	_	8	det	_	_
+8	aquelas	aquel	ADJ	ADJ	_	9	amod	_	_
+9	variables	variable	NOUN	NOUN	_	11	obj	_	_
+10	que	que	PRON	PRON	_	11	nsubj	_	_
+11	poderían	poder	VERB	VERB	_	5-6	ccomp	_	_
+12	axudar	axudar	VERB	VERB	_	11	xcomp	_	_
+13	a	a	ADP	ADP	_	14	mark	_	_
+14	clasificar	clasificar	VERB	VERB	_	0	root	_	_
+15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	falantes	falante	NOUN	NOUN	_	14	obj	_	_
+17	dunha	de	ADP	ADP	_	18	case	_	_
+18	de	de	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	unha	un	DET	DET	_	20	det	_	_
+20	e	e	CCONJ	CONJ	_	23	cc	_	_
+21	doutra	de	ADP	ADP	_	23	case	_	_
+22	de	de	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	outra	outro	ADJ	ADJ	_	16	nmod	_	_
+24	lingua	lingua	NOUN	NOUN	_	23	obj	_	_
+25	.	.	PUNCT	.	_	14	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET, ADV).
+* **XPOS:** Language-specific part-of-speech tag (not used in this case as it's a general annotation task).
+* **FEATS:** Morphological features (e.g., Number=Sing, Gender=Masc).
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used).
+* **MISC:** Any other miscellaneous information.
+
+**Key Decisions:**
+
+* **5-6:**  The verb "introducironse" is split into two tokens ("introduciron" and "se") to reflect its morphological structure. The auxiliary "se" is considered a pronoun and linked to the main verb "introduciron" with a dep relation.
+* **11:**  "Poderían" is tagged as a verb in the subjunctive mood.
+* **14:** "Clasificar" is the main verb of the sentence and takes "os falantes" as its object.
+* **16-24:** The phrase "os falantes dunha de unha e doutra de outra lingua" is annotated as a nominal phrase modifying the verb "clasificar."
+
+This annotation follows the guidelines of the Universal Dependencies project, aiming to capture the syntactic structure of the sentence in a language-agnostic way.
+Raw model output for sentence :
+```conllu
+1	Os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cadros	cadro	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	4.2.15	4.2.15	X	X	_	2	appos	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
+6	4.2.16	4.2.16	X	X	_	3	appos	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+8	mostran	mostrar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	importacións	importación	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	exportacións	exportación	NOUN	NOUN	Gender=Fem|Number=Plur	10	conj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	produtos	produto	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	_
+17	industria	industria	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+18	manufactureira	manufactureiro	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19	segundo	segundo	ADP	ADP	_	20	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nivel	nivel	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound	_	_
+22	tecnolóxico	tecnolóxico	ADJ	ADJ	Gender=Masc|Number=Sing	18	appos	_	_
+23	distribuídas	distribuír	VERB	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+24	por	por	ADP	ADP	_	25	case	_	_
+25	provincias	provincia	NOUN	NOUN	Gender=Fem|Number=Plur	23	obl	_	_
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+```
+Raw model output for sentence :
+```conll
+1	Ante	ante	ADP	ADP	_	2	mark	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	diagnostico	diagnóstico	NOUN	NOUN	_	14	nsubj	_	_
+4-5	dun	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	un	um	DET	DET	_	6	det	_	_
+6	cancro	cancro	NOUN	NOUN	_	3	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	mama	mama	NOUN	NOUN	_	6	nmod	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	normal	normal	ADJ	ADJ	_	3	amod	_	_
+11	que	que	SCONJ	SCONJ	_	12	mark	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	paciente	paciente	NOUN	NOUN	_	18	nsubj	_	_
+14	chore	chorar	VERB	VERB	_	0	root	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	non	non	PART	PART	_	18	advmod	_	_
+17	se	se	PRON	PRON	_	18	obj	_	_
+18	considera	considerar	VERB	VERB	_	14	conj	_	_
+19	prexudicial	prexudicial	ADJ	ADJ	_	18	xcomp	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	posto	posto	VERB	VERB	_	18	parataxis	_	_
+22	que	que	SCONJ	SCONJ	_	23	mark	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	bagoas	bagoar	NOUN	NOUN	_	21	nsubj	_	_
+25	axudaran	axudar	VERB	VERB	_	21	xcomp	_	_
+26	a	a	ADP	ADP	_	27	mark	_	_
+27	alivia-lo	aliviar	VERB	VERB	_	25	obj	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	estres	estrar	NOUN	NOUN	_	27	obj	_	_
+30	que	que	SCONJ	SCONJ	_	31	mark	_	_
+31	esta	este	VERB	VERB	_	29	acl:relcl	_	_
+32	padecendo	padecer	VERB	VERB	_	31	xcomp	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pranto	pranto	NOUN	NOUN	_	31	obj	_	_
+36	forma	forma	VERB	VERB	_	35	cop	_	_
+37	parte	parte	NOUN	NOUN	_	36	obj	_	_
+38-39	deste	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
+39	este	este	DET	DET	_	40	det	_	_
+40	proceso	proceso	NOUN	NOUN	_	37	nmod	_	_
+41	de	de	ADP	ADP	_	42	case	_	_
+42	aceptacion	aceptación	NOUN	NOUN	_	40	nmod	_	_
+43	e	e	CCONJ	CONJ	_	44	cc	_	_
+44	adaptacion	adaptación	NOUN	NOUN	_	42	conj	_	_
+45-46	da	_	_	_	_	_	_	_	_
+45	de	de	ADP	ADP	_	46	case	_	_
+46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	enfermidade	enfermidade	NOUN	NOUN	_	44	nmod	_	_
+48	.	.	PUNCT	.	_	14	punct	_	_
+```
+
+ **Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADP, DET, etc.)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Gender, Number, Tense)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Miscellaneous information (e.g., named entities)
+
+
+
+I've made some assumptions about the intended meaning and context of the sentence. 
+Please note that some relationships might be open to interpretation.
+Raw model output for sentence :
+```conllu
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	perspectivas	perspectiva	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+5	laborais	laboral	ADJ	ADJ	Gender=Fem|Number=Plur	4	amod	_	_
+6	,	,	PUNCT	.	_	0	root	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	flexibilidade	flexibilidade	NOUN	NOUN	Gender=Fem|Number=Sing	2	conj	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	as	o	DET	DET	_	11	det	_	_
+11	normas	norma	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	convivencia	convivencia	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	en	en	ADP	ADP	_	15	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fogar	fogar	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+19	custos	custo	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
+20-21	da	_	_	_	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vida	vida	NOUN	NOUN	Gender=Fem|Number=Sing	6	conj	_	_
+23-24	postergáronnos	_	VERB	VERB	_	22	acl:relcl	_	_
+23	postergaron	postergar	VERB	VERB	_	24	aux	_	_
+24	nos	nos	PRON	PRON	_	23	nsubj	_	_
+25	a	a	PART	PART	_	26	mark	_	_
+26	vivir	vivir	VERB	VERB	_	22	xcomp	_	_
+27	unha	un	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	situación	situación	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	xuventude	xuventude	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
+31	forzosa	forzoso	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
+33	perpetua	perpetuo	ADJ	ADJ	Gender=Fem|Number=Sing	30	conj	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
+35	condicionando	condicionar	VERB	VERB	_	6	parataxis	_	_
+36	ata	ata	ADP	ADP	_	37	case	_	_
+37	certo	certo	ADJ	ADJ	Gender=Masc|Number=Sing	35	obl	_	_
+38	grao	grao	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	nosa	noso	NOUN	NOUN	Gender=Fem|Number=Sing|Poss=Yes	35	obl	_	_
+41	relación	relación	NOUN	NOUN	Gender=Fem|Number=Sing	40	nmod	_	_
+42-43	coas	_	_	_	_	42	case	_	_
+42	con	con	ADP	ADP	_	43	case	_	_
+43	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	nmod	_	_
+44	drogas	droga	NOUN	NOUN	Gender=Fem|Number=Plur	43	nmod	_	_
+45	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expresión	expresión	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	destas	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	2	nmod	_	_
+5	situacións	situación	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	acoso	acoso	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+8	psicolóxico	psicolóxico	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	pode	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+10-11	manifestarse	_	_	_	_	_	_	_	_
+10	manifestar	manifestar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
+11	se	se	PRON	PRON	_	10	obj	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	través	través	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	distintas	distinto	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+16	actitudes	actitude	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	comportamentos	comportamento	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+19	por	por	ADP	ADP	_	21	case	_	_
+20	parte	parte	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	_
+23	acosador	acosador	NOUN	NOUN	Gender=Masc|Number=Sing	22	appos	_	_
+24	ou	ou	CCONJ	CONJ	_	25	cc	_	_
+25	acosadora	acosadora	NOUN	NOUN	Gender=Fem|Number=Sing	23	conj	_	_
+26	:	:	PUNCT	.	_	7	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** This column specifies the universal part of speech tag for each word.
+
+* **XPOS:** This column is left blank as it's optional and typically used for language-specific POS tags.
+
+* **FEATS:** This column contains morphological features like gender, number, tense, etc. when applicable.
+
+* **HEAD:** This column indicates the index of the syntactic head of each word.
+
+* **DEPREL:** This column specifies the dependency relation between the word and its head.
+
+* **DEPS:** This column is left blank as it's optional and used for enhanced dependency relations.
+
+* **MISC:** This column is left blank as it's optional and used for miscellaneous annotations.
+
+**Some key dependency relations used:**
+
+* **root:** The main predicate of the sentence.
+* **det:** Determiner.
+* **nsubj:** Nominal subject.
+* **aux:** Auxiliary verb.
+* **xcomp:** Open clausal complement.
+* **amod:** Adjectival modifier.
+* **case:** Case marking.
+* **obj:** Object.
+* **conj:** Conjunction.
+* **appos:** Apposition.
+* **cc:** Coordinating conjunction.
+* **nmod:** Nominal modifier.
+* **punct:** Punctuation.
+Raw model output for sentence :
+```conllu
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	propostas	proposta	NOUN	NOUN	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	loita	loita	NOUN	NOUN	_	2	nmod	_	_
+6	contra	contra	ADP	ADP	_	7	case	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	causas	causa	NOUN	NOUN	_	2	nmod	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	incendios	incendio	NOUN	NOUN	_	8	nmod	_	_
+12	son	ser	AUX	AUX	_	2	cop	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mesmas	mesmo	ADJ	ADJ	_	2	conj	_	_
+15	que	que	CCONJ	CONJ	_	16	cc	_	_
+16	han	haber	AUX	AUX	_	2	aux	_	_
+17	de	de	ADP	ADP	_	18	mark	_	_
+18	ter	ter	VERB	VERB	_	2	xcomp	_	_
+19	en	en	ADP	ADP	_	20	case	_	_
+20	conta	conta	NOUN	NOUN	_	18	obj	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tan	tan	ADV	ADV	_	20	nmod	_	_
+23	necesaria	necesario	ADJ	ADJ	_	24	amod	_	_
+24	ordenación	ordenación	NOUN	NOUN	_	20	nmod	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	nmod	_	_
+27	montes	monte	NOUN	NOUN	_	26	nmod	_	_
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN for noun, VERB for verb, DET for determiner).
+* **XPOS:** Language-specific part-of-speech tag (often the same as UPOS for Portuguese).
+* **FEATS:** Morphological features (e.g., Gender, Number, Tense).
+* **HEAD:** The index of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used).
+* **MISC:** Miscellaneous information (e.g., punctuation marks).
+
+
+
+**Notes:**
+
+* I've assumed the sentence is in Portuguese, based on some words.
+
+* Some relations are more complex and might be open to interpretation.
+
+* The `FEATS` column includes features like `Gender`, `Number`, and `PronType` for nouns and determiners, and tense and mood for verbs.
+
+* The `HEAD` and `DEPREL` columns are crucial for understanding the sentence structure. For example, "propostas" (proposals) is the head of "da loita" (of the fight), indicating that the phrase modifies "propostas".
+Raw model output for sentence :
+```conll
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	continuación	continuación	NOUN	NOUN	_	0	root	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	propoñémoslle	propoñer	VERB	VERB	_	2	parataxis	_	_
+5	lle	lle	PRON	PRON	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6	unha	un	DET	DET	_	7	det	_	_
+7	serie	serie	NOUN	NOUN	_	4	obj	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	pequenos	pequeno	ADJ	ADJ	_	7	nmod	_	_
+10	hábitos	hábito	NOUN	NOUN	_	7	nmod	_	_
+11	cotiáns	cotián	ADJ	ADJ	_	10	amod	_	_
+12	que	que	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	14	nsubj	_	_
+13	lle	lle	PRON	PRON	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	axudarán	axudar	VERB	VERB	_	7	acl:relcl	_	_
+15	a	a	ADP	ADP	_	16	mark	_	_
+16	reducir	reducir	VERB	VERB	_	14	xcomp	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	consumo	consumo	NOUN	NOUN	_	16	obj	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	enerxía	enerxía	NOUN	NOUN	_	18	nmod	_	_
+21	ata	ata	ADP	ADP	_	22	case	_	_
+22	un	un	NUM	NUM	NumType=Card	18	nmod	_	_
+23	20	20	NUM	NUM	NumType=Card	22	nummod	_	_
+24	%	%	SYM	SYM	_	22	compound	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
+26	o	o	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	que	que	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
+28	se	se	PRON	PRON	Case=Acc|Person=3|PronType=Prs	22	apmod	_	_
+29	traduciría	traducir	VERB	VERB	_	26	ccomp	_	_
+30	nun	un	DET	DET	_	31	det	_	_
+31	en	en	ADP	ADP	_	32	case	_	_
+32	un	un	NUM	NUM	NumType=Card	28	nmod	_	_
+33	aforro	aforro	NOUN	NOUN	_	32	compound	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	aproximadamente	aproximadamente	ADV	ADV	_	33	nmod	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	5,20	5,20	NUM	NUM	NumType=Card	35	nmod	_	_
+38	euros	euro	NOUN	NOUN	_	37	unit	_	_
+39	en	en	ADP	ADP	_	40	case	_	_
+40	cada	cada	DET	DET	_	41	det	_	_
+41	factura	factura	NOUN	NOUN	_	37	nmod	_	_
+42	.	.	PUNCT	.	_	2	punct	_	_
+
+```
+ **Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, DET, ADP)
+* **XPOS:** Language-specific POS tag (not always used)
+* **FEATS:** Morphological features (e.g., Number, Gender, Tense)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:**  Miscellaneous information (e.g., punctuation marks)
+
+
+
+I've tried to accurately reflect the grammatical structure of the sentence.  Let me know if you have any further questions.
+Raw model output for sentence :
+```conllu
+1	Ademais	ademais	ADV	ADV	_	18	advmod	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	compoñentes	compoñente	NOUN	NOUN	_	18	nsubj	_	_
+5	cíclicos	cíclico	ADJ	ADJ	_	4	amod	_	_
+6	favorables	favorable	ADJ	ADJ	_	4	amod	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	a	o	DET	DET	_	9	det	_	_
+9	concesión	concesión	NOUN	NOUN	_	18	obj	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	licencias	licencia	NOUN	NOUN	_	9	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	telefonía	telefonía	NOUN	NOUN	_	11	nmod	_	_
+14	móbil	móbil	ADJ	ADJ	_	13	amod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	terceira	terceiro	ADJ	ADJ	_	17	amod	_	_
+17	xeración	xeración	NOUN	NOUN	_	13	nmod	_	_
+18	abriu	abrir	VERB	VERB	_	0	root	_	_
+19	unha	un	DET	DET	_	20	det	_	_
+20	nova	novo	ADJ	ADJ	_	21	amod	_	_
+21	vía	vía	NOUN	NOUN	_	18	obj	_	_
+22	para	para	ADP	ADP	_	23	case	_	_
+23	a	o	DET	DET	_	24	det	_	_
+24	obtención	obtención	NOUN	NOUN	_	21	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	ingresos	ingreso	NOUN	NOUN	_	24	nmod	_	_
+27	que	que	PRON	PRON	_	28	nsubj	_	_
+28	podería	poder	VERB	VERB	_	26	acl:relcl	_	_
+29-30	empregarse	_	_	_	_	_	_	_	_
+29	empregar	empregar	VERB	VERB	_	28	xcomp	_	_
+30	se	se	PRON	PRON	_	29	obj	_	_
+31	para	para	ADP	ADP	_	32	mark	_	_
+32	reducir	reducir	VERB	VERB	_	29	xcomp	_	_
+33	a	o	DET	DET	_	34	det	_	_
+34	débeda	débeda	NOUN	NOUN	_	32	obj	_	_
+35	pública	público	ADJ	ADJ	_	34	amod	_	_
+36	.	.	PUNCT	.	_	18	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Por	por	ADP	ADP	_	3	case	_	_
+2	outra	outro	DET	DET	_	3	det	_	_
+3	parte	parte	NOUN	NOUN	_	14	obl	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	para	para	ADP	ADP	_	6	mark	_	_
+6	avaliar	avaliar	VERB	VERB	_	0	root	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	volume	volume	NOUN	NOUN	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	desemprego	desemprego	NOUN	NOUN	_	8	nmod	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	sobre	sobre	ADP	ADP	_	18	case	_	_
+15	todo	todo	DET	DET	_	16	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	súa	seu	NOUN	NOUN	_	14	obl	_	_
+18	incidencia	incidencia	NOUN	NOUN	_	6	conj	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	en	en	ADP	ADP	_	20	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	xeneración	xeneración	NOUN	NOUN	_	18	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	pobreza	pobreza	NOUN	NOUN	_	18	nmod	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
+26	é	ser	AUX	AUX	_	18	cop	_	_
+27	necesario	necesario	ADJ	ADJ	_	26	xcomp	_	_
+28	afinar	afinar	VERB	VERB	_	27	xcomp	_	_
+29	suficientemente	suficiente	ADV	ADV	_	28	advmod	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	en	en	ADP	ADP	_	31	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	manexo	manexo	NOUN	NOUN	_	28	obl	_	_
+33-34	dos	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	os	o	DET	DET	_	35	det	_	_
+35	datos	dato	NOUN	NOUN	_	28	obj	_	_
+36	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	transcendencia	transcendencia	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	deste	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+5	medio	medio	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+6	pode	poder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quedar	quedar	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
+8	ben	ben	ADV	ADV	_	7	advmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	manifesto	manifesto	ADJ	ADJ	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	nun	_	_	_	_	_	_	_	_
+11	en	en	ADP	ADP	_	12	case	_	_
+12	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	_
+13	estudo	estudo	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+14	sobre	sobre	ADP	ADP	_	15	case	_	_
+15	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	13	nmod	_	_
+16	conxunto	conxunto	NOUN	NOUN	Gender=Masc|Number=Sing	15	appos	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	140	140	NUM	NUM	NumType=Card	16	nummod	_	_
+19	artigos	artigo	NOUN	NOUN	Gender=Masc|Number=Plur	16	appos	_	_
+20	científicos	científico	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	_
+21	publicados	publicar	VERB	VERB	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
+22-23	nestes	_	_	_	_	_	_	_	_
+22	en	en	ADP	ADP	_	23	case	_	_
+23	estes	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	21	obl	_	_
+24	xornais	xornal	NOUN	NOUN	Gender=Masc|Number=Plur	23	appos	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	os	o	DET	DET	Gender=Masc|Number=Plur|PronType=Def	24	nmod	_	_
+28	que	que	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	29	nsubj	_	_
+29	o	o	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	84	84	NUM	NUM	NumType=Card	27	nummod	_	_
+31	%	%	SYM	SYM	_	30	dep	_	_
+32	tiñan	ter	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	acl	_	_
+33	como	como	ADP	ADP	_	34	case	_	_
+34	orixe	orixe	NOUN	NOUN	Gender=Fem|Number=Sing	32	obl	_	_
+35	os	o	DET	DET	Gender=Masc|Number=Plur|PronType=Def	34	det	_	_
+36	press	press	NOUN	NOUN	Foreign=Yes	34	appos	_	_
+37	realease	realease	NOUN	NOUN	Foreign=Yes	36	appos	_	_
+38	(	(	PUNCT	.	_	39	punct	_	_
+39	Semir	semir	X	X	Foreign=Yes	6	parataxis	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
+41	V.	v.	X	X	Foreign=Yes	39	flat	_	_
+```
+Raw model output for sentence :
+```conllu
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	certo	certo	NOUN	NOUN	_	14	nsubj	_	_
+3	é	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	que	que	SCONJ	SCONJ	_	5	mark	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	novos	novo	ADJ	ADJ	_	7	amod	_	_
+7	sistemas	sistema	NOUN	NOUN	_	2	ccomp	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	produción	produción	NOUN	NOUN	_	7	nmod	_	_
+10	flexible	flexible	ADJ	ADJ	_	9	amod	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	consistentes	consistente	ADJ	ADJ	_	9	amod	_	_
+13-14	nun	_	_	_	_	_	_	_	_
+13	en	en	ADP	ADP	_	15	case	_	_
+14	un	un	DET	DET	_	15	det	_	_
+15	cambio	cambio	NOUN	NOUN	_	12	nmod	_	_
+16	rápido	rápido	ADJ	ADJ	_	15	amod	_	_
+17-18	dunha	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	unha	un	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	liña	liña	NOUN	NOUN	_	15	nmod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	produción	produción	NOUN	NOUN	_	19	nmod	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	que	que	PRON	PRON	_	24	nsubj	_	_
+24	producen	producir	VERB	VERB	_	19	acl:relcl	_	_
+25	para	para	ADP	ADP	_	26	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	momento	momento	NOUN	NOUN	_	24	obj	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	apenas	apenas	ADV	ADV	_	30	advmod	_	_
+30	manteñen	manter	VERB	VERB	_	24	conj	_	_
+31	existencias	existencia	NOUN	NOUN	_	30	obj	_	_
+32	mínimas	mínimo	ADJ	ADJ	_	31	amod	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	produtos	produto	NOUN	NOUN	_	31	nmod	_	_
+35	,	,	PUNCT	.	_	36	punct	_	_
+36	requiren	requirir	VERB	VERB	_	7	acl:relcl	_	_
+37	un	un	DET	DET	_	39	det	_	_
+38	novo	novo	ADJ	ADJ	_	39	amod	_	_
+39	perfil	perfil	NOUN	NOUN	_	36	obj	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	traballador	traballador	NOUN	NOUN	_	39	nmod	_	_
+42	/	/	PUNCT	.	_	43	punct	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	.	.	PUNCT	.	_	2	punct	_	_
+
+```
+Please note that the Universal Dependencies scheme might not perfectly capture all the nuances of the Galician language, especially in terms of verb conjugations and noun gender/number agreements. The provided annotation is based on the best practices and guidelines available for the Universal Dependencies project.
+Raw model output for sentence :
+```conllu
+1	Esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	lista	lista	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+3	tamén	tamén	ADV	ADV	_	2	advmod	_	_
+4	se	se	PRON	PRON	Person=3|PronType=Prs|Reflex=Yes	6	nsubj	_	_
+5	poderá	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	consultar	consultar	VERB	VERB	Conjugated=Yes|Form=Inf|VerbForm=Inf	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	en	en	ADP	ADP	_	10	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	teléfono	teléfono	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound	_	_
+10	de	de	ADP	ADP	_	14	nmod	_	_
+11	información	información	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Consellería	consellería	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Innovación	innovación	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	Industria	industria	NOUN	NOUN	Gender=Fem|Number=Sing	16	appos	_	_
+19	e	e	CCONJ	CCONJ	_	20	cc	_	_
+20	Comercio	comercio	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+21	(	(	PUNCT	.	_	26	punct	_	_
+22	981	981	NUM	NUM	NumType=Card	26	nummod	_	_
+23	54	54	NUM	NUM	NumType=Card	22	nummod	_	_
+24	43	43	NUM	NUM	NumType=Card	23	nummod	_	_
+25	41	41	NUM	NUM	NumType=Card	24	nummod	_	_
+26	)	)	PUNCT	.	_	20	punct	_	_
+27	e	e	CCONJ	CCONJ	_	28	cc	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	en	en	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	páxina	páxina	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+31	web	web	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Xunta	xunta	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	Galicia	galicia	PROPN	PROPN	Gender=Fem|Number=Sing	34	nmod	_	_
+37	(	(	PUNCT	.	_	38	punct	_	_
+38	www.xunta.es	www.xunta.es	X	X	_	36	appos	_	_
+39	)	)	PUNCT	.	_	38	punct	_	_
+40	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	As	o	DET	DET	_	2	det	_	_
+2	áreas	área	NOUN	NOUN	_	6	nsubj	_	_
+3	pavimentadas	pavimentar	VERB	VERB	_	2	amod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	a	o	DET	DET	_	6	det	_	_
+6	granxa	granxa	NOUN	NOUN	_	0	root	_	_
+7	tamén	tamén	ADV	ADV	_	8	advmod	_	_
+8	se	se	PRON	PRON	_	9	nsubj	_	_
+9	limpan	limpar	VERB	VERB	_	6	acl	_	_
+10	mediante	mediante	ADP	ADP	_	11	case	_	_
+11	un	un	DET	DET	_	12	det	_	_
+12	varrido	varrido	NOUN	NOUN	_	9	obl	_	_
+13	ou	ou	CCONJ	CONJ	_	14	cc	_	_
+14	empregando	empregar	VERB	VERB	_	9	conj	_	_
+15	un	un	DET	DET	_	16	det	_	_
+16	sistema	sistema	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	pulverización	pulverización	NOUN	NOUN	_	16	nmod	_	_
+19	con	con	ADP	ADP	_	20	case	_	_
+20	auga	auga	NOUN	NOUN	_	18	nmod	_	_
+21	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Das	pron	DET	_	_	2	det	_	_
+2	as	pron	DET	_	_	0	root	_	_
+3	dúas	num	NUM	_	_	2	nummod	_	_
+4	,	punct	,	_	_	2	punct	_	_
+5	a	pron	DET	_	_	6	det	_	_
+6	salmonícola	adj	ADJ	_	_	2	appos	_	_
+7	presenta	verb	VERB	_	_	2	acl	_	_
+8	unha	pron	DET	_	_	9	det	_	_
+9	calidade	noun	NOUN	_	_	7	obj	_	_
+10	máis	adv	ADV	_	_	9	advmod	_	_
+11	elevada	adj	ADJ	_	_	9	amod	_	_
+12	,	punct	,	_	_	2	punct	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	pron	DET	_	_	14	det	_	_
+14	o	pron	DET	_	_	15	obj	_	_
+15	necesitar	verb	VERB	_	_	7	parataxis	_	_
+16	as	pron	DET	_	_	17	det	_	_
+17	especies	noun	NOUN	_	_	15	obj	_	_
+18	que	pron	PRON	_	_	19	nsubj	_	_
+19	viven	verb	VERB	_	_	17	acl:relcl	_	_
+20	ou	conj	CCONJ	_	_	21	cc	_	_
+21	poderían	verb	VERB	_	_	19	conj	_	_
+22	vivir	verb	VERB	_	_	21	xcomp	_	_
+23-24	neste	_	_	_	_	_	_	_	_
+23	en	adv	ADP	_	_	24	case	_	_
+24	este	pron	DET	_	_	22	obl	_	_
+25	tipo	noun	NOUN	_	_	24	nmod	_	_
+26	de	adv	ADP	_	_	27	case	_	_
+27	auga	noun	NOUN	_	_	25	nmod	_	_
+28	,	punct	,	_	_	22	punct	_	_
+29	maior	adj	ADJ	_	_	30	amod	_	_
+30	osíxeno	noun	NOUN	_	_	22	obj	_	_
+31	para	adv	ADP	_	_	32	case	_	_
+32	o	pron	DET	_	_	33	obj	_	_
+33	seu	pron	DET	_	_	34	nmod:poss	_	_
+34	desenvolvemento	noun	NOUN	_	_	30	nmod	_	_
+35	,	punct	,	_	_	30	punct	_	_
+36	indicador	noun	NOUN	_	_	30	appos	_	_
+37-38	dunha	_	_	_	_	_	_	_	_
+37	de	adv	ADP	_	_	38	case	_	_
+38	unha	pron	DET	_	_	36	obj	_	_
+39	maior	adj	ADJ	_	_	40	amod	_	_
+40	calidade	noun	NOUN	_	_	38	nmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	adv	ADP	_	_	42	case	_	_
+42	a	pron	DET	_	_	43	obj	_	_
+43	auga	noun	NOUN	_	_	40	nmod	_	_
+44	.	punct	.	_	_	2	punct	_	_
+
+```
+
+**Explanation:**
+
+* **UPOS:** Universal Part-of-Speech tag (e.g., NOUN, VERB, DET, ADP)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number=Sing, Gender=Masc)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The dependency relation between the current token and its head.
+* **DEPS:** Enhanced dependency graph dependencies (not always used)
+* **MISC:** Miscellaneous annotations (e.g., named entities)
+
+**Notes:**
+
+* I've made some assumptions about the intended meaning of the text, especially regarding the relationships between certain words.
+* The `FEATS` column includes features like gender, number, and tense when applicable.
+* The `HEAD` and `DEPREL` columns define the syntactic structure of the sentence. For instance, "salmonícola" is a modifier (appositional modifier) of "as" (2), and "presenta" (7) is the verb governing the subject "a salmonícola" (6).
+* This annotation aims to be a good-faith interpretation. Expert annotators might make different choices depending on their specific guidelines and theoretical framework.
+Raw model output for sentence :
+Here is the sentence annotated using the Universal Dependencies standard in CoNLL-U format:
+
+```conllu
+1	Poden	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	achegarse	achegar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Servizo	servizo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Prevención	prevención	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Drogodependenciad	drogodependenciad	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	do	de	ADP	_	_	11	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Concello	concello	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Lugo	lugo	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	no	no	PART	_	_	19	aux	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	poderán	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+20	solicitar	solicitar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	assoramento	assoramento	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	información	información	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	coma	coma	SCONJ	_	_	28	mark	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
+28	fichas	ficha	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	axuda	axuda	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+31	:	:	PUNCT	_	_	1	punct	_	_
+```
+
+Note:
+- The UPOS column contains the part-of-speech tags.
+- The XPOS column is left empty as it is language-specific and not always used.
+- The FEATS column contains morphological features, such as gender, number, and definiteness.
+- The HEAD column indicates the index of the head word of each word's phrase.
+- The DEPREL column contains the syntactic relation between the word and its head.
+- The DEPS column is optional and can contain enhanced dependency relations.
+- The MISC column is also optional and can contain miscellaneous information.
+Raw model output for sentence :
+```conllu
+1	Depende	depender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tamaño	tamaño	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	_	_	7	cc	_	_
+6	da	de	ADP	_	_	7	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	conj	_	_
+8	dirección	dirección	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+9	dos	de	ADP	_	_	11	case	_	_
+10	de	de	DET	_	_	11	det	_	_
+11	os	o	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	catro	catro	NUM	_	NumType=Card	11	nummod	_	_
+13	gaps	gaps	NOUN	_	Gender=Masc|Number=Plur	11	appos	_	_
+14	asociados	asociar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	13	acl	_	_
+15	coa	con	ADP	_	_	17	case	_	_
+16	con	con	ADP	_	_	17	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	obl	_	_
+18	prestación	prestación	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	calidade	calidade	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	servizo	servizo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	do	de	ADP	_	_	25	case	_	_
+24	de	de	DET	_	_	25	det	_	_
+25	o	o	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	lado	lado	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
+27	do	de	ADP	_	_	29	case	_	_
+28	de	de	DET	_	_	29	det	_	_
+29	o	o	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	seu	seu	DET	_	_	29	det:poss	_	_
+31	provedor	provedor	NOUN	_	Gender=Masc|Number=Sing	29	appos	_	_
+32	.	.	PUNCT	_	_	1	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Indagando	indagar	VERB	VERB	_	0	root	_	_
+2	nesta	_	DET	DET	_	4	det	_	_
+3	en	en	ADP	ADP	_	4	case	_	_
+4	esta	este	DET	DET	_	1	obl	_	_
+5	relación	relación	NOUN	NOUN	_	1	obl	_	_
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	observamos	observar	VERB	VERB	_	1	parataxis	_	_
+8	que	que	SCONJ	SCONJ	_	10	mark	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	das	de	ADP	ADP	_	12	case	_	_
+11	de	de	DET	DET	_	12	det	_	_
+12	as	o	DET	DET	_	7	nsubj	_	_
+13	posicións	posición	NOUN	NOUN	_	12	nmod	_	_
+14	que	que	PRON	PRON	_	15	nsubj	_	_
+15	presentaban	presentar	VERB	VERB	_	13	acl	_	_
+16	arancel	arancel	NOUN	NOUN	_	15	obj	_	_
+17	non	non	PART	PART	_	18	neg	_	_
+18	nulo	nulo	ADJ	ADJ	_	16	amod	_	_
+19	no	en	ADP	ADP	_	21	case	_	_
+20	ano	ano	NOUN	NOUN	_	21	nmod	_	_
+21	1985	1985	NUM	NUM	_	18	obl	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	o	o	DET	DET	_	24	det	_	_
+24	82	82	NUM	NUM	_	27	nummod	_	_
+25	%	%	SYM	SYM	_	24	compound	_	_
+26	tiñan	ter	VERB	VERB	_	27	cop	_	_
+27	unha	un	DET	DET	_	30	nsubj	_	_
+28	protección	protección	NOUN	NOUN	_	30	obj	_	_
+29	arancelaria	arancelario	ADJ	ADJ	_	28	amod	_	_
+30	fronte	fronte	NOUN	NOUN	_	15	xcomp	_	_
+31	a	o	DET	DET	_	32	det	_	_
+32	terceiros	terceiro	NOUN	NOUN	_	30	obl	_	_
+33	un	un	DET	DET	_	34	det	_	_
+34	33	33	NUM	NUM	_	37	nummod	_	_
+35	%	%	SYM	SYM	_	34	compound	_	_
+36	máis	máis	ADV	ADV	_	37	advmod	_	_
+37	elevada	elevado	ADJ	ADJ	_	30	xcomp	_	_
+38	que	que	SCONJ	SCONJ	_	40	mark	_	_
+39	fronte	fronte	NOUN	NOUN	_	40	obl	_	_
+40	á	a	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	_	42	det	_	_
+42	CE-10	ce-10	PROPN	PNOUN	_	37	obl	_	_
+43	.	.	PUNCT	.	_	1	punct	_	_
+
+```
+
+ **Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, DET, ADJ)
+* **XPOS:** Language-specific part-of-speech tag (not always used)
+* **FEATS:** Morphological features (e.g., Number=Sing, Gender=Masc)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Miscellaneous information (e.g., punctuation marks)
+
+
+
+**Notes:**
+
+* I've assumed the text is in Galician.
+
+*  Some relationships are more complex and require further context or linguistic knowledge to determine accurately.
+
+* The `FEATS` column is left empty as we don't have enough information about the specific morphological features of each word.
+
+*  Make sure to install and use a proper Galician treebank or dependency parser for more accurate annotations.
+Raw model output for sentence :
+```conll
+1	Esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	conclusión	conclusión	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	lévanos	_	_	_	_	_	_	_
+3	levan	levar	VERB	VERB	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	dep	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	a	a	ADP	ADP	_	6	case	_	_
+6	analizar	analizar	VERB	VERB	InfForm=Inf	2	dep	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	concepto	concepto	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	"	"	PUNCT	PUNCT	_	11	punct	_	_
+11	interlocutor	interlocutor	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+12	"	"	PUNCT	PUNCT	_	11	punct	_	_
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	participante	participante	NOUN	NOUN	Gender=Masc|Number=Sing	11	appos	_	_
+15	ou	ou	CCONJ	CCONJ	_	16	cc	_	_
+16	"	"	PUNCT	PUNCT	_	17	punct	_	_
+17	actor	actor	NOUN	NOUN	Gender=Masc|Number=Sing	14	appos	_	_
+18	"	"	PUNCT	PUNCT	_	17	punct	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	isto	isto	PRON	PRON	Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	_
+21	é	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	a	a	ADP	ADP	_	24	case	_	_
+24	considerar	considerar	VERB	VERB	InfForm=Inf	20	dep	_	_
+25	cada	cada	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
+26	unha	un	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	das	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	nmod	_	_
+29	partes	parte	NOUN	NOUN	Gender=Fem|Number=Plur	28	appos	_	_
+30	ou	ou	CCONJ	CCONJ	_	31	cc	_	_
+31	colectivos	colectivo	NOUN	NOUN	Gender=Masc|Number=Plur	29	conj	_	_
+32	que	que	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	33	nsubj	_	_
+33	interveñen	intervir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+34-35	neste	_	_	_	_	_	_	_
+34	en	en	ADP	ADP	_	35	case	_	_
+35	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	33	obl	_	_
+36	diálogo	diálogo	NOUN	NOUN	Gender=Masc|Number=Sing	35	appos	_	_
+37	.	.	PUNCT	PUNCT	_	20	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Outro	outro	DET	DET	_	2	det	_	_
+2	instrumento	instrumento	NOUN	NOUN	_	6	nsubj	_	_
+3	que	que	PRON	PRON	_	4	nsubj	_	_
+4	axuda	axudar	VERB	VERB	_	2	acl:relcl	_	_
+5	a	a	ADP	ADP	_	6	mark	_	_
+6	avaliar	avaliar	VERB	VERB	_	0	root	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bondade	bondade	NOUN	NOUN	_	6	obj	_	_
+9	do	de	ADP	ADP	_	10	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	axustamento	axustamento	NOUN	NOUN	_	8	nmod	_	_
+12	da	de	ADP	ADP	_	13	case	_	_
+13	AF	af	NOUN	NOUN	_	11	nmod	_	_
+14	é	ser	AUX	AUX	_	16	cop	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	comunalidade	comunalidade	NOUN	NOUN	_	11	acl	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	cada	cada	DET	DET	_	19	det	_	_
+19	variable	variable	NOUN	NOUN	_	16	nmod	_	_
+20	,	,	PUNCT	.	_	23	punct	_	_
+21	é	ser	AUX	AUX	_	23	cop	_	_
+22	dicir	dicir	VERB	VERB	_	23	xcomp	_	_
+23	,	,	PUNCT	.	_	26	punct	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	porcentaxe	porcentaxe	NOUN	NOUN	_	26	compound	_	_
+26	de	de	ADP	ADP	_	29	case	_	_
+27	variación	variación	NOUN	NOUN	_	29	nmod	_	_
+28	total	total	ADJ	ADJ	_	27	amod	_	_
+29	dunha	dunha	DET	DET	_	32	det	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	unha	un	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	variable	variable	NOUN	NOUN	_	25	nmod	_	_
+33	explicada	explicar	VERB	VERB	_	32	acl	_	_
+34	polos	por	ADP	ADP	_	35	case	_	_
+35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	factores	factor	NOUN	NOUN	_	33	nmod	_	_
+37	que	que	PRON	PRON	_	38	nsubj	_	_
+38	,	,	PUNCT	.	_	43	punct	_	_
+39	polo	por	ADP	ADP	_	40	case	_	_
+40	por	por	ADP	ADP	_	41	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	tanto	tanto	NOUN	NOUN	_	40	nmod	_	_
+43	,	,	PUNCT	.	_	48	punct	_	_
+44	indica	indicar	VERB	VERB	_	48	advcl	_	_
+45	ata	ata	ADP	ADP	_	46	case	_	_
+46	qué	que	PRON	PRON	_	47	det	_	_
+47	punto	punto	NOUN	NOUN	_	44	obl	_	_
+48	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	nsubj	_	_
+49	factores	factor	NOUN	NOUN	_	48	compound	_	_
+50	axudan	axudar	VERB	VERB	_	49	acl	_	_
+51	a	a	ADP	ADP	_	52	mark	_	_
+52	explica-la	explicar	VERB	VERB	_	50	xcomp	_	_
+53	explicar	explicar	VERB	VERB	_	6	conj	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	variable	variable	NOUN	NOUN	_	53	obj	_	_
+56	.	.	PUNCT	.	_	6	punct	_	_
+
+```
+
+ **Explanation of some complex dependencies:**
+
+* **6-7  avaliar a  bondade do o axustamento**:  The verb "avaliar" (evaluate) takes the object "bondade" (goodness)  which is modified by the prepositional phrase "do o axustamento" (of the adjustment).
+
+* **16  comunalidade de cada variable**:  "Comunalidade" (community) is a noun acting as an adjective (relative clause) modifying  "variable".   "De cada variable" (of each variable) is a prepositional phrase further modifying "comunalidade".
+
+* **25-28  porcentaxe de variación total dunha unha variable**: This is a complex noun phrase. "Porcentaxe de variación total" (percentage of total variation) modifies "variable" which is further specified by  "dunha unha variable" (of a variable).
+
+* **33 explicada polos os factores**:  The verb "explicada" (explained) is in passive voice. "Polos os factores" (by the factors) is the agent of the passive construction.
+
+* **44  indica ata qué punto**:  "Indica" (indicates) is the main verb. "Ata qué punto" (up to what point) is a subordinate adverbial clause indicating the extent of the indication.
+
+* **50-52 axudan a explicar a variable**:  "Axudan" (help) is the main verb. "A explicar a variable" (to explain the variable) is an infinitive phrase functioning as the object of "axudan".
+Raw model output for sentence :
+```conllu
+1	Sen	sen	INTJ	_	_	4	parataxis	_	_
+2	embargo	embargo	CCONJ	_	_	4	cc	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	a	a	DET	_	_	10	det	_	_
+5	outra	outro	DET	_	_	6	det	_	_
+6	quinta	quinto	NOUN	_	_	7	nummod	_	_
+7	parte	parte	NOUN	_	_	10	nsubj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	_	10	det	_	_
+10	poboación	poboación	NOUN	_	_	0	root	_	_
+11	(	(	PUNCT	_	_	12	punct	_	_
+12	a	o	DET	_	_	13	det	_	_
+13	discusión	discusión	NOUN	_	_	10	appos	_	_
+14	sobre	sobre	ADP	_	_	15	case	_	_
+15	a	o	DET	_	_	16	det	_	_
+16	cifra	cifra	NOUN	_	_	13	nmod	_	_
+17	exacta	exacto	ADJ	_	_	16	amod	_	_
+18	nunca	nunca	ADV	_	_	19	advmod	_	_
+19	se	se	PRON	_	_	20	nsubj	_	_
+20	afasta	afastar	VERB	_	_	13	acl	_	_
+21-22	dese	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ese	ese	DET	_	_	23	det	_	_
+23	20	20	NUM	_	_	20	obj	_	_
+24	%	%	SYM	_	_	23	compound	_	_
+25	)	)	PUNCT	_	_	13	punct	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	España	españa	PROPN	_	_	10	nmod	_	_
+28	vive	vivir	VERB	_	_	10	acl:relcl	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	en	en	ADP	_	_	30	case	_	_
+30	a	o	DET	_	_	31	det	_	_
+31	pobreza	pobreza	NOUN	_	_	28	obj	_	_
+32	.	.	PUNCT	_	_	10	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	Para	para	ADP	ADP	_	3	case	_	_
+2	iso	iso	PRON	PRON	_	3	nsubj	_	_
+3	requirirá	requirir	VERB	VERB	_	0	root	_	_
+4	se	se	PRON	PRON	_	3	obj	_	_
+5	unha	un	DET	DET	_	6	det	_	_
+6	mellora	mellora	NOUN	NOUN	_	3	xcomp	_	_
+7	significativa	significativo	ADJ	ADJ	_	6	amod	_	_
+8	da	de	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	a	o	DET	DET	_	11	det	_	_
+11	calidade	calidade	NOUN	NOUN	_	6	nmod	_	_
+12	da	de	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	a	o	DET	DET	_	15	det	_	_
+15	información	información	NOUN	NOUN	_	11	nmod	_	_
+16	económica	económico	ADJ	ADJ	_	15	amod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	ambiental	ambiental	ADJ	ADJ	_	15	amod	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	das	de	ADP	ADP	_	21	case	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	as	o	DET	DET	_	23	det	_	_
+23	avaliacións	avaliación	NOUN	NOUN	_	15	conj	_	_
+24	xerais	xeral	ADJ	ADJ	_	23	amod	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	políticas	política	NOUN	NOUN	_	28	det	_	_
+28	concretas	concreto	ADJ	ADJ	_	23	conj	_	_
+29	nas	en	ADP	ADP	_	31	case	_	_
+30	en	en	ADP	ADP	_	31	case	_	_
+31	as	o	DET	DET	_	33	det	_	_
+32	que	que	PRON	PRON	_	33	nsubj	_	_
+33	se	se	PRON	PRON	_	35	obj	_	_
+34	basea	basear	VERB	VERB	_	33	xcomp	_	_
+35	a	o	DET	DET	_	36	det	_	_
+36	actualidade	actualidade	NOUN	NOUN	_	34	obj	_	_
+37	a	a	ADP	ADP	_	38	mark	_	_
+38	toma	toma	VERB	VERB	_	36	acl:relcl	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
+40	decisións	decisión	NOUN	NOUN	_	38	obj	_	_
+41	.	.	PUNCT	.	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Gabicia	gabicia	PROPN	PROPN	_	2	nsubj	_	_
+2	demanda	demandar	VERB	VERB	_	0	root	_	_
+3	ás	a	ADP	ADP	_	4	case	_	_
+4	administracións	administración	NOUN	NOUN	_	2	obl	_	_
+5	locais	local	ADJ	ADJ	_	4	amod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	autonómica	autonómico	ADJ	ADJ	_	5	conj	_	_
+8	proxectos	proxecto	NOUN	NOUN	_	2	obj	_	_
+9	ambiciosos	ambicioso	ADJ	ADJ	_	8	amod	_	_
+10	para	para	ADP	ADP	_	11	mark	_	_
+11	o	o	DET	DET	_	12	det	_	_
+12	fomento	fomento	NOUN	NOUN	_	2	xcomp	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	o	o	DET	DET	_	15	det	_	_
+15	uso	uso	NOUN	NOUN	_	12	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	a	o	DET	DET	_	18	det	_	_
+18	bicicleta	bicicleta	NOUN	NOUN	_	15	nmod	_	_
+19	como	como	ADP	ADP	_	20	case	_	_
+20	medio	medio	NOUN	NOUN	_	18	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	transporte	transporte	NOUN	NOUN	_	20	nmod	_	_
+23	san	san	ADJ	ADJ	_	22	amod	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
+25	ecolóxico	ecolóxico	ADJ	ADJ	_	23	conj	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	en	en	ADP	ADP	_	27	case	_	_
+27	o	o	DET	DET	_	28	det	_	_
+28	medio	medio	NOUN	NOUN	_	25	nmod	_	_
+29	urbano	urbano	ADJ	ADJ	_	28	amod	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
+31	interurbano	interurbano	ADJ	ADJ	_	29	conj	_	_
+32	.	.	PUNCT	.	_	2	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Cada	cada	DET	DET	_	2	det	_	_
+2	grupo	grupo	NOUN	NOUN	_	6	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	dentes	dente	NOUN	NOUN	_	2	nmod	_	_
+5	ten	ter	AUX	AUX	_	6	aux	_	_
+6	unha	un	NOUN	NOUN	_	0	root	_	_
+7	función	función	NOUN	NOUN	_	6	appos	_	_
+8	determinada	determinar	ADJ	ADJ	_	7	amod	_	_
+9	en	en	ADP	ADP	_	10	case	_	_
+10	relación	relación	NOUN	NOUN	_	7	nmod	_	_
+11-12	coa	_	_	_	_	_	_	_	_
+11	con	con	ADP	ADP	_	12	case	_	_
+12	a	o	DET	DET	_	13	det	_	_
+13	alimentación	alimentación	NOUN	NOUN	_	10	nmod	_	_
+14	:	:	PUNCT	.	_	15	punct	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	incisivos	incisivo	NOUN	NOUN	_	19	nsubj	_	_
+17	cortan	cortar	VERB	VERB	_	19	dep	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	os	o	DET	DET	_	6	parataxis	_	_
+20	canteiros	canteiro	NOUN	NOUN	_	19	conj	_	_
+21	desgarran	desgarrar	VERB	VERB	_	19	dep	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	os	o	DET	DET	_	19	conj	_	_
+24	premolares	premolar	NOUN	NOUN	_	23	conj	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26	molares	molar	NOUN	NOUN	_	24	conj	_	_
+27	trituran	triturar	VERB	VERB	_	19	dep	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	ademáis	ademáis	ADV	ADV	_	6	parataxis	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	ter	ter	NOUN	NOUN	_	29	nmod	_	_
+32	unha	un	DET	DET	_	33	det	_	_
+33	grande	grande	ADJ	ADJ	_	31	amod	_	_
+34	importancia	importancia	NOUN	NOUN	_	31	appos	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	en	en	ADP	ADP	_	36	case	_	_
+36	a	o	DET	DET	_	37	det	_	_
+37	estética	estética	NOUN	NOUN	_	34	nmod	_	_
+38	.	.	PUNCT	.	_	6	punct	_	_
+
+```
+
+ **Explanation of some complex relationships:**
+
+* **6 unha (a creation) ** is the main subject of the sentence, and  **2 grupo de dentes (each group of teeth)**  acts as a predicate nominative, describing what kind of creation it is.  
+* **17 cortan, 21 desgarran, 27 trituran** (cut, tear, grind) are verbs describing the functions of different types of teeth. They are linked to the subject **16 incisivos, 20 canteiros, 24 premolares, 26 molares** (incisors, canines, premolars, molars) respectively.
+* **29 ademáis (besides) ** introduces a secondary point about the importance of teeth in **37 estética (esthetics)**.  
+
+
+ **Note:**  The provided sentence contains some ambiguities and grammatical inconsistencies. For instance, "coa con a" should be "con respecto a" (regarding).  I've annotated it as it is, but a corrected version would improve the analysis.
+Raw model output for sentence :
+```conllu
+1	Un	un	DET	DET	_	4	det	_	_
+2-3	dos	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	debates	debate	NOUN	NOUN	_	27	nsubj	_	_
+5	máis	máis	ADV	ADV	_	4	advmod	_	_
+6	interesantes	interesante	ADJ	ADJ	_	4	amod	_	_
+7-8	na	_	_	_	_	_	_	_
+7	en	en	ADP	ADP	_	8	case	_	_
+8	a	o	DET	DET	_	9	det	_	_
+9	reorientación	reorientación	NOUN	NOUN	_	4	nmod	_	_
+10-11	dos	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	os	o	DET	DET	_	12	det	_	_
+12	Estados	estado	NOUN	NOUN	_	14	nmod	_	_
+13-14	do	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	o	o	DET	DET	_	15	det	_	_
+15	Benestar	benestar	NOUN	NOUN	_	9	nmod	_	_
+16-17	nos	_	_	_	_	_	_	_
+16	en	en	ADP	ADP	_	17	case	_	_
+17	os	o	DET	DET	_	18	det	_	_
+18	anos	ano	NOUN	NOUN	_	15	nmod	_	_
+19	noventa	noventa	NUM	NUM	_	18	nummod	_	_
+20	é	ser	AUX	AUX	_	27	cop	_	_
+21	a	o	DET	DET	_	22	det	_	_
+22	idea	idea	NOUN	NOUN	_	27	nsubj	_	_
+23-24	dun	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	un	un	DET	DET	_	25	det	_	_
+25	ingreso	ingreso	NOUN	NOUN	_	22	nmod	_	_
+26	mínimo	mínimo	ADJ	ADJ	_	25	amod	_	_
+27	completamente	completamente	ADV	ADV	_	0	root	_	_
+28	incondicional	incondicional	ADJ	ADJ	_	25	amod	_	_
+29	.	.	PUNCT	.	_	27	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Finalmente	finalmente	ADV	ADV	_	3	advmod	_	_
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	pretendemos	pretender	VERB	VERB	_	0	root	_	_
+4	contribuír	contribuir	VERB	VERB	_	3	xcomp	_	_
+5	a	a	ADP	ADP	_	6	case	_	_
+6	pecha-la	pechar	VERB	VERB	_	4	obj	_	_
+7	a	o	DET	DET	_	8	det	_	_
+8	brecha	brecha	NOUN	NOUN	_	6	obj	_	_
+9	que	que	SCONJ	SCONJ	_	10	mark	_	_
+10	existe	existir	VERB	VERB	_	8	acl	_	_
+11	entre	entre	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	_	13	det	_	_
+13	importancia	importancia	NOUN	NOUN	_	10	obl	_	_
+14	que	que	SCONJ	SCONJ	_	15	mark	_	_
+15	a	o	DET	DET	_	16	det	_	_
+16	débeda	débeda	NOUN	NOUN	_	13	acl	_	_
+17	adquiriu	adquirir	VERB	VERB	_	16	acl	_	_
+18	para	para	ADP	ADP	_	19	case	_	_
+19	as	o	DET	DET	_	21	det	_	_
+20	arcas	arca	NOUN	NOUN	_	19	det	_	_
+21	das	de	ADP	ADP	_	23	case	_	_
+22	comunidades	comunidade	NOUN	NOUN	_	21	det	_	_
+23	autónomas	autónomo	ADJ	ADJ	_	22	amod	_	_
+24	e	e	CCONJ	CCONJ	_	26	cc	_	_
+25	o	o	DET	DET	_	26	det	_	_
+26	escaso	escaso	ADJ	ADJ	_	23	conj	_	_
+27	reflexo	reflexo	NOUN	NOUN	_	26	obj	_	_
+28	que	que	SCONJ	SCONJ	_	30	mark	_	_
+29	aínda	ainda	ADV	ADV	_	30	advmod	_	_
+30	ten	ter	VERB	VERB	_	27	acl	_	_
+31	no	em	ADP	ADP	_	33	case	_	_
+32	en	em	ADP	ADP	_	31	fixed	_	_
+33	o	o	DET	DET	_	34	det	_	_
+34	campo	campo	NOUN	NOUN	_	30	obl	_	_
+35	dos	de	ADP	ADP	_	36	case	_	_
+36	estudios	estudio	NOUN	NOUN	_	34	nmod	_	_
+37	empíricos	empírico	ADJ	ADJ	_	36	amod	_	_
+38	.	.	PUNCT	PUNCT	_	3	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	última	último	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+3	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	amnesia	amnesia	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+6	observa	observar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	se	se	PRON	PRON	_	6	obj	_	_
+8	nas	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	lesións	lesión	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	_
+10	destructivas	destructivo	ADJ	ADJ	Gender=Fem|Number=Plur	6	xcomp	_	_
+11	difusas	difuso	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+12	das	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	nmod	_	_
+15	neuronas	neurona	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
+16	cerebrais	cerebral	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
+18	na	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	demencia	demencia	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
+20	senil	senil	ADJ	ADJ	Gender=Fem|Number=Sing	10	conj	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	na	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	hemorraxia	hemorraxia	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
+25	reblandecemento	reblandecemento	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+26	cerebrais	cerebral	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
+28	na	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	demencia	demencia	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+30	paralítica	paralítico	ADJ	ADJ	Gender=Fem|Number=Sing	25	conj	_	_
+31	.	.	PUNCT	.	_	6	punct	_	_
+
+```
+Raw model output for sentence :
+```conllu
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	modificacións	modificación	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	non	non	PART	PART	_	4	advmod	_	_
+4	autorizadas	autorizar	VERB	VERB	Gender=Fem|Number=Plur|VerbForm=Part	2	amod	_	_
+5-6	nas	_	_	_	_	_	_	_	_
+5	en	en	ADP	ADP	_	7	case	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	obras	obra	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+8	con	con	ADP	ADP	_	9	case	_	_
+9	respecto	respecto	NOUN	NOUN	_	7	nmod	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	proxectos	proxecto	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+13-14	polos	_	_	_	_	_	_	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	nmod	_	_
+15	que	que	PRON	PRON	_	16	nsubj	_	_
+16	se	se	PRON	PRON	_	17	iobj	_	_
+17	rexa	rexer	VERB	VERB	_	2	acl:relcl	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	súa	seu	NOUN	NOUN	Gender=Fem|Number=Sing|Poss=Yes	20	obl	_	_
+20	realización	realización	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
+21	orixinarán	orixinar	VERB	VERB	_	0	root	_	_
+22	responsabilidades	responsabilidade	NOUN	NOUN	Gender=Fem|Number=Plur	21	obj	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	funcionarios	funcionario	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	acordo	acordo	NOUN	NOUN	_	25	nmod	_	_
+28-29	coas	_	_	_	_	_	_	_	_
+28	con	con	ADP	ADP	_	29	case	_	_
+29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	normas	norma	NOUN	NOUN	Gender=Fem|Number=Plur	27	nmod	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	que	que	PRON	PRON	_	34	obj	_	_
+33	se	se	PRON	PRON	_	34	iobj	_	_
+34	refire	referir	VERB	VERB	_	30	acl:relcl	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	apartado	apartado	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+37	anterior	anterior	ADJ	ADJ	_	36	amod	_	_
+38	.	.	PUNCT	.	_	21	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Ademais	ademais	ADV	ADV	_	3	advmod	_	_
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	resulta	resultar	VERB	VERB	_	0	root	_	_
+4	obrigado	obrigar	VERB	VERB	_	3	xcomp	_	_
+5	o	o	DET	DET	_	6	det	_	_
+6	recoñecemento	recoñecemento	NOUN	NOUN	_	4	obj	_	_
+7	expreso	expreso	ADJ	ADJ	_	6	amod	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	_	10	det	_	_
+10	instrumentos	instrumento	NOUN	NOUN	_	6	nmod	_	_
+11	que	que	PRON	PRON	_	12	nsubj	_	_
+12	permiten	permitir	VERB	VERB	_	10	acl:relcl	_	_
+13	recoller	recoller	VERB	VERB	_	12	xcomp	_	_
+14	e	e	CCONJ	CCONJ	_	15	cc	_	_
+15	reproducir	reproducir	VERB	VERB	_	12	conj	_	_
+16	palabras	palabra	NOUN	NOUN	_	15	obj	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	sons	son	NOUN	NOUN	_	16	conj	_	_
+19	e	e	CCONJ	CCONJ	_	20	cc	_	_
+20	imaxes	imaxe	NOUN	NOUN	_	18	conj	_	_
+21	ou	ou	CCONJ	CCONJ	_	22	cc	_	_
+22	datos	dato	NOUN	NOUN	_	20	conj	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	cifras	cifra	NOUN	NOUN	_	22	conj	_	_
+25	e	e	CCONJ	CCONJ	_	26	cc	_	_
+26	operacións	operación	NOUN	NOUN	_	24	conj	_	_
+27	matemáticas	matemática	ADJ	ADJ	_	26	amod	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+```
+Raw model output for sentence :
+```conll
+1	Grazas	graza	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	seu	seu	NOUN	_	Gender=Masc|Number=Sing|Poss=Yes	1	nmod	_	_
+5	esforzo	esforzo	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	decenas	decena	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	nenos	neno	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	escasos	escaso	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	roupa	roupa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	pero	pero	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	mirada	mirada	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	celestial	celestial	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	acceden	acceder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	19	obl	_	_
+24	xeito	xeito	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+25	que	que	SCONJ	_	_	27	mark	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	vástago	vástago	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+28-29	dun	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	un	un	DET	_	_	30	det	_	_
+30	sultán	sultán	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+31	,	,	PUNCT	_	_	32	punct	_	_
+32-33	ao	_	_	_	_	_	_	_	_
+32	a	a	ADP	_	_	33	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	mellor	mellor	ADJ	_	Gender=Masc|Number=Sing|Degree=Sup	30	amod	_	_
+35	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	34	appos	_	_
+36	educativo	educativo	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+37	.	.	PUNCT	_	_	14	punct	_	_
+```
+Raw model output for sentence :
+```conll-u
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PEIT	peit	NOUN	NOUN	_	6	nsubj	_	_
+3	estrutura	estruturar	VERB	VERB	_	2	xcomp	_	_
+4	os	o	DET	DET	_	5	det	_	_
+5	seus	seu	ADJ	ADJ	_	6	amod	_	_
+6	obxectivos	obxectivo	NOUN	NOUN	_	0	root	_	_
+7	en	en	ADP	ADP	_	8	case	_	_
+8	catro	catro	NUM	NUM	NumType=Card	6	nmod	_	_
+9	grandes	grande	ADJ	ADJ	_	8	amod	_	_
+10	obxectivos	obxectivo	NOUN	NOUN	_	6	conj	_	_
+11	cualitativos	cualitativo	ADJ	ADJ	_	10	amod	_	_
+12	:	:	PUNCT	.	_	13	punct	_	_
+13	a	o	DET	DET	_	14	det	_	_
+14	mellora	mellora	NOUN	NOUN	_	18	obj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	eficiencia	eficiencia	NOUN	NOUN	_	14	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sistema	sistema	NOUN	NOUN	_	14	nmod	_	_
+21	;	;	PUNCT	.	_	22	punct	_	_
+22	o	o	DET	DET	_	23	det	_	_
+23	fortalecemento	fortalecemento	NOUN	NOUN	_	27	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cohesión	cohesión	NOUN	NOUN	_	23	nmod	_	_
+27	social	social	ADJ	ADJ	_	23	xcomp	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	territorial	territorial	ADJ	ADJ	_	27	conj	_	_
+30	;	;	PUNCT	.	_	31	punct	_	_
+31	a	o	DET	DET	_	32	det	_	_
+32	sostenibilidade	sostenibilidade	NOUN	NOUN	_	36	obj	_	_
+33	;	;	PUNCT	.	_	34	punct	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
+35	o	o	DET	DET	_	36	det	_	_
+36	impulso	impulso	NOUN	NOUN	_	6	conj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	desenvolvemento	desenvolvemento	NOUN	NOUN	_	36	nmod	_	_
+40	económico	económico	ADJ	ADJ	_	39	amod	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
+42	a	o	DET	DET	_	43	det	_	_
+43	competitividade	competitividade	NOUN	NOUN	_	39	conj	_	_
+44	.	.	PUNCT	.	_	6	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Recomenda	recomendar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	_	1	expl	_	_
+3	especialmente	especial	ADV	_	_	1	advmod	_	_
+4	unha	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	atención	atención	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+6	prioritaria	prioritario	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	ao	a	ADP	_	_	8	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sector	sector	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	servizos	servizo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	dentro	dentro	ADP	_	_	16	case	_	_
+15	del	de	ADP	_	_	16	case	_	_
+16	de	de	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	el	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	,	,	PUNCT	_	_	20	det	_	_
+19	ao	a	ADP	_	_	20	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	turismo	turismo	NOUN	_	Gender=Masc|Number=Sing	20	compound	_	_
+22	,	,	PUNCT	_	_	24	nmod	_	_
+23	polo	por	ADP	_	_	24	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	24	compound	_	_
+26	que	que	PRON	_	_	28	nsubj	_	_
+27	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+28	actividade	actividade	NOUN	_	Gender=Fem|Number=Sing	30	ccomp	_	_
+29	ten	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+30	en	en	ADP	_	_	32	case	_	_
+31	determinadas	determinar	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	32	amod	_	_
+32	zonas	zona	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	_
+33	do	de	ADP	_	_	34	case	_	_
+34	de	de	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+37	.	.	PUNCT	_	_	1	punct	_	_
+
+```
+
+ **Explanation:**
+
+* **UPOS:** Part-of-speech tag (e.g., NOUN, VERB, ADP, DET)
+* **XPOS:** Language-specific POS tag (not applicable in this case)
+* **FEATS:** Morphological features (e.g., Number=Sing, Gender=Masc)
+* **HEAD:** The ID of the syntactic head of the current token.
+* **DEPREL:** The syntactic relation between the current token and its head.
+* **DEPS:** Dependency relation path (not always used)
+* **MISC:** Miscellaneous information (e.g., named entities)
+
+
+
+**Key Decisions:**
+
+* **se (2):**  Expl (expletive) as it's a reflexive pronoun used for subject agreement.
+* **especialmente (3):** ADV (adverb) modifying the verb "Recomenda".
+* **ao/a/o (7, 19, 23):** ADP (preposition) indicating the beneficiary of the attention.
+* **sector/servizos/turismo (9, 11, 21):** NOUN (nouns) forming a nominal phrase.
+* **dentro/del/de/el (14, 15, 17):** ADP (prepositions) indicating location.
+* **polo (23):** ADP (preposition) introducing the cause of the impact.
+* **que (26):** PRON (relative pronoun) introducing a relative clause.
+* **esta actividade (27-28):**  PRON (demonstrative pronoun) + NOUN (noun) acting as the subject of the relative clause.
+* **ten (29):** VERB (verb) in the present tense, indicating possession.
+* **zonas (32):** NOUN (noun) modified by "determinadas".
+* **do/de/o (33-35):** ADP (prepositions) indicating possession.
+Raw model output for sentence :
+```conll
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	macroeconomía	macroeconomía	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	en	en	ADP	ADP	_	5	case	_	_
+5	canto	canto	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	método	método	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	non	non	PART	PART	_	9	advmod	_	_
+9	é	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	debedora	debedor	NOUN	NOUN	Gender=Fem|Number=Sing	6	parataxis	_	_
+11	exclusivamente	exclusivamente	ADV	ADV	_	10	advmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Keynes	keynes	PROPN	PNOUN	Gender=Masc|Number=Sing	10	nmod:poss	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	xa	xa	ADV	ADV	_	16	advmod	_	_
+16	que	que	SCONJ	SCONJ	_	19	mark	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	fisiócratas	fisiócrata	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+19	operaban	operar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+20	desde	desde	ADP	ADP	_	21	case	_	_
+21	esa	ese	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	perspectiva	perspectiva	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+23	cando	cando	SCONJ	SCONJ	_	24	mark	_	_
+24	dividían	dividir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sociedade	sociedade	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+27	en	en	ADP	ADP	_	28	case	_	_
+28	tres	tres	NUM	NUM	NumType=Card	26	nmod	_	_
+29	_	_	PUNCT	.	_	30	punct	_	_
+30	clases	clase	NOUN	NOUN	Gender=Fem|Number=Plur	26	appos	_	_
+31	_	_	PUNCT	.	_	32	punct	_	_
+32	para	para	ADP	ADP	_	33	case	_	_
+33	demostra-la	demostrar	VERB	VERB	Gender=Fem|Number=Sing|VerbForm=Inf	24	xcomp	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	circulación	circulación	NOUN	NOUN	Gender=Fem|Number=Sing	33	obj	_	_
+36	da	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	nmod	_	_
+38	riqueza	riqueza	NOUN	NOUN	Gender=Fem|Number=Sing	35	nmod	_	_
+39	(	(	PUNCT	.	_	41	punct	_	SpaceAfter=No
+40	Brooman	brooman	PROPN	PNOUN	Gender=Masc|Number=Sing	41	nsubj	_	_
+41	aprenderam	aprender	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	parataxis	_	_
+42	,	,	PUNCT	.	_	44	punct	_	_
+43	1970	1970	NUM	NUM	NumType=Card	44	nummod	_	_
+44	cap.	cap.	X	X	_	41	obl	_	_
+45	1	1	NUM	NUM	NumType=Card	44	nummod	_	_
+46	)	)	PUNCT	.	_	6	punct	_	_
+47	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+```
+Raw model output for sentence :
+```conllu
+1	Resultan	resultar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	baldíos	baldío	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+3	posicionamentos	posicionamento	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
+4	pechados	pechar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	si	si	PRON	_	PronType=Dem	4	obl	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	incorporación	incorporación	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+9	ten	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	ser	ser	VERB	_	InfForm=Inf	9	xcomp	_	_
+12	sempre	sempre	ADV	_	_	11	advmod	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+15	xerais	xeral	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	ou	ou	CCONJ	_	_	17	cc	_	_
+17	sempre	sempre	ADV	_	_	12	conj	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+20	específicos	específico	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	.	.	PUNCT	_	_	1	punct	_	_
+```
+Raw model output for sentence :
+```conll
+1	Acompañando	acompañar	VERB	_	_	0	root	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	a	o	DET	_	_	4	det	_	_
+4	difusión	difusión	NOUN	_	_	1	obj	_	_
+5	do	de	ADP	_	_	6	case	_	_
+6	o	o	DET	_	_	7	det	_	_
+7	proxecto	proxecto	NOUN	_	_	4	nmod	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	organizaranse	organizar	VERB	_	_	1	parataxis	_	_
+10	se	se	PRON	_	_	9	obj	_	_
+11	xornadas	xornada	NOUN	_	_	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	formación	formación	NOUN	_	_	11	nmod	_	_
+14	do	de	ADP	_	_	15	case	_	_
+15	o	o	DET	_	_	16	det	_	_
+16	profesorado	profesorado	NOUN	_	_	13	nmod	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	nas	en	ADP	_	_	19	case	_	_
+19	as	o	DET	_	_	20	det	_	_
+20	que	que	PRON	_	_	18	obl	_	_
+21	se	se	PRON	_	_	22	obj	_	_
+22	presentarán	presentar	VERB	_	_	20	acl:relcl	_	_
+23	os	o	DET	_	_	24	det	_	_
+24	materiais	material	NOUN	_	_	22	obj	_	_
+25	elaborados	elaborado	ADJ	_	_	24	amod	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	se	se	PRON	_	_	28	obj	_	_
+28	explicitarán	explicitarán	VERB	_	_	22	conj	_	_
+29	as	o	DET	_	_	30	det	_	_
+30	intencións	intención	NOUN	_	_	28	obj	_	_
+31	educativas	educativo	ADJ	_	_	30	amod	_	_
+32	dos	de	ADP	_	_	33	case	_	_
+33	de	de	DET	_	_	34	det	_	_
+34	os	o	DET	_	_	35	nmod	_	_
+35	mesmos	mesmo	ADJ	_	_	30	nmod	_	_
+36	.	.	PUNCT	_	_	1	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pulverización	pulverización	NOUN	NOUN	_	14	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nmod	_	_
+5	concentrado	concentrado	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	en	en	ADP	ADP	_	8	case	_	_
+8	pequenas	pequeno	ADJ	ADJ	_	9	amod	_	_
+9	gotiñas	gota	NOUN	NOUN	_	2	nmod	_	_
+10-11	realízase	_	_	_	_	_	_	_	_
+10	realiza	realizar	VERB	VERB	_	9	acl	_	_
+11	se	se	PRON	PRON	_	10	aux	_	_
+12-13	nun	_	_	_	_	_	_	_	_
+12	en	en	ADP	ADP	_	13	case	_	_
+13	un	un	DET	DET	_	14	det	_	_
+14	cabezal	cabezal	NOUN	NOUN	_	0	root	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	atomización	atomización	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	que	que	PRON	PRON	_	16	acl:relcl	_	_
+19	pode	poder	VERB	VERB	_	18	cop	_	_
+20	ser	ser	VERB	VERB	_	19	xcomp	_	_
+21	un	un	DET	DET	_	22	det	_	_
+22	disco	disco	NOUN	NOUN	_	20	obj	_	_
+23	xiratorio	xiratorio	ADJ	ADJ	_	22	amod	_	_
+24	ou	ou	CCONJ	CONJ	_	25	cc	_	_
+25	unha	un	DET	DET	_	22	conj	_	_
+26	tobeira	tobeira	NOUN	NOUN	_	25	compound	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	presión	presión	NOUN	NOUN	_	26	nmod	_	_
+29	.	.	PUNCT	.	_	14	punct	_	_
+```
+Raw model output for sentence :
+```conllu
+1	Ademais	ademais	ADV	ADV	_	3	advmod	_	_
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	resulta	resultar	VERB	VERB	_	0	root	_	_
+4	difícil	difícil	ADJ	ADJ	_	3	xcomp	_	_
+5	establecer	establecer	VERB	VERB	_	4	xcomp	_	_
+6	unha	un	DET	DET	_	7	det	_	_
+7	relación	relación	NOUN	NOUN	_	5	obj	_	_
+8	entre	entre	ADP	ADP	_	9	case	_	_
+9	o	o	DET	DET	_	10	det	_	_
+10	deseño	deseño	NOUN	NOUN	_	7	nmod	_	_
+11	e	e	CCONJ	CCONJ	_	12	cc	_	_
+12	o	o	DET	DET	_	13	det	_	_
+13	desenvolvemento	desenvolvemento	NOUN	NOUN	_	10	conj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	a	o	DET	DET	_	16	det	_	_
+16	OPV	opv	NOUN	NOUN	_	13	nmod	_	_
+17	e	e	CCONJ	CCONJ	_	18	cc	_	_
+18	a	o	DET	DET	_	19	det	_	_
+19	posterior	posterior	ADJ	ADJ	_	16	xcomp	_	_
+20	evolución	evolución	NOUN	NOUN	_	19	xcomp	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	as	o	DET	DET	_	23	det	_	_
+23	cotizacións	cotización	NOUN	NOUN	_	20	nmod	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	dado	dar	VERB	VERB	_	20	parataxis	_	_
+26	que	que	SCONJ	SCONJ	_	28	mark	_	_
+27	estas	este	PRON	PRON	_	28	nsubj	_	_
+28	dependen	depender	VERB	VERB	_	25	ccomp	_	_
+29-30	doutros	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	outros	outro	ADJ	ADJ	_	28	obj	_	_
+31	moitos	moito	ADJ	ADJ	_	30	amod	_	_
+32	factores	factor	NOUN	NOUN	_	28	obj	_	_
+33	tanto	tanto	ADV	ADV	_	34	advmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	o	o	DET	DET	_	36	det	_	_
+36	mercado	mercado	NOUN	NOUN	_	32	nmod	_	_
+37	como	como	CCONJ	CCONJ	_	38	cc	_	_
+38	específicos	específico	ADJ	ADJ	_	36	conj	_	_
+39-40	da	_	_	_	_	_	_	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
+40	a	o	DET	DET	_	41	det	_	_
+41	empresa	empresa	NOUN	NOUN	_	38	nmod	_	_
+42	emisora	emisor	ADJ	ADJ	_	41	amod	_	_
+43	.	.	PUNCT	PUNCT	_	3	punct	_	_
+```

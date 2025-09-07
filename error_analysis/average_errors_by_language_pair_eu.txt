@@ -1,0 +1,202 @@
+AVERAGE ERROR RATES AND MOST COMMON ERRORS BY LANGUAGE PAIRING:
+================================================================================
+
+AVERAGE ERROR RATES BY LANGUAGE PAIRING:
+
+LANGUAGE PAIR: eu_0
+----------------------------------------
+Average UPOS error rate: 23.71%
+Average DEPREL error rate: 61.86%
+Average HEAD error rate: 64.95%
+Most common error-causing words:
+  'ere': 5 errors
+  'ez': 5 errors
+  'du': 4 errors
+  'ordea': 3 errors
+  'beste': 2 errors
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: eu_es
+----------------------------------------
+Average UPOS error rate: 23.34%
+Average DEPREL error rate: 58.13%
+Average HEAD error rate: 62.11%
+Most common error-causing words:
+  'ez': 37 errors
+  'ere': 30 errors
+  'ordea': 18 errors
+  'da': 17 errors
+  'daitezke': 12 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_eu
+----------------------------------------
+Average UPOS error rate: 18.35%
+Average DEPREL error rate: 57.15%
+Average HEAD error rate: 59.90%
+Most common error-causing words:
+  'izan': 16 errors
+  'ez': 14 errors
+  'behar': 14 errors
+  'ere': 13 errors
+  'ordea': 11 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_fr
+----------------------------------------
+Average UPOS error rate: 24.60%
+Average DEPREL error rate: 60.31%
+Average HEAD error rate: 63.30%
+Most common error-causing words:
+  'ez': 35 errors
+  'ere': 22 errors
+  'ordea': 15 errors
+  'du': 15 errors
+  'behar': 11 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_mixed
+----------------------------------------
+Average UPOS error rate: 22.34%
+Average DEPREL error rate: 59.22%
+Average HEAD error rate: 62.26%
+Most common error-causing words:
+  'ez': 16 errors
+  'ere': 14 errors
+  'ordea': 9 errors
+  'du': 8 errors
+  'bere': 7 errors
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: eu_oc
+----------------------------------------
+Average UPOS error rate: 24.03%
+Average DEPREL error rate: 58.08%
+Average HEAD error rate: 62.69%
+Most common error-causing words:
+  'ere': 30 errors
+  'ez': 22 errors
+  'bere': 22 errors
+  'ordea': 18 errors
+  'du': 15 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+
+================================================================================
+
+TOP 2 MOST COMMON ERRORS BY LANGUAGE PAIRING (with ALL line numbers):
+
+LANGUAGE PAIR: eu_0
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (22 occurrences)
+     All lines: 12, 82, 83, 94, 96, 109, 111, 117, 346, 375, 390, 439, 446, 449, 455, 501, 503, 524, 640, 673, 678, 720
+  2. ADJ → NOUN (13 occurrences)
+     All lines: 58, 70, 130, 160, 297, 314, 382, 468, 477, 482, 526, 565, 618
+Top 2 DEPREL errors:
+  1. aux → conj (22 occurrences)
+     All lines: 12, 22, 73, 96, 145, 223, 238, 248, 259, 334, 338, 402, 408, 449, 455, 503, 538, 602, 611, 626, 657, 692
+  2. obl → nsubj (16 occurrences)
+     All lines: 4, 45, 101, 199, 246, 344, 463, 474, 521, 586, 598, 609, 688, 698, 717, 730
+Top 2 HEAD errors:
+  1. 19 (utzi) → 1 (Batzuk) (5 occurrences)
+     All lines: 381, 382, 386, 388, 390
+  2. 3 (patetikoa) → 4 (da) (4 occurrences)
+     All lines: 576, 577, 580, 581
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: eu_es
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (182 occurrences)
+     All lines: 12, 47, 56, 61, 82, 83, 94, 96, 109, 111, 117, 145, 162, 176, 185, 189, 223, 259, 291, 299, 312, 315, 316, 346, 353, 360, 375, 390, 439, 446, 449, 455, 465, 478, 484, 501, 503, 524, 538, 549, 567, 579, 626, 629, 640, 673, 678, 692, 720
+  2. ADJ → NOUN (78 occurrences)
+     All lines: 58, 70, 130, 160, 297, 314, 382, 468, 477, 482, 514, 526, 565, 618
+Top 2 DEPREL errors:
+  1. aux → conj (131 occurrences)
+     All lines: 22, 39, 47, 56, 61, 73, 96, 111, 145, 185, 201, 206, 223, 238, 248, 259, 272, 291, 316, 334, 338, 346, 360, 375, 402, 408, 449, 455, 465, 484, 503, 516, 538, 549, 602, 611, 626, 629, 640, 657, 692
+  2. aux → xcomp (82 occurrences)
+     All lines: 12, 22, 39, 47, 56, 61, 83, 94, 96, 109, 117, 145, 162, 201, 206, 238, 248, 272, 346, 465, 484, 503, 524, 549, 567, 626, 640, 673, 720
+Top 2 HEAD errors:
+  1. 19 (utzi) → 1 (Batzuk) (23 occurrences)
+     All lines: 381, 382, 386, 388, 390
+  2. 3 (patetikoa) → 4 (da) (21 occurrences)
+     All lines: 576, 577, 580, 581
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_eu
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (77 occurrences)
+     All lines: 12, 56, 61, 82, 83, 94, 96, 109, 111, 117, 162, 176, 185, 189, 223, 291, 299, 346, 375, 390, 439, 446, 465, 501, 503, 524, 629, 640, 657, 673, 678, 720
+  2. VERB → AUX (53 occurrences)
+     All lines: 11, 55, 63, 124, 172, 215, 236, 278, 366, 407, 417, 469, 495, 545, 590, 656, 665, 667, 683, 703, 723
+Top 2 DEPREL errors:
+  1. aux → conj (116 occurrences)
+     All lines: 22, 39, 47, 73, 96, 111, 117, 145, 162, 185, 189, 201, 206, 223, 238, 248, 259, 272, 291, 334, 338, 346, 360, 402, 408, 455, 465, 484, 503, 516, 538, 567, 602, 611, 626, 629, 640, 657, 673, 678, 692, 720
+  2. obj → nsubj (66 occurrences)
+     All lines: 29, 48, 57, 69, 107, 115, 171, 181, 187, 230, 255, 335, 371, 378, 382, 405, 513, 554, 631, 637, 689
+Top 2 HEAD errors:
+  1. 3 (patetikoa) → 4 (da) (20 occurrences)
+     All lines: 576, 577, 580, 581
+  2. 19 (utzi) → 1 (Batzuk) (15 occurrences)
+     All lines: 381, 382, 386, 388, 390
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_fr
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (141 occurrences)
+     All lines: 12, 39, 82, 83, 94, 96, 109, 111, 117, 145, 162, 176, 185, 189, 223, 291, 299, 346, 375, 390, 439, 446, 449, 455, 465, 478, 484, 501, 503, 524, 538, 549, 567, 579, 626, 629, 640, 673, 678, 692, 720
+  2. ADJ → NOUN (70 occurrences)
+     All lines: 58, 70, 130, 160, 233, 235, 297, 314, 382, 468, 477, 482, 514, 526, 565, 618, 638
+Top 2 DEPREL errors:
+  1. aux → conj (116 occurrences)
+     All lines: 12, 22, 39, 47, 73, 96, 111, 145, 185, 189, 201, 206, 238, 248, 259, 272, 291, 316, 334, 338, 360, 375, 402, 408, 449, 455, 465, 484, 503, 516, 538, 629, 640, 657, 673, 692, 720
+  2. aux → xcomp (63 occurrences)
+     All lines: 12, 22, 39, 47, 56, 61, 83, 96, 109, 117, 189, 238, 272, 346, 449, 465, 484, 516, 524, 549, 567, 611, 626, 640
+Top 2 HEAD errors:
+  1. 19 (utzi) → 1 (Batzuk) (20 occurrences)
+     All lines: 381, 386, 388, 390
+  2. 3 (patetikoa) → 4 (da) (17 occurrences)
+     All lines: 576, 577, 580, 581
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: eu_mixed
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (62 occurrences)
+     All lines: 12, 82, 83, 94, 96, 109, 111, 117, 162, 176, 185, 189, 223, 291, 299, 346, 375, 390, 439, 501, 503, 524, 538, 549, 579, 640, 673, 678, 720
+  2. ADJ → NOUN (43 occurrences)
+     All lines: 58, 70, 130, 160, 233, 235, 297, 314, 382, 468, 477, 482, 514, 526, 565, 618
+Top 2 DEPREL errors:
+  1. aux → conj (53 occurrences)
+     All lines: 12, 96, 111, 117, 185, 189, 201, 206, 259, 272, 291, 316, 334, 338, 402, 408, 465, 503, 516, 538, 602, 611, 657, 673, 678, 692, 720
+  2. aux → xcomp (45 occurrences)
+     All lines: 12, 22, 39, 47, 56, 61, 73, 83, 96, 109, 145, 201, 206, 248, 272, 346, 465, 503, 524, 549, 567, 611, 626, 640
+Top 2 HEAD errors:
+  1. 9 (aritu) → 5 (emandako) (13 occurrences)
+     All lines: 136, 142, 143, 145, 146
+  2. 19 (utzi) → 1 (Batzuk) (12 occurrences)
+     All lines: 381, 386, 388, 390
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+LANGUAGE PAIR: eu_oc
+----------------------------------------
+Top 2 UPOS errors:
+  1. AUX → VERB (160 occurrences)
+     All lines: 12, 47, 56, 61, 82, 83, 94, 96, 109, 111, 117, 145, 162, 176, 185, 189, 223, 291, 299, 346, 360, 375, 390, 439, 446, 449, 455, 465, 501, 503, 524, 538, 549, 567, 626, 629, 640, 657, 673, 678, 692, 720
+  2. ADJ → NOUN (79 occurrences)
+     All lines: 58, 70, 130, 160, 297, 314, 382, 468, 477, 482, 514, 526, 565, 618
+Top 2 DEPREL errors:
+  1. aux → conj (129 occurrences)
+     All lines: 22, 61, 73, 94, 96, 111, 185, 201, 206, 223, 238, 248, 259, 272, 291, 316, 334, 338, 346, 360, 375, 402, 408, 449, 455, 465, 484, 503, 516, 538, 549, 567, 626, 640, 657, 673, 678, 692
+  2. obj → nsubj (73 occurrences)
+     All lines: 29, 48, 69, 107, 115, 171, 181, 187, 230, 255, 335, 371, 405, 513, 554, 637, 671, 689
+Top 2 HEAD errors:
+  1. 19 (utzi) → 1 (Batzuk) (24 occurrences)
+     All lines: 381, 382, 386, 388, 390
+  2. 3 (patetikoa) → 4 (da) (19 occurrences)
+     All lines: 576, 577, 580, 581
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+

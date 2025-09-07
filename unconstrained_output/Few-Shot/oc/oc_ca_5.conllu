@@ -1,0 +1,892 @@
+1-2	Dau	_	_	_	_	_	_	_	_
+1	de	de	de	ADP	sp---	2	case	2:case	_
+2	lo	lo	lo	DET	dd0ms0	3	det	3:det	_
+3	terme	terme	terme	NOUN	ncms000	4	nsubj	4:nsubj	ArgTem=arg0:agt
+4	onte	onte	onte	VERB	vmq00sm	0	root	0:root	_
+5	io	io	io	PRON	p0300000	4	obj	4:obj	ArgTem=arg1:pat|SpaceAfter=No
+6	aviá	aver	aver	AUX	vaip3s0	4	aux	4:aux	_
+7	pres	prendre	prendre	VERB	vmg0000	4	xcomp	4:xcomp	ArgTem=argM:adv
+8	posicion	posicion	posicion	NOUN	ncfs000	7	obj	7:obj	ArgTem=arg1:pat
+9	,	,	,	PUNCT	fc	4	punct	4:punct	_
+10	vesiá	véser	véser	VERB	vmii3s0	4	conj	4:conj	_
+11	la	lo	lo	DET	da0fs0	12	det	12:det	_
+12	baissa	baissa	baissa	NOUN	ncfs000	10	obj	10:obj	ArgTem=arg1:pat
+13	enquera	enquera	enquera	ADV	r---000	10	advmod	10:advmod	_
+14	dins	dins	dins	ADP	sps00	15	case	15:case	_
+15	las	lo	lo	DET	da0fp0	16	det	16:det	_
+16	brumas	bruma	bruma	NOUN	ncfp000	12	nmod	12:nmod	_
+17	leugieras	leugier	leugier	ADJ	aq0fp0	16	amod	16:amod	_
+18	de	de	de	ADP	sps00	19	case	19:case	_
+19	queu	aqueu	aqueu	DET	dd0ms0	20	det	20:det	_
+20	matin	matin	matin	NOUN	ncms000	16	nmod	16:nmod	_
+21	de	de	de	ADP	spcmp	22	case	22:case	_
+22	setembre	setembre	setembre	PROPN	np0000l	20	nmod	20:nmod	Entity=(NOCOREF:Spec.date-time-1-gstype:spec
+23	.	.	.	PUNCT	fp	4	punct	4:punct	Entity=NOCOREF:Spec.date)
+
+1	Entau	entau	ADV	r0	_	4	advmod	4:advmod	_
+2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+3	auriá	aver	AUX	vaip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+4	pogut	poder	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	trobar	trobar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=argM:fin
+6	sa	son	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
+7	copabla	copabla	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	ArgTem=arg1:pat
+8	tres	3	NUM	dn0fp0	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	_
+9	o	o	CCONJ	cc	_	10	cc	10:cc	_
+10	quatre	4	NUM	dn0fp0	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+11	mes	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	7	nmod	7:nmod	_
+12	mai	mai	ADV	r0	_	11	advmod	11:advmod	_
+13	dabora	dabora	ADV	r0	_	12	advmod	12:advmod	_
+14	sens	sens	ADP	sps00	_	15	case	15:case	_
+15	l'	lo	PRON	p03cs000	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obl	7:obl	_
+16	ajuda	ajuda	NOUN	ncfs000	Gender=Fem|Number=Sing	15	nmod	15:nmod	_
+17	de	de	ADP	sps00	_	18	case	18:case	_
+18	l'	lo	PRON	p03cs000	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	16	obl	16:obl	_
+19	autre	autre	ADJ	aq0ms0	Gender=Masc|Number=Sing	18	amod	18:amod	_
+20	trasfòu	trasfòu	VERB	vmr00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	ArgTem=argM:adv
+21	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	La	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	Vila	Vila	PROPN	np0000l	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+3	Diu	Diu	PROPN	np0000l	Gender=Fem|Number=Sing	2	flat	2:flat	_
+4-5	deu	_	_	_	_	_	_	_	_
+4	de	de	ADP	sps00	_	5	case	5:case	_
+5	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
+6	Temple	Temple	PROPN	np0000l	Gender=Fem|Number=Sing	0	root	0:root	_
+7	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	8:nsubj	ArgTem=arg0:agt
+8	vad	vàder	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	6:acl	_
+9	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
+10	brèç	brèç	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg1:pat
+11	d’	de	ADP	sps00	_	12	case	12:case	SpaceAfter=No
+12	ua	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	10:nmod	_
+13	idèa	idèa	NOUN	ncfs000	Gender=Fem|Number=Sing	12	compound	12:compound	_
+14	creada	crear	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	13:acl	ArgTem=argM:cau
+15	en	en	ADP	sps00	_	16	case	16:case	_
+16	1974	1974	NUM	_	NumForm=Digit|NumType=Card	14	obl	14:obl	ArgTem=argM:tmp
+17	e	e	CCONJ	cc	_	18	cc	18:cc	_
+18	qui	qui	PRON	pr0cn000	PronType=Rel	14	obl	14:obl	ArgTem=arg1:tem
+19	mercés	mercés	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg2:atr
+20	a	a	ADP	sps00	_	21	case	21:case	_
+21	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
+22	dinamica	dinamica	NOUN	ncfs000	Gender=Fem|Number=Sing	19	nmod	19:nmod	_
+23	de	de	ADP	sps00	_	24	case	24:case	_
+24	Nadal	Nadal	PROPN	np0000l	Gender=Masc|Number=Sing	22	nmod	22:nmod	_
+25	Rey	Rey	PROPN	np0000l	Gender=Masc|Number=Sing	24	flat	24:flat	_
+26	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
+27	hasó	har	VERB	vmr00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	8:advcl	_
+28	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
+29	torn	torn	NOUN	ncms000	Gender=Masc|Number=Sing	27	obj	27:obj	ArgTem=arg1:pat
+30-31	deu	_	_	_	_	_	_	_	_
+30	de	de	VERB	vmn0000	VerbForm=Inf	29	acl	29:acl	ArgTem=argM:cau
+31	lo	lo	ADP	sps00	_	32	case	32:case	_
+32	monde	monde	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	_
+33	.	.	NOUN	ncms000	Gender=Masc|Number=Sing	30	obj	30:obj	ArgTem=arg2:atr
+
+1	Ren	ren	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+2	’niriá	anar	VERB	vmf0000	Tense=Fut|VerbForm=Fin	1	compound	1:compound	_
+3	plus	plus	ADV	rg	_	1	advmod	1:advmod	_
+4	entre	entre	ADP	sps00	_	5	case	5:case	_
+5	los	lo	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
+6	dos	dos	NUM	dn0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	1	obl	1:obl	_
+7	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
+
+1	Durant	durant	ADP	spcms	_	2	mark	2:mark	_
+2	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
+3	reünion	reünion	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
+4	,	,	PUNCT	fc	PunctType=Comm	0	punct	0:punct	_
+5	los	lo	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
+6	elegits	elegit	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
+7	araneses	aranés	ADJ	aq0mp0	Gender=Masc|Number=Plur	6	amod	6:amod	_
+8	remembrèron	remembrar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	sps00	_	10	case	10:case	_
+10	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
+11	president	president	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg2:atr
+12	catalan	catalan	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	11:amod	_
+13	lo	lo	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	_
+14	besonh	besonh	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	ArgTem=argM:fin
+15	de	de	ADP	sps00	_	16	case	16:case	_
+16	metre	metre	VERB	vmn0000	VerbForm=Inf	14	obj	14:obj	ArgTem=arg1:pat
+17	en	en	ADP	sps00	_	18	case	18:case	_
+18	marcha	marcha	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=arg2:atr
+19	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
+20	totalitat	totalitat	NOUN	ncfs000	Gender=Fem|Number=Sing	18	nmod	18:nmod	_
+21	de	de	ADP	sps00	_	22	case	22:case	_
+22	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	_
+23	Lei	lei	NOUN	np0000o	_	20	nmod	20:nmod	_
+24-25	del	_	_	_	_	_	_	_	_
+24	de	de	ADP	spcms	_	25	case	25:case	_
+25	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
+26	regim	regim	NOUN	ncms000	Gender=Masc|Number=Sing	23	nmod	23:nmod	_
+27	especial	especial	ADJ	aq0ms0	Gender=Masc|Number=Sing	26	amod	26:amod	_
+28	d'	de	ADP	sps00	_	29	case	29:case	SpaceAfter=No
+29	Aran	Aran	PROPN	np0000o	_	26	nmod	26:nmod	_
+30	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
+31	aprovada	aprovar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	acl	35:acl	_
+32-33	pel	_	_	_	_	_	_	_	_
+32	per	per	ADP	spcmp	_	33	case	33:case	_
+33	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
+34	Parlament	parlament	NOUN	np0000o	_	31	obj	31:obj	ArgTem=arg1:agt
+35	de	de	ADP	sps00	_	36	case	36:case	_
+36	Catalonha	Catalonha	PROPN	np0000l	_	34	nmod	34:nmod	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+37	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	SpaceAfter=No
+38	21	21	NUM	_	NumForm=Digit|NumType=Card	36	nmod	36:nmod	Entity=NOCOREF:Spec.date)
+39	de	de	ADP	spcms	_	40	case	40:case	_
+40	genièr	genièr	NOUN	_	_	38	nmod	38:nmod	MWE=genièr_2015|MWEPOS=NOUN|ArgTem=argM:tmp
+41	de	de	ADP	_	_	42	case	42:case	_
+42	2015	2015	NUM	_	NumForm=Digit|NumType=Card	40	compound	40:compound	Entity=NOCOREF:Spec.date)
+43	,	,	PUNCT	fc	PunctType=Comm	48	punct	48:punct	_
+44	e	e	CCONJ	cc	_	45	cc	45:cc	_
+45	qu'	que	PRON	pr0cn000	PronType=Rel	46	nsubj	46:nsubj	ArgTem=arg1:tem
+46	intrèt	intrar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	conj	31:conj	_
+47	en	en	ADP	sps00	_	48	case	48:case	_
+48	vigor	vigor	NOUN	ncms000	Gender=Masc|Number=Sing	46	obl	46:obl	ArgTem=argM:tmp
+49	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	_
+50	14	14	NUM	_	NumForm=Digit|NumType=Card	48	nmod	48:nmod	SpaceAfter=No
+51	de	de	ADP	spcms	_	52	case	52:case	_
+52	febrièr	febrièr	NOUN	_	_	50	nmod	50:nmod	MWE=febrièr_2015|MWEPOS=NOUN|ArgTem=argM:tmp
+53	de	de	ADP	_	_	54	case	54:case	_
+54	2015	2015	NUM	_	NumForm=Digit|NumType=Card	52	compound	52:compound	Entity=NOCOREF:Spec.date)
+55	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
+
+1	Aquel	aquel	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	_
+2	òste	òste	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
+3	majestuós	majestuós	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
+4	de	de	ADP	sps00	_	5	case	5:case	_
+5	nòstras	nòstre	PRON	p01fp000	Case=Gen|Gender=Fem|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod	_
+6	selvas	selva	NOUN	ncfp000	Gender=Fem|Number=Plur	5	appos	5:appos	_
+7	montanegrinas	montanegrin	ADJ	aq0fp0	Gender=Fem|Number=Plur	6	amod	6:amod	_
+8	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
+
+1	Avèm	aver	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	decidit	decidir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	1:xcomp	_
+3	de	de	ADP	sps00	_	4	mark	4:mark	_
+4	començar	començar	VERB	vmn0000	VerbForm=Inf	2	obj	2:obj	ArgTem=arg1:pat
+5	per	per	ADP	sps00	_	6	case	6:case	_
+6	lo	lo	DET	dd0ns0	Definite=Def|Number=Sing|PronType=Dem	4	obl	4:obl	ArgTem=argM:loc
+7	pus	pus	ADJ	aq0ns0	Number=Sing	6	amod	6:amod	_
+8	malaisit	malaisit	ADJ	aq0ns0	Number=Sing	6	amod	6:amod	SpaceAfter=No
+9	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
+
+1	L'	lo	2	det	_	2:det	1:det	_
+2	enfant	enfant	NOUN	_	_	4	nsubj	_	_
+3	polit	polit	ADJ	_	_	2	amod	_	_
+4	donava	donar	VERB	_	_	0	root	_	_
+5	lo	lo	PRON	_	_	4	obj	_	_
+6	det	det	DET	_	_	5	det	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Aquò	aquò	PRON	pr0ns000	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
+2	me	me	PRON	p0100000	Case=Acc,Dat|Person=1|PronType=Prs	3	obj	3:obj	_
+3	faguèt	far~faire	VERB	vmp01sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	grelhar	grelhar	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	_
+5	dins	dins	ADP	sps00	_	6	case	6:case	_
+6	lei	lo	PRON	p0300000	Case=Acc,Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	3:obl	_
+7	cervèlas	cervèla	NOUN	ncfs000	Gender=Fem|Number=Sing	6	appos	6:appos	_
+8	doas	dos	NUM	dn0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+9	idèas	idèa	NOUN	ncfp000	Gender=Fem|Number=Plur	3	obj	3:obj	_
+10	complementàrias	complementari	ADJ	aq0fpp	Gender=Fem|Number=Plur	9	amod	9:amod	_
+11	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+
+1	Sens	sens	ADP	sps00	_	3	case	3:case	_
+2	l'	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
+3	assentiment	assentiment	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=argM:cau
+4	de	de	ADP	sps00	_	5	case	5:case	_
+5	l'	lo	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
+6	animal	animal	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nmod	3:nmod	_
+7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
+8	l'	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
+9	asinièr	asinièr	NOUN	ncms000	Gender=Masc|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg0:agt
+10	farà	far~faire	VERB	vmf03s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
+11	pas	pas	NOUN	ncms000	Gender=Masc|Number=Sing	10	obj	10:obj	ArgTem=arg1:pat
+12	res	res	PRON	pr0n0000	PronType=Neg	11	appos	11:appos	_
+13	de	de	ADP	sps00	_	14	case	14:case	_
+14	bon	bon	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	nmod	11:nmod	_
+15	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	obj	10:obj	SpaceAfter=No
+16	que	que	SCONJ	cs	_	17	mark	17:mark	_
+17	non	non	PART	rn	Polarity=Neg	14	advmod	14:advmod	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	sps00	_	20	case	20:case	_
+19	lo	lo	ADP	sps00	_	20	fixed	20:fixed	_
+20	prètz	prètz	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
+21	de	de	NOUN	ncms000	Gender=Masc|Number=Sing	14	nmod	14:nmod	_
+22	la	lo	ADP	sps00	_	23	case	23:case	_
+23	maltractença	maltractença	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	_
+24	.	.	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nmod	21:nmod	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.event-event-1-gstype:spec
+
+1	Los	lo	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	_
+2	dets	det	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nsubj	4:nsubj	ArgTem=arg0:agt
+3	ne’n	ne	PRON	pr0cn000	PronType=Rel	4	obl	4:obl	_
+4	venián	venir	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
+5	neirs	neir	ADJ	aq0mp0	Gender=Masc|Number=Plur	4	xcomp	4:xcomp	ArgTem=arg1:pat
+6	de	de	ADP	sps00	_	7	case	7:case	_
+7	tant	tant	ADV	rg	_	5	obl	5:obl	ArgTem=argM:deg
+8	que	que	SCONJ	cs	_	9	mark	9:mark	_
+9	los	lo	PRON	p03mp000	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	advcl	4:advcl	ArgTem=argM:adv
+10	pichava	pichar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	4:ccomp	ArgTem=arg0:agt
+11	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Lo	lo	1	_	_	2	nsubj	2:nsubj	_
+2	Francés	Francés	2	_	_	4	nsubj	4:nsubj	_
+3	s'	se	3	_	_	4	aux	4:aux	_
+4	èra	èsser	4	_	_	0	root	0:root	_
+5	tornat	tornar	5	_	_	4	xcomp	4:xcomp	_
+6	aprochar	aprochar	6	_	_	5	xcomp	5:xcomp	_
+7	de	de	7	_	_	8	case	8:case	_
+8	son	son	8	_	_	9	det	9:det	_
+9	paire	paire	9	_	_	6	obj	6:obj	_
+10	e	e	10	_	_	11	cc	11:cc	_
+11	,	,	11	_	_	12	punct	12:punct	_
+12	li	li	12	_	_	13	obj	13:obj	_
+13	prenguent	prene	13	_	_	6	conj	6:conj	_
+14	sas	son	14	_	_	15	det	15:det	_
+15	mans	man	15	_	_	13	obj	13:obj	_
+16	dins	dins	16	_	_	17	case	17:case	_
+17	las	lo	17	_	_	18	det	18:det	_
+18	seunas	sieu	18	_	_	15	obl	15:obl	_
+19	,	,	19	_	_	20	punct	20:punct	_
+20	assajava	assajar	20	_	_	4	conj	4:conj	_
+21	en	en	21	_	_	22	case	22:case	_
+22	lo	lo	22	_	_	23	det	23:det	_
+23	fintant	fintar	23	_	_	20	xcomp	20:xcomp	_
+24	de	de	24	_	_	25	case	25:case	_
+25	li	li	25	_	_	26	obj	26:obj	_
+26	parlar	parlar	26	_	_	23	xcomp	23:xcomp	_
+27	plan	plan	27	_	_	26	advmod	26:advmod	_
+28	doçament	doçament	28	_	_	26	obl	26:obl	_
+29	.	.	29	_	_	4	punct	4:punct	_
+
+1	Aquel	aquel	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	_
+2	repais	repais	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg0:agt
+3	pres	prene	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl	2:acl	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	sus	sus	ADP	spcms	_	5	case	5:case	_
+5	lo	lo	PRON	p0300000	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obl	3:obl	_
+6	sirveton	sirveton	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+7	nos	nos	PRON	p0000002	Case=Acc,Dat|Person=1|PronType=Prs	6	obj	6:obj	ArgTem=arg1:pat
+8	requinquilhèt	requinquilhar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	6:conj	_
+9	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	10	det	10:det	_
+10	brave	brave	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg2:atr
+11	bocin	bocin	NOUN	ncms000	Gender=Masc|Number=Sing	10	compound	10:compound	_
+12	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+
+1	Lo	lo	_	PRON	pr0ns000	2	nsubj	2:nsubj	_
+2	gost	gost	_	VERB	vmr00s0	0	root	0:root	_
+3	es	èsser	_	AUX	va003s0	2	aux	2:aux	_
+4	pas	pas	_	ADV	rg	2	advmod	2:advmod	_
+5	marrit	marrit	_	ADJ	aq0ms0	2	xcomp	2:xcomp	_
+6	,	,	_	PUNCT	fc	2	punct	2:punct	_
+7	siáu	èsser	_	AUX	vmr00s0	8	aux	8:aux	_
+8	segur	segur	_	ADJ	aq0ms0	2	parataxis	2:parataxis	_
+9	que	que	_	SCONJ	cs	10	mark	10:mark	_
+10	n'	ne	_	PRON	pr0n0000	11	obj	11:obj	_
+11	ai	aver	_	VERB	vaip1s0	8	ccomp	8:ccomp	_
+12	agut	aver	_	VERB	vmp00sm	11	aux	11:aux	_
+13	manjat	manjar	_	VERB	vmp00sm	11	xcomp	11:xcomp	_
+14	e	e	_	CCONJ	cc	15	cc	15:cc	_
+15	puei	puei	_	VERB	vmr00s0	11	conj	11:conj	_
+16	tot	tot	_	DET	di0ms0	17	det	17:det	_
+17	me	me	_	PRON	pr0ns000	15	obj	15:obj	_
+18	reven	revenir	_	VERB	vmn0000	15	xcomp	15:xcomp	_
+19	:	:	_	PUNCT	fp	2	punct	2:punct	_
+20	òc	òc	_	INTJ	i	2	parataxis	2:parataxis	_
+21	,	,	_	PUNCT	fc	2	punct	2:punct	_
+22	es	èsser	_	AUX	va003s0	23	aux	23:aux	_
+23	aquò	aquò	_	PRON	pd0ns000	2	parataxis	2:parataxis	_
+24	:	:	_	PUNCT	fp	2	punct	2:punct	_
+25	es	èsser	_	AUX	va003s0	26	aux	26:aux	_
+26	la	lo	_	DET	da0fs0	28	det	28:det	_
+27	sopa	sopa	_	NOUN	ncfs000	28	nsubj	28:nsubj	_
+28	de	de	_	ADP	sps00	30	case	30:case	_
+29	farineta	farineta	_	NOUN	ncfs000	30	compound	30:compound	_
+30	.	.	_	PUNCT	fp	2	punct	2:punct	_
+
+1	Doncas	doncas	_	_	2	advmod	_	_
+2	es	èsser	_	_	5	aux	_	_
+3	el	el	_	_	4	det	_	_
+4	que	que	_	_	5	nsubj	_	_
+5	prenèm	prendre	_	_	0	root	_	_
+6	.	.	_	_	_	_	_	_	_
+
+1	Aquel	aquel	DET	dd0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	_
+2	jorn	jorn	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
+3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
+4	èra	èsser	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	gaireben	gaireben	ADV	rg	_	4	advmod	4:advmod	_
+6	joial	joial	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
+7	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Pèr	pèr	SCONJ	cs	_	3	mark	3:mark	_
+2	comprene	comprene	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=argM:adv
+3	çò	çò	PRON	pr0n0000	PronType=Dem	0	root	0:root	_
+4	que	que	SCONJ	cs	_	5	mark	5:mark	_
+5-6	s’es	_	_	_	_	_	_	_	_
+5	s’	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	nsubj	6:nsubj	ArgTem=arg0:agt
+6	es	èsser	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	relcl	3:relcl	_
+7	passat	passar	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
+8	,	,	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	9	det	9:det	_
+9	un	un	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat
+10	Dieu	dieu	CCONJ	cc	_	12	cc	12:cc	_
+11	ò	ò	NOUN	np0000o	_	9	conj	9:conj	_
+12	sèmbla-Dieu	sèmbla-dieu	VERB	vmn0000	VerbForm=Inf	9	acl	9:acl	_
+13	a	aver	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	14	det	14:det	_
+14	una	un	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	ArgTem=arg1:pat
+15	ressorça	ressorça	ADJ	aq0fs0	Gender=Fem|Number=Sing	14	amod	14:amod	_
+16	especiala	especial	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+17	.	.	_	_	_	_	_	_	_
+
+1	Un	un	DET	da0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	a	a	ADP	sps00	_	3	case	3:case	_
+3	beu	beure	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+4	èsser	èsser	AUX	vmn0000	VerbForm=Inf	3	aux	3:aux	_
+5	malandrós	malandrós	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	xcomp	3:xcomp	_
+6	dempuei	dempuei	ADP	spcms	_	7	case	7:case	_
+7	sieis	sieis	NUM	dg0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	5	obl	5:obl	_
+8	mes	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	7	nmod	7:nmod	_
+9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
+10	èsser	èsser	AUX	vmn0000	VerbForm=Inf	3	conj	3:conj	_
+11	pas	pas	NOUN	ncms000	Gender=Masc|Number=Sing	10	obj	10:obj	ArgTem=arg1:pat
+12	lonh	lonh	ADV	r	_	11	advmod	11:advmod	_
+13-14	daus	_	_	_	_	_	_	_	_
+13	de	de	ADP	spcmp	_	14	case	14:case	_
+14	lo	lo	DET	dd0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	obl	11:obl	_
+15	quatre-vint	quatre-vint	NUM	dg0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	14	nummod	14:nummod	_
+16	quinze	quinze	NUM	dg0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	15	compound	15:compound	_
+17	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
+18	un	un	DET	da0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
+19	a	aver	VERB	vmn0000	VerbForm=Inf	10	conj	10:conj	_
+20	beu	beu	VERB	vmn0000	VerbForm=Inf	19	xcomp	19:xcomp	_
+21	s’	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	20:obj	SpaceAfter=No
+22	i	i	CCONJ	cc	_	23	cc	23:cc	_
+23	esperar	esperar	VERB	vmn0000	VerbForm=Inf	20	conj	20:conj	_
+24	un	un	DET	da0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
+25	pauc	pauc	NOUN	ncms000	Gender=Masc|Number=Sing	23	obj	23:obj	ArgTem=arg1:pat
+26	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
+27	quò	quò	PRON	pr0cn000	PronType=Rel	23	advcl	23:advcl	_
+28	fai	far~faire	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	27:ccomp	_
+29	totjorn	totjorn	ADV	r	_	28	advmod	28:advmod	_
+30	un	un	DET	da0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	_
+31	petit	petit	ADJ	aq0ms0	Gender=Masc|Number=Sing	28	xcomp	28:xcomp	_
+32	quauquaren	quauquaren	VERB	vmn0000	VerbForm=Inf	31	xcomp	31:xcomp	_
+33	de	de	ADP	sps00	_	34	case	34:case	_
+34	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	32:obj	SpaceAfter=No
+35	veire	veire	VERB	vmn0000	VerbForm=Inf	32	xcomp	32:xcomp	_
+36	mòrt	mòrt	ADJ	aq0ms0	Gender=Masc|Number=Sing	35	xcomp	35:xcomp	_
+37	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+
+1	Amont	amont	amont	ADV	_	4	advmod	4:advmod	_
+2	d’	de	de	ADP	_	3	case	3:case	_
+3	en	en	en	PRON	_	4	det	4:det	_
+4	naut	naut	naut	NOUN	_	0	root	0:root	_
+5	.	.	.	PUNCT	_	4	punct	4:punct	_
+
+1	Lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	cran	cran	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat
+3	arrasat	arrasar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	a	a	ADP	sps00	_	5	case	5:case	_
+5	blanc	blanc	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	3:amod	_
+6	sonque	sonque	CCONJ	cc	_	7	cc	7:cc	_
+7	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
+8	halha	halha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	3:obl	ArgTem=argM:loc
+9	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+
+1	Es	èsser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	2:aux	_
+2	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	3	det	3:det	_
+3	trabalh	trabalh	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg1:pat
+4	que	que	PRON	pr0cn000	PronType=Rel	5	nsubj	5:nsubj	ArgTem=arg0:agt
+5	fasiá	far~faire	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl	3:acl	_
+6	dins	dins	ADP	sps00	_	7	case	7:case	_
+7	sa	son	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
+8	precedenta	precedent	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	obl	5:obl	ArgTem=argM:loc
+9	asinariá	asinariá	VERB	vmn0000	VerbForm=Inf	5	xcomp	5:xcomp	ArgTem=argM:adv
+10	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+
+1	E	e	CCONJ	cc	_	3	cc	3:cc	_
+2	de	de	ADP	sps00	_	3	case	3:case	_
+3	minjar	minjar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+4	hormatge	hormatge	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat
+5	?	?	PUNCT	fp	PunctType=Qest	3	punct	3:punct	_
+
+1	Que	que	PRON	pr0cn000	PronType=Rel	4	nsubj	4:nsubj	_
+2	seràs	èsser	VERB	vmfi2s0	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	4	root	4:root	_
+3	lèu	lèu	ADV	rg	_	2	advmod	2:advmod	_
+4	grasset	grasset	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	ccomp	0:ccomp	_
+5	!	!	PUNCT	fp	PunctType=Excl	2	punct	2:punct	_
+
+1	Que	que	SCONJ	cs	_	4	mark	4:mark	_
+2	lo	lo	PRON	p03ms0	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	ArgTem=arg1:pat
+3	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	aux	4:aux	_
+4	voleràn	voler	VERB	vmfi3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	ArgTem=arg0:agt
+5	préner	préner	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=argM:adv
+6	a	a	ADP	sps00	_	7	case	7:case	_
+7	Sent	Sent	PROPN	np0000l	_	5	obl	5:obl	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+8	Per	Per	PROPN	np0000l	_	7	flat	7:flat	Entity=NOCOREF:Spec.location)
+9	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
+10	en	en	ADP	sps00	_	11	case	11:case	_
+11	convent	convent	NOUN	ncms000	Gender=Masc|Number=Sing	12	obl	12:obl	ArgTem=argM:loc
+12	...	...	PUNCT	fp	PunctType=Ellipsis	4	punct	4:punct	_
+
+1	De	de	ADP	sps00	_	2	case	2:case	_
+2	bombas	bomba	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	0:root	ArgTem=arg1:pat
+3	atomicas	atomic	ADJ	aq0fp0	Gender=Fem|Number=Plur	2	amod	2:amod	_
+4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
+5	ne	ne	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	6	det	6:det	_
+6	larga	largar	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	_
+7	dotze	12	NUM	dg0fs0	Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+8	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
+
+1	La	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	sola	sol	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	3:amod	_
+3	besonha	besonha	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
+4	que	que	PRON	pr0cn000	PronType=Rel	5	obj	5:obj	ArgTem=arg1:pat
+5	me	me	PRON	p0100000	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	6	obj	6:obj	SpaceAfter=No
+6	pòde	poder	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	encara	encara	ADV	rg	_	8	advmod	8:advmod	_
+8	recordar	recordar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=argM:adv
+9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
+10	es	èsser	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	8:ccomp	_
+11	mas	mas	ADV	rg	_	12	advmod	12:advmod	_
+12	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	13	det	13:det	_
+13	scèna	scèna	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
+14	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+
+1	Que	que	que	PRON	da0n000	_	2	nsubj	2:nsubj	ArgTem=arg0:agt
+2	s'	se	pron	se	PRON	p0300000	_	0	root	0:root	_
+3	i	i	cc	cc	CCONJ	4	cc	4:cc	_
+4	viu	viure	verb	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	pred	2:pred	ArgTem=arg1:pat
+5	a	a	prep	sps00	ADP	6	case	6:case	_
+6	la	lo	det	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	obl	4:obl	ArgTem=argM:loc
+7	cosina	cosina	noun	ncfs000	Gender=Fem|Number=Sing	6	compound	6:compound	SpaceAfter=No
+8	.	.	punct	fp	PunctType=Peri	2	punct	2:punct	_
+
+1	La	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	guèrra	guèrra	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg0:agt
+3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
+4	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	ArgTem=arg1:pat
+5	n'en	ne	PART	pa	_	6	mark	6:mark	_
+6	parlava	parlar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
+7	gaire	gaire	ADV	rg	_	8	advmod	8:advmod	_
+8	que	que	PRON	pr0cn000	PronType=Rel	6	advcl	6:advcl	ArgTem=argM:adv
+9	ren	ren	PRON	pr0n0000	Number=Sing|PronType=Ind	8	obj	8:obj	ArgTem=arg1:pat
+10	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	11:obj	ArgTem=arg1:pat
+11	passava	passar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	6:ccomp	_
+12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
+13	e	e	CCONJ	cc	_	14	cc	14:cc	_
+14	alevat	alevat	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	amod	16:amod	_
+15	que	que	PRON	pr0cn000	PronType=Rel	16	nsubj	16:nsubj	ArgTem=arg0:agt
+16	mon	mon	NOUN	np0000l	Gender=Masc|Number=Sing|PronType=Prs	11	acl	11:acl	ArgTem=arg1:pat
+17	paire	paire	NOUN	np0000l	Gender=Masc|Number=Sing	16	appos	16:appos	_
+18	èra	èsser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+19	mobilisat	mobilisar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	16:acl	_
+20	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
+21	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg0:agt
+22	ma	mon	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	_
+23	maire	maire	NOUN	np0000f	Gender=Fem|Number=Sing	16	acl	16:acl	_
+24	que	que	PRON	pr0cn000	PronType=Rel	25	nsubj	25:nsubj	ArgTem=arg0:agt
+25	me	me	PRON	p0300000	Case=Acc,Dat|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	26	obj	26:obj	ArgTem=arg1:pat
+26	veniá	venir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl	23:acl	_
+27	veire	veire	VERB	vmn0000	VerbForm=Inf	26	xcomp	26:xcomp	ArgTem=argM:fin
+28	en	en	ADP	sps00	_	29	case	29:case	_
+29	cò	cò	PRON	pr0n0000	Number=Sing|PronType=Int	27	obl	27:obl	ArgTem=argM:loc
+30	de	de	ADP	sps00	_	31	case	31:case	_
+31	ma	mon	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	_
+32	grand	grand	NOUN	np0000l	Gender=Masc|Number=Sing	29	appos	29:appos	_
+33	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
+34	rintrava	rintrar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	26:conj	_
+35	sovent	sovent	ADV	rg	_	34	advmod	34:advmod	_
+36	de	de	ADP	sps00	_	37	case	37:case	_
+37	tard	tard	ADV	rg	_	34	obl	34:obl	ArgTem=argM:tmp
+38	o	o	CCONJ	cc	_	39	cc	39:cc	_
+39	partiá	partir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	conj	34:conj	_
+40	d'	de	ADP	spcms	_	41	case	41:case	_
+41	ora	ora	NOUN	ncfs000	Gender=Fem|Number=Sing	39	obl	39:obl	ArgTem=argM:tmp
+42	per	per	ADP	sps00	_	43	case	43:case	_
+43	son	son	NOUN	np0000l	Gender=Masc|Number=Sing|PronType=Prs	39	obl	39:obl	ArgTem=argM:loc
+44	trabalh	trabalh	NOUN	np0000l	Gender=Masc|Number=Sing	43	appos	43:appos	_
+45-46	dei	_	_	_	_	_	_	_	_
+45	de	de	ADP	spcmp	_	46	case	46:case	_
+46	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	_
+47	trams	tram	NOUN	ncmp000	Gender=Masc|Number=Plur	44	nmod	44:nmod	_
+48	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	_
+49	m'	me	PRON	p0300000	Case=Acc,Dat|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	50	obj	50:obj	ArgTem=arg1:pat
+50	avisavi	avisar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	conj	39:conj	_
+51	de	de	ADP	sps00	_	52	case	52:case	_
+52	ren	ren	PRON	pr0n0000	Number=Sing|PronType=Ind	50	obj	50:obj	ArgTem=arg1:pat
+53	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+
+1	Dins	dins	ADP	sps00	_	3	case	3:case	_
+2	lo	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
+3	recanton	recanton	NOUN	ncms000	Gender=Masc|Number=Sing	12	obl	12:obl	ArgTem=argM:loc
+4	de	de	ADP	sps00	_	5	case	5:case	_
+5	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
+6	sala	sala	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	_
+7	an	aver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
+8	cavat	cavar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	dins	dins	ADP	sps00	_	10	case	10:case	_
+10	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
+11	ròca	ròca	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obl	8:obl	ArgTem=argM:loc
+12	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	13	det	13:det	_
+13	silò	silò	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg1:pat
+14	tapat	tapar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	13:acl	_
+15	amb	amb	ADP	sps00	_	16	case	16:case	_
+16	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	17	det	17:det	_
+17	curbecèu	curbecèu	NOUN	ncms000	Gender=Masc|Number=Sing	14	obj	14:obj	ArgTem=arg2:atr
+18	de	de	ADP	sps00	_	19	case	19:case	_
+19	pèira	pèira	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	_
+20	que	que	PRON	pr0cn000	PronType=Rel	21	obj	21:obj	ArgTem=arg1:pat
+21	per	per	ADP	sps00	_	23	case	23:case	_
+22	l’	lo	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	23	det	23:det	SpaceAfter=No
+23	auborar	auborar	VERB	vmn0000	VerbForm=Inf	14	acl	14:acl	ArgTem=argM:fin
+24	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	23:obj	SpaceAfter=No
+25	li	i	PRON	p0300000	Case=Dat|Person=3|PronType=Prs	26	obj	26:obj	_
+26	meton	metre	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	23:aux	_
+27	a	a	ADP	sps00	_	28	case	28:case	_
+28	tres	tres	NUM	dn0np0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	26	obl	26:obl	ArgTem=argM:tmp
+29	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
+
+1	S’	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	obj	2:obj	SpaceAfter=No|ArgTem=arg1:pat
+2	ensagèron	ensajar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
+3	totei	tot	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	4	det	4:det	_
+4	leis	lo	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obl	2:obl	ArgTem=argM:tem
+5	insecticids	insecticid	NOUN	ncfp000	Gender=Fem|Number=Plur	4	nmod	4:nmod	_
+6	pèr	pèr	ADP	sps00	_	7	case	7:case	_
+7	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	8	det	8:det	_
+8	chaple	chaple	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	2:obl	ArgTem=argM:loc
+9	definitiu	definitiu	ADJ	aq0ms0	Gender=Masc|Number=Sing	8	amod	8:amod	_
+10	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
+
+1	Qu’	que	X	_	_	2	nsubj	2:nsubj	ID=1|FORM=Qu’|LEMMA=que
+2	ei	èsser	VERB	vmnp3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	ID=2|FORM=ei|LEMMA=èsser
+3	disponible	disponible	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	xcomp	2:xcomp	ID=3|FORM=disponible|LEMMA=disponible
+4	en	en	ADP	sps00	_	5	case	5:case	ID=4|FORM=en|LEMMA=en
+5	DVD	DVD	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ID=5|FORM=DVD|LEMMA=DVD
+6	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	ID=6|FORM=,|LEMMA=,
+7	dab	dab	ADP	sps00	_	8	case	8:case	ID=7|FORM=dab|LEMMA=dab
+8	sostitolatge	sostitolatge	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	ID=8|FORM=sostitolatge|LEMMA=sostitolatge
+9	en	en	ADP	sps00	_	10	case	10:case	ID=9|FORM=en|LEMMA=en
+10	occitan	occitan	NOUN	ncms000	Gender=Masc|Number=Sing	8	nmod	8:nmod	ID=10|FORM=occitan|LEMMA=occitan
+11	o	o	CCONJ	cc	_	12	cc	12:cc	ID=11|FORM=o|LEMMA=o
+12	en	en	ADP	sps00	_	13	case	13:case	ID=12|FORM=en|LEMMA=en
+13	francés	francés	NOUN	ncms000	Gender=Masc|Number=Sing	10	conj	10:conj	ID=13|FORM=francés|LEMMA=francés
+14	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	ID=14|FORM=.|LEMMA=.
+
+1-2	Au	_	_	_	_	_	_	_	_
+1	a	a	INTJ	_	_	2	discourse	2:discourse	_
+2	lo	lo	ADP	_	_	3	case	3:case	_
+3	bon	bon	DET	da0ns0	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
+4	moment	moment	ADJ	aq0ns0	Gender=Neut|Number=Sing	0	root	0:root	_
+5	,	,	NOUN	ncns000	Gender=Neut|Number=Sing	4	obl:tmod	4:obl:tmod	_
+6	lo	lo	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
+7	hilh	hilh	DET	da0ns0	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	8:det	_
+8-9	deu	_	_	_	_	_	_	_	_
+8	de	de	NOUN	ncns000	Gender=Neut|Number=Sing	12	nsubj	12:nsubj	_
+9	lo	lo	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
+10	rei	rei	ADP	sps00	_	11	case	11:case	_
+11	se	se	DET	da0ns0	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	obl:arg	12:obl:arg	_
+12	botèc	botar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	4:parataxis	_
+13	la	lo	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	12:obj	_
+14	pluma	pluma	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	xcomp	12:xcomp	_
+15	dens	dens	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
+16	la	lo	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obj	14:obj	_
+17	boca	boca	ADP	sps00	_	18	case	18:case	_
+18	.	.	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	_
+
+1	Autra	autre	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+2	causa	causa	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat
+3	estranha	estranh	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	2:amod	_
+4	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
+5	èra	èsser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	qu’	que	PRON	pr0cn000	PronType=Rel	0	root	0:root	_
+7	aquel	aquel	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	8	det	8:det	_
+8	nom	nom	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=arg2:atr
+9	èra	èsser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+10	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
+11	quita	quite	NOUN	ncfs000	Gender=Fem|Number=Sing	8	appos	8:appos	_
+12	definicion	definicion	NOUN	ncfs000	Gender=Fem|Number=Sing	11	compound	11:compound	_
+13	de	de	ADP	sps00	_	14	case	14:case	_
+14	l'	lo	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	15	det	15:det	SpaceAfter=No
+15	espaci	espaci	NOUN	ncms000	Gender=Masc|Number=Sing	12	nmod	12:nmod	_
+16	concebut	concebre	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	15:acl	_
+17	coma	coma	SCONJ	cc	_	18	cc	18:cc	_
+18	luòc	luòc	NOUN	ncms000	Gender=Masc|Number=Sing	15	conj	15:conj	_
+19	de	de	ADP	sps00	_	20	case	20:case	_
+20	residéncia	residéncia	NOUN	ncfs000	Gender=Fem|Number=Sing	18	nmod	18:nmod	_
+21	de	de	ADP	sps00	_	23	case	23:case	_
+22	mon	mon	DET	np0000l	Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.person-person-1-gstype:spec
+23	monde	monde	NOUN	np0000l	_	20	nmod	20:nmod	SpaceAfter=No|Entity=NOCOREF:Spec.person)
+24	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+
+1	Que	que	SCONJ	cs	_	6	mark	6:mark	_
+2	'm	me	PRON	p0100000	Case=Acc,Dat|Person=1|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
+3	torni	tornar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	_
+4	estonar	estonar	VERB	vmn0000	VerbForm=Inf	3	compound	3:compound	_
+5	e	e	CCONJ	cc	_	6	cc	6:cc	_
+6	encolerar	encolerar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+7	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+
+1	Consí	consí	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+2	far	far	VERB	vmn0000	VerbForm=Inf	1	xcomp	1:xcomp	_
+3	per	per	ADP	sps00	_	4	case	4:case	_
+4	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	obl	2:obl	_
+5	'n	ne	PART	pr0tn000	Poss=Yes|PronType=Prs	6	det	6:det	_
+6	tirar	tirar	VERB	vmn0000	VerbForm=Inf	2	obj	2:obj	ArgTem=arg1:pat
+7	?	?	PUNCT	fp	PunctType=Qest	1	punct	1:punct	_
+
+1	Dins	dins	ADP	sps00	_	3	case	3:case	_
+2	l'	lo	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	_
+3	afar	afar	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl	15:obl	ArgTem=argM:loc
+4	d'	de	ADP	spcms	_	5	case	5:case	_
+5	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	6	det	6:det	_
+6	beleg	beleg	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	_
+7	trapèri	trapar	VERB	vmg0000	VerbForm=Ger	6	acl	6:acl	ArgTem=argM:adv
+8	totas	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	9	det	9:det	_
+9	las	lo	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	10:det	_
+10	rasons	rason	NOUN	ncfp000	Gender=Fem|Number=Plur	15	nsubj	15:nsubj	ArgTem=arg0:agt
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	spcmp	_	12	case	12:case	_
+12	lo	lo	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	13	det	13:det	_
+13	monde	monde	NOUN	ncms000	Gender=Masc|Number=Sing	10	nmod	10:nmod	_
+14	per	per	ADP	sps00	_	15	mark	15:mark	_
+15	justificar	justificar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+16	sa	son	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	15:obj	ArgTem=arg1:pat
+17	vetustat	vetustat	NOUN	ncfs000	Gender=Fem|Number=Sing	15	obj	15:obj	ArgTem=arg2:atr
+18	.	.	PUNCT	fp	PunctType=Peri	15	punct	15:punct	_
+
+1	Nadal	Nadal	Nadal	PROPN	np0000p	_	2	nsubj	2:nsubj	_
+2	qu’	que	que	SCONJ	cs	_	3	mark	3:mark	SpaceAfter=No
+3	èra	èsser	èsser	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	aderent	aderent	aderent	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	xcomp	3:xcomp	_
+5	a	a	a	ADP	sps00	_	6	case	6:case	_
+6	nombrosas	nombrós	nombrós	ADJ	aq0fp0	Gender=Fem|Number=Plur	4	obl	4:obl	_
+7	associacions	associacion	associacion	NOUN	ncfp000	Gender=Fem|Number=Plur	6	nmod	6:nmod	_
+8	,	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+9	la	lo	lo	DET	np0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
+10	Companhia	companhia	companhia	PROPN	np0000o	_	12	nsubj	12:nsubj	_
+11-12	deus	_	_	_	_	_	_	_	_
+11	de	de	_	_	_	12	aux	12:aux	_
+12	lo	lo	lo	PRON	p0300000	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	acl	10:acl	_
+13	escrivans	escrivan	escrivan	NOUN	ncmp000	Gender=Masc|Number=Plur	12	obj	12:obj	ArgTem=arg1:tem
+14	de	de	de	ADP	sps00	_	15	case	15:case	_
+15	Tarn	Tarn	Tarn	PROPN	np0000l	_	13	nmod	13:nmod	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+16	e	e	e	CCONJ	cc	_	17	cc	17:cc	_
+17	Garona	Garona	Garona	PROPN	np0000l	_	15	conj	15:conj	Entity=NOCOREF:Spec.location)
+18	,	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+19	l’	lo	lo	DET	np0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
+20	Associacion	associacion	associacion	PROPN	np0000o	_	22	nsubj	22:nsubj	_
+21	Miguel	Miguel	Miguel	PROPN	np0000p	_	20	flat	20:flat	SpaceAfter=No
+22	de	de	de	ADP	sps00	_	24	case	24:case	_
+23	Cervantes	Cervantes	Cervantes	PROPN	np0000p	_	22	flat	22:flat	Entity=(NOCOREF:Spec.person-person-1-gstype:spec
+24	,	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
+25	l’	lo	lo	DET	np0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	_
+26	Acadèmia	acadèmia	acadèmia	PROPN	np0000o	_	28	nsubj	28:nsubj	_
+27	de	de	de	ADP	sps00	_	28	case	28:case	_
+28	Montauban	Montauban	Montauban	PROPN	np0000l	_	26	nmod	26:nmod	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-2-gstype:spec
+29	,	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
+30	l’	lo	lo	DET	np0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	_
+31	Acadèmia	acadèmia	acadèmia	PROPN	np0000o	_	33	nsubj	33:nsubj	_
+32	de	de	de	ADP	sps00	_	33	case	33	case	_
+33	Lengadòc	Lengadòc	Lengadòc	PROPN	np0000l	_	31	nmod	31:nmod	Entity=NOCOREF:Spec.location)
+34	...	...	...	PUNCT	fp	PunctType=Ellipsis	3	punct	3:punct	_
+
+1	Que	que	SCONJ	cs	_	4	mark	4:mark	_
+2	'u	'u	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	nsubj	4:nsubj	_
+3	n'	ne	PART	pa	_	4	dep	4:dep	_
+4	èi	aver	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	parlat	parlar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	4:xcomp	_
+6-7	ath	_	_	_	_	_	_	_	_
+6	a	a	ADP	sps00	_	7	case	7:case	_
+7	eth	eth	PRON	pr0cn000	PronType=Rel	5	obl	5:obl	_
+8	curè	curè	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	5:obj	_
+9	adès	adès	ADV	rg	_	4	advmod	4:advmod	_
+10	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Adès	adès	ADV	r0	_	13	advmod	13:advmod	_
+2	encòra	encòra	ADV	r0	_	13	advmod	13:advmod	_
+3	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
+4-5	au	_	_	_	_	_	_	_	_
+4	a	a	ADP	sps00	_	5	case	5:case	_
+5	lo	lo	DET	dd0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	_
+6	darrèr	darrèr	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	13	obl	13:obl	ArgTem=argM:loc
+7	de	de	ADP	sps00	_	8	case	8:case	_
+8	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
+9	hormigueta	hormigueta	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nmod	6:nmod	_
+10	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
+11	b'	que	PRON	pr0cn000	PronType=Rel	13	obj	13:obj	ArgTem=arg1:pat
+12	an	aver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+13	shisclat	shisclar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+14	soviers	sovier	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obj	13:obj	ArgTem=arg2:atr
+15	e	e	CCONJ	cc	_	16	cc	16:cc	_
+16	malícia	malícia	NOUN	ncfs000	Gender=Fem|Number=Sing	14	conj	14:conj	_
+17	.	.	PUNCT	fp	PunctType=Peri	13	punct	13:punct	_
+
+1	Tot	tot	ADV	rg	_	7	advmod	7:advmod	_
+2	en	en	ADP	sps00	_	3	case	3:case	_
+3	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	4	det	4:det	_
+4	còp	còp	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	7:obj	ArgTem=arg1:pat
+5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
+6	me	me	PRON	p0100000	Case=Acc,Dat|Person=1|PronType=Prs	7	obj	7:obj	ArgTem=arg2:atr
+7	sentiguèri	sentir	VERB	vmr1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	las	las	DET	dd0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	9:det	_
+9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
+10	fatigat	fatigat	ADJ	aq0ms0	Gender=Masc|Number=Sing	7	xcomp	7:xcomp	_
+11	que	que	PRON	pr0cn000	PronType=Rel	12	nsubj	12:nsubj	ArgTem=arg0:agt
+12	non	non	PART	rn	Polarity=Neg	10	acl	10:acl	_
+13	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	ArgTem=arg1:pat
+14	pòt	poder	VERB	vmr3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	_
+15	mai	mai	ADV	rg	_	14	advmod	14:advmod	_
+16	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
+
+1	Atanben	atanben	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+3	entre	entre	ADP	sps00	_	4	case	4:case	_
+4	los	lo	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	_
+5	traucasses	traucàs	NOUN	ncmp000	Gender=Masc|Number=Plur	1	obj	1:obj	ArgTem=arg1:pat
+6	e	e	CCONJ	cc	_	7	cc	7:cc	_
+7	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
+8	ròca	ròca	NOUN	ncfs000	Gender=Fem|Number=Sing	5	conj	5:conj	_
+9	que	que	PRON	pr0cn000	PronType=Rel	10	nsubj	10:nsubj	ArgTem=arg0:agt
+10	limpa	limpar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	8:acl	_
+11	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
+12	cal	caler	VERB	vmn0000	VerbForm=Inf	1	advcl	1:advcl	_
+13	far	far	VERB	vmn0000	VerbForm=Inf	12	xcomp	12:xcomp	ArgTem=argM:fin
+14	atencion	atencion	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
+15	en	en	ADP	sps00	_	16	case	16:case	_
+16	davalant	davalar	VERB	vmg0000	VerbForm=Ger	14	nmod	14:nmod	ArgTem=argM:adv
+17	en	en	ADP	sps00	_	18	case	18:case	_
+18	bicicleta	bicicleta	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=arg1:pat
+19	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
+
+1	Es	èsser	AUX	va03s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+2	aquí	aquí	ADV	rg	_	4	advmod	4:advmod	_
+3	que	que	SCONJ	cs	_	4	mark	4:mark	_
+4	passère	passar	VERB	vmr00s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	las	lo	DET	dd0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	6	det	6:det	_
+6	dotze	dotze	NUM	dn0fp0	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+7	promèiras	promèir	ADJ	ao0fp0	Gender=Fem|Number=Plur|NumType=Ord	8	amod	8:amod	_
+8	annadas	annada	NOUN	ncfs000	Gender=Fem|Number=Plur	4	obj	4:obj	ArgTem=arg1:pat
+9	de	de	ADP	sps00	_	10	case	10:case	_
+10	ma	mon	DET	np0000l	Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Spec.date-time-1-gstype:spec
+11	vida	vida	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	SpaceAfter=No|Entity=NOCOREF:Spec.date)
+12	ambe	ambe	ADP	sp	_	13	case	13:case	_
+13	mon	mon	DET	np0000l	Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.person-person-1-gstype:spec
+14	fraire	fraire	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	SpaceAfter=No|Entity=NOCOREF:Spec.person)
+15	Franc	Franc	PROPN	np0000p	_	14	appos	14:appos	MWE=Franc_M.|MWEPOS=PROPN
+16	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Començava	començar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	ArgTem=argM:adv
+2	de	de	ADP	sps00	_	3	mark	3:mark	_
+3	ganivelar	ganivelar	VERB	vmn0000	VerbForm=Inf	1	xcomp	1:xcomp	ArgTem=arg1:pat
+4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
+5	de	de	ADP	sps00	_	6	mark	6:mark	_
+6	se	se	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	obl	3:obl	ArgTem=argM:ref
+7	cherchinhar	cherchinhar	VERB	vmn0000	VerbForm=Inf	3	conj	3:conj	_
+8	dobe	dobe	ADV	r	_	7	advmod	7:advmod	_
+9	son	son	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+10	mur	mur	NOUN	ncms000	Gender=Masc|Number=Sing	1	nsubj	1:nsubj	ArgTem=arg0:agt
+11	e	e	CCONJ	cc	_	12	cc	12:cc	_
+12	mèstre	mèstre	NOUN	ncms000	Gender=Masc|Number=Sing	10	conj	10:conj	SpaceAfter=No
+13	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
+
+1	Deu	deure	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+2	gelar	gelar	VERB	vmn0000	VerbForm=Inf	1	xcomp	1:xcomp	_
+3	e	e	CCONJ	cc	_	4	cc	4:cc	_
+4	gelarà	gelar	VERB	vmf0000	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	1:conj	_
+5	solide	solide	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	xcomp	4:xcomp	_
+6	tota	tot	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	7	det	7:det	_
+7	la	lo	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
+8	jornada	jornada	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
+9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
+10	pasmens	pasmens	ADV	rg	_	11	advmod	11:advmod	_
+11	gela	gelar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+12	gaire	gaire	ADV	rg	_	11	advmod	11:advmod	_
+13	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	_
+
+1	L'	lo	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	enfant	enfant	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
+3	polit	polit	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
+4	las	lo	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
+5	velhèt	velhar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=arg1:pat
+6	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Qu'	que	SCONJ	cs	_	3	mark	3:mark	ID=1|FORM=Qu'|LEMMA=que
+2	es	èsser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	ID=2|FORM=es|LEMMA=èsser
+3	luènh	luènh	ADJ	aq0ns0	Gender=Neut|Number=Sing	0	root	0:root	ID=3|FORM=luènh|LEMMA=luènh
+4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	ID=4|FORM=,|LEMMA=,
+5	mon	mon	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	ID=5|FORM=mon|LEMMA=mon
+6	Dieu	Dieu	PROPN	np0000l	_	3	nsubj	3:nsubj	ID=6|FORM=Dieu|LEMMA=Dieu
+7	!	!	PUNCT	fp	PunctType=Peri	3	punct	3:punct	ID=7|FORM=!|LEMMA=!
+
+1	Que	que	SCONJ	cs	_	4	mark	4:mark	_
+2	’s	se	PUNCT	f0	_	3	punct	3:punct	SpaceAfter=No
+3	harà	har	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	nsubj	4:nsubj	_
+4	cantorau	cantorau	VERB	vmf03s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
+5	de	de	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	_
+6	la	lo	ADP	sps00	_	7	case	7:case	_
+7	soa	son	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
+8	lenga	lenga	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	ArgTem=arg1:tem
+9	mairau	mairau	NOUN	ncfs000	Gender=Fem|Number=Sing	8	appos	8:appos	_
+10	e	e	ADJ	aq0fs0	Gender=Fem|Number=Sing	9	amod	9:amod	_
+11	promotor	promotor	CCONJ	cc	_	12	cc	12:cc	_
+12	de	de	NOUN	ncms000	Gender=Masc|Number=Sing	8	conj	8:conj	_
+13	la	la	ADP	sps00	_	14	case	14:case	_
+14	vitalitat	vitalitat	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	_
+15-16	deus	_	_	_	_	_	_	_	_
+15	de	de	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	ArgTem=arg1:tem
+16	lo	lo	NOUN	ncms000	Gender=Masc|Number=Sing	15	appos	15:appos	_
+17	ainats	ainat	ADP	sps00	_	18	case	18:case	_
+18	.	.	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
+
+1	Paire	paire	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
+2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+3	t'	te	PRON	p0200000	Case=Acc,Dat|Person=2|PrepCase=Npr|PronType=Prs	4	obj	4:obj	_
+4	ajudarem	ajudar	VERB	vmf11p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	parataxis	1:parataxis	_
+5	!	!	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+
+1	Chau	chaler	INTJ	_	_	12	vocative	12:vocative	_
+2	reconéisser	reconéisser	VERB	_	_	0	root	0:root	_
+3	que	que	SCONJ	_	_	6	mark	6:mark	_
+4	,	,	PUNCT	_	_	6	punct	6:punct	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	_	_	6	case	6:case	_
+6	lo	lo	PRON	_	_	2	obj	2:obj	ArgTem=arg1:pat
+7	mens	mens	NOUN	_	_	6	appos	6:appos	_
+8	a	a	ADP	_	_	9	case	9:case	_
+9	la	lo	DET	_	_	10	det	10:det	_
+10	debuta	debuta	NOUN	_	_	7	nmod	7:nmod	_
+11	,	,	PUNCT	_	_	12	punct	12:punct	_
+12	ne’n	ne'n	PRON	_	_	2	obj	2:obj	ArgTem=arg2:atr|SpaceAfter=No
+13	fuguèrem	èsser	AUX	_	_	15	aux	15:aux	_
+14	fòrça	fòrça	ADV	_	_	15	advmod	15:advmod	_
+15	benaises	benaise	ADJ	_	_	12	xcomp	12:xcomp	_
+16	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+1	Atau	atau	INTJ	_	_	0	root	0:root	_
+2	apèran	apèrar	VERB	_	_	1	conj	1:conj	_
+3	los	lo	DET	_	_	4	det	4:det	_
+4	marchands	marchand	NOUN	_	_	2	nsubj	2:nsubj	_
+5	que	que	PRON	_	_	6	nsubj	6:nsubj	_
+6	corron	còrrer	VERB	_	_	4	acl	4:acl	_
+7	las	lo	DET	_	_	8	det	8:det	_
+8	heras	hera	NOUN	_	_	6	obj	6:obj	_
+9	,	,	PUNCT	_	_	10	punct	10:punct	_
+10	vestits	vestir	VERB	_	_	8	xcomp	8:xcomp	_
+11	d'	de	ADP	_	_	12	case	12:case	_
+12	un	un	DET	_	_	13	det	13:det	_
+13	gran	gran	ADJ	_	_	14	amod	14:amod	_
+14	manto	manto	NOUN	_	_	10	obj	10:obj	_
+15	semiat	semiatr	ADJ	_	_	14	amod	14:amod	_
+16	de	de	ADP	_	_	17	case	17:case	_
+17	coscolhas	coscolha	NOUN	_	_	14	nmod	14:nmod	_
+18	,	,	PUNCT	_	_	19	punct	19:punct	_
+19	dambe	dambe	ADV	_	_	20	advmod	20:advmod	_
+20	lo	lo	DET	_	_	21	det	21:det	_
+21	bordon	bordon	NOUN	_	_	2	parataxis	2:parataxis	_
+22	a	a	ADP	_	_	23	case	23:case	_
+23	la	lo	DET	_	_	24	det	24:det	_
+24	man	man	NOUN	_	_	21	nmod	21:nmod	_
+25	,	,	PUNCT	_	_	26	punct	26:punct	_
+26	entà	entà	ADP	_	_	27	case	27:case	_
+27	véner	véner	VERB	_	_	2	parataxis	2:parataxis	_
+28	objècts	objèct	NOUN	_	_	27	obj	27:obj	_
+29	de	de	ADP	_	_	30	case	30:case	_
+30	pietat	pietat	NOUN	_	_	28	nmod	28:nmod	_
+31	.	.	PUNCT	_	_	1	punct	1:punct	_

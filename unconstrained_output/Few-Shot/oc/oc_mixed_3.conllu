@@ -1,0 +1,892 @@
+1-2	Dau	_	_	_	_	_	_	_	_
+1	de	de	X	_	_	0	root	_	ID=1	FORM=Dau	LEMMA=Dau
+2	lo	lo	ADP	_	_	3	case	_	ID=2	FORM=de	LEMMA=de
+3	terme	terme	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	ID=3	FORM=lo	LEMMA=lo
+4	onte	onte	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	ID=4	FORM=terme	LEMMA=terme
+5	io	io	ADV	_	_	4	advmod	_	ID=5	FORM=onte	LEMMA=onte
+6	aviá	aver	PRON	_	Person=3|PronType=Prs	4	obl:agent	_	ID=6	FORM=io	LEMMA=io
+7	pres	prendre	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	ID=7	FORM=aviá	LEMMA=aver
+8	posicion	posicion	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	ID=8	FORM=pres	LEMMA=prendre
+9	,	,	PUNCT	_	_	10	punct	_	ID=9	FORM=,	LEMMA=,
+10	vesiá	véser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	ID=10	FORM=vesiá	LEMMA=véser
+11	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	ID=11	FORM=la	LEMMA=lo
+12	baissa	baissa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	ID=12	FORM=baissa	LEMMA=baissa
+13	enquera	enquera	ADV	_	_	12	advmod	_	ID=13	FORM=enquera	LEMMA=enquera
+14	dins	dins	ADP	_	_	15	case	_	ID=14	FORM=dins	LEMMA=dins
+15	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	ID=15	FORM=las	LEMMA=lo
+16	brumas	bruma	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	ID=16	FORM=brumas	LEMMA=bruma
+17	leugieras	leugier	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	ID=17	FORM=leugieras	LEMMA=leugier
+18	de	de	ADP	_	_	19	case	_	ID=18	FORM=de	LEMMA=de
+19	queu	aqueu	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	ID=19	FORM=queu	LEMMA=aqueu
+20	matin	matin	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	ID=20	FORM=matin	LEMMA=matin
+21	de	de	ADP	_	_	22	case	_	ID=21	FORM=de	LEMMA=de
+22	setembre	setembre	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	ID=22	FORM=setembre	LEMMA=setembre
+23	.	.	PUNCT	_	_	1	punct	_	ID=23	FORM=.	LEMMA=.
+
+1	Entau	entau	ADV	_	_	4	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	auriá	aver	AUX	_	Tense=Fut	4	aux	_	_
+4	pogut	poder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	trobar	trobar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	sa	son	PRON	_	Case=Acc,Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	copabla	copabla	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	tres	3	NUM	_	Gender=Fem|Number=Sing	9	nummod	_	_
+9	o	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quatre	4	NUM	_	Gender=Fem|Number=Sing	11	nummod	_	_
+11	mes	mes	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+12	mai	mai	ADV	_	_	13	advmod	_	_
+13	dabora	dabora	ADV	_	_	5	advmod	_	_
+14	sens	sens	ADP	_	_	15	case	_	_
+15	l'	lo	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	_
+16	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	l'	lo	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl:agent	_	_
+19	autre	autre	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	trasfòu	trasfòu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+1	La	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=La
+2	Vila	Vila	PROPN	_	_	6	nsubj	_	_
+3	Diu	Diu	PROPN	_	_	2	flat:name	_	_
+4-5	deu	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nmod	_	_
+6	Temple	Temple	PROPN	_	_	0	root	_	_
+7	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
+8	vad	vàder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	brèç	brèç	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	xcomp	_	_
+11	d’	de	ADP	_	_	12	case	_	SpaceAfter=No
+12	ua	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	idèa	idèa	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+14	creada	crear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	1974	1974	NUM	_	_	14	obl:tmod	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
+19	mercés	mercés	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	obl	_	_
+22	dinamica	dinamica	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Nadal	Nadal	PROPN	_	_	22	nmod:poss	_	_
+25	Rey	Rey	PROPN	_	_	24	flat:name	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	hasó	har	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+28	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	torn	torn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
+30-31	deu	_	_	_	_	_	_	_	_
+30	de	de	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+31	lo	lo	ADP	_	_	32	case	_	_
+32	monde	monde	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	obl	_	_
+33	.	.	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+
+1	Ren	ren	VERB	_	VerbForm=Inf	0	root	_	_
+2	’niriá	anar	AUX	_	Mood=Ind|Tense=Fut	1	aux	_	_
+3	plus	plus	ADV	_	_	1	advmod	_	_
+4	entre	entre	ADP	_	_	5	case	_	_
+5	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	obl	_	_
+6	dos	dos	NUM	_	Gender=Masc|Number=Plur	5	det	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+1	Durant	durant	ADP	_	_	3	case	_	_
+2	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	reünion	reünion	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
+4	,	,	PUNCT	_	_	0	root	_	_
+5	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	elegits	elegit	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	araneses	aranés	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+8	remembrèron	remembrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	president	president	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12	catalan	catalan	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	besonh	besonh	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	metre	metre	VERB	_	VerbForm=Inf	14	nmod	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	marcha	marcha	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	totalitat	totalitat	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Lei	lei	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	lo	lo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	regim	regim	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	especial	especial	ADP	_	_	28	case	_	SpaceAfter=No
+28	d'	de	PROPN	_	_	26	nmod	_	_
+29	Aran	Aran	PUNCT	_	_	31	punct	_	_
+30	,	,	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_
+31	aprovada	aprovar	ADP	_	_	32	case	_	_
+32-33	pel	_	_	_	_	_	_	_	_
+32	per	per	ADP	_	_	34	case	_	_
+33	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Parlament	parlament	NOUN	_	Gender=Masc|Number=Sing	30	obl:arg	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	Catalonha	Catalonha	PROPN	_	_	34	nmod	_	_
+37	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	21	21	NUM	_	NumForm=Digit|NumType=Card	39	nummod	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	genièr	genièr	NOUN	_	Gender=Masc|Number=Sing	30	obl:arg	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	2015	2015	NUM	_	NumForm=Digit|NumType=Card	40	nummod	_	_
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	qu'	que	PRON	_	PronType=Rel	46	nsubj	_	_
+46	intrèt	intrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	_
+47	en	en	ADP	_	_	48	case	_	_
+48	vigor	vigor	NOUN	_	Gender=Masc|Number=Sing	46	obl:arg	_	_
+49	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	14	14	NUM	_	NumForm=Digit|NumType=Card	48	nummod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	febrièr	febrièr	NOUN	_	Gender=Masc|Number=Sing	50	nummod	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	2015	2015	NUM	_	NumForm=Digit|NumType=Card	52	nummod	_	_
+55	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Aquel	aquel	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	òste	òste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	majestuós	majestuós	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	nòstras	nòstre	PRON	_	Case=Gen|Gender=Fem|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+6	selvas	selva	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
+7	montanegrinas	montanegrin	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Avèm	aver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	decidit	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	començar	començar	VERB	_	VerbForm=Inf	2	obl	_	_
+5	per	per	ADP	_	_	6	case	_	_
+6	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	pus	pus	ADV	_	_	8	advmod	_	_
+8	malaisit	malaisit	ADJ	_	Gender=Masc|Number=Sing	6	appos	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+1	L'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=L'
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	polit	polit	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Subject=SubjRaising
+4	donava	donar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	det	det	ADP	_	_	7	case	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Aquò	aquò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	me	me	PRON	_	Person=1|PronType=Prs	4	iobj	_	_
+3	faguèt	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	grelhar	grelhar	VERB	_	VerbForm=Inf	0	root	_	_
+5	dins	dins	ADP	_	_	6	case	_	_
+6	lei	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cervèlas	cervèla	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+8	doas	dos	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	7	amod	_	_
+9	idèas	idèa	NOUN	_	Gender=Fem|Number=Plur	7	appos	_	_
+10	complementàrias	complementari	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Sens	sens	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+2	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	assentiment	assentiment	NOUN	_	Gender=Masc|Number=Sing	1	compound	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	animal	animal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	asinièr	asinièr	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+10	farà	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	parataxis	_	_
+11	pas	pas	PART	_	_	10	neg	_	_
+12	res	res	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+15	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_
+17	non	non	PART	_	_	14	advmod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	lo	lo	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+20	prètz	prètz	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	de	de	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	la	lo	ADP	_	_	23	case	_	_
+23	maltractença	maltractença	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	.	.	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+
+1	Los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	wordform=Los
+2	dets	det	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ne’n	ne	PART	_	_	4	advmod	_	wordform=ne’n
+4	venián	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	neirs	neir	ADJ	_	Gender=Masc|Number=Plur	4	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	wordform=de
+7	tant	tant	ADV	_	_	5	obl	_	_
+8	que	que	SCONJ	_	_	9	mark	_	wordform=que
+9	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	wordform=Los
+10	pichava	pichar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Francés	Francés	PROPN	_	_	4	nsubj	_	_
+3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	nsubj	_	_
+4	èra	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	tornat	tornar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+6	aprochar	aprochar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	son	son	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	paire	paire	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+13	prenguent	prene	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	sas	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	mans	man	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	dins	dins	ADP	_	_	17	case	_	_
+17	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	nmod	_	_
+18	seunas	sieu	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	assajava	assajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	obl	_	_
+23	fintant	fintar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26	parlar	parlar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+27	plan	plan	ADV	_	_	26	advmod	_	_
+28	doçament	doçament	ADV	_	_	27	advmod	_	_
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Aquel	aquel	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	repais	repais	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	pres	prene	VERB	_	Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	sul	_	_	_	_	_	_	_
+4	sus	sus	ADP	_	_	5	case	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	sirveton	sirveton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	nos	nos	PRON	_	Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
+8	requinquilhèt	requinquilhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	brave	brave	ADJ	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	bocin	bocin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+1	Lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gost	gost	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	pas	pas	ADV	_	_	7	advmod	_	_
+5	marrit	marrit	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	siáu	èsser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	segur	segur	ADJ	_	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	n'	ne	PRON	_	Person=3|PronType=Prs	11	obj	_	_
+11	ai	aver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	agut	aver	AUX	_	Tense=Past|VerbForm=Part	13	aux	_	_
+13	manjat	manjar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	puei	puei	ADV	_	_	18	advmod	_	_
+16	tot	tot	DET	_	Gender=Masc|Number=Sing|PronType=Ind	18	obj	_	_
+17	me	me	PRON	_	Person=1|PronType=Prs	18	obj	_	_
+18	reven	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+19	:	:	PUNCT	_	_	20	punct	_	_
+20	òc	òc	INTJ	_	_	22	parataxis	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	aquò	aquò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	nsubj	_	_
+24	:	:	PUNCT	_	_	25	punct	_	_
+25	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sopa	sopa	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	farineta	farineta	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	_	_	25	punct	_	_
+
+1	Doncas	doncas	ADV	_	_	4	advmod	_	_
+2	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+5	prenèm	prendre	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	jorn	jorn	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	èra	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	gaireben	gaireben	ADV	_	_	4	advmod	_	_
+6	joial	joial	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Pèr	pèr	ADV	_	_	7	advmod	_	_
+2	comprene	comprene	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	çò	çò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5-6	s’es	_	_	_	_	_	_	_	_
+5	s’	se	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	es	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	passat	passar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+11	ò	ò	CCONJ	_	_	12	cc	_	_
+12	sèmbla-Dieu	sèmbla-dieu	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	a	aver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	una	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ressorça	ressorça	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	especiala	especial	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	a	a	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	beu	beure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	èsser	èsser	AUX	_	VerbForm=Inf	3	aux	_	_
+5	malandrós	malandrós	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	dempuei	dempuei	ADP	_	_	7	case	_	_
+7	sieis	sieis	NUM	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	mes	mes	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	èsser	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	pas	pas	ADV	_	_	12	advmod	_	_
+12	lonh	lonh	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	_
+13-14	daus	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	obl	_	_
+15	quatre-vint	quatre-vint	NUM	_	Gender=Masc|Number=Sing	14	nummod	_	_
+16	quinze	quinze	NUM	_	Gender=Masc|Number=Sing	15	nummod	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	a	aver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	beu	beu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	s’	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
+22	i	i	ADP	_	_	23	mark	_	_
+23	esperar	esperar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pauc	pauc	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	quò	quò	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	nsubj	_	_
+28	fai	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	totjorn	totjorn	ADV	_	_	28	advmod	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	petit	petit	ADJ	_	Gender=Masc|Number=Sing	28	xcomp	_	_
+32	quauquaren	quauquaren	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	obl	_	_
+35	veire	veire	VERB	_	VerbForm=Inf	32	xcomp	_	_
+36	mòrt	mòrt	ADJ	_	Gender=Masc|Number=Sing	35	xcomp	_	_
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+1	Amont	amont	ADV	_	_	4	advmod	_	_
+2	d’	de	ADP	_	_	3	case	_	_
+3	en	en	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+4	naut	naut	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cran	cran	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	arrasat	arrasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	blanc	blanc	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	sonque	sonque	ADV	_	_	7	advmod	_	_
+7	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	halha	halha	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trabalh	trabalh	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	fasiá	far~faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	dins	dins	ADP	_	_	7	case	_	_
+7	sa	son	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_
+8	precedenta	precedent	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	asinariá	asinariá	VERB	_	Gender=Fem|Number=Sing|VerbForm=Inf	5	xcomp	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+1	E	e	CCONJ	_	_	3	cc	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	minjar	minjar	VERB	_	VerbForm=Inf	0	root	_	_
+4	hormatge	hormatge	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	seràs	èsser	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	4	csubj	_	_
+3	lèu	lèu	ADV	_	_	2	advmod	_	_
+4	grasset	grasset	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+1	Que	que	SCONJ	_	_	5	mark	_	_
+2	lo	lo	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	se	se	PRON	_	Person=3|Reflex=Yes	5	expl:pv	_	_
+4	voleràn	voler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	préner	préner	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	Sent	Sent	PROPN	_	_	5	obl:arg	_	_
+8	Per	Per	PROPN	_	_	7	flat	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	convent	convent	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+12	...	...	PUNCT	_	_	4	punct	_	_
+
+1	De	de	ADP	_	_	3	case	_	_
+2	bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+3	atomicas	atomic	ADJ	_	Gender=Fem|Number=Plur	6	obj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	ne	ne	PART	_	_	6	advmod	_	_
+6	larga	largar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dotze	12	NUM	_	Gender=Masc|Number=Sing	6	obl	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+1	La	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sola	sol	ADJ	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	besonha	besonha	NOUN	_	Gender=Fem|Number=Sing	7	csubj	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	pòde	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	encara	encara	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	recordar	recordar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	mas	mas	ADJ	_	Gender=Fem|Number=Sing	7	parataxis	_	_
+12	una	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scèna	scèna	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+1	Que	que	PRON	_	PronType=Int	4	nsubj	_	_
+2	s'	se	PRON	_	Person=3|Reflex=Yes	4	iobj	_	_
+3	i	i	ADV	_	_	4	advmod	_	_
+4	viu	viure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosina	cosina	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	La	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	ID=1	FORM=La	LEMMA=la
+2	guèrra	guèrra	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	ID=2	FORM=guèrra	LEMMA=guèrra
+3	,	,	PUNCT	_	_	2	punct	_	ID=3	FORM=,	LEMMA=,
+4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	_	ID=4	FORM=se	LEMMA=se
+5	n'en	ne	PRON	_	Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	ID=5	FORM=n'en	LEMMA=en
+6	parlava	parlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ID=6	FORM=parlava	LEMMA=parlar
+7	gaire	gaire	ADV	_	_	6	advmod	_	ID=7	FORM=gaire	LEMMA=gaire
+8	que	que	SCONJ	_	_	9	mark	_	ID=8	FORM=que	LEMMA=que
+9	ren	ren	PRON	_	Number=Sing|PronType=Neg	6	ccomp	_	ID=9	FORM=ren	LEMMA=ren
+10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	ID=10	FORM=se	LEMMA=se
+11	passava	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	ID=11	FORM=passava	LEMMA=passar
+12	,	,	PUNCT	_	_	13	punct	_	ID=12	FORM=,	LEMMA=,
+13	e	e	CCONJ	_	_	14	cc	_	ID=13	FORM=e	LEMMA=e
+14	alevat	alevat	VERB	_	Tense=Past|VerbForm=Part	11	advcl	_	ID=14	FORM=alevat	LEMMA=alevar
+15	que	que	SCONJ	_	_	16	mark	_	ID=15	FORM=que	LEMMA=que
+16	mon	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	ID=16	FORM=mon	LEMMA=mon
+17	paire	paire	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	ID=17	FORM=paire	LEMMA=paire
+18	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	ID=18	FORM=èra	LEMMA=èsser
+19	mobilisat	mobilisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	ID=19	FORM=mobilisat	LEMMA=mobilisar
+20	,	,	PUNCT	_	_	21	punct	_	ID=20	FORM=,	LEMMA=,
+21	que	que	SCONJ	_	_	22	mark	_	ID=21	FORM=que	LEMMA=que
+22	ma	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	23	det	_	ID=22	FORM=ma	LEMMA=mon
+23	maire	maire	NOUN	_	Gender=Fem|Number=Sing	19	obl:agent	_	ID=23	FORM=maire	LEMMA=maire
+24	que	que	SCONJ	_	_	25	mark	_	ID=24	FORM=que	LEMMA=que
+25	me	me	PRON	_	Person=1|PronType=Prs	26	obj	_	ID=25	FORM=me	LEMMA=jo
+26	veniá	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	ID=26	FORM=veniá	LEMMA=venir
+27	veire	veire	ADP	_	_	28	case	_	ID=27	FORM=de	LEMMA=de
+28	en	en	VERB	_	VerbForm=Inf	26	xcomp	_	ID=28	FORM=veire	LEMMA=veire
+29	cò	cò	ADP	_	_	30	case	_	ID=29	FORM=en	LEMMA=en
+30	de	de	PRON	_	Person=3|PronType=Int	28	obl	_	ID=30	FORM=cò	LEMMA=cò
+31	ma	mon	ADP	_	_	32	case	_	ID=31	FORM=de	LEMMA=de
+32	grand	grand	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	30	det	_	ID=32	FORM=ma	LEMMA=mon
+33	,	,	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	ID=33	FORM=grand	LEMMA=grand
+34	rintrava	rintrar	PUNCT	_	_	35	punct	_	ID=34	FORM=,	LEMMA=,
+35	sovent	sovent	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	ID=35	FORM=rintrava	LEMMA=rintrar
+36	de	de	ADV	_	_	35	advmod	_	ID=36	FORM=sovent	LEMMA=sovent
+37	tard	tard	ADP	_	_	38	case	_	ID=37	FORM=de	LEMMA=de
+38	o	o	ADV	_	_	35	obl	_	ID=38	FORM=tard	LEMMA=tard
+39	partiá	partir	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	ID=39	FORM=o	LEMMA=lo
+40	d'	de	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	conj	_	ID=40	FORM=partiá	LEMMA=partir
+41	ora	ora	ADP	_	_	42	case	_	ID=41	FORM=d'	LEMMA=de
+42	per	per	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	ID=42	FORM=ora	LEMMA=ora
+43	son	son	ADP	_	_	44	case	_	ID=43	FORM=per	LEMMA=per
+44	trabalh	trabalh	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	det	_	ID=44	FORM=son	LEMMA=su
+45-46	dei	_	_	_	_	_	_	_	_
+45	de	de	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	ID=45	FORM=trabalh	LEMMA=trabalh
+46	lo	lo	AUX	_	Tense=Past|VerbForm=Part	45	aux	_	ID=46	FORM=dei	LEMMA=fer
+47	trams	tram	ADP	_	_	48	case	_	ID=47	FORM=de	LEMMA=de
+48	,	,	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	nmod	_	ID=48	FORM=lo	LEMMA=lo
+49	m'	me	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	ID=49	FORM=trams	LEMMA=tram
+50	avisavi	avisar	PUNCT	_	_	51	punct	_	ID=50	FORM=,	LEMMA=,
+51	de	de	PRON	_	Person=1|PronType=Prs	52	obj	_	ID=51	FORM=m'	LEMMA=jo
+52	ren	ren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	parataxis	_	ID=52	FORM=avisavi	LEMMA=avisar
+53	.	.	ADP	_	_	54	case	_	ID=53	FORM=de	LEMMA=de
+
+1	Dins	dins	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	recanton	recanton	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sala	sala	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	an	aver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	cavat	cavar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+9	dins	dins	ADP	_	_	10	case	_	_
+10	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ròca	ròca	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	silò	silò	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+14	tapat	tapar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
+15	amb	amb	ADP	_	_	16	case	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	curbecèu	curbecèu	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	pèira	pèira	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	que	que	SCONJ	_	_	23	mark	_	_
+21	per	per	ADP	_	_	22	case	_	_
+22	l’	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	auborar	auborar	VERB	_	VerbForm=Inf	14	advcl	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+25	li	i	PRON	_	Case=Dat|Person=3|PronType=Prs	23	iobj	_	_
+26	meton	metre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+27	a	a	ADP	_	_	28	case	_	_
+28	tres	tres	NUM	_	Gender=Masc|Number=Sing	26	obl	_	_
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+1	S’	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	2	nsubj	_	_
+2	ensagèron	ensajar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	totei	tot	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	leis	lo	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+5	insecticids	insecticid	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+6	pèr	pèr	ADP	_	_	7	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	chaple	chaple	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
+9	definitiu	definitiu	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Qu’	que	SCONJ	_	_	2	mark	_	_
+2	ei	èsser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	DVD	DVD	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	dab	dab	ADP	_	_	8	case	_	_
+8	sostitolatge	sostitolatge	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	occitan	occitan	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	en	en	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	francés	francés	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+1-2	Au	_	_	_	_	_	_	_	_
+1	a	a	ADP	_	_	3	case	_	_
+2	lo	lo	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	bon	bon	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+4	moment	moment	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+6	lo	lo	PUNCT	_	_	7	punct	_	_
+7	hilh	hilh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+8-9	deu	_	_	_	_	_	_	_	_
+8	de	de	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	lo	lo	ADP	_	_	10	case	_	_
+10	rei	rei	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	se	se	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+12	botèc	botar	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	la	lo	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	xcomp	_	_
+14	pluma	pluma	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dens	dens	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	la	lo	ADP	_	_	17	case	_	_
+17	boca	boca	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
+
+1	Autra	autre	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	causa	causa	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	estranha	estranh	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	qu’	que	SCONJ	_	_	0	root	_	_
+7	aquel	aquel	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
+9	èra	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+10	la	lo	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	quita	quite	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	definicion	definicion	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	l'	lo	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	espaci	espaci	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	concebut	concebre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	coma	coma	ADP	_	_	18	case	_	_
+18	luòc	luòc	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	residéncia	residéncia	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	mon	mon	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	monde	monde	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	_	_	6	punct	_	_
+
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	'm	me	PRON	_	Case=Acc,Dat|Person=1|PronType=Prs|Reflex=Yes	4	nsubj	_	_
+3	torni	tornar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	estonar	estonar	VERB	_	VerbForm=Inf	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	encolerar	encolerar	VERB	_	VerbForm=Inf	4	conj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Consí	consí	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	far	far	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	per	per	ADP	_	_	4	mark	_	_
+4	se	se	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	obl:arg	_	_
+5	'n	ne	PART	_	_	6	mark	_	_
+6	tirar	tirar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+7	?	?	PUNCT	_	_	1	punct	_	_
+
+1	Dins	dins	ADP	_	_	3	case	_	_
+2	l'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	afar	afar	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	beleg	beleg	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+7	trapèri	trapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	totas	tot	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	las	lo	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+10	rasons	rason	NOUN	_	Gender=Fem|Number=Plur	7	xcomp	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+14	per	per	ADP	_	_	15	mark	_	_
+15	justificar	justificar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+16	sa	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	vetustat	vetustat	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
+
+1	Nadal	Nadal	PROPN	_	_	4	nsubj	_	_
+2	qu’	que	SCONJ	_	_	4	mark	_	_
+3	èra	èsser	AUX	_	_	4	aux	_	_
+4	aderent	aderent	VERB	_	_	0	root	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	nombrosas	nombrós	ADJ	_	_	4	obl	_	_
+7	associacions	associacion	NOUN	_	_	6	compound	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	la	lo	DET	_	_	10	det	_	_
+10	Companhia	companhia	PROPN	_	_	4	obl	_	_
+11-12	deus	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lo	lo	DET	_	_	10	nmod	_	_
+13	escrivans	escrivan	NOUN	_	_	12	compound	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Tarn	Tarn	PROPN	_	_	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	Garona	Garona	PROPN	_	_	15	conj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	l’	lo	DET	_	_	20	det	_	_
+20	Associacion	associacion	PROPN	_	_	4	obl	_	_
+21	Miguel	Miguel	PROPN	_	_	20	compound	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Cervantes	Cervantes	PROPN	_	_	21	nmod	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	l’	lo	DET	_	_	26	det	_	_
+26	Acadèmia	acadèmia	PROPN	_	_	4	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Montauban	Montauban	PROPN	_	_	26	nmod	_	_
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	l’	lo	DET	_	_	31	det	_	_
+31	Acadèmia	acadèmia	PROPN	_	_	4	obl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Lengadòc	Lengadòc	PROPN	_	_	31	nmod	_	_
+34	...	...	PUNCT	_	_	4	punct	_	_
+
+1	Que	que	SCONJ	_	_	5	mark	_	_
+2	'u	'u	CCONJ	_	_	3	cc	_	_
+3	n'	ne	PART	_	_	4	nsubj	_	_
+4	èi	aver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	parlat	parlar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+6-7	ath	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	eth	eth	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+8	curè	curè	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	adès	adès	ADV	_	_	4	advmod	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Adès	adès	ADV	_	_	4	advmod	_	_
+2	encòra	encòra	ADV	_	_	4	advmod	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4-5	au	_	_	_	_	_	_	_	_
+4	a	a	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	darrèr	darrèr	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	hormigueta	hormigueta	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	b'	que	SCONJ	_	_	12	mark	_	_
+12	an	aver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+13	shisclat	shisclar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	xcomp	_	_
+14	soviers	sovier	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	malícia	malícia	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Tot	tot	ADV	_	_	4	advmod	_	_
+2	en	en	ADP	_	_	3	case	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	còp	còp	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	me	me	PRON	_	Case=Acc,Dat|Person=1|PrepCase=Npr|PronType=Prs	4	obl:arg	_	_
+7	sentiguèri	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+8	las	las	DET	_	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	fatigat	fatigat	ADJ	_	Gender=Fem|Number=Plur	7	xcomp	_	_
+11	que	que	SCONJ	_	_	12	mark	_	_
+12	non	non	PART	_	Polarity=Neg	14	advmod	_	_
+13	se	se	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	pòt	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	csubj	_	_
+15	mai	mai	ADV	_	_	14	advmod	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Atanben	atanben	ADV	_	_	13	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	entre	entre	ADP	_	_	4	case	_	_
+4	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	traucasses	traucàs	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ròca	ròca	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+9	que	que	SCONJ	_	_	10	mark	_	_
+10	limpa	limpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	cal	caler	DET	_	Number=Sing|PronType=Ind	13	obl	_	_
+13	far	far	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	atencion	atencion	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	davalant	davalar	VERB	_	PartForm=Pres|VerbForm=Part	14	acl	_	_
+17	en	en	ADP	_	_	18	case	_	_
+18	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+1	Es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	aquí	aquí	ADV	_	_	4	advmod	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	passère	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	dotze	dotze	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	promèiras	promèir	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	6	amod	_	_
+8	annadas	annada	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ma	mon	DET	_	Poss=Yes|PronType=Prs	11	det	_	_
+11	vida	vida	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+12	ambe	ambe	ADP	_	_	13	case	_	_
+13	mon	mon	DET	_	Poss=Yes|PronType=Prs	14	det	_	_
+14	fraire	fraire	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+15	Franc	Franc	PROPN	_	_	14	appos	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Començava	començar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ganivelar	ganivelar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	se	se	PRON	_	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	7	iobj	_	_
+7	cherchinhar	cherchinhar	VERB	_	VerbForm=Inf	3	conj	_	_
+8	dobe	dobe	ADV	_	_	7	advmod	_	_
+9	son	son	PRON	_	Case=Gen|Person=3|PronType=Prs	10	nmod	_	_
+10	mur	mur	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	mèstre	mèstre	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+1	Deu	deure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	gelar	gelar	VERB	_	VerbForm=Inf	1	xcomp	_	Subject=SubjRaising
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	gelarà	gelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+5	solide	solide	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	tota	tot	DET	_	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	la	lo	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+8	jornada	jornada	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pasmens	pasmens	ADV	_	_	11	advmod	_	_
+11	gela	gelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	gaire	gaire	ADV	_	_	11	advmod	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+1	L'	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=L'
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	polit	polit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	las	lo	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	velhèt	velhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Qu'	que	SCONJ	_	_	3	mark	_	_
+2	es	èsser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	luènh	luènh	ADJ	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	mon	mon	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Dieu	Dieu	PROPN	_	_	3	nsubj	_	_
+7	!	!	PUNCT	_	_	3	punct	_	_
+
+1	Que	que	SCONJ	_	_	4	mark	_	_
+2	’s	se	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	harà	har	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	nsubj	_	_
+4	cantorau	cantorau	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	de	de	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+6	la	lo	ADP	_	_	7	case	_	_
+7	soa	son	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	obl:arg	_	_
+8	lenga	lenga	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	7	amod	_	_
+9	mairau	mairau	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	promotor	promotor	CCONJ	_	_	13	cc	_	_
+12	de	de	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	la	la	ADP	_	_	14	case	_	_
+14	vitalitat	vitalitat	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	obl:arg	_	_
+15-16	deus	_	_	_	_	_	_	_	_
+15	de	de	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+16	lo	lo	ADP	_	_	17	case	_	_
+17	ainats	ainat	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	nmod	_	_
+18	.	.	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+
+1	Paire	paire	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	t'	te	PRON	_	Case=Acc,Dat|Person=2|PrepCase=Npr|PronType=Prs	4	iobj	_	_
+4	ajudarem	ajudar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	parataxis	_	_
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+1	Chau	chaler	INTJ	_	_	0	root	_	_
+2	reconéisser	reconéisser	VERB	_	Tense=Pres|VerbForm=Inf	1	parataxis	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5-6	pel	_	_	_	_	_	_	_	_
+5	per	per	ADP	_	_	6	case	_	_
+6	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	obl	_	_
+7	mens	mens	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	debuta	debuta	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	ne’n	ne'n	PRON	_	Case=Gen|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obl	_	_
+13	fuguèrem	èsser	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	fòrça	fòrça	ADV	_	_	13	advmod	_	_
+15	benaises	benaise	ADJ	_	Gender=Fem|Number=Plur	14	xcomp	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+1	Atau	atau	CCONJ	_	_	2	cc	_	_
+2	apèran	apèrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	los	lo	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	marchands	marchand	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	_
+6	corron	còrrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	las	lo	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	heras	hera	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	vestits	vestir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	xcomp	_	_
+11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	gran	gran	ADJ	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+14	manto	manto	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+15	semiat	semiatr	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	coscolhas	coscolha	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	dambe	dambe	ADV	_	_	20	advmod	_	_
+20	lo	lo	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bordon	bordon	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	la	lo	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	man	man	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	entà	entà	ADP	_	_	27	mark	_	_
+27	véner	véner	VERB	_	VerbForm=Inf	10	advcl	_	_
+28	objècts	objèct	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	pietat	pietat	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+31	.	.	PUNCT	_	_	2	punct	_	_

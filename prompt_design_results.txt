@@ -1,0 +1,674 @@
+Results prompt 1
+
+Prompt 1 = Annotate
+
+fr_gsd-ud-dev-50, prompt 1, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_1_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     37.60 |     37.60 |     37.60 |     37.60
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      1.68 |      1.68 |      1.68 |      1.68
+LAS        |      0.00 |      0.00 |      0.00 |      0.00
+CLAS       |      0.00 |      0.00 |      0.00 |      0.00
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |      0.00 |      0.00 |      0.00 |      0.00
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 1, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_1_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     37.60 |     37.60 |     37.60 |     37.60
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      1.68 |      1.68 |      1.68 |      1.68
+LAS        |      0.00 |      0.00 |      0.00 |      0.00
+CLAS       |      0.00 |      0.00 |      0.00 |      0.00
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |      0.00 |      0.00 |      0.00 |      0.00
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 1, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_1_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     45.97 |     45.97 |     45.97 |     45.97
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      3.05 |      3.05 |      3.05 |      3.05
+LAS        |      0.00 |      0.00 |      0.00 |      0.00
+CLAS       |      0.00 |      0.00 |      0.00 |      0.00
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |      0.00 |      0.00 |      0.00 |      0.00
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 1, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_1_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     45.97 |     45.97 |     45.97 |     45.97
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      3.05 |      3.05 |      3.05 |      3.05
+LAS        |      0.00 |      0.00 |      0.00 |      0.00
+CLAS       |      0.00 |      0.00 |      0.00 |      0.00
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |      0.00 |      0.00 |      0.00 |      0.00
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 2
+
+Prompt 2 = Please annotate the following sentence using the Universal Dependencies standard
+fr_gsd-ud-dev-50, prompt 2, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_2_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      3.35 |      3.35 |      3.35 |      3.35
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     37.60 |     37.60 |     37.60 |     37.60
+AllTags    |      1.17 |      1.17 |      1.17 |      1.17
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      3.60 |      3.60 |      3.60 |      3.60
+LAS        |      1.76 |      1.76 |      1.76 |      1.76
+CLAS       |     33.33 |      1.29 |      2.49 |      1.29
+MLAS       |      4.17 |      0.16 |      0.31 |      0.16
+BLEX       |     33.33 |      1.29 |      2.49 |      1.29
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 2, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_2_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      6.87 |      6.87 |      6.87 |      6.87
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     37.60 |     37.60 |     37.60 |     37.60
+AllTags    |      2.51 |      2.51 |      2.51 |      2.51
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      5.95 |      5.95 |      5.95 |      5.95
+LAS        |      3.69 |      3.69 |      3.69 |      3.69
+CLAS       |     50.00 |      3.72 |      6.93 |      3.72
+MLAS       |     13.04 |      0.97 |      1.81 |      0.97
+BLEX       |     50.00 |      3.72 |      6.93 |      3.72
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 2, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_2_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      1.70 |      1.70 |      1.70 |      1.70
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     45.97 |     45.97 |     45.97 |     45.97
+AllTags    |      0.54 |      0.54 |      0.54 |      0.54
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      4.03 |      4.03 |      4.03 |      4.03
+LAS        |      0.72 |      0.72 |      0.72 |      0.72
+CLAS       |     41.67 |      0.86 |      1.69 |      0.86
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |     41.67 |      0.86 |      1.69 |      0.86
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 2, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_2_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      1.70 |      1.70 |      1.70 |      1.70
+XPOS       |    100.00 |    100.00 |    100.00 |    100.00
+UFeats     |     45.97 |     45.97 |     45.97 |     45.97
+AllTags    |      0.54 |      0.54 |      0.54 |      0.54
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |      4.03 |      4.03 |      4.03 |      4.03
+LAS        |      0.72 |      0.72 |      0.72 |      0.72
+CLAS       |     41.67 |      0.86 |      1.69 |      0.86
+MLAS       |      0.00 |      0.00 |      0.00 |      0.00
+BLEX       |     41.67 |      0.86 |      1.69 |      0.86
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 3
+
+Prompt 3 = Please annotate the following sentence using the Universal Dependencies standard ensuring the output adheres to the CoNLL-U format strictly (10 fields, tab-separated, with ID starting each line). The input is already tokenized with the columns ID, FORM, and LEMMA provided. Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC).
+
+
+fr_gsd-ud-dev-50, prompt 3, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_3_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     83.67 |     83.67 |     83.67 |     83.67
+XPOS       |     76.97 |     76.97 |     76.97 |     76.97
+UFeats     |     52.93 |     52.93 |     52.93 |     52.93
+AllTags    |     37.94 |     37.94 |     37.94 |     37.94
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     50.08 |     50.08 |     50.08 |     50.08
+LAS        |     40.62 |     40.62 |     40.62 |     40.62
+CLAS       |     40.78 |     35.44 |     37.92 |     35.44
+MLAS       |     12.66 |     11.00 |     11.77 |     11.00
+BLEX       |     40.78 |     35.44 |     37.92 |     35.44
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 3, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_3_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     84.51 |     84.51 |     84.51 |     84.51
+XPOS       |     75.96 |     75.96 |     75.96 |     75.96
+UFeats     |     54.36 |     54.36 |     54.36 |     54.36
+AllTags    |     38.53 |     38.53 |     38.53 |     38.53
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     51.68 |     51.68 |     51.68 |     51.68
+LAS        |     41.96 |     41.96 |     41.96 |     41.96
+CLAS       |     41.13 |     36.41 |     38.63 |     36.41
+MLAS       |     13.35 |     11.81 |     12.53 |     11.81
+BLEX       |     41.13 |     36.41 |     38.63 |     36.41
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 3, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_3_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     85.22 |     85.22 |     85.22 |     85.22
+XPOS       |     30.02 |     30.02 |     30.02 |     30.02
+UFeats     |     50.45 |     50.45 |     50.45 |     50.45
+AllTags    |     13.89 |     13.89 |     13.89 |     13.89
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     54.84 |     54.84 |     54.84 |     54.84
+LAS        |     44.62 |     44.62 |     44.62 |     44.62
+CLAS       |     39.18 |     37.76 |     38.45 |     37.76
+MLAS       |      5.90 |      5.69 |      5.79 |      5.69
+BLEX       |     39.18 |     37.76 |     38.45 |     37.76
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 3, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_3_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     86.02 |     86.02 |     86.02 |     86.02
+XPOS       |     30.29 |     30.29 |     30.29 |     30.29
+UFeats     |     49.73 |     49.73 |     49.73 |     49.73
+AllTags    |     12.99 |     12.99 |     12.99 |     12.99
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     56.18 |     56.18 |     56.18 |     56.18
+LAS        |     44.89 |     44.89 |     44.89 |     44.89
+CLAS       |     38.50 |     37.24 |     37.86 |     37.24
+MLAS       |      6.42 |      6.21 |      6.31 |      6.21
+BLEX       |     38.50 |     37.24 |     37.86 |     37.24
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 4
+
+Prompt 4 = Please correctly annotate the following sentences with POS Tags and Dependency Relations using the Universal Dependencies standard. Ensure that the output strictly adheres to the CoNLL-U format (10 fields, tab-separated, starting with ID in each line). The input already includes the columns ID, FORM, and LEMMA. Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC) accordingly.
+
+fr_gsd-ud-dev-50, prompt 4, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_4_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     67.50 |     67.50 |     67.50 |     67.50
+XPOS       |     59.72 |     59.72 |     59.72 |     59.72
+UFeats     |     46.65 |     46.65 |     46.65 |     46.65
+AllTags    |     18.01 |     18.01 |     18.01 |     18.01
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     43.05 |     43.05 |     43.05 |     43.05
+LAS        |     35.34 |     35.34 |     35.34 |     35.34
+CLAS       |     40.12 |     32.20 |     35.73 |     32.20
+MLAS       |     12.50 |     10.03 |     11.13 |     10.03
+BLEX       |     40.12 |     32.20 |     35.73 |     32.20
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 4, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_4_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     71.02 |     71.02 |     71.02 |     71.02
+XPOS       |     62.81 |     62.81 |     62.81 |     62.81
+UFeats     |     47.49 |     47.49 |     47.49 |     47.49
+AllTags    |     21.44 |     21.44 |     21.44 |     21.44
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     44.72 |     44.72 |     44.72 |     44.72
+LAS        |     37.10 |     37.10 |     37.10 |     37.10
+CLAS       |     40.50 |     34.14 |     37.05 |     34.14
+MLAS       |     12.86 |     10.84 |     11.76 |     10.84
+BLEX       |     40.50 |     34.14 |     37.05 |     34.14
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 4, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_4_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     59.50 |     59.50 |     59.50 |     59.50
+XPOS       |     49.46 |     49.46 |     49.46 |     49.46
+UFeats     |     49.28 |     49.28 |     49.28 |     49.28
+AllTags    |     10.22 |     10.22 |     10.22 |     10.22
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     40.86 |     40.86 |     40.86 |     40.86
+LAS        |     32.17 |     32.17 |     32.17 |     32.17
+CLAS       |     41.42 |     29.14 |     34.21 |     29.14
+MLAS       |      8.09 |      5.69 |      6.68 |      5.69
+BLEX       |     41.42 |     29.14 |     34.21 |     29.14
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 4, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_4_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     61.11 |     61.11 |     61.11 |     61.11
+XPOS       |     50.27 |     50.27 |     50.27 |     50.27
+UFeats     |     49.37 |     49.37 |     49.37 |     49.37
+AllTags    |     10.22 |     10.22 |     10.22 |     10.22
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     40.41 |     40.41 |     40.41 |     40.41
+LAS        |     31.90 |     31.90 |     31.90 |     31.90
+CLAS       |     41.96 |     28.79 |     34.15 |     28.79
+MLAS       |      8.04 |      5.52 |      6.54 |      5.52
+BLEX       |     41.96 |     28.79 |     34.15 |     28.79
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 5
+
+Prompt 5 = Please annotate the following sentence using the Universal Dependencies standard, ensuring the output adheres to the CoNLL-U format strictly (10 fields, tab-separated, with ID starting each line). The input is already tokenized with the columns ID, FORM, and LEMMA provided. Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC). Ensure that the root word has a HEAD value of 0, and there is exactly one root in each sentence. The HEAD value of other tokens must point to their correct governor. Return only the output in CoNLL-U format, without any explanations or additional text:
+
+
+fr_gsd-ud-dev-50, prompt 5, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_5_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     60.30 |     60.30 |     60.30 |     60.30
+XPOS       |     96.40 |     96.40 |     96.40 |     96.40
+UFeats     |     45.73 |     45.73 |     45.73 |     45.73
+AllTags    |     30.65 |     30.65 |     30.65 |     30.65
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     40.54 |     40.54 |     40.54 |     40.54
+LAS        |     31.83 |     31.83 |     31.83 |     31.83
+CLAS       |     45.99 |     30.58 |     36.73 |     30.58
+MLAS       |     11.68 |      7.77 |      9.33 |      7.77
+BLEX       |     45.99 |     30.58 |     36.73 |     30.58
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 5, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_5_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     59.21 |     59.21 |     59.21 |     59.21
+XPOS       |     95.64 |     95.64 |     95.64 |     95.64
+UFeats     |     45.90 |     45.90 |     45.90 |     45.90
+AllTags    |     30.65 |     30.65 |     30.65 |     30.65
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     41.04 |     41.04 |     41.04 |     41.04
+LAS        |     33.00 |     33.00 |     33.00 |     33.00
+CLAS       |     46.88 |     31.55 |     37.72 |     31.55
+MLAS       |     11.78 |      7.93 |      9.48 |      7.93
+BLEX       |     46.88 |     31.55 |     37.72 |     31.55
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 5, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_5_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     59.23 |     59.23 |     59.23 |     59.23
+XPOS       |     63.71 |     63.71 |     63.71 |     63.71
+UFeats     |     46.77 |     46.77 |     46.77 |     46.77
+AllTags    |     16.76 |     16.76 |     16.76 |     16.76
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     42.38 |     42.38 |     42.38 |     42.38
+LAS        |     30.38 |     30.38 |     30.38 |     30.38
+CLAS       |     38.79 |     26.55 |     31.53 |     26.55
+MLAS       |      6.05 |      4.14 |      4.91 |      4.14
+BLEX       |     38.79 |     26.55 |     31.53 |     26.55
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 5, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_5_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     57.44 |     57.44 |     57.44 |     57.44
+XPOS       |     59.77 |     59.77 |     59.77 |     59.77
+UFeats     |     47.31 |     47.31 |     47.31 |     47.31
+AllTags    |     14.34 |     14.34 |     14.34 |     14.34
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     39.43 |     39.43 |     39.43 |     39.43
+LAS        |     28.32 |     28.32 |     28.32 |     28.32
+CLAS       |     39.78 |     25.17 |     30.83 |     25.17
+MLAS       |      6.81 |      4.31 |      5.28 |      4.31
+BLEX       |     39.78 |     25.17 |     30.83 |     25.17
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 6
+
+Prompt 6 = Annotate the tokenized input in Universal Dependencies (UD) standard. Input contains pre-filled columns (ID, FORM, LEMMA). Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC) strictly in CoNLL-U format (10 fields, tab-separated, one token per line). Ensure:•  One HEAD value is 0 (the root token).•	Other tokens have HEAD pointing to the correct governor.•	Maintain syntactic and semantic correctness according to UD guidelines.Provide only the CoNLL-U output, no additional explanations or comments:
+
+
+fr_gsd-ud-dev-50, prompt 6, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_6_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     61.47 |     61.47 |     61.47 |     61.47
+XPOS       |     97.91 |     97.91 |     97.91 |     97.91
+UFeats     |     44.30 |     44.30 |     44.30 |     44.30
+AllTags    |     30.07 |     30.07 |     30.07 |     30.07
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     43.89 |     43.89 |     43.89 |     43.89
+LAS        |     35.01 |     35.01 |     35.01 |     35.01
+CLAS       |     41.12 |     32.20 |     36.12 |     32.20
+MLAS       |      8.88 |      6.96 |      7.80 |      6.96
+BLEX       |     41.12 |     32.20 |     36.12 |     32.20
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 6, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_6_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     48.41 |     48.41 |     48.41 |     48.41
+XPOS       |     93.38 |     93.38 |     93.38 |     93.38
+UFeats     |     41.54 |     41.54 |     41.54 |     41.54
+AllTags    |     19.51 |     19.51 |     19.51 |     19.51
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     36.77 |     36.77 |     36.77 |     36.77
+LAS        |     29.23 |     29.23 |     29.23 |     29.23
+CLAS       |     48.08 |     28.32 |     35.64 |     28.32
+MLAS       |     10.71 |      6.31 |      7.94 |      6.31
+BLEX       |     48.08 |     28.32 |     35.64 |     28.32
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 6, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_6_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     57.53 |     57.53 |     57.53 |     57.53
+XPOS       |     68.82 |     68.82 |     68.82 |     68.82
+UFeats     |     48.57 |     48.57 |     48.57 |     48.57
+AllTags    |     17.11 |     17.11 |     17.11 |     17.11
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     38.35 |     38.35 |     38.35 |     38.35
+LAS        |     30.73 |     30.73 |     30.73 |     30.73
+CLAS       |     41.04 |     27.24 |     32.75 |     27.24
+MLAS       |     10.65 |      7.07 |      8.50 |      7.07
+BLEX       |     41.04 |     27.24 |     32.75 |     27.24
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 6, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_6_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     57.08 |     57.08 |     57.08 |     57.08
+XPOS       |     68.64 |     68.64 |     68.64 |     68.64
+UFeats     |     47.22 |     47.22 |     47.22 |     47.22
+AllTags    |     15.50 |     15.50 |     15.50 |     15.50
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     39.70 |     39.70 |     39.70 |     39.70
+LAS        |     29.21 |     29.21 |     29.21 |     29.21
+CLAS       |     41.08 |     26.21 |     32.00 |     26.21
+MLAS       |     10.00 |      6.38 |      7.79 |      6.38
+BLEX       |     41.08 |     26.21 |     32.00 |     26.21
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+Results prompt 7
+
+Prompt 7 = Annotate the tokenized input in Universal Dependencies (UD) standard. Input contains pre-filled columns (ID, FORM, LEMMA). Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC) strictly in CoNLL-U format (10 fields, tab-separated, one token per line). Ensure:One HEAD value has to be 0 (the root token). Multi ID tokens (e.g. 18-19) must be considered but should not be annotated.Provide only the CoNLL-U output, no additional explanations or comments.
+
+fr_gsd-ud-dev-50, prompt 7, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_7_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     56.11 |     56.11 |     56.11 |     56.11
+XPOS       |     80.74 |     80.74 |     80.74 |     80.74
+UFeats     |     42.55 |     42.55 |     42.55 |     42.55
+AllTags    |     19.43 |     19.43 |     19.43 |     19.43
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     36.18 |     36.18 |     36.18 |     36.18
+LAS        |     28.48 |     28.48 |     28.48 |     28.48
+CLAS       |     41.67 |     25.89 |     31.94 |     25.89
+MLAS       |     13.02 |      8.09 |      9.98 |      8.09
+BLEX       |     41.67 |     25.89 |     31.94 |     25.89
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 7, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_7_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     58.71 |     58.71 |     58.71 |     58.71
+XPOS       |     77.05 |     77.05 |     77.05 |     77.05
+UFeats     |     43.13 |     43.13 |     43.13 |     43.13
+AllTags    |     19.43 |     19.43 |     19.43 |     19.43
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     36.68 |     36.68 |     36.68 |     36.68
+LAS        |     28.89 |     28.89 |     28.89 |     28.89
+CLAS       |     43.20 |     26.21 |     32.63 |     26.21
+MLAS       |     13.33 |      8.09 |     10.07 |      8.09
+BLEX       |     43.20 |     26.21 |     32.63 |     26.21
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 7, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_7_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     55.29 |     55.29 |     55.29 |     55.29
+XPOS       |     56.27 |     56.27 |     56.27 |     56.27
+UFeats     |     47.76 |     47.76 |     47.76 |     47.76
+AllTags    |      9.59 |      9.59 |      9.59 |      9.59
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     40.05 |     40.05 |     40.05 |     40.05
+LAS        |     29.75 |     29.75 |     29.75 |     29.75
+CLAS       |     37.72 |     26.21 |     30.93 |     26.21
+MLAS       |      6.45 |      4.48 |      5.29 |      4.48
+BLEX       |     37.72 |     26.21 |     30.93 |     26.21
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 7, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_7_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     55.20 |     55.20 |     55.20 |     55.20
+XPOS       |     56.36 |     56.36 |     56.36 |     56.36
+UFeats     |     47.76 |     47.76 |     47.76 |     47.76
+AllTags    |      9.50 |      9.50 |      9.50 |      9.50
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     39.87 |     39.87 |     39.87 |     39.87
+LAS        |     28.76 |     28.76 |     28.76 |     28.76
+CLAS       |     36.64 |     24.83 |     29.60 |     24.83
+MLAS       |      6.87 |      4.66 |      5.55 |      4.66
+BLEX       |     36.64 |     24.83 |     29.60 |     24.83
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+
+Results prompt 8
+
+Prompt 8 = Please annotate the following sentence using the Universal Dependencies standard, ensuring the output adheres to the CoNLL-U format strictly (10 fields, tab-separated, with ID starting each line). The input is already tokenized with the columns ID, FORM, and LEMMA provided. Complete the remaining columns (UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC). Multi-ID-tokens (like 18-19) should be considered but not be annotated.
+
+fr_gsd-ud-dev-50, prompt 8, temp:0.0
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_8_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     79.23 |     79.23 |     79.23 |     79.23
+XPOS       |     66.50 |     66.50 |     66.50 |     66.50
+UFeats     |     52.93 |     52.93 |     52.93 |     52.93
+AllTags    |     29.23 |     29.23 |     29.23 |     29.23
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     47.49 |     47.49 |     47.49 |     47.49
+LAS        |     39.45 |     39.45 |     39.45 |     39.45
+CLAS       |     40.52 |     35.28 |     37.72 |     35.28
+MLAS       |     12.27 |     10.68 |     11.42 |     10.68
+BLEX       |     40.52 |     35.28 |     37.72 |     35.28
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+fr_gsd-ud-dev-50, prompt 8, temp:0.3
+--- eval_resuluts_fr_gsd-ud-dev-50_prompt_8_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     78.14 |     78.14 |     78.14 |     78.14
+XPOS       |     66.67 |     66.67 |     66.67 |     66.67
+UFeats     |     52.35 |     52.35 |     52.35 |     52.35
+AllTags    |     29.31 |     29.31 |     29.31 |     29.31
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     46.90 |     46.90 |     46.90 |     46.90
+LAS        |     39.45 |     39.45 |     39.45 |     39.45
+CLAS       |     40.93 |     35.44 |     37.99 |     35.44
+MLAS       |     11.96 |     10.36 |     11.10 |     10.36
+BLEX       |     40.93 |     35.44 |     37.99 |     35.44
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 8, temp:0.0
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_8_0.0.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     79.75 |     79.75 |     79.75 |     79.75
+XPOS       |     37.28 |     37.28 |     37.28 |     37.28
+UFeats     |     51.25 |     51.25 |     51.25 |     51.25
+AllTags    |     13.44 |     13.44 |     13.44 |     13.44
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     51.52 |     51.52 |     51.52 |     51.52
+LAS        |     41.40 |     41.40 |     41.40 |     41.40
+CLAS       |     39.81 |     35.69 |     37.64 |     35.69
+MLAS       |      9.04 |      8.10 |      8.55 |      8.10
+BLEX       |     39.81 |     35.69 |     37.64 |     35.69
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |
+
+es_gsd-ud-dev-50, prompt 8, temp:0.3
+--- eval_resuluts_es_gsd-ud-dev-50_prompt_8_0.3.txt ---
+Metric     | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |    100.00 |    100.00 |    100.00 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |     77.69 |     77.69 |     77.69 |     77.69
+XPOS       |     39.70 |     39.70 |     39.70 |     39.70
+UFeats     |     51.16 |     51.16 |     51.16 |     51.16
+AllTags    |     13.26 |     13.26 |     13.26 |     13.26
+Lemmas     |    100.00 |    100.00 |    100.00 |    100.00
+UAS        |     49.19 |     49.19 |     49.19 |     49.19
+LAS        |     40.41 |     40.41 |     40.41 |     40.41
+CLAS       |     39.96 |     35.00 |     37.32 |     35.00
+MLAS       |      8.27 |      7.24 |      7.72 |      7.24
+BLEX       |     39.96 |     35.00 |     37.32 |     35.00
+ELAS       |      0.00 |      0.00 |      0.00 |
+EULAS      |      0.00 |      0.00 |      0.00 |

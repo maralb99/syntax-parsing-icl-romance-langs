@@ -1,0 +1,733 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = Atenasen ordea , beste bost jarduera gehiago izan daitezke .
+1	Atenasen	Atenas	PROPN	_	_	2	nsubj	_	_
+2	ordea	ordea	VERB	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	beste	beste	ADV	_	_	8	advmod	_	_
+5	bost	bost	NUM	_	_	6	nummod	_	_
+6	jarduera	jarduera	NOUN	_	_	8	nsubj	_	_
+7	gehiago	gehiago	ADV	_	_	8	advmod	_	_
+8	izan	izan	VERB	_	_	2	conj	_	_
+9	daitezke	edin	VERB	_	_	8	xcomp	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2
+# text = O.G.M. adin txikikoa aske irten da Langraiztik .
+1	O.G.M.	O.G.M.	PROPN	_	_	5	nsubj	_	_
+2	adin	adin	NOUN	_	_	5	obl	_	_
+3	txikikoa	txiki	ADJ	_	_	2	amod	_	_
+4	aske	aske	ADV	_	_	5	advmod	_	_
+5	irten	irten	VERB	_	_	0	root	_	_
+6	da	izan	AUX	_	_	5	conj	_	_
+7	Langraiztik	Langraiz	PROPN	_	_	6	obl	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3
+# text = Gure etxea , egun batean , ordu batzuetan , zeharo aldatu zen .
+1	Gure	gu	DET	_	_	2	det	_	_
+2	etxea	etxe	NOUN	_	_	11	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	egun	egun	NOUN	_	_	11	obl	_	_
+5	batean	bat	NUM	_	_	4	nummod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ordu	ordu	NOUN	_	_	11	obl	_	_
+8	batzuetan	batzuk	NUM	_	_	7	nummod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	zeharo	zeharo	ADJ	_	_	7	amod	_	_
+11	aldatu	aldatu	VERB	_	_	0	root	_	_
+12	zen	izan	AUX	_	_	11	xcomp	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4
+# text = Bigarren marrazkian agertzen den muntaia egizu .
+1	Bigarren	bigarren	NUM	_	_	3	nummod	_	_
+2	marrazkian	marrazki	NOUN	_	_	3	nsubj	_	_
+3	agertzen	agertu	VERB	_	_	0	root	_	_
+4	den	izan	AUX	_	_	3	ccomp	_	_
+5	muntaia	muntaia	NOUN	_	_	6	nsubj	_	_
+6	egizu	egin	VERB	_	_	3	conj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 5
+# text = Aurten izan ditudan aukera apurrak ondo baliatu ditudala uste dut .
+1	Aurten	aurten	ADV	_	_	2	advmod	_	_
+2	izan	izan	VERB	_	_	0	root	_	_
+3	ditudan	edun	ADJ	_	_	4	amod	_	_
+4	aukera	aukera	NOUN	_	_	2	obj	_	_
+5	apurrak	apur	NOUN	_	_	2	obj	_	_
+6	ondo	ondo	ADV	_	_	7	advmod	_	_
+7	baliatu	baliatu	VERB	_	_	2	xcomp	_	_
+8	ditudala	edun	ADJ	_	_	5	amod	_	_
+9	uste	uste	VERB	_	_	11	ccomp	_	_
+10	dut	ukan	VERB	_	_	9	conj	_	_
+11	.	.	PUNCT	_	_	2	dep	_	_
+
+# sent_id = 6
+# text = Athleticek presio itzela pairatu beharko du .
+1	Athleticek	Athletic	PROPN	_	_	4	nsubj	_	_
+2	presio	presio	NOUN	_	_	4	nsubj	_	_
+3	itzela	itzel	ADJ	_	_	2	amod	_	_
+4	pairatu	pairatu	VERB	_	_	0	root	_	_
+5	beharko	behar_izan	VERB	_	_	4	xcomp	_	_
+6	du	edun	AUX	_	_	5	conj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 7
+# text = Hurrengo orrialdeko mapa baliagarria izan dakizuke .
+1	Hurrengo	hurrengo	ADJ	_	_	2	amod	_	_
+2	orrialdeko	orrialde	NOUN	_	_	3	nmod	_	_
+3	mapa	mapa	NOUN	_	_	5	nsubj	_	_
+4	baliagarria	baliagarri	ADJ	_	_	3	amod	_	_
+5	izan	izan	VERB	_	_	0	root	_	_
+6	dakizuke	edin	VERB	_	_	5	xcomp	_	_
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 8
+# text = Beraz , idazten ere lehenago hasi nintzela esan liteke .
+1	Beraz	beraz	ADV	_	_	3	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	idazten	idatzi	VERB	_	_	0	root	_	_
+4	ere	ere	ADV	_	_	3	advmod	_	_
+5	lehenago	lehenago	ADV	_	_	6	advmod	_	_
+6	hasi	hasi	VERB	_	_	3	xcomp	_	_
+7	nintzela	izan	VERB	_	_	6	ccomp	_	_
+8	esan	esan	VERB	_	_	7	xcomp	_	_
+9	liteke	edin	VERB	_	_	8	conj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 9
+# text = Egun berean , EAJk eta EAk hitzarmena sinatuko zutela iragarri zuten , baina gero iritzia aldatu du EAJk .
+1	Egun	egun	NOUN	_	_	8	nsubj	_	_
+2	berean	bera	ADP	_	_	16	case	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	EAJk	EAJ	PROPN	_	_	8	nsubj	_	_
+5	eta	eta	CCONJ	_	_	4	cc	_	_
+6	EAk	EA	PROPN	_	_	4	appos	_	_
+7	hitzarmena	hitzarmen	NOUN	_	_	8	csubj	_	_
+8	sinatuko	sinatu	VERB	_	_	0	root	_	_
+9	zutela	edun	VERB	_	_	8	xcomp	_	_
+10	iragarri	iragarri	VERB	_	_	9	xcomp	_	_
+11	zuten	edun	AUX	_	_	10	ccomp	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	baina	baina	CCONJ	_	_	1	cc	_	_
+14	gero	gero	ADV	_	_	10	advmod	_	_
+15	iritzia	iritzi	NOUN	_	_	17	nsubj	_	_
+16	aldatu	aldatu	VERB	_	_	1	acl	_	_
+17	du	edun	AUX	_	_	16	ccomp	_	_
+18	EAJk	EAJ	PROPN	_	_	17	obj	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 10
+# text = Aurkariari dagokionez , Feyenoord ez dago bere garairik onenean .
+1	Aurkariari	aurkari	NOUN	_	_	2	nsubj	_	_
+2	dagokionez	egon	VERB	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Feyenoord	Feyenoord	PROPN	_	_	6	nsubj	_	_
+5	ez	ez	AUX	_	_	6	advcl	_	_
+6	dago	egon	VERB	_	_	2	ccomp	_	_
+7	bere	bera	PRON	_	_	6	obj	_	_
+8	garairik	garai	NOUN	_	_	7	obl	_	_
+9	onenean	on	ADV	_	_	6	advmod	_	_
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 11
+# text = Azkenik , Alavesek atzo emandako UEFAko zerrandaz ere aritu zen Mane .
+1	Azkenik	azkenik	X	_	_	3	dep	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Alavesek	Alaves	PROPN	_	_	5	nsubj	_	_
+4	atzo	atzo	ADV	_	_	5	advmod	_	_
+5	emandako	eman	VERB	_	_	0	root	_	_
+6	UEFAko	UEFA	PROPN	_	_	5	obl	_	_
+7	zerrandaz	zerrenda	NOUN	_	_	5	obl	_	_
+8	ere	ere	ADV	_	_	9	advmod	_	_
+9	aritu	aritu	VERB	_	_	5	xcomp	_	_
+10	zen	izan	AUX	_	_	9	ccomp	_	_
+11	Mane	Mane	PROPN	_	_	1	nsubj	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 12
+# text = Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean .
+1	Bi	bi	DET	_	_	11	dep	_	_
+2	elkarte	elkarte	NOUN	_	_	1	nsubj	_	_
+3	horiei	horiek	NOUN	_	_	2	nmod	_	_
+4	Guayana	Guayana	PROPN	_	_	7	nmod	_	_
+5	eta	eta	CCONJ	_	_	7	cc	_	_
+6	Surinam	Surinam	PROPN	_	_	4	appos	_	_
+7	estatu	estatu	NOUN	_	_	10	nmod	_	_
+8	txiki	txiki	ADJ	_	_	7	amod	_	_
+9	eta	eta	CCONJ	_	_	1	cc	_	_
+10	behartsuak	behartsu	NOUN	_	_	11	nsubj	_	_
+11	batuko	batu	VERB	_	_	0	root	_	_
+12	zaizkie	izan	AUX	_	_	11	ccomp	_	_
+13	batasunerako	batasun	NOUN	_	_	14	nmod	_	_
+14	bidean	bide	NOUN	_	_	11	obl	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 13
+# text = Guk etorkizuneko taldea dugu , eta haiek dira irabazteko hautagaiak , baina xantza txiki bat baldin badugu , ahaleginak egingo ditugu baliatzeko .
+1	Guk	gu	PRON	_	_	4	nsubj	_	_
+2	etorkizuneko	etorkizun	NOUN	_	_	3	nmod	_	_
+3	taldea	talde	NOUN	_	_	4	nsubj	_	_
+4	dugu	ukan	VERB	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	eta	eta	CCONJ	_	_	4	cc	_	_
+7	haiek	haiek	PRON	_	_	4	dep	_	_
+8	dira	izan	VERB	_	_	7	xcomp	_	_
+9	irabazteko	irabazi	VERB	_	_	8	xcomp	_	_
+10	hautagaiak	hautagai	NOUN	_	_	9	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	baina	baina	CCONJ	_	_	4	cc	_	_
+13	xantza	xantxa	NOUN	_	_	17	nsubj	_	_
+14	txiki	txiki	ADJ	_	_	13	amod	_	_
+15	bat	bat	DET	_	_	13	det	_	_
+16	baldin	baldin	SCONJ	_	_	1	mark	_	_
+17	badugu	ukan	VERB	_	_	4	advcl	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	ahaleginak	ahalegin	NOUN	_	_	20	nsubj	_	_
+20	egingo	egin	VERB	_	_	10	acl	_	_
+21	ditugu	edun	VERB	_	_	2	acl	_	_
+22	baliatzeko	baliatu	VERB	_	_	2	acl	_	_
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 14
+# text = Askok , ordea , errezeloz hartu dute egitasmoa EEBBek Kolonbian hartuko duten pisu militarragatik .
+1	Askok	asko	NOUN	_	_	6	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ordea	ordea	ADV	_	_	6	advmod	_	_
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	errezeloz	errezelo	NOUN	_	_	6	nsubj	_	_
+6	hartu	hartu	VERB	_	_	0	root	_	_
+7	dute	edun	AUX	_	_	6	conj	_	_
+8	egitasmoa	egitasmo	NOUN	_	_	6	obj	_	_
+9	EEBBek	EEBB	PROPN	_	_	1	appos	_	_
+10	Kolonbian	Kolonbia	PROPN	_	_	1	appos	_	_
+11	hartuko	hartu	VERB	_	_	9	acl	_	_
+12	duten	edun	AUX	_	_	11	conj	_	_
+13	pisu	pisu	NOUN	_	_	1	appos	_	_
+14	militarragatik	militar	ADJ	_	_	13	amod	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 15
+# text = Halere , badute antza :
+1	Halere	halere	PROPN	_	_	3	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	badute	ukan	VERB	_	_	0	root	_	_
+4	antza	antz	ADV	_	_	3	advmod	_	_
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 16
+# text = Lehenago ez ziren egoten itsasontzietan .
+1	Lehenago	lehenago	ADV	_	_	3	advmod	_	_
+2	ez	ez	PART	_	_	3	advmod	_	_
+3	ziren	izan	VERB	_	_	0	root	_	_
+4	egoten	egon	VERB	_	_	3	xcomp	_	_
+5	itsasontzietan	itsasontzi	NOUN	_	_	4	obl	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 17
+# text = Aurrelari langilea , azkarra eta indartsua dela erakutsi du denboraldi-aurrean .
+1	Aurrelari	aurrelari	NOUN	_	_	8	nsubj	_	_
+2	langilea	langile	NOUN	_	_	1	appos	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	azkarra	azkar	ADJ	_	_	1	amod	_	_
+5	eta	eta	CCONJ	_	_	1	cc	_	_
+6	indartsua	indartsu	ADJ	_	_	1	amod	_	_
+7	dela	izan	AUX	_	_	8	csubj	_	_
+8	erakutsi	erakutsi	VERB	_	_	0	root	_	_
+9	du	edun	AUX	_	_	8	conj	_	_
+10	denboraldi-aurrean	denboraldi-aurre	NOUN	_	_	8	obl	_	_
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 18
+# text = Gero hileta elizkizunera joan zen Barne ministroa .
+1	Gero	gero	ADV	_	_	4	advmod	_	_
+2	hileta	hileta	ADV	_	_	4	advmod	_	_
+3	elizkizunera	elizkizun	NOUN	_	_	4	nsubj	_	_
+4	joan	joan	VERB	_	_	0	root	_	_
+5	zen	izan	AUX	_	_	4	conj	_	_
+6	Barne	barne	PROPN	_	_	7	appos	_	_
+7	ministroa	ministro	NOUN	_	_	4	obj	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 19
+# text = Diskoa egitean dezente zabaldu da taldea .
+1	Diskoa	disko	NOUN	_	_	2	nsubj	_	_
+2	egitean	egin	VERB	_	_	0	root	_	_
+3	dezente	dezente	ADJ	_	_	1	amod	_	_
+4	zabaldu	zabaldu	VERB	_	_	2	xcomp	_	_
+5	da	izan	AUX	_	_	4	conj	_	_
+6	taldea	talde	NOUN	_	_	5	obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 20
+# text = 1991n , ordea , Rettig komisioa eratu zen , Pinocheten diktadurapean , Txilen izandako giza eskubideen urratzeak aztertzeko .
+1	1991n	1991	NUM	_	_	7	nummod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ordea	ordea	INTJ	_	_	7	discourse	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Rettig	Rettig	PROPN	_	_	7	nsubj	_	_
+6	komisioa	komisio	NOUN	_	_	7	csubj	_	_
+7	eratu	eratu	VERB	_	_	0	root	_	_
+8	zen	izan	AUX	_	_	7	conj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Pinocheten	Pinochet	PROPN	_	_	11	nmod	_	_
+11	diktadurapean	diktadurape	NOUN	_	_	7	obl	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	Txilen	Txile	PROPN	_	_	1	obl	_	_
+14	izandako	izan	VERB	_	_	1	xcomp	_	_
+15	giza	giza	NOUN	_	_	1	obl	_	_
+16	eskubideen	eskubide	NOUN	_	_	1	obl	_	_
+17	urratzeak	urratze	NOUN	_	_	1	obl	_	_
+18	aztertzeko	aztertu	VERB	_	_	1	xcomp	_	_
+19	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 21
+# text = Halaber , onartu egin dute beraiek erabakitako datak " nabarmen estuegiak " zirela .
+1	Halaber	halaber	ADV	_	_	3	advmod	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	onartu	onartu	VERB	_	_	0	root	_	_
+4	egin	egin	VERB	_	_	3	xcomp	_	_
+5	dute	edun	AUX	_	_	4	conj	_	_
+6	beraiek	beraiek	PRON	_	_	5	obj	_	_
+7	erabakitako	erabaki	VERB	_	_	6	xcomp	_	_
+8	datak	data	NOUN	_	_	7	obj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	nabarmen	nabarmen	ADV	_	_	1	advmod	_	_
+11	estuegiak	estu	NOUN	_	_	13	nsubj	_	_
+12	"	"	PUNCT	_	_	10	punct	_	_
+13	zirela	izan	AUX	_	_	3	ccomp	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 22
+# text = Ondorioz , forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea , lehen zegoena ezagutzeko .
+1	Ondorioz	ondorio	X	_	_	3	dep	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	forma	forma	NOUN	_	_	9	nsubj	_	_
+4	musikalen	musikal	ADJ	_	_	3	amod	_	_
+5	aniztasuna	aniztasun	NOUN	_	_	3	nmod	_	_
+6	egunetik	egun	ADP	_	_	9	dep	_	_
+7	egunera	egun	NOUN	_	_	6	obl	_	_
+8	txikiagoa	txiki	ADJ	_	_	7	amod	_	_
+9	da	izan	AUX	_	_	0	root	_	_
+10	eta	eta	CCONJ	_	_	9	cc	_	_
+11	komenigarria	komenigarri	NOUN	_	_	9	obl	_	_
+12	izango	izan	AUX	_	_	11	acl	_	_
+13	litzateke	izan	AUX	_	_	11	acl	_	_
+14	atzera	atzera	ADV	_	_	12	advmod	_	_
+15	begiratzea	begiratu	NOUN	_	_	1	obl	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
+17	lehen	lehen	ADJ	_	_	15	amod	_	_
+18	zegoena	egon	NOUN	_	_	1	obl	_	_
+19	ezagutzeko	ezagutu	NOUN	_	_	1	obl	_	_
+20	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 23
+# text = Urrak bere abokatuari eginiko deian funtzionarioengatik jasotzen zuen tratu txarra salatu zuen .
+1	Urrak	Urra	NOUN	_	_	4	nsubj	_	_
+2	bere	bera	PRON	_	_	1	nmod:poss	_	_
+3	abokatuari	abokatu	NOUN	_	_	4	nsubj	_	_
+4	eginiko	egin	VERB	_	_	0	root	_	_
+5	deian	dei	VERB	_	_	4	xcomp	_	_
+6	funtzionarioengatik	funtzionario	NOUN	_	_	5	obl	_	_
+7	jasotzen	jaso	VERB	_	_	4	advcl	_	_
+8	zuen	edun	AUX	_	_	7	conj	_	_
+9	tratu	tratu	NOUN	_	_	11	nsubj	_	_
+10	txarra	txar	ADJ	_	_	9	amod	_	_
+11	salatu	salatu	VERB	_	_	4	conj	_	_
+12	zuen	edun	AUX	_	_	11	conj	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 24
+# text = Hauek CD-ROMetan saltzen dira .
+1	Hauek	hauek	PRON	_	_	3	nsubj	_	_
+2	CD-ROMetan	CD-ROM	NOUN	_	_	3	nsubj	_	_
+3	saltzen	saldu	VERB	_	_	0	root	_	_
+4	dira	izan	AUX	_	_	3	conj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 25
+# text = Jokalari gaztea da , eta partiduen %70 irabazi nahi dituen talde batean jokatzera ohitu behar du .
+1	Jokalari	jokalari	NOUN	_	_	3	nsubj	_	_
+2	gaztea	gazte	ADJ	_	_	1	amod	_	_
+3	da	izan	AUX	_	_	8	csubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	eta	eta	CCONJ	_	_	3	cc	_	_
+6	partiduen	partidu	NOUN	_	_	1	nmod	_	_
+7	%70	%70	NUM	_	_	6	nummod	_	_
+8	irabazi	irabazi	VERB	_	_	0	root	_	_
+9	nahi	nahi	VERB	_	_	8	xcomp	_	_
+10	dituen	edun	AUX	_	_	9	conj	_	_
+11	talde	talde	NOUN	_	_	1	nmod	_	_
+12	batean	bat	DET	_	_	11	det	_	_
+13	jokatzera	jokatu	VERB	_	_	1	acl	_	_
+14	ohitu	ohitu	VERB	_	_	1	acl	_	_
+15	behar	behar	VERB	_	_	1	acl	_	_
+16	du	ukan	AUX	_	_	13	conj	_	_
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 26
+# text = Batzuk han bertan erre zituzten , beste batzuk galeretara bidali eta gainontzekoak , ni barne nintzelarik , libre utzi gintuzten .
+1	Batzuk	batzuk	NOUN	_	_	5	nsubj	_	_
+2	han	han	AUX	_	_	5	csubj	_	_
+3	bertan	bertan	ADP	_	_	5	mark	_	_
+4	erre	erre	NOUN	_	_	5	csubj	_	_
+5	zituzten	edun	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	beste	beste	ADJ	_	_	8	amod	_	_
+8	batzuk	batzuk	NOUN	_	_	5	obl	_	_
+9	galeretara	galera	NOUN	_	_	11	obl	_	_
+10	bidali	bidali	VERB	_	_	5	conj	_	_
+11	eta	eta	CCONJ	_	_	5	cc	_	_
+12	gainontzekoak	gainontzeko	NOUN	_	_	11	obl	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	ni	ni	PRON	_	_	1	nmod:poss	_	_
+15	barne	barne	ADJ	_	_	12	amod	_	_
+16	nintzelarik	izan	VERB	_	_	1	acl	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
+18	libre	libre	ADJ	_	_	1	amod	_	_
+19	utzi	utzi	VERB	_	_	1	acl	_	_
+20	gintuzten	edun	VERB	_	_	1	acl	_	_
+21	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 27
+# text = ATZOKOAN estrainekoz Gamesa euskal enpresaren akzioak kotizatu zuten burtsan eta estreinaldi ona izan zuten .
+1	ATZOKOAN	atzo	ADV	_	_	7	advmod	_	_
+2	estrainekoz	estreinako	ADP	_	_	3	case	_	_
+3	Gamesa	Gamesa	PROPN	_	_	7	nsubj	_	_
+4	euskal	euskal	ADJ	_	_	3	amod	_	_
+5	enpresaren	enpresa	NOUN	_	_	3	nmod	_	_
+6	akzioak	akzio	NOUN	_	_	7	nsubj	_	_
+7	kotizatu	kotizatu	VERB	_	_	0	root	_	_
+8	zuten	edun	AUX	_	_	7	conj	_	_
+9	burtsan	burtsa	ADV	_	_	7	advmod	_	_
+10	eta	eta	CCONJ	_	_	1	cc	_	_
+11	estreinaldi	estreinaldi	NOUN	_	_	13	nsubj	_	_
+12	ona	on	ADJ	_	_	11	amod	_	_
+13	izan	izan	VERB	_	_	7	conj	_	_
+14	zuten	edun	AUX	_	_	13	conj	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 28
+# text = Baraken esanak jakinarazi behar zizkion Israelgo ordezkariak PANeko lehendakariari .
+1	Baraken	Barak	PROPN	_	_	2	nsubj	_	_
+2	esanak	esan	VERB	_	_	0	root	_	_
+3	jakinarazi	jakiN+araz	VERB	_	_	2	xcomp	_	_
+4	behar	behar	NOUN	_	_	3	obj	_	_
+5	zizkion	ukan	VERB	_	_	4	acl	_	_
+6	Israelgo	Israel	PROPN	_	_	2	obl	_	_
+7	ordezkariak	ordezkari	NOUN	_	_	6	appos	_	_
+8	PANeko	PAN	PROPN	_	_	9	nmod	_	_
+9	lehendakariari	lehendakari	NOUN	_	_	7	appos	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 29
+# text = Peiremans , De Paula , Corino , Alvarez eta Aldeondo ere min hartuta daude oraindik .
+1	Peiremans	Peiremans	PROPN	_	_	13	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	De	de	PROPN	_	_	13	obl	_	_
+4	Paula	Paula	PROPN	_	_	3	compound	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Corino	Corino	PROPN	_	_	3	compound	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Alvarez	Alvarez	PROPN	_	_	6	compound	_	_
+9	eta	eta	CCONJ	_	_	8	cc	_	_
+10	Aldeondo	Aldeondo	PROPN	_	_	8	compound	_	_
+11	ere	ere	ADV	_	_	13	advmod	_	_
+12	min	min	NOUN	_	_	14	nsubj	_	_
+13	hartuta	hartu	VERB	_	_	0	root	_	_
+14	daude	egon	AUX	_	_	13	ccomp	_	_
+15	oraindik	oraindik	ADV	_	_	11	advmod	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 30
+# text = Ez duzula asmatu esango dizute , baina badaezpada galdetu egiten du aurretik .
+1	Ez	ez	PART	_	_	3	advmod	_	_
+2	duzula	edun	AUX	_	_	3	csubj	_	_
+3	asmatu	asmatu	VERB	_	_	0	root	_	_
+4	esango	esan	VERB	_	_	3	xcomp	_	_
+5	dizute	edun	AUX	_	_	4	ccomp	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	baina	baina	CCONJ	_	_	9	cc	_	_
+8	badaezpada	badaezpada	ADV	_	_	9	advmod	_	_
+9	galdetu	galdetu	VERB	_	_	3	conj	_	_
+10	egiten	egin	VERB	_	_	9	xcomp	_	_
+11	du	edun	AUX	_	_	10	ccomp	_	_
+12	aurretik	aurre	ADV	_	_	10	advmod	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 31
+# text = - Euskal Herrian jaio dira eta guraso euskaldunak dituzte .
+1	-	-	PUNCT	_	_	4	punct	_	_
+2	Euskal	euskal	X	_	_	3	dep	_	_
+3	Herrian	herri	X	_	_	4	dep	_	_
+4	jaio	jaio	VERB	_	_	0	root	_	_
+5	dira	izan	AUX	_	_	4	xcomp	_	_
+6	eta	eta	CCONJ	_	_	4	cc	_	_
+7	guraso	guraso	NOUN	_	_	8	nmod	_	_
+8	euskaldunak	euskaldun	NOUN	_	_	5	obj	_	_
+9	dituzte	ukan	AUX	_	_	4	xcomp	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 32
+# text = hasieran bere kolorea horixka da baina zahartu ahala marroi-zikin bihurtzen da .
+1	hasieran	hasiera	ADV	_	_	7	advmod	_	_
+2	bere	bera	DET	_	_	4	det	_	_
+3	kolorea	kolore	ADJ	_	_	4	amod	_	_
+4	horixka	horixka	NOUN	_	_	7	nsubj	_	_
+5	da	izan	AUX	_	_	7	conj	_	_
+6	baina	baina	CCONJ	_	_	5	cc	_	_
+7	zahartu	zahartu	VERB	_	_	0	root	_	_
+8	ahala	ahala	ADV	_	_	1	advmod	_	_
+9	marroi-zikin	marroi-zikin	NOUN	_	_	10	nsubj	_	_
+10	bihurtzen	bihurtu	VERB	_	_	7	conj	_	_
+11	da	izan	AUX	_	_	10	conj	_	_
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 33
+# text = Susanari ere ez zirudien asko axola zitzaionik :
+1	Susanari	Susana	PROPN	_	_	4	nsubj	_	_
+2	ere	ere	ADV	_	_	4	advmod	_	_
+3	ez	ez	PART	_	_	4	mark	_	_
+4	zirudien	iruditu	VERB	_	_	0	root	_	_
+5	asko	asko	ADV	_	_	4	advmod	_	_
+6	axola	axola	NOUN	_	_	7	nsubj	_	_
+7	zitzaionik	izan	VERB	_	_	4	ccomp	_	_
+8	:	:	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 34
+# text = Gaixotu zenean argaldu zen .
+1	Gaixotu	gaixotu	NOUN	_	_	2	nsubj	_	_
+2	zenean	izan	VERB	_	_	0	root	_	_
+3	argaldu	argaldu	VERB	_	_	2	xcomp	_	_
+4	zen	izan	AUX	_	_	3	ccomp	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 35
+# text = Golarekin asmatu edo ez , lan baliagarria egingo du .
+1	Golarekin	gola	ADP	_	_	2	case	_	_
+2	asmatu	asmatu	VERB	_	_	0	root	_	_
+3	edo	edo	CCONJ	_	_	2	cc	_	_
+4	ez	ez	PART	_	_	2	advmod	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	lan	lan	NOUN	_	_	8	nsubj	_	_
+7	baliagarria	baliagarri	ADJ	_	_	6	amod	_	_
+8	egingo	egin	VERB	_	_	2	ccomp	_	_
+9	du	edun	AUX	_	_	8	conj	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 36
+# text = Zirkuitu digitalekin egin daitezke eragiketa matematikoak ere .
+1	Zirkuitu	zirkuitu	NOUN	_	_	3	nsubj	_	_
+2	digitalekin	digital	ADJ	_	_	1	amod	_	_
+3	egin	egin	VERB	_	_	0	root	_	_
+4	daitezke	edin	VERB	_	_	3	xcomp	_	_
+5	eragiketa	eragiketa	NOUN	_	_	4	obj	_	_
+6	matematikoak	matematiko	NOUN	_	_	5	nmod	_	_
+7	ere	ere	ADV	_	_	4	advmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 37
+# text = Azkenean , Koxtape eta Hondarribia sailkatu ziren .
+1	Azkenean	azkenean	ADV	_	_	6	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Koxtape	Koxtape	PROPN	_	_	6	obl	_	_
+4	eta	eta	CCONJ	_	_	3	cc	_	_
+5	Hondarribia	Hondarribia	PROPN	_	_	3	appos	_	_
+6	sailkatu	sailkatu	VERB	_	_	0	root	_	_
+7	ziren	izan	AUX	_	_	6	conj	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 38
+# text = Rijkaard-ek esana zuen arreta bereziz prestatu zituztela penaltiak , " gure istoria ez errepikatzeko " .
+1	Rijkaard-ek	Rijkaard	PROPN	_	_	2	nsubj	_	_
+2	esana	esan	VERB	_	_	0	root	_	_
+3	zuen	ukan	AUX	_	_	2	xcomp	_	_
+4	arreta	arreta	NOUN	_	_	2	obj	_	_
+5	bereziz	berezi	ADV	_	_	6	advmod	_	_
+6	prestatu	prestatu	VERB	_	_	4	acl	_	_
+7	zituztela	edun	VERB	_	_	6	xcomp	_	_
+8	penaltiak	penalti	NOUN	_	_	7	obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	8	punct	_	_
+11	gure	gu	DET	_	_	12	det	_	_
+12	istoria	historia	NOUN	_	_	14	nsubj	_	_
+13	ez	ez	PART	_	_	1	mark	_	_
+14	errepikatzeko	errepikatu	VERB	_	_	1	acl	_	_
+15	"	"	PUNCT	_	_	12	punct	_	_
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 39
+# text = Gutxienez bost gazte palestinarrak galdu zuten bizia Gaza eta Zisjordanian .
+1	Gutxienez	gutxienez	ADV	_	_	5	advmod	_	_
+2	bost	bost	NUM	_	_	3	nummod	_	_
+3	gazte	gazte	ADJ	_	_	4	amod	_	_
+4	palestinarrak	palestinar	NOUN	_	_	5	nsubj	_	_
+5	galdu	galdu	VERB	_	_	0	root	_	_
+6	zuten	edun	AUX	_	_	5	xcomp	_	_
+7	bizia	bizi	NOUN	_	_	5	obj	_	_
+8	Gaza	Gaza	PROPN	_	_	7	nmod	_	_
+9	eta	eta	CCONJ	_	_	1	cc	_	_
+10	Zisjordanian	Zisjordania	PROPN	_	_	8	appos	_	_
+11	.	.	PUNCT	_	_	5	dep	_	_
+
+# sent_id = 40
+# text = - Eszena patetikoa da oso .
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Eszena	eszena	NOUN	_	_	4	nsubj	_	_
+3	patetikoa	patetiko	ADJ	_	_	2	amod	_	_
+4	da	izan	AUX	_	_	0	root	_	_
+5	oso	oso	ADV	_	_	4	advmod	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 41
+# text = " Egun horretan jokatu nahi genuen .
+1	"	"	PUNCT	_	_	4	punct	_	_
+2	Egun	egun	NOUN	_	_	4	nsubj	_	_
+3	horretan	hori	PRON	_	_	4	nsubj	_	_
+4	jokatu	jokatu	VERB	_	_	0	root	_	_
+5	nahi	nahi	VERB	_	_	4	xcomp	_	_
+6	genuen	ukan	AUX	_	_	5	ccomp	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 42
+# text = Honela momifikatu eta hilobian sartutako gorpua ez da hondatzen ; usteldu gabe , bere horretantxe irauten du milaka urtez Egiptoko hondar bero eta lehorretan .
+1	Honela	honela	ADV	_	_	2	advmod	_	_
+2	momifikatu	momifikatu	VERB	_	_	0	root	_	_
+3	eta	eta	CCONJ	_	_	1	cc	_	_
+4	hilobian	hilobi	NOUN	_	_	6	nmod	_	_
+5	sartutako	sartu	VERB	_	_	6	acl	_	_
+6	gorpua	gorpu	NOUN	_	_	2	obj	_	_
+7	ez	ez	AUX	_	_	9	advcl	_	_
+8	da	izan	AUX	_	_	2	ccomp	_	_
+9	hondatzen	hondatu	VERB	_	_	8	xcomp	_	_
+10	;	;	PUNCT	_	_	9	punct	_	_
+11	usteldu	usteldu	VERB	_	_	7	conj	_	_
+12	gabe	gabe	ADV	_	_	1	advmod	_	_
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	bere	bera	PRON	_	_	16	nsubj	_	_
+15	horretantxe	hori	PRON	_	_	19	nmod:poss	_	_
+16	irauten	iraun	VERB	_	_	1	ccomp	_	_
+17	du	edun	AUX	_	_	16	xcomp	_	_
+18	milaka	milaka	NUM	_	_	14	nummod	_	_
+19	urtez	urte	NOUN	_	_	1	obl	_	_
+20	Egiptoko	Egipto	PROPN	_	_	2	obl	_	_
+21	hondar	hondar	NOUN	_	_	2	obl	_	_
+22	bero	bero	ADJ	_	_	20	amod	_	_
+23	eta	eta	CCONJ	_	_	2	cc	_	_
+24	lehorretan	lehor	NOUN	_	_	2	obl	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 43
+# text = Denbora asko iragan zen , ez nuela nire aurpegia ikusten .
+1	Denbora	denbora	NOUN	_	_	3	nsubj	_	_
+2	asko	asko	ADV	_	_	3	advmod	_	_
+3	iragan	iragan	VERB	_	_	0	root	_	_
+4	zen	izan	AUX	_	_	3	xcomp	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ez	ez	PART	_	_	7	mark	_	_
+7	nuela	edun	VERB	_	_	4	ccomp	_	_
+8	nire	ni	PRON	_	_	9	nmod:poss	_	_
+9	aurpegia	aurpegi	NOUN	_	_	7	obj	_	_
+10	ikusten	ikusi	VERB	_	_	9	acl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 44
+# text = Marka onena egin zuten ziabogan zein helmugan .
+1	Marka	marka	PROPN	_	_	3	nsubj	_	_
+2	onena	on	DET	_	_	5	det	_	_
+3	egin	egin	VERB	_	_	0	root	_	_
+4	zuten	edun	AUX	_	_	3	ccomp	_	_
+5	ziabogan	ziaboga	NOUN	_	_	3	obj	_	_
+6	zein	zein	PRON	_	_	7	nmod:poss	_	_
+7	helmugan	helmuga	NOUN	_	_	5	nmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 45
+# text = Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen .
+1	Suitzako	Suitza	PROPN	_	_	2	nsubj	_	_
+2	itzulian	itzuli	VERB	_	_	0	root	_	_
+3	nekatuta	nekatu	ADJ	_	_	1	amod	_	_
+4	nenbilen	ibili	VERB	_	_	2	conj	_	_
+5	eta	eta	CCONJ	_	_	4	cc	_	_
+6	erretiratu	erretiratu	VERB	_	_	4	conj	_	_
+7	egin	egin	VERB	_	_	6	xcomp	_	_
+8	behar	behar	NOUN	_	_	7	obj	_	_
+9	izan	izan	AUX	_	_	7	conj	_	_
+10	nuen	edun	AUX	_	_	2	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 46
+# text = Bestalde , kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela , Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango .
+1	Bestalde	bestalde	ADV	_	_	3	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kontuan	kontu	VERB	_	_	0	root	_	_
+4	izan	izan	AUX	_	_	3	xcomp	_	_
+5	behar	behar	VERB	_	_	3	xcomp	_	_
+6	dugu	ukan	AUX	_	_	5	conj	_	_
+7	erasoan	eraso	NOUN	_	_	5	obl	_	_
+8	Athleticek	Athletic	PROPN	_	_	7	nmod	_	_
+9	bere	bera	PRON	_	_	10	nmod:poss	_	_
+10	jokoa	joko	NOUN	_	_	11	nsubj	_	_
+11	aldatuko	aldatu	VERB	_	_	3	ccomp	_	_
+12	duela	edun	AUX	_	_	19	conj	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	Urzaizen	Urzaiz	PROPN	_	_	11	obl	_	_
+15	ordezkoak	ordezko	NOUN	_	_	10	nmod	_	_
+16	ez	ez	PART	_	_	1	mark	_	_
+17	baititu	edun	AUX	_	_	19	conj	_	_
+18	bere	bera	PRON	_	_	10	nmod:poss	_	_
+19	jokatzeko	jokatu	VERB	_	_	10	acl	_	_
+20	ezaugarri	ezaugarri	NOUN	_	_	1	obl	_	_
+21	berak	berak	PRON	_	_	20	nmod:poss	_	_
+22	izango	izan	AUX	_	_	19	xcomp	_	_
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 47
+# text = Itsasoan egoera ikusi beharko da .
+1	Itsasoan	itsaso	ADP	_	_	3	case	_	_
+2	egoera	egoera	NOUN	_	_	3	nsubj	_	_
+3	ikusi	ikusi	VERB	_	_	0	root	_	_
+4	beharko	behar_izan	VERB	_	_	3	xcomp	_	_
+5	da	izan	AUX	_	_	4	conj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 48
+# text = DENBORALDI-AURREKO prestakuntzarekin jarraituz , adiskidantzazko partidua du gaur Casillan ( 19:00 ) Bilbo Basket taldeak .
+1	DENBORALDI-AURREKO	denboraldi-aurre	NOUN	_	_	3	nsubj	_	_
+2	prestakuntzarekin	prestakuntza	NOUN	_	_	3	csubj	_	_
+3	jarraituz	jarraitu	VERB	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	adiskidantzazko	adiskidantza	ADJ	_	_	6	amod	_	_
+6	partidua	partidu	NOUN	_	_	3	obj	_	_
+7	du	ukan	AUX	_	_	3	conj	_	_
+8	gaur	gaur	ADV	_	_	7	advmod	_	_
+9	Casillan	Casilla	PROPN	_	_	7	obl	_	_
+10	(	(	PUNCT	_	_	9	punct	_	_
+11	19:00	19:00	NUM	_	_	9	nummod	_	_
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	Bilbo	Bilbo	PROPN	_	_	9	appos	_	_
+14	Basket	Basket	PROPN	_	_	1	appos	_	_
+15	taldeak	talde	NOUN	_	_	16	nsubj	_	_
+16	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 49
+# text = " Ruandan hil egingo gaituzte , abereak bagina bezala " .
+1	"	"	PUNCT	_	_	3	punct	_	_
+2	Ruandan	Ruanda	PROPN	_	_	3	nsubj	_	_
+3	hil	hil	VERB	_	_	0	root	_	_
+4	egingo	egin	VERB	_	_	3	xcomp	_	_
+5	gaituzte	edun	VERB	_	_	4	ccomp	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	abereak	abere	NOUN	_	_	5	obl	_	_
+8	bagina	izan	VERB	_	_	7	acl	_	_
+9	bezala	bezala	ADV	_	_	8	advmod	_	_
+10	"	"	PUNCT	_	_	5	punct	_	_
+11	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = 50
+# text = Udalekuetara goaz !
+1	Udalekuetara	udaleku	ADV	_	_	2	advmod	_	_
+2	goaz	joan	VERB	_	_	0	root	_	_
+3	!	!	PUNCT	_	_	2	punct	_	_
+

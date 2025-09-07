@@ -1,0 +1,313 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = example1
+# text = Le chevalier lui propose une partie d'échecs, espérant retarder l'échéance fatidique, le temps de trouver une solution à ses problèmes métaphysiques : Dieu existe-il ?
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+2	chevalier	chevalier	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	partie	partie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+8	échecs	échec	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	espérant	espérer	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Subject=Instantiated
+11	retarder	retarder	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	échéance	échéance	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	fatidique	fatidique	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	trouver	trouver	VERB	_	VerbForm=Inf	17	acl	_	Subject=SubjRaising
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	solution	solution	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	19	obl:mod	_	_
+25	métaphysiques	métaphysique	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	:	:	PUNCT	_	_	28	punct	_	_
+27	Dieu	Dieu	PROPN	_	_	28	nsubj	_	_
+28	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	SpaceAfter=No
+29	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	wordform=il
+30	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = example2
+# text = Selon la tradition religieuse chinoise où la généalogie prime sur l'idéologie pour la détermination de la dénomination, tout abbé qui peut faire remonter sa lignée à un maître Chan, quelle que soit la nature de ses pratiques, est en droit de se réclamer de ce courant, où dominent après 846 deux branches : Linji (临济) qui remonte à Línjì Yìxuán 临济 义 玄 (? - 869).
+1	Selon	selon	ADP	_	_	3	case	_	wordform=selon
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tradition	tradition	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	_
+4	religieuse	religieux	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	chinoise	chinois	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+6	où	où	PRON	_	PronType=Rel	9	obl:mod	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	généalogie	généalogie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	prime	primer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	sur	sur	ADP	_	_	12	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	idéologie	idéologie	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+13	pour	pour	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	détermination	détermination	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dénomination	dénomination	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	3	punct	_	_
+20	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	abbé	abbé	NOUN	_	Gender=Masc|Number=Sing	44	nsubj	_	_
+22	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	_
+23	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	faire	faire	AUX	_	VerbForm=Inf	25	aux:caus	_	Subject=SubjRaising
+25	remonter	remonter	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=ObjRaising
+26	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	lignée	lignée	NOUN	_	Gender=Fem|Number=Sing	25	obj:agent	_	_
+28	à	à	ADP	_	_	30	case	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	maître	maître	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	_
+31	Chan	Chan	PROPN	_	_	30	appos	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	quelle	quel	ADJ	_	Gender=Fem|Number=Sing|PronType=Rel	23	advcl	_	_
+34	que	que	SCONJ	_	_	33	mark	_	_
+35	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	nature	nature	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	40	det	_	_
+40	pratiques	pratique	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	33	punct	_	_
+42	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+43	en	en	ADP	_	_	44	case	_	_
+44	droit	droit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+45	de	de	ADP	_	_	47	mark	_	_
+46	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	47	expl:pv	_	_
+47	réclamer	réclamer	VERB	_	VerbForm=Inf	44	acl	_	Subject=SubjRaising
+48	de	de	ADP	_	_	50	case	_	_
+49	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+50	courant	courant	NOUN	_	Gender=Masc|Number=Sing	47	obl:arg	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	53	punct	_	_
+52	où	où	PRON	_	PronType=Rel	53	obl:mod	_	_
+53	dominent	dominer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+54	après	après	ADP	_	_	55	case	_	_
+55	846	846	NUM	_	Number=Plur	53	obl:mod	_	_
+56	deux	deux	NUM	_	Number=Plur	57	nummod	_	_
+57	branches	branche	NOUN	_	Gender=Fem|Number=Plur	53	nsubj	_	_
+58	:	:	PUNCT	_	_	59	punct	_	_
+59	Linji	Linji	PROPN	_	_	57	appos	_	_
+60	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
+61	临济	临济	PROPN	_	_	59	appos	_	SpaceAfter=No
+62	)	)	PUNCT	_	_	61	punct	_	_
+63	qui	qui	PRON	_	PronType=Rel	64	nsubj	_	_
+64	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	acl:relcl	_	_
+65	à	à	ADP	_	_	66	case	_	_
+66	Línjì	Línjì	PROPN	_	_	64	obl:arg	_	_
+67	Yìxuán	Yìxuán	PROPN	_	_	66	flat:name	_	_
+68	临济	临济	PROPN	_	_	66	appos	_	_
+69	义	义	PROPN	_	_	68	flat:name	_	_
+70	玄	玄	PROPN	_	_	68	flat:name	_	_
+71	(	(	PUNCT	_	_	74	punct	_	SpaceAfter=No
+72	?	?	PUNCT	_	_	74	punct	_	_
+73	-	-	PUNCT	_	_	74	punct	_	_
+74	869	869	NUM	_	Number=Plur	66	nmod	_	SpaceAfter=No
+75	)	)	PUNCT	_	_	74	punct	_	SpaceAfter=No
+76	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = example3
+# text = Puis elle se repose en Calabre pendant le reste du mois d'août et en début de septembre.
+1	Puis	puis	CCONJ	_	_	4	cc	_	wordform=puis
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	repose	reposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	Calabre	Calabre	PROPN	_	_	4	obl:mod	_	_
+7	pendant	pendant	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	reste	reste	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mois	mois	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	août	août	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	et	et	CCONJ	_	_	17	cc	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	début	début	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = example4
+# text = Elle était censée diminuer voire ôter toute ardeur de luxure.
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	censée	censé	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+4	diminuer	diminuer	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
+5	voire	voire	CCONJ	_	_	6	cc	_	_
+6	ôter	ôter	VERB	_	VerbForm=Inf	4	conj	_	Subject=SubjRaising
+7	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	ardeur	ardeur	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	luxure	luxure	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = example5
+# text = L'agriculture restera la principale activité pratiquée sur l'île jusqu'en 1875.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+2	agriculture	agriculture	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	restera	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	principale	principal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	activité	activité	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	pratiquée	pratiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	sur	sur	ADP	_	_	10	case	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	île	île	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+11	jusqu'	jusque	ADP	_	_	13	case	_	SpaceAfter=No
+12	en	en	ADP	_	_	13	case	_	_
+13	1875	1875	NUM	_	Number=Plur	3	obl:mod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = example6
+# text = Il voyage beaucoup en Orient et en Égypte et crée la plus grande collection privée d'objets égyptiens du monde (il collectionne aussi de l'art espagnol).
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=il
+2	voyage	voyager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beaucoup	beaucoup	ADV	_	_	2	advmod	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	Orient	Orient	PROPN	_	_	2	obl:mod	_	_
+6	et	et	CCONJ	_	_	8	cc	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	Égypte	Égypte	PROPN	_	_	5	conj	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	plus	plus	ADV	_	_	13	advmod	_	_
+13	grande	grand	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	collection	collection	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+15	privée	privé	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
+17	objets	objet	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	égyptiens	égyptien	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19-20	du	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	collectionne	collectionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+25	aussi	aussi	ADV	_	_	24	advmod	_	_
+26	de	de	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	fixed	_	InIdiom=Yes|SpaceAfter=No
+28	art	art	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+29	espagnol	espagnol	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = example7
+# text = Le mulot de Saint-Kilda et le campagnol des Orcades sont endémiques, mais on les rencontre indifféremment dans toute la Grande-Bretagne.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+2	mulot	mulot	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Saint-Kilda	Saint-Kilda	PROPN	_	_	2	nmod	_	_
+5	et	et	CCONJ	_	_	7	cc	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	campagnol	campagnol	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+8-9	des	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	Orcades	Orcades	PROPN	_	Number=Plur	7	nmod	_	_
+11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	endémiques	endémique	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	mais	mais	CCONJ	_	_	17	cc	_	_
+15	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
+16	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	rencontre	rencontrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	indifféremment	indifféremment	ADV	_	_	17	advmod	_	_
+19	dans	dans	ADP	_	_	22	case	_	_
+20	toute	tout	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Grande-Bretagne	Grande-Bretagne	PROPN	_	Gender=Fem|Number=Sing	17	obl:mod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = example8
+# text = La compétition est organisée par l'Union internationale de patinage.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+2	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	par	par	ADP	_	_	7	case	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Union	union	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	wordform=union
+8	internationale	international	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	patinage	patinage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = example9
+# text = L'idée serait de les réunir pour ce qui pourrait être l'ultime saison de Smallville.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+2	idée	idée	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	de	de	ADP	_	_	6	mark	_	_
+5	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	réunir	réunir	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
+7	pour	pour	ADP	_	_	8	case	_	_
+8	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	6	obl:mod	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+10	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	être	être	AUX	_	VerbForm=Inf	14	cop	_	Subject=SubjRaising
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	ultime	ultime	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	saison	saison	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Smallville	Smallville	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = example10
+# text = Pour s'en rendre compte, il n'est pas besoin d'évoquer l'historien militaire du Clausewitz qui liait les deux facteurs, car la situation militaire en mai 1940 et les événements politiques des années d'avant-guerre parlent d'eux-mêmes.
+1	Pour	pour	ADP	_	_	4	mark	_	wordform=pour
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	SpaceAfter=No
+3	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	4	iobj	_	_
+4	rendre	rendre	VERB	_	VerbForm=Inf	11	advcl	_	Subject=Generic
+5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
+8	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+11	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+12	d'	de	ADP	_	_	13	mark	_	SpaceAfter=No
+13	évoquer	évoquer	VERB	_	VerbForm=Inf	11	ccomp	_	Subject=Generic
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	historien	historien	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	militaire	militaire	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	du	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Clausewitz	Clausewitz	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
+21	liait	lier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	deux	deux	NUM	_	Number=Plur	24	nummod	_	_
+24	facteurs	facteur	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	42	punct	_	_
+26	car	car	CCONJ	_	_	42	cc	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	situation	situation	NOUN	_	Gender=Fem|Number=Sing	42	nsubj	_	_
+29	militaire	militaire	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	en	en	ADP	_	_	31	case	_	_
+31	mai	mai	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	1940	1940	NUM	_	Number=Plur	31	nmod	_	_
+33	et	et	CCONJ	_	_	35	cc	_	_
+34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+35	événements	événement	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
+36	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
+37-38	des	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	années	année	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
+40	d'	de	ADP	_	_	41	case	_	SpaceAfter=No
+41	avant-guerre	avant-guerre	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+42	parlent	parler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+43	d'	de	ADP	_	_	44	case	_	SpaceAfter=No
+44	eux-mêmes	eux-mêmes	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	42	obl:arg	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	11	punct	_	_

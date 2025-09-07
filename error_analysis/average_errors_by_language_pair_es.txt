@@ -1,0 +1,170 @@
+AVERAGE ERROR RATES AND MOST COMMON ERRORS BY LANGUAGE PAIRING:
+================================================================================
+
+AVERAGE ERROR RATES BY LANGUAGE PAIRING:
+
+LANGUAGE PAIR: es_0
+----------------------------------------
+Average UPOS error rate: 7.29%
+Average DEPREL error rate: 38.45%
+Average HEAD error rate: 55.14%
+Most common error-causing words:
+  'que': 9 errors
+  'como': 4 errors
+  '-': 3 errors
+  'varios': 2 errors
+  'noviembre': 2 errors
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: es_ca
+----------------------------------------
+Average UPOS error rate: 6.39%
+Average DEPREL error rate: 36.13%
+Average HEAD error rate: 53.51%
+Most common error-causing words:
+  'que': 75 errors
+  'como': 17 errors
+  'es': 16 errors
+  'noviembre': 12 errors
+  'este': 12 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_es
+----------------------------------------
+Average UPOS error rate: 6.54%
+Average DEPREL error rate: 34.50%
+Average HEAD error rate: 53.50%
+Most common error-causing words:
+  'que': 38 errors
+  'es': 33 errors
+  'como': 17 errors
+  'noviembre': 12 errors
+  'puede': 12 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_fr
+----------------------------------------
+Average UPOS error rate: 6.53%
+Average DEPREL error rate: 35.41%
+Average HEAD error rate: 53.97%
+Most common error-causing words:
+  'que': 52 errors
+  'es': 20 errors
+  'como': 14 errors
+  'noviembre': 12 errors
+  'este': 12 errors
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_mixed
+----------------------------------------
+Average UPOS error rate: 5.88%
+Average DEPREL error rate: 35.18%
+Average HEAD error rate: 53.18%
+Most common error-causing words:
+  'que': 23 errors
+  'es': 11 errors
+  'noviembre': 6 errors
+  'puede': 6 errors
+  'este': 6 errors
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
+
+================================================================================
+
+TOP 2 MOST COMMON ERRORS BY LANGUAGE PAIRING (with ALL line numbers):
+
+LANGUAGE PAIR: es_0
+----------------------------------------
+Top 2 UPOS errors:
+  1. PROPN → NOUN (14 occurrences)
+     All lines: 70, 73, 231, 290, 455, 755, 863, 872, 880, 898, 977, 983, 1125, 1265
+  2. SCONJ → PRON (5 occurrences)
+     All lines: 296, 342, 793, 799, 1025
+Top 2 DEPREL errors:
+  1. nmod → obl (35 occurrences)
+     All lines: 24, 50, 55, 61, 84, 120, 157, 306, 325, 351, 461, 581, 588, 596, 818, 892, 917, 923, 995, 1022, 1033, 1049, 1052, 1073, 1088, 1090, 1117, 1125, 1132, 1139, 1154, 1197, 1219, 1233, 1287
+  2. case → mark (25 occurrences)
+     All lines: 51, 103, 113, 135, 150, 154, 298, 349, 382, 385, 400, 436, 849, 865, 937, 978, 984, 1069, 1080, 1096, 1158, 1195, 1210, 1218, 1264
+Top 2 HEAD errors:
+  1. 4 (es) → 10 (implementa) (4 occurrences)
+     All lines: 335, 339, 355, 364
+  2. 25 (vea) → 2 (años) (4 occurrences)
+     All lines: 690, 691, 694, 696
+Analyzed scenarios: 0-Shot
+
+LANGUAGE PAIR: es_ca
+----------------------------------------
+Top 2 UPOS errors:
+  1. PROPN → NOUN (87 occurrences)
+     All lines: 70, 73, 231, 290, 455, 519, 755, 863, 872, 880, 898, 906, 977, 983, 1114, 1117, 1125, 1265
+  2. SCONJ → PRON (60 occurrences)
+     All lines: 99, 296, 342, 688, 690, 703, 746, 793, 799, 950, 958, 1025, 1100, 1211
+Top 2 DEPREL errors:
+  1. case → mark (188 occurrences)
+     All lines: 11, 17, 22, 48, 51, 79, 82, 103, 113, 135, 146, 154, 291, 298, 349, 350, 360, 382, 385, 470, 491, 496, 577, 580, 587, 595, 634, 656, 673, 699, 705, 724, 727, 734, 761, 830, 833, 849, 861, 870, 886, 908, 919, 926, 929, 937, 978, 982, 984, 1003, 1020, 1062, 1069, 1080, 1096, 1158, 1195, 1210, 1215, 1268
+  2. nmod → obl (182 occurrences)
+     All lines: 24, 50, 55, 84, 120, 148, 157, 231, 265, 290, 306, 351, 426, 461, 492, 498, 548, 581, 588, 596, 658, 679, 818, 880, 892, 917, 977, 983, 995, 1022, 1033, 1049, 1052, 1064, 1073, 1081, 1125, 1132, 1139, 1152, 1197, 1219, 1238, 1265, 1287
+Top 2 HEAD errors:
+  1. 25 (vea) → 2 (años) (24 occurrences)
+     All lines: 690, 691, 694, 696
+  2. 26 (que) → 20 (específica) (19 occurrences)
+     All lines: 1024, 1027, 1031, 1044
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_es
+----------------------------------------
+Top 2 UPOS errors:
+  1. PROPN → NOUN (96 occurrences)
+     All lines: 70, 73, 231, 290, 427, 455, 459, 519, 526, 755, 863, 872, 880, 898, 906, 977, 983, 1114, 1117, 1125, 1265, 1277
+  2. AUX → VERB (76 occurrences)
+     All lines: 77, 249, 371, 411, 419, 450, 504, 536, 632, 662, 790, 802, 826, 851, 858, 899, 935, 988, 1006, 1082, 1121, 1146, 1208, 1241, 1278
+Top 2 DEPREL errors:
+  1. case → mark (194 occurrences)
+     All lines: 11, 13, 17, 22, 51, 79, 82, 92, 103, 113, 135, 154, 164, 291, 295, 298, 349, 360, 382, 385, 414, 436, 470, 543, 580, 587, 634, 656, 673, 705, 724, 727, 734, 761, 776, 830, 833, 849, 861, 865, 870, 908, 912, 919, 926, 929, 937, 978, 984, 1020, 1062, 1069, 1072, 1080, 1096, 1158, 1195, 1201, 1210, 1215, 1284
+  2. nmod → obl (175 occurrences)
+     All lines: 24, 50, 55, 84, 120, 148, 157, 257, 290, 293, 306, 325, 351, 426, 459, 461, 492, 498, 548, 581, 588, 596, 679, 818, 834, 840, 892, 917, 923, 977, 983, 995, 1005, 1022, 1033, 1049, 1052, 1073, 1081, 1125, 1132, 1139, 1152, 1154, 1197, 1219, 1233, 1238, 1265, 1287
+Top 2 HEAD errors:
+  1. 25 (vea) → 2 (años) (24 occurrences)
+     All lines: 690, 691, 694, 696
+  2. 10 (José) → 1 (Interpretado) (20 occurrences)
+     All lines: 620, 621, 622, 626, 627
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_fr
+----------------------------------------
+Top 2 UPOS errors:
+  1. PROPN → NOUN (98 occurrences)
+     All lines: 70, 73, 197, 231, 290, 455, 459, 519, 526, 755, 863, 872, 880, 898, 906, 977, 983, 1114, 1117, 1125, 1265, 1277, 1288
+  2. AUX → VERB (37 occurrences)
+     All lines: 77, 371, 411, 419, 504, 851, 858, 935, 1006, 1082, 1121, 1208, 1241, 1278
+Top 2 DEPREL errors:
+  1. case → mark (208 occurrences)
+     All lines: 11, 13, 17, 22, 48, 51, 79, 82, 92, 103, 113, 135, 154, 295, 298, 324, 349, 360, 382, 385, 414, 436, 470, 487, 491, 496, 543, 580, 587, 634, 656, 673, 705, 724, 727, 734, 761, 833, 849, 861, 865, 870, 886, 908, 919, 926, 929, 937, 978, 984, 1003, 1020, 1062, 1069, 1072, 1080, 1096, 1158, 1195, 1210, 1215, 1218, 1231, 1268
+  2. nmod → obl (191 occurrences)
+     All lines: 24, 50, 55, 84, 120, 148, 157, 231, 290, 293, 306, 325, 351, 426, 459, 461, 492, 498, 548, 556, 558, 562, 581, 588, 596, 679, 834, 880, 892, 917, 923, 971, 977, 983, 995, 1005, 1022, 1033, 1049, 1052, 1073, 1081, 1125, 1132, 1139, 1154, 1197, 1219, 1238, 1265, 1282, 1287
+Top 2 HEAD errors:
+  1. 10 (José) → 1 (Interpretado) (28 occurrences)
+     All lines: 620, 621, 622, 626, 627, 628
+  2. 25 (vea) → 2 (años) (24 occurrences)
+     All lines: 690, 691, 694, 696
+Analyzed scenarios: 1-Shot, 1-Shot (long), 1-Shot (short), 10-Shot, 3-Shot, 5-Shot
+
+LANGUAGE PAIR: es_mixed
+----------------------------------------
+Top 2 UPOS errors:
+  1. PROPN → NOUN (49 occurrences)
+     All lines: 70, 73, 231, 290, 345, 455, 459, 519, 755, 863, 872, 880, 898, 906, 977, 983, 1114, 1117, 1125, 1265
+  2. AUX → VERB (20 occurrences)
+     All lines: 371, 419, 790, 851, 858, 899, 935, 1082, 1241
+Top 2 DEPREL errors:
+  1. nmod → obl (102 occurrences)
+     All lines: 24, 50, 55, 84, 120, 148, 157, 257, 290, 293, 306, 325, 351, 459, 461, 492, 498, 548, 556, 558, 562, 581, 588, 596, 658, 679, 818, 834, 917, 971, 977, 983, 995, 1022, 1033, 1049, 1052, 1073, 1081, 1125, 1132, 1139, 1197, 1219, 1238, 1265, 1287
+  2. case → mark (92 occurrences)
+     All lines: 17, 22, 51, 79, 82, 103, 113, 154, 295, 298, 349, 360, 382, 385, 414, 496, 543, 580, 587, 634, 673, 705, 727, 761, 830, 849, 861, 870, 908, 919, 926, 929, 937, 978, 984, 1020, 1069, 1080, 1096, 1131, 1190, 1195, 1210, 1215
+Top 2 HEAD errors:
+  1. 25 (vea) → 2 (años) (12 occurrences)
+     All lines: 690, 691, 694, 696
+  2. 13 (permitirá) → 1 (Con) (9 occurrences)
+     All lines: 99, 100, 107, 112
+Analyzed scenarios: Mixed-10, Mixed-3, Mixed-5
+
